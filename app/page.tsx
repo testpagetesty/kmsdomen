@@ -9,8 +9,10 @@ export default function HomePage() {
         <h1 className="text-2xl font-semibold tracking-tight text-white">Домены по странам</h1>
         <p className="mt-2 text-sm" style={{ color: "var(--muted)" }}>
           Выберите страну, чтобы открыть список доменов. После сохранения обновляется файл{" "}
-          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">{`{код}.txt`}</code> в репозитории
-          на GitHub.
+          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">countries/</code>
+          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">{`{код}.txt`}</code>{" "}
+          в репозитории GitHub (путь можно переопределить переменной{" "}
+          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">GITHUB_CONTENT_PREFIX</code>).
         </p>
       </header>
       <CountrySearch countries={COUNTRIES} />

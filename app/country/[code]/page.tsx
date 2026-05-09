@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCountryByCode } from "@/data/countries";
 import { DomainEditor } from "@/components/DomainEditor";
+import { resolveRepoContentPrefix } from "@/lib/env";
 
 type Props = { params: Promise<{ code: string }> };
 
@@ -10,6 +11,9 @@ export default async function CountryPage(props: Props) {
   const code = raw?.toLowerCase().trim();
   const country = code ? getCountryByCode(code) : undefined;
   if (!country) notFound();
+
+  const prefix = resolveRepoContentPrefix();
+  const filePathDisplay = prefix ? `${prefix}/${country.code}.txt` : `${country.code}.txt`;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
@@ -21,7 +25,7 @@ export default async function CountryPage(props: Props) {
       <header className="mb-6">
         <h1 className="text-2xl font-semibold text-white">{country.nameRu}</h1>
         <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-          Файл в репозитории: <code className="rounded bg-white/10 px-1.5 py-0.5">{`${country.code}.txt`}</code>
+          Файл в репозитории: <code className="rounded bg-white/10 px-1.5 py-0.5">{filePathDisplay}</code>
         </p>
       </header>
       <DomainEditor countryCode={country.code} />
