@@ -70,9 +70,16 @@ export function DomainEditor({ countryCode }: Props) {
   }
 
   return (
+    <div className="space-y-4">
+      <div>
+        <h2 className="text-base font-semibold text-white">Новые домены</h2>
+        <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
+          Сюда ежедневно подгружаются домены для прохождения. Сохранение полностью заменяет файл в репозитории.
+        </p>
+      </div>
     <div className="rounded-xl border p-6" style={{ borderColor: "var(--border)", background: "var(--card)" }}>
       <label htmlFor="domains" className="mb-2 block text-sm font-medium text-white">
-        Список доменов (по одному в строке)
+        Список (по одному в строке)
       </label>
       <textarea
         id="domains"
@@ -133,6 +140,7 @@ export function DomainEditor({ countryCode }: Props) {
         </button>
         {loading ? <span className="text-sm" style={{ color: "var(--muted)" }}>Загрузка…</span> : null}
       </div>
+    </div>
     </div>
   );
 }

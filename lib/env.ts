@@ -14,7 +14,7 @@ export function getGithubConfig() {
 }
 
 /**
- * Папка с рабочими списками доменов.
+ * Папка с новыми доменами (ежедневная загрузка для прохождения).
  * GITHUB_CONTENT_PREFIX не задан → "countries"
  * GITHUB_CONTENT_PREFIX="" → файлы в корне репо
  */
@@ -25,7 +25,7 @@ export function resolveDomainsPrefix(): string {
 }
 
 /**
- * Папка с проверенными тизерами.
+ * Папка с доменами с тизерами (проверенный список).
  * GITHUB_TEASERS_PREFIX не задан → "teasers"
  * GITHUB_TEASERS_PREFIX="" → файлы в корне репо
  */

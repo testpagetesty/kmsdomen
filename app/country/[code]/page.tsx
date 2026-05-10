@@ -36,10 +36,10 @@ export default async function CountryPage(props: Props) {
         <div>
           <h1 className="text-2xl font-semibold text-white">{country.nameRu}</h1>
           <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
-            <span className="font-medium text-gray-400">Рабочие:</span>{" "}
+            <span className="font-medium text-gray-400">Новые домены:</span>{" "}
             <code className="rounded bg-white/10 px-1.5 py-0.5">{domainsFile}</code>
             {"  "}
-            <span className="font-medium text-gray-400">Тизеры:</span>{" "}
+            <span className="font-medium text-gray-400">Домены с тизерами:</span>{" "}
             <code className="rounded bg-white/10 px-1.5 py-0.5">{teasersFile}</code>
           </p>
         </div>

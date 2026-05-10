@@ -98,9 +98,9 @@ export function TeaserEditor({ countryCode }: Props) {
       {/* Заголовок и счётчик */}
       <div className="flex flex-wrap items-center justify-between gap-3">
         <div>
-          <h2 className="text-base font-semibold text-white">Проверенные тизеры</h2>
+          <h2 className="text-base font-semibold text-white">Домены с тизерами</h2>
           <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-            Только добавление и точечное удаление — случайная перезапись невозможна
+            Только добавление и точечное удаление — список не перезаписывается целиком
           </p>
         </div>
         {!loading && (

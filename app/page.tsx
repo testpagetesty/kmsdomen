@@ -7,7 +7,7 @@ export default function HomePage() {
       <header className="mb-8">
         <h1 className="text-2xl font-semibold tracking-tight text-white">Домены по странам</h1>
         <p className="mt-2 text-sm" style={{ color: "var(--muted)" }}>
-          Два раздела: рабочий пул и проверенные тизеры. Файлы хранятся на GitHub.
+          Два раздела: новые домены (ежедневная загрузка для прохождения) и домены с тизерами. Файлы на GitHub.
         </p>
       </header>
       <MainPageClient countries={COUNTRIES} />

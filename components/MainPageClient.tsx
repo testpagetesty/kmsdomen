@@ -6,17 +6,17 @@ import { PageTabs } from "@/components/PageTabs";
 import { CountrySearch } from "@/components/CountrySearch";
 import type { Country } from "@/data/countries";
 
-/** Первая вкладка — тизеры, вторая — рабочие домены */
+/** Первая вкладка — домены с тизерами, вторая — новые домены */
 const TABS = [
-  { id: "teasers", label: "Проверенные тизеры" },
-  { id: "domains", label: "Рабочие домены" },
+  { id: "teasers", label: "Домены с тизерами" },
+  { id: "domains", label: "Новые домены" },
 ];
 
 function MainPageInner({ countries }: { countries: Country[] }) {
   const router = useRouter();
   const searchParams = useSearchParams();
 
-  /** По умолчанию — рабочие домены (вторая вкладка). Тизеры: ?section=teasers */
+  /** По умолчанию — новые домены (вторая вкладка). Домены с тизерами: ?section=teasers */
   const activeTab = searchParams.get("section") === "teasers" ? "teasers" : "domains";
 
   const handleTabChange = useCallback(
@@ -35,8 +35,8 @@ function MainPageInner({ countries }: { countries: Country[] }) {
       <PageTabs tabs={TABS} activeId={activeTab} onChange={handleTabChange} />
       <p className="mb-6 mt-4 text-sm" style={{ color: "var(--muted)" }}>
         {activeTab === "domains"
-          ? "Рабочий пул доменов — полная замена содержимого файла на GitHub. Выберите страну."
-          : "Проверенные домены с тизерами — добавление и точечное удаление. Выберите страну."}
+          ? "Новые домены ежедневно загружаются для прохождения — редактируется весь файл целиком на GitHub. Выберите страну."
+          : "Домены с тизерами — список проверенных; только добавление и точечное удаление. Выберите страну."}
       </p>
       <CountrySearch
         countries={countries}
