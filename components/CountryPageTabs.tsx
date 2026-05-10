@@ -5,9 +5,10 @@ import { PageTabs } from "@/components/PageTabs";
 import { DomainEditor } from "@/components/DomainEditor";
 import { TeaserEditor } from "@/components/TeaserEditor";
 
+/** Порядок как на главной: сначала тизеры, затем рабочие домены */
 const TABS = [
-  { id: "domains", label: "Рабочие домены" },
   { id: "teasers", label: "Проверенные тизеры" },
+  { id: "domains", label: "Рабочие домены" },
 ];
 
 type Props = { countryCode: string; initialTab?: string };
