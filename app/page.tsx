@@ -1,6 +1,5 @@
-import Link from "next/link";
 import { COUNTRIES } from "@/data/countries";
-import { CountrySearch } from "@/components/CountrySearch";
+import { MainPageClient } from "@/components/MainPageClient";
 
 export default function HomePage() {
   return (
@@ -8,19 +7,10 @@ export default function HomePage() {
       <header className="mb-8">
         <h1 className="text-2xl font-semibold tracking-tight text-white">Домены по странам</h1>
         <p className="mt-2 text-sm" style={{ color: "var(--muted)" }}>
-          Выберите страну, чтобы открыть список доменов. После сохранения обновляется файл{" "}
-          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">countries/</code>
-          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">{`{код}.txt`}</code>{" "}
-          в репозитории GitHub (путь можно переопределить переменной{" "}
-          <code className="rounded bg-white/10 px-1.5 py-0.5 text-xs">GITHUB_CONTENT_PREFIX</code>).
+          Два раздела: рабочий пул и проверенные тизеры. Файлы хранятся на GitHub.
         </p>
       </header>
-      <CountrySearch countries={COUNTRIES} />
-      <p className="mt-10 text-center text-xs" style={{ color: "var(--muted)" }}>
-        <Link href="/country/ru" className="underline underline-offset-2 hover:text-white">
-          Открыть Россию (пример)
-        </Link>
-      </p>
+      <MainPageClient countries={COUNTRIES} />
     </div>
   );
 }

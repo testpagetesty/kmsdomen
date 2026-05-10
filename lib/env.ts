@@ -1,25 +1,7 @@
-/** Папка со списками доменов в репозитории по умолчанию: countries/de.txt … */
-export const DEFAULT_REPO_COUNTRIES_DIR = "countries";
-
 function requireEnv(name: string): string {
   const v = process.env[name];
-  if (!v?.trim()) {
-    throw new Error(`Отсутствует переменная окружения: ${name}`);
-  }
+  if (!v?.trim()) throw new Error(`Отсутствует переменная окружения: ${name}`);
   return v.trim();
-}
-
-/**
- * PREFIX для путей в GitHub без ведущих/конечных слэшей.
- * Если переменная не задана → `countries`.
- * Если задана пустая строка в окружении → файлы в корне репозитория `{код}.txt`.
- */
-export function resolveRepoContentPrefix(): string {
-  const raw = process.env.GITHUB_CONTENT_PREFIX;
-  if (raw === undefined || raw === null) return DEFAULT_REPO_COUNTRIES_DIR;
-  const trimmed = raw.replace(/^\/+|\/+$/g, "").trim();
-  if (trimmed === "") return "";
-  return trimmed;
 }
 
 export function getGithubConfig() {
@@ -28,8 +10,34 @@ export function getGithubConfig() {
     owner: requireEnv("GITHUB_OWNER"),
     repo: requireEnv("GITHUB_REPO"),
     branch: requireEnv("GITHUB_BRANCH"),
-    contentPrefix: resolveRepoContentPrefix(),
   };
+}
+
+/**
+ * Папка с рабочими списками доменов.
+ * GITHUB_CONTENT_PREFIX не задан → "countries"
+ * GITHUB_CONTENT_PREFIX="" → файлы в корне репо
+ */
+export function resolveDomainsPrefix(): string {
+  const raw = process.env.GITHUB_CONTENT_PREFIX;
+  if (raw === undefined || raw === null) return "countries";
+  return raw.replace(/^\/+|\/+$/g, "").trim();
+}
+
+/**
+ * Папка с проверенными тизерами.
+ * GITHUB_TEASERS_PREFIX не задан → "teasers"
+ * GITHUB_TEASERS_PREFIX="" → файлы в корне репо
+ */
+export function resolveTeasersPrefix(): string {
+  const raw = process.env.GITHUB_TEASERS_PREFIX;
+  if (raw === undefined || raw === null) return "teasers";
+  return raw.replace(/^\/+|\/+$/g, "").trim();
+}
+
+/** Строит полный путь к файлу страны */
+export function countryFilePath(prefix: string, code: string) {
+  return prefix ? `${prefix}/${code}.txt` : `${code}.txt`;
 }
 
 /** Если задано — сохранение только с заголовком Authorization: Bearer <пароль> */

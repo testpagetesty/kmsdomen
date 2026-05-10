@@ -1,34 +1,54 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCountryByCode } from "@/data/countries";
-import { DomainEditor } from "@/components/DomainEditor";
-import { resolveRepoContentPrefix } from "@/lib/env";
+import { CountryPageTabs } from "@/components/CountryPageTabs";
+import { resolveDomainsPrefix, resolveTeasersPrefix, countryFilePath } from "@/lib/env";
 
-type Props = { params: Promise<{ code: string }> };
+type Props = {
+  params: Promise<{ code: string }>;
+  searchParams: Promise<{ tab?: string }>;
+};
 
 export default async function CountryPage(props: Props) {
   const { code: raw } = await props.params;
+  const { tab } = await props.searchParams;
+
   const code = raw?.toLowerCase().trim();
   const country = code ? getCountryByCode(code) : undefined;
   if (!country) notFound();
 
-  const prefix = resolveRepoContentPrefix();
-  const filePathDisplay = prefix ? `${prefix}/${country.code}.txt` : `${country.code}.txt`;
+  const domainsFile = countryFilePath(resolveDomainsPrefix(), country.code);
+  const teasersFile = countryFilePath(resolveTeasersPrefix(), country.code);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
       <nav className="mb-6 text-sm">
-        <Link href="/" className="text-blue-400 hover:text-blue-300" prefetch={false}>
+        <Link
+          href={tab === "teasers" ? "/?section=teasers" : "/"}
+          className="text-blue-400 hover:text-blue-300"
+          prefetch={false}
+        >
           ← К списку стран
         </Link>
       </nav>
-      <header className="mb-6">
-        <h1 className="text-2xl font-semibold text-white">{country.nameRu}</h1>
-        <p className="mt-1 text-sm" style={{ color: "var(--muted)" }}>
-          Файл в репозитории: <code className="rounded bg-white/10 px-1.5 py-0.5">{filePathDisplay}</code>
-        </p>
+
+      <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-semibold text-white">{country.nameRu}</h1>
+          <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
+            <span className="font-medium text-gray-400">Рабочие:</span>{" "}
+            <code className="rounded bg-white/10 px-1.5 py-0.5">{domainsFile}</code>
+            {"  "}
+            <span className="font-medium text-gray-400">Тизеры:</span>{" "}
+            <code className="rounded bg-white/10 px-1.5 py-0.5">{teasersFile}</code>
+          </p>
+        </div>
       </header>
-      <DomainEditor countryCode={country.code} />
+
+      <CountryPageTabs
+        countryCode={country.code}
+        initialTab={tab === "teasers" ? "teasers" : "domains"}
+      />
     </div>
   );
 }
