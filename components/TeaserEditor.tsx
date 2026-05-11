@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { DateRangePicker } from "@/components/DateRangePicker";
 
 type Props = { countryCode: string };
 
@@ -8,10 +9,6 @@ type HistoryEvent = { domain: string; addedAt: string };
 
 function dateToYmd(d: Date): string {
   return d.toISOString().slice(0, 10);
-}
-
-function addDays(d: Date, days: number): Date {
-  return new Date(d.getTime() + days * 24 * 60 * 60 * 1000);
 }
 
 export function TeaserEditor({ countryCode }: Props) {
@@ -26,7 +23,7 @@ export function TeaserEditor({ countryCode }: Props) {
 
   // История добавлений по датам (для фильтра)
   const [historyLoading, setHistoryLoading] = useState(false);
-  const [fromDate, setFromDate] = useState<string>(() => dateToYmd(addDays(new Date(), -7)));
+  const [fromDate, setFromDate] = useState<string>(() => dateToYmd(new Date()));
   const [toDate, setToDate] = useState<string>(() => dateToYmd(new Date()));
   const [events, setEvents] = useState<HistoryEvent[]>([]);
 
@@ -182,74 +179,23 @@ export function TeaserEditor({ countryCode }: Props) {
           </div>
         </div>
 
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
-          <div>
-            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>С</label>
-            <input
-              type="date"
-              value={fromDate}
-              onChange={(e) => setFromDate(e.target.value)}
-              className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
-              style={{ borderColor: "var(--border)" }}
-            />
-          </div>
-          <div>
-            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>По</label>
-            <input
-              type="date"
-              value={toDate}
-              onChange={(e) => setToDate(e.target.value)}
-              className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
-              style={{ borderColor: "var(--border)" }}
-            />
-          </div>
-        </div>
-
-        <div className="mt-4 flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={() => { setFromDate(dateToYmd(new Date())); setToDate(dateToYmd(new Date())); }}
-            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
-            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-          >
-            Сегодня
-          </button>
-          <button
-            type="button"
-            onClick={() => { setFromDate(dateToYmd(addDays(new Date(), -7))); setToDate(dateToYmd(new Date())); }}
-            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
-            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-          >
-            7 дней
-          </button>
-          <button
-            type="button"
-            onClick={() => { setFromDate(dateToYmd(addDays(new Date(), -30))); setToDate(dateToYmd(new Date())); }}
-            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
-            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-          >
-            30 дней
-          </button>
-          <button
-            type="button"
-            onClick={() => {
-              const now = new Date();
-              const first = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
-              setFromDate(dateToYmd(first));
-              setToDate(dateToYmd(now));
+        <div className="mt-4">
+          <DateRangePicker
+            value={{ from: fromDate, to: toDate }}
+            onChange={(r) => {
+              setFromDate(r.from);
+              setToDate(r.to);
             }}
-            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
-            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-          >
-            Этот месяц
-          </button>
-          <button
-            type="button"
-            onClick={loadHistory}
-            className="rounded-lg bg-[var(--accent)] px-3 py-2 text-xs font-semibold text-white hover:bg-[var(--accent-hover)]"
-          >
-            Применить
-          </button>
+          />
+          <div className="mt-3 flex items-center justify-end">
+            <button
+              type="button"
+              onClick={loadHistory}
+              className="rounded-lg bg-[var(--accent)] px-3 py-2 text-xs font-semibold text-white hover:bg-[var(--accent-hover)]"
+            >
+              Применить
+            </button>
+          </div>
         </div>
 
         {byDay.length > 0 && (
