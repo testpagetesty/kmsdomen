@@ -35,6 +35,17 @@ export function resolveTeasersPrefix(): string {
   return raw.replace(/^\/+|\/+$/g, "").trim();
 }
 
+/**
+ * Папка с историей добавлений доменов с тизерами (JSONL).
+ * GITHUB_TEASERS_HISTORY_PREFIX не задан → "teasers-meta"
+ * GITHUB_TEASERS_HISTORY_PREFIX="" → файлы в корне репо
+ */
+export function resolveTeasersHistoryPrefix(): string {
+  const raw = process.env.GITHUB_TEASERS_HISTORY_PREFIX;
+  if (raw === undefined || raw === null) return "teasers-meta";
+  return raw.replace(/^\/+|\/+$/g, "").trim();
+}
+
 /** Строит полный путь к файлу страны */
 export function countryFilePath(prefix: string, code: string) {
   return prefix ? `${prefix}/${code}.txt` : `${code}.txt`;

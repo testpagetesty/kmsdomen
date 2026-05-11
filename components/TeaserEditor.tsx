@@ -4,6 +4,16 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 
 type Props = { countryCode: string };
 
+type HistoryEvent = { domain: string; addedAt: string };
+
+function dateToYmd(d: Date): string {
+  return d.toISOString().slice(0, 10);
+}
+
+function addDays(d: Date, days: number): Date {
+  return new Date(d.getTime() + days * 24 * 60 * 60 * 1000);
+}
+
 export function TeaserEditor({ countryCode }: Props) {
   const [lines, setLines] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
@@ -13,6 +23,12 @@ export function TeaserEditor({ countryCode }: Props) {
   const [addText, setAddText] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
+
+  // История добавлений по датам (для фильтра)
+  const [historyLoading, setHistoryLoading] = useState(false);
+  const [fromDate, setFromDate] = useState<string>(() => dateToYmd(addDays(new Date(), -7)));
+  const [toDate, setToDate] = useState<string>(() => dateToYmd(new Date()));
+  const [events, setEvents] = useState<HistoryEvent[]>([]);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -29,13 +45,52 @@ export function TeaserEditor({ countryCode }: Props) {
     }
   }, [countryCode]);
 
+  const loadHistory = useCallback(async () => {
+    setHistoryLoading(true);
+    try {
+      const qs = new URLSearchParams();
+      if (fromDate) qs.set("from", fromDate);
+      if (toDate) qs.set("to", toDate);
+      const res = await fetch(`/api/teasers/${countryCode}/history?${qs.toString()}`, { cache: "no-store" });
+      const data = (await res.json()) as { events?: HistoryEvent[]; error?: string };
+      if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
+      setEvents(data.events ?? []);
+    } catch (e) {
+      setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка истории" });
+      setEvents([]);
+    } finally {
+      setHistoryLoading(false);
+    }
+  }, [countryCode, fromDate, toDate]);
+
   useEffect(() => { load(); }, [load]);
+  useEffect(() => { loadHistory(); }, [loadHistory]);
 
   const filtered = useMemo(() => {
     const q = filterQuery.trim().toLowerCase();
     if (!q) return lines;
     return lines.filter((l) => l.toLowerCase().includes(q));
   }, [lines, filterQuery]);
+
+  const addedAtByDomain = useMemo(() => {
+    // берём самое раннее добавление (если вдруг домен попадал несколько раз)
+    const map = new Map<string, string>();
+    for (let i = events.length - 1; i >= 0; i--) {
+      const e = events[i];
+      if (!map.has(e.domain)) map.set(e.domain, e.addedAt);
+    }
+    return map;
+  }, [events]);
+
+  const byDay = useMemo(() => {
+    const agg = new Map<string, number>();
+    for (const e of events) {
+      const day = e.addedAt.slice(0, 10);
+      agg.set(day, (agg.get(day) ?? 0) + 1);
+    }
+    // сортируем по дате
+    return Array.from(agg.entries()).sort((a, b) => (a[0] < b[0] ? -1 : 1));
+  }, [events]);
 
   function authHeaders(): Record<string, string> {
     const h: Record<string, string> = { "Content-Type": "application/json" };
@@ -113,6 +168,112 @@ export function TeaserEditor({ countryCode }: Props) {
         )}
       </div>
 
+      {/* Фильтр по датам (история добавлений) */}
+      <div className="rounded-xl border p-5" style={{ borderColor: "var(--border)", background: "var(--card)" }}>
+        <div className="flex flex-wrap items-end justify-between gap-4">
+          <div>
+            <h3 className="text-sm font-semibold text-white">История добавлений</h3>
+            <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
+              Выберите период, чтобы увидеть сколько доменов добавлено и когда.
+            </p>
+          </div>
+          <div className="text-xs" style={{ color: "var(--muted)" }}>
+            {historyLoading ? "Загрузка…" : `Событий: ${events.length}`}
+          </div>
+        </div>
+
+        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+          <div>
+            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>С</label>
+            <input
+              type="date"
+              value={fromDate}
+              onChange={(e) => setFromDate(e.target.value)}
+              className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
+              style={{ borderColor: "var(--border)" }}
+            />
+          </div>
+          <div>
+            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>По</label>
+            <input
+              type="date"
+              value={toDate}
+              onChange={(e) => setToDate(e.target.value)}
+              className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
+              style={{ borderColor: "var(--border)" }}
+            />
+          </div>
+        </div>
+
+        <div className="mt-4 flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => { setFromDate(dateToYmd(new Date())); setToDate(dateToYmd(new Date())); }}
+            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+          >
+            Сегодня
+          </button>
+          <button
+            type="button"
+            onClick={() => { setFromDate(dateToYmd(addDays(new Date(), -7))); setToDate(dateToYmd(new Date())); }}
+            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+          >
+            7 дней
+          </button>
+          <button
+            type="button"
+            onClick={() => { setFromDate(dateToYmd(addDays(new Date(), -30))); setToDate(dateToYmd(new Date())); }}
+            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+          >
+            30 дней
+          </button>
+          <button
+            type="button"
+            onClick={() => {
+              const now = new Date();
+              const first = new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), 1));
+              setFromDate(dateToYmd(first));
+              setToDate(dateToYmd(now));
+            }}
+            className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+            style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+          >
+            Этот месяц
+          </button>
+          <button
+            type="button"
+            onClick={loadHistory}
+            className="rounded-lg bg-[var(--accent)] px-3 py-2 text-xs font-semibold text-white hover:bg-[var(--accent-hover)]"
+          >
+            Применить
+          </button>
+        </div>
+
+        {byDay.length > 0 && (
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr style={{ color: "var(--muted)" }}>
+                  <th className="py-2 pr-4 font-medium">Дата</th>
+                  <th className="py-2 pr-4 font-medium">Добавлено доменов</th>
+                </tr>
+              </thead>
+              <tbody>
+                {byDay.map(([day, count]) => (
+                  <tr key={day} className="border-t" style={{ borderColor: "var(--border)" }}>
+                    <td className="py-2 pr-4 font-mono text-gray-200">{day}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{count}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+
       {/* Пароль */}
       <div>
         <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>
@@ -179,7 +340,15 @@ export function TeaserEditor({ countryCode }: Props) {
                   className="flex items-center justify-between gap-3 border-b px-4 py-2.5 last:border-b-0 hover:bg-white/[0.02]"
                   style={{ borderColor: "var(--border)" }}
                 >
-                  <span className="font-mono text-sm text-gray-200 break-all">{domain}</span>
+                  <div className="min-w-0">
+                    <div className="font-mono text-sm text-gray-200 break-all">{domain}</div>
+                    <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                      Добавлен:{" "}
+                      <span className="font-mono">
+                        {addedAtByDomain.get(domain)?.slice(0, 19).replace("T", " ") ?? "—"}
+                      </span>
+                    </div>
+                  </div>
                   <button
                     type="button"
                     onClick={() => handleDelete(domain)}

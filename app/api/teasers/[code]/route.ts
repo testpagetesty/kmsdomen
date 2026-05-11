@@ -1,7 +1,12 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { isKnownCountryCode } from "@/data/countries";
-import { getAdminPassword, resolveTeasersPrefix, countryFilePath } from "@/lib/env";
+import {
+  getAdminPassword,
+  resolveTeasersPrefix,
+  resolveTeasersHistoryPrefix,
+  countryFilePath,
+} from "@/lib/env";
 import { fetchRepoFile, putRepoFile } from "@/lib/github";
 
 export const dynamic = "force-dynamic";
@@ -14,6 +19,20 @@ function normalizeCode(raw: string): string | null {
 
 function parseLines(text: string): string[] {
   return text.split("\n").map((l) => l.trim()).filter(Boolean);
+}
+
+type TeasersHistoryEvent = {
+  domain: string;
+  addedAt: string; // ISO 8601
+};
+
+function historyPathForCountry(code: string) {
+  // JSONL: 1 запись = 1 строка
+  return countryFilePath(resolveTeasersHistoryPrefix(), code).replace(/\.txt$/i, ".jsonl");
+}
+
+function toIsoNow(): string {
+  return new Date().toISOString();
 }
 
 function checkAuth(request: NextRequest): NextResponse | null {
@@ -80,6 +99,19 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
 
     const allLines = [...existing, ...newOnes];
     await putRepoFile(path, allLines.join("\n") + "\n", sha || undefined);
+
+    // История добавлений (JSONL) — пишем только новые домены
+    try {
+      const hPath = historyPathForCountry(code);
+      const { text: hText, sha: hSha } = await fetchRepoFile(hPath);
+      const now = toIsoNow();
+      const events: TeasersHistoryEvent[] = newOnes.map((domain) => ({ domain, addedAt: now }));
+      const append = events.map((e) => JSON.stringify(e)).join("\n") + "\n";
+      await putRepoFile(hPath, (hText ?? "") + append, hSha || undefined);
+    } catch {
+      // История не критична для основного списка — не блокируем добавление
+    }
+
     return NextResponse.json({ ok: true, added: newOnes.length, total: allLines.length });
   } catch (e) {
     return NextResponse.json(
