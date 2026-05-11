@@ -31,19 +31,24 @@ const RU_MONTHS = [
 
 const RU_WEEKDAYS = ["Пн", "Вт", "Ср", "Чт", "Пт", "Сб", "Вс"];
 
+// Фиксированный часовой пояс сервиса: UTC+3
+const TZ_OFFSET_MIN = 180;
+const TZ_OFFSET_MS = TZ_OFFSET_MIN * 60 * 1000;
+
 function pad2(n: number) {
   return n < 10 ? `0${n}` : `${n}`;
 }
 
 function toYmd(d: Date): Ymd {
-  // UTC date-only (stable across timezones)
-  return `${d.getUTCFullYear()}-${pad2(d.getUTCMonth() + 1)}-${pad2(d.getUTCDate())}`;
+  // date-only в UTC+3 (используем getUTC* на сдвинутом времени)
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  return `${shifted.getUTCFullYear()}-${pad2(shifted.getUTCMonth() + 1)}-${pad2(shifted.getUTCDate())}`;
 }
 
 function parseYmd(ymd: Ymd): Date {
-  // Date at UTC midnight
+  // Инстант, соответствующий полуночи этого дня в UTC+3
   const [y, m, d] = ymd.split("-").map((x) => Number(x));
-  return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1));
+  return new Date(Date.UTC(y, (m ?? 1) - 1, d ?? 1) - TZ_OFFSET_MS);
 }
 
 function cmpYmd(a: Ymd, b: Ymd) {
@@ -59,16 +64,21 @@ function addDaysUtc(d: Date, days: number): Date {
 }
 
 function monthStartUtc(d: Date): Date {
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), 1));
+  // month start в UTC+3: берём дату в TZ и ставим 1 число
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  return new Date(Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth(), 1) - TZ_OFFSET_MS);
 }
 
 function addMonthsUtc(d: Date, months: number): Date {
-  return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth() + months, 1));
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  return new Date(Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth() + months, 1) - TZ_OFFSET_MS);
 }
 
 function startDowMon1(d: Date): number {
   // Monday = 1 ... Sunday = 7
-  const js = d.getUTCDay(); // 0..6, 0=Sun
+  // День недели считаем в TZ
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  const js = shifted.getUTCDay(); // 0..6, 0=Sun
   return js === 0 ? 7 : js;
 }
 
@@ -140,7 +150,7 @@ export function DateRangePicker({ value, onChange, presets = ["today", "last7", 
 
   function applyPreset(id: PresetId) {
     const now = new Date();
-    const today = toYmd(now);
+    const today = toYmd(now); // TZ+3
     if (id === "today") onChange({ from: today, to: today });
     if (id === "last7") onChange({ from: toYmd(addDaysUtc(parseYmd(today), -6)), to: today });
     if (id === "last30") onChange({ from: toYmd(addDaysUtc(parseYmd(today), -29)), to: today });

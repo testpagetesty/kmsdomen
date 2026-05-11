@@ -7,8 +7,23 @@ type Props = { countryCode: string };
 
 type HistoryEvent = { domain: string; addedAt: string };
 
+const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
+
 function dateToYmd(d: Date): string {
   return d.toISOString().slice(0, 10);
+}
+
+function formatIsoPlus3(iso: string): string {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return "—";
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  const y = shifted.getUTCFullYear();
+  const m = String(shifted.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(shifted.getUTCDate()).padStart(2, "0");
+  const hh = String(shifted.getUTCHours()).padStart(2, "0");
+  const mm = String(shifted.getUTCMinutes()).padStart(2, "0");
+  const ss = String(shifted.getUTCSeconds()).padStart(2, "0");
+  return `${y}-${m}-${day} ${hh}:${mm}:${ss}`;
 }
 
 export function TeaserEditor({ countryCode }: Props) {
@@ -291,7 +306,7 @@ export function TeaserEditor({ countryCode }: Props) {
                     <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
                       Добавлен:{" "}
                       <span className="font-mono">
-                        {addedAtByDomain.get(domain)?.slice(0, 19).replace("T", " ") ?? "—"}
+                        {addedAtByDomain.get(domain) ? formatIsoPlus3(addedAtByDomain.get(domain)!) : "—"}
                       </span>
                     </div>
                   </div>

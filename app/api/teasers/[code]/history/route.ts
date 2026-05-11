@@ -8,6 +8,10 @@ export const dynamic = "force-dynamic";
 
 type Event = { domain: string; addedAt: string };
 
+// Фиксированный часовой пояс сервиса: UTC+3
+const TZ_OFFSET_MIN = 180;
+const TZ_OFFSET_MS = TZ_OFFSET_MIN * 60 * 1000;
+
 function normalizeCode(raw: string): string | null {
   const c = raw.toLowerCase().trim();
   if (!/^[a-z]{2}$/.test(c) || !isKnownCountryCode(c)) return null;
@@ -22,14 +26,17 @@ function parseDateOnly(s: string | null): Date | null {
   if (!s) return null;
   // YYYY-MM-DD
   if (!/^\d{4}-\d{2}-\d{2}$/.test(s)) return null;
+  // полуночь выбранного дня в UTC+3
   const d = new Date(`${s}T00:00:00.000Z`);
+  d.setTime(d.getTime() - TZ_OFFSET_MS);
   return Number.isNaN(d.getTime()) ? null : d;
 }
 
 function toDateKey(iso: string): string | null {
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
-  return d.toISOString().slice(0, 10);
+  // ключ дня в UTC+3
+  return new Date(d.getTime() + TZ_OFFSET_MS).toISOString().slice(0, 10);
 }
 
 function withinRange(iso: string, from: Date | null, to: Date | null): boolean {
