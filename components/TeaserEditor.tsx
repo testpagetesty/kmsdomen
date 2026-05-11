@@ -5,7 +5,7 @@ import { DateRangePicker } from "@/components/DateRangePicker";
 
 type Props = { countryCode: string };
 
-type HistoryEvent = { domain: string; addedAt: string };
+type HistoryEvent = { domain: string; addedAt?: string; removedAt?: string };
 
 const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
 
@@ -89,18 +89,27 @@ export function TeaserEditor({ countryCode }: Props) {
     const map = new Map<string, string>();
     for (let i = events.length - 1; i >= 0; i--) {
       const e = events[i];
-      if (!map.has(e.domain)) map.set(e.domain, e.addedAt);
+      if (e.addedAt && !map.has(e.domain)) map.set(e.domain, e.addedAt);
     }
     return map;
   }, [events]);
 
   const byDay = useMemo(() => {
-    const agg = new Map<string, number>();
+    const agg = new Map<string, { added: number; removed: number; net: number }>();
     for (const e of events) {
-      const day = e.addedAt.slice(0, 10);
-      agg.set(day, (agg.get(day) ?? 0) + 1);
+      const iso = e.addedAt ?? e.removedAt;
+      if (!iso) continue;
+      const day = formatIsoPlus3(iso).slice(0, 10);
+      const cur = agg.get(day) ?? { added: 0, removed: 0, net: 0 };
+      if (e.addedAt) {
+        cur.added += 1;
+        cur.net += 1;
+      } else if (e.removedAt) {
+        cur.removed += 1;
+        cur.net -= 1;
+      }
+      agg.set(day, cur);
     }
-    // сортируем по дате
     return Array.from(agg.entries()).sort((a, b) => (a[0] < b[0] ? -1 : 1));
   }, [events]);
 
@@ -153,6 +162,7 @@ export function TeaserEditor({ countryCode }: Props) {
       const data = (await res.json()) as { ok?: boolean; error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setLines((prev) => prev.filter((l) => l !== domain));
+      await loadHistory();
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка удаления" });
     } finally {
@@ -219,14 +229,18 @@ export function TeaserEditor({ countryCode }: Props) {
               <thead>
                 <tr style={{ color: "var(--muted)" }}>
                   <th className="py-2 pr-4 font-medium">Дата</th>
-                  <th className="py-2 pr-4 font-medium">Добавлено доменов</th>
+                  <th className="py-2 pr-4 font-medium">Добавлено</th>
+                  <th className="py-2 pr-4 font-medium">Удалено</th>
+                  <th className="py-2 pr-4 font-medium">Итого</th>
                 </tr>
               </thead>
               <tbody>
-                {byDay.map(([day, count]) => (
+                {byDay.map(([day, c]) => (
                   <tr key={day} className="border-t" style={{ borderColor: "var(--border)" }}>
                     <td className="py-2 pr-4 font-mono text-gray-200">{day}</td>
-                    <td className="py-2 pr-4 tabular-nums text-gray-200">{count}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{c.added}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{c.removed}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{c.net}</td>
                   </tr>
                 ))}
               </tbody>

@@ -21,10 +21,9 @@ function parseLines(text: string): string[] {
   return text.split("\n").map((l) => l.trim()).filter(Boolean);
 }
 
-type TeasersHistoryEvent = {
-  domain: string;
-  addedAt: string; // ISO 8601
-};
+type TeasersHistoryEvent =
+  | { domain: string; addedAt: string } // ISO 8601
+  | { domain: string; removedAt: string }; // ISO 8601
 
 function historyPathForCountry(code: string) {
   // JSONL: 1 запись = 1 строка
@@ -142,6 +141,18 @@ export async function DELETE(request: NextRequest, ctx: { params: Promise<{ code
     const lines = parseLines(text).filter((l) => l !== toRemove);
 
     await putRepoFile(path, lines.length > 0 ? lines.join("\n") + "\n" : "", sha || undefined);
+
+    // История удалений (JSONL) — для корректных счетчиков по датам
+    try {
+      const hPath = historyPathForCountry(code);
+      const { text: hText, sha: hSha } = await fetchRepoFile(hPath);
+      const now = toIsoNow();
+      const event: TeasersHistoryEvent = { domain: toRemove, removedAt: now };
+      await putRepoFile(hPath, (hText ?? "") + JSON.stringify(event) + "\n", hSha || undefined);
+    } catch {
+      // не блокируем удаление
+    }
+
     return NextResponse.json({ ok: true, removed: toRemove, total: lines.length });
   } catch (e) {
     return NextResponse.json(

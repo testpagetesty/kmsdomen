@@ -6,7 +6,9 @@ import { fetchRepoFile } from "@/lib/github";
 
 export const dynamic = "force-dynamic";
 
-type Event = { domain: string; addedAt: string };
+type AddEvent = { domain: string; addedAt: string };
+type RemoveEvent = { domain: string; removedAt: string };
+type Event = AddEvent | RemoveEvent;
 
 // Фиксированный часовой пояс сервиса: UTC+3
 const TZ_OFFSET_MIN = 180;
@@ -54,8 +56,8 @@ function withinRange(iso: string, from: Date | null, to: Date | null): boolean {
 /**
  * GET /api/teasers/[code]/history?from=YYYY-MM-DD&to=YYYY-MM-DD
  * Возвращает:
- * - events: [{domain, addedAt}]
- * - byDay: { "2026-05-11": 12, ... }
+ * - events: [{domain, addedAt|removedAt}]
+ * - byDay: { "2026-05-11": { added: 12, removed: 3, net: 9 }, ... }
  */
 export async function GET(req: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   try {
@@ -72,23 +74,49 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ code: strin
     const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
 
     const events: Event[] = [];
-    const byDay: Record<string, number> = {};
+    const byDay: Record<string, { added: number; removed: number; net: number }> = {};
 
     for (const line of lines) {
       try {
-        const e = JSON.parse(line) as Partial<Event>;
-        if (typeof e.domain !== "string" || typeof e.addedAt !== "string") continue;
-        if (!withinRange(e.addedAt, from, to)) continue;
-        events.push({ domain: e.domain, addedAt: e.addedAt });
-        const key = toDateKey(e.addedAt);
-        if (key) byDay[key] = (byDay[key] ?? 0) + 1;
+        const e = JSON.parse(line) as Partial<AddEvent & RemoveEvent>;
+        if (typeof e.domain !== "string") continue;
+
+        if (typeof e.addedAt === "string") {
+          if (!withinRange(e.addedAt, from, to)) continue;
+          events.push({ domain: e.domain, addedAt: e.addedAt });
+          const key = toDateKey(e.addedAt);
+          if (key) {
+            const cur = byDay[key] ?? { added: 0, removed: 0, net: 0 };
+            cur.added += 1;
+            cur.net += 1;
+            byDay[key] = cur;
+          }
+          continue;
+        }
+
+        if (typeof e.removedAt === "string") {
+          if (!withinRange(e.removedAt, from, to)) continue;
+          events.push({ domain: e.domain, removedAt: e.removedAt });
+          const key = toDateKey(e.removedAt);
+          if (key) {
+            const cur = byDay[key] ?? { added: 0, removed: 0, net: 0 };
+            cur.removed += 1;
+            cur.net -= 1;
+            byDay[key] = cur;
+          }
+          continue;
+        }
       } catch {
         // ignore bad line
       }
     }
 
     // сортировка по времени (новые сверху)
-    events.sort((a, b) => (a.addedAt < b.addedAt ? 1 : a.addedAt > b.addedAt ? -1 : 0));
+    events.sort((a, b) => {
+      const ta = "addedAt" in a ? a.addedAt : a.removedAt;
+      const tb = "addedAt" in b ? b.addedAt : b.removedAt;
+      return ta < tb ? 1 : ta > tb ? -1 : 0;
+    });
 
     return NextResponse.json({ code, events, total: events.length, byDay });
   } catch (e) {
