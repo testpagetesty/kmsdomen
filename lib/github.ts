@@ -39,7 +39,8 @@ export async function fetchRepoFile(repoRelPath: string): Promise<{ text: string
   }
 
   const data = (await res.json()) as { encoding: string; content?: string; sha?: string };
-  if (data.encoding !== "base64" || !data.content) {
+  // content может быть пустой строкой для пустого файла — это валидно
+  if (data.encoding !== "base64" || data.content === undefined) {
     throw new Error("Неожиданный ответ GitHub: ожидался файл в base64");
   }
 
