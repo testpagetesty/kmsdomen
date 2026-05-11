@@ -53,11 +53,30 @@ export function DomainEditor({ countryCode }: Props) {
         headers,
         body: JSON.stringify({ content }),
       });
-      const data = (await res.json()) as { ok?: boolean; error?: string };
+      const data = (await res.json()) as {
+        ok?: boolean;
+        error?: string;
+        content?: string;
+        linesInRequest?: number;
+        linesSaved?: number;
+        duplicatesSkipped?: number;
+      };
       if (!res.ok) {
         throw new Error(data.error ?? `Ошибка ${res.status}`);
       }
-      setMessage({ type: "ok", text: "Сохранено. Файл обновлён на GitHub." });
+      if (typeof data.content === "string") {
+        setContent(data.content);
+      }
+      const req = data.linesInRequest ?? 0;
+      const saved = data.linesSaved ?? 0;
+      const dup = data.duplicatesSkipped ?? 0;
+      let text = `Сохранено на GitHub. Во входе строк: ${req}. Записано новых: ${saved}.`;
+      if (dup > 0) text += ` Пропущено (уже в тизерах для этой страны): ${dup}.`;
+      if (req === 0) text = "Сохранён пустой список.";
+      else if (saved === 0 && dup > 0) {
+        text = `Ничего не записано: все ${dup} домен(ов) уже есть в списке «Домены с тизерами» для этой страны.`;
+      }
+      setMessage({ type: "ok", text });
       await load();
     } catch (e) {
       setMessage({
@@ -74,7 +93,8 @@ export function DomainEditor({ countryCode }: Props) {
       <div>
         <h2 className="text-base font-semibold text-white">Новые домены</h2>
         <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-          Сюда ежедневно подгружаются домены для прохождения. Сохранение полностью заменяет файл в репозитории.
+          Сюда ежедневно подгружаются домены для прохождения. При сохранении домены сверяются со списком «Домены с тизерами»
+          для этой же страны: совпадения не записываются, в ответе показывается, сколько пропущено и сколько сохранено.
         </p>
       </div>
     <div className="rounded-xl border p-6" style={{ borderColor: "var(--border)", background: "var(--card)" }}>

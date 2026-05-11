@@ -1,8 +1,9 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { isKnownCountryCode } from "@/data/countries";
-import { getAdminPassword, resolveDomainsPrefix, countryFilePath } from "@/lib/env";
+import { getAdminPassword, resolveDomainsPrefix, resolveTeasersPrefix, countryFilePath } from "@/lib/env";
 import { fetchRepoFile, putRepoFile } from "@/lib/github";
+import { normalizeDomainLine, parseDomainLines } from "@/lib/domainNormalize";
 
 export const dynamic = "force-dynamic";
 
@@ -74,8 +75,39 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
 
     const path = countryFilePath(resolveDomainsPrefix(), code);
     const { sha } = await fetchRepoFile(path);
-    await putRepoFile(path, content, sha || undefined);
-    return NextResponse.json({ ok: true, code });
+
+    const requestedLines = parseDomainLines(content);
+
+    const teaserPath = countryFilePath(resolveTeasersPrefix(), code);
+    let teaserNorms = new Set<string>();
+    try {
+      const { text: teaserText } = await fetchRepoFile(teaserPath);
+      teaserNorms = new Set(parseDomainLines(teaserText).map(normalizeDomainLine));
+    } catch {
+      teaserNorms = new Set();
+    }
+
+    let duplicatesSkipped = 0;
+    const keptLines: string[] = [];
+    for (const line of requestedLines) {
+      if (teaserNorms.has(normalizeDomainLine(line))) {
+        duplicatesSkipped += 1;
+      } else {
+        keptLines.push(line);
+      }
+    }
+
+    const toWrite = keptLines.length > 0 ? `${keptLines.join("\n")}\n` : "";
+    await putRepoFile(path, toWrite, sha || undefined);
+
+    return NextResponse.json({
+      ok: true,
+      code,
+      content: toWrite,
+      linesInRequest: requestedLines.length,
+      linesSaved: keptLines.length,
+      duplicatesSkipped,
+    });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Ошибка сохранения на GitHub" },
