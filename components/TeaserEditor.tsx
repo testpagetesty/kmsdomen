@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DateRangePicker } from "@/components/DateRangePicker";
+import { VERTICALS } from "@/data/verticals";
 
 type Props = { countryCode: string };
 
@@ -32,9 +33,12 @@ export function TeaserEditor({ countryCode }: Props) {
   const [saving, setSaving] = useState(false);
   const [deletingDomain, setDeletingDomain] = useState<string | null>(null);
   const [filterQuery, setFilterQuery] = useState("");
+  const [verticalFilter, setVerticalFilter] = useState<string>("all");
+  const [addVertical, setAddVertical] = useState<string>("nutra");
   const [addText, setAddText] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
+  const [tags, setTags] = useState<Record<string, string>>({});
 
   // История добавлений по датам (для фильтра)
   const [historyLoading, setHistoryLoading] = useState(false);
@@ -47,9 +51,10 @@ export function TeaserEditor({ countryCode }: Props) {
     setMessage(null);
     try {
       const res = await fetch(`/api/teasers/${countryCode}`, { cache: "no-store" });
-      const data = (await res.json()) as { lines?: string[]; error?: string };
+      const data = (await res.json()) as { lines?: string[]; tags?: Record<string, string>; error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setLines(data.lines ?? []);
+      setTags(data.tags ?? {});
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка загрузки" });
     } finally {
@@ -80,9 +85,32 @@ export function TeaserEditor({ countryCode }: Props) {
 
   const filtered = useMemo(() => {
     const q = filterQuery.trim().toLowerCase();
-    if (!q) return lines;
-    return lines.filter((l) => l.toLowerCase().includes(q));
-  }, [lines, filterQuery]);
+    return lines.filter((l) => {
+      if (verticalFilter !== "all") {
+        const v = tags[l] ?? "other";
+        if (v !== verticalFilter) return false;
+      }
+      if (!q) return true;
+      return l.toLowerCase().includes(q);
+    });
+  }, [lines, filterQuery, verticalFilter, tags]);
+
+  const sortedForDisplay = useMemo(() => {
+    // Если фильтр вертикали выбран — просто сортируем по домену
+    if (verticalFilter !== "all") return [...filtered].sort((a, b) => a.localeCompare(b));
+    // Иначе группируем по вертикалям, как в списке VERTICALS (кроме "all")
+    const order = new Map<string, number>();
+    VERTICALS.filter((v) => v.id !== "all").forEach((v, i) => order.set(v.id, i));
+    return [...filtered].sort((a, b) => {
+      const va = tags[a] ?? "other";
+      const vb = tags[b] ?? "other";
+      const oa = order.get(va) ?? 999;
+      const ob = order.get(vb) ?? 999;
+      if (oa !== ob) return oa - ob;
+      if (va !== vb) return String(va).localeCompare(String(vb));
+      return a.localeCompare(b);
+    });
+  }, [filtered, verticalFilter, tags]);
 
   const addedAtByDomain = useMemo(() => {
     // берём самое раннее добавление (если вдруг домен попадал несколько раз)
@@ -132,7 +160,7 @@ export function TeaserEditor({ countryCode }: Props) {
       const res = await fetch(`/api/teasers/${countryCode}`, {
         method: "PUT",
         headers: authHeaders(),
-        body: JSON.stringify({ add: toAdd }),
+        body: JSON.stringify({ add: toAdd, vertical: addVertical }),
       });
       const data = (await res.json()) as { ok?: boolean; added?: number; total?: number; message?: string; error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
@@ -143,6 +171,7 @@ export function TeaserEditor({ countryCode }: Props) {
       setMessage({ type: "ok", text: msg });
       setAddText("");
       await load();
+      await loadHistory();
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка добавления" });
     } finally {
@@ -162,6 +191,11 @@ export function TeaserEditor({ countryCode }: Props) {
       const data = (await res.json()) as { ok?: boolean; error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setLines((prev) => prev.filter((l) => l !== domain));
+      setTags((prev) => {
+        const next = { ...prev };
+        delete next[domain];
+        return next;
+      });
       await loadHistory();
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка удаления" });
@@ -287,14 +321,34 @@ export function TeaserEditor({ countryCode }: Props) {
       >
         {/* Фильтр списка */}
         <div className="border-b px-4 py-3" style={{ borderColor: "var(--border)" }}>
-          <input
-            type="search"
-            placeholder="Фильтр по домену…"
-            value={filterQuery}
-            onChange={(e) => setFilterQuery(e.target.value)}
-            className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white placeholder:text-gray-600 outline-none focus:border-[var(--accent)]"
-            style={{ borderColor: "var(--border)" }}
-          />
+          <div className="grid gap-3 sm:grid-cols-2">
+            <div>
+              <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>Вертикаль</label>
+              <select
+                value={verticalFilter}
+                onChange={(e) => setVerticalFilter(e.target.value)}
+                className="w-full cursor-pointer appearance-none rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
+                style={{ borderColor: "var(--border)" }}
+              >
+                {VERTICALS.map((v) => (
+                  <option key={v.id} value={v.id} style={{ background: "#0d1117" }}>
+                    {v.label}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div>
+              <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>Поиск</label>
+              <input
+                type="search"
+                placeholder="Фильтр по домену…"
+                value={filterQuery}
+                onChange={(e) => setFilterQuery(e.target.value)}
+                className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white placeholder:text-gray-600 outline-none focus:border-[var(--accent)]"
+                style={{ borderColor: "var(--border)" }}
+              />
+            </div>
+          </div>
         </div>
 
         {/* Строки */}
@@ -309,7 +363,7 @@ export function TeaserEditor({ countryCode }: Props) {
             </p>
           ) : (
             <ul>
-              {filtered.map((domain) => (
+              {sortedForDisplay.map((domain) => (
                 <li
                   key={domain}
                   className="flex items-center justify-between gap-3 border-b px-4 py-2.5 last:border-b-0 hover:bg-white/[0.02]"
@@ -318,6 +372,11 @@ export function TeaserEditor({ countryCode }: Props) {
                   <div className="min-w-0">
                     <div className="font-mono text-sm text-gray-200 break-all">{domain}</div>
                     <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                      Вертикаль:{" "}
+                      <span className="rounded-full bg-white/10 px-2 py-0.5 font-semibold text-gray-200">
+                        {VERTICALS.find((v) => v.id === (tags[domain] ?? "other"))?.label ?? "Другое"}
+                      </span>
+                      {"  "}
                       Добавлен:{" "}
                       <span className="font-mono">
                         {addedAtByDomain.get(domain) ? formatIsoPlus3(addedAtByDomain.get(domain)!) : "—"}
@@ -361,6 +420,23 @@ export function TeaserEditor({ countryCode }: Props) {
         <p className="mb-3 text-xs" style={{ color: "var(--muted)" }}>
           Вставьте один или несколько доменов — каждый с новой строки. Дубликаты игнорируются автоматически.
         </p>
+        <div className="mb-4 grid gap-3 sm:grid-cols-2">
+          <div>
+            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>Вертикаль для добавляемых доменов</label>
+            <select
+              value={addVertical}
+              onChange={(e) => setAddVertical(e.target.value)}
+              className="w-full cursor-pointer appearance-none rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
+              style={{ borderColor: "var(--border)" }}
+            >
+              {VERTICALS.filter((v) => v.id !== "all").map((v) => (
+                <option key={v.id} value={v.id} style={{ background: "#0d1117" }}>
+                  {v.label}
+                </option>
+              ))}
+            </select>
+          </div>
+        </div>
         <textarea
           value={addText}
           onChange={(e) => setAddText(e.target.value)}

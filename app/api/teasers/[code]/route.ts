@@ -1,6 +1,7 @@
 import type { NextRequest } from "next/server";
 import { NextResponse } from "next/server";
 import { isKnownCountryCode } from "@/data/countries";
+import { isVerticalId } from "@/data/verticals";
 import {
   getAdminPassword,
   resolveTeasersPrefix,
@@ -30,6 +31,11 @@ function historyPathForCountry(code: string) {
   return countryFilePath(resolveTeasersHistoryPrefix(), code).replace(/\.txt$/i, ".jsonl");
 }
 
+function tagsPathForCountry(code: string) {
+  // JSON: { "example.com": "nutra", ... }
+  return countryFilePath(resolveTeasersHistoryPrefix(), code).replace(/\.txt$/i, ".tags.json");
+}
+
 function toIsoNow(): string {
   return new Date().toISOString();
 }
@@ -55,7 +61,17 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
     const path = countryFilePath(resolveTeasersPrefix(), code);
     const { text } = await fetchRepoFile(path);
     const lines = parseLines(text);
-    return NextResponse.json({ code, lines, total: lines.length });
+    // tags опционально
+    let tags: Record<string, string> = {};
+    try {
+      const tPath = tagsPathForCountry(code);
+      const { text: tText } = await fetchRepoFile(tPath);
+      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
+      if (parsed && typeof parsed === "object") tags = parsed as Record<string, string>;
+    } catch {
+      tags = {};
+    }
+    return NextResponse.json({ code, lines, total: lines.length, tags });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Ошибка загрузки" },
@@ -64,7 +80,7 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
   }
 }
 
-/** PUT /api/teasers/[code] body: { add: string[] } → дописывает новые уникальные строки */
+/** PUT /api/teasers/[code] body: { add: string[], vertical?: string } → дописывает новые уникальные строки */
 export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkAuth(request);
   if (denied) return denied;
@@ -74,10 +90,11 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     const code = normalizeCode(raw ?? "");
     if (!code) return NextResponse.json({ error: "Неизвестный код страны" }, { status: 400 });
 
-    const body = (await request.json()) as { add?: unknown };
+    const body = (await request.json()) as { add?: unknown; vertical?: unknown };
     if (!Array.isArray(body.add)) {
       return NextResponse.json({ error: "Ожидается поле add: string[]" }, { status: 400 });
     }
+    const vertical = isVerticalId(body.vertical) ? body.vertical : "other";
 
     const toAdd = (body.add as unknown[])
       .filter((d): d is string => typeof d === "string" && d.trim().length > 0)
@@ -98,6 +115,20 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
 
     const allLines = [...existing, ...newOnes];
     await putRepoFile(path, allLines.join("\n") + "\n", sha || undefined);
+
+    // Теги вертикалей (JSON) — присваиваем вертикаль всем новым доменам
+    try {
+      const tPath = tagsPathForCountry(code);
+      const { text: tText, sha: tSha } = await fetchRepoFile(tPath);
+      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
+      const tags: Record<string, string> =
+        parsed && typeof parsed === "object" ? (parsed as Record<string, string>) : {};
+
+      for (const d of newOnes) tags[d] = vertical;
+      await putRepoFile(tPath, JSON.stringify(tags, null, 2) + "\n", tSha || undefined);
+    } catch {
+      // не блокируем добавление
+    }
 
     // История добавлений (JSONL) — пишем только новые домены
     try {
@@ -141,6 +172,21 @@ export async function DELETE(request: NextRequest, ctx: { params: Promise<{ code
     const lines = parseLines(text).filter((l) => l !== toRemove);
 
     await putRepoFile(path, lines.length > 0 ? lines.join("\n") + "\n" : "", sha || undefined);
+
+    // Удаляем тег домена, если есть
+    try {
+      const tPath = tagsPathForCountry(code);
+      const { text: tText, sha: tSha } = await fetchRepoFile(tPath);
+      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
+      const tags: Record<string, string> =
+        parsed && typeof parsed === "object" ? (parsed as Record<string, string>) : {};
+      if (toRemove in tags) {
+        delete tags[toRemove];
+        await putRepoFile(tPath, JSON.stringify(tags, null, 2) + "\n", tSha || undefined);
+      }
+    } catch {
+      // не блокируем удаление
+    }
 
     // История удалений (JSONL) — для корректных счетчиков по датам
     try {
