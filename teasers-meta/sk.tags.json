@@ -1,7 +1,18 @@
 {
-  "interez.sk": "news",
-  "tentozoznam.pro": "news",
-  "topocas.pro": "news",
-  "topky.sk": "news",
-  "dieselpelnix.live": "news"
+  "interez.sk": {
+    "vertical": "news",
+    "updatedAt": "2026-05-13T18:53:26.766Z"
+  },
+  "tentozoznam.pro": {
+    "vertical": "news"
+  },
+  "topocas.pro": {
+    "vertical": "news"
+  },
+  "topky.sk": {
+    "vertical": "news"
+  },
+  "dieselpelnix.live": {
+    "vertical": "news"
+  }
 }
