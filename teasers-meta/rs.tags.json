@@ -1,10 +1,31 @@
 {
-  "srpskainfo.com": "news",
-  "citymagazine.danas.rs": "news",
-  "ona.telegraf.rs": "news",
-  "telegraf.rs": "news",
-  "b92.net": "news",
-  "danas.rs": "nutra",
-  "n1info.rs": "nutra",
-  "blic.rs": "nutra"
+  "srpskainfo.com": {
+    "vertical": "news"
+  },
+  "citymagazine.danas.rs": {
+    "vertical": "news"
+  },
+  "ona.telegraf.rs": {
+    "vertical": "news"
+  },
+  "telegraf.rs": {
+    "vertical": "news"
+  },
+  "b92.net": {
+    "vertical": "news"
+  },
+  "danas.rs": {
+    "vertical": "nutra"
+  },
+  "n1info.rs": {
+    "vertical": "nutra"
+  },
+  "blic.rs": {
+    "vertical": "nutra"
+  },
+  "biznis-telegraf-rs.cdn.ampproject.org": {
+    "vertical": "vsl",
+    "addedAt": "2026-05-13T12:37:17.314Z",
+    "updatedAt": "2026-05-13T12:37:17.314Z"
+  }
 }
