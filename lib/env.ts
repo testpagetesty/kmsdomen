@@ -46,9 +46,25 @@ export function resolveTeasersHistoryPrefix(): string {
   return raw.replace(/^\/+|\/+$/g, "").trim();
 }
 
+/**
+ * Пройденные новые домены (JSON: нормализованный домен → ISO дата).
+ * GITHUB_PASSED_DOMAINS_PREFIX не задан → "passed-domains"
+ */
+export function resolvePassedDomainsPrefix(): string {
+  const raw = process.env.GITHUB_PASSED_DOMAINS_PREFIX;
+  if (raw === undefined || raw === null) return "passed-domains";
+  return raw.replace(/^\/+|\/+$/g, "").trim();
+}
+
 /** Строит полный путь к файлу страны */
 export function countryFilePath(prefix: string, code: string) {
   return prefix ? `${prefix}/${code}.txt` : `${code}.txt`;
+}
+
+/** JSON по стране, например passed-domains/de.json */
+export function countryJsonFilePath(prefix: string, code: string) {
+  const base = prefix ? `${prefix}/${code}` : `${code}`;
+  return `${base}.json`;
 }
 
 /** Если задано — сохранение только с заголовком Authorization: Bearer <пароль> */

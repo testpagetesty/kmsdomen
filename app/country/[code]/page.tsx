@@ -2,12 +2,23 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCountryByCode } from "@/data/countries";
 import { CountryPageTabs } from "@/components/CountryPageTabs";
-import { resolveDomainsPrefix, resolveTeasersPrefix, countryFilePath } from "@/lib/env";
+import {
+  resolveDomainsPrefix,
+  resolveTeasersPrefix,
+  resolvePassedDomainsPrefix,
+  countryFilePath,
+  countryJsonFilePath,
+} from "@/lib/env";
 
 type Props = {
   params: Promise<{ code: string }>;
   searchParams: Promise<{ tab?: string }>;
 };
+
+function tabFromSearch(tab: string | undefined): string | undefined {
+  if (tab === "teasers" || tab === "passed") return tab;
+  return undefined;
+}
 
 export default async function CountryPage(props: Props) {
   const { code: raw } = await props.params;
@@ -19,12 +30,21 @@ export default async function CountryPage(props: Props) {
 
   const domainsFile = countryFilePath(resolveDomainsPrefix(), country.code);
   const teasersFile = countryFilePath(resolveTeasersPrefix(), country.code);
+  const passedFile = countryJsonFilePath(resolvePassedDomainsPrefix(), country.code);
+
+  const initialTab = tabFromSearch(tab);
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
       <nav className="mb-6 text-sm">
         <Link
-          href={tab === "teasers" ? "/?section=teasers" : "/"}
+          href={
+            initialTab === "teasers"
+              ? "/?section=teasers"
+              : initialTab === "passed"
+                ? "/?section=passed"
+                : "/"
+          }
           className="text-blue-400 hover:text-blue-300"
           prefetch={false}
         >
@@ -41,14 +61,14 @@ export default async function CountryPage(props: Props) {
             {"  "}
             <span className="font-medium text-gray-400">Домены с тизерами:</span>{" "}
             <code className="rounded bg-white/10 px-1.5 py-0.5">{teasersFile}</code>
+            {"  "}
+            <span className="font-medium text-gray-400">Пройденные:</span>{" "}
+            <code className="rounded bg-white/10 px-1.5 py-0.5">{passedFile}</code>
           </p>
         </div>
       </header>
 
-      <CountryPageTabs
-        countryCode={country.code}
-        initialTab={tab === "teasers" ? "teasers" : "domains"}
-      />
+      <CountryPageTabs countryCode={country.code} initialTab={initialTab} />
     </div>
   );
 }
