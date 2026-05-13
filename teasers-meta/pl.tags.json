@@ -1,14 +1,39 @@
 {
-  "bzi.ro": "news",
-  "defence24.pl": "nutra",
-  "rmf.fm": "crypt",
-  "blitz.bg": "crypt",
-  "standartnews.com": "crypt",
-  "historia.dorzeczy.pl": "news",
-  "dorzeczy.pl": "news",
-  "wprost.pl": "news",
-  "newsmed.pl": "news",
-  "rp.pl": "news",
-  "wnp.pl": "news",
-  "biznesinfo.pl": "news"
+  "bzi.ro": {
+    "vertical": "news",
+    "updatedAt": "2026-05-13T17:29:51.572Z"
+  },
+  "defence24.pl": {
+    "vertical": "nutra"
+  },
+  "rmf.fm": {
+    "vertical": "crypt"
+  },
+  "blitz.bg": {
+    "vertical": "crypt"
+  },
+  "standartnews.com": {
+    "vertical": "crypt"
+  },
+  "historia.dorzeczy.pl": {
+    "vertical": "news"
+  },
+  "dorzeczy.pl": {
+    "vertical": "news"
+  },
+  "wprost.pl": {
+    "vertical": "news"
+  },
+  "newsmed.pl": {
+    "vertical": "news"
+  },
+  "rp.pl": {
+    "vertical": "news"
+  },
+  "wnp.pl": {
+    "vertical": "news"
+  },
+  "biznesinfo.pl": {
+    "vertical": "news"
+  }
 }
