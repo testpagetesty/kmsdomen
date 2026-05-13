@@ -3,10 +3,21 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DateRangePicker } from "@/components/DateRangePicker";
 import { VERTICALS } from "@/data/verticals";
+import { parseTeaserTagsJson, type TeaserTagMeta } from "@/lib/teaserTags";
 
 type Props = { countryCode: string };
 
-type HistoryEvent = { domain: string; addedAt?: string; removedAt?: string };
+type HistoryEvent = {
+  domain: string;
+  addedAt?: string;
+  removedAt?: string;
+  updatedAt?: string;
+  action?: string;
+};
+
+function verticalOf(tags: Record<string, TeaserTagMeta>, domain: string): string {
+  return tags[domain]?.vertical ?? "other";
+}
 
 const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
 
@@ -38,7 +49,7 @@ export function TeaserEditor({ countryCode }: Props) {
   const [addText, setAddText] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
-  const [tags, setTags] = useState<Record<string, string>>({});
+  const [tags, setTags] = useState<Record<string, TeaserTagMeta>>({});
 
   // История добавлений по датам (для фильтра)
   const [historyLoading, setHistoryLoading] = useState(false);
@@ -51,10 +62,10 @@ export function TeaserEditor({ countryCode }: Props) {
     setMessage(null);
     try {
       const res = await fetch(`/api/teasers/${countryCode}`, { cache: "no-store" });
-      const data = (await res.json()) as { lines?: string[]; tags?: Record<string, string>; error?: string };
+      const data = (await res.json()) as { lines?: string[]; tags?: unknown; error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setLines(data.lines ?? []);
-      setTags(data.tags ?? {});
+      setTags(parseTeaserTagsJson(JSON.stringify(data.tags ?? {})));
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка загрузки" });
     } finally {
@@ -87,7 +98,7 @@ export function TeaserEditor({ countryCode }: Props) {
     const q = filterQuery.trim().toLowerCase();
     return lines.filter((l) => {
       if (verticalFilter !== "all") {
-        const v = tags[l] ?? "other";
+        const v = verticalOf(tags, l);
         if (v !== verticalFilter) return false;
       }
       if (!q) return true;
@@ -102,8 +113,8 @@ export function TeaserEditor({ countryCode }: Props) {
     const order = new Map<string, number>();
     VERTICALS.filter((v) => v.id !== "all").forEach((v, i) => order.set(v.id, i));
     return [...filtered].sort((a, b) => {
-      const va = tags[a] ?? "other";
-      const vb = tags[b] ?? "other";
+      const va = verticalOf(tags, a);
+      const vb = verticalOf(tags, b);
       const oa = order.get(va) ?? 999;
       const ob = order.get(vb) ?? 999;
       if (oa !== ob) return oa - ob;
@@ -112,29 +123,21 @@ export function TeaserEditor({ countryCode }: Props) {
     });
   }, [filtered, verticalFilter, tags]);
 
-  const addedAtByDomain = useMemo(() => {
-    // берём самое раннее добавление (если вдруг домен попадал несколько раз)
-    const map = new Map<string, string>();
-    for (let i = events.length - 1; i >= 0; i--) {
-      const e = events[i];
-      if (e.addedAt && !map.has(e.domain)) map.set(e.domain, e.addedAt);
-    }
-    return map;
-  }, [events]);
-
   const byDay = useMemo(() => {
-    const agg = new Map<string, { added: number; removed: number; net: number }>();
+    const agg = new Map<string, { added: number; removed: number; updated: number; net: number }>();
     for (const e of events) {
-      const iso = e.addedAt ?? e.removedAt;
+      const iso = e.addedAt ?? e.removedAt ?? e.updatedAt;
       if (!iso) continue;
       const day = formatIsoPlus3(iso).slice(0, 10);
-      const cur = agg.get(day) ?? { added: 0, removed: 0, net: 0 };
+      const cur = agg.get(day) ?? { added: 0, removed: 0, updated: 0, net: 0 };
       if (e.addedAt) {
         cur.added += 1;
         cur.net += 1;
       } else if (e.removedAt) {
         cur.removed += 1;
         cur.net -= 1;
+      } else if (e.updatedAt && e.action === "update") {
+        cur.updated += 1;
       }
       agg.set(day, cur);
     }
@@ -162,12 +165,23 @@ export function TeaserEditor({ countryCode }: Props) {
         headers: authHeaders(),
         body: JSON.stringify({ add: toAdd, vertical: addVertical }),
       });
-      const data = (await res.json()) as { ok?: boolean; added?: number; total?: number; message?: string; error?: string };
+      const data = (await res.json()) as {
+        ok?: boolean;
+        added?: number;
+        updated?: number;
+        total?: number;
+        message?: string;
+        error?: string;
+      };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
 
-      const msg = data.added === 0
-        ? (data.message ?? "Все домены уже есть в списке")
-        : `Добавлено: ${data.added}. Всего в списке: ${data.total}`;
+      const parts: string[] = [];
+      if ((data.added ?? 0) > 0) parts.push(`Новых: ${data.added}`);
+      if ((data.updated ?? 0) > 0) parts.push(`Обновлено: ${data.updated}`);
+      const msg =
+        parts.length > 0
+          ? `${parts.join(". ")}. Всего в списке: ${data.total ?? "—"}`
+          : (data.message ?? "Нет изменений");
       setMessage({ type: "ok", text: msg });
       setAddText("");
       await load();
@@ -265,6 +279,7 @@ export function TeaserEditor({ countryCode }: Props) {
                   <th className="py-2 pr-4 font-medium">Дата</th>
                   <th className="py-2 pr-4 font-medium">Добавлено</th>
                   <th className="py-2 pr-4 font-medium">Удалено</th>
+                  <th className="py-2 pr-4 font-medium">Обновлено</th>
                   <th className="py-2 pr-4 font-medium">Итого</th>
                 </tr>
               </thead>
@@ -274,6 +289,7 @@ export function TeaserEditor({ countryCode }: Props) {
                     <td className="py-2 pr-4 font-mono text-gray-200">{day}</td>
                     <td className="py-2 pr-4 tabular-nums text-gray-200">{c.added}</td>
                     <td className="py-2 pr-4 tabular-nums text-gray-200">{c.removed}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{c.updated}</td>
                     <td className="py-2 pr-4 tabular-nums text-gray-200">{c.net}</td>
                   </tr>
                 ))}
@@ -374,12 +390,17 @@ export function TeaserEditor({ countryCode }: Props) {
                     <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
                       Вертикаль:{" "}
                       <span className="rounded-full bg-white/10 px-2 py-0.5 font-semibold text-gray-200">
-                        {VERTICALS.find((v) => v.id === (tags[domain] ?? "other"))?.label ?? "Другое"}
+                        {VERTICALS.find((v) => v.id === verticalOf(tags, domain))?.label ?? "Другое"}
                       </span>
-                      {"  "}
+                      {" · "}
                       Добавлен:{" "}
                       <span className="font-mono">
-                        {addedAtByDomain.get(domain) ? formatIsoPlus3(addedAtByDomain.get(domain)!) : "—"}
+                        {tags[domain]?.addedAt ? formatIsoPlus3(tags[domain].addedAt!) : "—"}
+                      </span>
+                      {" · "}
+                      Обновлён:{" "}
+                      <span className="font-mono">
+                        {tags[domain]?.updatedAt ? formatIsoPlus3(tags[domain].updatedAt!) : "—"}
                       </span>
                     </div>
                   </div>
@@ -418,7 +439,7 @@ export function TeaserEditor({ countryCode }: Props) {
           Добавить домены
         </label>
         <p className="mb-3 text-xs" style={{ color: "var(--muted)" }}>
-          Вставьте один или несколько доменов — каждый с новой строки. Дубликаты игнорируются автоматически.
+          Вставьте один или несколько доменов — каждый с новой строки. Уже в списке — обновятся вертикаль и дата обновления; новые дописываются в конец.
         </p>
         <div className="mb-4 grid gap-3 sm:grid-cols-2">
           <div>

@@ -8,7 +8,8 @@ export const dynamic = "force-dynamic";
 
 type AddEvent = { domain: string; addedAt: string };
 type RemoveEvent = { domain: string; removedAt: string };
-type Event = AddEvent | RemoveEvent;
+type UpdateEvent = { domain: string; updatedAt: string; action: "update" };
+type Event = AddEvent | RemoveEvent | UpdateEvent;
 
 // Фиксированный часовой пояс сервиса: UTC+3
 const TZ_OFFSET_MIN = 180;
@@ -56,8 +57,8 @@ function withinRange(iso: string, from: Date | null, to: Date | null): boolean {
 /**
  * GET /api/teasers/[code]/history?from=YYYY-MM-DD&to=YYYY-MM-DD
  * Возвращает:
- * - events: [{domain, addedAt|removedAt}]
- * - byDay: { "2026-05-11": { added: 12, removed: 3, net: 9 }, ... }
+ * - events: [{domain, addedAt|removedAt|updatedAt + action:"update"}]
+ * - byDay: { "2026-05-11": { added, removed, updated, net }, ... } (net = added − removed)
  */
 export async function GET(req: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   try {
@@ -74,11 +75,11 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ code: strin
     const lines = text.split("\n").map((l) => l.trim()).filter(Boolean);
 
     const events: Event[] = [];
-    const byDay: Record<string, { added: number; removed: number; net: number }> = {};
+    const byDay: Record<string, { added: number; removed: number; updated: number; net: number }> = {};
 
     for (const line of lines) {
       try {
-        const e = JSON.parse(line) as Partial<AddEvent & RemoveEvent>;
+        const e = JSON.parse(line) as Partial<AddEvent & RemoveEvent & UpdateEvent>;
         if (typeof e.domain !== "string") continue;
 
         if (typeof e.addedAt === "string") {
@@ -86,7 +87,7 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ code: strin
           events.push({ domain: e.domain, addedAt: e.addedAt });
           const key = toDateKey(e.addedAt);
           if (key) {
-            const cur = byDay[key] ?? { added: 0, removed: 0, net: 0 };
+            const cur = byDay[key] ?? { added: 0, removed: 0, updated: 0, net: 0 };
             cur.added += 1;
             cur.net += 1;
             byDay[key] = cur;
@@ -99,9 +100,21 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ code: strin
           events.push({ domain: e.domain, removedAt: e.removedAt });
           const key = toDateKey(e.removedAt);
           if (key) {
-            const cur = byDay[key] ?? { added: 0, removed: 0, net: 0 };
+            const cur = byDay[key] ?? { added: 0, removed: 0, updated: 0, net: 0 };
             cur.removed += 1;
             cur.net -= 1;
+            byDay[key] = cur;
+          }
+          continue;
+        }
+
+        if (typeof e.updatedAt === "string" && e.action === "update") {
+          if (!withinRange(e.updatedAt, from, to)) continue;
+          events.push({ domain: e.domain, updatedAt: e.updatedAt, action: "update" });
+          const key = toDateKey(e.updatedAt);
+          if (key) {
+            const cur = byDay[key] ?? { added: 0, removed: 0, updated: 0, net: 0 };
+            cur.updated += 1;
             byDay[key] = cur;
           }
           continue;
@@ -113,8 +126,8 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ code: strin
 
     // сортировка по времени (новые сверху)
     events.sort((a, b) => {
-      const ta = "addedAt" in a ? a.addedAt : a.removedAt;
-      const tb = "addedAt" in b ? b.addedAt : b.removedAt;
+      const ta = "addedAt" in a ? a.addedAt : "removedAt" in a ? a.removedAt : a.updatedAt;
+      const tb = "addedAt" in b ? b.addedAt : "removedAt" in b ? b.removedAt : b.updatedAt;
       return ta < tb ? 1 : ta > tb ? -1 : 0;
     });
 

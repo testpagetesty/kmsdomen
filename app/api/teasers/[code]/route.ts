@@ -9,6 +9,11 @@ import {
   countryFilePath,
 } from "@/lib/env";
 import { fetchRepoFile, putRepoFile } from "@/lib/github";
+import {
+  parseTeaserTagsJson,
+  serializeTeaserTags,
+  type TeaserTagMeta,
+} from "@/lib/teaserTags";
 
 export const dynamic = "force-dynamic";
 
@@ -24,7 +29,8 @@ function parseLines(text: string): string[] {
 
 type TeasersHistoryEvent =
   | { domain: string; addedAt: string } // ISO 8601
-  | { domain: string; removedAt: string }; // ISO 8601
+  | { domain: string; removedAt: string } // ISO 8601
+  | { domain: string; updatedAt: string; action: "update" }; // ISO 8601
 
 function historyPathForCountry(code: string) {
   // JSONL: 1 запись = 1 строка
@@ -32,7 +38,7 @@ function historyPathForCountry(code: string) {
 }
 
 function tagsPathForCountry(code: string) {
-  // JSON: { "example.com": "nutra", ... }
+  // JSON: { "example.com": { vertical, addedAt?, updatedAt? } } или legacy string
   return countryFilePath(resolveTeasersHistoryPrefix(), code).replace(/\.txt$/i, ".tags.json");
 }
 
@@ -61,13 +67,11 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
     const path = countryFilePath(resolveTeasersPrefix(), code);
     const { text } = await fetchRepoFile(path);
     const lines = parseLines(text);
-    // tags опционально
-    let tags: Record<string, string> = {};
+    let tags: Record<string, TeaserTagMeta> = {};
     try {
       const tPath = tagsPathForCountry(code);
       const { text: tText } = await fetchRepoFile(tPath);
-      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
-      if (parsed && typeof parsed === "object") tags = parsed as Record<string, string>;
+      tags = parseTeaserTagsJson(tText ?? "");
     } catch {
       tags = {};
     }
@@ -80,7 +84,7 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
   }
 }
 
-/** PUT /api/teasers/[code] body: { add: string[], vertical?: string } → дописывает новые уникальные строки */
+/** PUT /api/teasers/[code] body: { add: string[], vertical?: string } — новые домены дописываются; уже в списке — обновляются вертикаль и updatedAt */
 export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkAuth(request);
   if (denied) return denied;
@@ -96,9 +100,13 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     }
     const vertical = isVerticalId(body.vertical) ? body.vertical : "other";
 
-    const toAdd = (body.add as unknown[])
-      .filter((d): d is string => typeof d === "string" && d.trim().length > 0)
-      .map((d) => d.trim());
+    const toAdd = [
+      ...new Set(
+        (body.add as unknown[])
+          .filter((d): d is string => typeof d === "string" && d.trim().length > 0)
+          .map((d) => d.trim()),
+      ),
+    ];
 
     if (toAdd.length === 0) {
       return NextResponse.json({ error: "Список доменов для добавления пустой" }, { status: 400 });
@@ -107,42 +115,80 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     const path = countryFilePath(resolveTeasersPrefix(), code);
     const { text, sha } = await fetchRepoFile(path);
     const existing = new Set(parseLines(text));
-    const newOnes = toAdd.filter((d) => !existing.has(d));
+    const now = toIsoNow();
 
-    if (newOnes.length === 0) {
-      return NextResponse.json({ ok: true, added: 0, total: existing.size, message: "Все домены уже есть в списке" });
-    }
-
-    const allLines = [...existing, ...newOnes];
-    await putRepoFile(path, allLines.join("\n") + "\n", sha || undefined);
-
-    // Теги вертикалей (JSON) — присваиваем вертикаль всем новым доменам
+    const newOnes: string[] = [];
+    const updated: string[] = [];
+    let tags: Record<string, TeaserTagMeta> = {};
     try {
       const tPath = tagsPathForCountry(code);
-      const { text: tText, sha: tSha } = await fetchRepoFile(tPath);
-      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
-      const tags: Record<string, string> =
-        parsed && typeof parsed === "object" ? (parsed as Record<string, string>) : {};
-
-      for (const d of newOnes) tags[d] = vertical;
-      await putRepoFile(tPath, JSON.stringify(tags, null, 2) + "\n", tSha || undefined);
+      const { text: tText } = await fetchRepoFile(tPath);
+      tags = parseTeaserTagsJson(tText ?? "");
     } catch {
-      // не блокируем добавление
+      tags = {};
     }
 
-    // История добавлений (JSONL) — пишем только новые домены
+    const touched: Record<string, TeaserTagMeta> = {};
+    for (const d of toAdd) {
+      if (!existing.has(d)) {
+        newOnes.push(d);
+        touched[d] = { vertical, addedAt: now, updatedAt: now };
+      } else {
+        updated.push(d);
+        const prev = tags[d];
+        touched[d] = {
+          vertical,
+          ...(prev?.addedAt ? { addedAt: prev.addedAt } : {}),
+          updatedAt: now,
+        };
+      }
+    }
+
+    if (newOnes.length > 0) {
+      const allLines = [...existing, ...newOnes];
+      await putRepoFile(path, allLines.join("\n") + "\n", sha || undefined);
+    }
+
+    if (newOnes.length > 0 || updated.length > 0) {
+      try {
+        const tPath = tagsPathForCountry(code);
+        const { text: tText, sha: tSha } = await fetchRepoFile(tPath);
+        const onDisk = parseTeaserTagsJson(tText ?? "");
+        for (const d of toAdd) {
+          if (touched[d]) onDisk[d] = touched[d];
+        }
+        await putRepoFile(tPath, serializeTeaserTags(onDisk), tSha || undefined);
+      } catch {
+        // не блокируем
+      }
+    }
+
+    // История (JSONL): новые — addedAt; существующие — update
     try {
       const hPath = historyPathForCountry(code);
       const { text: hText, sha: hSha } = await fetchRepoFile(hPath);
-      const now = toIsoNow();
-      const events: TeasersHistoryEvent[] = newOnes.map((domain) => ({ domain, addedAt: now }));
-      const append = events.map((e) => JSON.stringify(e)).join("\n") + "\n";
-      await putRepoFile(hPath, (hText ?? "") + append, hSha || undefined);
+      const addEvents: TeasersHistoryEvent[] = newOnes.map((domain) => ({ domain, addedAt: now }));
+      const updEvents: TeasersHistoryEvent[] = updated.map((domain) => ({
+        domain,
+        updatedAt: now,
+        action: "update" as const,
+      }));
+      const append = [...addEvents, ...updEvents].map((e) => JSON.stringify(e)).join("\n") + "\n";
+      if (newOnes.length + updated.length > 0) {
+        await putRepoFile(hPath, (hText ?? "") + append, hSha || undefined);
+      }
     } catch {
-      // История не критична для основного списка — не блокируем добавление
+      // не блокируем
     }
 
-    return NextResponse.json({ ok: true, added: newOnes.length, total: allLines.length });
+    const totalLines = newOnes.length > 0 ? existing.size + newOnes.length : existing.size;
+
+    return NextResponse.json({
+      ok: true,
+      added: newOnes.length,
+      updated: updated.length,
+      total: totalLines,
+    });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Ошибка сохранения" },
@@ -177,12 +223,10 @@ export async function DELETE(request: NextRequest, ctx: { params: Promise<{ code
     try {
       const tPath = tagsPathForCountry(code);
       const { text: tText, sha: tSha } = await fetchRepoFile(tPath);
-      const parsed = tText ? (JSON.parse(tText) as unknown) : {};
-      const tags: Record<string, string> =
-        parsed && typeof parsed === "object" ? (parsed as Record<string, string>) : {};
+      const tags = parseTeaserTagsJson(tText ?? "");
       if (toRemove in tags) {
         delete tags[toRemove];
-        await putRepoFile(tPath, JSON.stringify(tags, null, 2) + "\n", tSha || undefined);
+        await putRepoFile(tPath, serializeTeaserTags(tags), tSha || undefined);
       }
     } catch {
       // не блокируем удаление
