@@ -1,6 +1,19 @@
 {
-  "adevarul.ro": "vsl",
-  "newsweek.ro": "vsl",
-  "stiripesurse.ro": "vsl",
-  "hotnews.ro": "crypt"
+  "adevarul.ro": {
+    "vertical": "vsl"
+  },
+  "newsweek.ro": {
+    "vertical": "vsl"
+  },
+  "stiripesurse.ro": {
+    "vertical": "vsl"
+  },
+  "hotnews.ro": {
+    "vertical": "crypt"
+  },
+  "ziaruldeiasi.ro": {
+    "vertical": "vsl",
+    "addedAt": "2026-05-13T15:13:10.613Z",
+    "updatedAt": "2026-05-13T15:13:10.613Z"
+  }
 }
