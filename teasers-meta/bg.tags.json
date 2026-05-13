@@ -1,19 +1,54 @@
 {
-  "marica.bg": "news",
-  "stolica.bg": "news",
-  "dnevnik.bg": "news",
-  "dariknews.bg": "news",
-  "dnes.dir.bg": "news",
-  "bgonair.bg": "news",
-  "agri.bg": "news",
-  "trud.bg": "news",
-  "actualno.com": "nutra",
-  "dir.bg": "nutra",
-  "offnews.bg": "nutra",
-  "investor.bg": "nutra",
-  "recepti.ezine.bg": "nutra",
-  "btvnovinite.bg": "nutra",
-  "trafficnews.bg": "vsl",
-  "novini.bg": "nutra",
-  "zdrave.to": "nutra"
+  "marica.bg": {
+    "vertical": "news"
+  },
+  "stolica.bg": {
+    "vertical": "news"
+  },
+  "dnevnik.bg": {
+    "vertical": "news"
+  },
+  "dariknews.bg": {
+    "vertical": "news"
+  },
+  "dnes.dir.bg": {
+    "vertical": "news"
+  },
+  "bgonair.bg": {
+    "vertical": "news"
+  },
+  "agri.bg": {
+    "vertical": "nutra",
+    "updatedAt": "2026-05-13T13:07:10.835Z"
+  },
+  "trud.bg": {
+    "vertical": "news"
+  },
+  "actualno.com": {
+    "vertical": "nutra"
+  },
+  "dir.bg": {
+    "vertical": "nutra"
+  },
+  "offnews.bg": {
+    "vertical": "nutra"
+  },
+  "investor.bg": {
+    "vertical": "nutra"
+  },
+  "recepti.ezine.bg": {
+    "vertical": "nutra"
+  },
+  "btvnovinite.bg": {
+    "vertical": "nutra"
+  },
+  "trafficnews.bg": {
+    "vertical": "vsl"
+  },
+  "novini.bg": {
+    "vertical": "nutra"
+  },
+  "zdrave.to": {
+    "vertical": "nutra"
+  }
 }
