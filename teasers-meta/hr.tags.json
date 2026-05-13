@@ -1,15 +1,42 @@
 {
-  "jutarnji.hr": "nutra",
-  "index.hr": "nutra",
-  "nezavisne.com": "nutra",
-  "zagorje.com": "nutra",
-  "podravski.hr": "nutra",
-  "24sata.hr": "nutra",
-  "vecernji.hr": "nutra",
-  "sensa.story.hr": "nutra",
-  "slobodnadalmacija.hr": "nutra",
-  "lika-online.hr": "nutra",
-  "ridgequarry.sbs": "nutra",
-  "headlix.org": "crypt",
-  "localridge.sbs": "crypt"
+  "jutarnji.hr": {
+    "vertical": "nutra"
+  },
+  "index.hr": {
+    "vertical": "nutra"
+  },
+  "nezavisne.com": {
+    "vertical": "nutra"
+  },
+  "zagorje.com": {
+    "vertical": "nutra"
+  },
+  "podravski.hr": {
+    "vertical": "nutra"
+  },
+  "24sata.hr": {
+    "vertical": "nutra",
+    "updatedAt": "2026-05-13T11:48:42.529Z"
+  },
+  "vecernji.hr": {
+    "vertical": "nutra"
+  },
+  "sensa.story.hr": {
+    "vertical": "nutra"
+  },
+  "slobodnadalmacija.hr": {
+    "vertical": "nutra"
+  },
+  "lika-online.hr": {
+    "vertical": "nutra"
+  },
+  "ridgequarry.sbs": {
+    "vertical": "nutra"
+  },
+  "headlix.org": {
+    "vertical": "crypt"
+  },
+  "localridge.sbs": {
+    "vertical": "crypt"
+  }
 }
