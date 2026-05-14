@@ -1,8 +1,21 @@
 {
-  "primainspirace.cz": "news",
-  "nejrecept.cz": "news",
-  "kvety.cz": "crypt",
-  "karlovarsky.denik.cz": "crypt",
-  "sensiblebittern.autos": "crypt",
-  "toprecepty.cz": "vsl"
+  "primainspirace.cz": {
+    "vertical": "news"
+  },
+  "nejrecept.cz": {
+    "vertical": "news"
+  },
+  "kvety.cz": {
+    "vertical": "news",
+    "updatedAt": "2026-05-14T17:44:04.358Z"
+  },
+  "karlovarsky.denik.cz": {
+    "vertical": "crypt"
+  },
+  "sensiblebittern.autos": {
+    "vertical": "crypt"
+  },
+  "toprecepty.cz": {
+    "vertical": "vsl"
+  }
 }
