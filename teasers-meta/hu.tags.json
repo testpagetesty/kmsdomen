@@ -1,6 +1,19 @@
 {
-  "buzzfeedo.com": "news",
-  "kiskegyed.hu": "nutra",
-  "termalonline.hu": "nutra",
-  "nlc.hu": "nutra"
+  "buzzfeedo.com": {
+    "vertical": "news"
+  },
+  "kiskegyed.hu": {
+    "vertical": "nutra"
+  },
+  "termalonline.hu": {
+    "vertical": "nutra"
+  },
+  "nlc.hu": {
+    "vertical": "nutra"
+  },
+  "cosehui.com": {
+    "vertical": "gambling",
+    "addedAt": "2026-08-04T12:11:29.466Z",
+    "updatedAt": "2026-08-04T12:11:29.466Z"
+  }
 }
