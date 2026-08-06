@@ -6,12 +6,14 @@ type Ymd = string; // YYYY-MM-DD
 
 export type DateRange = { from: Ymd; to: Ymd };
 
-type PresetId = "today" | "last7" | "last30" | "thisMonth";
+type PresetId = "today" | "yesterday" | "last7" | "last30" | "thisWeek" | "thisMonth";
 
 type Props = {
   value: DateRange;
   onChange: (next: DateRange) => void;
   presets?: PresetId[];
+  /** Подпись над полем */
+  label?: string;
 };
 
 const RU_MONTHS = [
@@ -86,7 +88,12 @@ function formatRangeLabel(r: DateRange): string {
   return `${r.from} → ${r.to}`;
 }
 
-export function DateRangePicker({ value, onChange, presets = ["today", "last7", "last30", "thisMonth"] }: Props) {
+export function DateRangePicker({
+  value,
+  onChange,
+  presets = ["today", "yesterday", "last7", "last30", "thisWeek", "thisMonth"],
+  label = "Период",
+}: Props) {
   const rootRef = useRef<HTMLDivElement | null>(null);
   const [open, setOpen] = useState(false);
   const [mode, setMode] = useState<"from" | "to">("from");
@@ -152,8 +159,20 @@ export function DateRangePicker({ value, onChange, presets = ["today", "last7", 
     const now = new Date();
     const today = toYmd(now); // TZ+3
     if (id === "today") onChange({ from: today, to: today });
+    if (id === "yesterday") {
+      const y = toYmd(addDaysUtc(parseYmd(today), -1));
+      onChange({ from: y, to: y });
+    }
     if (id === "last7") onChange({ from: toYmd(addDaysUtc(parseYmd(today), -6)), to: today });
     if (id === "last30") onChange({ from: toYmd(addDaysUtc(parseYmd(today), -29)), to: today });
+    if (id === "thisWeek") {
+      // Понедельник текущей недели (UTC+3)
+      const shifted = new Date(now.getTime() + TZ_OFFSET_MS);
+      const js = shifted.getUTCDay(); // 0=Sun
+      const monOffset = js === 0 ? -6 : 1 - js;
+      const monday = toYmd(addDaysUtc(parseYmd(today), monOffset));
+      onChange({ from: monday, to: today });
+    }
     if (id === "thisMonth") {
       const first = monthStartUtc(now);
       onChange({ from: toYmd(first), to: today });
@@ -176,7 +195,7 @@ export function DateRangePicker({ value, onChange, presets = ["today", "last7", 
   return (
     <div ref={rootRef} className="relative">
       <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>
-        Дата добавления
+        {label}
       </label>
       <button
         type="button"
@@ -199,7 +218,6 @@ export function DateRangePicker({ value, onChange, presets = ["today", "last7", 
           role="dialog"
           aria-label="Выбор периода"
         >
-          {/* Presets */}
           <div className="mb-3 flex flex-wrap gap-2">
             {presets.includes("today") && (
               <button
@@ -209,6 +227,26 @@ export function DateRangePicker({ value, onChange, presets = ["today", "last7", 
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
                 Сегодня
+              </button>
+            )}
+            {presets.includes("yesterday") && (
+              <button
+                type="button"
+                onClick={() => applyPreset("yesterday")}
+                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+              >
+                Вчера
+              </button>
+            )}
+            {presets.includes("thisWeek") && (
+              <button
+                type="button"
+                onClick={() => applyPreset("thisWeek")}
+                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+              >
+                Эта неделя
               </button>
             )}
             {presets.includes("last7") && (

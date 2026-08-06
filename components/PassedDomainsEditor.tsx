@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { DateRangePicker, type DateRange } from "@/components/DateRangePicker";
 
 type Props = { countryCode: string };
 
@@ -11,6 +12,20 @@ const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
 const FAST_THRESHOLD_MS = 3 * 60 * 1000;
 /** Больше этого между отметками — считаем началом новой сессии (не время на домен) */
 const SESSION_GAP_MS = 2 * 60 * 60 * 1000;
+
+function dateToYmd(d: Date): string {
+  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
+  const y = shifted.getUTCFullYear();
+  const m = String(shifted.getUTCMonth() + 1).padStart(2, "0");
+  const day = String(shifted.getUTCDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}
+
+function isoToDayKey(iso: string): string | null {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return dateToYmd(d);
+}
 
 function formatIsoPlus3(iso: string): string {
   const d = new Date(iso);
@@ -59,6 +74,12 @@ function durationMapFor(entries: Entry[]): Map<string, number | null> {
   return map;
 }
 
+function inDateRange(iso: string, from: string, to: string): boolean {
+  const day = isoToDayKey(iso);
+  if (!day) return false;
+  return day >= from && day <= to;
+}
+
 export function PassedDomainsEditor({ countryCode }: Props) {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -67,6 +88,10 @@ export function PassedDomainsEditor({ countryCode }: Props) {
   const [password, setPassword] = useState("");
   const [selected, setSelected] = useState<Set<string>>(() => new Set());
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
+  const [range, setRange] = useState<DateRange>(() => {
+    const today = dateToYmd(new Date());
+    return { from: today, to: today };
+  });
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -88,13 +113,50 @@ export function PassedDomainsEditor({ countryCode }: Props) {
     load();
   }, [load]);
 
+  const durations = useMemo(() => durationMapFor(entries), [entries]);
+
+  const inPeriod = useMemo(
+    () => entries.filter((e) => inDateRange(e.passedAt, range.from, range.to)),
+    [entries, range.from, range.to],
+  );
+
   const filtered = useMemo(() => {
     const q = filterQuery.trim().toLowerCase();
-    if (!q) return entries;
-    return entries.filter((e) => e.domain.toLowerCase().includes(q));
-  }, [entries, filterQuery]);
+    if (!q) return inPeriod;
+    return inPeriod.filter((e) => e.domain.toLowerCase().includes(q));
+  }, [inPeriod, filterQuery]);
 
-  const durations = useMemo(() => durationMapFor(entries), [entries]);
+  const report = useMemo(() => {
+    let fast = 0;
+    let timed = 0;
+    let sumMs = 0;
+    const byDay = new Map<string, { count: number; fast: number }>();
+
+    for (const e of inPeriod) {
+      const day = isoToDayKey(e.passedAt) ?? "—";
+      const cur = byDay.get(day) ?? { count: 0, fast: 0 };
+      cur.count += 1;
+
+      const dur = durations.get(e.domain);
+      if (typeof dur === "number") {
+        timed += 1;
+        sumMs += dur;
+        if (dur < FAST_THRESHOLD_MS) {
+          fast += 1;
+          cur.fast += 1;
+        }
+      }
+      byDay.set(day, cur);
+    }
+
+    return {
+      total: inPeriod.length,
+      fast,
+      timed,
+      avgMs: timed > 0 ? Math.round(sumMs / timed) : null,
+      byDay: Array.from(byDay.entries()).sort((a, b) => (a[0] < b[0] ? -1 : 1)),
+    };
+  }, [inPeriod, durations]);
 
   const filteredDomains = useMemo(() => filtered.map((e) => e.domain), [filtered]);
   const allFilteredSelected =
@@ -171,9 +233,97 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       <div>
         <h2 className="text-base font-semibold text-white">Пройденные домены</h2>
         <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-          Дата отметки (UTC+3) и время с предыдущего прохождения. Меньше 3 минут — красным. Можно
-          вернуть выбранные обратно в «Новые домены».
+          Отчёт по периоду (UTC+3), время на сайте и возврат в «Новые». Меньше 3 минут — красным.
         </p>
+      </div>
+
+      <div
+        className="rounded-xl border p-5"
+        style={{ borderColor: "var(--border)", background: "var(--card)" }}
+      >
+        <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
+          <div>
+            <h3 className="text-sm font-semibold text-white">Отчёт по прохождениям</h3>
+            <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
+              Пресеты или свой диапазон в календаре — список и сводка ниже обновляются сразу.
+            </p>
+          </div>
+          <span className="text-xs" style={{ color: "var(--muted)" }}>
+            В базе: {entries.length}
+          </span>
+        </div>
+
+        <DateRangePicker
+          value={range}
+          onChange={setRange}
+          label="Период прохождения"
+          presets={["today", "yesterday", "thisWeek", "last7", "last30", "thisMonth"]}
+        />
+
+        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+          <div
+            className="rounded-lg border px-4 py-3"
+            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
+          >
+            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
+              Пройдено за период
+            </div>
+            <div className="mt-1 text-2xl font-semibold tabular-nums text-white">{report.total}</div>
+          </div>
+          <div
+            className="rounded-lg border px-4 py-3"
+            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
+          >
+            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
+              Быстрее 3 мин
+            </div>
+            <div
+              className="mt-1 text-2xl font-semibold tabular-nums"
+              style={{ color: report.fast > 0 ? "#f87171" : "#e5e7eb" }}
+            >
+              {report.fast}
+            </div>
+          </div>
+          <div
+            className="rounded-lg border px-4 py-3"
+            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
+          >
+            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
+              Среднее время
+            </div>
+            <div className="mt-1 text-2xl font-semibold tabular-nums text-white">
+              {report.avgMs != null ? formatDuration(report.avgMs) : "—"}
+            </div>
+          </div>
+        </div>
+
+        {report.byDay.length > 0 && (
+          <div className="mt-4 overflow-x-auto">
+            <table className="w-full text-left text-xs">
+              <thead>
+                <tr style={{ color: "var(--muted)" }}>
+                  <th className="py-2 pr-4 font-medium">Дата</th>
+                  <th className="py-2 pr-4 font-medium">Пройдено</th>
+                  <th className="py-2 pr-4 font-medium">Быстрее 3 мин</th>
+                </tr>
+              </thead>
+              <tbody>
+                {report.byDay.map(([day, c]) => (
+                  <tr key={day} className="border-t" style={{ borderColor: "var(--border)" }}>
+                    <td className="py-2 pr-4 font-mono text-gray-200">{day}</td>
+                    <td className="py-2 pr-4 tabular-nums text-gray-200">{c.count}</td>
+                    <td
+                      className="py-2 pr-4 tabular-nums font-semibold"
+                      style={{ color: c.fast > 0 ? "#f87171" : "inherit" }}
+                    >
+                      {c.fast}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        )}
       </div>
 
       <div>
@@ -212,11 +362,11 @@ export function PassedDomainsEditor({ countryCode }: Props) {
         <div className="border-b px-4 py-3" style={{ borderColor: "var(--border)" }}>
           <div className="flex flex-wrap items-center justify-between gap-3">
             <label className="text-xs" style={{ color: "var(--muted)" }}>
-              Поиск по домену
+              Поиск по домену (в выбранном периоде)
             </label>
             {!loading && (
               <span className="text-xs" style={{ color: "var(--muted)" }}>
-                Всего: {entries.length}
+                В периоде: {inPeriod.length}
                 {filterQuery.trim() ? ` · показано: ${filtered.length}` : null}
                 {selected.size > 0 ? ` · выбрано: ${selected.size}` : null}
               </span>
@@ -247,9 +397,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
                 disabled={loading || restoring || selected.size === 0}
                 className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
               >
-                {restoring
-                  ? "Возврат…"
-                  : `Вернуть в «новые» (${selected.size})`}
+                {restoring ? "Возврат…" : `Вернуть в «новые» (${selected.size})`}
               </button>
             </div>
           )}
@@ -264,7 +412,9 @@ export function PassedDomainsEditor({ countryCode }: Props) {
             <p className="py-10 text-center text-sm" style={{ color: "var(--muted)" }}>
               {entries.length === 0
                 ? "Пока нет пройденных — отметьте домены во вкладке «Новые домены»"
-                : "Ничего не найдено"}
+                : inPeriod.length === 0
+                  ? "В выбранном периоде нет прохождений — смените даты в календаре"
+                  : "Ничего не найдено"}
             </p>
           ) : (
             <div className="overflow-x-auto">
