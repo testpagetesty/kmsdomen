@@ -106,21 +106,22 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
       });
       const data = (await res.json()) as {
         ok?: boolean;
-        moved?: number;
-        skippedNotInList?: number;
-        message?: string;
+        domains?: string[];
+        removedFromNew?: number;
+        remainingNew?: number;
         error?: string;
       };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
 
-      const moved = data.moved ?? 0;
-      const skip = data.skippedNotInList ?? 0;
-      let text =
-        moved > 0
-          ? `В «пройденные» перенесено: ${moved}. Осталось в новых: см. список после обновления.`
-          : (data.message ?? "Ничего не перенесено");
-      if (skip > 0 && moved > 0) text += ` Не найдено в списке (уже снято?): ${skip}.`;
-      setMessage({ type: "ok", text });
+      const count = data.domains?.length ?? data.removedFromNew ?? 0;
+      const rem = data.remainingNew;
+      setMessage({
+        type: "ok",
+        text:
+          rem !== undefined
+            ? `В «пройденные» записано: ${count}. Осталось в новых: ${rem}.`
+            : `В «пройденные» записано: ${count}.`,
+      });
       setSelectedIdx(new Set());
       await load();
       onPassedChange?.();

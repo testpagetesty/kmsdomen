@@ -77,8 +77,19 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
 }
 
 /**
- * POST body: { mark: string[] } — домены из «новых» снимаются со списка и попадают в пройденные с текущей датой.
- * Ключ в JSON — нормализованный домен (как в domainNormalize).
+ * POST — перенос домена(ов) в «пройденные» (для веб-UI и Android).
+ *
+ * Body (один из вариантов):
+ *   { "domain": "example.com" }     — один домен (удобно для кнопки в Android)
+ *   { "mark": ["a.com", "b.com"] }  — несколько доменов
+ *
+ * Auth (если задан ADMIN_PASSWORD на сервере):
+ *   Authorization: Bearer <ADMIN_PASSWORD>
+ *
+ * Поведение:
+ *   - домен всегда записывается в passed-domains/{code}.json с текущим ISO-временем;
+ *   - если он ещё есть в countries/{code}.txt («новые») — удаляется оттуда;
+ *   - если уже не в «новых» — всё равно попадает в пройденные (идемпотентно для Android).
  */
 export async function POST(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkWriteAuth(request);
@@ -96,23 +107,30 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       return NextResponse.json({ error: "Некорректный JSON" }, { status: 400 });
     }
 
-    if (typeof body !== "object" || body === null || !("mark" in body)) {
-      return NextResponse.json({ error: "Ожидается поле mark: string[]" }, { status: 400 });
+    if (typeof body !== "object" || body === null) {
+      return NextResponse.json(
+        { error: "Ожидается JSON: { domain: string } или { mark: string[] }" },
+        { status: 400 },
+      );
     }
 
-    const mark = (body as { mark: unknown }).mark;
-    if (!Array.isArray(mark)) {
-      return NextResponse.json({ error: "Поле mark должно быть массивом строк" }, { status: 400 });
+    const b = body as { domain?: unknown; mark?: unknown };
+    const rawList: string[] = [];
+    if (typeof b.domain === "string" && b.domain.trim()) {
+      rawList.push(b.domain.trim());
+    }
+    if (Array.isArray(b.mark)) {
+      for (const x of b.mark) {
+        if (typeof x === "string" && x.trim()) rawList.push(x.trim());
+      }
     }
 
-    const normMarks = new Set(
-      mark
-        .filter((x): x is string => typeof x === "string" && x.trim().length > 0)
-        .map((x) => normalizeDomainLine(x)),
-    );
-
-    if (normMarks.size === 0) {
-      return NextResponse.json({ error: "Список mark пустой" }, { status: 400 });
+    const normMarks = [...new Set(rawList.map(normalizeDomainLine))];
+    if (normMarks.length === 0) {
+      return NextResponse.json(
+        { error: "Укажите domain (строка) или mark (массив строк)" },
+        { status: 400 },
+      );
     }
 
     const domainsPath = countryFilePath(resolveDomainsPrefix(), code);
@@ -121,27 +139,19 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
     const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
     const lines = parseDomainLines(domainText);
 
+    const markSet = new Set(normMarks);
     const kept: string[] = [];
-    const movedNorms = new Set<string>();
+    const removedFromNew: string[] = [];
     for (const line of lines) {
       const n = normalizeDomainLine(line);
-      if (normMarks.has(n)) movedNorms.add(n);
+      if (markSet.has(n)) removedFromNew.push(n);
       else kept.push(line);
-    }
-
-    if (movedNorms.size === 0) {
-      return NextResponse.json({
-        ok: true,
-        moved: 0,
-        skippedNotInList: normMarks.size,
-        message: "Ни один из отмеченных доменов не найден в текущем списке «Новые домены»",
-      });
     }
 
     const { text: passedText, sha: passedSha } = await fetchRepoFile(passedPath);
     const passedMap = parsePassedMap(passedText);
     const now = new Date().toISOString();
-    for (const n of movedNorms) {
+    for (const n of normMarks) {
       passedMap[n] = now;
     }
 
@@ -149,12 +159,20 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
     const domainOut = kept.length > 0 ? `${kept.join("\n")}\n` : "";
 
     await putRepoFile(passedPath, passedOut, passedSha || undefined);
-    await putRepoFile(domainsPath, domainOut, domainSha || undefined);
+    // Обновляем «новые» только если что-то сняли (лишний write не нужен)
+    if (removedFromNew.length > 0) {
+      await putRepoFile(domainsPath, domainOut, domainSha || undefined);
+    }
 
+    const primary = normMarks[0];
     return NextResponse.json({
       ok: true,
-      moved: movedNorms.size,
-      skippedNotInList: normMarks.size - movedNorms.size,
+      code,
+      domain: primary,
+      domains: normMarks,
+      passedAt: now,
+      removedFromNew: removedFromNew.length,
+      alreadyOnlyInPassed: normMarks.length - new Set(removedFromNew).size,
       remainingNew: kept.length,
       passedTotal: Object.keys(passedMap).length,
     });
