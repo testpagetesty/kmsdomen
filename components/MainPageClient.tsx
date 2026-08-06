@@ -1,12 +1,13 @@
 "use client";
 
 import { useRouter, useSearchParams } from "next/navigation";
-import { Suspense, useCallback } from "react";
+import { Suspense, useCallback, useEffect, useState } from "react";
 import { PageTabs } from "@/components/PageTabs";
 import { CountrySearch } from "@/components/CountrySearch";
+import { EmployeeAssignments } from "@/components/EmployeeAssignments";
 import type { Country } from "@/data/countries";
+import { emptyEmployeesData, type EmployeesData } from "@/lib/employees";
 
-/** Первая вкладка — тизеры, новые, пройденные */
 const TABS = [
   { id: "teasers", label: "Домены с тизерами" },
   { id: "domains", label: "Новые домены" },
@@ -16,6 +17,32 @@ const TABS = [
 function MainPageInner({ countries }: { countries: Country[] }) {
   const router = useRouter();
   const searchParams = useSearchParams();
+  const [employeesData, setEmployeesData] = useState<EmployeesData>(emptyEmployeesData);
+  const [empLoading, setEmpLoading] = useState(true);
+
+  useEffect(() => {
+    let cancelled = false;
+    (async () => {
+      setEmpLoading(true);
+      try {
+        const res = await fetch("/api/employees", { cache: "no-store" });
+        const data = (await res.json()) as EmployeesData & { error?: string };
+        if (!cancelled && res.ok) {
+          setEmployeesData({
+            employees: data.employees ?? [],
+            assignments: data.assignments ?? {},
+          });
+        }
+      } catch {
+        // ignore — список стран всё равно работает
+      } finally {
+        if (!cancelled) setEmpLoading(false);
+      }
+    })();
+    return () => {
+      cancelled = true;
+    };
+  }, []);
 
   const section = searchParams.get("section");
   const activeTab =
@@ -47,7 +74,20 @@ function MainPageInner({ countries }: { countries: Country[] }) {
             ? "Домены с тизерами — список проверенных; только добавление и точечное удаление. Выберите страну."
             : "Пройденные домены — перенос из «Новых» с датой отметки. Выберите страну."}
       </p>
-      <CountrySearch countries={countries} linkSuffix={linkSuffix} />
+
+      {!empLoading && (
+        <EmployeeAssignments
+          countries={countries}
+          data={employeesData}
+          onSaved={setEmployeesData}
+        />
+      )}
+
+      <CountrySearch
+        countries={countries}
+        linkSuffix={linkSuffix}
+        employeesData={employeesData}
+      />
     </div>
   );
 }

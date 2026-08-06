@@ -56,6 +56,16 @@ export function resolvePassedDomainsPrefix(): string {
   return raw.replace(/^\/+|\/+$/g, "").trim();
 }
 
+/**
+ * Файл закреплений стран за сотрудниками.
+ * GITHUB_EMPLOYEES_PATH не задан → "config/employees.json"
+ */
+export function resolveEmployeesPath(): string {
+  const raw = process.env.GITHUB_EMPLOYEES_PATH;
+  if (raw === undefined || raw === null || !raw.trim()) return "config/employees.json";
+  return raw.replace(/^\/+|\/+$/g, "").trim();
+}
+
 /** Строит полный путь к файлу страны */
 export function countryFilePath(prefix: string, code: string) {
   return prefix ? `${prefix}/${code}.txt` : `${code}.txt`;
