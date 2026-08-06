@@ -213,17 +213,17 @@ export function DateRangePicker({
 
       {open && (
         <div
-          className="absolute z-50 mt-2 w-full rounded-xl border p-4 shadow-2xl"
+          className="absolute z-50 mt-1.5 w-[280px] max-w-[calc(100vw-2rem)] rounded-xl border p-2.5 shadow-2xl"
           style={{ borderColor: "rgba(59, 130, 246, 0.35)", background: "rgba(15, 20, 25, 0.98)" }}
           role="dialog"
           aria-label="Выбор периода"
         >
-          <div className="mb-3 flex flex-wrap gap-2">
+          <div className="mb-2 flex flex-wrap gap-1">
             {presets.includes("today") && (
               <button
                 type="button"
                 onClick={() => applyPreset("today")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
                 Сегодня
@@ -233,7 +233,7 @@ export function DateRangePicker({
               <button
                 type="button"
                 onClick={() => applyPreset("yesterday")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
                 Вчера
@@ -243,81 +243,80 @@ export function DateRangePicker({
               <button
                 type="button"
                 onClick={() => applyPreset("thisWeek")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
-                Эта неделя
+                Неделя
               </button>
             )}
             {presets.includes("last7") && (
               <button
                 type="button"
                 onClick={() => applyPreset("last7")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
-                7 дней
+                7 дн.
               </button>
             )}
             {presets.includes("last30") && (
               <button
                 type="button"
                 onClick={() => applyPreset("last30")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
-                30 дней
+                30 дн.
               </button>
             )}
             {presets.includes("thisMonth") && (
               <button
                 type="button"
                 onClick={() => applyPreset("thisMonth")}
-                className="rounded-lg border px-3 py-2 text-xs hover:bg-white/5"
+                className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
                 style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               >
-                Этот месяц
+                Месяц
               </button>
             )}
 
             <div className="flex-1" />
 
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-0.5">
               <button
                 type="button"
                 onClick={() => setMode("from")}
-                className={`rounded-lg px-3 py-2 text-xs font-semibold ${mode === "from" ? "bg-[var(--accent)] text-white" : "text-gray-300 hover:bg-white/5"}`}
+                className={`rounded-md px-2 py-1 text-[10px] font-semibold ${mode === "from" ? "bg-[var(--accent)] text-white" : "text-gray-300 hover:bg-white/5"}`}
               >
                 С
               </button>
               <button
                 type="button"
                 onClick={() => setMode("to")}
-                className={`rounded-lg px-3 py-2 text-xs font-semibold ${mode === "to" ? "bg-[var(--accent)] text-white" : "text-gray-300 hover:bg-white/5"}`}
+                className={`rounded-md px-2 py-1 text-[10px] font-semibold ${mode === "to" ? "bg-[var(--accent)] text-white" : "text-gray-300 hover:bg-white/5"}`}
               >
                 По
               </button>
             </div>
           </div>
 
-          {/* Header */}
-          <div className="mb-2 flex items-center justify-between">
+          <div className="mb-1.5 flex items-center justify-between">
             <button
               type="button"
               onClick={() => setCursorMonth((m) => addMonthsUtc(m, -1))}
-              className="rounded-lg border px-2 py-2 text-xs hover:bg-white/5"
+              className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
               style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               aria-label="Предыдущий месяц"
             >
               ←
             </button>
-            <div className="text-sm font-semibold text-white">
+            <div className="text-xs font-semibold text-white">
               {RU_MONTHS[cursorMonth.getUTCMonth()]} {cursorMonth.getUTCFullYear()}
             </div>
             <button
               type="button"
               onClick={() => setCursorMonth((m) => addMonthsUtc(m, 1))}
-              className="rounded-lg border px-2 py-2 text-xs hover:bg-white/5"
+              className="rounded-md border px-1.5 py-1 text-[10px] hover:bg-white/5"
               style={{ borderColor: "var(--border)", color: "var(--muted)" }}
               aria-label="Следующий месяц"
             >
@@ -325,28 +324,26 @@ export function DateRangePicker({
             </button>
           </div>
 
-          {/* Weekdays */}
-          <div className="grid grid-cols-7 gap-1 text-center text-[11px] font-semibold" style={{ color: "var(--muted)" }}>
+          <div className="grid grid-cols-7 gap-0.5 text-center text-[9px] font-semibold" style={{ color: "var(--muted)" }}>
             {RU_WEEKDAYS.map((w) => (
-              <div key={w} className="py-1">{w}</div>
+              <div key={w} className="py-0.5">{w}</div>
             ))}
           </div>
 
-          {/* Days */}
-          <div className="mt-1 grid grid-cols-7 gap-1">
+          <div className="mt-0.5 grid grid-cols-7 gap-0.5">
             {grid.map((cell) => {
               const inRange = isInRange(cell.ymd);
               const start = isStart(cell.ymd);
               const end = isEnd(cell.ymd);
               const base = cell.inMonth ? "text-gray-100" : "text-gray-600";
               const bg = start || end ? "bg-[var(--accent)]" : inRange ? "bg-white/10" : "bg-transparent";
-              const ring = start || end ? "ring-2 ring-blue-300/40" : "ring-1 ring-white/5";
+              const ring = start || end ? "ring-1 ring-blue-300/40" : "";
               return (
                 <button
                   key={cell.ymd}
                   type="button"
                   onClick={() => pickDay(cell.ymd)}
-                  className={`h-9 rounded-lg text-center text-sm ${base} ${bg} ${ring} hover:bg-white/10`}
+                  className={`h-7 rounded-md text-center text-xs ${base} ${bg} ${ring} hover:bg-white/10`}
                   title={cell.ymd}
                 >
                   {Number(cell.ymd.slice(8, 10))}
@@ -355,14 +352,14 @@ export function DateRangePicker({
             })}
           </div>
 
-          <div className="mt-3 flex items-center justify-between text-xs" style={{ color: "var(--muted)" }}>
+          <div className="mt-2 flex items-center justify-between text-[10px]" style={{ color: "var(--muted)" }}>
             <span>
               Выбор: <span className="font-mono">{mode === "from" ? "С" : "По"}</span>
             </span>
             <button
               type="button"
               onClick={() => setOpen(false)}
-              className="rounded-lg border px-3 py-2 hover:bg-white/5"
+              className="rounded-md border px-2 py-1 hover:bg-white/5"
               style={{ borderColor: "var(--border)" }}
             >
               Закрыть
