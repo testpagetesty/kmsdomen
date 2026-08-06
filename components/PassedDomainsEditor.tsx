@@ -267,49 +267,72 @@ export function PassedDomainsEditor({ countryCode }: Props) {
                 : "Ничего не найдено"}
             </p>
           ) : (
-            <ul>
-              {filtered.map((e) => {
-                const dur = durations.get(e.domain);
-                const isFast = typeof dur === "number" && dur < FAST_THRESHOLD_MS;
-                return (
-                  <li
-                    key={`${e.domain}-${e.passedAt}`}
-                    className="flex items-start gap-3 border-b px-4 py-2.5 last:border-b-0"
-                    style={{ borderColor: "var(--border)" }}
+            <div className="overflow-x-auto">
+              <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
+                <thead>
+                  <tr
+                    className="border-b text-xs"
+                    style={{ borderColor: "var(--border)", color: "var(--muted)" }}
                   >
-                    <input
-                      type="checkbox"
-                      className="mt-1 h-4 w-4 shrink-0 rounded border-gray-600"
-                      checked={selected.has(e.domain)}
-                      onChange={() => {
-                        setSelected((prev) => {
-                          const next = new Set(prev);
-                          if (next.has(e.domain)) next.delete(e.domain);
-                          else next.add(e.domain);
-                          return next;
-                        });
-                      }}
-                      id={`passed-${e.domain}`}
-                    />
-                    <label
-                      htmlFor={`passed-${e.domain}`}
-                      className="min-w-0 flex-1 cursor-pointer"
-                    >
-                      <div className="font-mono text-sm text-gray-200 break-all">{e.domain}</div>
-                      <div className="mt-1 flex flex-wrap gap-x-4 gap-y-0.5 text-[11px]">
-                        <span style={{ color: "var(--muted)" }}>
-                          Пройден:{" "}
-                          <span className="font-mono">{formatIsoPlus3(e.passedAt)}</span>
-                        </span>
-                        <span>
-                          Время:{" "}
+                    <th className="w-10 px-3 py-2 font-medium" />
+                    <th className="px-2 py-2 font-medium">Домен</th>
+                    <th className="whitespace-nowrap px-3 py-2 text-center font-medium">
+                      Дата и время
+                    </th>
+                    <th className="whitespace-nowrap px-3 py-2 text-right font-medium">
+                      Время на сайте
+                    </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filtered.map((e) => {
+                    const dur = durations.get(e.domain);
+                    const isFast = typeof dur === "number" && dur < FAST_THRESHOLD_MS;
+                    return (
+                      <tr
+                        key={`${e.domain}-${e.passedAt}`}
+                        className="border-b last:border-b-0 hover:bg-white/[0.02]"
+                        style={{ borderColor: "var(--border)" }}
+                      >
+                        <td className="px-3 py-2.5 align-middle">
+                          <input
+                            type="checkbox"
+                            className="h-4 w-4 rounded border-gray-600"
+                            checked={selected.has(e.domain)}
+                            onChange={() => {
+                              setSelected((prev) => {
+                                const next = new Set(prev);
+                                if (next.has(e.domain)) next.delete(e.domain);
+                                else next.add(e.domain);
+                                return next;
+                              });
+                            }}
+                            id={`passed-${e.domain}`}
+                            aria-label={e.domain}
+                          />
+                        </td>
+                        <td className="min-w-0 px-2 py-2.5 align-middle">
+                          <label
+                            htmlFor={`passed-${e.domain}`}
+                            className="cursor-pointer font-mono text-sm text-gray-200 break-all"
+                          >
+                            {e.domain}
+                          </label>
+                        </td>
+                        <td
+                          className="whitespace-nowrap px-3 py-2.5 text-center align-middle font-mono text-xs"
+                          style={{ color: "var(--muted)" }}
+                        >
+                          {formatIsoPlus3(e.passedAt)}
+                        </td>
+                        <td className="whitespace-nowrap px-3 py-2.5 text-right align-middle">
                           {dur == null ? (
-                            <span className="font-mono" style={{ color: "var(--muted)" }}>
+                            <span className="font-mono text-xs" style={{ color: "var(--muted)" }}>
                               —
                             </span>
                           ) : (
                             <span
-                              className="font-mono font-semibold"
+                              className="font-mono text-xs font-semibold"
                               style={{ color: isFast ? "#f87171" : "#34d399" }}
                               title={
                                 isFast
@@ -320,13 +343,13 @@ export function PassedDomainsEditor({ countryCode }: Props) {
                               {formatDuration(dur)}
                             </span>
                           )}
-                        </span>
-                      </div>
-                    </label>
-                  </li>
-                );
-              })}
-            </ul>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
           )}
         </div>
 
