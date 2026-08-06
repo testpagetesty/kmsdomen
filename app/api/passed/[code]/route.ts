@@ -183,3 +183,112 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
     );
   }
 }
+
+/**
+ * PUT — вернуть домены из «пройденных» обратно в «новые».
+ * Body: { restore: string[] } или { domain: string }
+ */
+export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
+  const denied = checkWriteAuth(request);
+  if (denied) return denied;
+
+  try {
+    const { code: raw } = await ctx.params;
+    const code = normalizeCode(raw ?? "");
+    if (!code) return NextResponse.json({ error: "Неизвестный код страны" }, { status: 400 });
+
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json({ error: "Некорректный JSON" }, { status: 400 });
+    }
+
+    if (typeof body !== "object" || body === null) {
+      return NextResponse.json(
+        { error: "Ожидается JSON: { restore: string[] } или { domain: string }" },
+        { status: 400 },
+      );
+    }
+
+    const b = body as { domain?: unknown; restore?: unknown };
+    const rawList: string[] = [];
+    if (typeof b.domain === "string" && b.domain.trim()) {
+      rawList.push(b.domain.trim());
+    }
+    if (Array.isArray(b.restore)) {
+      for (const x of b.restore) {
+        if (typeof x === "string" && x.trim()) rawList.push(x.trim());
+      }
+    }
+
+    const toRestore = [...new Set(rawList.map(normalizeDomainLine))];
+    if (toRestore.length === 0) {
+      return NextResponse.json(
+        { error: "Укажите domain (строка) или restore (массив строк)" },
+        { status: 400 },
+      );
+    }
+
+    const domainsPath = countryFilePath(resolveDomainsPrefix(), code);
+    const passedPath = passedFilePath(code);
+
+    const { text: passedText, sha: passedSha } = await fetchRepoFile(passedPath);
+    const passedMap = parsePassedMap(passedText);
+
+    const restored: string[] = [];
+    const missing: string[] = [];
+    for (const d of toRestore) {
+      if (d in passedMap) {
+        delete passedMap[d];
+        restored.push(d);
+      } else {
+        missing.push(d);
+      }
+    }
+
+    if (restored.length === 0) {
+      return NextResponse.json({
+        ok: true,
+        restored: 0,
+        missing: missing.length,
+        message: "Ни один из доменов не найден в пройденных",
+      });
+    }
+
+    const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
+    const existingLines = parseDomainLines(domainText);
+    const existingNorm = new Set(existingLines.map(normalizeDomainLine));
+    const appended: string[] = [];
+    for (const d of restored) {
+      if (!existingNorm.has(d)) {
+        existingLines.push(d);
+        existingNorm.add(d);
+        appended.push(d);
+      }
+    }
+
+    const passedOut =
+      Object.keys(passedMap).length > 0 ? JSON.stringify(passedMap, null, 2) + "\n" : "";
+    const domainOut = existingLines.length > 0 ? `${existingLines.join("\n")}\n` : "";
+
+    await putRepoFile(passedPath, passedOut, passedSha || undefined);
+    await putRepoFile(domainsPath, domainOut, domainSha || undefined);
+
+    return NextResponse.json({
+      ok: true,
+      code,
+      restored: restored.length,
+      appendedToNew: appended.length,
+      alreadyInNew: restored.length - appended.length,
+      missing: missing.length,
+      remainingPassed: Object.keys(passedMap).length,
+      remainingNew: existingLines.length,
+    });
+  } catch (e) {
+    return NextResponse.json(
+      { error: e instanceof Error ? e.message : "Ошибка возврата" },
+      { status: 500 },
+    );
+  }
+}
