@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCountryByCode } from "@/data/countries";
 import { CountryPageTabs } from "@/components/CountryPageTabs";
+import { CountryPromptButton } from "@/components/CountryPromptButton";
 import {
   resolveDomainsPrefix,
   resolveTeasersPrefix,
@@ -64,7 +65,7 @@ export default async function CountryPage(props: Props) {
       </nav>
 
       <header className="mb-6 flex flex-wrap items-start justify-between gap-4">
-        <div>
+        <div className="min-w-0 flex-1">
           <div className="flex flex-wrap items-center gap-3">
             <h1 className="text-2xl font-semibold text-white">{country.nameRu}</h1>
             {employeeName && (
@@ -75,6 +76,7 @@ export default async function CountryPage(props: Props) {
                 Сотрудник: {employeeName}
               </span>
             )}
+            <CountryPromptButton countryCode={country.code} countryNameRu={country.nameRu} />
           </div>
           <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
             <span className="font-medium text-gray-400">Новые домены:</span>{" "}
