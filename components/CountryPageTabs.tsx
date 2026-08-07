@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRouter, usePathname } from "next/navigation";
+import { useCallback, useState } from "react";
 import { PageTabs } from "@/components/PageTabs";
 import { DomainEditor } from "@/components/DomainEditor";
 import { PassedDomainsEditor } from "@/components/PassedDomainsEditor";
@@ -22,12 +23,23 @@ function tabFromInitial(initialTab: string | undefined): string {
 }
 
 export function CountryPageTabs({ countryCode, initialTab = "domains" }: Props) {
+  const router = useRouter();
+  const pathname = usePathname();
   const [activeTab, setActiveTab] = useState<string>(() => tabFromInitial(initialTab));
   const [passedRefreshKey, setPassedRefreshKey] = useState(0);
 
+  const handleTabChange = useCallback(
+    (id: string) => {
+      setActiveTab(id);
+      const qs = id === "domains" ? "?tab=domains" : `?tab=${id}`;
+      router.replace(`${pathname}${qs}`, { scroll: false });
+    },
+    [router, pathname],
+  );
+
   return (
     <div>
-      <PageTabs tabs={TABS} activeId={activeTab} onChange={setActiveTab} />
+      <PageTabs tabs={TABS} activeId={activeTab} onChange={handleTabChange} />
       <div className="mt-6">
         {activeTab === "domains" ? (
           <DomainEditor
