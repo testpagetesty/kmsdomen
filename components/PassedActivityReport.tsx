@@ -78,7 +78,7 @@ export function PassedActivityReport({ onActiveCodes }: Props) {
     setError(null);
     try {
       const qs = new URLSearchParams({ from: r.from, to: r.to });
-      const res = await fetch(`/api/passed/report?${qs}`, { cache: "no-store" });
+      const res = await fetch(`/api/passed-report?${qs}`, { cache: "no-store" });
       const data = (await res.json()) as Report & { error?: string };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setReport(data);

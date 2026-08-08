@@ -53,8 +53,9 @@ type CountryActivity = {
 };
 
 /**
- * GET /api/passed/report?from=YYYY-MM-DD&to=YYYY-MM-DD
+ * GET /api/passed-report?from=YYYY-MM-DD&to=YYYY-MM-DD
  * Сводка прохождений по сотрудникам и странам за период (UTC+3).
+ * Отдельный путь — чтобы не пересекаться с /api/passed/[code].
  */
 export async function GET(req: NextRequest) {
   try {
