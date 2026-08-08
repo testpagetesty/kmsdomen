@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { DateRangePicker, type DateRange } from "@/components/DateRangePicker";
 
@@ -245,8 +246,16 @@ export function PassedDomainsEditor({ countryCode }: Props) {
           <div>
             <h3 className="text-sm font-semibold text-white">Отчёт по прохождениям</h3>
             <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
-              Пресеты или свой диапазон в календаре — список и сводка ниже обновляются сразу.
+              Только эта страна. Сводка по всем сотрудникам и странам — на главной во вкладке
+              «Пройденные домены».
             </p>
+            <Link
+              href="/?section=passed"
+              prefetch={false}
+              className="mt-2 inline-block text-xs font-medium text-blue-400 hover:text-blue-300"
+            >
+              ← Отчёт по сотрудникам за сегодня
+            </Link>
           </div>
           <span className="text-xs" style={{ color: "var(--muted)" }}>
             В базе: {entries.length}

@@ -65,15 +65,24 @@ function addDaysUtc(d: Date, days: number): Date {
   return new Date(d.getTime() + days * 24 * 60 * 60 * 1000);
 }
 
-function monthStartUtc(d: Date): Date {
-  // month start в UTC+3: берём дату в TZ и ставим 1 число
+/** Год/месяц/день в UTC+3 */
+function partsInTz(d: Date): { y: number; m: number; day: number } {
   const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
-  return new Date(Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth(), 1) - TZ_OFFSET_MS);
+  return {
+    y: shifted.getUTCFullYear(),
+    m: shifted.getUTCMonth(), // 0..11
+    day: shifted.getUTCDate(),
+  };
+}
+
+function monthStartUtc(d: Date): Date {
+  const { y, m } = partsInTz(d);
+  return new Date(Date.UTC(y, m, 1) - TZ_OFFSET_MS);
 }
 
 function addMonthsUtc(d: Date, months: number): Date {
-  const shifted = new Date(d.getTime() + TZ_OFFSET_MS);
-  return new Date(Date.UTC(shifted.getUTCFullYear(), shifted.getUTCMonth() + months, 1) - TZ_OFFSET_MS);
+  const { y, m } = partsInTz(d);
+  return new Date(Date.UTC(y, m + months, 1) - TZ_OFFSET_MS);
 }
 
 function startDowMon1(d: Date): number {
@@ -118,27 +127,32 @@ export function DateRangePicker({
   }, [open]);
 
   useEffect(() => {
-    // keep cursor around selected end
+    // keep cursor around selected end (месяц в UTC+3)
     setCursorMonth(monthStartUtc(parseYmd(value.to)));
   }, [value.to]);
 
+  // при открытии всегда показываем месяц выбранной даты (сегодня)
+  useEffect(() => {
+    if (open) setCursorMonth(monthStartUtc(parseYmd(value.to)));
+  }, [open, value.to]);
+
+  const cursorParts = partsInTz(cursorMonth);
+
   const grid = useMemo(() => {
+    const { y, m } = partsInTz(cursorMonth);
     const start = monthStartUtc(cursorMonth);
-    const daysInMonth = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth() + 1, 0)).getUTCDate();
+    const daysInMonth = new Date(Date.UTC(y, m + 1, 0)).getUTCDate();
     const first = startDowMon1(start); // 1..7
     const cells: Array<{ ymd: Ymd; inMonth: boolean }> = [];
 
-    // leading days from previous month
     for (let i = 1; i < first; i++) {
       const d = addDaysUtc(start, -(first - i));
       cells.push({ ymd: toYmd(d), inMonth: false });
     }
-    // current month
     for (let day = 1; day <= daysInMonth; day++) {
-      const d = new Date(Date.UTC(start.getUTCFullYear(), start.getUTCMonth(), day));
-      cells.push({ ymd: toYmd(d), inMonth: true });
+      const ymd = `${y}-${pad2(m + 1)}-${pad2(day)}` as Ymd;
+      cells.push({ ymd, inMonth: true });
     }
-    // trailing to 6 rows (42)
     while (cells.length < 42) {
       const last = parseYmd(cells[cells.length - 1]!.ymd);
       const d = addDaysUtc(last, 1);
@@ -311,7 +325,7 @@ export function DateRangePicker({
               ←
             </button>
             <div className="text-xs font-semibold text-white">
-              {RU_MONTHS[cursorMonth.getUTCMonth()]} {cursorMonth.getUTCFullYear()}
+              {RU_MONTHS[cursorParts.m]} {cursorParts.y}
             </div>
             <button
               type="button"
