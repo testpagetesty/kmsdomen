@@ -49,6 +49,43 @@ export async function fetchRepoFile(repoRelPath: string): Promise<{ text: string
 }
 
 /**
+ * Список файлов/папок в каталоге репозитория.
+ * Для файла вернёт пустой массив.
+ */
+export async function listRepoDir(
+  repoRelPath: string,
+): Promise<Array<{ name: string; path: string; type: "file" | "dir" }>> {
+  const { token, owner, repo, branch } = getGithubConfig();
+  const base = repoRelPath.replace(/^\/+|\/+$/g, "");
+  const url = `${GH_API}/repos/${owner}/${repo}/contents/${encodeContentPath(base)}?ref=${encodeURIComponent(branch)}`;
+
+  const res = await fetch(url, {
+    headers: authHeaders(token),
+    cache: "no-store",
+  });
+
+  if (res.status === 404) return [];
+
+  if (!res.ok) {
+    const msg = await res.text();
+    throw new Error(`GitHub LIST ${repoRelPath}: ${res.status} ${msg}`);
+  }
+
+  const data = (await res.json()) as unknown;
+  if (!Array.isArray(data)) return [];
+
+  return data
+    .map((item) => {
+      const o = item as { name?: unknown; path?: unknown; type?: unknown };
+      if (typeof o.name !== "string" || typeof o.path !== "string") return null;
+      const type = o.type === "dir" ? "dir" : o.type === "file" ? "file" : null;
+      if (!type) return null;
+      return { name: o.name, path: o.path, type };
+    })
+    .filter((x): x is { name: string; path: string; type: "file" | "dir" } => x !== null);
+}
+
+/**
  * Записывает (создаёт или обновляет) файл в репозитории.
  * repoRelPath — полный путь от корня, например "countries/de.txt"
  */

@@ -11,6 +11,8 @@ type Props = {
   /** Суффикс к href, например "?tab=teasers" */
   linkSuffix?: string;
   employeesData?: EmployeesData;
+  /** Коды стран поднять вверх списка (например с прохождениями за период) */
+  prioritizeCodes?: string[];
 };
 
 const AVATAR_COLORS = [
@@ -34,12 +36,14 @@ export function CountrySearch({
   countries,
   linkSuffix = "",
   employeesData = { employees: [], assignments: {} },
+  prioritizeCodes = [],
 }: Props) {
   const router = useRouter();
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState("");
   /** null = все, "" = без сотрудника, иначе employeeId */
   const [empFilter, setEmpFilter] = useState<string | null>(null);
+  const prioritySet = useMemo(() => new Set(prioritizeCodes), [prioritizeCodes]);
 
   const nameByCountry = useMemo(() => {
     const map = new Map<string, { id: string; name: string }>();
@@ -59,16 +63,24 @@ export function CountrySearch({
       list = list.filter((c) => nameByCountry.get(c.code)?.id === empFilter);
     }
     const q = query.trim().toLowerCase();
-    if (!q) return list;
-    return list.filter((c) => {
-      const emp = nameByCountry.get(c.code)?.name.toLowerCase() ?? "";
-      return (
-        c.nameRu.toLowerCase().includes(q) ||
-        c.code.includes(q) ||
-        emp.includes(q)
-      );
+    if (q) {
+      list = list.filter((c) => {
+        const emp = nameByCountry.get(c.code)?.name.toLowerCase() ?? "";
+        return (
+          c.nameRu.toLowerCase().includes(q) ||
+          c.code.includes(q) ||
+          emp.includes(q)
+        );
+      });
+    }
+    if (prioritySet.size === 0) return list;
+    return [...list].sort((a, b) => {
+      const pa = prioritySet.has(a.code) ? 0 : 1;
+      const pb = prioritySet.has(b.code) ? 0 : 1;
+      if (pa !== pb) return pa - pb;
+      return a.nameRu.localeCompare(b.nameRu, "ru");
     });
-  }, [countries, query, empFilter, nameByCountry]);
+  }, [countries, query, empFilter, nameByCountry, prioritySet]);
 
   function handleDropdownChange(e: React.ChangeEvent<HTMLSelectElement>) {
     const code = e.target.value;

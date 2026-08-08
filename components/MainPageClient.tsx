@@ -5,6 +5,7 @@ import { Suspense, useCallback, useEffect, useState } from "react";
 import { PageTabs } from "@/components/PageTabs";
 import { CountrySearch } from "@/components/CountrySearch";
 import { EmployeeAssignments } from "@/components/EmployeeAssignments";
+import { PassedActivityReport } from "@/components/PassedActivityReport";
 import type { Country } from "@/data/countries";
 import { emptyEmployeesData, type EmployeesData } from "@/lib/employees";
 
@@ -19,6 +20,7 @@ function MainPageInner({ countries }: { countries: Country[] }) {
   const searchParams = useSearchParams();
   const [employeesData, setEmployeesData] = useState<EmployeesData>(emptyEmployeesData);
   const [empLoading, setEmpLoading] = useState(true);
+  const [activePassedCodes, setActivePassedCodes] = useState<string[]>([]);
 
   useEffect(() => {
     let cancelled = false;
@@ -72,10 +74,14 @@ function MainPageInner({ countries }: { countries: Country[] }) {
           ? "Новые домены ежедневно загружаются для прохождения — редактируется весь файл целиком на GitHub. Отмечайте галочкой пройденные и переносите во вкладку «Пройденные». Выберите страну."
           : activeTab === "teasers"
             ? "Домены с тизерами — список проверенных; только добавление и точечное удаление. Выберите страну."
-            : "Пройденные домены — перенос из «Новых» с датой отметки. Выберите страну."}
+            : "Пройденные домены — сверху отчёт за сегодня по сотрудникам, ниже список стран (активные за период подняты вверх)."}
       </p>
 
-      {!empLoading && (
+      {activeTab === "passed" && (
+        <PassedActivityReport onActiveCodes={setActivePassedCodes} />
+      )}
+
+      {!empLoading && activeTab !== "passed" && (
         <EmployeeAssignments
           countries={countries}
           data={employeesData}
@@ -87,6 +93,7 @@ function MainPageInner({ countries }: { countries: Country[] }) {
         countries={countries}
         linkSuffix={linkSuffix}
         employeesData={employeesData}
+        prioritizeCodes={activeTab === "passed" ? activePassedCodes : []}
       />
     </div>
   );
