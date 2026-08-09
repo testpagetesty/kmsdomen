@@ -1,17 +1,23 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useState } from "react";
+import {
+  useCallback,
+  useEffect,
+  useMemo,
+  useState,
+  type Dispatch,
+  type SetStateAction,
+} from "react";
 import { DateRangePicker, type DateRange } from "@/components/DateRangePicker";
+import type { PassedSource } from "@/lib/passedDomains";
 
 type Props = { countryCode: string };
 
-type Entry = { domain: string; passedAt: string };
+type Entry = { domain: string; passedAt: string; source: PassedSource };
 
 const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
-/** Меньше этого — красная подсветка «слишком быстро» */
 const FAST_THRESHOLD_MS = 3 * 60 * 1000;
-/** Больше этого между отметками — считаем началом новой сессии (не время на домен) */
 const SESSION_GAP_MS = 2 * 60 * 60 * 1000;
 
 function dateToYmd(d: Date): string {
@@ -50,7 +56,6 @@ function formatDuration(ms: number): string {
   return `${m}м ${String(s).padStart(2, "0")}с`;
 }
 
-/** Интервал от предыдущей отметки в хронологическом порядке; null = начало сессии */
 function durationMapFor(entries: Entry[]): Map<string, number | null> {
   const chrono = [...entries].sort((a, b) =>
     a.passedAt < b.passedAt ? -1 : a.passedAt > b.passedAt ? 1 : 0,
@@ -81,6 +86,196 @@ function inDateRange(iso: string, from: string, to: string): boolean {
   return day >= from && day <= to;
 }
 
+function normalizeEntry(raw: {
+  domain: string;
+  passedAt: string;
+  source?: string;
+}): Entry {
+  return {
+    domain: raw.domain,
+    passedAt: raw.passedAt,
+    source: raw.source === "teaser" ? "teaser" : "new",
+  };
+}
+
+type SectionProps = {
+  title: string;
+  hint: string;
+  entries: Entry[];
+  durations: Map<string, number | null>;
+  selected: Set<string>;
+  setSelected: Dispatch<SetStateAction<Set<string>>>;
+  restoreLabel: string;
+  onRestore: (domains: string[]) => void;
+  restoring: boolean;
+  loading: boolean;
+  emptyText: string;
+};
+
+function PassedSection({
+  title,
+  hint,
+  entries,
+  durations,
+  selected,
+  setSelected,
+  restoreLabel,
+  onRestore,
+  restoring,
+  loading,
+  emptyText,
+}: SectionProps) {
+  const domains = entries.map((e) => e.domain);
+  const allSelected = domains.length > 0 && domains.every((d) => selected.has(d));
+  const selectedInSection = domains.filter((d) => selected.has(d)).length;
+
+  function toggleAll() {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (allSelected) {
+        for (const d of domains) next.delete(d);
+      } else {
+        for (const d of domains) next.add(d);
+      }
+      return next;
+    });
+  }
+
+  return (
+    <div
+      className="rounded-xl border"
+      style={{ borderColor: "var(--border)", background: "var(--card)" }}
+    >
+      <div className="border-b px-4 py-3" style={{ borderColor: "var(--border)" }}>
+        <div className="flex flex-wrap items-start justify-between gap-2">
+          <div>
+            <h3 className="text-sm font-semibold text-white">{title}</h3>
+            <p className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+              {hint}
+            </p>
+          </div>
+          <span className="text-xs tabular-nums" style={{ color: "var(--muted)" }}>
+            {entries.length}
+            {selectedInSection > 0 ? ` · выбрано: ${selectedInSection}` : null}
+          </span>
+        </div>
+        {entries.length > 0 && (
+          <div className="mt-3 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={toggleAll}
+              disabled={loading || restoring}
+              className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
+              style={{ borderColor: "var(--border)" }}
+            >
+              {allSelected ? "Снять все" : "Выделить все"}
+            </button>
+            <button
+              type="button"
+              onClick={() => onRestore(domains.filter((d) => selected.has(d)))}
+              disabled={loading || restoring || selectedInSection === 0}
+              className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {restoring ? "…" : `${restoreLabel} (${selectedInSection})`}
+            </button>
+          </div>
+        )}
+      </div>
+
+      <div className="max-h-[22rem] overflow-y-auto">
+        {loading ? (
+          <p className="py-8 text-center text-sm" style={{ color: "var(--muted)" }}>
+            Загрузка…
+          </p>
+        ) : entries.length === 0 ? (
+          <p className="py-8 text-center text-sm" style={{ color: "var(--muted)" }}>
+            {emptyText}
+          </p>
+        ) : (
+          <div className="overflow-x-auto">
+            <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
+              <thead>
+                <tr
+                  className="border-b text-xs"
+                  style={{ borderColor: "var(--border)", color: "var(--muted)" }}
+                >
+                  <th className="w-10 px-3 py-2 font-medium" />
+                  <th className="px-2 py-2 font-medium">Домен</th>
+                  <th className="whitespace-nowrap px-3 py-2 text-center font-medium">
+                    Дата и время
+                  </th>
+                  <th className="whitespace-nowrap px-3 py-2 text-right font-medium">
+                    Время на сайте
+                  </th>
+                </tr>
+              </thead>
+              <tbody>
+                {entries.map((e) => {
+                  const dur = durations.get(e.domain);
+                  const isFast = typeof dur === "number" && dur < FAST_THRESHOLD_MS;
+                  return (
+                    <tr
+                      key={`${e.source}-${e.domain}-${e.passedAt}`}
+                      className="border-b last:border-b-0 hover:bg-white/[0.02]"
+                      style={{ borderColor: "var(--border)" }}
+                    >
+                      <td className="px-3 py-2.5 align-middle">
+                        <input
+                          type="checkbox"
+                          className="h-4 w-4 rounded border-gray-600"
+                          checked={selected.has(e.domain)}
+                          onChange={() => {
+                            setSelected((prev) => {
+                              const next = new Set(prev);
+                              if (next.has(e.domain)) next.delete(e.domain);
+                              else next.add(e.domain);
+                              return next;
+                            });
+                          }}
+                          id={`passed-${e.source}-${e.domain}`}
+                          aria-label={e.domain}
+                        />
+                      </td>
+                      <td className="min-w-0 px-2 py-2.5 align-middle">
+                        <label
+                          htmlFor={`passed-${e.source}-${e.domain}`}
+                          className="cursor-pointer font-mono text-sm text-gray-200 break-all"
+                        >
+                          {e.domain}
+                        </label>
+                      </td>
+                      <td
+                        className="whitespace-nowrap px-3 py-2.5 text-center align-middle font-mono text-xs"
+                        style={{ color: "var(--muted)" }}
+                      >
+                        {formatIsoPlus3(e.passedAt)}
+                      </td>
+                      <td className="whitespace-nowrap px-3 py-2.5 text-right align-middle">
+                        {dur == null ? (
+                          <span className="font-mono text-xs" style={{ color: "var(--muted)" }}>
+                            —
+                          </span>
+                        ) : (
+                          <span
+                            className="font-mono text-xs font-semibold"
+                            style={{ color: isFast ? "#f87171" : "#34d399" }}
+                          >
+                            {formatDuration(dur)}
+                          </span>
+                        )}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export function PassedDomainsEditor({ countryCode }: Props) {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(true);
@@ -98,9 +293,12 @@ export function PassedDomainsEditor({ countryCode }: Props) {
     setLoading(true);
     try {
       const res = await fetch(`/api/passed/${countryCode}`, { cache: "no-store" });
-      const data = (await res.json()) as { entries?: Entry[]; error?: string };
+      const data = (await res.json()) as {
+        entries?: { domain: string; passedAt: string; source?: string }[];
+        error?: string;
+      };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
-      setEntries(data.entries ?? []);
+      setEntries((data.entries ?? []).map(normalizeEntry));
       setSelected(new Set());
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка загрузки" });
@@ -127,13 +325,27 @@ export function PassedDomainsEditor({ countryCode }: Props) {
     return inPeriod.filter((e) => e.domain.toLowerCase().includes(q));
   }, [inPeriod, filterQuery]);
 
+  const teaserEntries = useMemo(
+    () => filtered.filter((e) => e.source === "teaser"),
+    [filtered],
+  );
+  const newEntries = useMemo(
+    () => filtered.filter((e) => e.source !== "teaser"),
+    [filtered],
+  );
+
   const report = useMemo(() => {
     let fast = 0;
     let timed = 0;
     let sumMs = 0;
     const byDay = new Map<string, { count: number; fast: number }>();
+    let teaser = 0;
+    let fromNew = 0;
 
     for (const e of inPeriod) {
+      if (e.source === "teaser") teaser += 1;
+      else fromNew += 1;
+
       const day = isoToDayKey(e.passedAt) ?? "—";
       const cur = byDay.get(day) ?? { count: 0, fast: 0 };
       cur.count += 1;
@@ -152,6 +364,8 @@ export function PassedDomainsEditor({ countryCode }: Props) {
 
     return {
       total: inPeriod.length,
+      teaser,
+      fromNew,
       fast,
       timed,
       avgMs: timed > 0 ? Math.round(sumMs / timed) : null,
@@ -159,30 +373,13 @@ export function PassedDomainsEditor({ countryCode }: Props) {
     };
   }, [inPeriod, durations]);
 
-  const filteredDomains = useMemo(() => filtered.map((e) => e.domain), [filtered]);
-  const allFilteredSelected =
-    filteredDomains.length > 0 && filteredDomains.every((d) => selected.has(d));
-
-  function toggleAllFiltered() {
-    setSelected((prev) => {
-      const next = new Set(prev);
-      if (allFilteredSelected) {
-        for (const d of filteredDomains) next.delete(d);
-      } else {
-        for (const d of filteredDomains) next.add(d);
-      }
-      return next;
-    });
-  }
-
   function authHeaders(): Record<string, string> {
     const h: Record<string, string> = { "Content-Type": "application/json" };
     if (password.trim()) h.Authorization = `Bearer ${password.trim()}`;
     return h;
   }
 
-  async function restoreSelected() {
-    const list = [...selected];
+  async function restoreDomains(list: string[]) {
     if (list.length === 0) {
       setMessage({ type: "err", text: "Выберите хотя бы один домен" });
       return;
@@ -199,6 +396,8 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       const data = (await res.json()) as {
         ok?: boolean;
         restored?: number;
+        restoredNew?: number;
+        restoredTeaser?: number;
         appendedToNew?: number;
         remainingPassed?: number;
         error?: string;
@@ -207,15 +406,18 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
 
       const n = data.restored ?? 0;
+      const parts: string[] = [];
+      if ((data.restoredNew ?? 0) > 0) {
+        parts.push(`в «новые»: ${data.restoredNew}`);
+      }
+      if ((data.restoredTeaser ?? 0) > 0) {
+        parts.push(`снято с пройденных (тизеры остались): ${data.restoredTeaser}`);
+      }
       setMessage({
         type: "ok",
         text:
           n > 0
-            ? `Возвращено в «новые»: ${n}${
-                data.appendedToNew !== undefined && data.appendedToNew !== n
-                  ? ` (добавлено в файл: ${data.appendedToNew})`
-                  : ""
-              }. Осталось пройденных: ${data.remainingPassed ?? "—"}`
+            ? `Убрано из пройденных: ${n}${parts.length ? ` (${parts.join("; ")})` : ""}. Осталось: ${data.remainingPassed ?? "—"}`
             : (data.message ?? "Ничего не возвращено"),
       });
       await load();
@@ -234,7 +436,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       <div>
         <h2 className="text-base font-semibold text-white">Пройденные домены</h2>
         <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-          Отчёт по периоду (UTC+3), время на сайте и возврат в «Новые». Меньше 3 минут — красным.
+          Два раздела: с тизерами (остаются в тизерах) и из «Новых». Меньше 3 минут — красным.
         </p>
       </div>
 
@@ -246,8 +448,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
           <div>
             <h3 className="text-sm font-semibold text-white">Отчёт по прохождениям</h3>
             <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
-              Только эта страна. Сводка по всем сотрудникам и странам — на главной во вкладке
-              «Пройденные домены».
+              Только эта страна. Сводка по всем сотрудникам — на главной во вкладке «Пройденные».
             </p>
             <Link
               href="/?section=passed"
@@ -269,15 +470,33 @@ export function PassedDomainsEditor({ countryCode }: Props) {
           presets={["today", "yesterday", "thisWeek", "last7", "last30", "thisMonth"]}
         />
 
-        <div className="mt-4 grid gap-3 sm:grid-cols-3">
+        <div className="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
           <div
             className="rounded-lg border px-4 py-3"
             style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
           >
             <div className="text-[11px]" style={{ color: "var(--muted)" }}>
-              Пройдено за период
+              Всего за период
             </div>
             <div className="mt-1 text-2xl font-semibold tabular-nums text-white">{report.total}</div>
+          </div>
+          <div
+            className="rounded-lg border px-4 py-3"
+            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
+          >
+            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
+              С тизерами
+            </div>
+            <div className="mt-1 text-2xl font-semibold tabular-nums text-white">{report.teaser}</div>
+          </div>
+          <div
+            className="rounded-lg border px-4 py-3"
+            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
+          >
+            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
+              Из новых
+            </div>
+            <div className="mt-1 text-2xl font-semibold tabular-nums text-white">{report.fromNew}</div>
           </div>
           <div
             className="rounded-lg border px-4 py-3"
@@ -291,17 +510,6 @@ export function PassedDomainsEditor({ countryCode }: Props) {
               style={{ color: report.fast > 0 ? "#f87171" : "#e5e7eb" }}
             >
               {report.fast}
-            </div>
-          </div>
-          <div
-            className="rounded-lg border px-4 py-3"
-            style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.2)" }}
-          >
-            <div className="text-[11px]" style={{ color: "var(--muted)" }}>
-              Среднее время
-            </div>
-            <div className="mt-1 text-2xl font-semibold tabular-nums text-white">
-              {report.avgMs != null ? formatDuration(report.avgMs) : "—"}
             </div>
           </div>
         </div>
@@ -364,169 +572,85 @@ export function PassedDomainsEditor({ countryCode }: Props) {
         </p>
       )}
 
-      <div
-        className="rounded-xl border"
-        style={{ borderColor: "var(--border)", background: "var(--card)" }}
-      >
-        <div className="border-b px-4 py-3" style={{ borderColor: "var(--border)" }}>
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <label className="text-xs" style={{ color: "var(--muted)" }}>
-              Поиск по домену (в выбранном периоде)
-            </label>
-            {!loading && (
-              <span className="text-xs" style={{ color: "var(--muted)" }}>
-                В периоде: {inPeriod.length}
-                {filterQuery.trim() ? ` · показано: ${filtered.length}` : null}
-                {selected.size > 0 ? ` · выбрано: ${selected.size}` : null}
-              </span>
-            )}
-          </div>
-          <input
-            type="search"
-            value={filterQuery}
-            onChange={(e) => setFilterQuery(e.target.value)}
-            placeholder="Фильтр…"
-            className="mt-2 w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
-            style={{ borderColor: "var(--border)" }}
-          />
-          {filtered.length > 0 && (
-            <div className="mt-3 flex flex-wrap gap-2">
-              <button
-                type="button"
-                onClick={toggleAllFiltered}
-                disabled={loading || restoring}
-                className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
-                style={{ borderColor: "var(--border)" }}
-              >
-                {allFilteredSelected ? "Снять все в фильтре" : "Выделить все в фильтре"}
-              </button>
-              <button
-                type="button"
-                onClick={restoreSelected}
-                disabled={loading || restoring || selected.size === 0}
-                className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
-              >
-                {restoring ? "Возврат…" : `Вернуть в «новые» (${selected.size})`}
-              </button>
-            </div>
-          )}
-        </div>
-
-        <div className="max-h-[28rem] overflow-y-auto">
-          {loading ? (
-            <p className="py-10 text-center text-sm" style={{ color: "var(--muted)" }}>
-              Загрузка…
-            </p>
-          ) : filtered.length === 0 ? (
-            <p className="py-10 text-center text-sm" style={{ color: "var(--muted)" }}>
-              {entries.length === 0
-                ? "Пока нет пройденных — отметьте домены во вкладке «Новые домены»"
-                : inPeriod.length === 0
-                  ? "В выбранном периоде нет прохождений — смените даты в календаре"
-                  : "Ничего не найдено"}
-            </p>
-          ) : (
-            <div className="overflow-x-auto">
-              <table className="w-full min-w-[36rem] border-collapse text-left text-sm">
-                <thead>
-                  <tr
-                    className="border-b text-xs"
-                    style={{ borderColor: "var(--border)", color: "var(--muted)" }}
-                  >
-                    <th className="w-10 px-3 py-2 font-medium" />
-                    <th className="px-2 py-2 font-medium">Домен</th>
-                    <th className="whitespace-nowrap px-3 py-2 text-center font-medium">
-                      Дата и время
-                    </th>
-                    <th className="whitespace-nowrap px-3 py-2 text-right font-medium">
-                      Время на сайте
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {filtered.map((e) => {
-                    const dur = durations.get(e.domain);
-                    const isFast = typeof dur === "number" && dur < FAST_THRESHOLD_MS;
-                    return (
-                      <tr
-                        key={`${e.domain}-${e.passedAt}`}
-                        className="border-b last:border-b-0 hover:bg-white/[0.02]"
-                        style={{ borderColor: "var(--border)" }}
-                      >
-                        <td className="px-3 py-2.5 align-middle">
-                          <input
-                            type="checkbox"
-                            className="h-4 w-4 rounded border-gray-600"
-                            checked={selected.has(e.domain)}
-                            onChange={() => {
-                              setSelected((prev) => {
-                                const next = new Set(prev);
-                                if (next.has(e.domain)) next.delete(e.domain);
-                                else next.add(e.domain);
-                                return next;
-                              });
-                            }}
-                            id={`passed-${e.domain}`}
-                            aria-label={e.domain}
-                          />
-                        </td>
-                        <td className="min-w-0 px-2 py-2.5 align-middle">
-                          <label
-                            htmlFor={`passed-${e.domain}`}
-                            className="cursor-pointer font-mono text-sm text-gray-200 break-all"
-                          >
-                            {e.domain}
-                          </label>
-                        </td>
-                        <td
-                          className="whitespace-nowrap px-3 py-2.5 text-center align-middle font-mono text-xs"
-                          style={{ color: "var(--muted)" }}
-                        >
-                          {formatIsoPlus3(e.passedAt)}
-                        </td>
-                        <td className="whitespace-nowrap px-3 py-2.5 text-right align-middle">
-                          {dur == null ? (
-                            <span className="font-mono text-xs" style={{ color: "var(--muted)" }}>
-                              —
-                            </span>
-                          ) : (
-                            <span
-                              className="font-mono text-xs font-semibold"
-                              style={{ color: isFast ? "#f87171" : "#34d399" }}
-                              title={
-                                isFast
-                                  ? "Менее 3 минут с предыдущего прохождения"
-                                  : "Интервал с предыдущей отметки"
-                              }
-                            >
-                              {formatDuration(dur)}
-                            </span>
-                          )}
-                        </td>
-                      </tr>
-                    );
-                  })}
-                </tbody>
-              </table>
-            </div>
-          )}
-        </div>
-
-        <div className="border-t px-4 py-2" style={{ borderColor: "var(--border)" }}>
-          <button
-            type="button"
-            onClick={() => {
-              setMessage(null);
-              load();
-            }}
-            disabled={loading || restoring}
-            className="rounded-lg border px-3 py-1.5 text-xs hover:bg-white/5 disabled:opacity-50"
-            style={{ borderColor: "var(--border)" }}
-          >
-            Обновить
-          </button>
-        </div>
+      <div>
+        <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>
+          Поиск по домену (в выбранном периоде)
+        </label>
+        <input
+          type="search"
+          value={filterQuery}
+          onChange={(e) => setFilterQuery(e.target.value)}
+          placeholder="Фильтр…"
+          className="w-full rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
+          style={{ borderColor: "var(--border)" }}
+        />
+        {!loading && (
+          <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
+            В периоде: {inPeriod.length}
+            {filterQuery.trim() ? ` · показано: ${filtered.length}` : null}
+          </p>
+        )}
       </div>
+
+      {!loading && entries.length === 0 ? (
+        <p className="py-6 text-center text-sm" style={{ color: "var(--muted)" }}>
+          Пока нет пройденных — отметьте домены во вкладках «Новые» или «Тизеры»
+        </p>
+      ) : !loading && inPeriod.length === 0 ? (
+        <p className="py-6 text-center text-sm" style={{ color: "var(--muted)" }}>
+          В выбранном периоде нет прохождений — смените даты в календаре
+        </p>
+      ) : (
+        <div className="space-y-4">
+          <PassedSection
+            title="Пройденные домены с тизерами"
+            hint="Добавлены из вкладки «Тизеры» — в списке тизеров остаются"
+            entries={teaserEntries}
+            durations={durations}
+            selected={selected}
+            setSelected={setSelected}
+            restoreLabel="Убрать из пройденных"
+            onRestore={restoreDomains}
+            restoring={restoring}
+            loading={loading}
+            emptyText={
+              filterQuery.trim()
+                ? "Ничего не найдено в этом разделе"
+                : "За период нет пройденных с тизерами"
+            }
+          />
+          <PassedSection
+            title="Пройденные домены новые"
+            hint="Перенесены из «Новых доменов» — можно вернуть обратно в новые"
+            entries={newEntries}
+            durations={durations}
+            selected={selected}
+            setSelected={setSelected}
+            restoreLabel="Вернуть в «новые»"
+            onRestore={restoreDomains}
+            restoring={restoring}
+            loading={loading}
+            emptyText={
+              filterQuery.trim()
+                ? "Ничего не найдено в этом разделе"
+                : "За период нет пройденных из новых"
+            }
+          />
+        </div>
+      )}
+
+      <button
+        type="button"
+        onClick={() => {
+          setMessage(null);
+          load();
+        }}
+        disabled={loading || restoring}
+        className="rounded-lg border px-3 py-1.5 text-xs hover:bg-white/5 disabled:opacity-50"
+        style={{ borderColor: "var(--border)" }}
+      >
+        Обновить
+      </button>
     </div>
   );
 }

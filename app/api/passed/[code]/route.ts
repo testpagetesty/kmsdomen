@@ -10,6 +10,13 @@ import {
 } from "@/lib/env";
 import { normalizeDomainLine, parseDomainLines } from "@/lib/domainNormalize";
 import { fetchRepoFile, putRepoFile } from "@/lib/github";
+import {
+  isPassedSource,
+  parsePassedMap,
+  passedMapToEntries,
+  serializePassedMap,
+  type PassedSource,
+} from "@/lib/passedDomains";
 
 export const dynamic = "force-dynamic";
 
@@ -33,28 +40,11 @@ function checkWriteAuth(request: NextRequest): NextResponse | null {
   return null;
 }
 
-function parsePassedMap(text: string): Record<string, string> {
-  if (!text.trim()) return {};
-  try {
-    const o = JSON.parse(text) as unknown;
-    if (!o || typeof o !== "object") return {};
-    const out: Record<string, string> = {};
-    for (const [k, v] of Object.entries(o as Record<string, unknown>)) {
-      if (typeof v === "string" && typeof k === "string" && k.trim()) {
-        out[normalizeDomainLine(k)] = v;
-      }
-    }
-    return out;
-  } catch {
-    return {};
-  }
-}
-
 function passedFilePath(code: string) {
   return countryJsonFilePath(resolvePassedDomainsPrefix(), code);
 }
 
-/** GET → { entries: { domain, passedAt }[] } по убыванию passedAt */
+/** GET → { entries: { domain, passedAt, source }[] } по убыванию passedAt */
 export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   try {
     const { code: raw } = await ctx.params;
@@ -64,8 +54,7 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
     const path = passedFilePath(code);
     const { text } = await fetchRepoFile(path);
     const map = parsePassedMap(text);
-    const entries = Object.entries(map).map(([domain, passedAt]) => ({ domain, passedAt }));
-    entries.sort((a, b) => (a.passedAt < b.passedAt ? 1 : a.passedAt > b.passedAt ? -1 : 0));
+    const entries = passedMapToEntries(map);
 
     return NextResponse.json({ code, entries, total: entries.length });
   } catch (e) {
@@ -77,19 +66,14 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
 }
 
 /**
- * POST — перенос домена(ов) в «пройденные» (для веб-UI и Android).
+ * POST — добавить домен(ы) в «пройденные» (веб-UI и Android).
  *
- * Body (один из вариантов):
- *   { "domain": "example.com" }     — один домен (удобно для кнопки в Android)
- *   { "mark": ["a.com", "b.com"] }  — несколько доменов
+ * Body:
+ *   { "domain": "example.com" } | { "mark": ["a.com"] }
+ *   optional: { "source": "new" | "teaser" }  (по умолчанию "new")
  *
- * Auth (если задан ADMIN_PASSWORD на сервере):
- *   Authorization: Bearer <ADMIN_PASSWORD>
- *
- * Поведение:
- *   - домен всегда записывается в passed-domains/{code}.json с текущим ISO-временем;
- *   - если он ещё есть в countries/{code}.txt («новые») — удаляется оттуда;
- *   - если уже не в «новых» — всё равно попадает в пройденные (идемпотентно для Android).
+ * source "new"  — записать в passed и убрать из countries/{code}.txt
+ * source "teaser" — только добавить в passed; тизеры НЕ трогаем
  */
 export async function POST(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkWriteAuth(request);
@@ -114,7 +98,9 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       );
     }
 
-    const b = body as { domain?: unknown; mark?: unknown };
+    const b = body as { domain?: unknown; mark?: unknown; source?: unknown };
+    const source: PassedSource = isPassedSource(b.source) ? b.source : "new";
+
     const rawList: string[] = [];
     if (typeof b.domain === "string" && b.domain.trim()) {
       rawList.push(b.domain.trim());
@@ -133,35 +119,38 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       );
     }
 
-    const domainsPath = countryFilePath(resolveDomainsPrefix(), code);
     const passedPath = passedFilePath(code);
-
-    const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
-    const lines = parseDomainLines(domainText);
-
-    const markSet = new Set(normMarks);
-    const kept: string[] = [];
-    const removedFromNew: string[] = [];
-    for (const line of lines) {
-      const n = normalizeDomainLine(line);
-      if (markSet.has(n)) removedFromNew.push(n);
-      else kept.push(line);
-    }
-
     const { text: passedText, sha: passedSha } = await fetchRepoFile(passedPath);
     const passedMap = parsePassedMap(passedText);
     const now = new Date().toISOString();
     for (const n of normMarks) {
-      passedMap[n] = now;
+      passedMap[n] = { passedAt: now, source };
     }
 
-    const passedOut = JSON.stringify(passedMap, null, 2) + "\n";
-    const domainOut = kept.length > 0 ? `${kept.join("\n")}\n` : "";
+    await putRepoFile(passedPath, serializePassedMap(passedMap), passedSha || undefined);
 
-    await putRepoFile(passedPath, passedOut, passedSha || undefined);
-    // Обновляем «новые» только если что-то сняли (лишний write не нужен)
-    if (removedFromNew.length > 0) {
-      await putRepoFile(domainsPath, domainOut, domainSha || undefined);
+    let removedFromNew = 0;
+    let remainingNew: number | undefined;
+
+    // Из «новых» убираем только при source=new
+    if (source === "new") {
+      const domainsPath = countryFilePath(resolveDomainsPrefix(), code);
+      const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
+      const lines = parseDomainLines(domainText);
+      const markSet = new Set(normMarks);
+      const kept: string[] = [];
+      const removed: string[] = [];
+      for (const line of lines) {
+        const n = normalizeDomainLine(line);
+        if (markSet.has(n)) removed.push(n);
+        else kept.push(line);
+      }
+      removedFromNew = removed.length;
+      remainingNew = kept.length;
+      if (removed.length > 0) {
+        const domainOut = kept.length > 0 ? `${kept.join("\n")}\n` : "";
+        await putRepoFile(domainsPath, domainOut, domainSha || undefined);
+      }
     }
 
     const primary = normMarks[0];
@@ -170,11 +159,13 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       code,
       domain: primary,
       domains: normMarks,
+      source,
       passedAt: now,
-      removedFromNew: removedFromNew.length,
-      alreadyOnlyInPassed: normMarks.length - new Set(removedFromNew).size,
-      remainingNew: kept.length,
+      removedFromNew,
+      alreadyOnlyInPassed: source === "new" ? normMarks.length - removedFromNew : 0,
+      remainingNew,
       passedTotal: Object.keys(passedMap).length,
+      keptInTeasers: source === "teaser",
     });
   } catch (e) {
     return NextResponse.json(
@@ -185,7 +176,8 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
 }
 
 /**
- * PUT — вернуть домены из «пройденных» обратно в «новые».
+ * PUT — убрать из «пройденных».
+ * source "new" → вернуть в «новые»; source "teaser" → только удалить из passed (тизеры уже на месте).
  * Body: { restore: string[] } или { domain: string }
  */
 export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
@@ -236,18 +228,21 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     const { text: passedText, sha: passedSha } = await fetchRepoFile(passedPath);
     const passedMap = parsePassedMap(passedText);
 
-    const restored: string[] = [];
+    const restoredNew: string[] = [];
+    const restoredTeaser: string[] = [];
     const missing: string[] = [];
     for (const d of toRestore) {
-      if (d in passedMap) {
-        delete passedMap[d];
-        restored.push(d);
-      } else {
+      const entry = passedMap[d];
+      if (!entry) {
         missing.push(d);
+        continue;
       }
+      delete passedMap[d];
+      if (entry.source === "teaser") restoredTeaser.push(d);
+      else restoredNew.push(d);
     }
 
-    if (restored.length === 0) {
+    if (restoredNew.length === 0 && restoredTeaser.length === 0) {
       return NextResponse.json({
         ok: true,
         restored: 0,
@@ -256,34 +251,39 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
       });
     }
 
-    const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
-    const existingLines = parseDomainLines(domainText);
-    const existingNorm = new Set(existingLines.map(normalizeDomainLine));
-    const appended: string[] = [];
-    for (const d of restored) {
-      if (!existingNorm.has(d)) {
-        existingLines.push(d);
-        existingNorm.add(d);
-        appended.push(d);
+    let appendedToNew = 0;
+    let remainingNew: number | undefined;
+
+    if (restoredNew.length > 0) {
+      const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
+      const existingLines = parseDomainLines(domainText);
+      const existingNorm = new Set(existingLines.map(normalizeDomainLine));
+      for (const d of restoredNew) {
+        if (!existingNorm.has(d)) {
+          existingLines.push(d);
+          existingNorm.add(d);
+          appendedToNew += 1;
+        }
       }
+      remainingNew = existingLines.length;
+      const domainOut = existingLines.length > 0 ? `${existingLines.join("\n")}\n` : "";
+      await putRepoFile(domainsPath, domainOut, domainSha || undefined);
     }
 
-    const passedOut =
-      Object.keys(passedMap).length > 0 ? JSON.stringify(passedMap, null, 2) + "\n" : "";
-    const domainOut = existingLines.length > 0 ? `${existingLines.join("\n")}\n` : "";
+    await putRepoFile(passedPath, serializePassedMap(passedMap), passedSha || undefined);
 
-    await putRepoFile(passedPath, passedOut, passedSha || undefined);
-    await putRepoFile(domainsPath, domainOut, domainSha || undefined);
-
+    const restored = restoredNew.length + restoredTeaser.length;
     return NextResponse.json({
       ok: true,
       code,
-      restored: restored.length,
-      appendedToNew: appended.length,
-      alreadyInNew: restored.length - appended.length,
+      restored,
+      restoredNew: restoredNew.length,
+      restoredTeaser: restoredTeaser.length,
+      appendedToNew,
+      alreadyInNew: restoredNew.length - appendedToNew,
       missing: missing.length,
       remainingPassed: Object.keys(passedMap).length,
-      remainingNew: existingLines.length,
+      remainingNew,
     });
   } catch (e) {
     return NextResponse.json(

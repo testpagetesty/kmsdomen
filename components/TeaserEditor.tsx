@@ -5,7 +5,10 @@ import { DateRangePicker } from "@/components/DateRangePicker";
 import { VERTICALS } from "@/data/verticals";
 import { parseTeaserTagsJson, type TeaserTagMeta } from "@/lib/teaserTags";
 
-type Props = { countryCode: string };
+type Props = {
+  countryCode: string;
+  onPassedChange?: () => void;
+};
 
 type HistoryEvent = {
   domain: string;
@@ -38,7 +41,7 @@ function formatIsoPlus3(iso: string): string {
   return `${y}-${m}-${day} ${hh}:${mm}:${ss}`;
 }
 
-export function TeaserEditor({ countryCode }: Props) {
+export function TeaserEditor({ countryCode, onPassedChange }: Props) {
   const [lines, setLines] = useState<string[]>([]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
@@ -50,12 +53,33 @@ export function TeaserEditor({ countryCode }: Props) {
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
   const [tags, setTags] = useState<Record<string, TeaserTagMeta>>({});
+  const [selected, setSelected] = useState<Set<string>>(() => new Set());
+  const [marking, setMarking] = useState(false);
+  const [passedSet, setPassedSet] = useState<Set<string>>(() => new Set());
 
   // История добавлений по датам (для фильтра)
   const [historyLoading, setHistoryLoading] = useState(false);
   const [fromDate, setFromDate] = useState<string>(() => dateToYmd(new Date()));
   const [toDate, setToDate] = useState<string>(() => dateToYmd(new Date()));
   const [events, setEvents] = useState<HistoryEvent[]>([]);
+
+  const loadPassed = useCallback(async () => {
+    try {
+      const res = await fetch(`/api/passed/${countryCode}`, { cache: "no-store" });
+      const data = (await res.json()) as {
+        entries?: { domain: string; source?: string }[];
+        error?: string;
+      };
+      if (!res.ok) return;
+      const set = new Set<string>();
+      for (const e of data.entries ?? []) {
+        if (e.source === "teaser") set.add(e.domain);
+      }
+      setPassedSet(set);
+    } catch {
+      // ignore
+    }
+  }, [countryCode]);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -66,12 +90,14 @@ export function TeaserEditor({ countryCode }: Props) {
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
       setLines(data.lines ?? []);
       setTags(parseTeaserTagsJson(JSON.stringify(data.tags ?? {})));
+      setSelected(new Set());
+      await loadPassed();
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка загрузки" });
     } finally {
       setLoading(false);
     }
-  }, [countryCode]);
+  }, [countryCode, loadPassed]);
 
   const loadHistory = useCallback(async () => {
     setHistoryLoading(true);
@@ -210,12 +236,74 @@ export function TeaserEditor({ countryCode }: Props) {
         delete next[domain];
         return next;
       });
+      setSelected((prev) => {
+        const next = new Set(prev);
+        next.delete(domain);
+        return next;
+      });
       await loadHistory();
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка удаления" });
     } finally {
       setDeletingDomain(null);
     }
+  }
+
+  async function markPassed() {
+    const toMark = [...selected];
+    if (toMark.length === 0) {
+      setMessage({ type: "err", text: "Отметьте хотя бы один домен галочкой" });
+      return;
+    }
+    setMarking(true);
+    setMessage(null);
+    try {
+      const res = await fetch(`/api/passed/${countryCode}`, {
+        method: "POST",
+        headers: authHeaders(),
+        body: JSON.stringify({ mark: toMark, source: "teaser" }),
+      });
+      const data = (await res.json()) as {
+        ok?: boolean;
+        domains?: string[];
+        error?: string;
+      };
+      if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
+      const count = data.domains?.length ?? toMark.length;
+      setMessage({
+        type: "ok",
+        text: `В «пройденные с тизерами» добавлено: ${count}. В списке тизеров домены остались.`,
+      });
+      setSelected(new Set());
+      await loadPassed();
+      onPassedChange?.();
+    } catch (e) {
+      setMessage({
+        type: "err",
+        text: e instanceof Error ? e.message : "Не удалось отметить пройденными",
+      });
+    } finally {
+      setMarking(false);
+    }
+  }
+
+  const filteredSelectedCount = useMemo(
+    () => filtered.filter((d) => selected.has(d)).length,
+    [filtered, selected],
+  );
+  const allFilteredSelected =
+    filtered.length > 0 && filtered.every((d) => selected.has(d));
+
+  function toggleAllFiltered() {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (allFilteredSelected) {
+        for (const d of filtered) next.delete(d);
+      } else {
+        for (const d of filtered) next.add(d);
+      }
+      return next;
+    });
   }
 
   return (
@@ -225,7 +313,7 @@ export function TeaserEditor({ countryCode }: Props) {
         <div>
           <h2 className="text-base font-semibold text-white">Домены с тизерами</h2>
           <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-            Только добавление и точечное удаление — список не перезаписывается целиком
+            Можно отметить пройденными — домен добавится в «Пройденные», но из тизеров не исчезнет
           </p>
         </div>
         {!loading && (
@@ -365,6 +453,29 @@ export function TeaserEditor({ countryCode }: Props) {
               />
             </div>
           </div>
+          {filtered.length > 0 && (
+            <div className="mt-3 flex flex-wrap gap-2">
+              <button
+                type="button"
+                onClick={toggleAllFiltered}
+                disabled={loading || marking || saving}
+                className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
+                style={{ borderColor: "var(--border)" }}
+              >
+                {allFilteredSelected ? "Снять все в фильтре" : "Выделить все в фильтре"}
+              </button>
+              <button
+                type="button"
+                onClick={markPassed}
+                disabled={loading || marking || saving || filteredSelectedCount === 0}
+                className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {marking
+                  ? "Запись…"
+                  : `Отметить пройденными (${filteredSelectedCount})`}
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Строки */}
@@ -379,42 +490,75 @@ export function TeaserEditor({ countryCode }: Props) {
             </p>
           ) : (
             <ul>
-              {sortedForDisplay.map((domain) => (
+              {sortedForDisplay.map((domain) => {
+                const alreadyPassed = passedSet.has(domain);
+                return (
                 <li
                   key={domain}
                   className="flex items-center justify-between gap-3 border-b px-4 py-2.5 last:border-b-0 hover:bg-white/[0.02]"
                   style={{ borderColor: "var(--border)" }}
                 >
-                  <div className="min-w-0">
-                    <div className="font-mono text-sm text-gray-200 break-all">{domain}</div>
-                    <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
-                      Вертикаль:{" "}
-                      <span className="rounded-full bg-white/10 px-2 py-0.5 font-semibold text-gray-200">
-                        {VERTICALS.find((v) => v.id === verticalOf(tags, domain))?.label ?? "Другое"}
-                      </span>
-                      {" · "}
-                      Добавлен:{" "}
-                      <span className="font-mono">
-                        {tags[domain]?.addedAt ? formatIsoPlus3(tags[domain].addedAt!) : "—"}
-                      </span>
-                      {" · "}
-                      Обновлён:{" "}
-                      <span className="font-mono">
-                        {tags[domain]?.updatedAt ? formatIsoPlus3(tags[domain].updatedAt!) : "—"}
-                      </span>
+                  <div className="flex min-w-0 items-start gap-3">
+                    <input
+                      type="checkbox"
+                      className="mt-1 h-4 w-4 shrink-0 rounded border-gray-600"
+                      checked={selected.has(domain)}
+                      onChange={() => {
+                        setSelected((prev) => {
+                          const next = new Set(prev);
+                          if (next.has(domain)) next.delete(domain);
+                          else next.add(domain);
+                          return next;
+                        });
+                      }}
+                      id={`teaser-${domain}`}
+                      aria-label={domain}
+                    />
+                    <div className="min-w-0">
+                      <label
+                        htmlFor={`teaser-${domain}`}
+                        className="cursor-pointer font-mono text-sm text-gray-200 break-all"
+                      >
+                        {domain}
+                      </label>
+                      <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                        Вертикаль:{" "}
+                        <span className="rounded-full bg-white/10 px-2 py-0.5 font-semibold text-gray-200">
+                          {VERTICALS.find((v) => v.id === verticalOf(tags, domain))?.label ?? "Другое"}
+                        </span>
+                        {alreadyPassed && (
+                          <>
+                            {" · "}
+                            <span className="rounded-full bg-emerald-500/15 px-2 py-0.5 font-semibold text-emerald-300">
+                              в пройденных
+                            </span>
+                          </>
+                        )}
+                        {" · "}
+                        Добавлен:{" "}
+                        <span className="font-mono">
+                          {tags[domain]?.addedAt ? formatIsoPlus3(tags[domain].addedAt!) : "—"}
+                        </span>
+                        {" · "}
+                        Обновлён:{" "}
+                        <span className="font-mono">
+                          {tags[domain]?.updatedAt ? formatIsoPlus3(tags[domain].updatedAt!) : "—"}
+                        </span>
+                      </div>
                     </div>
                   </div>
                   <button
                     type="button"
                     onClick={() => handleDelete(domain)}
-                    disabled={deletingDomain === domain || saving}
+                    disabled={deletingDomain === domain || saving || marking}
                     title="Удалить домен"
                     className="flex-shrink-0 rounded-md px-2 py-1 text-xs text-gray-500 transition hover:bg-red-500/10 hover:text-red-400 disabled:opacity-40"
                   >
                     {deletingDomain === domain ? "…" : "✕"}
                   </button>
                 </li>
-              ))}
+                );
+              })}
             </ul>
           )}
         </div>

@@ -47,7 +47,10 @@ export function CountryPageTabs({ countryCode, initialTab = "domains" }: Props) 
             onPassedChange={() => setPassedRefreshKey((k) => k + 1)}
           />
         ) : activeTab === "teasers" ? (
-          <TeaserEditor countryCode={countryCode} />
+          <TeaserEditor
+            countryCode={countryCode}
+            onPassedChange={() => setPassedRefreshKey((k) => k + 1)}
+          />
         ) : (
           <PassedDomainsEditor key={passedRefreshKey} countryCode={countryCode} />
         )}

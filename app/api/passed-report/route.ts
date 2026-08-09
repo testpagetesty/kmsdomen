@@ -8,7 +8,7 @@ import {
 } from "@/lib/env";
 import { emptyEmployeesData, parseEmployeesJson } from "@/lib/employees";
 import { fetchRepoFile, listRepoDir } from "@/lib/github";
-import { normalizeDomainLine } from "@/lib/domainNormalize";
+import { parsePassedMap } from "@/lib/passedDomains";
 
 export const dynamic = "force-dynamic";
 
@@ -26,23 +26,6 @@ function isoToDayKey(iso: string): string | null {
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
   return toYmdPlus3(d);
-}
-
-function parsePassedMap(text: string): Record<string, string> {
-  if (!text.trim()) return {};
-  try {
-    const o = JSON.parse(text) as unknown;
-    if (!o || typeof o !== "object") return {};
-    const out: Record<string, string> = {};
-    for (const [k, v] of Object.entries(o as Record<string, unknown>)) {
-      if (typeof v === "string" && typeof k === "string" && k.trim()) {
-        out[normalizeDomainLine(k)] = v;
-      }
-    }
-    return out;
-  } catch {
-    return {};
-  }
 }
 
 type CountryActivity = {
@@ -95,7 +78,8 @@ export async function GET(req: NextRequest) {
             const map = parsePassedMap(text);
             let count = 0;
             let lastPassedAt = "";
-            for (const iso of Object.values(map)) {
+            for (const e of Object.values(map)) {
+              const iso = e.passedAt;
               const day = isoToDayKey(iso);
               if (!day || day < fromKey || day > toKey) continue;
               count += 1;

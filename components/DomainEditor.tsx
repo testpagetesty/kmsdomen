@@ -102,7 +102,7 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
       const res = await fetch(`/api/passed/${countryCode}`, {
         method: "POST",
         headers: authHeaders(),
-        body: JSON.stringify({ mark: toMark }),
+        body: JSON.stringify({ mark: toMark, source: "new" }),
       });
       const data = (await res.json()) as {
         ok?: boolean;
