@@ -33,6 +33,7 @@ function MainPageInner({ countries }: { countries: Country[] }) {
           setEmployeesData({
             employees: data.employees ?? [],
             assignments: data.assignments ?? {},
+            priorityCountries: data.priorityCountries ?? [],
           });
         }
       } catch {

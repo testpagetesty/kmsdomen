@@ -1,13 +1,14 @@
 export type Employee = { id: string; name: string };
 
-/** assignments: countryCode → employeeId */
+/** assignments: countryCode → employeeId; priorityCountries — ежедневный контроль */
 export type EmployeesData = {
   employees: Employee[];
   assignments: Record<string, string>;
+  priorityCountries: string[];
 };
 
 export function emptyEmployeesData(): EmployeesData {
-  return { employees: [], assignments: {} };
+  return { employees: [], assignments: {}, priorityCountries: [] };
 }
 
 export function parseEmployeesJson(text: string): EmployeesData {
@@ -15,7 +16,11 @@ export function parseEmployeesJson(text: string): EmployeesData {
   try {
     const o = JSON.parse(text) as unknown;
     if (!o || typeof o !== "object") return emptyEmployeesData();
-    const raw = o as { employees?: unknown; assignments?: unknown };
+    const raw = o as {
+      employees?: unknown;
+      assignments?: unknown;
+      priorityCountries?: unknown;
+    };
     const employees: Employee[] = [];
     if (Array.isArray(raw.employees)) {
       for (const e of raw.employees) {
@@ -37,21 +42,35 @@ export function parseEmployeesJson(text: string): EmployeesData {
         assignments[c] = empId.trim();
       }
     }
-    return { employees, assignments };
+    const priorityCountries: string[] = [];
+    const seenPri = new Set<string>();
+    if (Array.isArray(raw.priorityCountries)) {
+      for (const x of raw.priorityCountries) {
+        if (typeof x !== "string") continue;
+        const c = x.toLowerCase().trim();
+        if (!/^[a-z]{2}$/.test(c) || seenPri.has(c)) continue;
+        seenPri.add(c);
+        priorityCountries.push(c);
+      }
+    }
+    return { employees, assignments, priorityCountries };
   } catch {
     return emptyEmployeesData();
   }
 }
 
 export function serializeEmployeesData(data: EmployeesData): string {
-  return JSON.stringify(
-    {
-      employees: data.employees,
-      assignments: data.assignments,
-    },
-    null,
-    2,
-  ) + "\n";
+  return (
+    JSON.stringify(
+      {
+        employees: data.employees,
+        assignments: data.assignments,
+        priorityCountries: data.priorityCountries ?? [],
+      },
+      null,
+      2,
+    ) + "\n"
+  );
 }
 
 export function employeeNameByCountry(

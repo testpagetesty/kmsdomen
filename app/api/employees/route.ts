@@ -31,7 +31,11 @@ function normalizePayload(body: unknown): EmployeesData | { error: string } {
   if (typeof body !== "object" || body === null) {
     return { error: "Ожидается JSON-объект" };
   }
-  const b = body as { employees?: unknown; assignments?: unknown };
+  const b = body as {
+    employees?: unknown;
+    assignments?: unknown;
+    priorityCountries?: unknown;
+  };
   if (!Array.isArray(b.employees)) {
     return { error: "Ожидается поле employees: { id, name }[]" };
   }
@@ -60,7 +64,19 @@ function normalizePayload(body: unknown): EmployeesData | { error: string } {
     }
   }
 
-  return { employees, assignments };
+  const priorityCountries: string[] = [];
+  const seenPri = new Set<string>();
+  if (Array.isArray(b.priorityCountries)) {
+    for (const x of b.priorityCountries) {
+      if (typeof x !== "string") continue;
+      const c = x.toLowerCase().trim();
+      if (!isKnownCountryCode(c) || seenPri.has(c)) continue;
+      seenPri.add(c);
+      priorityCountries.push(c);
+    }
+  }
+
+  return { employees, assignments, priorityCountries };
 }
 
 /** GET /api/employees → { employees, assignments } */

@@ -31,6 +31,7 @@ export function CountrySwitcher({ currentCode }: Props) {
           setEmployeesData({
             employees: data.employees ?? [],
             assignments: data.assignments ?? {},
+            priorityCountries: data.priorityCountries ?? [],
           });
         }
       } catch {

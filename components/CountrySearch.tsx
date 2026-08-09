@@ -35,7 +35,7 @@ function colorForId(id: string): string {
 export function CountrySearch({
   countries,
   linkSuffix = "",
-  employeesData = { employees: [], assignments: {} },
+  employeesData = { employees: [], assignments: {}, priorityCountries: [] },
   prioritizeCodes = [],
 }: Props) {
   const router = useRouter();

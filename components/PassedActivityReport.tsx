@@ -19,12 +19,24 @@ type EmpBlock = {
   countriesTotal: number;
 };
 
+type PriorityItem = {
+  code: string;
+  nameRu: string;
+  employeeId: string | null;
+  employeeName: string | null;
+  done: boolean;
+  count: number;
+  lastPassedAt: string | null;
+};
+
 type Report = {
   from: string;
   to: string;
   byEmployee: EmpBlock[];
   unassigned: CountryActivity[];
   activeCountryCodes: string[];
+  priority: PriorityItem[];
+  prioritySummary: { total: number; done: number; missing: number };
   totals: { employees: number; countries: number; domains: number };
 };
 
@@ -136,9 +148,100 @@ export function PassedActivityReport({ onActiveCodes }: Props) {
         </p>
       )}
 
-      {!loading && report && report.byEmployee.length === 0 && report.unassigned.length === 0 && (
+      {!loading && report && (report.priority?.length ?? 0) > 0 && (
+        <div
+          className="mt-4 rounded-lg border p-3"
+          style={{
+            borderColor:
+              report.prioritySummary.missing === 0 ? "rgba(52,211,153,.35)" : "rgba(251,191,36,.35)",
+            background:
+              report.prioritySummary.missing === 0 ? "rgba(52,211,153,.06)" : "rgba(251,191,36,.06)",
+          }}
+        >
+          <div className="mb-3 flex flex-wrap items-center justify-between gap-2">
+            <div>
+              <h4 className="text-sm font-semibold text-white">Приоритетные страны</h4>
+              <p className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                Ежедневный контроль: проходили ли закреплённые страны за период
+              </p>
+            </div>
+            <span
+              className="rounded-full px-2.5 py-1 text-[11px] font-semibold tabular-nums"
+              style={{
+                color: report.prioritySummary.missing === 0 ? "#34d399" : "#fbbf24",
+                background:
+                  report.prioritySummary.missing === 0
+                    ? "rgba(52,211,153,.12)"
+                    : "rgba(251,191,36,.12)",
+              }}
+            >
+              {report.prioritySummary.done}/{report.prioritySummary.total} готово
+              {report.prioritySummary.missing > 0
+                ? ` · ${report.prioritySummary.missing} нет`
+                : ""}
+            </span>
+          </div>
+          <ul className="grid gap-1.5 sm:grid-cols-2">
+            {[...report.priority]
+              .sort((a, b) => Number(a.done) - Number(b.done) || a.nameRu.localeCompare(b.nameRu, "ru"))
+              .map((p) => (
+                <li key={p.code}>
+                  <Link
+                    href={`/country/${p.code}?tab=passed`}
+                    prefetch={false}
+                    className="flex items-center justify-between gap-2 rounded-lg border px-3 py-2 text-sm transition hover:bg-white/[0.04]"
+                    style={{
+                      borderColor: p.done ? "rgba(52,211,153,.25)" : "rgba(248,113,113,.3)",
+                      background: p.done ? "rgba(52,211,153,.06)" : "rgba(248,113,113,.06)",
+                    }}
+                  >
+                    <span className="min-w-0">
+                      <span className="flex items-center gap-2">
+                        <span
+                          className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[10px] font-bold"
+                          style={{
+                            color: p.done ? "#34d399" : "#f87171",
+                            background: p.done ? "rgba(52,211,153,.15)" : "rgba(248,113,113,.15)",
+                          }}
+                          aria-hidden
+                        >
+                          {p.done ? "✓" : "!"}
+                        </span>
+                        <span className="truncate font-medium text-white">{p.nameRu}</span>
+                        <span className="font-mono text-[10px] uppercase" style={{ color: "var(--muted)" }}>
+                          {p.code}
+                        </span>
+                      </span>
+                      <span className="mt-0.5 block pl-7 text-[11px]" style={{ color: "var(--muted)" }}>
+                        {p.employeeName ? p.employeeName : "без закрепления"}
+                        {p.done ? ` · ${p.count} дом.` : " · нет прохождений"}
+                      </span>
+                    </span>
+                  </Link>
+                </li>
+              ))}
+          </ul>
+        </div>
+      )}
+
+      {!loading &&
+        report &&
+        report.byEmployee.length === 0 &&
+        report.unassigned.length === 0 &&
+        (report.priority?.length ?? 0) === 0 && (
         <p className="mt-4 text-center text-sm" style={{ color: "var(--muted)" }}>
           За выбранный период прохождений нет
+        </p>
+      )}
+
+      {!loading &&
+        report &&
+        report.byEmployee.length === 0 &&
+        report.unassigned.length === 0 &&
+        (report.priority?.length ?? 0) > 0 &&
+        report.prioritySummary.done === 0 && (
+        <p className="mt-3 text-center text-sm" style={{ color: "var(--muted)" }}>
+          По приоритетным странам прохождений за период нет
         </p>
       )}
 

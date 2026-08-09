@@ -6,7 +6,7 @@ import {
   resolvePassedDomainsPrefix,
   countryJsonFilePath,
 } from "@/lib/env";
-import { parseEmployeesJson } from "@/lib/employees";
+import { emptyEmployeesData, parseEmployeesJson } from "@/lib/employees";
 import { fetchRepoFile, listRepoDir } from "@/lib/github";
 import { normalizeDomainLine } from "@/lib/domainNormalize";
 
@@ -120,7 +120,7 @@ export async function GET(req: NextRequest) {
     }
 
     // сотрудники
-    let employeesData = { employees: [] as { id: string; name: string }[], assignments: {} as Record<string, string> };
+    let employeesData = emptyEmployeesData();
     try {
       const { text } = await fetchRepoFile(resolveEmployeesPath());
       employeesData = parseEmployeesJson(text);
@@ -181,12 +181,36 @@ export async function GET(req: NextRequest) {
       ...unassigned.map((c) => c.code),
     ];
 
+    const activityByCode = new Map(countryStats.map((c) => [c.code, c]));
+    const priority = (employeesData.priorityCountries ?? []).map((code) => {
+      const c = getCountryByCode(code);
+      const act = activityByCode.get(code);
+      const empId = employeesData.assignments[code];
+      const empName = empId ? byId.get(empId) : undefined;
+      return {
+        code,
+        nameRu: c?.nameRu ?? code.toUpperCase(),
+        employeeId: empId ?? null,
+        employeeName: empName ?? null,
+        done: Boolean(act && act.count > 0),
+        count: act?.count ?? 0,
+        lastPassedAt: act?.lastPassedAt ?? null,
+      };
+    });
+    const priorityDone = priority.filter((p) => p.done).length;
+
     return NextResponse.json({
       from: fromKey,
       to: toKey,
       byEmployee,
       unassigned,
       activeCountryCodes,
+      priority,
+      prioritySummary: {
+        total: priority.length,
+        done: priorityDone,
+        missing: priority.length - priorityDone,
+      },
       totals: {
         employees: byEmployee.length,
         countries: countryStats.length,

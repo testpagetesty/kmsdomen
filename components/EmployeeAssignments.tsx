@@ -38,16 +38,21 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
   const [open, setOpen] = useState(false);
   const [employees, setEmployees] = useState<Employee[]>(data.employees);
   const [assignments, setAssignments] = useState<Record<string, string>>(data.assignments);
+  const [priorityCountries, setPriorityCountries] = useState<string[]>(
+    data.priorityCountries ?? [],
+  );
   const [newName, setNewName] = useState("");
   const [activeEmpId, setActiveEmpId] = useState<string | null>(null);
   const [password, setPassword] = useState("");
   const [saving, setSaving] = useState(false);
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
   const [countryQuery, setCountryQuery] = useState("");
+  const [priorityQuery, setPriorityQuery] = useState("");
 
   useEffect(() => {
     setEmployees(data.employees);
     setAssignments(data.assignments);
+    setPriorityCountries(data.priorityCountries ?? []);
   }, [data]);
 
   useEffect(() => {
@@ -131,13 +136,38 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
     });
   }
 
+  function togglePriority(code: string) {
+    setPriorityCountries((prev) => {
+      if (prev.includes(code)) return prev.filter((c) => c !== code);
+      return [...prev, code];
+    });
+  }
+
+  const prioritySet = useMemo(() => new Set(priorityCountries), [priorityCountries]);
+
+  const priorityList = useMemo(() => {
+    const byCode = new Map(countries.map((c) => [c.code, c]));
+    return priorityCountries
+      .map((code) => byCode.get(code))
+      .filter((c): c is Country => Boolean(c));
+  }, [priorityCountries, countries]);
+
+  const priorityCandidates = useMemo(() => {
+    const q = priorityQuery.trim().toLowerCase();
+    return countries.filter((c) => {
+      if (prioritySet.has(c.code)) return false;
+      if (!q) return true;
+      return c.nameRu.toLowerCase().includes(q) || c.code.includes(q);
+    });
+  }, [countries, priorityQuery, prioritySet]);
+
   const save = useCallback(async () => {
     setSaving(true);
     setMessage(null);
     try {
       const headers: Record<string, string> = { "Content-Type": "application/json" };
       if (password.trim()) headers.Authorization = `Bearer ${password.trim()}`;
-      const payload: EmployeesData = { employees, assignments };
+      const payload: EmployeesData = { employees, assignments, priorityCountries };
       const res = await fetch("/api/employees", {
         method: "PUT",
         headers,
@@ -145,7 +175,11 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
       });
       const dataRes = (await res.json()) as EmployeesData & { error?: string };
       if (!res.ok) throw new Error(dataRes.error ?? `Ошибка ${res.status}`);
-      onSaved({ employees: dataRes.employees, assignments: dataRes.assignments });
+      onSaved({
+        employees: dataRes.employees,
+        assignments: dataRes.assignments,
+        priorityCountries: dataRes.priorityCountries ?? [],
+      });
       setMessage({ type: "ok", text: "Закрепления сохранены на GitHub" });
     } catch (e) {
       setMessage({
@@ -155,7 +189,7 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
     } finally {
       setSaving(false);
     }
-  }, [employees, assignments, password, onSaved]);
+  }, [employees, assignments, priorityCountries, password, onSaved]);
 
   const activeEmp = employees.find((e) => e.id === activeEmpId) ?? null;
   const nameById = useMemo(() => {
@@ -179,7 +213,7 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
           <div className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
             Закрепите страны за сотрудниками — имя появится рядом со страной в списке
             {employees.length > 0
-              ? ` · ${employees.length} сотр. · ${Object.keys(assignments).length} стран`
+              ? ` · ${employees.length} сотр. · ${Object.keys(assignments).length} стран · ${priorityCountries.length} приор.`
               : null}
           </div>
         </div>
@@ -344,6 +378,92 @@ export function EmployeeAssignments({ countries, data, onSaved }: Props) {
               Добавьте хотя бы одного сотрудника, затем отметьте его страны.
             </p>
           )}
+
+          <div className="mb-4 rounded-lg border p-3" style={{ borderColor: "var(--border)" }}>
+            <div className="mb-2">
+              <div className="text-sm font-medium text-white">Приоритетные страны</div>
+              <p className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                Отдельный список для ежедневного контроля в отчёте «Пройденные»
+              </p>
+            </div>
+            {priorityList.length > 0 ? (
+              <ul className="mb-3 flex flex-wrap gap-2">
+                {priorityList.map((c) => {
+                  const empId = assignments[c.code];
+                  const empName = empId ? nameById.get(empId) : undefined;
+                  return (
+                    <li key={c.code}>
+                      <button
+                        type="button"
+                        title="Убрать из приоритетных"
+                        onClick={() => togglePriority(c.code)}
+                        className="inline-flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs hover:border-red-400/40 hover:bg-red-500/10"
+                        style={{
+                          borderColor: "rgba(251,191,36,.35)",
+                          background: "rgba(251,191,36,.08)",
+                        }}
+                      >
+                        <span className="text-amber-300">★</span>
+                        <span className="text-white">{c.nameRu}</span>
+                        <span className="font-mono uppercase" style={{ color: "var(--muted)" }}>
+                          {c.code}
+                        </span>
+                        {empName && (
+                          <span style={{ color: "var(--muted)" }}>{empName}</span>
+                        )}
+                        <span className="text-gray-500">×</span>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+            ) : (
+              <p className="mb-3 text-xs" style={{ color: "var(--muted)" }}>
+                Список пуст — добавьте страны ниже
+              </p>
+            )}
+            <input
+              type="search"
+              value={priorityQuery}
+              onChange={(e) => setPriorityQuery(e.target.value)}
+              placeholder="Добавить страну в приоритетные…"
+              className="mb-2 w-full rounded-lg border bg-[#0d1117] px-3 py-1.5 text-sm text-white outline-none focus:border-[var(--accent)]"
+              style={{ borderColor: "var(--border)" }}
+            />
+            <div className="max-h-36 overflow-y-auto">
+              <ul className="grid gap-1 sm:grid-cols-2">
+                {priorityCandidates.slice(0, 40).map((c) => {
+                  const empId = assignments[c.code];
+                  const empName = empId ? nameById.get(empId) : undefined;
+                  return (
+                    <li key={c.code}>
+                      <button
+                        type="button"
+                        onClick={() => togglePriority(c.code)}
+                        className="flex w-full items-center justify-between gap-2 rounded-lg border px-3 py-1.5 text-left text-sm hover:bg-amber-500/10"
+                        style={{ borderColor: "var(--border)" }}
+                      >
+                        <span className="truncate text-gray-200">
+                          {c.nameRu}{" "}
+                          <span className="font-mono text-[10px] uppercase" style={{ color: "var(--muted)" }}>
+                            {c.code}
+                          </span>
+                        </span>
+                        <span className="shrink-0 text-[10px]" style={{ color: "var(--muted)" }}>
+                          {empName ?? "—"} · +
+                        </span>
+                      </button>
+                    </li>
+                  );
+                })}
+              </ul>
+              {priorityCandidates.length === 0 && (
+                <p className="text-xs" style={{ color: "var(--muted)" }}>
+                  {priorityQuery.trim() ? "Ничего не найдено" : "Все страны уже в приоритете"}
+                </p>
+              )}
+            </div>
+          </div>
 
           <div className="mb-3">
             <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>
