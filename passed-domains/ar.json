@@ -1,28 +1,110 @@
 {
-  "clarin.com": "2026-08-07T15:47:03.194Z",
-  "lanacion.com.ar": "2026-08-07T14:47:39.214Z",
-  "infobae.com": "2026-08-07T14:50:37.256Z",
-  "cronista.com": "2026-08-07T14:51:19.057Z",
-  "perfil.com": "2026-08-07T14:52:41.610Z",
-  "minutouno.com": "2026-08-07T14:54:18.074Z",
-  "diariopopular.com.ar": "2026-08-07T14:54:43.935Z",
-  "ambito.com": "2026-08-07T14:55:17.003Z",
-  "pagina12.com.ar": "2026-08-07T14:56:52.223Z",
-  "tn.com.ar": "2026-08-07T14:57:20.492Z",
-  "eldestapeweb.com": "2026-08-07T14:58:20.856Z",
-  "losandes.com.ar": "2026-08-07T15:02:47.870Z",
-  "lavoz.com.ar": "2026-08-07T15:03:46.840Z",
-  "ellitoral.com": "2026-08-07T15:04:08.576Z",
-  "rosario3.com": "2026-08-07T15:10:54.125Z",
-  "mdzol.com": "2026-08-07T15:19:18.634Z",
-  "diariouno.com.ar": "2026-08-07T15:21:03.485Z",
-  "bigbangnews.com": "2026-08-07T15:21:35.699Z",
-  "paparazzi.com.ar": "2026-08-07T15:23:02.150Z",
-  "primiciasya.com": "2026-08-07T15:25:57.778Z",
-  "ciudad.com.ar": "2026-08-07T15:27:20.814Z",
-  "exitoina.perfil.com": "2026-08-07T15:31:50.252Z",
-  "caras.perfil.com": "2026-08-07T15:36:22.942Z",
-  "parati.com.ar": "2026-08-07T15:37:50.682Z",
-  "pronto.com.ar": "2026-08-07T15:41:48.760Z",
-  "gente.com.ar": "2026-08-07T15:45:37.669Z"
+  "clarin.com": {
+    "passedAt": "2026-08-07T15:47:03.194Z",
+    "source": "new"
+  },
+  "lanacion.com.ar": {
+    "passedAt": "2026-08-07T14:47:39.214Z",
+    "source": "new"
+  },
+  "infobae.com": {
+    "passedAt": "2026-08-07T14:50:37.256Z",
+    "source": "new"
+  },
+  "cronista.com": {
+    "passedAt": "2026-08-07T14:51:19.057Z",
+    "source": "new"
+  },
+  "perfil.com": {
+    "passedAt": "2026-08-07T14:52:41.610Z",
+    "source": "new"
+  },
+  "minutouno.com": {
+    "passedAt": "2026-08-07T14:54:18.074Z",
+    "source": "new"
+  },
+  "diariopopular.com.ar": {
+    "passedAt": "2026-08-07T14:54:43.935Z",
+    "source": "new"
+  },
+  "ambito.com": {
+    "passedAt": "2026-08-07T14:55:17.003Z",
+    "source": "new"
+  },
+  "pagina12.com.ar": {
+    "passedAt": "2026-08-07T14:56:52.223Z",
+    "source": "new"
+  },
+  "tn.com.ar": {
+    "passedAt": "2026-08-07T14:57:20.492Z",
+    "source": "new"
+  },
+  "eldestapeweb.com": {
+    "passedAt": "2026-08-07T14:58:20.856Z",
+    "source": "new"
+  },
+  "losandes.com.ar": {
+    "passedAt": "2026-08-07T15:02:47.870Z",
+    "source": "new"
+  },
+  "lavoz.com.ar": {
+    "passedAt": "2026-08-07T15:03:46.840Z",
+    "source": "new"
+  },
+  "ellitoral.com": {
+    "passedAt": "2026-08-07T15:04:08.576Z",
+    "source": "new"
+  },
+  "rosario3.com": {
+    "passedAt": "2026-08-07T15:10:54.125Z",
+    "source": "new"
+  },
+  "mdzol.com": {
+    "passedAt": "2026-08-07T15:19:18.634Z",
+    "source": "new"
+  },
+  "diariouno.com.ar": {
+    "passedAt": "2026-08-07T15:21:03.485Z",
+    "source": "new"
+  },
+  "bigbangnews.com": {
+    "passedAt": "2026-08-07T15:21:35.699Z",
+    "source": "new"
+  },
+  "paparazzi.com.ar": {
+    "passedAt": "2026-08-07T15:23:02.150Z",
+    "source": "new"
+  },
+  "primiciasya.com": {
+    "passedAt": "2026-08-07T15:25:57.778Z",
+    "source": "new"
+  },
+  "ciudad.com.ar": {
+    "passedAt": "2026-08-07T15:27:20.814Z",
+    "source": "new"
+  },
+  "exitoina.perfil.com": {
+    "passedAt": "2026-08-07T15:31:50.252Z",
+    "source": "new"
+  },
+  "caras.perfil.com": {
+    "passedAt": "2026-08-07T15:36:22.942Z",
+    "source": "new"
+  },
+  "parati.com.ar": {
+    "passedAt": "2026-08-07T15:37:50.682Z",
+    "source": "new"
+  },
+  "pronto.com.ar": {
+    "passedAt": "2026-08-07T15:41:48.760Z",
+    "source": "new"
+  },
+  "gente.com.ar": {
+    "passedAt": "2026-08-07T15:45:37.669Z",
+    "source": "new"
+  },
+  "youtube.com": {
+    "passedAt": "2026-08-10T14:19:27.661Z",
+    "source": "teaser"
+  }
 }
