@@ -1,21 +1,82 @@
 {
-  "bild.de": "2026-08-09T14:25:19.393Z",
-  "focus.de": "2026-08-09T14:27:13.720Z",
-  "stern.de": "2026-08-06T14:39:43.891Z",
-  "zeit.de": "2026-08-06T14:47:13.754Z",
-  "faz.net": "2026-08-06T14:47:47.715Z",
-  "sueddeutsche.de": "2026-08-06T14:50:12.548Z",
-  "spiegel.de": "2026-08-06T15:23:47.541Z",
-  "handelsblatt.com": "2026-08-06T15:27:20.787Z",
-  "tagesspiegel.de": "2026-08-06T15:27:29.458Z",
-  "fr.de": "2026-08-06T15:27:36.206Z",
-  "waz.de": "2026-08-06T15:28:17.073Z",
-  "rp-online.de": "2026-08-06T15:29:26.871Z",
-  "tz.de": "2026-08-06T15:31:55.386Z",
-  "t-online.de": "2026-08-09T14:30:26.749Z",
-  "gala.de": "2026-08-09T14:39:14.582Z",
-  "rtl.de": "2026-08-09T14:40:59.860Z",
-  "promiflash.de": "2026-08-09T14:44:27.353Z",
-  "wunderweib.de": "2026-08-09T14:44:52.743Z",
-  "freundin.de": "2026-08-09T14:47:57.311Z"
+  "bild.de": {
+    "passedAt": "2026-08-09T14:25:19.393Z",
+    "source": "new"
+  },
+  "focus.de": {
+    "passedAt": "2026-08-09T14:27:13.720Z",
+    "source": "new"
+  },
+  "stern.de": {
+    "passedAt": "2026-08-06T14:39:43.891Z",
+    "source": "new"
+  },
+  "zeit.de": {
+    "passedAt": "2026-08-06T14:47:13.754Z",
+    "source": "new"
+  },
+  "faz.net": {
+    "passedAt": "2026-08-06T14:47:47.715Z",
+    "source": "new"
+  },
+  "sueddeutsche.de": {
+    "passedAt": "2026-08-06T14:50:12.548Z",
+    "source": "new"
+  },
+  "spiegel.de": {
+    "passedAt": "2026-08-06T15:23:47.541Z",
+    "source": "new"
+  },
+  "handelsblatt.com": {
+    "passedAt": "2026-08-06T15:27:20.787Z",
+    "source": "new"
+  },
+  "tagesspiegel.de": {
+    "passedAt": "2026-08-06T15:27:29.458Z",
+    "source": "new"
+  },
+  "fr.de": {
+    "passedAt": "2026-08-06T15:27:36.206Z",
+    "source": "new"
+  },
+  "waz.de": {
+    "passedAt": "2026-08-06T15:28:17.073Z",
+    "source": "new"
+  },
+  "rp-online.de": {
+    "passedAt": "2026-08-06T15:29:26.871Z",
+    "source": "new"
+  },
+  "tz.de": {
+    "passedAt": "2026-08-06T15:31:55.386Z",
+    "source": "new"
+  },
+  "t-online.de": {
+    "passedAt": "2026-08-09T14:30:26.749Z",
+    "source": "new"
+  },
+  "gala.de": {
+    "passedAt": "2026-08-09T14:39:14.582Z",
+    "source": "new"
+  },
+  "rtl.de": {
+    "passedAt": "2026-08-09T14:40:59.860Z",
+    "source": "new"
+  },
+  "promiflash.de": {
+    "passedAt": "2026-08-09T14:44:27.353Z",
+    "source": "new"
+  },
+  "wunderweib.de": {
+    "passedAt": "2026-08-09T14:44:52.743Z",
+    "source": "new"
+  },
+  "freundin.de": {
+    "passedAt": "2026-08-09T14:47:57.311Z",
+    "source": "new"
+  },
+  "expert.bg": {
+    "passedAt": "2026-08-10T11:27:04.683Z",
+    "source": "teaser"
+  }
 }
