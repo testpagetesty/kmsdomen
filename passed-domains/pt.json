@@ -1,13 +1,50 @@
 {
-  "publico.pt": "2026-08-09T14:25:57.835Z",
-  "expresso.pt": "2026-08-09T14:27:07.323Z",
-  "dn.pt": "2026-08-09T14:29:15.299Z",
-  "jn.pt": "2026-08-09T14:30:32.484Z",
-  "cmjornal.pt": "2026-08-09T14:32:31.021Z",
-  "observador.pt": "2026-08-09T15:02:46.456Z",
-  "sapo.pt": "2026-08-09T15:07:55.844Z",
-  "noticiasaominuto.com": "2026-08-09T15:13:00.396Z",
-  "ionline.sapo.pt": "2026-08-09T15:16:25.497Z",
-  "sol.sapo.pt": "2026-08-09T15:17:18.034Z",
-  "jornaldenegocios.pt": "2026-08-09T15:20:58.255Z"
+  "publico.pt": {
+    "passedAt": "2026-08-09T14:25:57.835Z",
+    "source": "new"
+  },
+  "expresso.pt": {
+    "passedAt": "2026-08-09T14:27:07.323Z",
+    "source": "new"
+  },
+  "dn.pt": {
+    "passedAt": "2026-08-09T14:29:15.299Z",
+    "source": "new"
+  },
+  "jn.pt": {
+    "passedAt": "2026-08-09T14:30:32.484Z",
+    "source": "new"
+  },
+  "cmjornal.pt": {
+    "passedAt": "2026-08-09T14:32:31.021Z",
+    "source": "new"
+  },
+  "observador.pt": {
+    "passedAt": "2026-08-09T15:02:46.456Z",
+    "source": "new"
+  },
+  "sapo.pt": {
+    "passedAt": "2026-08-09T15:07:55.844Z",
+    "source": "new"
+  },
+  "noticiasaominuto.com": {
+    "passedAt": "2026-08-09T15:13:00.396Z",
+    "source": "new"
+  },
+  "ionline.sapo.pt": {
+    "passedAt": "2026-08-09T15:16:25.497Z",
+    "source": "new"
+  },
+  "sol.sapo.pt": {
+    "passedAt": "2026-08-09T15:17:18.034Z",
+    "source": "new"
+  },
+  "jornaldenegocios.pt": {
+    "passedAt": "2026-08-09T15:20:58.255Z",
+    "source": "new"
+  },
+  "dinheirovivo.pt": {
+    "passedAt": "2026-08-10T10:54:13.845Z",
+    "source": "new"
+  }
 }
