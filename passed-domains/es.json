@@ -1,17 +1,62 @@
 {
-  "elespanol.com": "2026-08-09T13:34:46.059Z",
-  "abc.es": "2026-08-09T13:35:15.069Z",
-  "larazon.es": "2026-08-08T12:39:50.350Z",
-  "20minutos.es": "2026-08-09T13:37:40.428Z",
-  "okdiario.com": "2026-08-08T12:45:47.352Z",
-  "periodistadigital.com": "2026-08-08T12:51:26.417Z",
-  "libertaddigital.com": "2026-08-08T12:53:27.892Z",
-  "elconfidencial.com": "2026-08-08T12:55:46.095Z",
-  "vozpopuli.com": "2026-08-08T12:56:07.047Z",
-  "lecturas.com": "2026-08-09T13:40:58.021Z",
-  "semana.es": "2026-08-09T13:45:08.416Z",
-  "diezminutos.es": "2026-08-09T13:48:03.522Z",
-  "hola.com": "2026-08-09T13:49:20.097Z",
-  "mujerhoy.com": "2026-08-09T13:53:06.560Z",
-  "elle.com": "2026-08-09T13:57:17.272Z"
+  "elespanol.com": {
+    "passedAt": "2026-08-10T13:58:45.413Z",
+    "source": "new"
+  },
+  "abc.es": {
+    "passedAt": "2026-08-09T13:35:15.069Z",
+    "source": "new"
+  },
+  "larazon.es": {
+    "passedAt": "2026-08-08T12:39:50.350Z",
+    "source": "new"
+  },
+  "20minutos.es": {
+    "passedAt": "2026-08-09T13:37:40.428Z",
+    "source": "new"
+  },
+  "okdiario.com": {
+    "passedAt": "2026-08-08T12:45:47.352Z",
+    "source": "new"
+  },
+  "periodistadigital.com": {
+    "passedAt": "2026-08-08T12:51:26.417Z",
+    "source": "new"
+  },
+  "libertaddigital.com": {
+    "passedAt": "2026-08-08T12:53:27.892Z",
+    "source": "new"
+  },
+  "elconfidencial.com": {
+    "passedAt": "2026-08-08T12:55:46.095Z",
+    "source": "new"
+  },
+  "vozpopuli.com": {
+    "passedAt": "2026-08-08T12:56:07.047Z",
+    "source": "new"
+  },
+  "lecturas.com": {
+    "passedAt": "2026-08-09T13:40:58.021Z",
+    "source": "new"
+  },
+  "semana.es": {
+    "passedAt": "2026-08-09T13:45:08.416Z",
+    "source": "new"
+  },
+  "diezminutos.es": {
+    "passedAt": "2026-08-09T13:48:03.522Z",
+    "source": "new"
+  },
+  "hola.com": {
+    "passedAt": "2026-08-09T13:49:20.097Z",
+    "source": "new"
+  },
+  "mujerhoy.com": {
+    "passedAt": "2026-08-09T13:53:06.560Z",
+    "source": "new"
+  },
+  "elle.com": {
+    "passedAt": "2026-08-09T13:57:17.272Z",
+    "source": "new"
+  }
 }
