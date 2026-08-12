@@ -8,7 +8,7 @@ import {
   countryFilePath,
   countryJsonFilePath,
 } from "@/lib/env";
-import { normalizeDomainLine, parseDomainLines } from "@/lib/domainNormalize";
+import { isPlausibleDomain, normalizeDomainLine, parseDomainLines } from "@/lib/domainNormalize";
 import { fetchRepoFile, putRepoFile } from "@/lib/github";
 import {
   isPassedSource,
@@ -17,6 +17,7 @@ import {
   serializePassedMap,
   type PassedSource,
 } from "@/lib/passedDomains";
+import { resolveTeaserVertical, upsertTeasersForCountry } from "@/lib/teasersUpsert";
 
 export const dynamic = "force-dynamic";
 
@@ -71,9 +72,11 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
  * Body:
  *   { "domain": "example.com" } | { "mark": ["a.com"] }
  *   optional: { "source": "new" | "teaser" }  (по умолчанию "new")
+ *   optional при source=teaser: { "vertical": "nutra" | ... | "none" }  (можно не слать — без вертикали)
  *
  * source "new"  — записать в passed и убрать из countries/{code}.txt
- * source "teaser" — только добавить в passed; тизеры НЕ трогаем
+ * source "teaser" — записать в passed + добавить в «Домены с тизерами» (если ещё нет);
+ *                   если домен был в «новых» — убрать оттуда
  */
 export async function POST(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkWriteAuth(request);
@@ -98,8 +101,14 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       );
     }
 
-    const b = body as { domain?: unknown; mark?: unknown; source?: unknown };
+    const b = body as {
+      domain?: unknown;
+      mark?: unknown;
+      source?: unknown;
+      vertical?: unknown;
+    };
     const source: PassedSource = isPassedSource(b.source) ? b.source : "new";
+    const vertical = resolveTeaserVertical(b.vertical);
 
     const rawList: string[] = [];
     if (typeof b.domain === "string" && b.domain.trim()) {
@@ -111,10 +120,17 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       }
     }
 
-    const normMarks = [...new Set(rawList.map(normalizeDomainLine))];
+    const skippedInvalid = rawList.filter((d) => !isPlausibleDomain(d));
+    const normMarks = [...new Set(rawList.map(normalizeDomainLine).filter(isPlausibleDomain))];
     if (normMarks.length === 0) {
       return NextResponse.json(
-        { error: "Укажите domain (строка) или mark (массив строк)" },
+        {
+          error:
+            skippedInvalid.length > 0
+              ? "В domain/mark нет валидных доменов (похоже, передан JSON ответа API вместо hostname)"
+              : "Укажите domain (строка) или mark (массив строк)",
+          skippedInvalid,
+        },
         { status: 400 },
       );
     }
@@ -131,9 +147,20 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
 
     let removedFromNew = 0;
     let remainingNew: number | undefined;
+    let teasersAdded: string[] = [];
+    let teasersAlreadyHad: string[] = [];
+    let teasersTotal: number | undefined;
 
-    // Из «новых» убираем только при source=new
-    if (source === "new") {
+    // source=teaser → дописать в базу «Домены с тизерами» (vertical необязателен)
+    if (source === "teaser") {
+      const upsert = await upsertTeasersForCountry(code, normMarks, vertical || "none");
+      teasersAdded = upsert.added;
+      teasersAlreadyHad = upsert.alreadyHad;
+      teasersTotal = upsert.total;
+    }
+
+    // Убрать из «новых»: всегда при source=new; при teaser — если домен там был
+    if (source === "new" || source === "teaser") {
       const domainsPath = countryFilePath(resolveDomainsPrefix(), code);
       const { text: domainText, sha: domainSha } = await fetchRepoFile(domainsPath);
       const lines = parseDomainLines(domainText);
@@ -160,12 +187,17 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
       domain: primary,
       domains: normMarks,
       source,
+      vertical: vertical || null,
       passedAt: now,
       removedFromNew,
       alreadyOnlyInPassed: source === "new" ? normMarks.length - removedFromNew : 0,
       remainingNew,
       passedTotal: Object.keys(passedMap).length,
-      keptInTeasers: source === "teaser",
+      teasersAdded: teasersAdded.length,
+      teasersAlreadyHad: teasersAlreadyHad.length,
+      teasersTotal,
+      addedToTeasersList: teasersAdded,
+      skippedInvalid: skippedInvalid.length > 0 ? skippedInvalid : undefined,
     });
   } catch (e) {
     return NextResponse.json(

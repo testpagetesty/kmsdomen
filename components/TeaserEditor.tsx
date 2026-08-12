@@ -19,7 +19,7 @@ type HistoryEvent = {
 };
 
 function verticalOf(tags: Record<string, TeaserTagMeta>, domain: string): string {
-  return tags[domain]?.vertical ?? "other";
+  return tags[domain]?.vertical ?? "";
 }
 
 const TZ_OFFSET_MS = 3 * 60 * 60 * 1000;
@@ -48,7 +48,7 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
   const [deletingDomain, setDeletingDomain] = useState<string | null>(null);
   const [filterQuery, setFilterQuery] = useState("");
   const [verticalFilter, setVerticalFilter] = useState<string>("all");
-  const [addVertical, setAddVertical] = useState<string>("nutra");
+  const [addVertical, setAddVertical] = useState<string>("");
   const [addText, setAddText] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
@@ -123,10 +123,14 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
   const filtered = useMemo(() => {
     const q = filterQuery.trim().toLowerCase();
     return lines.filter((l) => {
-      if (verticalFilter !== "all") {
-        const v = verticalOf(tags, l);
-        if (v !== verticalFilter) return false;
-      }
+            if (verticalFilter !== "all") {
+              if (verticalFilter === "none") {
+                if (verticalOf(tags, l)) return false;
+              } else {
+                const v = verticalOf(tags, l);
+                if (v !== verticalFilter) return false;
+              }
+            }
       if (!q) return true;
       return l.toLowerCase().includes(q);
     });
@@ -189,7 +193,10 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
       const res = await fetch(`/api/teasers/${countryCode}`, {
         method: "PUT",
         headers: authHeaders(),
-        body: JSON.stringify({ add: toAdd, vertical: addVertical }),
+        body: JSON.stringify({
+          add: toAdd,
+          ...(addVertical ? { vertical: addVertical } : { vertical: "none" }),
+        }),
       });
       const data = (await res.json()) as {
         ok?: boolean;
@@ -272,7 +279,7 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
       const count = data.domains?.length ?? toMark.length;
       setMessage({
         type: "ok",
-        text: `В «пройденные с тизерами» добавлено: ${count}. В списке тизеров домены остались.`,
+        text: `В «пройденные с тизерами» добавлено: ${count}. Если домена не было в базе тизеров — он туда тоже записан.`,
       });
       setSelected(new Set());
       await loadPassed();
@@ -313,7 +320,7 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
         <div>
           <h2 className="text-base font-semibold text-white">Домены с тизерами</h2>
           <p className="mt-0.5 text-xs" style={{ color: "var(--muted)" }}>
-            Можно отметить пройденными — домен добавится в «Пройденные», но из тизеров не исчезнет
+            «Отметить пройденными» пишет в пройденные и при необходимости дописывает домен в эту базу
           </p>
         </div>
         {!loading && (
@@ -439,6 +446,9 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
                     {v.label}
                   </option>
                 ))}
+                <option value="none" style={{ background: "#0d1117" }}>
+                  Без вертикали
+                </option>
               </select>
             </div>
             <div>
@@ -524,7 +534,8 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
                       <div className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
                         Вертикаль:{" "}
                         <span className="rounded-full bg-white/10 px-2 py-0.5 font-semibold text-gray-200">
-                          {VERTICALS.find((v) => v.id === verticalOf(tags, domain))?.label ?? "Другое"}
+                          {VERTICALS.find((v) => v.id === verticalOf(tags, domain))?.label ??
+                            (verticalOf(tags, domain) ? verticalOf(tags, domain) : "Без вертикали")}
                         </span>
                         {alreadyPassed && (
                           <>
@@ -587,13 +598,18 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
         </p>
         <div className="mb-4 grid gap-3 sm:grid-cols-2">
           <div>
-            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>Вертикаль для добавляемых доменов</label>
+            <label className="mb-1 block text-xs" style={{ color: "var(--muted)" }}>
+              Вертикаль для добавляемых доменов (необязательно)
+            </label>
             <select
               value={addVertical}
               onChange={(e) => setAddVertical(e.target.value)}
               className="w-full cursor-pointer appearance-none rounded-lg border bg-[#0d1117] px-3 py-2 text-sm text-white outline-none focus:border-[var(--accent)]"
               style={{ borderColor: "var(--border)" }}
             >
+              <option value="" style={{ background: "#0d1117" }}>
+                Без вертикали
+              </option>
               {VERTICALS.filter((v) => v.id !== "all").map((v) => (
                 <option key={v.id} value={v.id} style={{ background: "#0d1117" }}>
                   {v.label}

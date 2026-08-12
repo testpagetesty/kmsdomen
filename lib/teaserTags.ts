@@ -1,6 +1,7 @@
 /** Метаданные домена в разделе «Домены с тизерами» (teasers-meta/*.tags.json) */
 export type TeaserTagMeta = {
-  vertical: string;
+  /** Вертикаль; пустая строка / отсутствует = без вертикали */
+  vertical?: string;
   /** ISO 8601 — первая фиксация в списке */
   addedAt?: string;
   /** ISO 8601 — последнее изменение (вертикаль и т.п.) */
@@ -26,13 +27,13 @@ export function parseTeaserTagsJson(text: string): Record<string, TeaserTagMeta>
     }
     if (v && typeof v === "object") {
       const o = v as { vertical?: unknown; addedAt?: unknown; updatedAt?: unknown };
-      if (typeof o.vertical === "string") {
-        out[domain] = {
-          vertical: o.vertical,
-          addedAt: typeof o.addedAt === "string" ? o.addedAt : undefined,
-          updatedAt: typeof o.updatedAt === "string" ? o.updatedAt : undefined,
-        };
-      }
+      const vertical =
+        typeof o.vertical === "string" ? o.vertical : undefined;
+      out[domain] = {
+        ...(vertical !== undefined ? { vertical } : {}),
+        addedAt: typeof o.addedAt === "string" ? o.addedAt : undefined,
+        updatedAt: typeof o.updatedAt === "string" ? o.updatedAt : undefined,
+      };
     }
   }
   return out;
@@ -40,4 +41,9 @@ export function parseTeaserTagsJson(text: string): Record<string, TeaserTagMeta>
 
 export function serializeTeaserTags(tags: Record<string, TeaserTagMeta>): string {
   return JSON.stringify(tags, null, 2) + "\n";
+}
+
+export function teaserVerticalLabel(vertical: string | undefined): string {
+  if (!vertical || vertical === "none" || vertical === "") return "Без вертикали";
+  return vertical;
 }

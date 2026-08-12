@@ -604,7 +604,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
         <div className="space-y-4">
           <PassedSection
             title="Пройденные домены с тизерами"
-            hint="Добавлены из вкладки «Тизеры» — в списке тизеров остаются"
+            hint="Из «Доменов с тизерами» или найденные с тизерами (добавляются в базу тизеров)"
             entries={teaserEntries}
             durations={durations}
             selected={selected}

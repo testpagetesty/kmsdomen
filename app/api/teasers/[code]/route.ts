@@ -98,7 +98,17 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     if (!Array.isArray(body.add)) {
       return NextResponse.json({ error: "Ожидается поле add: string[]" }, { status: 400 });
     }
-    const vertical = isVerticalId(body.vertical) ? body.vertical : "other";
+    // vertical необязателен: нет / none → без вертикали
+    let vertical = "";
+    if (typeof body.vertical === "string") {
+      const v = body.vertical.trim();
+      if (v && v !== "none") {
+        if (!isVerticalId(v)) {
+          return NextResponse.json({ error: "Неизвестная вертикаль" }, { status: 400 });
+        }
+        vertical = v;
+      }
+    }
 
     const toAdd = [
       ...new Set(
@@ -132,15 +142,19 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     for (const d of toAdd) {
       if (!existing.has(d)) {
         newOnes.push(d);
-        touched[d] = { vertical, addedAt: now, updatedAt: now };
+        const meta: TeaserTagMeta = { addedAt: now, updatedAt: now };
+        if (vertical) meta.vertical = vertical;
+        touched[d] = meta;
       } else {
         updated.push(d);
         const prev = tags[d];
-        touched[d] = {
-          vertical,
+        const meta: TeaserTagMeta = {
           ...(prev?.addedAt ? { addedAt: prev.addedAt } : {}),
           updatedAt: now,
         };
+        if (vertical) meta.vertical = vertical;
+        else if (prev?.vertical) meta.vertical = prev.vertical;
+        touched[d] = meta;
       }
     }
 
