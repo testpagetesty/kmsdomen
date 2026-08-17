@@ -80,9 +80,9 @@
     "updatedAt": "2026-08-17T12:14:16.835Z"
   },
   "regionalobala.si": {
+    "vertical": "nutra",
     "addedAt": "2026-08-12T12:30:49.688Z",
-    "updatedAt": "2026-08-17T14:39:39.056Z",
-    "vertical": "nutra"
+    "updatedAt": "2026-08-17T14:39:39.056Z"
   },
   "pomurske-novice.si": {
     "vertical": "crypt",
@@ -97,5 +97,10 @@
   "bibaleze.si": {
     "addedAt": "2026-08-17T10:21:24.905Z",
     "updatedAt": "2026-08-17T10:21:24.905Z"
+  },
+  "dnevnik.si": {
+    "addedAt": "2026-08-17T15:06:53.266Z",
+    "updatedAt": "2026-08-17T15:06:53.266Z",
+    "vertical": "crypt"
   }
 }
