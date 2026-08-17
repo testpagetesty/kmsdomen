@@ -55,6 +55,7 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
   const [tags, setTags] = useState<Record<string, TeaserTagMeta>>({});
   const [selected, setSelected] = useState<Set<string>>(() => new Set());
   const [marking, setMarking] = useState(false);
+  const [bulkDeleting, setBulkDeleting] = useState(false);
   const [passedSet, setPassedSet] = useState<Set<string>>(() => new Set());
 
   // История добавлений по датам (для фильтра)
@@ -294,6 +295,44 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
     }
   }
 
+  async function deleteSelected() {
+    const list = filtered.filter((d) => selected.has(d));
+    if (list.length === 0) {
+      setMessage({ type: "err", text: "Отметьте хотя бы один домен галочкой" });
+      return;
+    }
+    if (!window.confirm(`Удалить из «Доменов с тизерами»: ${list.length}?`)) return;
+
+    setBulkDeleting(true);
+    setMessage(null);
+    try {
+      let ok = 0;
+      for (const domain of list) {
+        const res = await fetch(`/api/teasers/${countryCode}`, {
+          method: "DELETE",
+          headers: authHeaders(),
+          body: JSON.stringify({ domain }),
+        });
+        if (!res.ok) {
+          const data = (await res.json()) as { error?: string };
+          throw new Error(data.error ?? `Ошибка ${res.status} для ${domain}`);
+        }
+        ok += 1;
+      }
+      setMessage({ type: "ok", text: `Удалено из тизеров: ${ok}` });
+      setSelected(new Set());
+      await load();
+      await loadHistory();
+    } catch (e) {
+      setMessage({
+        type: "err",
+        text: e instanceof Error ? e.message : "Не удалось удалить",
+      });
+    } finally {
+      setBulkDeleting(false);
+    }
+  }
+
   const filteredSelectedCount = useMemo(
     () => filtered.filter((d) => selected.has(d)).length,
     [filtered, selected],
@@ -468,7 +507,7 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
               <button
                 type="button"
                 onClick={toggleAllFiltered}
-                disabled={loading || marking || saving}
+                disabled={loading || marking || bulkDeleting || saving}
                 className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -477,12 +516,20 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
               <button
                 type="button"
                 onClick={markPassed}
-                disabled={loading || marking || saving || filteredSelectedCount === 0}
+                disabled={loading || marking || bulkDeleting || saving || filteredSelectedCount === 0}
                 className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
               >
                 {marking
                   ? "Запись…"
                   : `Отметить пройденными (${filteredSelectedCount})`}
+              </button>
+              <button
+                type="button"
+                onClick={deleteSelected}
+                disabled={loading || marking || bulkDeleting || saving || filteredSelectedCount === 0}
+                className="rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-1.5 text-xs font-semibold text-red-300 hover:bg-red-500/20 disabled:cursor-not-allowed disabled:opacity-50"
+              >
+                {bulkDeleting ? "Удаление…" : `Удалить выбранные (${filteredSelectedCount})`}
               </button>
             </div>
           )}

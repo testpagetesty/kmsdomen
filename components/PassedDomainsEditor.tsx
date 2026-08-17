@@ -107,7 +107,8 @@ type SectionProps = {
   setSelected: Dispatch<SetStateAction<Set<string>>>;
   restoreLabel: string;
   onRestore: (domains: string[]) => void;
-  restoring: boolean;
+  onDelete: (domains: string[]) => void;
+  busy: boolean;
   loading: boolean;
   emptyText: string;
 };
@@ -121,7 +122,8 @@ function PassedSection({
   setSelected,
   restoreLabel,
   onRestore,
-  restoring,
+  onDelete,
+  busy,
   loading,
   emptyText,
 }: SectionProps) {
@@ -164,7 +166,7 @@ function PassedSection({
             <button
               type="button"
               onClick={toggleAll}
-              disabled={loading || restoring}
+              disabled={loading || busy}
               className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
               style={{ borderColor: "var(--border)" }}
             >
@@ -173,10 +175,18 @@ function PassedSection({
             <button
               type="button"
               onClick={() => onRestore(domains.filter((d) => selected.has(d)))}
-              disabled={loading || restoring || selectedInSection === 0}
+              disabled={loading || busy || selectedInSection === 0}
               className="rounded-lg bg-[var(--accent)] px-3 py-1.5 text-xs font-semibold text-white hover:bg-[var(--accent-hover)] disabled:cursor-not-allowed disabled:opacity-50"
             >
-              {restoring ? "…" : `${restoreLabel} (${selectedInSection})`}
+              {busy ? "…" : `${restoreLabel} (${selectedInSection})`}
+            </button>
+            <button
+              type="button"
+              onClick={() => onDelete(domains.filter((d) => selected.has(d)))}
+              disabled={loading || busy || selectedInSection === 0}
+              className="rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-1.5 text-xs font-semibold text-red-300 hover:bg-red-500/20 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              Удалить насовсем ({selectedInSection})
             </button>
           </div>
         )}
@@ -280,6 +290,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
   const [entries, setEntries] = useState<Entry[]>([]);
   const [loading, setLoading] = useState(true);
   const [restoring, setRestoring] = useState(false);
+  const [deleting, setDeleting] = useState(false);
   const [filterQuery, setFilterQuery] = useState("");
   const [password, setPassword] = useState("");
   const [selected, setSelected] = useState<Set<string>>(() => new Set());
@@ -430,6 +441,45 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       setRestoring(false);
     }
   }
+
+  async function deleteDomains(list: string[]) {
+    if (list.length === 0) {
+      setMessage({ type: "err", text: "Выберите хотя бы один домен" });
+      return;
+    }
+    if (!window.confirm(`Удалить насовсем ${list.length} домен(ов) из пройденных?`)) return;
+
+    setDeleting(true);
+    setMessage(null);
+    try {
+      const res = await fetch(`/api/passed/${countryCode}`, {
+        method: "DELETE",
+        headers: authHeaders(),
+        body: JSON.stringify({ remove: list }),
+      });
+      const data = (await res.json()) as {
+        ok?: boolean;
+        removed?: number;
+        remainingPassed?: number;
+        error?: string;
+      };
+      if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
+      setMessage({
+        type: "ok",
+        text: `Удалено насовсем: ${data.removed ?? list.length}. Осталось пройденных: ${data.remainingPassed ?? "—"}`,
+      });
+      await load();
+    } catch (e) {
+      setMessage({
+        type: "err",
+        text: e instanceof Error ? e.message : "Не удалось удалить",
+      });
+    } finally {
+      setDeleting(false);
+    }
+  }
+
+  const busy = restoring || deleting;
 
   return (
     <div className="space-y-4">
@@ -611,7 +661,8 @@ export function PassedDomainsEditor({ countryCode }: Props) {
             setSelected={setSelected}
             restoreLabel="Убрать из пройденных"
             onRestore={restoreDomains}
-            restoring={restoring}
+            onDelete={deleteDomains}
+            busy={busy}
             loading={loading}
             emptyText={
               filterQuery.trim()
@@ -621,14 +672,15 @@ export function PassedDomainsEditor({ countryCode }: Props) {
           />
           <PassedSection
             title="Пройденные домены новые"
-            hint="Перенесены из «Новых доменов» — можно вернуть обратно в новые"
+            hint="Перенесены из «Новых доменов» — можно вернуть обратно в новые или удалить"
             entries={newEntries}
             durations={durations}
             selected={selected}
             setSelected={setSelected}
             restoreLabel="Вернуть в «новые»"
             onRestore={restoreDomains}
-            restoring={restoring}
+            onDelete={deleteDomains}
+            busy={busy}
             loading={loading}
             emptyText={
               filterQuery.trim()
@@ -645,7 +697,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
           setMessage(null);
           load();
         }}
-        disabled={loading || restoring}
+        disabled={loading || busy}
         className="rounded-lg border px-3 py-1.5 text-xs hover:bg-white/5 disabled:opacity-50"
         style={{ borderColor: "var(--border)" }}
       >

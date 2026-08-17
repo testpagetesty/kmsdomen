@@ -324,3 +324,81 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     );
   }
 }
+
+/**
+ * DELETE — удалить из пройденных насовсем (без возврата в «новые», тизеры не трогаем).
+ * Body: { domains: string[] } | { domain: string } | { remove: string[] }
+ */
+export async function DELETE(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
+  const denied = checkWriteAuth(request);
+  if (denied) return denied;
+
+  try {
+    const { code: raw } = await ctx.params;
+    const code = normalizeCode(raw ?? "");
+    if (!code) return NextResponse.json({ error: "Неизвестный код страны" }, { status: 400 });
+
+    let body: unknown;
+    try {
+      body = await request.json();
+    } catch {
+      return NextResponse.json({ error: "Некорректный JSON" }, { status: 400 });
+    }
+
+    if (typeof body !== "object" || body === null) {
+      return NextResponse.json(
+        { error: "Ожидается JSON: { domain } | { domains: [] } | { remove: [] }" },
+        { status: 400 },
+      );
+    }
+
+    const b = body as { domain?: unknown; domains?: unknown; remove?: unknown };
+    const rawList: string[] = [];
+    if (typeof b.domain === "string" && b.domain.trim()) rawList.push(b.domain.trim());
+    for (const key of ["domains", "remove"] as const) {
+      const arr = b[key];
+      if (Array.isArray(arr)) {
+        for (const x of arr) {
+          if (typeof x === "string" && x.trim()) rawList.push(x.trim());
+        }
+      }
+    }
+
+    const toRemove = [...new Set(rawList.map(normalizeDomainLine).filter(Boolean))];
+    if (toRemove.length === 0) {
+      return NextResponse.json({ error: "Укажите domain или domains/remove" }, { status: 400 });
+    }
+
+    const passedPath = passedFilePath(code);
+    const { text: passedText, sha: passedSha } = await fetchRepoFile(passedPath);
+    const passedMap = parsePassedMap(passedText);
+
+    const removed: string[] = [];
+    const missing: string[] = [];
+    for (const d of toRemove) {
+      if (d in passedMap) {
+        delete passedMap[d];
+        removed.push(d);
+      } else {
+        missing.push(d);
+      }
+    }
+
+    if (removed.length > 0) {
+      await putRepoFile(passedPath, serializePassedMap(passedMap), passedSha || undefined);
+    }
+
+    return NextResponse.json({
+      ok: true,
+      code,
+      removed: removed.length,
+      missing: missing.length,
+      remainingPassed: Object.keys(passedMap).length,
+    });
+  } catch (e) {
+    return NextResponse.json(
+      { error: e instanceof Error ? e.message : "Ошибка удаления" },
+      { status: 500 },
+    );
+  }
+}

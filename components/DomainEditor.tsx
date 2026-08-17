@@ -14,6 +14,7 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [marking, setMarking] = useState(false);
+  const [deleting, setDeleting] = useState(false);
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState<{ type: "ok" | "err"; text: string } | null>(null);
   const [pickFilter, setPickFilter] = useState("");
@@ -135,6 +136,48 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
     }
   }
 
+  async function deleteSelected() {
+    const toDelete = new Set(
+      [...selectedIdx]
+        .sort((a, b) => a - b)
+        .map((i) => lineList[i])
+        .filter(Boolean),
+    );
+    if (toDelete.size === 0) {
+      setMessage({ type: "err", text: "Отметьте хотя бы один домен галочкой" });
+      return;
+    }
+
+    setDeleting(true);
+    setMessage(null);
+    try {
+      const nextLines = lineList.filter((l) => !toDelete.has(l));
+      const nextContent = nextLines.length > 0 ? `${nextLines.join("\n")}\n` : "";
+      const res = await fetch(`/api/domains/${countryCode}`, {
+        method: "PUT",
+        headers: authHeaders(),
+        body: JSON.stringify({ content: nextContent }),
+      });
+      const data = (await res.json()) as { ok?: boolean; error?: string; content?: string };
+      if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
+      if (typeof data.content === "string") setContent(data.content);
+      else setContent(nextContent);
+      setSelectedIdx(new Set());
+      setMessage({
+        type: "ok",
+        text: `Удалено из «новых»: ${toDelete.size}. Осталось: ${nextLines.length}.`,
+      });
+      await load();
+    } catch (e) {
+      setMessage({
+        type: "err",
+        text: e instanceof Error ? e.message : "Не удалось удалить",
+      });
+    } finally {
+      setDeleting(false);
+    }
+  }
+
   useEffect(() => {
     load();
   }, [load]);
@@ -220,13 +263,13 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
           style={{ borderColor: "var(--border)", background: "rgba(0,0,0,.15)" }}
         >
           <div className="mb-2 flex flex-wrap items-center justify-between gap-2">
-            <span className="text-sm font-medium text-white">Отметить пройденными</span>
+            <span className="text-sm font-medium text-white">Выбор доменов</span>
             <span className="text-xs" style={{ color: "var(--muted)" }}>
               Выбрано: {[...selectedIdx].filter((i) => i < lineList.length).length}
             </span>
           </div>
           <p className="mb-3 text-xs" style={{ color: "var(--muted)" }}>
-            Галочки снимают домен из этого списка и записывают его во вкладку «Пройденные домены» с датой и временем.
+            Можно перенести в пройденные или удалить из списка насовсем.
           </p>
           <input
             type="search"
@@ -251,10 +294,18 @@ export function DomainEditor({ countryCode, onPassedChange }: Props) {
             <button
               type="button"
               onClick={markPassed}
-              disabled={loading || marking || selectedIdx.size === 0}
+              disabled={loading || marking || deleting || selectedIdx.size === 0}
               className="rounded-lg bg-emerald-600 px-3 py-1.5 text-xs font-semibold text-white hover:bg-emerald-500 disabled:cursor-not-allowed disabled:opacity-50"
             >
-              {marking ? "Перенос…" : "Перенести выбранные в пройденные"}
+              {marking ? "Перенос…" : "В пройденные"}
+            </button>
+            <button
+              type="button"
+              onClick={deleteSelected}
+              disabled={loading || marking || deleting || selectedIdx.size === 0}
+              className="rounded-lg border border-red-500/40 bg-red-500/10 px-3 py-1.5 text-xs font-semibold text-red-300 hover:bg-red-500/20 disabled:cursor-not-allowed disabled:opacity-50"
+            >
+              {deleting ? "Удаление…" : "Удалить выбранные"}
             </button>
           </div>
           <div className="max-h-48 overflow-y-auto rounded border" style={{ borderColor: "var(--border)" }}>

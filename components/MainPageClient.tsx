@@ -53,15 +53,14 @@ function MainPageInner({ countries }: { countries: Country[] }) {
 
   const handleTabChange = useCallback(
     (id: string) => {
-      if (id === "teasers") {
-        router.replace("/?section=teasers", { scroll: false });
-      } else if (id === "passed") {
-        router.replace("/?section=passed", { scroll: false });
-      } else {
-        router.replace("/", { scroll: false });
-      }
+      const params = new URLSearchParams(searchParams.toString());
+      if (id === "teasers") params.set("section", "teasers");
+      else if (id === "passed") params.set("section", "passed");
+      else params.delete("section");
+      const qs = params.toString();
+      router.replace(qs ? `/?${qs}` : "/", { scroll: false });
     },
-    [router],
+    [router, searchParams],
   );
 
   const linkSuffix =

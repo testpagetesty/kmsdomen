@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import { useMemo, useState } from "react";
+import { useRouter, useSearchParams, usePathname } from "next/navigation";
+import { useCallback, useMemo, useState } from "react";
 import type { Country } from "@/data/countries";
 import type { EmployeesData } from "@/lib/employees";
 
@@ -32,6 +32,19 @@ function colorForId(id: string): string {
   return AVATAR_COLORS[h]!;
 }
 
+/** emp в URL: отсутствует = все; "none" = без закрепления; иначе employeeId */
+function empFromParam(raw: string | null): string | null {
+  if (raw === null) return null;
+  if (raw === "none") return "";
+  return raw;
+}
+
+function empToParam(empFilter: string | null): string | null {
+  if (empFilter === null) return null;
+  if (empFilter === "") return "none";
+  return empFilter;
+}
+
 export function CountrySearch({
   countries,
   linkSuffix = "",
@@ -39,11 +52,24 @@ export function CountrySearch({
   prioritizeCodes = [],
 }: Props) {
   const router = useRouter();
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
   const [selected, setSelected] = useState("");
-  /** null = все, "" = без сотрудника, иначе employeeId */
-  const [empFilter, setEmpFilter] = useState<string | null>(null);
+  const empFilter = empFromParam(searchParams.get("emp"));
   const prioritySet = useMemo(() => new Set(prioritizeCodes), [prioritizeCodes]);
+
+  const setEmpFilter = useCallback(
+    (next: string | null) => {
+      const params = new URLSearchParams(searchParams.toString());
+      const empParam = empToParam(next);
+      if (empParam === null) params.delete("emp");
+      else params.set("emp", empParam);
+      const qs = params.toString();
+      router.replace(qs ? `${pathname}?${qs}` : pathname, { scroll: false });
+    },
+    [router, pathname, searchParams],
+  );
 
   const nameByCountry = useMemo(() => {
     const map = new Map<string, { id: string; name: string }>();
@@ -189,42 +215,32 @@ export function CountrySearch({
               <Link
                 href={`/country/${c.code}${linkSuffix}`}
                 prefetch={false}
-                className="flex items-center justify-between gap-3 rounded-lg border px-4 py-3 transition hover:border-[var(--accent)] hover:bg-white/5"
-                style={{ borderColor: "var(--border)" }}
+                className="flex items-center justify-between gap-3 rounded-lg border px-4 py-3 transition hover:border-[var(--accent)] hover:bg-white/[0.03]"
+                style={{ borderColor: "var(--border)", background: "var(--card)" }}
               >
-                <div className="min-w-0">
-                  <div className="flex flex-wrap items-center gap-2">
-                    <span className="text-sm text-white">{c.nameRu}</span>
-                    {emp && (
-                      <span
-                        className="inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[11px] font-medium text-white"
-                        style={{ background: `${colorForId(emp.id)}33`, color: colorForId(emp.id) }}
-                      >
-                        <span
-                          className="h-1.5 w-1.5 rounded-full"
-                          style={{ background: colorForId(emp.id) }}
-                        />
-                        {emp.name}
-                      </span>
-                    )}
-                  </div>
-                </div>
-                <span className="shrink-0 font-mono text-xs uppercase" style={{ color: "var(--muted)" }}>
-                  {c.code}
+                <span className="min-w-0">
+                  <span className="block font-medium text-white">{c.nameRu}</span>
+                  <span className="mt-0.5 block font-mono text-[11px] uppercase" style={{ color: "var(--muted)" }}>
+                    {c.code}
+                  </span>
                 </span>
+                {emp && (
+                  <span
+                    className="shrink-0 rounded-full px-2.5 py-1 text-[11px] font-semibold text-white"
+                    style={{ background: colorForId(emp.id) }}
+                  >
+                    {emp.name}
+                  </span>
+                )}
               </Link>
             </li>
           );
         })}
       </ul>
 
-      {filtered.length === 0 ? (
-        <p className="py-8 text-center text-sm" style={{ color: "var(--muted)" }}>
-          Ничего не найдено.
-        </p>
-      ) : (
-        <p className="mt-4 text-center text-xs" style={{ color: "var(--muted)" }}>
-          Показано: {filtered.length} из {countries.length}
+      {filtered.length === 0 && (
+        <p className="mt-4 text-center text-sm" style={{ color: "var(--muted)" }}>
+          Ничего не найдено
         </p>
       )}
     </div>

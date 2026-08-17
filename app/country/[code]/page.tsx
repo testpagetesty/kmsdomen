@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { BackLink } from "@/components/BackLink";
 import { notFound } from "next/navigation";
 import { getCountryByCode } from "@/data/countries";
 import { CountryPageTabs } from "@/components/CountryPageTabs";
@@ -45,23 +45,17 @@ export default async function CountryPage(props: Props) {
   }
 
   const initialTab = tabFromSearch(tab);
+  const fallbackHref =
+    initialTab === "teasers"
+      ? "/?section=teasers"
+      : initialTab === "passed"
+        ? "/?section=passed"
+        : "/";
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-8">
       <nav className="mb-6 text-sm">
-        <Link
-          href={
-            initialTab === "teasers"
-              ? "/?section=teasers"
-              : initialTab === "passed"
-                ? "/?section=passed"
-                : "/"
-          }
-          className="text-blue-400 hover:text-blue-300"
-          prefetch={false}
-        >
-          ← К списку стран
-        </Link>
+        <BackLink fallbackHref={fallbackHref} label="← Назад" />
       </nav>
 
       <CountryPageHeader
