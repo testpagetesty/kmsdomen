@@ -75,9 +75,9 @@
     "updatedAt": "2026-08-11T12:38:42.041Z"
   },
   "moja-dolenjska.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-11T12:39:01.245Z",
-    "updatedAt": "2026-08-17T10:06:29.179Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-17T10:06:29.179Z"
   },
   "regionalobala.si": {
     "vertical": "crypt",
@@ -93,5 +93,9 @@
     "vertical": "crypt",
     "addedAt": "2026-08-14T14:17:38.974Z",
     "updatedAt": "2026-08-17T10:01:44.312Z"
+  },
+  "bibaleze.si": {
+    "addedAt": "2026-08-17T10:21:24.905Z",
+    "updatedAt": "2026-08-17T10:21:24.905Z"
   }
 }
