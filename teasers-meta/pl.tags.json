@@ -47,9 +47,9 @@
     "vertical": "news"
   },
   "wnp.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-18T12:47:34.311Z",
-    "updatedAt": "2026-08-18T12:47:34.311Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-18T12:47:34.311Z"
   },
   "biznesinfo.pl": {
     "vertical": "crypt",
@@ -169,5 +169,10 @@
   "pomurske-novice.si": {
     "addedAt": "2026-08-17T13:02:33.649Z",
     "updatedAt": "2026-08-17T13:02:33.649Z"
+  },
+  "1001ideja.si": {
+    "addedAt": "2026-08-18T12:51:59.751Z",
+    "updatedAt": "2026-08-18T12:51:59.751Z",
+    "vertical": "nutra"
   }
 }
