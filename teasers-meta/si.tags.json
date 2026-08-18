@@ -70,9 +70,9 @@
     "updatedAt": "2026-08-18T12:43:56.303Z"
   },
   "regionalobala.si": {
+    "vertical": "vsl",
     "addedAt": "2026-08-12T12:30:49.688Z",
-    "updatedAt": "2026-08-18T15:30:04.725Z",
-    "vertical": "vsl"
+    "updatedAt": "2026-08-18T15:30:04.725Z"
   },
   "pomurske-novice.si": {
     "vertical": "crypt",
@@ -109,5 +109,10 @@
   "ltlife.lt": {
     "addedAt": "2026-08-18T09:53:04.705Z",
     "updatedAt": "2026-08-18T09:53:04.705Z"
+  },
+  "e-maribor.si": {
+    "addedAt": "2026-08-18T15:30:39.505Z",
+    "updatedAt": "2026-08-18T15:30:39.505Z",
+    "vertical": "crypt"
   }
 }
