@@ -5,9 +5,9 @@
     "updatedAt": "2026-08-19T12:07:00.211Z"
   },
   "defence24.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-18T11:32:53.136Z",
-    "updatedAt": "2026-08-19T16:58:29.182Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-19T16:58:29.182Z"
   },
   "rmf.fm": {
     "vertical": "news",
@@ -134,7 +134,8 @@
   },
   "zurnal24.si": {
     "addedAt": "2026-08-17T12:41:52.642Z",
-    "updatedAt": "2026-08-19T16:21:40.605Z"
+    "updatedAt": "2026-08-19T16:59:10.267Z",
+    "vertical": "crypt"
   },
   "metropolitan.si": {
     "addedAt": "2026-08-17T12:42:12.354Z",
