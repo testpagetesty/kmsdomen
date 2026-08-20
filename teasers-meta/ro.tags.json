@@ -76,9 +76,9 @@
     "updatedAt": "2026-08-20T12:50:42.602Z"
   },
   "defence24.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-19T11:07:23.915Z",
-    "updatedAt": "2026-08-20T13:37:37.588Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-20T13:37:37.588Z"
   },
   "historia.dorzeczy.pl": {
     "addedAt": "2026-08-19T11:08:28.095Z",
@@ -86,7 +86,8 @@
   },
   "zurnal24.si": {
     "addedAt": "2026-08-19T11:10:02.446Z",
-    "updatedAt": "2026-08-20T13:26:54.315Z"
+    "updatedAt": "2026-08-20T13:38:04.614Z",
+    "vertical": "crypt"
   },
   "obalaplus.si": {
     "addedAt": "2026-08-19T16:07:58.307Z",
