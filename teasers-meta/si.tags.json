@@ -10,9 +10,9 @@
     "updatedAt": "2026-08-25T12:44:36.471Z"
   },
   "n1info.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-05T12:13:55.268Z",
-    "updatedAt": "2026-08-25T13:43:35.299Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-25T13:43:35.299Z"
   },
   "nova24tv.si": {
     "vertical": "crypt",
@@ -192,5 +192,9 @@
   "focus.ua": {
     "addedAt": "2026-08-25T13:39:59.525Z",
     "updatedAt": "2026-08-25T13:39:59.525Z"
+  },
+  "wprost.pl": {
+    "addedAt": "2026-08-25T13:46:03.488Z",
+    "updatedAt": "2026-08-25T13:46:03.488Z"
   }
 }
