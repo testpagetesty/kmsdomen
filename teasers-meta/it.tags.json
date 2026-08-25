@@ -43,9 +43,9 @@
     "updatedAt": "2026-08-19T11:26:33.542Z"
   },
   "obalaplus.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-19T09:51:54.989Z",
-    "updatedAt": "2026-08-25T11:22:42.360Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-25T11:22:42.360Z"
   },
   "e-maribor.si": {
     "addedAt": "2026-08-19T10:05:19.363Z",
@@ -62,5 +62,9 @@
   "dnevnik.si": {
     "addedAt": "2026-08-20T11:04:20.276Z",
     "updatedAt": "2026-08-25T11:08:44.537Z"
+  },
+  "newsweek.ro": {
+    "addedAt": "2026-08-25T11:28:05.675Z",
+    "updatedAt": "2026-08-25T11:28:05.675Z"
   }
 }
