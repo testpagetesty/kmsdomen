@@ -35,9 +35,9 @@
     "updatedAt": "2026-08-20T15:12:39.007Z"
   },
   "wprost.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-18T12:11:33.012Z",
-    "updatedAt": "2026-08-24T18:29:15.613Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-24T18:29:15.613Z"
   },
   "newsmed.pl": {
     "vertical": "crypt",
@@ -229,5 +229,9 @@
   "askproly.com": {
     "addedAt": "2026-08-20T13:18:31.228Z",
     "updatedAt": "2026-08-20T13:18:31.228Z"
+  },
+  "primainspirace.cz": {
+    "addedAt": "2026-08-25T07:26:24.051Z",
+    "updatedAt": "2026-08-25T07:26:24.051Z"
   }
 }
