@@ -40,9 +40,9 @@
     "updatedAt": "2026-08-25T13:26:13.415Z"
   },
   "siol.net": {
+    "vertical": "crypt",
     "addedAt": "2026-08-07T15:46:15.556Z",
-    "updatedAt": "2026-08-25T13:34:51.837Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-25T13:34:51.837Z"
   },
   "vizita.si": {
     "vertical": "crypt",
@@ -176,5 +176,9 @@
   "metropolitan.si": {
     "addedAt": "2026-08-25T13:29:29.728Z",
     "updatedAt": "2026-08-25T13:29:29.728Z"
+  },
+  "actualno.com": {
+    "addedAt": "2026-08-25T13:35:28.249Z",
+    "updatedAt": "2026-08-25T13:35:28.249Z"
   }
 }
