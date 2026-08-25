@@ -30,9 +30,9 @@
     "updatedAt": "2026-08-21T14:26:01.618Z"
   },
   "agri.bg": {
+    "vertical": "nutra",
     "addedAt": "2026-08-18T17:11:13.735Z",
-    "updatedAt": "2026-08-25T16:02:41.123Z",
-    "vertical": "nutra"
+    "updatedAt": "2026-08-25T16:02:41.123Z"
   },
   "trud.bg": {
     "vertical": "news",
@@ -237,5 +237,10 @@
   "standartnews.com": {
     "addedAt": "2026-08-25T16:02:09.365Z",
     "updatedAt": "2026-08-25T16:02:09.365Z"
+  },
+  "nezavisne.com": {
+    "addedAt": "2026-08-25T16:22:50.735Z",
+    "updatedAt": "2026-08-25T16:22:50.735Z",
+    "vertical": "news"
   }
 }
