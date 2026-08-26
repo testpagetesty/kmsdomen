@@ -80,9 +80,9 @@
     "updatedAt": "2026-08-20T09:15:02.421Z"
   },
   "forsal.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-14T14:17:38.974Z",
-    "updatedAt": "2026-08-26T15:49:46.552Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-26T15:49:46.552Z"
   },
   "bibaleze.si": {
     "vertical": "crypt",
@@ -232,5 +232,9 @@
   "newsmed.pl": {
     "addedAt": "2026-08-25T14:02:24.711Z",
     "updatedAt": "2026-08-25T14:02:31.200Z"
+  },
+  "welt.de": {
+    "addedAt": "2026-08-26T16:55:01.681Z",
+    "updatedAt": "2026-08-26T16:55:01.681Z"
   }
 }
