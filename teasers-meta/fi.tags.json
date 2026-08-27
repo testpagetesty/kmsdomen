@@ -14,9 +14,9 @@
     "updatedAt": "2026-08-27T08:41:58.009Z"
   },
   "forsal.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-18T08:05:01.374Z",
-    "updatedAt": "2026-08-27T08:42:14.448Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-27T08:42:14.448Z"
   },
   "nova24tv.si": {
     "vertical": "crypt",
@@ -29,6 +29,7 @@
   },
   "n1info.si": {
     "addedAt": "2026-08-18T08:11:41.122Z",
-    "updatedAt": "2026-08-27T08:33:53.440Z"
+    "updatedAt": "2026-08-27T08:42:31.366Z",
+    "vertical": "crypt"
   }
 }
