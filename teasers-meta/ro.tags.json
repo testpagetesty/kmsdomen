@@ -73,9 +73,9 @@
     "updatedAt": "2026-08-26T14:50:26.072Z"
   },
   "forsal.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-19T11:00:19.182Z",
-    "updatedAt": "2026-08-26T15:28:41.846Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-26T15:28:41.846Z"
   },
   "defence24.pl": {
     "vertical": "crypt",
@@ -118,5 +118,9 @@
   "askproly.com": {
     "addedAt": "2026-08-21T12:54:55.650Z",
     "updatedAt": "2026-08-21T12:54:55.650Z"
+  },
+  "vecernji.hr": {
+    "addedAt": "2026-08-27T12:17:19.019Z",
+    "updatedAt": "2026-08-27T12:17:19.019Z"
   }
 }
