@@ -30,9 +30,9 @@
     "updatedAt": "2026-08-26T15:22:01.707Z"
   },
   "vecernji.hr": {
+    "vertical": "crypt",
     "addedAt": "2026-08-19T14:54:35.148Z",
-    "updatedAt": "2026-08-28T15:05:46.891Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-28T15:05:46.891Z"
   },
   "sensa.story.hr": {
     "vertical": "crypt",
@@ -223,7 +223,8 @@
   },
   "nejrecept.cz": {
     "addedAt": "2026-08-28T08:37:57.644Z",
-    "updatedAt": "2026-08-28T08:37:57.644Z"
+    "updatedAt": "2026-08-28T15:06:36.667Z",
+    "vertical": "crypt"
   },
   "actualno.com": {
     "addedAt": "2026-08-28T08:38:57.277Z",
