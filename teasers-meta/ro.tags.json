@@ -78,9 +78,9 @@
     "updatedAt": "2026-08-27T13:10:26.289Z"
   },
   "defence24.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-19T11:07:23.915Z",
-    "updatedAt": "2026-08-27T14:57:39.301Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-27T14:57:39.301Z"
   },
   "historia.dorzeczy.pl": {
     "addedAt": "2026-08-19T11:08:28.095Z",
@@ -122,5 +122,10 @@
   "vecernji.hr": {
     "addedAt": "2026-08-27T12:17:19.019Z",
     "updatedAt": "2026-08-27T12:17:19.019Z"
+  },
+  "nezavisne.com": {
+    "addedAt": "2026-08-28T13:55:41.665Z",
+    "updatedAt": "2026-08-28T13:55:41.665Z",
+    "vertical": "crypt"
   }
 }
