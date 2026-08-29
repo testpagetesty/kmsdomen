@@ -104,9 +104,9 @@
     "updatedAt": "2026-08-25T09:35:56.037Z"
   },
   "24080232431.buzzfuzzy.com": {
+    "vertical": "news",
     "addedAt": "2026-08-20T13:07:04.984Z",
-    "updatedAt": "2026-08-28T16:04:52.675Z",
-    "vertical": "news"
+    "updatedAt": "2026-08-28T16:04:52.675Z"
   },
   "s1.quizdays.com": {
     "vertical": "news",
@@ -134,5 +134,10 @@
   "actualno.com": {
     "addedAt": "2026-08-25T09:40:54.617Z",
     "updatedAt": "2026-08-25T09:40:54.617Z"
+  },
+  "youtube.com": {
+    "addedAt": "2026-08-29T11:50:14.192Z",
+    "updatedAt": "2026-08-29T11:50:14.192Z",
+    "vertical": "gambling"
   }
 }
