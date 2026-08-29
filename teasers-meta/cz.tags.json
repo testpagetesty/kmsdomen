@@ -55,9 +55,9 @@
     "updatedAt": "2026-08-26T09:37:29.602Z"
   },
   "n1info.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-17T08:21:05.230Z",
-    "updatedAt": "2026-08-29T07:33:16.704Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-29T07:33:16.704Z"
   },
   "regionalobala.si": {
     "vertical": "news",
@@ -202,5 +202,9 @@
   "focus.ua": {
     "addedAt": "2026-08-28T08:10:11.936Z",
     "updatedAt": "2026-08-29T07:27:57.279Z"
+  },
+  "wprost.pl": {
+    "addedAt": "2026-08-29T07:35:31.475Z",
+    "updatedAt": "2026-08-29T07:35:31.475Z"
   }
 }
