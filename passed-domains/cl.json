@@ -260,7 +260,7 @@
     ]
   },
   "buzzfuzzy.com": {
-    "passedAt": "2026-08-25T11:34:05.762Z",
+    "passedAt": "2026-08-31T14:36:17.469Z",
     "source": "teaser",
     "passes": [
       {
@@ -269,6 +269,10 @@
       },
       {
         "passedAt": "2026-08-25T11:34:05.762Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T14:36:17.469Z",
         "source": "teaser"
       }
     ]
