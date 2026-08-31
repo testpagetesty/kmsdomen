@@ -84,7 +84,10 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
   }
 }
 
-/** PUT /api/teasers/[code] body: { add: string[], vertical?: string } — новые домены дописываются; уже в списке — обновляются вертикаль и updatedAt */
+/** PUT /api/teasers/[code]
+ *  { add: string[], vertical?: string } — добавить/обновить
+ *  { order: string[] } — сохранить порядок (те же домены, другая последовательность)
+ */
 export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   const denied = checkAuth(request);
   if (denied) return denied;
@@ -94,9 +97,67 @@ export async function PUT(request: NextRequest, ctx: { params: Promise<{ code: s
     const code = normalizeCode(raw ?? "");
     if (!code) return NextResponse.json({ error: "Неизвестный код страны" }, { status: 400 });
 
-    const body = (await request.json()) as { add?: unknown; vertical?: unknown };
+    const body = (await request.json()) as {
+      add?: unknown;
+      vertical?: unknown;
+      order?: unknown;
+    };
+
+    // --- Режим: сохранить порядок ---
+    if (Array.isArray(body.order)) {
+      const ordered = (body.order as unknown[])
+        .filter((d): d is string => typeof d === "string" && d.trim().length > 0)
+        .map((d) => d.trim());
+      if (ordered.length === 0) {
+        return NextResponse.json({ error: "order пустой" }, { status: 400 });
+      }
+      const seen = new Set<string>();
+      const uniqueOrdered: string[] = [];
+      for (const d of ordered) {
+        if (seen.has(d)) continue;
+        seen.add(d);
+        uniqueOrdered.push(d);
+      }
+
+      const path = countryFilePath(resolveTeasersPrefix(), code);
+      const { text, sha } = await fetchRepoFile(path);
+      const existing = parseLines(text);
+      const existingSet = new Set(existing);
+
+      // order должен содержать ровно те же домены, что в файле (перестановка)
+      if (uniqueOrdered.length !== existing.length) {
+        return NextResponse.json(
+          {
+            error: `order: ожидалось ${existing.length} доменов, получено ${uniqueOrdered.length}`,
+          },
+          { status: 400 },
+        );
+      }
+      for (const d of uniqueOrdered) {
+        if (!existingSet.has(d)) {
+          return NextResponse.json(
+            { error: `order: домена нет в списке: ${d}` },
+            { status: 400 },
+          );
+        }
+      }
+
+      const out = uniqueOrdered.length > 0 ? `${uniqueOrdered.join("\n")}\n` : "";
+      await putRepoFile(path, out, sha || undefined);
+      return NextResponse.json({
+        ok: true,
+        reordered: true,
+        total: uniqueOrdered.length,
+        lines: uniqueOrdered,
+      });
+    }
+
+    // --- Режим: добавить / обновить ---
     if (!Array.isArray(body.add)) {
-      return NextResponse.json({ error: "Ожидается поле add: string[]" }, { status: 400 });
+      return NextResponse.json(
+        { error: "Ожидается поле add: string[] или order: string[]" },
+        { status: 400 },
+      );
     }
     // vertical необязателен: нет / none → без вертикали
     let vertical = "";

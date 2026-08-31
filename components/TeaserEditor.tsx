@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState, type DragEvent } from "react";
 import { DateRangePicker } from "@/components/DateRangePicker";
 import { VERTICALS } from "@/data/verticals";
 import { parseTeaserTagsJson, type TeaserTagMeta } from "@/lib/teaserTags";
@@ -57,6 +57,8 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
   const [marking, setMarking] = useState(false);
   const [bulkDeleting, setBulkDeleting] = useState(false);
   const [passedSet, setPassedSet] = useState<Set<string>>(() => new Set());
+  const [reordering, setReordering] = useState(false);
+  const [dragDomain, setDragDomain] = useState<string | null>(null);
 
   // История добавлений по датам (для фильтра)
   const [historyLoading, setHistoryLoading] = useState(false);
@@ -137,22 +139,11 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
     });
   }, [lines, filterQuery, verticalFilter, tags]);
 
-  const sortedForDisplay = useMemo(() => {
-    // Если фильтр вертикали выбран — просто сортируем по домену
-    if (verticalFilter !== "all") return [...filtered].sort((a, b) => a.localeCompare(b));
-    // Иначе группируем по вертикалям, как в списке VERTICALS (кроме "all")
-    const order = new Map<string, number>();
-    VERTICALS.filter((v) => v.id !== "all").forEach((v, i) => order.set(v.id, i));
-    return [...filtered].sort((a, b) => {
-      const va = verticalOf(tags, a);
-      const vb = verticalOf(tags, b);
-      const oa = order.get(va) ?? 999;
-      const ob = order.get(vb) ?? 999;
-      if (oa !== ob) return oa - ob;
-      if (va !== vb) return String(va).localeCompare(String(vb));
-      return a.localeCompare(b);
-    });
-  }, [filtered, verticalFilter, tags]);
+  // Порядок как в файле (ручная сортировка). Фильтр только отсекает, не пересортировывает.
+  const displayList = filtered;
+
+  const canReorder =
+    !filterQuery.trim() && verticalFilter === "all" && !loading && lines.length > 1;
 
   const byDay = useMemo(() => {
     const agg = new Map<string, { added: number; removed: number; updated: number; net: number }>();
@@ -179,6 +170,71 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
     const h: Record<string, string> = { "Content-Type": "application/json" };
     if (password.trim()) h.Authorization = `Bearer ${password.trim()}`;
     return h;
+  }
+
+  async function saveOrder(nextLines: string[]) {
+    setReordering(true);
+    setMessage(null);
+    const prev = lines;
+    setLines(nextLines);
+    try {
+      const res = await fetch(`/api/teasers/${countryCode}`, {
+        method: "PUT",
+        headers: authHeaders(),
+        body: JSON.stringify({ order: nextLines }),
+      });
+      const data = (await res.json()) as { ok?: boolean; total?: number; error?: string };
+      if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
+      setMessage({ type: "ok", text: "Порядок сохранён" });
+    } catch (e) {
+      setLines(prev);
+      setMessage({
+        type: "err",
+        text: e instanceof Error ? e.message : "Не удалось сохранить порядок",
+      });
+    } finally {
+      setReordering(false);
+      setDragDomain(null);
+    }
+  }
+
+  function moveDomain(domain: string, dir: -1 | 1) {
+    if (!canReorder || reordering) return;
+    const i = lines.indexOf(domain);
+    const j = i + dir;
+    if (i < 0 || j < 0 || j >= lines.length) return;
+    const next = [...lines];
+    const tmp = next[i]!;
+    next[i] = next[j]!;
+    next[j] = tmp;
+    void saveOrder(next);
+  }
+
+  function onDragStart(domain: string) {
+    if (!canReorder || reordering) return;
+    setDragDomain(domain);
+  }
+
+  function onDragOver(e: DragEvent, overDomain: string) {
+    if (!canReorder || !dragDomain || dragDomain === overDomain) return;
+    e.preventDefault();
+  }
+
+  function onDrop(overDomain: string) {
+    if (!canReorder || !dragDomain || dragDomain === overDomain || reordering) {
+      setDragDomain(null);
+      return;
+    }
+    const from = lines.indexOf(dragDomain);
+    const to = lines.indexOf(overDomain);
+    if (from < 0 || to < 0) {
+      setDragDomain(null);
+      return;
+    }
+    const next = [...lines];
+    const [item] = next.splice(from, 1);
+    next.splice(to, 0, item!);
+    void saveOrder(next);
   }
 
   async function handleAdd() {
@@ -502,12 +558,18 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
               />
             </div>
           </div>
+          {canReorder && (
+            <p className="mt-2 text-xs" style={{ color: "var(--muted)" }}>
+              Порядок: перетащите домен или ↑↓. При фильтре сортировка недоступна.
+              {reordering ? " Сохранение…" : ""}
+            </p>
+          )}
           {filtered.length > 0 && (
             <div className="mt-3 flex flex-wrap gap-2">
               <button
                 type="button"
                 onClick={toggleAllFiltered}
-                disabled={loading || marking || bulkDeleting || saving}
+                disabled={loading || marking || bulkDeleting || saving || reordering}
                 className="rounded border px-2 py-1 text-xs hover:bg-white/5 disabled:opacity-40"
                 style={{ borderColor: "var(--border)" }}
               >
@@ -547,15 +609,32 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
             </p>
           ) : (
             <ul>
-              {sortedForDisplay.map((domain) => {
+              {displayList.map((domain, idx) => {
                 const alreadyPassed = passedSet.has(domain);
+                const isDragging = dragDomain === domain;
                 return (
                 <li
                   key={domain}
-                  className="flex items-center justify-between gap-3 border-b px-4 py-2.5 last:border-b-0 hover:bg-white/[0.02]"
+                  draggable={canReorder && !reordering}
+                  onDragStart={() => onDragStart(domain)}
+                  onDragOver={(e) => onDragOver(e, domain)}
+                  onDrop={() => onDrop(domain)}
+                  onDragEnd={() => setDragDomain(null)}
+                  className={`flex items-center justify-between gap-3 border-b px-4 py-2.5 last:border-b-0 hover:bg-white/[0.02] ${
+                    canReorder ? "cursor-grab active:cursor-grabbing" : ""
+                  } ${isDragging ? "opacity-50" : ""}`}
                   style={{ borderColor: "var(--border)" }}
                 >
                   <div className="flex min-w-0 items-start gap-3">
+                    {canReorder && (
+                      <span
+                        className="mt-1 select-none text-xs text-gray-600"
+                        title="Перетащите"
+                        aria-hidden
+                      >
+                        ⋮⋮
+                      </span>
+                    )}
                     <input
                       type="checkbox"
                       className="mt-1 h-4 w-4 shrink-0 rounded border-gray-600"
@@ -605,15 +684,39 @@ export function TeaserEditor({ countryCode, onPassedChange }: Props) {
                       </div>
                     </div>
                   </div>
-                  <button
-                    type="button"
-                    onClick={() => handleDelete(domain)}
-                    disabled={deletingDomain === domain || saving || marking}
-                    title="Удалить домен"
-                    className="flex-shrink-0 rounded-md px-2 py-1 text-xs text-gray-500 transition hover:bg-red-500/10 hover:text-red-400 disabled:opacity-40"
-                  >
-                    {deletingDomain === domain ? "…" : "✕"}
-                  </button>
+                  <div className="flex flex-shrink-0 items-center gap-1">
+                    {canReorder && (
+                      <>
+                        <button
+                          type="button"
+                          onClick={() => moveDomain(domain, -1)}
+                          disabled={reordering || idx === 0}
+                          title="Выше"
+                          className="rounded-md px-1.5 py-1 text-xs text-gray-500 transition hover:bg-white/10 hover:text-gray-200 disabled:opacity-30"
+                        >
+                          ↑
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => moveDomain(domain, 1)}
+                          disabled={reordering || idx === displayList.length - 1}
+                          title="Ниже"
+                          className="rounded-md px-1.5 py-1 text-xs text-gray-500 transition hover:bg-white/10 hover:text-gray-200 disabled:opacity-30"
+                        >
+                          ↓
+                        </button>
+                      </>
+                    )}
+                    <button
+                      type="button"
+                      onClick={() => handleDelete(domain)}
+                      disabled={deletingDomain === domain || saving || marking || reordering}
+                      title="Удалить домен"
+                      className="rounded-md px-2 py-1 text-xs text-gray-500 transition hover:bg-red-500/10 hover:text-red-400 disabled:opacity-40"
+                    >
+                      {deletingDomain === domain ? "…" : "✕"}
+                    </button>
+                  </div>
                 </li>
                 );
               })}
