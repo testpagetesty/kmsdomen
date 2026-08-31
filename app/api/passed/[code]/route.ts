@@ -13,7 +13,8 @@ import { fetchRepoFile, putRepoFile } from "@/lib/github";
 import {
   isPassedSource,
   parsePassedMap,
-  passedMapToEntries,
+  passedMapToHistoryEntries,
+  recordPass,
   serializePassedMap,
   type PassedSource,
 } from "@/lib/passedDomains";
@@ -45,7 +46,7 @@ function passedFilePath(code: string) {
   return countryJsonFilePath(resolvePassedDomainsPrefix(), code);
 }
 
-/** GET → { entries: { domain, passedAt, source }[] } по убыванию passedAt */
+/** GET → { entries: история прохождений по дням, uniqueDomains } */
 export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: string }> }) {
   try {
     const { code: raw } = await ctx.params;
@@ -55,9 +56,14 @@ export async function GET(_req: NextRequest, ctx: { params: Promise<{ code: stri
     const path = passedFilePath(code);
     const { text } = await fetchRepoFile(path);
     const map = parsePassedMap(text);
-    const entries = passedMapToEntries(map);
+    const entries = passedMapToHistoryEntries(map);
 
-    return NextResponse.json({ code, entries, total: entries.length });
+    return NextResponse.json({
+      code,
+      entries,
+      total: entries.length,
+      uniqueDomains: Object.keys(map).length,
+    });
   } catch (e) {
     return NextResponse.json(
       { error: e instanceof Error ? e.message : "Ошибка загрузки" },
@@ -140,7 +146,7 @@ export async function POST(request: NextRequest, ctx: { params: Promise<{ code: 
     const passedMap = parsePassedMap(passedText);
     const now = new Date().toISOString();
     for (const n of normMarks) {
-      passedMap[n] = { passedAt: now, source };
+      recordPass(passedMap, n, now, source);
     }
 
     await putRepoFile(passedPath, serializePassedMap(passedMap), passedSha || undefined);

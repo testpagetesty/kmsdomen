@@ -1,42 +1,102 @@
 {
   "express.pk": {
     "passedAt": "2026-08-13T19:26:43.493Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T19:26:43.493Z",
+        "source": "new"
+      }
+    ]
   },
   "urdupoint.com": {
     "passedAt": "2026-08-13T19:27:19.550Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T19:27:19.550Z",
+        "source": "new"
+      }
+    ]
   },
   "pakistanpoint.com": {
     "passedAt": "2026-08-13T19:30:06.264Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T19:30:06.264Z",
+        "source": "new"
+      }
+    ]
   },
   "fuchsiamagazine.com": {
     "passedAt": "2026-08-13T19:32:46.333Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T19:32:46.333Z",
+        "source": "new"
+      }
+    ]
   },
   "youtube.com": {
-    "passedAt": "2026-08-19T19:11:36.843Z",
-    "source": "teaser"
+    "passedAt": "2026-08-19T19:09:54.946Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:09:54.946Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-19T19:11:52.510Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:11:52.510Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-19T19:27:18.205Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:27:18.205Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-19T19:34:29.422Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:34:29.422Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-19T19:41:23.288Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:41:23.288Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-19T19:49:25.477Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T19:49:25.477Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

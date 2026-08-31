@@ -1,94 +1,268 @@
 {
   "g1.globo.com": {
     "passedAt": "2026-08-13T14:22:03.483Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:22:03.483Z",
+        "source": "new"
+      }
+    ]
   },
   "uol.com.br": {
     "passedAt": "2026-08-13T14:25:20.397Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:25:20.397Z",
+        "source": "new"
+      }
+    ]
   },
   "terra.com.br": {
     "passedAt": "2026-08-13T14:27:41.803Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:27:41.803Z",
+        "source": "new"
+      }
+    ]
   },
   "r7.com": {
     "passedAt": "2026-08-13T14:30:36.208Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:30:36.208Z",
+        "source": "new"
+      }
+    ]
   },
   "cnnbrasil.com.br": {
     "passedAt": "2026-08-13T14:32:54.016Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:32:54.016Z",
+        "source": "new"
+      }
+    ]
   },
   "metropoles.com": {
     "passedAt": "2026-08-13T14:38:16.879Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:38:16.879Z",
+        "source": "new"
+      }
+    ]
   },
   "ig.com.br": {
     "passedAt": "2026-08-14T12:19:30.840Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:39:30.215Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-14T12:19:30.840Z",
+        "source": "new"
+      }
+    ]
   },
   "band.uol.com.br": {
     "passedAt": "2026-08-14T12:22:50.296Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:22:50.296Z",
+        "source": "new"
+      }
+    ]
   },
   "record.r7.com": {
     "passedAt": "2026-08-14T12:23:02.893Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:23:02.893Z",
+        "source": "new"
+      }
+    ]
   },
   "sbt.com.br": {
     "passedAt": "2026-08-14T12:25:33.875Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:25:33.875Z",
+        "source": "new"
+      }
+    ]
   },
   "istoedinheiro.com.br": {
     "passedAt": "2026-08-14T12:28:04.933Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:28:04.933Z",
+        "source": "new"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-20T13:48:05.261Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T11:43:24.251Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T12:30:20.452Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:48:05.261Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-20T13:48:59.101Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T11:43:48.113Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T12:30:27.717Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:48:59.101Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-20T13:54:32.274Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T11:47:18.414Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T12:34:40.101Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:54:32.274Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-20T13:56:11.724Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T11:51:33.003Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:56:11.724Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-18T12:23:16.091Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T12:23:16.091Z",
+        "source": "teaser"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-20T13:44:47.005Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T12:25:37.614Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:44:47.005Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-18T12:42:05.046Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T12:42:05.046Z",
+        "source": "teaser"
+      }
+    ]
   },
   "24080232431.buzzfuzzy.com": {
     "passedAt": "2026-08-21T13:06:19.984Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:06:19.984Z",
+        "source": "teaser"
+      }
+    ]
   },
   "s1.quizdays.com": {
     "passedAt": "2026-08-21T13:09:57.446Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:09:57.446Z",
+        "source": "teaser"
+      }
+    ]
   },
   "23835473478.optionsl.com": {
     "passedAt": "2026-08-21T13:11:19.803Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:11:19.803Z",
+        "source": "teaser"
+      }
+    ]
   },
   "buzzfuzzy.com": {
     "passedAt": "2026-08-21T13:12:26.282Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:12:26.282Z",
+        "source": "teaser"
+      }
+    ]
   },
   "askproly.com": {
     "passedAt": "2026-08-21T13:15:31.876Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:15:31.876Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

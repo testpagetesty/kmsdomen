@@ -1,26 +1,94 @@
 {
   "moja-dolenjska.si": {
     "passedAt": "2026-08-30T16:53:17.036Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T16:34:25.984Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T17:28:49.319Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T16:53:17.036Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-30T16:53:11.387Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T16:37:24.743Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T17:37:50.730Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T16:53:11.387Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-30T17:00:12.179Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T16:41:13.489Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T17:00:12.179Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-30T17:04:28.857Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T16:41:22.413Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T17:04:28.857Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-30T16:43:20.909Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T17:24:22.022Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T18:56:02.460Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T16:43:20.909Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-30T16:43:09.500Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T16:43:09.500Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

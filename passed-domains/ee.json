@@ -1,22 +1,56 @@
 {
   "forsal.pl": {
     "passedAt": "2026-08-28T16:40:48.087Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-27T18:46:28.262Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T16:40:48.087Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-28T16:29:52.161Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T16:29:52.161Z",
+        "source": "teaser"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-28T16:32:11.528Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T16:32:11.528Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-28T16:37:24.175Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T16:37:24.175Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-28T16:46:14.453Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T16:46:14.453Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

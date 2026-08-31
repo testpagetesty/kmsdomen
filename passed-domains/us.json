@@ -1,6 +1,12 @@
 {
   "siol.net": {
     "passedAt": "2026-08-24T11:36:45.410Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-24T11:36:45.410Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

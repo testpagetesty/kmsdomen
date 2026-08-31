@@ -1,46 +1,128 @@
 {
   "zakon.kz": {
     "passedAt": "2026-08-13T13:59:17.598Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T13:59:17.598Z",
+        "source": "new"
+      }
+    ]
   },
   "massaget.kz": {
     "passedAt": "2026-08-13T14:00:14.894Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:00:14.894Z",
+        "source": "new"
+      }
+    ]
   },
   "liter.kz": {
     "passedAt": "2026-08-13T14:01:11.931Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:01:11.931Z",
+        "source": "new"
+      }
+    ]
   },
   "comode.kz": {
     "passedAt": "2026-08-13T14:02:17.823Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:02:17.823Z",
+        "source": "new"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-18T14:48:52.566Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:07:16.204Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T14:48:52.566Z",
+        "source": "teaser"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-18T14:51:13.024Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:12:32.171Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T14:51:13.024Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-18T14:53:18.358Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:14:52.108Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T14:53:18.358Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-18T14:56:56.345Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:18:50.674Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T14:56:56.345Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-17T14:21:06.133Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:21:06.133Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-17T14:24:37.911Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:24:37.911Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-18T14:55:15.350Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T14:55:15.350Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

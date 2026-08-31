@@ -1,42 +1,106 @@
 {
   "herworld.com": {
     "passedAt": "2026-08-14T07:40:21.083Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T07:40:21.083Z",
+        "source": "new"
+      }
+    ]
   },
   "elle.com.sg": {
     "passedAt": "2026-08-14T07:40:50.293Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T07:40:50.293Z",
+        "source": "new"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-19T07:30:06.383Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T07:30:06.383Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-19T07:30:31.440Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T07:30:31.440Z",
+        "source": "teaser"
+      }
+    ]
   },
   "marica.bg": {
     "passedAt": "2026-08-25T11:03:31.115Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T11:03:31.115Z",
+        "source": "teaser"
+      }
+    ]
   },
   "glavcom.ua": {
     "passedAt": "2026-08-25T11:25:55.853Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T11:25:55.853Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-25T15:53:13.174Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:53:13.174Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-31T09:01:06.817Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:54:09.504Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T09:01:06.817Z",
+        "source": "teaser"
+      }
+    ]
   },
   "defence24.pl": {
     "passedAt": "2026-08-25T15:55:29.459Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:55:29.459Z",
+        "source": "teaser"
+      }
+    ]
   },
   "historia.dorzeczy.pl": {
     "passedAt": "2026-08-25T15:56:22.570Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:56:22.570Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

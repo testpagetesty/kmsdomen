@@ -1,478 +1,2140 @@
 {
   "niskevesti.rs": {
     "passedAt": "2026-08-12T08:54:11.632Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T08:54:11.632Z",
+        "source": "new"
+      }
+    ]
   },
   "tv3.lt": {
     "passedAt": "2026-08-13T12:45:26.916Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T09:42:39.721Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T12:45:26.916Z",
+        "source": "new"
+      }
+    ]
   },
   "15min.lt": {
     "passedAt": "2026-08-14T12:33:17.488Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T09:46:35.784Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T11:34:05.786Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-14T12:33:17.488Z",
+        "source": "new"
+      }
+    ]
   },
   "zmones.15min.lt": {
     "passedAt": "2026-08-12T09:53:08.277Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T09:53:08.277Z",
+        "source": "new"
+      }
+    ]
   },
   "alfa.lt": {
     "passedAt": "2026-08-16T11:34:40.979Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:05:45.270Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-16T11:34:40.979Z",
+        "source": "new"
+      }
+    ]
   },
   "ve.lt": {
     "passedAt": "2026-08-13T12:48:11.711Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:07:56.368Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T12:48:11.711Z",
+        "source": "new"
+      }
+    ]
   },
   "kauno.diena.lt": {
     "passedAt": "2026-08-13T13:49:51.782Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:15:14.352Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T13:49:51.782Z",
+        "source": "new"
+      }
+    ]
   },
   "klaipeda.diena.lt": {
     "passedAt": "2026-08-13T13:52:24.222Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:16:49.145Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T13:52:24.222Z",
+        "source": "new"
+      }
+    ]
   },
   "etaplius.lt": {
     "passedAt": "2026-08-15T12:47:35.112Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:21:26.445Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-15T12:47:35.112Z",
+        "source": "new"
+      }
+    ]
   },
   "rinkosaikste.lt": {
     "passedAt": "2026-08-15T12:48:10.663Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:04:47.142Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-15T12:48:10.663Z",
+        "source": "new"
+      }
+    ]
   },
   "santarve.lt": {
     "passedAt": "2026-08-12T14:07:52.640Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:07:52.640Z",
+        "source": "new"
+      }
+    ]
   },
   "sekunde.lt": {
     "passedAt": "2026-08-15T12:45:57.083Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:08:32.653Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-15T12:45:57.083Z",
+        "source": "new"
+      }
+    ]
   },
   "lsveikata.lt": {
     "passedAt": "2026-08-14T12:35:54.687Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:09:17.375Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-14T12:35:54.687Z",
+        "source": "new"
+      }
+    ]
   },
   "pensijos didėjimas\nrugpjūčio 12 d": {
     "passedAt": "2026-08-12T11:20:25.824Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T11:20:25.824Z",
+        "source": "teaser"
+      }
+    ]
   },
   "sveikauk.lt": {
     "passedAt": "2026-08-20T14:08:00.564Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:18:14.002Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-13T14:59:17.613Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:22:04.374Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:16:14.310Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:39:43.684Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:39:22.236Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:51:34.292Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:08:00.564Z",
+        "source": "teaser"
+      }
+    ]
   },
   "ltlife.lt": {
     "passedAt": "2026-08-20T14:04:19.102Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:05:58.937Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-13T14:57:44.389Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:00:58.873Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:14:43.557Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:36:46.107Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:37:39.159Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:48:18.911Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:04:19.102Z",
+        "source": "teaser"
+      }
+    ]
   },
   "gyvenimas.lt": {
     "passedAt": "2026-08-13T14:55:52.155Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:59:31.193Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:55:52.155Z",
+        "source": "teaser"
+      }
+    ]
   },
   "diena.lt": {
     "passedAt": "2026-08-18T10:11:56.646Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:45:47.144Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:55:33.960Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:11:56.646Z",
+        "source": "teaser"
+      }
+    ]
   },
   "kaunodiena.lt": {
     "passedAt": "2026-08-18T10:09:36.859Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:48:57.976Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:53:26.167Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:09:36.859Z",
+        "source": "teaser"
+      }
+    ]
   },
   "klaipedosdiena.lt": {
     "passedAt": "2026-08-18T10:09:27.979Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:51:10.879Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:53:07.039Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:09:27.979Z",
+        "source": "teaser"
+      }
+    ]
   },
   "jurbarkosviesa.lt": {
     "passedAt": "2026-08-18T10:29:20.700Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:51:21.576Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:52:29.308Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:29:20.700Z",
+        "source": "teaser"
+      }
+    ]
   },
   "elle.lt": {
     "passedAt": "2026-08-18T10:27:34.028Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:52:21.328Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:52:19.627Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:31:13.606Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T11:33:03.528Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-18T10:27:34.028Z",
+        "source": "teaser"
+      }
+    ]
   },
   "anyksta.lt": {
     "passedAt": "2026-08-18T10:25:46.684Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:52:43.746Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:25:58.707Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:27:47.163Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:48:08.899Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:25:46.684Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionunaujienos.lt": {
     "passedAt": "2026-08-19T12:12:07.837Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T18:57:07.435Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:16:20.505Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:26:51.415Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:30:34.277Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:46:01.457Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:25:41.622Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:12:07.837Z",
+        "source": "teaser"
+      }
+    ]
   },
   "dzukuzinios.lt": {
     "passedAt": "2026-08-20T14:12:11.498Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:02:43.049Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:13:44.915Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:25:31.180Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:26:03.617Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:44:42.162Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-17T18:17:04.644Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T10:24:58.231Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:00:11.946Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:12:11.498Z",
+        "source": "teaser"
+      }
+    ]
   },
   "manokrastas.lt": {
     "passedAt": "2026-08-20T14:08:48.432Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:04:21.393Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T14:13:22.945Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:22:58.809Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:23:46.145Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:43:01.179Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:42:37.846Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:54:46.624Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:08:48.432Z",
+        "source": "teaser"
+      }
+    ]
   },
   "lsm.lt": {
     "passedAt": "2026-08-20T14:08:33.135Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:04:54.073Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T15:00:30.811Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-14T12:22:35.286Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-15T11:18:58.533Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-16T10:42:50.274Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:42:27.970Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:54:37.516Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:08:33.135Z",
+        "source": "teaser"
+      }
+    ]
   },
   "{\"code\":\"lt\",\"lines\":[],\"total\":0,\"tags\":{}}": {
     "passedAt": "2026-08-12T12:28:18.991Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:28:18.991Z",
+        "source": "teaser"
+      }
+    ]
   },
   "lrytas.lt": {
     "passedAt": "2026-08-13T11:30:37.591Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T12:01:52.639Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-13T11:30:37.591Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikata.lt": {
     "passedAt": "2026-08-15T12:15:48.823Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T14:15:58.287Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-15T12:15:48.823Z",
+        "source": "new"
+      }
+    ]
   },
   "nsuzivo.rs": {
     "passedAt": "2026-08-12T19:05:20.616Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-12T19:05:20.616Z",
+        "source": "new"
+      }
+    ]
   },
   "m.diena.lt": {
     "passedAt": "2026-08-13T14:09:32.978Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:09:32.978Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikaszmogus.lt": {
     "passedAt": "2026-08-13T14:11:21.459Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T14:11:21.459Z",
+        "source": "new"
+      }
+    ]
   },
   "top24novice.si": {
     "passedAt": "2026-08-31T08:10:32.158Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T15:43:29.981Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:43:05.837Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:19:41.025Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:48:06.752Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:17:53.465Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:41:20.425Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:10:32.158Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-28T11:36:13.381Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T15:44:34.846Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-17T15:47:39.294Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:30:31.313Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:39:01.440Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T12:25:45.289Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:35:03.941Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T11:24:35.306Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:23:16.848Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:09:53.722Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:46:18.907Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:24:17.231Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T11:36:13.381Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
-    "passedAt": "2026-08-30T09:51:52.397Z",
-    "source": "teaser"
+    "passedAt": "2026-08-30T09:45:55.461Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T15:44:37.796Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-17T15:51:53.124Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:32:17.022Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:41:03.888Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T12:26:41.850Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:38:07.212Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T11:28:03.608Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:26:59.040Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:11:07.984Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:47:49.607Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:27:25.418Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T11:38:02.785Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T10:57:30.917Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:45:55.461Z",
+        "source": "teaser"
+      }
+    ]
   },
   "psvcentras.lt": {
     "passedAt": "2026-08-14T12:37:51.114Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:37:51.114Z",
+        "source": "new"
+      }
+    ]
   },
   "ltnaujienos.lt": {
     "passedAt": "2026-08-14T12:40:21.795Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:40:21.795Z",
+        "source": "new"
+      }
+    ]
   },
   "gladi.lt": {
     "passedAt": "2026-08-14T12:43:19.224Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:43:19.224Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikatoszurnalas.lt": {
     "passedAt": "2026-08-14T12:48:17.987Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:48:17.987Z",
+        "source": "new"
+      }
+    ]
   },
   "zmones.lt": {
     "passedAt": "2026-08-14T12:49:49.692Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-14T12:49:49.692Z",
+        "source": "new"
+      }
+    ]
   },
   "moteris.lt": {
     "passedAt": "2026-08-15T11:51:22.479Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T11:51:22.479Z",
+        "source": "new"
+      }
+    ]
   },
   "balsas.lt": {
     "passedAt": "2026-08-15T11:57:02.207Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T11:57:02.207Z",
+        "source": "new"
+      }
+    ]
   },
   "manodaktaras.lt": {
     "passedAt": "2026-08-15T12:14:00.289Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:14:00.289Z",
+        "source": "new"
+      }
+    ]
   },
   "deit.lt": {
     "passedAt": "2026-08-15T12:15:19.847Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:15:19.847Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikatingumas.lt": {
     "passedAt": "2026-08-15T12:33:52.531Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:33:52.531Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikata24.lt": {
     "passedAt": "2026-08-15T12:34:50.106Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:34:50.106Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikas.lt": {
     "passedAt": "2026-08-15T12:37:37.777Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:37:37.777Z",
+        "source": "new"
+      }
+    ]
   },
   "manosveikata.lt": {
     "passedAt": "2026-08-15T12:39:50.735Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:39:50.735Z",
+        "source": "new"
+      }
+    ]
   },
   "sveikagyvensena.lt": {
     "passedAt": "2026-08-15T12:40:36.507Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:40:36.507Z",
+        "source": "new"
+      }
+    ]
   },
   "klaipeda.lt": {
     "passedAt": "2026-08-15T12:41:25.876Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:41:25.876Z",
+        "source": "new"
+      }
+    ]
   },
   "kaunas.lt": {
     "passedAt": "2026-08-15T12:41:42.052Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:41:42.052Z",
+        "source": "new"
+      }
+    ]
   },
   "vilnius.lt": {
     "passedAt": "2026-08-15T12:42:34.086Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:42:34.086Z",
+        "source": "new"
+      }
+    ]
   },
   "panevezys.lt": {
     "passedAt": "2026-08-15T12:42:54.293Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:42:54.293Z",
+        "source": "new"
+      }
+    ]
   },
   "vakaru-ekspresas.lt": {
     "passedAt": "2026-08-15T12:44:32.392Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:44:32.392Z",
+        "source": "new"
+      }
+    ]
   },
   "paninfo.lt": {
     "passedAt": "2026-08-16T11:40:06.582Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:45:14.778Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-08-16T11:40:06.582Z",
+        "source": "new"
+      }
+    ]
   },
   "aina.lt": {
     "passedAt": "2026-08-15T12:46:39.116Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:46:39.116Z",
+        "source": "new"
+      }
+    ]
   },
   "sirvis.lt": {
     "passedAt": "2026-08-15T12:51:15.950Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:51:15.950Z",
+        "source": "new"
+      }
+    ]
   },
   "regionugidas.lt": {
     "passedAt": "2026-08-15T12:51:19.057Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:51:19.057Z",
+        "source": "new"
+      }
+    ]
   },
   "atspindziai.lt": {
     "passedAt": "2026-08-15T12:52:57.784Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:52:57.784Z",
+        "source": "new"
+      }
+    ]
   },
   "sviesoslaikrastis.lt": {
     "passedAt": "2026-08-15T12:55:38.773Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:55:38.773Z",
+        "source": "new"
+      }
+    ]
   },
   "silokarcema.lt": {
     "passedAt": "2026-08-15T12:55:57.978Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:55:57.978Z",
+        "source": "new"
+      }
+    ]
   },
   "silutesnaujienos.lt": {
     "passedAt": "2026-08-15T12:56:36.344Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-15T12:56:36.344Z",
+        "source": "new"
+      }
+    ]
   },
   "siauliai.lt": {
     "passedAt": "2026-08-16T11:39:33.748Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:39:33.748Z",
+        "source": "new"
+      }
+    ]
   },
   "plungesparnas.lt": {
     "passedAt": "2026-08-16T11:43:31.532Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:43:31.532Z",
+        "source": "new"
+      }
+    ]
   },
   "telsiai.lt": {
     "passedAt": "2026-08-16T11:44:06.666Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:44:06.666Z",
+        "source": "new"
+      }
+    ]
   },
   "mazeikiuaplinka.lt": {
     "passedAt": "2026-08-16T11:44:26.495Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:44:26.495Z",
+        "source": "new"
+      }
+    ]
   },
   "gargzdai.lt": {
     "passedAt": "2026-08-16T11:45:11.749Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:45:11.749Z",
+        "source": "new"
+      }
+    ]
   },
   "jurbarkas.lt": {
     "passedAt": "2026-08-16T11:53:42.016Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:53:42.016Z",
+        "source": "new"
+      }
+    ]
   },
   "silale.lt": {
     "passedAt": "2026-08-16T11:54:06.949Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:54:06.949Z",
+        "source": "new"
+      }
+    ]
   },
   "taurage.lt": {
     "passedAt": "2026-08-16T11:54:29.851Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:54:29.851Z",
+        "source": "new"
+      }
+    ]
   },
   "plunge.lt": {
     "passedAt": "2026-08-16T11:54:54.642Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:54:54.642Z",
+        "source": "new"
+      }
+    ]
   },
   "rokiskis.lt": {
     "passedAt": "2026-08-16T11:55:15.609Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-16T11:55:15.609Z",
+        "source": "new"
+      }
+    ]
   },
   "regionalobala.si": {
-    "passedAt": "2026-08-31T10:50:58.085Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T07:50:06.752Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T14:36:47.240Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:02:07.291Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:24:53.636Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T14:07:56.469Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:39:35.957Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T10:48:45.281Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:32:57.105Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:12:27.873Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:35:08.383Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T16:11:58.354Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:17:48.058Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T08:29:42.396Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:00:34.276Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T07:50:06.752Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-31T08:06:45.507Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:07:01.449Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:23:05.028Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:40:23.246Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:34:17.360Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:29:23.072Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T10:51:05.683Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:17:48.894Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:06:00.882Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:39:38.647Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T16:14:51.039Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:20:34.852Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:12:36.475Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:04:51.857Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:06:45.507Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-31T08:08:47.380Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:20:35.959Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:24:42.562Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:47:58.931Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:40:03.435Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:29:28.098Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T10:53:34.537Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:18:57.127Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:06:23.670Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:40:18.001Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T16:16:15.707Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:20:45.545Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T08:44:32.699Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T11:14:17.313Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:05:20.961Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:08:47.380Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-30T08:10:04.351Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:33:05.896Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:27:40.123Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T11:29:47.272Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:46:30.714Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:33:33.030Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T11:19:17.081Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:21:17.157Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:08:44.120Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:43:58.789Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T16:20:15.417Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:22:14.899Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T08:47:57.326Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:10:04.351Z",
+        "source": "teaser"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-30T08:03:51.551Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T16:07:58.169Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:21:12.808Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-19T12:30:32.458Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-20T13:32:23.823Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:28:27.090Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T10:50:33.722Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:16:30.877Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:04:22.139Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:38:02.960Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T16:13:41.805Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:19:55.011Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T08:30:37.744Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:03:51.551Z",
+        "source": "teaser"
+      }
+    ]
   },
   "cekin.si": {
     "passedAt": "2026-08-18T09:57:30.150Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T09:57:30.150Z",
+        "source": "teaser"
+      }
+    ]
   },
   "utenis.lt": {
     "passedAt": "2026-08-19T12:22:56.742Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T12:22:56.742Z",
+        "source": "new"
+      }
+    ]
   },
   "zarasai.lt": {
     "passedAt": "2026-08-19T12:23:25.807Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T12:23:25.807Z",
+        "source": "new"
+      }
+    ]
   },
   "alytusplius.lt": {
     "passedAt": "2026-08-19T12:24:12.178Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T12:24:12.178Z",
+        "source": "new"
+      }
+    ]
   },
   "defence24.pl": {
-    "passedAt": "2026-08-31T11:03:41.780Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T08:02:53.678Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T12:30:11.576Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T14:41:02.128Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T11:37:11.260Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:33:56.076Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:13:55.449Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:50:56.225Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:37:47.787Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:08:31.137Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:01:26.381Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:02:53.678Z",
+        "source": "teaser"
+      }
+    ]
   },
   "24080232431.buzzfuzzy.com": {
     "passedAt": "2026-08-20T14:22:28.966Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T14:22:28.966Z",
+        "source": "teaser"
+      }
+    ]
   },
   "s1.quizdays.com": {
     "passedAt": "2026-08-20T14:24:50.066Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T14:24:50.066Z",
+        "source": "teaser"
+      }
+    ]
   },
   "23835473478.optionsl.com": {
     "passedAt": "2026-08-20T14:26:23.672Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T14:26:23.672Z",
+        "source": "teaser"
+      }
+    ]
   },
   "buzzfuzzy.com": {
     "passedAt": "2026-08-20T14:28:06.618Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T14:28:06.618Z",
+        "source": "teaser"
+      }
+    ]
   },
   "askproly.com": {
     "passedAt": "2026-08-20T14:29:19.199Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-20T14:29:19.199Z",
+        "source": "teaser"
+      }
+    ]
   },
   "historia.dorzeczy.pl": {
-    "passedAt": "2026-08-31T11:04:24.953Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T08:03:49.673Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:42:30.935Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-22T10:21:41.549Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:35:31.967Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T07:04:07.587Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:53:59.418Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T09:43:31.291Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:10:56.119Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:05:43.908Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:03:49.673Z",
+        "source": "teaser"
+      }
+    ]
   },
   "zurnal24.si": {
-    "passedAt": "2026-08-31T11:00:09.771Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T07:59:41.188Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:43:27.926Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:38:12.369Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:16:04.182Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T08:34:56.401Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:38:18.438Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:05:32.724Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T07:59:41.188Z",
+        "source": "teaser"
+      }
+    ]
   },
   "dnevnik.si": {
-    "passedAt": "2026-08-27T11:32:11.426Z",
-    "source": "teaser"
+    "passedAt": "2026-08-27T08:39:49.617Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:44:22.028Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:39:50.858Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:17:03.434Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:39:49.617Z",
+        "source": "teaser"
+      }
+    ]
   },
   "obalaplus.si": {
-    "passedAt": "2026-08-27T11:32:15.193Z",
-    "source": "teaser"
+    "passedAt": "2026-08-27T08:39:55.224Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T05:51:55.811Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T10:40:27.115Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:17:14.661Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:39:55.224Z",
+        "source": "teaser"
+      }
+    ]
   },
   "e-maribor.si": {
-    "passedAt": "2026-08-27T13:48:07.471Z",
-    "source": "teaser"
+    "passedAt": "2026-08-27T08:40:37.865Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-23T10:41:39.768Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:18:18.120Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T08:40:37.865Z",
+        "source": "teaser"
+      }
+    ]
   },
   "tocnoto.si": {
     "passedAt": "2026-08-27T13:48:05.041Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-23T10:42:15.814Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-24T09:19:02.347Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:48:05.041Z",
+        "source": "teaser"
+      }
+    ]
   },
   "primainspirace.cz": {
-    "passedAt": "2026-08-31T10:56:12.992Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T07:55:38.596Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T10:14:25.957Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:54:05.820Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:03:20.223Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:49:10.210Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T07:55:38.596Z",
+        "source": "teaser"
+      }
+    ]
   },
   "zagorje.com": {
-    "passedAt": "2026-08-31T10:57:37.059Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T07:56:18.676Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T10:16:17.637Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:55:03.712Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:04:37.352Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:50:28.893Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T07:56:18.676Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nezavisne.com": {
-    "passedAt": "2026-08-31T11:02:07.626Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T08:01:01.843Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T10:21:47.236Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:57:11.179Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:06:21.218Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T11:21:02.162Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T08:56:25.794Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:01:01.843Z",
+        "source": "teaser"
+      }
+    ]
   },
   "metropolitan.si": {
-    "passedAt": "2026-08-31T11:04:20.926Z",
-    "source": "teaser"
+    "passedAt": "2026-08-31T08:03:45.730Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T10:25:35.043Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T13:59:43.579Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-28T09:10:03.432Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:02:05.924Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:03:45.730Z",
+        "source": "teaser"
+      }
+    ]
   },
   "blitz.bg": {
     "passedAt": "2026-08-31T08:05:46.000Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:12:01.630Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T11:24:04.394Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:06:39.562Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:05:46.000Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nejrecept.cz": {
     "passedAt": "2026-08-31T08:05:48.977Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:12:06.804Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T11:24:13.649Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:07:20.348Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:05:48.977Z",
+        "source": "teaser"
+      }
+    ]
   },
   "actualno.com": {
     "passedAt": "2026-08-31T08:07:09.659Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:12:41.490Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:33:06.270Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:07:09.659Z",
+        "source": "teaser"
+      }
+    ]
   },
   "topky.sk": {
     "passedAt": "2026-08-31T08:07:11.901Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:13:38.614Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:34:14.800Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:07:11.901Z",
+        "source": "teaser"
+      }
+    ]
   },
   "vecernji.hr": {
-    "passedAt": "2026-08-30T09:59:34.029Z",
-    "source": "teaser"
+    "passedAt": "2026-08-30T09:39:41.896Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:16:22.526Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-29T11:27:45.849Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:39:41.896Z",
+        "source": "teaser"
+      }
+    ]
   },
   "focus.ua": {
     "passedAt": "2026-08-31T08:10:29.631Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T09:17:25.427Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:41:13.835Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T08:10:29.631Z",
+        "source": "teaser"
+      }
+    ]
   },
   "wprost.pl": {
-    "passedAt": "2026-08-30T10:01:12.133Z",
-    "source": "teaser"
+    "passedAt": "2026-08-30T09:48:17.987Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:02:24.811Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:48:17.987Z",
+        "source": "teaser"
+      }
+    ]
   },
   "newsweek.ro": {
     "passedAt": "2026-08-30T09:49:44.981Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:11:20.259Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:49:44.981Z",
+        "source": "teaser"
+      }
+    ]
   },
   "marica.bg": {
     "passedAt": "2026-08-30T09:50:18.895Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:11:24.026Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:50:18.895Z",
+        "source": "teaser"
+      }
+    ]
   },
   "business.dir.bg": {
     "passedAt": "2026-08-30T09:51:06.820Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:11:28.499Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:51:06.820Z",
+        "source": "teaser"
+      }
+    ]
   },
   "citymagazine.danas.rs": {
     "passedAt": "2026-08-29T11:11:35.506Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:11:35.506Z",
+        "source": "teaser"
+      }
+    ]
   },
   "gordonua.com": {
     "passedAt": "2026-08-30T09:51:45.910Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:12:10.954Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:51:45.910Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nauka.offnews.bg": {
     "passedAt": "2026-08-30T09:51:48.897Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-29T11:12:46.130Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-30T09:51:48.897Z",
+        "source": "teaser"
+      }
+    ]
   },
   "glavcom.ua": {
     "passedAt": "2026-08-30T09:51:00.908Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T09:51:00.908Z",
+        "source": "teaser"
+      }
+    ]
   },
   "dorzeczy.pl": {
     "passedAt": "2026-08-30T10:01:15.888Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:01:15.888Z",
+        "source": "teaser"
+      }
+    ]
   },
   "newsmed.pl": {
-    "passedAt": "2026-08-30T10:02:30.794Z",
-    "source": "teaser"
+    "passedAt": "2026-08-30T10:01:56.390Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:01:56.390Z",
+        "source": "teaser"
+      }
+    ]
   },
   "biznis.telegraf.rs": {
     "passedAt": "2026-08-30T10:02:55.700Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:02:55.700Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nv.ua": {
     "passedAt": "2026-08-30T10:02:59.430Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:02:59.430Z",
+        "source": "teaser"
+      }
+    ]
   },
   "sensa.story.hr": {
     "passedAt": "2026-08-30T10:03:02.561Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:03:02.561Z",
+        "source": "teaser"
+      }
+    ]
   },
   "srpskainfo.com": {
     "passedAt": "2026-08-30T10:07:30.446Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:07:30.446Z",
+        "source": "teaser"
+      }
+    ]
   },
   "canal26.com": {
     "passedAt": "2026-08-30T10:10:39.128Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-30T10:10:39.128Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

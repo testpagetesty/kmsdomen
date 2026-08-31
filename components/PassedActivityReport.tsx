@@ -115,9 +115,9 @@ export function PassedActivityReport({ onActiveCodes }: Props) {
     >
       <div className="mb-4 flex flex-wrap items-start justify-between gap-3">
         <div>
-          <h3 className="text-sm font-semibold text-white">Отчёт: кто проходил сегодня</h3>
+          <h3 className="text-sm font-semibold text-white">Отчёт по прохождениям</h3>
           <p className="mt-1 text-xs" style={{ color: "var(--muted)" }}>
-            По умолчанию — сегодняшний день (UTC+3). Сотрудники с активностью сверху, страны кликабельны.
+            История по дням сохраняется: повторный проход не стирает прошлые даты (UTC+3).
           </p>
         </div>
         {report && !loading && (

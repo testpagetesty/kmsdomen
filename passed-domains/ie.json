@@ -1,82 +1,238 @@
 {
   "evoke.ie": {
     "passedAt": "2026-08-13T17:17:26.719Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:17:26.719Z",
+        "source": "new"
+      }
+    ]
   },
   "extra.ie": {
     "passedAt": "2026-08-13T17:22:32.178Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:22:32.178Z",
+        "source": "new"
+      }
+    ]
   },
   "donegaldaily.com": {
     "passedAt": "2026-08-13T17:28:24.691Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:28:24.691Z",
+        "source": "new"
+      }
+    ]
   },
   "thecork.ie": {
     "passedAt": "2026-08-13T17:29:40.132Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:29:40.132Z",
+        "source": "new"
+      }
+    ]
   },
   "rte.ie": {
     "passedAt": "2026-08-13T17:30:00.706Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:30:00.706Z",
+        "source": "new"
+      }
+    ]
   },
   "irishexaminer.com": {
     "passedAt": "2026-08-13T17:30:42.853Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:30:42.853Z",
+        "source": "new"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-21T15:01:12.311Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:46:46.243Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T13:54:48.624Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T15:01:12.311Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
-    "passedAt": "2026-08-21T15:07:00.035Z",
-    "source": "teaser"
+    "passedAt": "2026-08-21T12:42:24.115Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:48:31.664Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T17:41:54.074Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T12:42:24.115Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-21T12:44:31.744Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-17T15:49:01.491Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-18T17:43:40.657Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T12:44:31.744Z",
+        "source": "teaser"
+      }
+    ]
   },
   "regionalobala.si": {
-    "passedAt": "2026-08-21T18:27:20.373Z",
-    "source": "teaser"
+    "passedAt": "2026-08-21T12:35:25.139Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-18T13:07:30.292Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-21T12:35:25.139Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
-    "passedAt": "2026-08-21T18:14:20.690Z",
-    "source": "teaser"
+    "passedAt": "2026-08-21T12:46:53.466Z",
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T12:46:53.466Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-21T13:05:36.969Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:05:36.969Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-21T13:10:59.902Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:10:59.902Z",
+        "source": "teaser"
+      }
+    ]
   },
   "defence24.pl": {
     "passedAt": "2026-08-23T07:40:43.032Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T13:30:14.736Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-23T07:40:43.032Z",
+        "source": "teaser"
+      }
+    ]
   },
   "historia.dorzeczy.pl": {
     "passedAt": "2026-08-25T14:20:25.437Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:12:09.980Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-25T14:20:25.437Z",
+        "source": "teaser"
+      }
+    ]
   },
   "dnevnik.si": {
     "passedAt": "2026-08-21T14:21:15.633Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:21:15.633Z",
+        "source": "teaser"
+      }
+    ]
   },
   "obalaplus.si": {
     "passedAt": "2026-08-21T14:27:09.874Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:27:09.874Z",
+        "source": "teaser"
+      }
+    ]
   },
   "e-maribor.si": {
     "passedAt": "2026-08-21T14:34:16.971Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:34:16.971Z",
+        "source": "teaser"
+      }
+    ]
   },
   "tocnoto.si": {
     "passedAt": "2026-08-21T14:40:27.836Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:40:27.836Z",
+        "source": "teaser"
+      }
+    ]
   },
   "top24novice.si": {
     "passedAt": "2026-08-21T14:56:40.052Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-21T14:56:40.052Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

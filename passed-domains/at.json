@@ -1,90 +1,274 @@
 {
   "heute.at": {
     "passedAt": "2026-08-13T16:51:14.392Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:51:14.392Z",
+        "source": "new"
+      }
+    ]
   },
   "weekend.at": {
     "passedAt": "2026-08-13T16:53:44.126Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:53:44.126Z",
+        "source": "new"
+      }
+    ]
   },
   "news.at": {
     "passedAt": "2026-08-13T16:54:24.213Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:54:24.213Z",
+        "source": "new"
+      }
+    ]
   },
   "vol.at": {
     "passedAt": "2026-08-13T16:54:25.972Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:54:25.972Z",
+        "source": "new"
+      }
+    ]
   },
   "salzburg24.at": {
     "passedAt": "2026-08-13T16:58:25.552Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:58:25.552Z",
+        "source": "new"
+      }
+    ]
   },
   "vienna.at": {
     "passedAt": "2026-08-13T16:59:51.720Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T16:59:51.720Z",
+        "source": "new"
+      }
+    ]
   },
   "meinbezirk.at": {
     "passedAt": "2026-08-13T17:04:06.447Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-13T17:04:06.447Z",
+        "source": "new"
+      }
+    ]
   },
   "oe24.at": {
     "passedAt": "2026-08-19T15:22:54.052Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:22:54.052Z",
+        "source": "new"
+      }
+    ]
   },
   "bvz.at": {
     "passedAt": "2026-08-19T15:22:59.527Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:22:59.527Z",
+        "source": "new"
+      }
+    ]
   },
   "wienerbezirksblatt.at": {
     "passedAt": "2026-08-19T15:24:15.600Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:24:15.600Z",
+        "source": "new"
+      }
+    ]
   },
   "tips.at": {
     "passedAt": "2026-08-19T15:25:05.395Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:25:05.395Z",
+        "source": "new"
+      }
+    ]
   },
   "exxpress.at": {
     "passedAt": "2026-08-19T15:27:51.715Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:27:51.715Z",
+        "source": "new"
+      }
+    ]
   },
   "woman.at": {
     "passedAt": "2026-08-19T15:28:10.639Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:28:10.639Z",
+        "source": "new"
+      }
+    ]
   },
   "maxima.at": {
     "passedAt": "2026-08-19T15:28:33.488Z",
-    "source": "new"
+    "source": "new",
+    "passes": [
+      {
+        "passedAt": "2026-08-19T15:28:33.488Z",
+        "source": "new"
+      }
+    ]
   },
   "regionalobala.si": {
     "passedAt": "2026-08-27T15:28:32.726Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:50:54.371Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:10:47.036Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:28:32.726Z",
+        "source": "teaser"
+      }
+    ]
   },
   "moja-dolenjska.si": {
     "passedAt": "2026-08-27T15:30:35.030Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:53:01.402Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:11:52.247Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:30:35.030Z",
+        "source": "teaser"
+      }
+    ]
   },
   "siol.net": {
     "passedAt": "2026-08-27T15:31:50.556Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:54:19.186Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:16:44.587Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:31:50.556Z",
+        "source": "teaser"
+      }
+    ]
   },
   "forsal.pl": {
     "passedAt": "2026-08-27T15:33:16.360Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:55:00.565Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:17:41.277Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:33:16.360Z",
+        "source": "teaser"
+      }
+    ]
   },
   "nova24tv.si": {
     "passedAt": "2026-08-27T15:34:43.978Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:56:57.562Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:20:58.184Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:34:43.978Z",
+        "source": "teaser"
+      }
+    ]
   },
   "portal24.si": {
     "passedAt": "2026-08-26T15:22:49.395Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T15:59:58.322Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:22:49.395Z",
+        "source": "teaser"
+      }
+    ]
   },
   "n1info.si": {
     "passedAt": "2026-08-27T15:38:28.136Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-25T16:00:58.015Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-26T15:23:28.932Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-27T15:38:28.136Z",
+        "source": "teaser"
+      }
+    ]
   },
   "zurnal24.si": {
     "passedAt": "2026-08-28T11:05:51.016Z",
-    "source": "teaser"
+    "source": "teaser",
+    "passes": [
+      {
+        "passedAt": "2026-08-28T11:05:51.016Z",
+        "source": "teaser"
+      }
+    ]
   }
 }

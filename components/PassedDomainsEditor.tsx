@@ -56,26 +56,31 @@ function formatDuration(ms: number): string {
   return `${m}м ${String(s).padStart(2, "0")}с`;
 }
 
+function entryKey(e: { domain: string; passedAt: string }): string {
+  return `${e.domain}@@${e.passedAt}`;
+}
+
 function durationMapFor(entries: Entry[]): Map<string, number | null> {
   const chrono = [...entries].sort((a, b) =>
     a.passedAt < b.passedAt ? -1 : a.passedAt > b.passedAt ? 1 : 0,
   );
   const map = new Map<string, number | null>();
   for (let i = 0; i < chrono.length; i++) {
-    const cur = chrono[i];
+    const cur = chrono[i]!;
+    const key = entryKey(cur);
     if (i === 0) {
-      map.set(cur.domain, null);
+      map.set(key, null);
       continue;
     }
-    const prev = chrono[i - 1];
+    const prev = chrono[i - 1]!;
     const tCur = new Date(cur.passedAt).getTime();
     const tPrev = new Date(prev.passedAt).getTime();
     if (Number.isNaN(tCur) || Number.isNaN(tPrev)) {
-      map.set(cur.domain, null);
+      map.set(key, null);
       continue;
     }
     const delta = tCur - tPrev;
-    map.set(cur.domain, delta > 0 && delta <= SESSION_GAP_MS ? delta : null);
+    map.set(key, delta > 0 && delta <= SESSION_GAP_MS ? delta : null);
   }
   return map;
 }
@@ -221,7 +226,7 @@ function PassedSection({
               </thead>
               <tbody>
                 {entries.map((e) => {
-                  const dur = durations.get(e.domain);
+                  const dur = durations.get(entryKey(e));
                   const isFast = typeof dur === "number" && dur < FAST_THRESHOLD_MS;
                   return (
                     <tr
@@ -288,6 +293,7 @@ function PassedSection({
 
 export function PassedDomainsEditor({ countryCode }: Props) {
   const [entries, setEntries] = useState<Entry[]>([]);
+  const [uniqueDomains, setUniqueDomains] = useState(0);
   const [loading, setLoading] = useState(true);
   const [restoring, setRestoring] = useState(false);
   const [deleting, setDeleting] = useState(false);
@@ -306,14 +312,18 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       const res = await fetch(`/api/passed/${countryCode}`, { cache: "no-store" });
       const data = (await res.json()) as {
         entries?: { domain: string; passedAt: string; source?: string }[];
+        uniqueDomains?: number;
         error?: string;
       };
       if (!res.ok) throw new Error(data.error ?? `Ошибка ${res.status}`);
-      setEntries((data.entries ?? []).map(normalizeEntry));
+      const list = (data.entries ?? []).map(normalizeEntry);
+      setEntries(list);
+      setUniqueDomains(data.uniqueDomains ?? new Set(list.map((e) => e.domain)).size);
       setSelected(new Set());
     } catch (e) {
       setMessage({ type: "err", text: e instanceof Error ? e.message : "Ошибка загрузки" });
       setEntries([]);
+      setUniqueDomains(0);
     } finally {
       setLoading(false);
     }
@@ -361,7 +371,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
       const cur = byDay.get(day) ?? { count: 0, fast: 0 };
       cur.count += 1;
 
-      const dur = durations.get(e.domain);
+      const dur = durations.get(entryKey(e));
       if (typeof dur === "number") {
         timed += 1;
         sumMs += dur;
@@ -509,7 +519,7 @@ export function PassedDomainsEditor({ countryCode }: Props) {
             </Link>
           </div>
           <span className="text-xs" style={{ color: "var(--muted)" }}>
-            В базе: {entries.length}
+            В базе: {uniqueDomains} дом. · событий: {entries.length}
           </span>
         </div>
 

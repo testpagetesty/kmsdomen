@@ -8,7 +8,7 @@ import {
 } from "@/lib/env";
 import { emptyEmployeesData, parseEmployeesJson } from "@/lib/employees";
 import { fetchRepoFile, listRepoDir } from "@/lib/github";
-import { parsePassedMap } from "@/lib/passedDomains";
+import { countDomainsInDayRange, parsePassedMap } from "@/lib/passedDomains";
 
 export const dynamic = "force-dynamic";
 
@@ -20,12 +20,6 @@ function toYmdPlus3(d: Date): string {
   const m = String(shifted.getUTCMonth() + 1).padStart(2, "0");
   const day = String(shifted.getUTCDate()).padStart(2, "0");
   return `${y}-${m}-${day}`;
-}
-
-function isoToDayKey(iso: string): string | null {
-  const d = new Date(iso);
-  if (Number.isNaN(d.getTime())) return null;
-  return toYmdPlus3(d);
 }
 
 type CountryActivity = {
@@ -76,15 +70,7 @@ export async function GET(req: NextRequest) {
             const path = countryJsonFilePath(prefix, code);
             const { text } = await fetchRepoFile(path);
             const map = parsePassedMap(text);
-            let count = 0;
-            let lastPassedAt = "";
-            for (const e of Object.values(map)) {
-              const iso = e.passedAt;
-              const day = isoToDayKey(iso);
-              if (!day || day < fromKey || day > toKey) continue;
-              count += 1;
-              if (!lastPassedAt || iso > lastPassedAt) lastPassedAt = iso;
-            }
+            const { count, lastPassedAt } = countDomainsInDayRange(map, fromKey, toKey);
             if (count === 0) return null;
             const c = getCountryByCode(code);
             return {
