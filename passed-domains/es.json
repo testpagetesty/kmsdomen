@@ -472,7 +472,7 @@
     ]
   },
   "askproly.com": {
-    "passedAt": "2026-08-30T13:20:59.305Z",
+    "passedAt": "2026-08-31T13:35:31.954Z",
     "source": "teaser",
     "passes": [
       {
@@ -517,6 +517,10 @@
       },
       {
         "passedAt": "2026-08-30T13:20:59.305Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T13:35:31.954Z",
         "source": "teaser"
       }
     ]
