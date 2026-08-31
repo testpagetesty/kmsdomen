@@ -55,9 +55,9 @@
     "updatedAt": "2026-08-19T12:35:55.017Z"
   },
   "regionalobala.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-17T14:47:09.374Z",
-    "updatedAt": "2026-08-31T13:04:45.083Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-08-31T13:04:45.083Z"
   },
   "bibaleze.si": {
     "addedAt": "2026-08-18T09:22:52.686Z",
@@ -130,5 +130,9 @@
     "vertical": "crypt",
     "addedAt": "2026-08-28T13:55:41.665Z",
     "updatedAt": "2026-08-28T13:55:41.665Z"
+  },
+  "primainspirace.cz": {
+    "addedAt": "2026-08-31T13:09:11.702Z",
+    "updatedAt": "2026-08-31T13:09:11.702Z"
   }
 }
