@@ -1916,11 +1916,15 @@
     ]
   },
   "vecernji.hr": {
-    "passedAt": "2026-08-25T13:19:38.638Z",
+    "passedAt": "2026-08-31T15:07:31.998Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-25T13:19:38.638Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-08-31T15:07:31.998Z",
         "source": "teaser"
       }
     ]
