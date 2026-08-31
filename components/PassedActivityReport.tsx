@@ -247,6 +247,44 @@ export function PassedActivityReport({ onActiveCodes }: Props) {
 
       {!loading && report && (report.byEmployee.length > 0 || report.unassigned.length > 0) && (
         <div className="mt-4 space-y-4">
+          <div
+            className="flex flex-wrap items-center justify-between gap-3 rounded-lg border px-4 py-3"
+            style={{
+              borderColor: "rgba(59,130,246,.35)",
+              background: "rgba(59,130,246,.08)",
+            }}
+          >
+            <div>
+              <p className="text-sm font-semibold text-white">Всего за период</p>
+              <p className="mt-0.5 text-[11px]" style={{ color: "var(--muted)" }}>
+                {report.from === report.to
+                  ? `за ${report.from}`
+                  : `${report.from} — ${report.to}`}
+                {" · "}уникальные страны по всем сотрудникам
+              </p>
+            </div>
+            <div className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm tabular-nums">
+              <span>
+                <span className="text-lg font-bold text-white">{report.totals.countries}</span>
+                <span className="ml-1 text-xs" style={{ color: "var(--muted)" }}>
+                  стран
+                </span>
+              </span>
+              <span>
+                <span className="text-lg font-bold text-white">{report.totals.domains}</span>
+                <span className="ml-1 text-xs" style={{ color: "var(--muted)" }}>
+                  доменов
+                </span>
+              </span>
+              <span>
+                <span className="text-lg font-bold text-white">{report.totals.employees}</span>
+                <span className="ml-1 text-xs" style={{ color: "var(--muted)" }}>
+                  сотр.
+                </span>
+              </span>
+            </div>
+          </div>
+
           {report.byEmployee.map((emp) => {
             const color = colorForId(emp.employeeId);
             return (
