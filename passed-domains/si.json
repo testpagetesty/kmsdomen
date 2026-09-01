@@ -2908,7 +2908,7 @@
     ]
   },
   "focus.ua": {
-    "passedAt": "2026-08-31T09:30:50.594Z",
+    "passedAt": "2026-09-01T08:13:48.357Z",
     "source": "teaser",
     "passes": [
       {
@@ -2925,6 +2925,10 @@
       },
       {
         "passedAt": "2026-08-31T09:30:50.594Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-01T08:13:48.357Z",
         "source": "teaser"
       }
     ]
