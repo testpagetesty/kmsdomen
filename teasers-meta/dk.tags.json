@@ -65,9 +65,9 @@
     "updatedAt": "2026-08-28T12:18:00.614Z"
   },
   "defence24.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-31T13:08:01.254Z",
-    "updatedAt": "2026-09-01T12:47:53.775Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-01T12:47:53.775Z"
   },
   "metropolitan.si": {
     "vertical": "crypt",
@@ -77,5 +77,9 @@
   "blitz.bg": {
     "addedAt": "2026-08-31T14:01:18.798Z",
     "updatedAt": "2026-08-31T14:01:18.798Z"
+  },
+  "nejrecept.cz": {
+    "addedAt": "2026-09-01T12:58:29.883Z",
+    "updatedAt": "2026-09-01T12:58:29.883Z"
   }
 }
