@@ -1998,7 +1998,7 @@
     ]
   },
   "focus.ua": {
-    "passedAt": "2026-08-31T08:10:29.631Z",
+    "passedAt": "2026-09-01T07:27:24.378Z",
     "source": "teaser",
     "passes": [
       {
@@ -2011,6 +2011,10 @@
       },
       {
         "passedAt": "2026-08-31T08:10:29.631Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-01T07:27:24.378Z",
         "source": "teaser"
       }
     ]
