@@ -2158,7 +2158,7 @@
     ]
   },
   "wprost.pl": {
-    "passedAt": "2026-08-30T06:18:42.248Z",
+    "passedAt": "2026-09-01T14:24:32.648Z",
     "source": "teaser",
     "passes": [
       {
@@ -2167,6 +2167,10 @@
       },
       {
         "passedAt": "2026-08-30T06:18:42.248Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-01T14:24:32.648Z",
         "source": "teaser"
       }
     ]
