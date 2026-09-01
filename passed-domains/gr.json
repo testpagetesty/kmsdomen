@@ -178,11 +178,15 @@
     ]
   },
   "primainspirace.cz": {
-    "passedAt": "2026-08-31T14:08:25.743Z",
+    "passedAt": "2026-09-01T15:22:26.276Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-31T14:08:25.743Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-01T15:22:26.276Z",
         "source": "teaser"
       }
     ]
