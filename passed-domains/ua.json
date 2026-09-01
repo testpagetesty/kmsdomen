@@ -10,7 +10,7 @@
     ]
   },
   "unian.ua": {
-    "passedAt": "2026-08-31T14:54:05.246Z",
+    "passedAt": "2026-09-01T14:51:50.866Z",
     "source": "teaser",
     "passes": [
       {
@@ -47,6 +47,10 @@
       },
       {
         "passedAt": "2026-08-31T14:54:05.246Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-01T14:51:50.866Z",
         "source": "teaser"
       }
     ]
