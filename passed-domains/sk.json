@@ -904,7 +904,7 @@
     ]
   },
   "zurnal24.si": {
-    "passedAt": "2026-09-01T14:47:11.044Z",
+    "passedAt": "2026-09-02T16:59:35.057Z",
     "source": "teaser",
     "passes": [
       {
@@ -917,6 +917,10 @@
       },
       {
         "passedAt": "2026-09-01T14:47:11.044Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T16:59:35.057Z",
         "source": "teaser"
       }
     ]
