@@ -60,9 +60,9 @@
     "updatedAt": "2026-09-02T10:34:59.908Z"
   },
   "regionalobala.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-17T09:24:15.563Z",
-    "updatedAt": "2026-09-02T15:57:59.665Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-02T15:57:59.665Z"
   },
   "moja-dolenjska.si": {
     "addedAt": "2026-08-17T09:28:40.239Z",
@@ -247,5 +247,10 @@
   "sensa.story.hr": {
     "addedAt": "2026-08-29T10:18:17.529Z",
     "updatedAt": "2026-08-29T10:18:17.529Z"
+  },
+  "rusticad.com": {
+    "addedAt": "2026-09-02T15:58:13.018Z",
+    "updatedAt": "2026-09-02T15:58:13.018Z",
+    "vertical": "vsl"
   }
 }
