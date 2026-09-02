@@ -2094,11 +2094,15 @@
     ]
   },
   "glavcom.ua": {
-    "passedAt": "2026-08-27T13:11:43.904Z",
+    "passedAt": "2026-09-02T13:52:11.014Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-27T13:11:43.904Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T13:52:11.014Z",
         "source": "teaser"
       }
     ]
