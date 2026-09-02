@@ -170,9 +170,9 @@
     "updatedAt": "2026-08-30T14:02:19.774Z"
   },
   "regionalobala.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-17T13:00:57.547Z",
-    "updatedAt": "2026-09-02T13:46:54.393Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-02T13:46:54.393Z"
   },
   "pomurske-novice.si": {
     "addedAt": "2026-08-17T13:02:33.649Z",
@@ -282,5 +282,9 @@
   "topky.sk": {
     "addedAt": "2026-08-28T08:43:36.493Z",
     "updatedAt": "2026-09-02T12:34:39.797Z"
+  },
+  "newsweek.ro": {
+    "addedAt": "2026-09-02T13:47:38.921Z",
+    "updatedAt": "2026-09-02T13:47:38.921Z"
   }
 }
