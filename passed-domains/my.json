@@ -444,11 +444,15 @@
     ]
   },
   "metropolitan.si": {
-    "passedAt": "2026-09-01T13:57:43.531Z",
+    "passedAt": "2026-09-02T13:36:51.043Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-01T13:57:43.531Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T13:36:51.043Z",
         "source": "teaser"
       }
     ]
