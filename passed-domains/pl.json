@@ -2108,11 +2108,15 @@
     ]
   },
   "business.dir.bg": {
-    "passedAt": "2026-08-27T13:12:04.715Z",
+    "passedAt": "2026-09-02T13:52:19.304Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-27T13:12:04.715Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T13:52:19.304Z",
         "source": "teaser"
       }
     ]
