@@ -580,7 +580,7 @@
     ]
   },
   "nova24tv.si": {
-    "passedAt": "2026-08-31T04:55:53.004Z",
+    "passedAt": "2026-09-02T15:00:11.452Z",
     "source": "teaser",
     "passes": [
       {
@@ -677,6 +677,10 @@
       },
       {
         "passedAt": "2026-08-31T04:55:53.004Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T15:00:11.452Z",
         "source": "teaser"
       }
     ]
