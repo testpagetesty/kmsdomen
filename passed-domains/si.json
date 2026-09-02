@@ -240,7 +240,7 @@
     ]
   },
   "n1info.si": {
-    "passedAt": "2026-09-01T15:00:54.775Z",
+    "passedAt": "2026-09-02T14:07:02.907Z",
     "source": "teaser",
     "passes": [
       {
@@ -337,6 +337,10 @@
       },
       {
         "passedAt": "2026-09-01T15:00:54.775Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T14:07:02.907Z",
         "source": "teaser"
       }
     ]
