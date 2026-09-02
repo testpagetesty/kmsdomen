@@ -1348,7 +1348,7 @@
     ]
   },
   "obalaplus.si": {
-    "passedAt": "2026-08-31T05:17:31.121Z",
+    "passedAt": "2026-09-02T15:12:31.472Z",
     "source": "teaser",
     "passes": [
       {
@@ -1413,6 +1413,10 @@
       },
       {
         "passedAt": "2026-08-31T05:17:31.121Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-02T15:12:31.472Z",
         "source": "teaser"
       }
     ]
