@@ -1390,11 +1390,15 @@
     ]
   },
   "actualno.com": {
-    "passedAt": "2026-08-28T12:05:10.276Z",
+    "passedAt": "2026-09-03T09:05:25.414Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-28T12:05:10.276Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T09:05:25.414Z",
         "source": "teaser"
       }
     ]
