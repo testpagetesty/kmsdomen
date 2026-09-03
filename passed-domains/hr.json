@@ -482,7 +482,7 @@
     ]
   },
   "24sata.hr": {
-    "passedAt": "2026-08-26T15:22:00.834Z",
+    "passedAt": "2026-09-03T12:31:20.824Z",
     "source": "teaser",
     "passes": [
       {
@@ -523,6 +523,10 @@
       },
       {
         "passedAt": "2026-08-26T15:22:00.834Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T12:31:20.824Z",
         "source": "teaser"
       }
     ]
