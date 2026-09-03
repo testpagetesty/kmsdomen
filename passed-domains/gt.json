@@ -468,11 +468,15 @@
     ]
   },
   "zagorje.com": {
-    "passedAt": "2026-09-01T15:36:31.065Z",
+    "passedAt": "2026-09-03T16:02:46.476Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-01T15:36:31.065Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T16:02:46.476Z",
         "source": "teaser"
       }
     ]
