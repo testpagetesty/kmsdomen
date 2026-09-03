@@ -114,7 +114,7 @@
     ]
   },
   "siol.net": {
-    "passedAt": "2026-09-02T15:52:21.876Z",
+    "passedAt": "2026-09-03T13:58:34.385Z",
     "source": "teaser",
     "passes": [
       {
@@ -131,6 +131,10 @@
       },
       {
         "passedAt": "2026-09-02T15:52:21.876Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:58:34.385Z",
         "source": "teaser"
       }
     ]
