@@ -528,7 +528,7 @@
     ]
   },
   "n-tv.de": {
-    "passedAt": "2026-08-28T11:52:53.201Z",
+    "passedAt": "2026-09-03T13:29:25.229Z",
     "source": "teaser",
     "passes": [
       {
@@ -561,6 +561,10 @@
       },
       {
         "passedAt": "2026-08-28T11:52:53.201Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:29:25.229Z",
         "source": "teaser"
       }
     ]
