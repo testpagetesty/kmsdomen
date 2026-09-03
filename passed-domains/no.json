@@ -538,7 +538,7 @@
     ]
   },
   "metropolitan.si": {
-    "passedAt": "2026-09-02T14:03:02.399Z",
+    "passedAt": "2026-09-03T13:43:52.421Z",
     "source": "teaser",
     "passes": [
       {
@@ -547,6 +547,10 @@
       },
       {
         "passedAt": "2026-09-02T14:03:02.399Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:43:52.421Z",
         "source": "teaser"
       }
     ]
