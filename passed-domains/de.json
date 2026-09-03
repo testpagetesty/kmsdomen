@@ -702,7 +702,7 @@
     ]
   },
   "welt.de": {
-    "passedAt": "2026-08-28T11:59:06.534Z",
+    "passedAt": "2026-09-03T13:46:48.231Z",
     "source": "teaser",
     "passes": [
       {
@@ -727,6 +727,10 @@
       },
       {
         "passedAt": "2026-08-28T11:59:06.534Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:46:48.231Z",
         "source": "teaser"
       }
     ]
