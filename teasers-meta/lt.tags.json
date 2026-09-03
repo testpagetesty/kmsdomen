@@ -158,9 +158,9 @@
     "updatedAt": "2026-09-03T13:48:27.795Z"
   },
   "zagorje.com": {
+    "vertical": "crypt",
     "addedAt": "2026-08-25T10:16:18.460Z",
-    "updatedAt": "2026-09-03T15:39:05.192Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-03T15:39:05.192Z"
   },
   "nezavisne.com": {
     "addedAt": "2026-08-25T10:21:47.950Z",
@@ -176,7 +176,8 @@
   },
   "nejrecept.cz": {
     "addedAt": "2026-08-28T09:12:07.567Z",
-    "updatedAt": "2026-09-03T09:38:18.953Z"
+    "updatedAt": "2026-09-03T15:39:24.932Z",
+    "vertical": "crypt"
   },
   "actualno.com": {
     "addedAt": "2026-08-28T09:12:42.172Z",
