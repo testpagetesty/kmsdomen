@@ -612,7 +612,7 @@
     ]
   },
   "watson.ch": {
-    "passedAt": "2026-08-28T11:58:06.525Z",
+    "passedAt": "2026-09-03T13:41:55.650Z",
     "source": "teaser",
     "passes": [
       {
@@ -641,6 +641,10 @@
       },
       {
         "passedAt": "2026-08-28T11:58:06.525Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:41:55.650Z",
         "source": "teaser"
       }
     ]
