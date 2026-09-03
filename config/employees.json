@@ -1,10 +1,25 @@
 {
   "employees": [
-    { "id": "kostya", "name": "Костя" },
-    { "id": "seva", "name": "Сева" },
-    { "id": "nastya", "name": "Настя" },
-    { "id": "tanya", "name": "Таня" },
-    { "id": "sonya", "name": "Соня" }
+    {
+      "id": "kostya",
+      "name": "Костя"
+    },
+    {
+      "id": "seva",
+      "name": "Сева"
+    },
+    {
+      "id": "nastya",
+      "name": "Настя"
+    },
+    {
+      "id": "tanya",
+      "name": "Таня"
+    },
+    {
+      "id": "sonya",
+      "name": "Соня"
+    }
   ],
   "assignments": {
     "ar": "kostya",
@@ -23,8 +38,6 @@
     "es": "kostya",
     "tr": "kostya",
     "ua": "kostya",
-    "bg": "kostya",
-
     "ee": "seva",
     "fr": "seva",
     "it": "seva",
@@ -36,7 +49,6 @@
     "ae": "seva",
     "gb": "seva",
     "uy": "seva",
-
     "at": "nastya",
     "ca": "nastya",
     "cr": "nastya",
@@ -51,7 +63,6 @@
     "sa": "nastya",
     "si": "nastya",
     "ch": "nastya",
-
     "au": "tanya",
     "bd": "tanya",
     "gr": "tanya",
@@ -65,7 +76,6 @@
     "kr": "tanya",
     "th": "tanya",
     "vn": "tanya",
-
     "be": "sonya",
     "ba": "sonya",
     "do": "sonya",
@@ -79,7 +89,8 @@
     "me": "sonya",
     "ph": "sonya",
     "pt": "sonya",
-    "sg": "sonya"
+    "sg": "sonya",
+    "bg": "nastya"
   },
   "priorityCountries": [
     "pl",
