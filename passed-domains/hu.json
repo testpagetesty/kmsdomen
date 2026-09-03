@@ -282,7 +282,7 @@
     ]
   },
   "buzzfeedo.com": {
-    "passedAt": "2026-08-20T14:08:28.735Z",
+    "passedAt": "2026-09-03T12:32:48.847Z",
     "source": "teaser",
     "passes": [
       {
@@ -311,6 +311,10 @@
       },
       {
         "passedAt": "2026-08-20T14:08:28.735Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T12:32:48.847Z",
         "source": "teaser"
       }
     ]
