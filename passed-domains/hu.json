@@ -1702,7 +1702,7 @@
     ]
   },
   "actualno.com": {
-    "passedAt": "2026-09-02T12:48:05.859Z",
+    "passedAt": "2026-09-03T13:04:47.726Z",
     "source": "teaser",
     "passes": [
       {
@@ -1715,6 +1715,10 @@
       },
       {
         "passedAt": "2026-09-02T12:48:05.859Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-03T13:04:47.726Z",
         "source": "teaser"
       }
     ]
