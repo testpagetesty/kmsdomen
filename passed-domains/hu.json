@@ -366,7 +366,7 @@
     ]
   },
   "termalonline.hu": {
-    "passedAt": "2026-09-03T12:33:45.813Z",
+    "passedAt": "2026-09-04T10:21:11.618Z",
     "source": "teaser",
     "passes": [
       {
@@ -399,6 +399,10 @@
       },
       {
         "passedAt": "2026-09-03T12:33:45.813Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:21:11.618Z",
         "source": "teaser"
       }
     ]
