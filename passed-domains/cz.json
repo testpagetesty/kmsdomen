@@ -738,7 +738,7 @@
     ]
   },
   "zpravy.aktualne.cz": {
-    "passedAt": "2026-08-26T09:33:48.445Z",
+    "passedAt": "2026-09-04T04:33:20.303Z",
     "source": "teaser",
     "passes": [
       {
@@ -763,6 +763,10 @@
       },
       {
         "passedAt": "2026-08-26T09:33:48.445Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T04:33:20.303Z",
         "source": "teaser"
       }
     ]
