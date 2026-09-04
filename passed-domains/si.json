@@ -2118,7 +2118,7 @@
     ]
   },
   "dnevnik.si": {
-    "passedAt": "2026-09-02T15:12:21.944Z",
+    "passedAt": "2026-09-04T15:26:20.835Z",
     "source": "teaser",
     "passes": [
       {
@@ -2179,6 +2179,10 @@
       },
       {
         "passedAt": "2026-09-02T15:12:21.944Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T15:26:20.835Z",
         "source": "teaser"
       }
     ]
