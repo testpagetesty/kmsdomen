@@ -446,7 +446,7 @@
     ]
   },
   "cosehui.com": {
-    "passedAt": "2026-08-18T12:28:19.084Z",
+    "passedAt": "2026-09-04T10:22:36.006Z",
     "source": "teaser",
     "passes": [
       {
@@ -467,6 +467,10 @@
       },
       {
         "passedAt": "2026-08-18T12:28:19.084Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:22:36.006Z",
         "source": "teaser"
       }
     ]
