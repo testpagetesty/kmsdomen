@@ -794,7 +794,7 @@
     ]
   },
   "youtube.com": {
-    "passedAt": "2026-08-18T12:28:25.666Z",
+    "passedAt": "2026-09-04T10:22:42.799Z",
     "source": "teaser",
     "passes": [
       {
@@ -811,6 +811,10 @@
       },
       {
         "passedAt": "2026-08-18T12:28:25.666Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:22:42.799Z",
         "source": "teaser"
       }
     ]
