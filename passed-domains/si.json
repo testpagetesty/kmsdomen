@@ -464,7 +464,7 @@
     ]
   },
   "portal24.si": {
-    "passedAt": "2026-09-02T15:01:38.202Z",
+    "passedAt": "2026-09-04T05:12:31.648Z",
     "source": "teaser",
     "passes": [
       {
@@ -557,6 +557,10 @@
       },
       {
         "passedAt": "2026-09-02T15:01:38.202Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T05:12:31.648Z",
         "source": "teaser"
       }
     ]
