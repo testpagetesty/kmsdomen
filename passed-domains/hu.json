@@ -324,7 +324,7 @@
     ]
   },
   "kiskegyed.hu": {
-    "passedAt": "2026-09-03T12:33:14.887Z",
+    "passedAt": "2026-09-04T10:19:50.880Z",
     "source": "teaser",
     "passes": [
       {
@@ -357,6 +357,10 @@
       },
       {
         "passedAt": "2026-09-03T12:33:14.887Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:19:50.880Z",
         "source": "teaser"
       }
     ]
