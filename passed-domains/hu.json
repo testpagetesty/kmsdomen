@@ -408,7 +408,7 @@
     ]
   },
   "nlc.hu": {
-    "passedAt": "2026-08-20T14:09:05.548Z",
+    "passedAt": "2026-09-04T10:21:43.184Z",
     "source": "teaser",
     "passes": [
       {
@@ -437,6 +437,10 @@
       },
       {
         "passedAt": "2026-08-20T14:09:05.548Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:21:43.184Z",
         "source": "teaser"
       }
     ]
