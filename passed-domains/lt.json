@@ -222,7 +222,7 @@
     ]
   },
   "ltlife.lt": {
-    "passedAt": "2026-08-20T14:04:19.102Z",
+    "passedAt": "2026-09-04T10:48:08.022Z",
     "source": "teaser",
     "passes": [
       {
@@ -255,6 +255,10 @@
       },
       {
         "passedAt": "2026-08-20T14:04:19.102Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T10:48:08.022Z",
         "source": "teaser"
       }
     ]
