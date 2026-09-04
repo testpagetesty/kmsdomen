@@ -566,7 +566,7 @@
     ]
   },
   "sensiblebittern.autos": {
-    "passedAt": "2026-08-28T15:29:54.735Z",
+    "passedAt": "2026-09-04T04:31:11.082Z",
     "source": "teaser",
     "passes": [
       {
@@ -607,6 +607,10 @@
       },
       {
         "passedAt": "2026-08-28T15:29:54.735Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T04:31:11.082Z",
         "source": "teaser"
       }
     ]
