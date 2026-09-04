@@ -616,7 +616,7 @@
     ]
   },
   "toprecepty.cz": {
-    "passedAt": "2026-08-21T11:53:06.177Z",
+    "passedAt": "2026-09-04T04:31:26.210Z",
     "source": "teaser",
     "passes": [
       {
@@ -645,6 +645,10 @@
       },
       {
         "passedAt": "2026-08-21T11:53:06.177Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-04T04:31:26.210Z",
         "source": "teaser"
       }
     ]
