@@ -2352,7 +2352,7 @@
     ]
   },
   "e-maribor.si": {
-    "passedAt": "2026-09-04T15:28:26.197Z",
+    "passedAt": "2026-09-06T04:29:59.635Z",
     "source": "teaser",
     "passes": [
       {
@@ -2417,6 +2417,10 @@
       },
       {
         "passedAt": "2026-09-04T15:28:26.197Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T04:29:59.635Z",
         "source": "teaser"
       }
     ]
