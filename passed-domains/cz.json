@@ -928,7 +928,7 @@
     ]
   },
   "top24novice.si": {
-    "passedAt": "2026-09-05T06:16:30.958Z",
+    "passedAt": "2026-09-06T05:57:07.028Z",
     "source": "teaser",
     "passes": [
       {
@@ -1001,6 +1001,10 @@
       },
       {
         "passedAt": "2026-09-05T06:16:30.958Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T05:57:07.028Z",
         "source": "teaser"
       }
     ]
