@@ -1602,7 +1602,7 @@
     ]
   },
   "moja-dolenjska.si": {
-    "passedAt": "2026-09-04T05:07:11.400Z",
+    "passedAt": "2026-09-06T03:59:51.888Z",
     "source": "teaser",
     "passes": [
       {
@@ -1679,6 +1679,10 @@
       },
       {
         "passedAt": "2026-09-04T05:07:11.400Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T03:59:51.888Z",
         "source": "teaser"
       }
     ]
