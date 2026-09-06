@@ -928,11 +928,15 @@
     ]
   },
   "defence24.pl": {
-    "passedAt": "2026-08-20T11:29:44.191Z",
+    "passedAt": "2026-09-06T13:07:10.082Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-20T11:29:44.191Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T13:07:10.082Z",
         "source": "teaser"
       }
     ]
