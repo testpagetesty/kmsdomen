@@ -1436,7 +1436,7 @@
     ]
   },
   "forsal.pl": {
-    "passedAt": "2026-09-05T06:00:29.716Z",
+    "passedAt": "2026-09-06T05:52:15.928Z",
     "source": "teaser",
     "passes": [
       {
@@ -1517,6 +1517,10 @@
       },
       {
         "passedAt": "2026-09-05T06:00:29.716Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T05:52:15.928Z",
         "source": "teaser"
       }
     ]
