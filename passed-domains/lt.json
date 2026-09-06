@@ -532,7 +532,7 @@
     ]
   },
   "lsm.lt": {
-    "passedAt": "2026-09-04T10:50:04.386Z",
+    "passedAt": "2026-09-06T13:23:38.667Z",
     "source": "teaser",
     "passes": [
       {
@@ -569,6 +569,10 @@
       },
       {
         "passedAt": "2026-09-04T10:50:04.386Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-06T13:23:38.667Z",
         "source": "teaser"
       }
     ]
