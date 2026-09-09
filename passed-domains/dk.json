@@ -274,7 +274,7 @@
     ]
   },
   "forsal.pl": {
-    "passedAt": "2026-08-28T08:46:25.197Z",
+    "passedAt": "2026-09-09T08:36:27.869Z",
     "source": "teaser",
     "passes": [
       {
@@ -287,6 +287,10 @@
       },
       {
         "passedAt": "2026-08-28T08:46:25.197Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-09T08:36:27.869Z",
         "source": "teaser"
       }
     ]
