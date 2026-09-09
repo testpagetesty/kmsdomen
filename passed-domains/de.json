@@ -786,8 +786,8 @@
     ]
   },
   "pnp.de": {
-    "passedAt": "2026-09-03T13:52:14.989Z",
-    "source": "teaser",
+    "passedAt": "2026-09-09T16:47:05.823Z",
+    "source": "new",
     "passes": [
       {
         "passedAt": "2026-08-11T17:01:29.487Z",
@@ -812,6 +812,10 @@
       {
         "passedAt": "2026-09-03T13:52:14.989Z",
         "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-09T16:47:05.823Z",
+        "source": "new"
       }
     ]
   },
