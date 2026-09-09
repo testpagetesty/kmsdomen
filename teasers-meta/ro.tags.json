@@ -55,9 +55,9 @@
     "updatedAt": "2026-08-19T12:35:55.017Z"
   },
   "regionalobala.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-17T14:47:09.374Z",
-    "updatedAt": "2026-09-09T15:06:15.546Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-09T15:06:15.546Z"
   },
   "bibaleze.si": {
     "addedAt": "2026-08-18T09:22:52.686Z",
@@ -151,5 +151,10 @@
   "nejrecept.cz": {
     "addedAt": "2026-09-09T08:08:08.146Z",
     "updatedAt": "2026-09-09T08:08:08.146Z"
+  },
+  "pochivka.blitz.bg": {
+    "addedAt": "2026-09-09T16:30:57.951Z",
+    "updatedAt": "2026-09-09T16:30:57.951Z",
+    "vertical": "crypt"
   }
 }
