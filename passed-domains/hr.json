@@ -596,7 +596,7 @@
     ]
   },
   "vecernji.hr": {
-    "passedAt": "2026-09-05T10:53:37.085Z",
+    "passedAt": "2026-09-09T07:21:13.669Z",
     "source": "teaser",
     "passes": [
       {
@@ -661,6 +661,10 @@
       },
       {
         "passedAt": "2026-09-05T10:53:37.085Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-09T07:21:13.669Z",
         "source": "teaser"
       }
     ]
