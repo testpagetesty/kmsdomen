@@ -360,7 +360,7 @@
     ]
   },
   "berliner-kurier.de": {
-    "passedAt": "2026-08-13T16:39:00.602Z",
+    "passedAt": "2026-09-10T08:34:50.290Z",
     "source": "new",
     "passes": [
       {
@@ -369,6 +369,10 @@
       },
       {
         "passedAt": "2026-08-13T16:39:00.602Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-09-10T08:34:50.290Z",
         "source": "new"
       }
     ]
