@@ -1982,11 +1982,15 @@
     ]
   },
   "blitz.bg": {
-    "passedAt": "2026-09-10T08:43:58.058Z",
+    "passedAt": "2026-09-11T07:59:23.111Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T08:43:58.058Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-11T07:59:23.111Z",
         "source": "teaser"
       }
     ]
