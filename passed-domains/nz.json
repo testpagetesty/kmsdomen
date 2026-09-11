@@ -220,11 +220,15 @@
     ]
   },
   "nv.ua": {
-    "passedAt": "2026-09-10T15:29:56.930Z",
+    "passedAt": "2026-09-11T15:47:42.825Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T15:29:56.930Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-11T15:47:42.825Z",
         "source": "teaser"
       }
     ]
