@@ -1996,11 +1996,15 @@
     ]
   },
   "nejrecept.cz": {
-    "passedAt": "2026-09-10T08:44:01.163Z",
+    "passedAt": "2026-09-11T07:59:25.894Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T08:44:01.163Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-11T07:59:25.894Z",
         "source": "teaser"
       }
     ]
