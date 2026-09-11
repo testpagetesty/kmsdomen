@@ -778,11 +778,15 @@
     ]
   },
   "nejrecept.cz": {
-    "passedAt": "2026-09-04T12:38:17.998Z",
+    "passedAt": "2026-09-11T12:55:14.926Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-04T12:38:17.998Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-11T12:55:14.926Z",
         "source": "teaser"
       }
     ]
