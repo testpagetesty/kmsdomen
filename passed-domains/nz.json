@@ -196,11 +196,15 @@
     ]
   },
   "newsmed.pl": {
-    "passedAt": "2026-09-10T15:25:34.687Z",
+    "passedAt": "2026-09-11T15:44:42.876Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T15:25:34.687Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-11T15:44:42.876Z",
         "source": "teaser"
       }
     ]
