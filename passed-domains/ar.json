@@ -546,7 +546,7 @@
     ]
   },
   "alqevra.com": {
-    "passedAt": "2026-08-24T13:04:04.449Z",
+    "passedAt": "2026-09-12T14:35:35.447Z",
     "source": "teaser",
     "passes": [
       {
@@ -567,6 +567,10 @@
       },
       {
         "passedAt": "2026-08-24T13:04:04.449Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T14:35:35.447Z",
         "source": "teaser"
       }
     ]
