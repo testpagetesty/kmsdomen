@@ -518,11 +518,15 @@
     ]
   },
   "marica.bg": {
-    "passedAt": "2026-09-10T14:55:15.331Z",
+    "passedAt": "2026-09-12T14:48:41.292Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T14:55:15.331Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T14:48:41.292Z",
         "source": "teaser"
       }
     ]
