@@ -2018,11 +2018,15 @@
     ]
   },
   "zurnal24.si": {
-    "passedAt": "2026-09-11T14:55:36.797Z",
+    "passedAt": "2026-09-12T06:07:03.024Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-11T14:55:36.797Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T06:07:03.024Z",
         "source": "teaser"
       }
     ]
