@@ -532,11 +532,15 @@
     ]
   },
   "glavcom.ua": {
-    "passedAt": "2026-09-10T14:55:16.900Z",
+    "passedAt": "2026-09-12T14:52:26.139Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T14:55:16.900Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T14:52:26.139Z",
         "source": "teaser"
       }
     ]
