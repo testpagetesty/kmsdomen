@@ -2586,7 +2586,7 @@
     ]
   },
   "topky.sk": {
-    "passedAt": "2026-09-11T13:42:14.416Z",
+    "passedAt": "2026-09-12T07:33:17.203Z",
     "source": "teaser",
     "passes": [
       {
@@ -2607,6 +2607,10 @@
       },
       {
         "passedAt": "2026-09-11T13:42:14.416Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T07:33:17.203Z",
         "source": "teaser"
       }
     ]
