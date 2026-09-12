@@ -418,7 +418,7 @@
     ]
   },
   "siol.net": {
-    "passedAt": "2026-09-11T08:47:00.112Z",
+    "passedAt": "2026-09-12T09:46:46.234Z",
     "source": "teaser",
     "passes": [
       {
@@ -443,6 +443,10 @@
       },
       {
         "passedAt": "2026-09-11T08:47:00.112Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-12T09:46:46.234Z",
         "source": "teaser"
       }
     ]
