@@ -97,9 +97,9 @@
     "updatedAt": "2026-09-14T08:07:02.771Z"
   },
   "forsal.pl": {
+    "vertical": "crypt",
     "addedAt": "2026-08-18T16:02:18.617Z",
-    "updatedAt": "2026-09-14T08:07:45.866Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-14T08:07:45.866Z"
   },
   "defence24.pl": {
     "addedAt": "2026-08-20T08:18:55.670Z",
@@ -221,5 +221,10 @@
   "topky.sk": {
     "addedAt": "2026-08-26T13:37:59.255Z",
     "updatedAt": "2026-09-14T08:07:43.025Z"
+  },
+  "gofeminin.de": {
+    "addedAt": "2026-09-14T09:10:30.820Z",
+    "updatedAt": "2026-09-14T09:10:30.820Z",
+    "vertical": "vsl"
   }
 }
