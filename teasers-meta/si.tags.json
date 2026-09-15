@@ -70,9 +70,9 @@
     "updatedAt": "2026-09-06T03:59:52.641Z"
   },
   "regionalobala.si": {
+    "vertical": "crypt",
     "addedAt": "2026-08-12T12:30:49.688Z",
-    "updatedAt": "2026-09-15T14:58:25.625Z",
-    "vertical": "crypt"
+    "updatedAt": "2026-09-15T14:58:25.625Z"
   },
   "pomurske-novice.si": {
     "vertical": "crypt",
@@ -299,5 +299,10 @@
     "vertical": "crypt",
     "addedAt": "2026-09-04T16:26:10.931Z",
     "updatedAt": "2026-09-04T16:26:10.931Z"
+  },
+  "forestjournalx.site": {
+    "addedAt": "2026-09-15T14:58:49.747Z",
+    "updatedAt": "2026-09-15T14:58:49.747Z",
+    "vertical": "crypt"
   }
 }
