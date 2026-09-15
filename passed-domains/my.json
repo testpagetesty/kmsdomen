@@ -784,7 +784,7 @@
     ]
   },
   "defence24.pl": {
-    "passedAt": "2026-09-14T13:08:08.479Z",
+    "passedAt": "2026-09-15T14:01:34.640Z",
     "source": "teaser",
     "passes": [
       {
@@ -833,6 +833,10 @@
       },
       {
         "passedAt": "2026-09-14T13:08:08.479Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-15T14:01:34.640Z",
         "source": "teaser"
       }
     ]
