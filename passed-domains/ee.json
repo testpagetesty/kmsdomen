@@ -534,11 +534,15 @@
     ]
   },
   "nejrecept.cz": {
-    "passedAt": "2026-09-11T10:53:05.888Z",
+    "passedAt": "2026-09-17T08:09:41.418Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-11T10:53:05.888Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-17T08:09:41.418Z",
         "source": "teaser"
       }
     ]
