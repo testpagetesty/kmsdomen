@@ -1216,7 +1216,7 @@
     ]
   },
   "blitz.bg": {
-    "passedAt": "2026-09-16T10:01:09.275Z",
+    "passedAt": "2026-09-17T10:58:27.520Z",
     "source": "teaser",
     "passes": [
       {
@@ -1237,6 +1237,10 @@
       },
       {
         "passedAt": "2026-09-16T10:01:09.275Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-17T10:58:27.520Z",
         "source": "teaser"
       }
     ]
