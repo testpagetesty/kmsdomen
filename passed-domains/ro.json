@@ -1122,11 +1122,15 @@
     ]
   },
   "24080232431.buzzfuzzy.com": {
-    "passedAt": "2026-08-21T12:50:10.260Z",
+    "passedAt": "2026-09-18T12:04:32.357Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-21T12:50:10.260Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-18T12:04:32.357Z",
         "source": "teaser"
       }
     ]
