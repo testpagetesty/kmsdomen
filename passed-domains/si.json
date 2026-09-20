@@ -1686,7 +1686,7 @@
     ]
   },
   "regionalobala.si": {
-    "passedAt": "2026-09-19T09:36:10.598Z",
+    "passedAt": "2026-09-20T10:38:05.456Z",
     "source": "teaser",
     "passes": [
       {
@@ -1831,6 +1831,10 @@
       },
       {
         "passedAt": "2026-09-19T09:36:10.598Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-20T10:38:05.456Z",
         "source": "teaser"
       }
     ]
