@@ -2735,6 +2735,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "8c311a6c-0ab4-41e2-a048-bc27c099c35a",
+      "ts": "2026-09-21T16:14:31.133Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "87ed5b67-d756-4a2d-86ba-a8b124919239",
+      "ts": "2026-09-21T16:14:34.929Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
