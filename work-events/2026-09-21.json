@@ -75,6 +75,70 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "2c806383-a80e-4686-b672-f9ed673899f2",
+      "ts": "2026-09-21T12:41:20.402Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "e2a3f939-bdf8-4505-be55-a1294559a5f4",
+      "ts": "2026-09-21T12:41:22.864Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "1b3cf6e6-b58d-482d-894d-960aa29a5da8",
+      "ts": "2026-09-21T12:41:23.232Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "kms",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "83adfdf9-04e2-4832-811c-bd46793076a8",
+      "ts": "2026-09-21T12:41:25.844Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "bf24b6c9-1736-471a-9db6-2f811012486f",
+      "ts": "2026-09-21T12:41:26.978Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Теси"
+      }
     }
   ]
 }
