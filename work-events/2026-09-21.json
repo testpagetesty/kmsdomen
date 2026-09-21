@@ -2697,6 +2697,31 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "f4c51a5c-4095-4f65-ae7e-33704f07e5de",
+      "ts": "2026-09-21T16:13:33.021Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Теси",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "99e73941-81a6-4537-809b-fbbcb126dbef",
+      "ts": "2026-09-21T16:13:44.233Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "shift_start",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
