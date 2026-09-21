@@ -3023,6 +3023,18 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "c2fb3445-ad23-4bce-bc67-ffe90ceefe15",
+      "ts": "2026-09-21T18:06:31.251Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
