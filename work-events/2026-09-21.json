@@ -873,6 +873,30 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "4aede3de-7177-4d50-b381-323863bafae9",
+      "ts": "2026-09-21T13:41:15.530Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "3617bf40-1b2d-43d4-9fda-d67aac99ade0",
+      "ts": "2026-09-21T13:42:15.537Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
     }
   ]
 }
