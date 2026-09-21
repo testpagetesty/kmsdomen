@@ -2337,6 +2337,18 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "be06f686-6c6d-42c5-991b-58a935e54d83",
+      "ts": "2026-09-21T15:43:17.734Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
     }
   ]
 }
