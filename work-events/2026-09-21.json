@@ -4323,6 +4323,18 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "6aad878b-f2bd-4643-b25e-905258a53ee3",
+      "ts": "2026-09-21T18:58:31.574Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
