@@ -2800,6 +2800,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "8617e77a-6a42-436c-a5b7-d5b1112f5915",
+      "ts": "2026-09-21T16:15:54.809Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
