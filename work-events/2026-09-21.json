@@ -1977,6 +1977,18 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "e2ef47ca-67d1-4ed7-a902-91baacaf580c",
+      "ts": "2026-09-21T15:13:16.318Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
     }
   ]
 }
