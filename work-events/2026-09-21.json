@@ -4206,6 +4206,18 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "9ccf4ff7-bbca-4df2-a40a-f501248945ba",
+      "ts": "2026-09-21T18:54:31.558Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
