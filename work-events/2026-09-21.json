@@ -2973,6 +2973,18 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "baabb387-99fa-49fa-9fc8-b758541a59a7",
+      "ts": "2026-09-21T16:20:31.166Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
