@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-21",
+  "events": [
+    {
+      "id": "2a935934-ccb5-4f72-a333-b9150e5403f6",
+      "ts": "2026-09-21T12:39:40.554Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "shift_start",
+      "extra": {
+        "name": "Теси"
+      }
+    }
+  ]
+}
