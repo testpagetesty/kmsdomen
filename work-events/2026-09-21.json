@@ -4012,6 +4012,31 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "54fb17ac-b9dc-4ec8-88f5-5a6179c5ba63",
+      "ts": "2026-09-21T18:47:25.420Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "4dcdc157-3fb3-408e-9b48-4fc4f56b5107",
+      "ts": "2026-09-21T18:47:31.520Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
