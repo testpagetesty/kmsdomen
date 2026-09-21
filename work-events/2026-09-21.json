@@ -1017,6 +1017,30 @@
       "extra": {
         "name": "Теси"
       }
+    },
+    {
+      "id": "ca7430dd-20c7-4c20-bd51-b2ac62c6b07b",
+      "ts": "2026-09-21T13:53:15.605Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
+    },
+    {
+      "id": "be0aff38-39c3-4622-9e16-14691857d81b",
+      "ts": "2026-09-21T13:54:15.612Z",
+      "workerId": "теси",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Теси"
+      }
     }
   ]
 }
