@@ -3139,6 +3139,19 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "1ed5e12d-5b5b-4be6-98ac-861fb724438a",
+      "ts": "2026-09-21T18:12:03.260Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
