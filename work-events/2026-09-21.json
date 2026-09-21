@@ -4050,6 +4050,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "79ff08fd-4e84-4e66-9c33-4bf03fd21eed",
+      "ts": "2026-09-21T18:48:22.823Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "99a6659c-33e3-41ff-b31b-a7e21da96728",
+      "ts": "2026-09-21T18:48:31.523Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
