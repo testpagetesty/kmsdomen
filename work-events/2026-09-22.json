@@ -697,6 +697,20 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "1f069dce-18e2-4a7d-a2b0-a38180bdda9c",
+      "ts": "2026-09-22T15:58:56.182Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
