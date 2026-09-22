@@ -10020,6 +10020,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "ded25bd0-5de5-4736-bcf8-4b9084d40c1d",
+      "ts": "2026-09-22T15:05:56.090Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
