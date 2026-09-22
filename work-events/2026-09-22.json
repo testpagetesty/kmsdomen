@@ -315,6 +315,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9e4220ff-ac54-498c-909c-784e6e86812b",
+      "ts": "2026-09-22T16:03:06.957Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити для очищення організму і печінки вдома"
+      }
     }
   ]
 }
