@@ -8520,6 +8520,20 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "e27d7558-69c4-4387-8dfa-e13fb3d8f1d6",
+      "ts": "2026-09-22T11:25:37.641Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
