@@ -1778,6 +1778,20 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7269f78a-3b25-4d7b-a99f-cb1b10eb049b",
+      "ts": "2026-09-22T06:56:19.271Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
