@@ -235,6 +235,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають інфекції одна за одною -аптека -ліки -таблетки -wikipedia -s"
       }
+    },
+    {
+      "id": "1ea4476a-c63f-4efc-9dd4-6dd886fa137c",
+      "ts": "2026-09-22T16:02:33.072Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
