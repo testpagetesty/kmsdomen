@@ -688,6 +688,19 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "a26bbcd5-5672-428f-9ba5-2a275607466f",
+      "ts": "2026-09-22T06:28:30.872Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
