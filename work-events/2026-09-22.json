@@ -8153,6 +8153,19 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "49402d5c-5507-43a6-b6ad-7c57b7cd7790",
+      "ts": "2026-09-22T11:01:22.043Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
