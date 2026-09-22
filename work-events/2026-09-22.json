@@ -249,6 +249,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "921ff8d8-975f-4857-b6e8-e915c59701da",
+      "ts": "2026-09-22T16:02:41.157Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають набір ваги після 45 попри дієту -аптека -ліки -таблетки -wik"
+      }
     }
   ]
 }
