@@ -8075,6 +8075,31 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "aa72209c-db0a-4619-8c4f-b0d3f739486e",
+      "ts": "2026-09-22T10:59:57.192Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "574eb87b-b5d6-4bf9-8bdc-28bb93933c80",
+      "ts": "2026-09-22T11:00:08.680Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
