@@ -1992,6 +1992,32 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "07380cd0-f20d-4308-8376-9f93e375f86c",
+      "ts": "2026-09-22T07:00:51.739Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "acb21290-3384-43dc-8543-f57dab7d1202",
+      "ts": "2026-09-22T07:00:52.606Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
