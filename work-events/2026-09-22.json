@@ -527,6 +527,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають що додавати в каву замість цукру -аптека -ліки -таблетки -wi"
       }
+    },
+    {
+      "id": "46633a33-724f-403a-a39b-098d0e88a64c",
+      "ts": "2026-09-22T16:05:55.696Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
