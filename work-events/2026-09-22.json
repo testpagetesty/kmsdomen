@@ -500,6 +500,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "e3c19e0d-aacc-48a3-aff6-e9132ec70570",
+      "ts": "2026-09-22T16:05:34.874Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
