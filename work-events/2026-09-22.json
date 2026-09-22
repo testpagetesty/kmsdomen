@@ -5888,6 +5888,32 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "2803d8c0-b822-46e2-ba49-de432f16bf48",
+      "ts": "2026-09-22T08:38:05.177Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "wzdęcia po kolacji u osób 40 plus -apteka -lek -tabletki -wikipedia -site:gov.pl"
+      }
+    },
+    {
+      "id": "d235b3bc-23cb-43d8-b7c0-e548b45d4877",
+      "ts": "2026-09-22T08:38:10.639Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
