@@ -8218,6 +8218,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "38ab3c9d-4b7d-4771-b7ae-9730faa98026",
+      "ts": "2026-09-22T11:02:45.147Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
