@@ -170,6 +170,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають біль у попереку вранці -аптека -ліки -таблетки -wikipedia -s"
       }
+    },
+    {
+      "id": "5033c344-b81d-4236-8681-e1d298297a25",
+      "ts": "2026-09-22T16:02:11.295Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
