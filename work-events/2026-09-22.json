@@ -748,6 +748,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "8db5b83b-a3e1-417d-8120-1b7661817326",
+      "ts": "2026-09-22T16:12:18.202Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
