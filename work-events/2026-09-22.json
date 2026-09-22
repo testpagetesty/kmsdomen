@@ -6380,6 +6380,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "dd52e7fa-5c8b-4907-ae61-0e87ebf05e7c",
+      "ts": "2026-09-22T08:54:41.243Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "70f4e7f1-2e58-4d00-a7da-92fac7da20ee",
+      "ts": "2026-09-22T08:54:51.472Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
