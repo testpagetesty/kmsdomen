@@ -522,6 +522,19 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "a2574bb0-e006-4998-96d0-28097c45df2a",
+      "ts": "2026-09-22T06:19:20.548Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
