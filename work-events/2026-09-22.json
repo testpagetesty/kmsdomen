@@ -7165,6 +7165,20 @@
         "name": "Тест.",
         "interest": "suchość w ustach w nocy o czym świadczy -apteka -lek -tabletki -wikipedia -site:"
       }
+    },
+    {
+      "id": "e895389a-72f1-40ec-9671-2d61f4cf3153",
+      "ts": "2026-09-22T10:34:53.114Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
