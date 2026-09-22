@@ -8770,6 +8770,33 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "b8c537fa-94aa-4d4c-8395-d637d9ccac3c",
+      "ts": "2026-09-22T11:32:11.722Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "lekarze ostrzegają częste infekcje jedna po drugiej -apteka -lek -tabletki -wiki"
+      }
+    },
+    {
+      "id": "0e4e731b-95fd-4700-9e0f-0cd1a25e7b09",
+      "ts": "2026-09-22T11:32:25.059Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
