@@ -1898,6 +1898,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "d45789bc-99af-44b5-b1d1-edea42c379fb",
+      "ts": "2026-09-22T06:58:52.602Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "642db843-d6b6-4f61-b5c9-805e6dfafa62",
+      "ts": "2026-09-22T06:58:59.009Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
