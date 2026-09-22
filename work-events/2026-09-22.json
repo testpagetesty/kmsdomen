@@ -4565,6 +4565,20 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "3ac47ee9-c704-4ffa-91c8-36ca884a31ab",
+      "ts": "2026-09-22T08:00:23.041Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
