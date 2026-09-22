@@ -750,6 +750,32 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "29978da2-035d-4acf-9591-06c5e29950e6",
+      "ts": "2026-09-22T15:59:58.438Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "770efe73-1f66-4b1b-8dc5-ad94492584b9",
+      "ts": "2026-09-22T16:00:18.822Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "shift_start",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
