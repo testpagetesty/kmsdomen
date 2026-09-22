@@ -10317,44 +10317,6 @@
       "extra": {
         "name": "Тест."
       }
-    },
-    {
-      "id": "7cdf9f85-0c3b-4736-a8c4-9b598b0fb394",
-      "ts": "2026-09-22T15:33:41.774Z",
-      "workerId": "тест",
-      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
-      "deviceTz": "Europe/Warsaw",
-      "geo": "pl",
-      "event": "shift_start",
-      "extra": {
-        "name": "Тест."
-      }
-    },
-    {
-      "id": "987df3dc-2723-46ed-862d-f8d83d2fbe63",
-      "ts": "2026-09-22T15:33:47.510Z",
-      "workerId": "тест",
-      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
-      "deviceTz": "Europe/Warsaw",
-      "geo": "pl",
-      "event": "user_active",
-      "extra": {
-        "name": "Тест.",
-        "source": "motion"
-      }
-    },
-    {
-      "id": "2c638891-fe67-444b-bc80-f89a1f8103f9",
-      "ts": "2026-09-22T15:34:08.375Z",
-      "workerId": "тест",
-      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
-      "deviceTz": "Europe/Warsaw",
-      "geo": "pl",
-      "event": "user_active",
-      "extra": {
-        "name": "Тест.",
-        "source": "motion"
-      }
     }
   ]
 }
