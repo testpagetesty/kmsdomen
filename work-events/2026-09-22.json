@@ -2070,6 +2070,20 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "55cf8429-e0c4-4921-936a-e42d8ce0fd20",
+      "ts": "2026-09-22T07:03:29.474Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
