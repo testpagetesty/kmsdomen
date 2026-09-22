@@ -2018,6 +2018,20 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "e683f47e-08b7-4ec7-8034-73f866dc4d99",
+      "ts": "2026-09-22T07:01:13.244Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
