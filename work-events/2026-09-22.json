@@ -711,6 +711,33 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "357cab8f-c6b2-4e38-ab1a-6bc169aec5f8",
+      "ts": "2026-09-22T15:59:15.075Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "спосіб життя для здорового зору"
+      }
+    },
+    {
+      "id": "7f4fddb6-59c7-4558-94a9-ed20f89f76b4",
+      "ts": "2026-09-22T15:59:17.353Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
