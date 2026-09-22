@@ -5682,6 +5682,32 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "192e8556-4dc1-4021-b73f-43a2a0c29dbe",
+      "ts": "2026-09-22T08:25:51.373Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "c12b7373-9c01-4ba4-9659-0de8048cd2c7",
+      "ts": "2026-09-22T08:25:57.610Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
