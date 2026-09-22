@@ -383,6 +383,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "48b3443c-b945-45d4-8cc2-90ebb7ea349b",
+      "ts": "2026-09-22T15:47:23.100Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
