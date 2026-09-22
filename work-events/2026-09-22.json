@@ -458,6 +458,18 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "41dabfdb-2dc5-4159-a7c6-8a07285f0371",
+      "ts": "2026-09-22T06:16:52.423Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
