@@ -216,6 +216,18 @@
       "extra": {
         "name": "Тест"
       }
+    },
+    {
+      "id": "ecb72d62-286f-4f7d-a630-4c7e7b698dbd",
+      "ts": "2026-09-22T15:42:28.160Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "pl",
+      "event": "shift_start",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
