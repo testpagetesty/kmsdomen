@@ -255,6 +255,31 @@
         "to": "ua",
         "source": "ip"
       }
+    },
+    {
+      "id": "de9cc986-43d0-40b1-a2a4-694c70d01011",
+      "ts": "2026-09-22T15:43:39.815Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "373dd64b-d4c5-43c6-acf5-3c61c66048bc",
+      "ts": "2026-09-22T15:43:40.791Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
