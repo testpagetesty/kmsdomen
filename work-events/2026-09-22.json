@@ -3280,6 +3280,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "28862714-22ec-4d22-85ce-4d9866efb156",
+      "ts": "2026-09-22T07:30:12.751Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
