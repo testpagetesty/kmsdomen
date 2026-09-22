@@ -25,6 +25,19 @@
         "name": "Яя",
         "interest": "як підтримати чоловіче здоров'я та потенцію вдома"
       }
+    },
+    {
+      "id": "edb9d177-55b8-46b3-9c99-875e0ffac7aa",
+      "ts": "2026-09-22T16:01:08.635Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити при підвищеному тиску вдома"
+      }
     }
   ]
 }
