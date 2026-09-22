@@ -3557,6 +3557,20 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6cd7ea82-100a-474c-ac3f-d32520c055ca",
+      "ts": "2026-09-22T07:36:17.093Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
