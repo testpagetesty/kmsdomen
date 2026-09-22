@@ -380,6 +380,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають нічну пітливість після 45 -аптека -ліки -таблетки -wikipedia"
       }
+    },
+    {
+      "id": "20cff50d-566d-4e66-8e3a-2c31c15e6e12",
+      "ts": "2026-09-22T16:03:45.793Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
