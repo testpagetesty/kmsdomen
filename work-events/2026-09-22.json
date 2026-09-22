@@ -581,6 +581,32 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4b446c35-7d52-47bb-9f03-5eb4fecbe4a9",
+      "ts": "2026-09-22T16:07:09.522Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "4d37a547-5fe3-48f2-9e6d-b9f6f0b80add",
+      "ts": "2026-09-22T16:07:18.182Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
