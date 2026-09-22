@@ -10060,6 +10060,18 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "d6adb2f7-2c6e-432c-9059-c5031ca579e9",
+      "ts": "2026-09-22T15:07:16.914Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
