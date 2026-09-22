@@ -319,6 +319,18 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "2f6dae08-7427-4abc-842d-bd2d6dc0fb18",
+      "ts": "2026-09-22T15:45:40.799Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
