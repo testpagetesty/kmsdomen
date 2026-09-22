@@ -5603,6 +5603,44 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "0a5fa4ca-7051-4e44-a2a3-810a7480fc7a",
+      "ts": "2026-09-22T08:24:48.993Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "c5e7e527-00af-41e0-897b-19d652142a0e",
+      "ts": "2026-09-22T08:24:51.371Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "996c2bcb-9c39-4e06-872d-fbfd3ac29a49",
+      "ts": "2026-09-22T08:24:55.885Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "poty nocne po 45 czego nie lekceważyć -apteka -lek -tabletki -wikipedia -site:go"
+      }
     }
   ]
 }
