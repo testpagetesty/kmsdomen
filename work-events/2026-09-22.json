@@ -552,6 +552,33 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "768c7769-9bbd-4000-9923-0ca3276747b1",
+      "ts": "2026-09-22T15:57:08.965Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "лікарі попереджають сухість у роті вночі -аптека -ліки -таблетки -wikipedia -sit"
+      }
+    },
+    {
+      "id": "6b8315fb-36d8-4503-aee6-b54ac7b56d2c",
+      "ts": "2026-09-22T15:57:11.720Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
