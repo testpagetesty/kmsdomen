@@ -697,6 +697,18 @@
         "name": "Яя",
         "interest": "лікарі попереджають цукор і холестерин після яблук -аптека -ліки -таблетки -wiki"
       }
+    },
+    {
+      "id": "b76c71ae-d84a-461e-b267-9fd040f2b1ac",
+      "ts": "2026-09-22T16:10:18.188Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
