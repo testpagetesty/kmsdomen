@@ -1,4 +1,29 @@
 {
   "date": "2026-09-22",
-  "events": []
+  "events": [
+    {
+      "id": "b935c17f-a045-49c4-bf83-de8356996f7e",
+      "ts": "2026-09-22T15:34:40.658Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "be93a47e-1a49-4bda-8f07-a410308ef8dd",
+      "ts": "2026-09-22T15:35:40.663Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    }
+  ]
 }
