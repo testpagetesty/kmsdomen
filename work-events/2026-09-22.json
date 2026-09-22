@@ -1618,6 +1618,18 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ffbc1ee7-3ee5-4a8b-abfd-4f5d5f8b5ffc",
+      "ts": "2026-09-22T06:52:52.574Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
