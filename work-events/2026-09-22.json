@@ -4099,6 +4099,20 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "e2f118ec-97dc-4556-b6b4-457f46d2b67a",
+      "ts": "2026-09-22T07:50:24.186Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
