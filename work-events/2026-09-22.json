@@ -5379,6 +5379,18 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "42d33ad2-c0ca-485d-b92d-1ef546ef5cd8",
+      "ts": "2026-09-22T08:18:51.353Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
