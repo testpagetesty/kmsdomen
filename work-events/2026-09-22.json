@@ -2843,6 +2843,32 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f059287a-4dc8-42f5-86ff-49d8be335b70",
+      "ts": "2026-09-22T07:19:52.689Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "13db0669-11c7-4be4-bc49-631bfca6e799",
+      "ts": "2026-09-22T07:19:55.073Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
