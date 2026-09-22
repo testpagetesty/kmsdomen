@@ -579,6 +579,45 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e0b7bd3c-5b97-4257-bccb-db83b199f476",
+      "ts": "2026-09-22T15:57:22.142Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "лікарі попереджають мішки під очима і набряк вранці -аптека -ліки -таблетки -wik"
+      }
+    },
+    {
+      "id": "cd84b644-b73b-4f40-ab0b-9b6a133d37ff",
+      "ts": "2026-09-22T15:57:32.114Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "7d46afe3-785c-4513-92f0-663d1eb16fca",
+      "ts": "2026-09-22T15:57:40.829Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
