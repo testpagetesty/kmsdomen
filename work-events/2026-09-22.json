@@ -7931,6 +7931,19 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2a0d9832-baba-48a1-b8ed-92eddecbeca5",
+      "ts": "2026-09-22T10:54:24.560Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "lekarze ostrzegają huśtawki nastroju po 45 -apteka -lek -tabletki -wikipedia -si"
+      }
     }
   ]
 }
