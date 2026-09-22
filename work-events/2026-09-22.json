@@ -7205,6 +7205,33 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "918816e9-62fd-45b2-bdd1-7ab7d7cc1d22",
+      "ts": "2026-09-22T10:35:31.506Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "lekarze ostrzegają zgagę w nocy po położeniu się -apteka -lek -tabletki -wikiped"
+      }
+    },
+    {
+      "id": "47d00ffd-6566-4679-b446-33f34deae73e",
+      "ts": "2026-09-22T10:35:41.583Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
