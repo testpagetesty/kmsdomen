@@ -658,6 +658,45 @@
         "name": "Тест.",
         "interest": "як почувати себе краще при дискомфорті шкіри та грибку"
       }
+    },
+    {
+      "id": "e7864459-da32-4779-9d66-1332005379b3",
+      "ts": "2026-09-22T15:58:33.957Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "спосіб життя для здоров'я нирок"
+      }
+    },
+    {
+      "id": "e5aab366-dc50-4f5a-84d0-59164c0912bd",
+      "ts": "2026-09-22T15:58:36.091Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "87b36edf-811c-4d0d-a434-88e6fb6547a4",
+      "ts": "2026-09-22T15:58:40.830Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
