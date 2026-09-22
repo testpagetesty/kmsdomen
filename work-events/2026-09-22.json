@@ -632,6 +632,32 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6a256660-2195-4e12-bec9-e05e6f7bd7ef",
+      "ts": "2026-09-22T15:58:15.615Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "0b586eb6-6622-4a98-b9c9-c18f90387fc0",
+      "ts": "2026-09-22T15:58:20.433Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "як почувати себе краще при дискомфорті шкіри та грибку"
+      }
     }
   ]
 }
