@@ -801,6 +801,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "af7c2ad1-55a4-40a0-9f1a-4091cce182d1",
+      "ts": "2026-09-22T16:00:33.923Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати чоловіче здоров'я та потенцію вдома"
+      }
     }
   ]
 }
