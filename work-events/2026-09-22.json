@@ -344,6 +344,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "f72042ca-2216-47f2-b1f1-c8b83025da85",
+      "ts": "2026-09-22T15:46:39.713Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "af6ebd32-c698-4cb3-a461-222f43feaccb",
+      "ts": "2026-09-22T15:46:40.799Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
