@@ -9570,6 +9570,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "55b4a0f5-2d08-492f-a8ce-018dbfa9ac97",
+      "ts": "2026-09-22T11:56:40.158Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
