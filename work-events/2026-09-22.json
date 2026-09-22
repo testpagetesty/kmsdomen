@@ -6030,6 +6030,20 @@
         "name": "Тест.",
         "interest": "lekarze ostrzegają sztywność stawów rano -apteka -lek -tabletki -wikipedia -site"
       }
+    },
+    {
+      "id": "86bddf17-5377-40f8-9561-cefdc6851540",
+      "ts": "2026-09-22T08:41:31.052Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
