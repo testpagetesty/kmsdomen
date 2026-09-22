@@ -738,6 +738,18 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "0fcfe770-e9bd-495d-94f8-1640e237562b",
+      "ts": "2026-09-22T15:59:40.830Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
