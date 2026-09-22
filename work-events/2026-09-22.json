@@ -9333,6 +9333,32 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "9c5e9f3d-27df-477d-a9b3-f3f0ceb80ae1",
+      "ts": "2026-09-22T11:50:01.769Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "f89848cd-75f5-4b1d-9b83-467be0c508ab",
+      "ts": "2026-09-22T11:50:08.823Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
