@@ -64,6 +64,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "481bb973-15d3-4720-90a8-efc3f9364c64",
+      "ts": "2026-09-22T16:01:24.617Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають безсоння о третій ночі -аптека -ліки -таблетки -wikipedia -s"
+      }
     }
   ]
 }
