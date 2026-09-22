@@ -567,6 +567,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3ea69c07-d356-439b-9276-fe7f5decabaf",
+      "ts": "2026-09-22T16:06:49.457Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
