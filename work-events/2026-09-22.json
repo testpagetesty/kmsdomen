@@ -7777,6 +7777,19 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "f94c0b40-d6d0-4338-bd78-fc5e5bcf189e",
+      "ts": "2026-09-22T10:49:49.509Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
