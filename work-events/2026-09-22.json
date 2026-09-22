@@ -2628,6 +2628,20 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "c8c1c6dc-3147-4a53-a925-0c6d7e927935",
+      "ts": "2026-09-22T07:15:20.212Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
