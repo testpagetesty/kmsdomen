@@ -7138,6 +7138,33 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "a4b97d0f-5fa9-4577-88c6-0c3716b18b09",
+      "ts": "2026-09-22T10:34:28.422Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "c52cf9c9-2b53-4d2f-81c4-8cb7b9b4842c",
+      "ts": "2026-09-22T10:34:33.634Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "suchość w ustach w nocy o czym świadczy -apteka -lek -tabletki -wikipedia -site:"
+      }
     }
   ]
 }
