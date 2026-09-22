@@ -8128,6 +8128,31 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8b6dd02c-5703-499e-bc4e-64c553c27793",
+      "ts": "2026-09-22T11:01:02.008Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "c670b8fe-8560-416b-8141-b269fc24ce9a",
+      "ts": "2026-09-22T11:01:08.684Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
