@@ -5313,6 +5313,19 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8dbd9239-ced7-491a-b905-13d477b82c63",
+      "ts": "2026-09-22T08:17:18.272Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
