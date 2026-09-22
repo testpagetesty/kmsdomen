@@ -196,6 +196,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "e702c9dc-4c09-45bf-af1f-eba10616daa8",
+      "ts": "2026-09-22T16:02:22.690Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають постійну спрагу ввечері -аптека -ліки -таблетки -wikipedia -"
+      }
     }
   ]
 }
