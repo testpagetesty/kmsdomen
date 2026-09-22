@@ -7406,6 +7406,32 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9004008e-0538-4536-a00c-2383c4c20db8",
+      "ts": "2026-09-22T10:41:02.151Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "e47e47e9-e40e-48e7-b9bb-8e18b1773001",
+      "ts": "2026-09-22T10:41:07.703Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
