@@ -3255,6 +3255,31 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "c9ff8b67-d4b0-44f7-9af8-4c4d85d9fb76",
+      "ts": "2026-09-22T07:29:51.165Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "69460594-e6ea-49f8-865d-a0c002ecfb79",
+      "ts": "2026-09-22T07:29:52.621Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
