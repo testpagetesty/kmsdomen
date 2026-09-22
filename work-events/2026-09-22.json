@@ -10188,6 +10188,30 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "c50fcf0c-d036-4daa-887b-bc85de8732ca",
+      "ts": "2026-09-22T15:19:16.952Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "4f59329c-a6a8-4dd8-bd51-83978c5d7c8c",
+      "ts": "2026-09-22T15:19:47.020Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "pl",
+      "event": "shift_start",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
