@@ -476,6 +476,20 @@
         "name": "Тест.",
         "source": "touch"
       }
+    },
+    {
+      "id": "25cb4acb-74b7-472a-aefe-e2540795310a",
+      "ts": "2026-09-22T15:49:24.394Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
