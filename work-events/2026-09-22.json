@@ -789,6 +789,18 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "ce2dfdc3-2859-4799-b804-7a585d8f93ea",
+      "ts": "2026-09-22T16:00:32.232Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "al",
+      "event": "shift_start",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
