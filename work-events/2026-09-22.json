@@ -340,6 +340,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "aa370186-a3bb-49f6-9d4f-e9b714fe9a5b",
+      "ts": "2026-09-22T16:03:25.229Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
