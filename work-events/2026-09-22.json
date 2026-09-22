@@ -7100,6 +7100,18 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "6907a2b8-2f8c-4704-852b-c9d623955275",
+      "ts": "2026-09-22T09:42:07.655Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
