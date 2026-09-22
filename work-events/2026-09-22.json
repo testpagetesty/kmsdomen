@@ -117,6 +117,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають запаморочення коли встаєш з ліжка -аптека -ліки -таблетки -w"
       }
+    },
+    {
+      "id": "f78d5e90-2a56-4d81-bd09-a07ce4e005b7",
+      "ts": "2026-09-22T16:01:51.217Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
