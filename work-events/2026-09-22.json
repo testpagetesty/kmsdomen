@@ -10150,6 +10150,32 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "7689d338-b16c-4376-9e93-5965711c7c30",
+      "ts": "2026-09-22T15:17:30.386Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "5c3893a5-18d5-4822-85c7-756d49c0ceab",
+      "ts": "2026-09-22T15:17:52.052Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
