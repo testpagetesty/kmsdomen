@@ -448,6 +448,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "afc69a16-f005-4d89-98c8-2008698f5dff",
+      "ts": "2026-09-22T16:04:49.334Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають випадіння волосся у жінок після 40 -аптека -ліки -таблетки -"
+      }
     }
   ]
 }
