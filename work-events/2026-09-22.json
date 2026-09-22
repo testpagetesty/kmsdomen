@@ -280,6 +280,20 @@
       "extra": {
         "name": "Тест."
       }
+    },
+    {
+      "id": "903ada3b-5edf-49a6-8bbd-313be8b062f4",
+      "ts": "2026-09-22T15:44:02.495Z",
+      "workerId": "тест",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
