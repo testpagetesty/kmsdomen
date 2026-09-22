@@ -170,6 +170,18 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1e9ea4a6-bf55-48e2-bfd3-f1e0b3f1aed3",
+      "ts": "2026-09-22T06:07:52.369Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
     }
   ]
 }
