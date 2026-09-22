@@ -13,6 +13,31 @@
         "name": "Тест.",
         "source": "motion"
       }
+    },
+    {
+      "id": "86ee0956-5b82-4a92-8b44-a5319b8602d6",
+      "ts": "2026-09-22T06:03:52.377Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "1ea7c25a-8136-4c30-a301-87d6bafa2706",
+      "ts": "2026-09-22T06:03:55.494Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "motion"
+      }
     }
   ]
 }
