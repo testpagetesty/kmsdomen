@@ -5641,6 +5641,33 @@
         "name": "Тест.",
         "interest": "poty nocne po 45 czego nie lekceważyć -apteka -lek -tabletki -wikipedia -site:go"
       }
+    },
+    {
+      "id": "861dd63e-b0e1-4040-a28b-00794c524099",
+      "ts": "2026-09-22T08:25:09.805Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Тест.",
+        "interest": "częste infekcje jedna po drugiej u dorosłych -apteka -lek -tabletki -wikipedia -"
+      }
+    },
+    {
+      "id": "8b40f947-5744-445b-badd-b322220c8598",
+      "ts": "2026-09-22T08:25:14.209Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
     }
   ]
 }
