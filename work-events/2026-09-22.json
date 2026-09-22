@@ -5233,6 +5233,46 @@
         "name": "Тест.",
         "source": "scroll"
       }
+    },
+    {
+      "id": "867a7bdc-2b6a-4c66-ac54-8757b9f86b0c",
+      "ts": "2026-09-22T08:15:40.863Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "c5fcbf3b-1d69-406c-864a-fabf85b0019b",
+      "ts": "2026-09-22T08:15:51.336Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Тест."
+      }
+    },
+    {
+      "id": "4741bd38-d589-452a-ab54-ee19a775966e",
+      "ts": "2026-09-22T08:16:14.222Z",
+      "workerId": "тест.",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Warsaw",
+      "geo": "al",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Тест.",
+        "source": "touch"
+      }
     }
   ]
 }
