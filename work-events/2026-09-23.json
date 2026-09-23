@@ -27061,6 +27061,18 @@
       }
     },
     {
+      "id": "0f744e7f-ed1f-4ad2-926a-7a76c78eafff",
+      "ts": "2026-09-23T11:45:52.768Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "942478e6-6079-4d55-82ea-cf6078040590",
       "ts": "2026-09-23T11:45:56.704Z",
       "workerId": "яя",
