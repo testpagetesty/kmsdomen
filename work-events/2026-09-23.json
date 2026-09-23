@@ -3390,6 +3390,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "356e7687-814b-4620-8da0-e48c3ca27cb6",
+      "ts": "2026-09-23T07:35:33.356Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
