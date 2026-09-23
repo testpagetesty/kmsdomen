@@ -24929,6 +24929,18 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "81672c1c-ead2-408f-a38c-ec1f2ff405a1",
+      "ts": "2026-09-23T11:22:51.798Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
