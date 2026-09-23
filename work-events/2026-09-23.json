@@ -20250,6 +20250,31 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ca15e304-85b2-4ff8-8ed7-95b50bf82332",
+      "ts": "2026-09-23T10:44:37.324Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "a99695f7-1595-4e42-a196-3a299ca45982",
+      "ts": "2026-09-23T10:44:37.331Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "br",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
