@@ -19177,6 +19177,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "a1b56e44-e22d-4aed-b1e1-fbde1fa24054",
+      "ts": "2026-09-23T10:34:37.178Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
