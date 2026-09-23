@@ -20962,6 +20962,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "5d422e4e-5fc2-4f7e-8049-c728165671b6",
+      "ts": "2026-09-23T10:50:37.654Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
