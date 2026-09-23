@@ -33887,6 +33887,18 @@
       }
     },
     {
+      "id": "f650b772-9d1e-4727-ad13-4d559ded2184",
+      "ts": "2026-09-23T13:17:59.890Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "cb66a188-a093-415a-aa5a-126689cde3e1",
       "ts": "2026-09-23T13:18:00.964Z",
       "workerId": "хадыж",
@@ -33912,6 +33924,20 @@
       "extra": {
         "name": "Хадыж",
         "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
+      }
+    },
+    {
+      "id": "815aaa75-3c7b-4ee4-a4eb-ed095b503172",
+      "ts": "2026-09-23T13:18:07.990Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     },
     {
@@ -33953,6 +33979,20 @@
       "extra": {
         "name": "Хадыж",
         "source": "touch"
+      }
+    },
+    {
+      "id": "623a7bfe-d697-4dbf-85d7-da76d57d942c",
+      "ts": "2026-09-23T13:18:28.013Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
