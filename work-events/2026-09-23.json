@@ -14840,6 +14840,19 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "bd82578b-2e13-44cf-acf8-c6b236bb5944",
+      "ts": "2026-09-23T09:05:12.502Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
