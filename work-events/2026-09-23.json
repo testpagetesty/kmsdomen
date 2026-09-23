@@ -19411,6 +19411,20 @@
       }
     },
     {
+      "id": "d1b3e82a-4d21-4ef1-a912-9442a8eedb1e",
+      "ts": "2026-09-23T10:36:53.353Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
+    },
+    {
       "id": "346dcb9a-9ea6-4b58-8da0-23635f4f7235",
       "ts": "2026-09-23T10:36:55.074Z",
       "workerId": "яя",
