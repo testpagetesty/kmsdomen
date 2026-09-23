@@ -9891,6 +9891,19 @@
       }
     },
     {
+      "id": "93516fe2-9ede-414d-bc61-57200cb09b15",
+      "ts": "2026-09-23T08:27:43.873Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "yatırım riskleri nasıl değerlendirilir"
+      }
+    },
+    {
       "id": "e70d68b4-03c7-40ac-b65b-1db3b313f581",
       "ts": "2026-09-23T08:27:44.208Z",
       "workerId": "яя",
@@ -9905,6 +9918,19 @@
       }
     },
     {
+      "id": "5552c8a1-a3a9-43e8-848c-c2ed4c9941ef",
+      "ts": "2026-09-23T08:27:44.399Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "emekliler için destek programları"
+      }
+    },
+    {
       "id": "7e1871dd-1e9c-47ba-9633-efc68f6d2183",
       "ts": "2026-09-23T08:27:44.949Z",
       "workerId": "хадыж",
@@ -9915,6 +9941,18 @@
       "extra": {
         "name": "Хадыж",
         "interest": "genç aileler için devlet desteği"
+      }
+    },
+    {
+      "id": "3a38ca09-c7b0-4424-ab9a-df3f8ab5284f",
+      "ts": "2026-09-23T08:27:48.036Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
       }
     }
   ]
