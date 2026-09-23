@@ -36427,6 +36427,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "da46a25f-a102-4b26-9d5a-bcb679c19b25",
+      "ts": "2026-09-23T14:43:27.414Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лайфхаки для зручності на кухні"
+      }
     }
   ]
 }
