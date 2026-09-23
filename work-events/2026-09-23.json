@@ -21615,6 +21615,19 @@
       }
     },
     {
+      "id": "0a3cca1f-e6f7-4d1a-9b8e-fb17f87fa625",
+      "ts": "2026-09-23T10:55:57.504Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "b4259d15-9955-4e56-8b0c-8969074cd154",
       "ts": "2026-09-23T10:55:57.506Z",
       "workerId": "хадыж",
