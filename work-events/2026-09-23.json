@@ -5880,6 +5880,20 @@
       }
     },
     {
+      "id": "cd799eca-fe1c-419f-9215-f3731218bd51",
+      "ts": "2026-09-23T07:51:52.908Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d5bb424c-daf5-4631-a1e8-273d0dc5cb36",
       "ts": "2026-09-23T07:51:54.030Z",
       "workerId": "яя",
