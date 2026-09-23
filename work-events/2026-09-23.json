@@ -1685,6 +1685,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "feaa2b20-4a3f-4cb5-a2e7-ca4eb5d4ce01",
+      "ts": "2026-09-23T07:22:41.345Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
