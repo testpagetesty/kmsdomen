@@ -36413,6 +36413,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "83f911e9-0bef-40a1-a0ec-98305d4b1db9",
+      "ts": "2026-09-23T14:43:23.292Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
