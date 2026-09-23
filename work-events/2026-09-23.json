@@ -7687,6 +7687,20 @@
       }
     },
     {
+      "id": "9b3d4168-91ba-4760-a8ab-0da13fa36323",
+      "ts": "2026-09-23T08:09:32.033Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
+    },
+    {
       "id": "91122747-fe5b-41a4-8f2f-b4bfaf8f99c1",
       "ts": "2026-09-23T08:09:32.768Z",
       "workerId": "яя",
