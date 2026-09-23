@@ -3105,6 +3105,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fca09fd1-c43b-4b08-8ab9-7875758a00dc",
+      "ts": "2026-09-23T07:33:47.644Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
