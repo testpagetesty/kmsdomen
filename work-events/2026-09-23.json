@@ -20343,6 +20343,19 @@
         "name": "Яя",
         "interest": "лікарі попереджають безсоння о третій ночі -аптека -ліки -таблетки -wikipedia -s"
       }
+    },
+    {
+      "id": "f2aaced2-8750-45f6-83fe-70538ab89730",
+      "ts": "2026-09-23T10:45:14.885Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
