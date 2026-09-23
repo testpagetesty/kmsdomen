@@ -8394,6 +8394,32 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "ce6dc3ec-7255-4481-83c3-b4287451a97d",
+      "ts": "2026-09-23T08:15:43.816Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "87ca78be-6194-40ff-bd0b-2fc6fbb1b1d8",
+      "ts": "2026-09-23T08:15:47.959Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
