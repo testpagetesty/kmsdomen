@@ -6961,6 +6961,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "dbeac75b-8cfd-4562-a844-e1af79051a97",
+      "ts": "2026-09-23T07:59:48.600Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
