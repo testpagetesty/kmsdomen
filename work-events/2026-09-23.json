@@ -12380,6 +12380,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "990c256e-e7a7-4a32-aa11-d798c511ea62",
+      "ts": "2026-09-23T08:45:07.139Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
