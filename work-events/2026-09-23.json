@@ -20808,6 +20808,31 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "82f6a98c-897a-47ef-8d07-c0e059224828",
+      "ts": "2026-09-23T10:49:26.323Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "d8e2a2a2-8a05-4f3a-a679-edc25165026d",
+      "ts": "2026-09-23T10:49:26.323Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
