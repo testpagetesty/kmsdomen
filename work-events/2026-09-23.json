@@ -8580,6 +8580,20 @@
         "to": "tr",
         "source": "ip"
       }
+    },
+    {
+      "id": "e8278bf7-0c34-4321-a4b6-7690279892be",
+      "ts": "2026-09-23T08:17:59.842Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
