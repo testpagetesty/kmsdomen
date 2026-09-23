@@ -17816,6 +17816,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "7a6ceb21-7607-4bb4-809c-3aee1bb819b6",
+      "ts": "2026-09-23T10:23:03.351Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
