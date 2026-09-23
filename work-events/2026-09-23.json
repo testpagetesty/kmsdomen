@@ -3238,6 +3238,19 @@
       }
     },
     {
+      "id": "496eb922-f794-40ba-910c-021b5b52d7d8",
+      "ts": "2026-09-23T07:34:30.909Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "4608539c-7232-4755-805c-3a6aabffb1d8",
       "ts": "2026-09-23T07:34:32.289Z",
       "workerId": "яя",
