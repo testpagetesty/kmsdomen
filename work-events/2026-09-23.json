@@ -16343,6 +16343,20 @@
         "name": "Хадыж",
         "title": "Vraťte si mužskou sílu a sebevědomí"
       }
+    },
+    {
+      "id": "c35bb53d-40b2-4a79-ba73-41327b2e7fb4",
+      "ts": "2026-09-23T09:15:51.657Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
