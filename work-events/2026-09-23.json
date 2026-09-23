@@ -12301,6 +12301,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "de108f3c-e193-46cb-97c7-da5a11feb578",
+      "ts": "2026-09-23T08:44:43.290Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
