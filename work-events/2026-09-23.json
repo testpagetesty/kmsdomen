@@ -17411,6 +17411,20 @@
         "name": "Хадыж",
         "title": "Bugün senin günün olabilir!"
       }
+    },
+    {
+      "id": "83320748-6afe-456f-a384-1fa5c56495ed",
+      "ts": "2026-09-23T09:40:02.824Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Hediyeniz hazır."
+      }
     }
   ]
 }
