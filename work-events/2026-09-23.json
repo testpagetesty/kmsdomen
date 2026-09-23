@@ -27297,6 +27297,18 @@
         "name": "Хадыж",
         "title": "O Mercado Financeiro ao Alcance de Todos"
       }
+    },
+    {
+      "id": "9976d49c-d1d0-450b-aa89-192727df343b",
+      "ts": "2026-09-23T11:48:56.709Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
