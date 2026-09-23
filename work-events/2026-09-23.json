@@ -26736,6 +26736,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "81574488-cebd-4177-925c-924b3bb7f330",
+      "ts": "2026-09-23T11:42:31.065Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
