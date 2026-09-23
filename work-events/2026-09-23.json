@@ -9772,6 +9772,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "a2125138-14ed-4852-963c-55e675ebef1e",
+      "ts": "2026-09-23T08:27:27.640Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "çocuk yardımları ve aile ödemeleri"
+      }
     }
   ]
 }
