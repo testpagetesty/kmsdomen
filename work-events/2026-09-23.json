@@ -16204,6 +16204,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1bfc7b58-94ce-4d2d-b545-85cda3a3c8ce",
+      "ts": "2026-09-23T09:14:34.013Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Do rána z vás paraziti vyjdou v chuchvalcích! Stačí kápnout do vody obyčejný..."
+      }
     }
   ]
 }
