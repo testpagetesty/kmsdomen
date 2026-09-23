@@ -18830,6 +18830,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "904ff524-c106-4b01-910f-b7cd9cef8c9d",
+      "ts": "2026-09-23T10:32:37.713Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
