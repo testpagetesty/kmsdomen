@@ -15963,6 +15963,18 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "b8c7d520-0bf0-4783-920e-89108dde7d2d",
+      "ts": "2026-09-23T09:12:48.278Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
