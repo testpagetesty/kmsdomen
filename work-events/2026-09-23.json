@@ -24517,6 +24517,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4d99f168-57ae-424c-83d6-c756c69512e4",
+      "ts": "2026-09-23T11:19:45.559Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
