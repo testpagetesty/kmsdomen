@@ -8897,6 +8897,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "460bc037-07b5-4aa4-9191-585ef1747692",
+      "ts": "2026-09-23T08:20:02.115Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "işsizlik ödeneği ve devlet yardımı"
+      }
     }
   ]
 }
