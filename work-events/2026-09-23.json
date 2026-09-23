@@ -36738,6 +36738,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "688bccf0-63a0-4d72-a893-9d66dde3d8ea",
+      "ts": "2026-09-23T14:50:16.440Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
