@@ -13,6 +13,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "fd424bdd-25ee-49ca-bf93-99a3ab4878bd",
+      "ts": "2026-09-23T06:55:58.295Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
