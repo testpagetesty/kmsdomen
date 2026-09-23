@@ -23833,6 +23833,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "ecb3efb7-1273-4c94-9420-b01aeb37f078",
+      "ts": "2026-09-23T11:13:55.807Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
