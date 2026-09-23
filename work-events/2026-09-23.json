@@ -28031,6 +28031,31 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "9c3f690b-0d3a-4d2e-8342-0a93f17a5058",
+      "ts": "2026-09-23T12:03:42.526Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "5cfdcb1c-2649-45eb-bf4b-e501ed74d323",
+      "ts": "2026-09-23T12:03:58.798Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
