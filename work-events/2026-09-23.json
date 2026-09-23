@@ -7410,6 +7410,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "450f2978-35cb-49d9-9afd-80e4eec33f27",
+      "ts": "2026-09-23T08:07:03.834Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
