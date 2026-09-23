@@ -36945,6 +36945,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "87267cbf-049b-4d4c-a8ef-f00fd4a53472",
+      "ts": "2026-09-23T14:56:16.451Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
