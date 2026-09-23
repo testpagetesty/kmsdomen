@@ -25830,6 +25830,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "27defc9d-f083-4187-beda-6422dffd35ef",
+      "ts": "2026-09-23T11:31:05.079Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
