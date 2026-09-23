@@ -26093,6 +26093,20 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "b2f2d474-cfd7-48b3-9e43-3af168d594da",
+      "ts": "2026-09-23T11:33:40.569Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
