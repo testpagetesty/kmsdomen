@@ -20330,6 +20330,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4ab25638-52ed-49ba-8123-d23be097b5ac",
+      "ts": "2026-09-23T10:45:12.754Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають безсоння о третій ночі -аптека -ліки -таблетки -wikipedia -s"
+      }
     }
   ]
 }
