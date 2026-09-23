@@ -32663,6 +32663,19 @@
         "name": "Яя",
         "interest": "як підтримувати нормальний рівень цукру в крові вдома"
       }
+    },
+    {
+      "id": "6819e2f9-5b85-441a-9ad8-de09bfd9ab82",
+      "ts": "2026-09-23T13:05:17.851Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "br",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://regionalobala.si"
+      }
     }
   ]
 }
