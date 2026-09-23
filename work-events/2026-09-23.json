@@ -8817,6 +8817,20 @@
         "name": "Хадыж",
         "interest": "ülkemizde kripto parayı doğru yönetme ve satın alma"
       }
+    },
+    {
+      "id": "24974f8a-3f40-4e00-8258-4bb99144b06c",
+      "ts": "2026-09-23T08:19:30.400Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
