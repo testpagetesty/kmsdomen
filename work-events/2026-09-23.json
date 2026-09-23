@@ -9005,6 +9005,19 @@
       }
     },
     {
+      "id": "f769c098-a1b8-4fd9-8b0a-4f6b14022855",
+      "ts": "2026-09-23T08:20:57.876Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "devletten konut sübvansiyonları"
+      }
+    },
+    {
       "id": "324efea5-92b6-49fe-b630-47a5b21dd09f",
       "ts": "2026-09-23T08:20:59.970Z",
       "workerId": "яя",
