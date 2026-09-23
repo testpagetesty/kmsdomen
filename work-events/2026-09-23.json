@@ -16032,6 +16032,19 @@
       }
     },
     {
+      "id": "d7d6edb3-4210-41e6-a9a0-9216bd256e20",
+      "ts": "2026-09-23T09:13:27.509Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
+    },
+    {
       "id": "39b84a5b-d593-4201-8f4d-1a03108b3a9c",
       "ts": "2026-09-23T09:13:27.755Z",
       "workerId": "хадыж",
@@ -16136,6 +16149,20 @@
       "extra": {
         "name": "Хадыж",
         "title": "Výrůstky na krku? Paraziti vás požírají zevnitř! Vypijte tuhle levnou věc..."
+      }
+    },
+    {
+      "id": "5ad63209-0913-4abd-8bc7-4d42d6e794b7",
+      "ts": "2026-09-23T09:14:22.339Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Pro váš aktivní den"
       }
     }
   ]
