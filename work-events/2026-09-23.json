@@ -17271,6 +17271,20 @@
         "name": "Хадыж",
         "title": "Zeus'un gücünü hisset."
       }
+    },
+    {
+      "id": "7b6634e2-1ec5-4bae-81c6-8952f04d2109",
+      "ts": "2026-09-23T09:36:18.491Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Bugün karmaşık planlara gerek yok"
+      }
     }
   ]
 }
