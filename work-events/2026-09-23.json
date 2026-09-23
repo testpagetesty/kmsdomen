@@ -8013,6 +8013,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "cacf5f16-1679-4b71-a5a2-054796d9f281",
+      "ts": "2026-09-23T08:12:15.121Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
