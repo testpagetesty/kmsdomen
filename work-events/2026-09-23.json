@@ -37090,6 +37090,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "21de34df-a0e0-42c3-b291-f36e155e11d9",
+      "ts": "2026-09-23T14:59:16.457Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
