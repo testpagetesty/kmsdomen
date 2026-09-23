@@ -29973,6 +29973,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "d624b93e-243b-420b-a221-7f6d5d84b76a",
+      "ts": "2026-09-23T12:40:13.320Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
