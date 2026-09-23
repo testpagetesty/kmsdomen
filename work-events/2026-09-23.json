@@ -23429,6 +23429,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "22e180ca-9a2a-4e68-ae85-cb44977967f8",
+      "ts": "2026-09-23T11:11:02.142Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "ru",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
