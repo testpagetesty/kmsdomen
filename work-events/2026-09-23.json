@@ -34479,6 +34479,21 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "44aa26d7-abcd-41ec-abdf-03736b591a71",
+      "ts": "2026-09-23T13:24:47.701Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "cl",
+        "to": "co",
+        "source": "ip"
+      }
     }
   ]
 }
