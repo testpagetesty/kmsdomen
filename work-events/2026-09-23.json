@@ -34815,6 +34815,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a3033499-df17-4d13-9487-6a1a21722d71",
+      "ts": "2026-09-23T13:30:50.941Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://zagorje.com"
+      }
     }
   ]
 }
