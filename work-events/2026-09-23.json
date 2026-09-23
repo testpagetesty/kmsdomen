@@ -33900,6 +33900,46 @@
         "to": "cl",
         "source": "ip"
       }
+    },
+    {
+      "id": "b84e46e8-3bd5-4f28-bc16-d813376a6eef",
+      "ts": "2026-09-23T13:18:07.693Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
+      }
+    },
+    {
+      "id": "51fb14a2-82a1-481c-8b95-314af2cba77d",
+      "ts": "2026-09-23T13:18:11.534Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "24080232431.buzzfuzzy.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "7e3025c2-8c31-4a73-92c3-e96c1899fee2",
+      "ts": "2026-09-23T13:18:14.790Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://primainspirace.cz"
+      }
     }
   ]
 }
