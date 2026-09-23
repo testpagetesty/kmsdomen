@@ -26015,6 +26015,21 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "bcdfdab9-5eec-43b9-b8a6-ecab689bdb20",
+      "ts": "2026-09-23T11:32:39.658Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "us",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "nz",
+        "to": "us",
+        "source": "ip"
+      }
     }
   ]
 }
