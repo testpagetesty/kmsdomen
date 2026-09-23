@@ -388,6 +388,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "0a8b887b-2d7a-4d90-aa07-4425ec1c67a9",
+      "ts": "2026-09-23T07:09:46.956Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
