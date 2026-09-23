@@ -12248,6 +12248,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "f7cf3830-87e4-44c7-b66c-b199a4cff23f",
+      "ts": "2026-09-23T08:44:14.977Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
