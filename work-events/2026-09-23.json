@@ -2265,6 +2265,32 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "caccfb32-81d5-4b39-bde5-552040a29ae1",
+      "ts": "2026-09-23T07:27:34.428Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "e1585cb9-70a3-4837-b4b4-cdcaadf3e59d",
+      "ts": "2026-09-23T07:27:45.601Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
