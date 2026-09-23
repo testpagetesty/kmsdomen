@@ -7659,6 +7659,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a7b4a056-36b3-46ec-9020-7a2b70ec1cc9",
+      "ts": "2026-09-23T08:09:14.315Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають червоні плями на колінах -аптека -ліки -таблетки -wikipedia "
+      }
     }
   ]
 }
