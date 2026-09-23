@@ -4768,6 +4768,19 @@
       }
     },
     {
+      "id": "06131f79-898e-4506-9422-b9fb1915a477",
+      "ts": "2026-09-23T07:43:53.868Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "68e0f22e-268a-438f-b9fa-97780a1ee87e",
       "ts": "2026-09-23T07:43:54.506Z",
       "workerId": "яя",
