@@ -14158,6 +14158,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "e2eea5b5-f5a6-41f5-a814-b985adce150f",
+      "ts": "2026-09-23T08:57:34.421Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
