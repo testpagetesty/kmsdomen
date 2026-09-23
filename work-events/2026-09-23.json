@@ -38028,6 +38028,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "9fa4673e-2acd-4adb-b079-6a443524f87d",
+      "ts": "2026-09-23T19:57:35.688Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
