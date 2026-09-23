@@ -20290,6 +20290,18 @@
         "to": "cl",
         "source": "ip"
       }
+    },
+    {
+      "id": "8d1db814-8954-4e98-8530-49f85f7252f3",
+      "ts": "2026-09-23T10:44:56.535Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
