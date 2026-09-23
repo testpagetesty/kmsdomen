@@ -33287,6 +33287,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e39ca834-b017-4ebb-b27e-609dc5688185",
+      "ts": "2026-09-23T13:12:33.838Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати здоров'я вен і судин вдома"
+      }
     }
   ]
 }
