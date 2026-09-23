@@ -27177,6 +27177,18 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "24b83a4c-c759-46f4-b09f-42a479166aad",
+      "ts": "2026-09-23T11:47:52.769Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
