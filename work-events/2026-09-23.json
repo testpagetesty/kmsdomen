@@ -6472,6 +6472,18 @@
       }
     },
     {
+      "id": "411302db-3609-4afe-8580-4c9b39044355",
+      "ts": "2026-09-23T07:55:39.810Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "36f703ad-00f4-4e1b-8190-6c391a4254c0",
       "ts": "2026-09-23T07:55:41.645Z",
       "workerId": "яя",
