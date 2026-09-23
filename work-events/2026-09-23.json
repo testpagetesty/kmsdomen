@@ -32120,6 +32120,20 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "21fb5f57-1468-498e-a4f3-ed81b7e7f85c",
+      "ts": "2026-09-23T13:00:56.642Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
