@@ -23897,6 +23897,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "a1f3207b-d81e-4fcb-b514-89d6f00823b2",
+      "ts": "2026-09-23T11:14:31.085Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
