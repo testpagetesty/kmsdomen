@@ -26826,6 +26826,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "fa419510-bc6d-4e6b-b9a8-bf37155ec80f",
+      "ts": "2026-09-23T11:43:07.365Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
