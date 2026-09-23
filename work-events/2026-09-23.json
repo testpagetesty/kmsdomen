@@ -28824,6 +28824,20 @@
         "name": "Хадыж",
         "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
       }
+    },
+    {
+      "id": "aed71933-e2b4-4d06-ad15-9a5ef5c6ec9b",
+      "ts": "2026-09-23T12:27:48.340Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
