@@ -7513,6 +7513,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7d5e1e60-d054-4d4d-9492-7fc50ea5d03a",
+      "ts": "2026-09-23T08:07:47.455Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити якщо втомлюються очі вдома"
+      }
     }
   ]
 }
