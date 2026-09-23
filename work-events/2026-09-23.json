@@ -16232,6 +16232,20 @@
         "name": "Хадыж",
         "title": "Chraňte své zdraví a trávení před nepříznivými vlivy"
       }
+    },
+    {
+      "id": "84e289f8-81ba-44d1-abeb-2eb0b19d200d",
+      "ts": "2026-09-23T09:14:51.223Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
