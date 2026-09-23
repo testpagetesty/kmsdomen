@@ -14195,6 +14195,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "57ba32c2-0de2-4f8f-b422-a97e88b70b44",
+      "ts": "2026-09-23T08:57:48.258Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
