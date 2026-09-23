@@ -6144,6 +6144,18 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "0b1f8009-e0a3-4504-914c-d80abed30201",
+      "ts": "2026-09-23T07:53:47.930Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
