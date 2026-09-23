@@ -36388,6 +36388,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "5bfd4283-8136-4ed5-ba88-10e7d77f901f",
+      "ts": "2026-09-23T14:43:02.616Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
