@@ -17341,6 +17341,20 @@
         "name": "Хадыж",
         "title": "İki haberimiz var. İkisi de güzel"
       }
+    },
+    {
+      "id": "2f946d0b-b0c4-45ec-b84c-48b4cb566fda",
+      "ts": "2026-09-23T09:38:07.213Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Bakmak yeter — alma zamanı"
+      }
     }
   ]
 }
