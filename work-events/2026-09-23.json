@@ -34828,6 +34828,20 @@
         "name": "Хадыж",
         "url": "https://zagorje.com"
       }
+    },
+    {
+      "id": "94456d15-98b9-4c72-9670-13b3a8dd43e8",
+      "ts": "2026-09-23T13:30:56.103Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
