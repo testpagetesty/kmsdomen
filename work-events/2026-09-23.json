@@ -14570,6 +14570,33 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "0e7c6b6d-8303-4b95-900e-3d97dbd76f86",
+      "ts": "2026-09-23T09:01:18.913Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "c5498ab2-c5e2-4a44-87ec-d4639540cb66",
+      "ts": "2026-09-23T09:01:37.321Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
