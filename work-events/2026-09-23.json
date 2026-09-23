@@ -23935,6 +23935,31 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "11a4075e-3dec-4eb8-8b27-6b67d43901ef",
+      "ts": "2026-09-23T11:14:38.889Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "d863a6cd-0c6b-451c-9b84-1abc600cedcb",
+      "ts": "2026-09-23T11:14:38.890Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
