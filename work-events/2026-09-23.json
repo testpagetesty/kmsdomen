@@ -28982,6 +28982,18 @@
       }
     },
     {
+      "id": "2572f7a9-dd82-4031-a166-dbd29af65c3e",
+      "ts": "2026-09-23T12:29:58.862Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "cc311523-04c3-454a-9f97-58b30b3b21bb",
       "ts": "2026-09-23T12:30:00.691Z",
       "workerId": "хадыж",
