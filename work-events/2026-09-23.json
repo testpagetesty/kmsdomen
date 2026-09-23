@@ -6038,6 +6038,20 @@
       }
     },
     {
+      "id": "8d0f9ca6-0dbe-4699-a085-396eeefcf6ef",
+      "ts": "2026-09-23T07:52:59.984Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d34785ed-9ae8-4505-aacc-65879f85ea75",
       "ts": "2026-09-23T07:53:00.077Z",
       "workerId": "яя",
