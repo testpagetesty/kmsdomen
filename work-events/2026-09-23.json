@@ -29711,6 +29711,19 @@
       }
     },
     {
+      "id": "b88c59b1-969a-42b1-8946-7ae6da44e9a1",
+      "ts": "2026-09-23T12:37:36.074Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://buzzfuzzy.com"
+      }
+    },
+    {
       "id": "8a3b5b06-9511-4530-a014-4883b1d2efc5",
       "ts": "2026-09-23T12:37:39.770Z",
       "workerId": "хадыж",
@@ -29722,6 +29735,20 @@
         "name": "Хадыж",
         "host": "buzzfuzzy.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "c6da4aa0-2a1a-447e-ab4c-989a59c42762",
+      "ts": "2026-09-23T12:37:49.896Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
       }
     },
     {
@@ -29789,6 +29816,20 @@
       }
     },
     {
+      "id": "d79b6dce-5223-4a22-83fd-75a4865b71c9",
+      "ts": "2026-09-23T12:38:40.508Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c4b785bc-f259-4575-ab02-ee6888b296b5",
       "ts": "2026-09-23T12:38:58.038Z",
       "workerId": "хадыж",
@@ -29810,6 +29851,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "6e944d81-c481-4436-ad8d-d6b7dfc0ae9d",
+      "ts": "2026-09-23T12:39:12.157Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
       }
     }
   ]
