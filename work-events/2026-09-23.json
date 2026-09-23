@@ -35202,6 +35202,46 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "683a788e-b869-4917-b698-eedc3d70ab71",
+      "ts": "2026-09-23T13:44:25.042Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "50b45396-6b91-4542-ad99-04acc45da2ce",
+      "ts": "2026-09-23T13:44:45.039Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "59fa1c8d-0a83-48ac-b64d-c1b30aa2df8a",
+      "ts": "2026-09-23T13:45:10.607Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
