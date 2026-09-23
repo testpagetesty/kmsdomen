@@ -2831,6 +2831,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "82248211-c844-4161-938b-f5f8c43378df",
+      "ts": "2026-09-23T07:32:08.976Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
