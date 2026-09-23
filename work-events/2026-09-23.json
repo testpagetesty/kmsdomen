@@ -31254,6 +31254,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4bd76562-8bf1-4614-9825-6303336b5b2f",
+      "ts": "2026-09-23T12:51:53.929Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
