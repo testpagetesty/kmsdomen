@@ -32452,6 +32452,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e1aa1fdc-9e9e-40d4-b900-618b0519a856",
+      "ts": "2026-09-23T13:03:28.937Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "br",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://buzzfuzzy.com"
+      }
     }
   ]
 }
