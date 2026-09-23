@@ -11990,6 +11990,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c6cd63c0-2631-4bb6-9e7a-e44bd5a97075",
+      "ts": "2026-09-23T08:42:34.307Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
