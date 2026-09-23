@@ -3547,6 +3547,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "e6286b71-d9fb-4cf2-a16e-ddd04c0acace",
+      "ts": "2026-09-23T07:36:26.594Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
