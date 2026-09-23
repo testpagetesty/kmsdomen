@@ -18342,6 +18342,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "1ab95140-78ff-4333-9757-ddb34bd7a39e",
+      "ts": "2026-09-23T10:28:06.405Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
