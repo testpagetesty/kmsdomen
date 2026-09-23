@@ -24025,6 +24025,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9a655669-354b-44f8-9b3e-00270e523936",
+      "ts": "2026-09-23T11:15:25.808Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
