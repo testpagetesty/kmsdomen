@@ -35204,6 +35204,21 @@
       }
     },
     {
+      "id": "ad2b02a7-7b6e-4515-af48-92501286dc71",
+      "ts": "2026-09-23T13:41:00.942Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "co",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "683a788e-b869-4917-b698-eedc3d70ab71",
       "ts": "2026-09-23T13:44:25.042Z",
       "workerId": "яя",
