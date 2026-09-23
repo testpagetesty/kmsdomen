@@ -27728,6 +27728,20 @@
         "name": "Хадыж",
         "title": "El aceite también sirve para esto"
       }
+    },
+    {
+      "id": "517d141e-7117-4c16-a5fa-a5e829f71613",
+      "ts": "2026-09-23T11:54:17.412Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
