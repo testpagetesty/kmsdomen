@@ -20846,6 +20846,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "c793ee45-2ead-43a7-a0a2-c9133ed47bb9",
+      "ts": "2026-09-23T10:49:27.414Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
