@@ -29723,6 +29723,20 @@
         "host": "buzzfuzzy.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "5a6f5fa7-3ceb-4e3c-b36f-ba0dc981d63a",
+      "ts": "2026-09-23T12:37:54.377Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
