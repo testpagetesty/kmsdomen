@@ -7171,6 +7171,18 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "74db6f79-1164-4bcf-af6e-b06e3aa2d462",
+      "ts": "2026-09-23T08:03:47.943Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
