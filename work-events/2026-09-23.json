@@ -5122,6 +5122,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c0fa131c-a4c6-40c5-af2e-1dec59788648",
+      "ts": "2026-09-23T07:46:32.725Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
