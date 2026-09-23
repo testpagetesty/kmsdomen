@@ -11188,6 +11188,19 @@
       }
     },
     {
+      "id": "8efa74f4-1061-478c-a3e9-b07aec04a80b",
+      "ts": "2026-09-23T08:36:25.247Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "3092c5af-7ddb-4b0a-b73c-fb1ab534fe8d",
       "ts": "2026-09-23T08:36:25.249Z",
       "workerId": "хадыж",
