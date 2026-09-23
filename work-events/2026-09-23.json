@@ -9111,6 +9111,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "eea5fee1-6740-4e2d-9805-ce510f788ac4",
+      "ts": "2026-09-23T08:21:48.028Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
