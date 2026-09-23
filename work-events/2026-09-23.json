@@ -4623,6 +4623,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5588cdfd-7ffa-4151-bbca-75b4b0cad194",
+      "ts": "2026-09-23T07:42:55.898Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
