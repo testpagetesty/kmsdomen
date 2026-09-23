@@ -25020,6 +25020,18 @@
         "to": "nz",
         "source": "ip"
       }
+    },
+    {
+      "id": "e5756a19-fbfa-4bbd-933b-e8169c5a3f08",
+      "ts": "2026-09-23T11:23:51.809Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
