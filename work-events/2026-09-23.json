@@ -5815,6 +5815,19 @@
       }
     },
     {
+      "id": "61c13c0d-a8af-4190-b1a7-9e54a6ad365d",
+      "ts": "2026-09-23T07:51:30.102Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "563e17a1-c83a-4d40-8a9c-5f5445ed4aa8",
       "ts": "2026-09-23T07:51:30.998Z",
       "workerId": "яя",
