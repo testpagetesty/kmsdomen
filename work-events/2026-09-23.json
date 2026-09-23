@@ -15083,6 +15083,19 @@
       }
     },
     {
+      "id": "8f70df4d-ad7e-43dc-9d91-730791217e9c",
+      "ts": "2026-09-23T09:06:45.065Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "d0f59960-fdbf-4454-8947-15c8695f4f57",
       "ts": "2026-09-23T09:06:45.066Z",
       "workerId": "хадыж",
