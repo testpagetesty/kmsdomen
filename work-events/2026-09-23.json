@@ -36220,6 +36220,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "6aaacc28-3c5b-415b-a016-26d4e062c2e2",
+      "ts": "2026-09-23T14:40:16.421Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
