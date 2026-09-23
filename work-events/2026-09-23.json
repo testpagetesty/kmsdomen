@@ -19086,6 +19086,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "6e4bcf9d-948d-4d0c-87c7-29aa368f23fb",
+      "ts": "2026-09-23T10:34:11.885Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
