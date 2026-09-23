@@ -4292,6 +4292,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "345b34eb-8246-4dba-acdd-04a6f8a11e40",
+      "ts": "2026-09-23T07:40:59.438Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як почувати себе краще при болях у суглобах"
+      }
     }
   ]
 }
