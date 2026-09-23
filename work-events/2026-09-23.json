@@ -17638,6 +17638,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "115d1c5f-9ed4-4965-a9e3-080596fba1db",
+      "ts": "2026-09-23T10:20:36.889Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
