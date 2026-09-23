@@ -17229,6 +17229,20 @@
         "name": "Хадыж",
         "title": "Direkt 600'le giriş yap"
       }
+    },
+    {
+      "id": "58f89f24-0c5f-4e34-b6d9-196b38b17e9f",
+      "ts": "2026-09-23T09:35:19.289Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Türk usulü başla — büyük oyna"
+      }
     }
   ]
 }
