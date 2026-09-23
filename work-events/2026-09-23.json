@@ -8791,6 +8791,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cfd11277-1ba9-446e-a6e0-c641c276d694",
+      "ts": "2026-09-23T08:19:18.861Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "hastalık durumunda sosyal güvenlik"
+      }
     }
   ]
 }
