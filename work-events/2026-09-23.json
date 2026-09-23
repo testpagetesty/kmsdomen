@@ -22263,6 +22263,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "69328ca8-6827-407e-9ce3-a9a25f1ea93d",
+      "ts": "2026-09-23T11:00:51.643Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
