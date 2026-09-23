@@ -23522,6 +23522,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "b6bd4cbb-ccc5-4518-b7a7-01cf7135d941",
+      "ts": "2026-09-23T11:11:51.737Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
