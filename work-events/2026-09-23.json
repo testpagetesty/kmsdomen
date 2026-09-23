@@ -4120,6 +4120,19 @@
         "name": "Яя",
         "interest": "лікарі попереджають тріщини на п’ятах узимку -аптека -ліки -таблетки -wikipedia "
       }
+    },
+    {
+      "id": "e2b55886-79df-4ad1-9a20-0eab21f19d7c",
+      "ts": "2026-09-23T07:39:30.812Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
