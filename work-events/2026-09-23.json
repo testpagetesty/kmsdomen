@@ -35162,6 +35162,20 @@
         "host": "askproly.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "cddfd51b-7dbb-4d96-8821-ab08d0ecbb60",
+      "ts": "2026-09-23T13:36:34.134Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
