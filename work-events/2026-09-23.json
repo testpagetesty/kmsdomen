@@ -26802,6 +26802,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "48c5d247-d061-4895-9e36-6dea90614c70",
+      "ts": "2026-09-23T11:42:57.425Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
