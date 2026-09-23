@@ -10383,6 +10383,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "4823a95c-41d0-49f7-809c-28d2878e74a5",
+      "ts": "2026-09-23T08:30:38.690Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
