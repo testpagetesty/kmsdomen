@@ -7319,6 +7319,20 @@
       }
     },
     {
+      "id": "6e25f0f0-53d8-40ed-93fe-45a638791f18",
+      "ts": "2026-09-23T08:05:45.953Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c5d7a82c-1cb6-4d46-9a02-4531cfd3b32f",
       "ts": "2026-09-23T08:05:47.944Z",
       "workerId": "хадыж",
