@@ -7804,6 +7804,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "1ce21399-791c-4a30-ac67-5fccdad22e08",
+      "ts": "2026-09-23T08:10:37.315Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
