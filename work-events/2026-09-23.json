@@ -8277,6 +8277,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "d9b39a9d-bc23-4534-af2e-9fca1737b4d8",
+      "ts": "2026-09-23T08:14:32.808Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
