@@ -2885,6 +2885,32 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "862b950b-458c-43ce-801c-f91cf68fe9fc",
+      "ts": "2026-09-23T07:32:32.285Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
+      "id": "5d399a4d-3e73-4dcf-b5f4-bf9520dc99ac",
+      "ts": "2026-09-23T07:32:34.561Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
