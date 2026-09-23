@@ -9138,6 +9138,20 @@
       }
     },
     {
+      "id": "081d2788-7a21-42bc-859c-78cf3867d344",
+      "ts": "2026-09-23T08:22:00.830Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c9212626-edf1-46a1-80d5-b29afa9e0272",
       "ts": "2026-09-23T08:22:01.725Z",
       "workerId": "яя",
