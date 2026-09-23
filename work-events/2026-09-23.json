@@ -7210,6 +7210,20 @@
         "name": "Хадыж",
         "interest": "tv-nyheder i vores land om kryptovaluta"
       }
+    },
+    {
+      "id": "e87219b7-7ec9-4cae-8a52-028e503b0f40",
+      "ts": "2026-09-23T08:04:21.171Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
