@@ -567,6 +567,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "1249e31e-5031-4840-8e85-cb560d7dd052",
+      "ts": "2026-09-23T07:12:09.859Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
