@@ -5656,6 +5656,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "919d7486-1120-4246-bde7-7ec06e696901",
+      "ts": "2026-09-23T07:50:22.725Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "domácí způsoby podpory cév a žil"
+      }
     }
   ]
 }
