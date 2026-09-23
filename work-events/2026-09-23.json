@@ -29243,6 +29243,20 @@
         "name": "Хадыж",
         "url": "https://zagorje.com"
       }
+    },
+    {
+      "id": "ee0f89fe-37f6-42a5-96a8-a8fca89db4e1",
+      "ts": "2026-09-23T12:32:51.828Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
