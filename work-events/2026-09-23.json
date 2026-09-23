@@ -12695,6 +12695,20 @@
       }
     },
     {
+      "id": "448a9206-e955-4d8e-a353-765e39bd31b1",
+      "ts": "2026-09-23T08:47:20.818Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "699e0037-6682-4b2a-a411-902a65a7b5a5",
       "ts": "2026-09-23T08:47:21.152Z",
       "workerId": "яя",
