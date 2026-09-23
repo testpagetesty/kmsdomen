@@ -27634,6 +27634,19 @@
         "name": "Хадыж",
         "title": "Recupera Tu Virilidad"
       }
+    },
+    {
+      "id": "ab91a1fa-737e-4574-8551-21f493c1fe5c",
+      "ts": "2026-09-23T11:53:13.505Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
