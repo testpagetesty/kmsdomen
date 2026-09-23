@@ -30753,6 +30753,19 @@
         "host": "zagorje.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "debebcbc-8c66-431a-b508-695460dcc13c",
+      "ts": "2026-09-23T12:47:52.528Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити при проблемах зі шкірою та нігтями вдома"
+      }
     }
   ]
 }
