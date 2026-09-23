@@ -4441,6 +4441,20 @@
       }
     },
     {
+      "id": "f49cda91-918e-458c-907f-635efa0d71cf",
+      "ts": "2026-09-23T07:41:56.953Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "9644c4b9-7093-4592-ae1a-61ca19ad8aa6",
       "ts": "2026-09-23T07:41:59.407Z",
       "workerId": "яя",
