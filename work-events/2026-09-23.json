@@ -36012,6 +36012,18 @@
         "name": "Яя",
         "interest": "секрети домашнього догляду за шкірою"
       }
+    },
+    {
+      "id": "6d3f2dd7-eee9-4221-b732-799f16d4fb43",
+      "ts": "2026-09-23T14:36:16.412Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
