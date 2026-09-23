@@ -25187,6 +25187,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "55b9cd65-fe2e-4210-9376-ea647d920689",
+      "ts": "2026-09-23T11:26:02.209Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
