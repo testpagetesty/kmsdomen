@@ -21728,6 +21728,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "6fc6803b-6774-4f66-8487-9d4d931991b4",
+      "ts": "2026-09-23T10:56:48.337Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
