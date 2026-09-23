@@ -9813,6 +9813,18 @@
       }
     },
     {
+      "id": "f3307e68-de9d-46fd-bda7-a27b365b7f28",
+      "ts": "2026-09-23T08:27:30.451Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "a9012e27-3c9f-4e1c-b512-00c6150d9746",
       "ts": "2026-09-23T08:27:30.979Z",
       "workerId": "хадыж",
@@ -9876,6 +9888,20 @@
       "extra": {
         "name": "Хадыж",
         "interest": "işsizler için sosyal destek"
+      }
+    },
+    {
+      "id": "e70d68b4-03c7-40ac-b65b-1db3b313f581",
+      "ts": "2026-09-23T08:27:44.208Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
