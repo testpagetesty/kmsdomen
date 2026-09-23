@@ -23167,6 +23167,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6a389880-491f-4c81-ba3e-ecf6d20c75c7",
+      "ts": "2026-09-23T11:07:31.096Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
