@@ -22840,6 +22840,18 @@
       }
     },
     {
+      "id": "5aad0031-a74c-4e0e-ad63-39d4b7ad6b7c",
+      "ts": "2026-09-23T11:04:58.147Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "1e50835f-edee-48e3-8d30-0f281572f789",
       "ts": "2026-09-23T11:05:05.457Z",
       "workerId": "яя",
@@ -22851,6 +22863,20 @@
       "extra": {
         "name": "Яя",
         "source": "touch"
+      }
+    },
+    {
+      "id": "3ab29765-d8f9-417b-9567-f269583f8caa",
+      "ts": "2026-09-23T11:05:10.486Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
       }
     }
   ]
