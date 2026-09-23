@@ -15340,6 +15340,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "1d4e012b-b46d-4613-bd6e-adf8250aa1a8",
+      "ts": "2026-09-23T09:08:30.544Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
