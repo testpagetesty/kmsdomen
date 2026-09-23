@@ -16218,6 +16218,20 @@
         "name": "Хадыж",
         "title": "Do rána z vás paraziti vyjdou v chuchvalcích! Stačí kápnout do vody obyčejný..."
       }
+    },
+    {
+      "id": "e6aeb1dc-9722-444a-8bce-82f610770636",
+      "ts": "2026-09-23T09:14:45.486Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Chraňte své zdraví a trávení před nepříznivými vlivy"
+      }
     }
   ]
 }
