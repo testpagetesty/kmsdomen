@@ -7000,6 +7000,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "a2841212-c9d8-4495-a5ea-e22c94150564",
+      "ts": "2026-09-23T08:00:10.079Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
