@@ -16521,6 +16521,18 @@
         "name": "Хадыж",
         "title": "Myslete na svou postavu"
       }
+    },
+    {
+      "id": "b51a80e8-9743-44d3-9dd1-b71a8978399a",
+      "ts": "2026-09-23T09:17:30.562Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
