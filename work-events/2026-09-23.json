@@ -19988,6 +19988,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "7241684b-06e0-45c2-8bb4-69ae36d524e6",
+      "ts": "2026-09-23T10:41:32.370Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
