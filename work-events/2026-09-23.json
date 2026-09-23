@@ -16507,6 +16507,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "c2e9c6f6-0aaa-4a03-85c1-03ff5472cafa",
+      "ts": "2026-09-23T09:17:18.502Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Myslete na svou postavu"
+      }
     }
   ]
 }
