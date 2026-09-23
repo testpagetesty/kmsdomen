@@ -9085,6 +9085,20 @@
       }
     },
     {
+      "id": "31ee1fc9-1f71-4243-871b-dc225340e0ed",
+      "ts": "2026-09-23T08:21:40.754Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "fafdc85b-f850-4bc4-abfb-c56157668488",
       "ts": "2026-09-23T08:21:41.204Z",
       "workerId": "яя",
