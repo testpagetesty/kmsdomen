@@ -32267,6 +32267,18 @@
         "name": "Яя",
         "interest": "що робити якщо втомлюються очі вдома"
       }
+    },
+    {
+      "id": "38562ec6-8114-4662-bba2-835d2a8f2f57",
+      "ts": "2026-09-23T13:01:59.365Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
