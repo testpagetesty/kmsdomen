@@ -34947,6 +34947,33 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8a0c8069-eff2-403d-a995-8dcc9371889a",
+      "ts": "2026-09-23T13:33:23.769Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://23835473478.optionsl.com/detail/are_you_more_angel_or_devil__1772004934842.html"
+      }
+    },
+    {
+      "id": "6f58242b-cb99-45f7-a9b2-23a3e1e285a4",
+      "ts": "2026-09-23T13:33:27.819Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "23835473478.optionsl.com",
+        "source": "teaser"
+      }
     }
   ]
 }
