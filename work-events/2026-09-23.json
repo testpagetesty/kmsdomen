@@ -19962,6 +19962,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "b9a36cc4-f419-4617-a78f-d0d8688c0958",
+      "ts": "2026-09-23T10:41:24.249Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
