@@ -33436,6 +33436,19 @@
       }
     },
     {
+      "id": "60813eb6-07e7-40e6-9fbb-94e68d4a39e4",
+      "ts": "2026-09-23T13:13:52.691Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "tr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://buzzfuzzy.com"
+      }
+    },
+    {
       "id": "d25b5b2b-8752-4ad3-89ee-b2d96992b12a",
       "ts": "2026-09-23T13:13:54.083Z",
       "workerId": "яя",
@@ -33447,6 +33460,18 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "dc5a0bfc-d76a-4273-b74b-bad4eab33c7c",
+      "ts": "2026-09-23T13:13:59.383Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
       }
     }
   ]
