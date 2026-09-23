@@ -6418,6 +6418,19 @@
         "name": "Яя",
         "interest": "що робити при наборі зайвої ваги вдома"
       }
+    },
+    {
+      "id": "faf06d92-42a5-4eb1-8b34-a3c6c0991d83",
+      "ts": "2026-09-23T07:55:27.540Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
