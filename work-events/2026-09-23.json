@@ -1955,6 +1955,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "fd30d529-9602-46fe-a1e7-34a8e9ba8778",
+      "ts": "2026-09-23T07:24:55.544Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
