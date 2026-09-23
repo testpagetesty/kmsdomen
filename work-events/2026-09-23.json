@@ -31459,6 +31459,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "221916d1-3794-4e8c-a53e-2342716a2824",
+      "ts": "2026-09-23T12:53:07.269Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримувати здорову вагу та обмін речовин вдома"
+      }
     }
   ]
 }
