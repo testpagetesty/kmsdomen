@@ -91,6 +91,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2be52058-69a2-4492-99f3-c07c67f2d771",
+      "ts": "2026-09-23T06:58:32.206Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
