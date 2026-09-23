@@ -9243,6 +9243,19 @@
       }
     },
     {
+      "id": "11fa5194-a95c-4771-9464-a64d9358bda9",
+      "ts": "2026-09-23T08:22:41.148Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
+    },
+    {
       "id": "c45f7c23-6590-4d64-bfeb-bbdba231be67",
       "ts": "2026-09-23T08:22:43.717Z",
       "workerId": "яя",
