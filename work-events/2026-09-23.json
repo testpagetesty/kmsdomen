@@ -27810,6 +27810,20 @@
         "name": "Хадыж",
         "title": "Juega Hoy y Reclama Tu Bono"
       }
+    },
+    {
+      "id": "b8f66fdb-bf18-4f7e-863a-359ac54f4a67",
+      "ts": "2026-09-23T11:55:45.010Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Salud de la próstata después de los 40"
+      }
     }
   ]
 }
