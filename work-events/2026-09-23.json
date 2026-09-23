@@ -17215,6 +17215,20 @@
         "name": "Хадыж",
         "title": "600ғs'n sabırsızlanıyor"
       }
+    },
+    {
+      "id": "a7b83d01-1d5b-4035-8415-2289efc7d611",
+      "ts": "2026-09-23T09:34:55.818Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Direkt 600'le giriş yap"
+      }
     }
   ]
 }
