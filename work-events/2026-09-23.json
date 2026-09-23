@@ -6130,6 +6130,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "64ad40b4-e46b-4f17-8ef7-081f8b8899fe",
+      "ts": "2026-09-23T07:53:46.550Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
