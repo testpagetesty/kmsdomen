@@ -27164,6 +27164,19 @@
         "to": "ru",
         "source": "ip"
       }
+    },
+    {
+      "id": "991127c2-6716-4004-8790-7f286bc98249",
+      "ts": "2026-09-23T11:47:49.969Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
