@@ -11421,6 +11421,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "deb1c2ed-548d-4d7f-b602-ec54850ac3fa",
+      "ts": "2026-09-23T08:38:21.477Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
