@@ -37208,6 +37208,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "d15f901e-57b5-46e2-b3fa-15dc05161855",
+      "ts": "2026-09-23T15:01:36.461Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
