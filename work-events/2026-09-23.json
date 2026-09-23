@@ -4196,6 +4196,20 @@
         "name": "Яя",
         "interest": "лікарі попереджають перепади настрою після 45 -аптека -ліки -таблетки -wikipedia"
       }
+    },
+    {
+      "id": "53da3340-ded7-4130-a84c-51f2d0220cd6",
+      "ts": "2026-09-23T07:39:50.928Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
