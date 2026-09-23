@@ -26343,6 +26343,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "66c5f341-1c70-4930-8663-a218c08c6ab1",
+      "ts": "2026-09-23T11:37:54.616Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
