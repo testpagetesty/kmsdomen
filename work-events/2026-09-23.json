@@ -23481,6 +23481,20 @@
         "to": "co",
         "source": "ip"
       }
+    },
+    {
+      "id": "d54c9d0c-4803-45a5-b95e-f267184f6f94",
+      "ts": "2026-09-23T11:11:23.817Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
