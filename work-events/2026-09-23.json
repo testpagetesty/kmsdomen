@@ -22776,6 +22776,19 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8b189be5-cace-43dc-84cd-4ca92ead42c5",
+      "ts": "2026-09-23T11:04:45.843Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
