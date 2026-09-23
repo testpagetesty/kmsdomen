@@ -30951,6 +30951,19 @@
       }
     },
     {
+      "id": "c28890b9-2482-4e2a-9af2-9b376d347d4a",
+      "ts": "2026-09-23T12:49:14.370Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати зір вдома"
+      }
+    },
+    {
       "id": "0bcd4500-51b3-4321-8178-a2b0ca33439c",
       "ts": "2026-09-23T12:49:16.013Z",
       "workerId": "яя",
@@ -30962,6 +30975,19 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "478745fd-436b-4a5c-b259-d26ca875313f",
+      "ts": "2026-09-23T12:49:25.087Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "спосіб життя при високому тиску"
       }
     }
   ]
