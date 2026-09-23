@@ -22502,6 +22502,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "66879e86-3cfe-4b2a-b6fd-ee7f8dead893",
+      "ts": "2026-09-23T11:03:11.086Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
