@@ -21520,6 +21520,20 @@
         "name": "Хадыж",
         "interest": "cómo apoyar la salud masculina y la potencia en casa"
       }
+    },
+    {
+      "id": "177bbc94-084a-4c80-840b-e5bca33253f9",
+      "ts": "2026-09-23T10:55:07.242Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
