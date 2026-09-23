@@ -10526,6 +10526,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "c9297ffc-d71a-450f-94f4-8df7844aa554",
+      "ts": "2026-09-23T08:31:14.941Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають біль під ребром після жирного -аптека -ліки -таблетки -wikip"
+      }
     }
   ]
 }
