@@ -30263,6 +30263,20 @@
         "name": "Яя",
         "interest": "як підтримати здоров'я вен і судин вдома"
       }
+    },
+    {
+      "id": "9b2031f8-8c44-45e8-a2ca-4694095e67ac",
+      "ts": "2026-09-23T12:43:52.069Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
