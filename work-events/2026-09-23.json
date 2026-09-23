@@ -27540,6 +27540,18 @@
         "name": "Хадыж",
         "title": "Lo bebes cada día sin pensar en el riesgo."
       }
+    },
+    {
+      "id": "9bc1d271-45eb-4228-ade1-0d497010ce3c",
+      "ts": "2026-09-23T11:51:56.727Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
