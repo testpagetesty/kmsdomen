@@ -36440,6 +36440,19 @@
         "name": "Яя",
         "interest": "лайфхаки для зручності на кухні"
       }
+    },
+    {
+      "id": "cd5d309e-73d0-41db-aa4d-6ba4f0fd9063",
+      "ts": "2026-09-23T14:43:36.361Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "маленькі хитрощі для ідеальної страви"
+      }
     }
   ]
 }
