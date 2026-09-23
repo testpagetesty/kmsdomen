@@ -21310,6 +21310,18 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c7b2ec22-7d97-4594-92bd-ffdfebcd5383",
+      "ts": "2026-09-23T10:52:51.635Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
