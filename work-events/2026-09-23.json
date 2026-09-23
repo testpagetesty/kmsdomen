@@ -31121,6 +31121,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1b48fabd-de14-4fad-b719-21a9a1b3e5ab",
+      "ts": "2026-09-23T12:50:35.047Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки потенції та лібідо"
+      }
     }
   ]
 }
