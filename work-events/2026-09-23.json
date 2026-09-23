@@ -26080,6 +26080,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "47f94e27-3a3c-48aa-8899-626d321024c4",
+      "ts": "2026-09-23T11:33:15.663Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "us",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
