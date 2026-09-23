@@ -25457,6 +25457,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "524e32c5-67c2-44a9-9064-064f857bff9f",
+      "ts": "2026-09-23T11:28:54.009Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
