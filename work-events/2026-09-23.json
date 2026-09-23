@@ -19372,6 +19372,19 @@
       }
     },
     {
+      "id": "b5fb8e05-c79b-4e54-ae04-c2e35f3400fb",
+      "ts": "2026-09-23T10:36:51.007Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "subsídio de desemprego e ajuda estatal"
+      }
+    },
+    {
       "id": "7e35b56c-0a82-4e5a-aecb-dd5aa308ab2b",
       "ts": "2026-09-23T10:36:51.532Z",
       "workerId": "хадыж",
@@ -19448,6 +19461,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "aa86b962-68dc-40b5-9a7b-c84eb6a849d8",
+      "ts": "2026-09-23T10:37:04.391Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
       }
     }
   ]
