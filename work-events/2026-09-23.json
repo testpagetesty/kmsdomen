@@ -19332,6 +19332,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "f08f9a52-b08f-4ebd-8e8c-0570f0a6f55d",
+      "ts": "2026-09-23T10:36:37.181Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
