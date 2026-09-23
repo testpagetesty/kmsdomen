@@ -17089,6 +17089,20 @@
         "name": "Хадыж",
         "title": "Miras Paylaşımında Karar Zamanı. Aileden kalan değerli mülklerin paylaşımı farkl"
       }
+    },
+    {
+      "id": "6511108a-8f39-4d12-90fb-ce405d38b561",
+      "ts": "2026-09-23T09:31:10.248Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Bekleyiş Gerilimi Artırdı. Bekleyiş Sürdükçe, Konuşmanın Tonu Daha Ağır Ve Daha "
+      }
     }
   ]
 }
