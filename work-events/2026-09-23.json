@@ -19591,6 +19591,20 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "b9c2c278-b593-48a7-bb01-2a14f596842a",
+      "ts": "2026-09-23T10:38:15.747Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
