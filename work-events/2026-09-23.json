@@ -25253,6 +25253,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "3c4bd0cc-4d54-4bd1-917d-2b2f04f8f198",
+      "ts": "2026-09-23T11:26:59.753Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "how to support joints at home"
+      }
     }
   ]
 }
