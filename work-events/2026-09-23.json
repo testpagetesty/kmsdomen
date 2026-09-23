@@ -4251,6 +4251,21 @@
       }
     },
     {
+      "id": "d2953a7d-6085-4e2b-a89f-5fd17e3b5bf4",
+      "ts": "2026-09-23T07:40:33.916Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "cz",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "997e3504-d167-44d1-b3df-08619a225ff1",
       "ts": "2026-09-23T07:40:36.929Z",
       "workerId": "яя",
