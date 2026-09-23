@@ -17159,6 +17159,20 @@
         "name": "Хадыж",
         "title": "Yeni oyuncu musun? O zaman daha fazlasın"
       }
+    },
+    {
+      "id": "10f2d875-05d0-4364-8080-e36fb0ba6b29",
+      "ts": "2026-09-23T09:33:19.887Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "600 FES ile bulmaca macerası"
+      }
     }
   ]
 }
