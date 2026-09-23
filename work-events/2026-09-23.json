@@ -22120,6 +22120,18 @@
       }
     },
     {
+      "id": "a0ee8742-a0d4-4f23-93b7-b31f926bc94e",
+      "ts": "2026-09-23T10:59:56.576Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "57cb1e56-3c38-4fcf-a6c4-1fba1d7931f6",
       "ts": "2026-09-23T10:59:56.662Z",
       "workerId": "хадыж",
