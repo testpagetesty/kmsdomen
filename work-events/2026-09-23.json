@@ -17690,6 +17690,18 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "47f144ef-1dd2-4f16-bcb6-b8558b2444ab",
+      "ts": "2026-09-23T10:21:36.891Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
