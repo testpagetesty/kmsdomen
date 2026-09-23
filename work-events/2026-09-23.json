@@ -15991,6 +15991,19 @@
       }
     },
     {
+      "id": "f416ace6-d243-4e15-8bcb-2b5d3a20a535",
+      "ts": "2026-09-23T09:13:03.286Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
+    },
+    {
       "id": "dfed469b-f8d0-457a-9215-e66b65f1ed5f",
       "ts": "2026-09-23T09:13:10.350Z",
       "workerId": "яя",
