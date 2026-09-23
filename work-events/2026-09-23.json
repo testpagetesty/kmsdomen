@@ -8434,6 +8434,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "128c0d25-48ad-4896-bcbe-9395abefcf2f",
+      "ts": "2026-09-23T08:16:01.532Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають печію вночі коли лягаєш -аптека -ліки -таблетки -wikipedia -"
+      }
     }
   ]
 }
