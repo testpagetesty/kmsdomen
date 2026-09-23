@@ -29363,6 +29363,20 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a2278377-805e-4dbd-9f22-8dc9db470a81",
+      "ts": "2026-09-23T12:34:03.567Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
