@@ -23104,6 +23104,20 @@
       }
     },
     {
+      "id": "0e33a7fd-2392-4b72-b428-1820c7a55e0d",
+      "ts": "2026-09-23T11:07:09.073Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "adc84263-5e26-45a2-a2a1-85da96cd4507",
       "ts": "2026-09-23T11:07:09.248Z",
       "workerId": "хадыж",
