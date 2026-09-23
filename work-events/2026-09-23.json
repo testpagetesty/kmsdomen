@@ -16619,6 +16619,20 @@
       }
     },
     {
+      "id": "abf1d2bb-5e3a-4dcb-b750-edd8e879d1c1",
+      "ts": "2026-09-23T09:18:30.421Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Získejte zpět ostré vidění"
+      }
+    },
+    {
       "id": "6181b5f4-c59d-4fee-9f97-4f12c47fc1a4",
       "ts": "2026-09-23T09:18:30.566Z",
       "workerId": "яя",
