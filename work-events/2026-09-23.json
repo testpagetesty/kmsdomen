@@ -11029,6 +11029,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "5fac7fef-db39-4b91-aaa6-67e9602d7223",
+      "ts": "2026-09-23T08:35:07.078Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
