@@ -29565,6 +29565,18 @@
         "to": "ua",
         "source": "ip"
       }
+    },
+    {
+      "id": "dc70c863-b8b3-48e7-88bf-9b93438124e1",
+      "ts": "2026-09-23T12:35:58.037Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
