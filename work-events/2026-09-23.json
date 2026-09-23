@@ -11808,6 +11808,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "23326d60-22a9-492d-bb67-b5936c7d7f5b",
+      "ts": "2026-09-23T08:41:22.331Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
