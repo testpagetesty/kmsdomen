@@ -32705,6 +32705,20 @@
         "host": "regionalobala.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "5386c753-e639-4c7a-87d2-2c347232aa60",
+      "ts": "2026-09-23T13:05:29.183Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
