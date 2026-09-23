@@ -32758,6 +32758,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "175eea6c-693b-46f4-a3af-cc33ad262ab4",
+      "ts": "2026-09-23T13:05:59.858Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
