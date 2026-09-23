@@ -26397,6 +26397,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "d686b21d-945e-4a6c-9204-eadaa5040834",
+      "ts": "2026-09-23T11:38:51.864Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
