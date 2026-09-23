@@ -7435,6 +7435,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "5474aa2b-ea78-4ead-b3a2-7fe08806be72",
+      "ts": "2026-09-23T08:07:12.516Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
