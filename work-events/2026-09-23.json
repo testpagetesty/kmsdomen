@@ -24142,6 +24142,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "346fb92f-fbcb-4e98-a7ad-b7688b6b79a1",
+      "ts": "2026-09-23T11:16:49.721Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
