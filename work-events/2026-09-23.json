@@ -15018,6 +15018,19 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "a5fb4419-16a6-4b79-93d4-02aa78b41d5d",
+      "ts": "2026-09-23T09:06:23.065Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
