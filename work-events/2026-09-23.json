@@ -33025,6 +33025,18 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cae75c1b-f19e-4c89-a555-97bb54b8e88b",
+      "ts": "2026-09-23T13:08:59.376Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
