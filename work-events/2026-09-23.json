@@ -22789,6 +22789,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "fa9e3b51-07bc-4de7-9513-a956ad323fdc",
+      "ts": "2026-09-23T11:04:51.686Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
