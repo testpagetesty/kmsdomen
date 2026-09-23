@@ -1417,6 +1417,19 @@
       }
     },
     {
+      "id": "48696dae-cd9e-4347-bdd6-46c9d3211021",
+      "ts": "2026-09-23T07:19:33.897Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "b2ca55fa-cb09-47b2-a7e8-42a4d5849a6e",
       "ts": "2026-09-23T07:19:33.898Z",
       "workerId": "хадыж",
@@ -1424,6 +1437,18 @@
       "deviceTz": "Europe/Prague",
       "geo": "cz",
       "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "fcf232ec-26e5-4b19-8818-08d1e6b01719",
+      "ts": "2026-09-23T07:19:47.022Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
       "extra": {
         "name": "Хадыж"
       }
