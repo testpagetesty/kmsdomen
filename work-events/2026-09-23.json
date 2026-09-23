@@ -4884,6 +4884,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "65e83326-2a92-4e0b-ab61-19e15822361f",
+      "ts": "2026-09-23T07:44:40.730Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
