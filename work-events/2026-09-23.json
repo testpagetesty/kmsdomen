@@ -16399,6 +16399,20 @@
         "name": "Хадыж",
         "title": "Spalovač tuku na břiše"
       }
+    },
+    {
+      "id": "d539c251-f695-41a6-9070-1f5c267012f3",
+      "ts": "2026-09-23T09:16:27.299Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Už žádná plíseň na nohou"
+      }
     }
   ]
 }
