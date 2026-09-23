@@ -35449,6 +35449,21 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "415d1c0c-6b64-44e1-918f-71e3618190c3",
+      "ts": "2026-09-23T13:50:41.613Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Яя",
+        "from": "ua",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
