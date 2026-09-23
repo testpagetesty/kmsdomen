@@ -11821,6 +11821,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "a731d623-b340-43a3-b50a-2a2d836ccf99",
+      "ts": "2026-09-23T08:41:27.658Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
