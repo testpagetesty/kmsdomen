@@ -16018,6 +16018,20 @@
       }
     },
     {
+      "id": "2f704547-dee4-4a49-8522-e27235bc580e",
+      "ts": "2026-09-23T09:13:15.841Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Posilte své mužství s denní péčí pro zralé muže"
+      }
+    },
+    {
       "id": "332b5a05-6b67-4ecf-a897-b9c0aab3e739",
       "ts": "2026-09-23T09:13:30.382Z",
       "workerId": "яя",
