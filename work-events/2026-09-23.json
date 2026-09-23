@@ -17131,6 +17131,20 @@
         "name": "Хадыж",
         "title": "Başlangıçta büyük bir hediye!"
       }
+    },
+    {
+      "id": "262f92f3-23e4-4469-8aee-6222c2e88aee",
+      "ts": "2026-09-23T09:32:30.731Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Efsanevi Macera Başlıyor!"
+      }
     }
   ]
 }
