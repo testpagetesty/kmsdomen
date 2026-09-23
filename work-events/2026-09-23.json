@@ -9486,6 +9486,19 @@
       }
     },
     {
+      "id": "8adb6845-8a20-43f6-bac3-8dab4a15b7a1",
+      "ts": "2026-09-23T08:24:25.325Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "bd96d5ba-2b55-44d9-bc68-d43d1a917b68",
       "ts": "2026-09-23T08:24:32.838Z",
       "workerId": "яя",
@@ -9495,6 +9508,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "f10d1b0a-7378-4843-9126-31cc338f0b20",
+      "ts": "2026-09-23T08:24:36.228Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "düşük gelirli vatandaşlar için devlet sübvansiyonları"
       }
     }
   ]
