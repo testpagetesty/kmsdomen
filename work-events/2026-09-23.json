@@ -7819,6 +7819,18 @@
       }
     },
     {
+      "id": "8b7a2ef8-250b-40aa-b139-e726f6fc5a46",
+      "ts": "2026-09-23T08:10:44.380Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "afd05143-0f3e-4332-ba12-2a59d2b03d1b",
       "ts": "2026-09-23T08:10:44.392Z",
       "workerId": "хадыж",
