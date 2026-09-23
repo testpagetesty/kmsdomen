@@ -6496,6 +6496,31 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2e2aa6db-124f-4356-8eb7-b24e9e762915",
+      "ts": "2026-09-23T07:55:43.140Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "6ab262df-c5e1-452d-b2ac-81602970dd46",
+      "ts": "2026-09-23T07:55:43.140Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
