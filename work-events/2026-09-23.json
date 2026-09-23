@@ -5068,6 +5068,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6dbbbfe6-b935-4796-aaa6-7bf6aaecdb2d",
+      "ts": "2026-09-23T07:45:47.926Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
