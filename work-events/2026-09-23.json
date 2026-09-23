@@ -24634,6 +24634,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "717c9528-9b8f-4389-93df-74c12b8a4ed1",
+      "ts": "2026-09-23T11:20:51.796Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
