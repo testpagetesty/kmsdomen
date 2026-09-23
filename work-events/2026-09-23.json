@@ -26460,6 +26460,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "e2bc3bab-7010-4a93-8c16-8c9539b602bb",
+      "ts": "2026-09-23T11:39:13.573Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
