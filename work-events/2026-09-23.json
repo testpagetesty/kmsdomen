@@ -4424,6 +4424,21 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "64fccc7d-d9f4-4c69-a31b-736c292425ff",
+      "ts": "2026-09-23T07:41:48.097Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "ru",
+        "to": "cz",
+        "source": "ip"
+      }
     }
   ]
 }
