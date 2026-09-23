@@ -35634,6 +35634,32 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "001db753-d37f-4a9a-a767-1e9a497b5921",
+      "ts": "2026-09-23T14:30:17.285Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "c62a5b98-dbf3-460c-a88d-1a4aabf298e1",
+      "ts": "2026-09-23T14:30:24.293Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають постійну спрагу ввечері -аптека -ліки -таблетки -wikipedia -"
+      }
     }
   ]
 }
