@@ -14532,6 +14532,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "85df380c-3c1a-4095-a785-5d2b57ba4597",
+      "ts": "2026-09-23T09:00:41.621Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
