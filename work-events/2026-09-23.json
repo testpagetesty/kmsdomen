@@ -35738,6 +35738,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "1695a14b-c41a-4d58-b97a-1930101e9ecc",
+      "ts": "2026-09-23T14:32:43.479Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
