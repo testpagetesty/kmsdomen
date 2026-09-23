@@ -30766,6 +30766,19 @@
         "name": "Яя",
         "interest": "що робити при проблемах зі шкірою та нігтями вдома"
       }
+    },
+    {
+      "id": "ec37d1ce-e6d1-4c9f-8fd8-163f89253e38",
+      "ts": "2026-09-23T12:47:53.098Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
