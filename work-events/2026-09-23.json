@@ -20198,6 +20198,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "080c0af7-0b31-4534-97e0-7e0ca8f0b84e",
+      "ts": "2026-09-23T10:43:37.278Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
