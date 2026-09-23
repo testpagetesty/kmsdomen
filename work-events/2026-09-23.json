@@ -7868,6 +7868,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "31a0b8cb-7a19-4e3f-9a28-5e02bbc6a3ee",
+      "ts": "2026-09-23T08:10:54.050Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
