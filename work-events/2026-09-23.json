@@ -27231,6 +27231,19 @@
       }
     },
     {
+      "id": "b430de04-445d-45b9-b0d2-ede1532f0fcc",
+      "ts": "2026-09-23T11:48:24.528Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "2e7a7b30-6956-4adf-bd86-bd02e0d4e114",
       "ts": "2026-09-23T11:48:25.132Z",
       "workerId": "хадыж",
