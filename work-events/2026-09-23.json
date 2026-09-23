@@ -19843,6 +19843,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2143bd33-678a-4137-bd60-b6d42382b1dc",
+      "ts": "2026-09-23T10:40:34.399Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
