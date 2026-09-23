@@ -30592,6 +30592,19 @@
         "name": "Хадыж",
         "url": "https://primainspirace.cz"
       }
+    },
+    {
+      "id": "21ec2231-af01-4e8b-901d-29050696aa6e",
+      "ts": "2026-09-23T12:46:27.038Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити при підвищеному тиску вдома"
+      }
     }
   ]
 }
