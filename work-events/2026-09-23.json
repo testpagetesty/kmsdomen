@@ -17019,6 +17019,20 @@
         "name": "Хадыж",
         "title": "2.050 kr – en klar start i Danmark"
       }
+    },
+    {
+      "id": "5c4d4388-3dbc-4787-8192-27bc3c3f99e8",
+      "ts": "2026-09-23T09:28:16.156Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Hvad betyder flere år på arbejdsmarkedet. Se hvordan arbejdsår kan indgå i bereg"
+      }
     }
   ]
 }
