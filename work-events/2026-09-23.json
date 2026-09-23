@@ -17495,6 +17495,19 @@
         "name": "Хадыж",
         "title": "Bugün küçük bir sürpriz var"
       }
+    },
+    {
+      "id": "44724c0e-b88e-4ef5-b83e-9174ca3b1d9f",
+      "ts": "2026-09-23T10:15:32.634Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
