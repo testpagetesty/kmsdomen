@@ -22710,6 +22710,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "8a276003-f358-4ff8-82bb-a3f4c9d73d7f",
+      "ts": "2026-09-23T11:04:22.218Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
