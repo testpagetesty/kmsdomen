@@ -6535,6 +6535,20 @@
       }
     },
     {
+      "id": "ebcf735e-7e21-4512-ba8c-417b3c8f6429",
+      "ts": "2026-09-23T07:56:04.339Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "2493aeb6-236a-4217-ab17-b235fea93fa4",
       "ts": "2026-09-23T07:56:18.439Z",
       "workerId": "хадыж",
@@ -6559,6 +6573,31 @@
       "extra": {
         "name": "Яя",
         "interest": "як підтримати слух вдома"
+      }
+    },
+    {
+      "id": "91a93b03-7996-430a-91bd-a28a9a366c67",
+      "ts": "2026-09-23T07:56:32.746Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
+      "id": "92d50e1a-f95e-4522-899f-221ffb3f414f",
+      "ts": "2026-09-23T07:56:38.751Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
