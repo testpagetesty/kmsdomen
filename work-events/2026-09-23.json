@@ -29150,6 +29150,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "ab392f8f-be23-4d6e-8c63-333f8f3fac39",
+      "ts": "2026-09-23T12:31:46.224Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
