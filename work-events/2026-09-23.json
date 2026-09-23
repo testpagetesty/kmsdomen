@@ -4158,6 +4158,19 @@
         "name": "Яя",
         "interest": "лікарі попереджають печію вночі коли лягаєш -аптека -ліки -таблетки -wikipedia -"
       }
+    },
+    {
+      "id": "b95122ea-3dce-4fc2-ad66-38c09bcf2513",
+      "ts": "2026-09-23T07:39:40.481Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають ламкі нігті після 50 -аптека -ліки -таблетки -wikipedia -sit"
+      }
     }
   ]
 }
