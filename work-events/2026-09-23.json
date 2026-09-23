@@ -11678,6 +11678,19 @@
         "name": "Яя",
         "interest": "лікарі попереджають слабку ерекцію після 40 -аптека -ліки -таблетки -wikipedia -"
       }
+    },
+    {
+      "id": "724b73bd-7fc6-4d70-b357-dc2ebdf88f0d",
+      "ts": "2026-09-23T08:40:04.875Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
