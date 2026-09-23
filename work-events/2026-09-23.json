@@ -25912,6 +25912,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7b0071e8-f8d5-4b92-b5ce-d5938dfdf5ab",
+      "ts": "2026-09-23T11:31:52.256Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
