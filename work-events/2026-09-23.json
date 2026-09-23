@@ -17729,6 +17729,19 @@
       }
     },
     {
+      "id": "45bdeee3-b96b-48bf-a6c8-234c482ee3c2",
+      "ts": "2026-09-23T10:21:46.291Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "9a26e224-3364-4328-82a4-0269752a9194",
       "ts": "2026-09-23T10:21:46.294Z",
       "workerId": "хадыж",
