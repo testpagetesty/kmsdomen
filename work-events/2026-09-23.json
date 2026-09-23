@@ -35805,6 +35805,33 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5dad8291-e034-43f4-b80b-44d6c0a6d6ff",
+      "ts": "2026-09-23T14:33:47.029Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "bb81c713-358f-4726-9b40-67ce6aeadc87",
+      "ts": "2026-09-23T14:34:07.132Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
