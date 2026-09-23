@@ -30726,6 +30726,33 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c675663c-7650-4807-8282-762cd3dcfbf7",
+      "ts": "2026-09-23T12:47:44.839Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://zagorje.com"
+      }
+    },
+    {
+      "id": "be8b865e-8982-4a0f-9c34-5397b156a4b6",
+      "ts": "2026-09-23T12:47:51.734Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "dk",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
