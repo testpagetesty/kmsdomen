@@ -14453,6 +14453,20 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "4759a43e-539f-4844-ac7f-c67a0bfc58ec",
+      "ts": "2026-09-23T09:00:13.723Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
