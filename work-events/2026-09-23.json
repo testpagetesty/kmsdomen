@@ -34377,8 +34377,34 @@
       }
     },
     {
+      "id": "106ea3a3-72c2-481e-b057-bb3d9f49ecff",
+      "ts": "2026-09-23T13:22:59.404Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "d2accb68-8188-404f-8005-f78259a44e96",
       "ts": "2026-09-23T13:23:00.248Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "4840271c-537e-49f7-9e7c-ff2d61d86581",
+      "ts": "2026-09-23T13:23:25.164Z",
       "workerId": "хадыж",
       "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
       "deviceTz": "America/New_York",
