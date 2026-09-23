@@ -34139,6 +34139,20 @@
       }
     },
     {
+      "id": "4c611a32-dfc6-4370-89a4-9c8f0c4ef85e",
+      "ts": "2026-09-23T13:20:37.549Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
+    },
+    {
       "id": "5f0226de-0535-435f-bcde-5a9927f4658e",
       "ts": "2026-09-23T13:20:37.763Z",
       "workerId": "хадыж",
@@ -34162,6 +34176,46 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "a8be9b8f-10b3-41a3-b0f5-39e9ce189dd6",
+      "ts": "2026-09-23T13:20:48.384Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Хадыж",
+        "host": "s1.quizdays.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "f78062e0-b7b0-4073-a8c1-9cd6986ee0c3",
+      "ts": "2026-09-23T13:20:49.724Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "ced537bf-dad3-465b-8099-a8dde349dcd4",
+      "ts": "2026-09-23T13:20:59.401Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
       }
     }
   ]
