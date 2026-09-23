@@ -33689,6 +33689,19 @@
       }
     },
     {
+      "id": "8682e141-67ae-4c22-b614-b4833b4ff3bb",
+      "ts": "2026-09-23T13:16:15.712Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "tr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://regionalobala.si"
+      }
+    },
+    {
       "id": "27f285ca-3cef-48fa-aa68-732a73414b1e",
       "ts": "2026-09-23T13:16:15.783Z",
       "workerId": "яя",
