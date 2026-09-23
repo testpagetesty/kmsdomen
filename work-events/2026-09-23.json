@@ -24102,6 +24102,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "866e3d7f-1f65-4932-8348-2f7cf95b3ba7",
+      "ts": "2026-09-23T11:16:09.567Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
