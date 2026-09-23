@@ -25279,6 +25279,19 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "b0254c74-5518-4e73-b921-683dc69e991a",
+      "ts": "2026-09-23T11:27:07.323Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "what to do with high blood pressure at home"
+      }
     }
   ]
 }
