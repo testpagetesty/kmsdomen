@@ -4080,6 +4080,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "88a19426-aad4-47a8-9af3-e894285f499a",
+      "ts": "2026-09-23T07:39:06.821Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають здуття після вечері -аптека -ліки -таблетки -wikipedia -site"
+      }
     }
   ]
 }
