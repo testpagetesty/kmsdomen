@@ -20038,6 +20038,21 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "c2de2d19-a4a9-4591-a574-2e139a3426fb",
+      "ts": "2026-09-23T10:41:55.847Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Яя",
+        "from": "ru",
+        "to": "ua",
+        "source": "ip"
+      }
     }
   ]
 }
