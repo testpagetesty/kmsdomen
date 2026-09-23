@@ -3964,6 +3964,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "5c41bc51-3922-4ecd-8487-273792583271",
+      "ts": "2026-09-23T07:38:42.656Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
