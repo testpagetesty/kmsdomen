@@ -20948,6 +20948,20 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "a6cd0ee1-53a5-418d-982f-03f13c4c5572",
+      "ts": "2026-09-23T10:50:21.450Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "touch"
+      }
     }
   ]
 }
