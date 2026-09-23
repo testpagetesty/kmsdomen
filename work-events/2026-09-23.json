@@ -31422,6 +31422,18 @@
       }
     },
     {
+      "id": "e5cf2478-ac06-4a12-b91a-b6bb23d2fd82",
+      "ts": "2026-09-23T12:52:59.836Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "58a373bc-2017-4b01-8c49-8d793f355b08",
       "ts": "2026-09-23T12:53:00.113Z",
       "workerId": "яя",
