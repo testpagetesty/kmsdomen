@@ -20013,6 +20013,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "415bc40c-1b7f-4725-affc-f6483ecbe838",
+      "ts": "2026-09-23T10:41:37.269Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
