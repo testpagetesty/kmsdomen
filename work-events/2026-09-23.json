@@ -27756,6 +27756,20 @@
         "name": "Хадыж",
         "title": "Salud de la próstata después de los 40"
       }
+    },
+    {
+      "id": "a3547d86-a5f8-4604-8cc1-6e5c958ff334",
+      "ts": "2026-09-23T11:54:56.207Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "La comodidad vuelve a tu rutina"
+      }
     }
   ]
 }
