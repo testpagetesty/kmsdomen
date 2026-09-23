@@ -30451,6 +30451,19 @@
       }
     },
     {
+      "id": "ff87683a-8148-4b13-99b2-4cd9153fda79",
+      "ts": "2026-09-23T12:45:39.084Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати чоловіче здоров'я та потенцію вдома"
+      }
+    },
+    {
       "id": "33c8448c-b34d-49e0-810d-8e75a506fa51",
       "ts": "2026-09-23T12:45:49.097Z",
       "workerId": "хадыж",
@@ -30462,6 +30475,19 @@
       "extra": {
         "name": "Хадыж",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "dc564a7a-846d-4869-b2a7-6c4ef3881e7f",
+      "ts": "2026-09-23T12:45:54.526Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати здоров'я шкіри та нігтів вдома"
       }
     }
   ]
