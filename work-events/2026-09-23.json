@@ -24466,6 +24466,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "13e9c8df-ec1f-484e-bf3a-98ca5d0e6796",
+      "ts": "2026-09-23T11:19:20.307Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
