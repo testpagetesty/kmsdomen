@@ -25649,6 +25649,19 @@
       }
     },
     {
+      "id": "4446dc80-35e0-4fd7-b45c-562d878ef3e9",
+      "ts": "2026-09-23T11:29:57.928Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "825544f0-f510-416e-a24d-4acd60e3b7b7",
       "ts": "2026-09-23T11:29:59.773Z",
       "workerId": "хадыж",
@@ -25673,6 +25686,18 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "f6604bcf-966f-428d-830f-928171eb5ee7",
+      "ts": "2026-09-23T11:30:06.093Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
       }
     }
   ]
