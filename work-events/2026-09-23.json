@@ -8764,6 +8764,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "78020215-6a44-4fde-8e0c-6a0cda6f1cdd",
+      "ts": "2026-09-23T08:19:13.507Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Хадыж",
+        "interest": "genç aileler için devlet desteği"
+      }
     }
   ]
 }
