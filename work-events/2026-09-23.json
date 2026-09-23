@@ -25228,6 +25228,19 @@
         "name": "Хадыж",
         "interest": "how to feel better with decreased potency"
       }
+    },
+    {
+      "id": "1e12bb6f-7f77-4c45-9ad8-15704ac48951",
+      "ts": "2026-09-23T11:26:43.527Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
