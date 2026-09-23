@@ -9279,6 +9279,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "4ff8d94d-2891-4fe6-9d1e-783cdf8f9cc3",
+      "ts": "2026-09-23T08:23:03.048Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
