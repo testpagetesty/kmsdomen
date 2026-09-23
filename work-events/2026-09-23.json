@@ -34231,6 +34231,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "dcc2ea74-f392-4dee-9950-a1c8c1ff1df9",
+      "ts": "2026-09-23T13:21:10.249Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
