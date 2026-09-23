@@ -30093,6 +30093,21 @@
       }
     },
     {
+      "id": "345133f1-f31a-45cb-83c1-ec7c830cde09",
+      "ts": "2026-09-23T12:41:58.952Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "dk",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Хадыж",
+        "from": "cz",
+        "to": "dk",
+        "source": "ip"
+      }
+    },
+    {
       "id": "13f3c487-a3fe-4426-ac63-c5bc10080334",
       "ts": "2026-09-23T12:41:59.808Z",
       "workerId": "яя",
@@ -30102,6 +30117,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "dc4a0107-6ae8-4a66-99cc-3dd2e38e834b",
+      "ts": "2026-09-23T12:42:12.009Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Хадыж",
+        "url": "https://regionalobala.si"
       }
     }
   ]
