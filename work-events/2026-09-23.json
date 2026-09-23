@@ -32136,6 +32136,19 @@
       }
     },
     {
+      "id": "95ca75a1-c118-4aee-8eeb-5eae32ddd0cd",
+      "ts": "2026-09-23T13:00:58.703Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як почувати себе краще при стрибках цукру"
+      }
+    },
+    {
       "id": "01dbbb56-b958-41c4-bc58-3cb2ade0e100",
       "ts": "2026-09-23T13:00:59.362Z",
       "workerId": "хадыж",
@@ -32170,6 +32183,20 @@
       "event": "user_active",
       "extra": {
         "name": "Хадыж",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "ab5427db-ef43-4df3-bca5-11dd04da160c",
+      "ts": "2026-09-23T13:01:18.186Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
         "source": "scroll"
       }
     }
