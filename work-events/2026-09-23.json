@@ -11120,6 +11120,19 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "9bbc4d2d-92b9-4d32-86e7-40ce4b6f59d6",
+      "ts": "2026-09-23T08:36:08.655Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
