@@ -17187,6 +17187,20 @@
         "name": "Хадыж",
         "title": "Olimpos'un Yıldırımları!"
       }
+    },
+    {
+      "id": "f3568c41-4f18-4da8-a03b-bb1b5a150827",
+      "ts": "2026-09-23T09:34:06.870Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Direkt 600'le başla"
+      }
     }
   ]
 }
