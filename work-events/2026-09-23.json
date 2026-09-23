@@ -12627,6 +12627,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "49b3ed37-d774-4d45-8670-2e81e10423c8",
+      "ts": "2026-09-23T08:46:48.225Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
