@@ -17117,6 +17117,20 @@
         "name": "Хадыж",
         "title": "Başlangıçta büyük bir hediye!"
       }
+    },
+    {
+      "id": "80db266e-fa35-4b99-9df1-d3365b20087c",
+      "ts": "2026-09-23T09:32:06.977Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Хадыж",
+        "title": "Başlangıçta büyük bir hediye!"
+      }
     }
   ]
 }
