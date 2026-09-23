@@ -11768,6 +11768,19 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "c7928c38-0c9f-4e4f-9337-c4ba0f0bf25b",
+      "ts": "2026-09-23T08:40:59.642Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
