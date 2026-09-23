@@ -19657,6 +19657,21 @@
         "name": "Хадыж",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8bc9eb58-669a-4130-8970-0fd9861e846b",
+      "ts": "2026-09-23T10:38:54.803Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Яя",
+        "from": "ua",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
