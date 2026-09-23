@@ -5576,6 +5576,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "dc47324c-3fc5-498a-8f3c-92a7b3b0fa92",
+      "ts": "2026-09-23T07:49:36.039Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "scroll"
+      }
     }
   ]
 }
