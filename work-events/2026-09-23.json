@@ -12030,6 +12030,19 @@
       }
     },
     {
+      "id": "7781f428-0ba5-4d50-9f3c-325f7b39ed3e",
+      "ts": "2026-09-23T08:42:41.192Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
       "id": "cb0ef50b-5b55-4c14-89c3-c4b183fccad9",
       "ts": "2026-09-23T08:42:41.194Z",
       "workerId": "хадыж",
@@ -12037,6 +12050,18 @@
       "deviceTz": "Europe/Istanbul",
       "geo": "tr",
       "event": "capture_resume",
+      "extra": {
+        "name": "Хадыж"
+      }
+    },
+    {
+      "id": "96af64b2-42a2-4e8a-969f-b1e3aeb08ca5",
+      "ts": "2026-09-23T08:42:48.165Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
       "extra": {
         "name": "Хадыж"
       }
