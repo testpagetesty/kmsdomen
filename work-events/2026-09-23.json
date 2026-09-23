@@ -6743,6 +6743,18 @@
         "name": "Хадыж",
         "source": "touch"
       }
+    },
+    {
+      "id": "21a7d3fe-6fa6-4dee-a98d-27e5961c7819",
+      "ts": "2026-09-23T07:57:57.977Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Хадыж"
+      }
     }
   ]
 }
