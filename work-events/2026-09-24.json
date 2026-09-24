@@ -25535,6 +25535,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3341923e-3b73-4be7-9904-215489883e0f",
+      "ts": "2026-09-24T08:48:00.334Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "IA bajo la lupa financiera. El debate sobre nuevas herramientas de análisis está"
+      }
     }
   ]
 }
