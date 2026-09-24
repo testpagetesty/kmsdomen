@@ -26701,6 +26701,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "64b2ab64-41bd-4a55-80b9-648ef21d2c9b",
+      "ts": "2026-09-24T08:58:14.032Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Graba locuciones, voces y mensajes en un entorno cómodo, pensado para capturar t"
+      }
     }
   ]
 }
