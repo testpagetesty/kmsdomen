@@ -25989,6 +25989,20 @@
         "name": "Костя 1",
         "title": "Bir Anda Herkes Durdu. Meydandaki Hareket Bir Anda Kesildi. İnsanların Dikkati A"
       }
+    },
+    {
+      "id": "808514c5-afe5-4e72-9467-4209efc65d16",
+      "ts": "2026-09-24T08:52:04.078Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
