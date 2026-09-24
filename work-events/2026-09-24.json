@@ -32675,6 +32675,18 @@
       }
     },
     {
+      "id": "fb687a41-4908-4346-920d-1320e310597d",
+      "ts": "2026-09-24T10:03:50.238Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "f9ec8002-6f8e-4c3e-b252-7a1b33eca31d",
       "ts": "2026-09-24T10:03:50.306Z",
       "workerId": "костя_1",
@@ -32765,6 +32777,43 @@
       }
     },
     {
+      "id": "a41946a9-ff60-4780-81c8-e62791096c65",
+      "ts": "2026-09-24T10:03:54.915Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "150fc1b2-c740-4106-96fb-f879aba3c330",
+      "ts": "2026-09-24T10:03:54.917Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "4e1d225f-ed35-4349-948e-741eba22e5b6",
+      "ts": "2026-09-24T10:03:57.013Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "19729e23-e03c-46bd-85ad-becd23883c64",
       "ts": "2026-09-24T10:03:57.276Z",
       "workerId": "яя",
@@ -32849,6 +32898,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "7cd4940f-0760-40cf-993b-80d80ae77340",
+      "ts": "2026-09-24T10:04:50.246Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
