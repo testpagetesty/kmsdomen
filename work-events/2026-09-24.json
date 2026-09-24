@@ -41540,6 +41540,18 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8aa663b7-c08a-448f-9251-da37f6f18031",
+      "ts": "2026-09-24T11:07:50.580Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Jerusalem",
+      "geo": "il",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
