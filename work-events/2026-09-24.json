@@ -67507,6 +67507,18 @@
       }
     },
     {
+      "id": "ef73e8b1-6241-4821-b971-4dd870746de4",
+      "ts": "2026-09-24T16:12:04.849Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "f588cd15-71c7-44cc-9319-3a1f8469c2d5",
       "ts": "2026-09-24T16:12:08.566Z",
       "workerId": "соня_трубка_1",
@@ -67518,6 +67530,18 @@
         "name": "Соня Трубка 1",
         "host": "regionalobala.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "a14ffc96-26c5-42f6-92dc-04b818719678",
+      "ts": "2026-09-24T16:13:04.853Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
