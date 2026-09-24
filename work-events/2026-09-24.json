@@ -67399,6 +67399,18 @@
       }
     },
     {
+      "id": "6194d456-aafa-41e8-b3b1-011f431998b8",
+      "ts": "2026-09-24T16:11:04.420Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "869b5867-e98f-4193-a7fb-5dd117a4b932",
       "ts": "2026-09-24T16:11:16.285Z",
       "workerId": "соня_трубка_1",
@@ -67423,6 +67435,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "url": "https://www.metropolitan.si/novice/slovenija"
+      }
+    },
+    {
+      "id": "0d6f30f5-af72-4581-b8dd-5746d6752a27",
+      "ts": "2026-09-24T16:11:38.239Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://regionalobala.si/novica"
       }
     }
   ]
