@@ -51117,6 +51117,19 @@
       }
     },
     {
+      "id": "039ed83d-1023-4ef3-8105-f6ad0fdafb30",
+      "ts": "2026-09-24T13:01:39.552Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://askproly.com"
+      }
+    },
+    {
       "id": "aed9404c-e5fd-4273-8598-56557f1eae63",
       "ts": "2026-09-24T13:01:43.091Z",
       "workerId": "костя_2",
@@ -51128,6 +51141,20 @@
         "name": "Костя 2",
         "host": "askproly.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "e1a200ba-157b-4aaf-a850-7222f2f901c2",
+      "ts": "2026-09-24T13:01:56.785Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
       }
     }
   ]
