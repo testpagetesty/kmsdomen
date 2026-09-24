@@ -3782,6 +3782,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "a93e6c98-d26f-4ff4-a0c7-fed04630789f",
+      "ts": "2026-09-24T06:56:51.788Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
