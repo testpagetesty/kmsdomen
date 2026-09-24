@@ -20745,6 +20745,18 @@
         "name": "Яя",
         "interest": "лікарі застерігають закрепи які повертаються після 50 -аптека -ліки -таблетки -w"
       }
+    },
+    {
+      "id": "19ce0aa1-2833-4919-b18a-89aeaeb8239a",
+      "ts": "2026-09-24T08:19:58.679Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
