@@ -4200,6 +4200,20 @@
       }
     },
     {
+      "id": "d8ee5a15-3cef-4ed8-9cb3-cc9c94d463e6",
+      "ts": "2026-09-24T06:58:35.846Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "828f298d-e4d3-4f0d-b817-88a9884dd55b",
       "ts": "2026-09-24T06:58:35.925Z",
       "workerId": "яя",
