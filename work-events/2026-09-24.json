@@ -39708,6 +39708,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "629406b3-b2ca-495b-93c8-12be9ec5deac",
+      "ts": "2026-09-24T10:56:11.978Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають червоні плями на колінах -аптека -ліки -таблетки -wikipedia "
+      }
     }
   ]
 }
