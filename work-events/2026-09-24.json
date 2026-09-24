@@ -21843,6 +21843,18 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "8c18ad9e-a972-4909-8d38-f9c5c1800e1a",
+      "ts": "2026-09-24T08:24:19.783Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
