@@ -26181,6 +26181,20 @@
         "name": "Костя 1",
         "title": "Türk usulü başla — büyük oyna"
       }
+    },
+    {
+      "id": "6c959cd3-9206-46b7-8079-05f5c2200d9b",
+      "ts": "2026-09-24T08:53:48.387Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Temas que conviene consultar ahora. Hemos recopilado de forma clara temas cotidi"
+      }
     }
   ]
 }
