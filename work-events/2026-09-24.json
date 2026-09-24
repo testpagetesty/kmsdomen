@@ -72798,6 +72798,19 @@
         "name": "Таня - трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "29557c21-a7b6-45a3-97a0-fe43aa12fd03",
+      "ts": "2026-09-24T19:09:29.000Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
     }
   ]
 }
