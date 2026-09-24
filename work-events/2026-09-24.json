@@ -22424,6 +22424,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "a2151d6b-fa3d-44b9-af99-e6a83beddf39",
+      "ts": "2026-09-24T08:27:20.497Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
