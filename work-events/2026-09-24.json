@@ -11948,6 +11948,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "dc916b6f-6a58-4dd8-9b78-1d26541e11df",
+      "ts": "2026-09-24T07:38:18.498Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
