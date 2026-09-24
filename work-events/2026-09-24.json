@@ -26401,6 +26401,20 @@
         "name": "Костя 1",
         "title": "İki haberimiz var. İkisi de güzel"
       }
+    },
+    {
+      "id": "388e2575-7234-48ce-9114-29a1de06bbe3",
+      "ts": "2026-09-24T08:55:46.354Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
