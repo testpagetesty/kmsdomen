@@ -39943,6 +39943,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "e26d4a41-5d51-44a2-8d4d-50a0d2d7e74f",
+      "ts": "2026-09-24T10:57:25.852Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
