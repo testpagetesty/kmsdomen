@@ -39215,6 +39215,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "df9223c0-8646-444f-bd6a-3f7b9ef10a6b",
+      "ts": "2026-09-24T10:53:27.497Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
