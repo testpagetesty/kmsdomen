@@ -27762,6 +27762,19 @@
       }
     },
     {
+      "id": "d0086577-586c-4513-ad83-a56743f4ce05",
+      "ts": "2026-09-24T09:30:20.222Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "8174c28c-244b-45e0-b0cc-f87f6f14fc28",
       "ts": "2026-09-24T09:30:24.856Z",
       "workerId": "яя",
@@ -27772,6 +27785,20 @@
       "extra": {
         "name": "Яя",
         "interest": "лікарі застерігають живіт у чоловіків після 50 -аптека -ліки -таблетки -wikipedi"
+      }
+    },
+    {
+      "id": "1652c744-65b9-4f8f-828c-be2569cdb3e6",
+      "ts": "2026-09-24T09:30:48.073Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
