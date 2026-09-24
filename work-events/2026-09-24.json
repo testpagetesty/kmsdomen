@@ -69670,6 +69670,21 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "6505c9fe-5f70-4835-9774-3ba55fb47e67",
+      "ts": "2026-09-24T17:32:54.953Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "from": "me",
+        "to": "ee",
+        "source": "ip"
+      }
     }
   ]
 }
