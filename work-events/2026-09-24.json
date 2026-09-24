@@ -65559,6 +65559,20 @@
         "name": "Соня Трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "685bc963-a4a5-4b95-84bc-57159f2e1092",
+      "ts": "2026-09-24T15:41:51.597Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
