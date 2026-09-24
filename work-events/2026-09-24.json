@@ -56654,6 +56654,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "8baba829-6352-42b7-9bcd-6a9cc494b28d",
+      "ts": "2026-09-24T13:45:54.997Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://regionalobala.si"
+      }
     }
   ]
 }
