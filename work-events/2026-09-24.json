@@ -8388,6 +8388,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "6e2c2f8d-2b71-481e-b430-3352ea23cf09",
+      "ts": "2026-09-24T07:19:08.600Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
