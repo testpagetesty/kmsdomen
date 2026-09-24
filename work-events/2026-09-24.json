@@ -20371,6 +20371,20 @@
       }
     },
     {
+      "id": "6c9de9ad-cb65-4a00-91ae-23828aaa139b",
+      "ts": "2026-09-24T08:18:22.279Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "aebfd772-a805-4354-8d79-d9d2d069c506",
       "ts": "2026-09-24T08:18:23.455Z",
       "workerId": "яя",
@@ -20380,6 +20394,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "d929e91b-cda5-47d0-8b5b-5cb9bc8c2243",
+      "ts": "2026-09-24T08:18:25.218Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають біль у попереку вранці -аптека -ліки -таблетки -wikipedia -s"
       }
     }
   ]
