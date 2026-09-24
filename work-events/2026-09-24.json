@@ -2016,6 +2016,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "ed70e548-fa44-4575-8353-9dd736f547d5",
+      "ts": "2026-09-24T06:49:49.019Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
