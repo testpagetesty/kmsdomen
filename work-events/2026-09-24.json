@@ -39681,6 +39681,19 @@
         "name": "Яя",
         "interest": "лікарі застерігають труднощі із засинанням після 50 -аптека -ліки -таблетки -wik"
       }
+    },
+    {
+      "id": "3eb6c073-a132-48f0-bac0-0088579a11f4",
+      "ts": "2026-09-24T10:56:01.960Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
