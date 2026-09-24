@@ -67128,6 +67128,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "fab6a0b5-a446-48a3-8f01-9e471c1bd822",
+      "ts": "2026-09-24T16:03:04.414Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
