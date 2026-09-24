@@ -42083,6 +42083,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b43bad23-7b8e-4572-b3d1-64bb6a94e1cb",
+      "ts": "2026-09-24T11:11:19.338Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
