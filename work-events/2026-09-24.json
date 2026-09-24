@@ -20498,6 +20498,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6330efd6-0a8f-409a-bfe1-239434ae493a",
+      "ts": "2026-09-24T08:18:44.288Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають здуття після вечері -аптека -ліки -таблетки -wikipedia -site"
+      }
     }
   ]
 }
