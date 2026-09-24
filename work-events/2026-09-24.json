@@ -63302,6 +63302,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "598d504d-44c6-4d42-b790-4df028067ed3",
+      "ts": "2026-09-24T14:25:28.702Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "El ídolo y su vida jamás contada"
+      }
     }
   ]
 }
