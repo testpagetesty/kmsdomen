@@ -13919,6 +13919,31 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "6de68230-238b-4848-b9c2-6e09be14b43e",
+      "ts": "2026-09-24T07:49:22.152Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "b6dc42fa-36ec-4fe6-9e04-ba9c5f927a70",
+      "ts": "2026-09-24T07:49:22.152Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
