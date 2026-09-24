@@ -25865,6 +25865,20 @@
         "name": "Костя 1",
         "title": "Sesler Giderek Alçaldı. Sesler Alçaldıkça, Ortamdaki Her Ayrıntı Daha Kolay Fark"
       }
+    },
+    {
+      "id": "580e490d-03ae-4c8b-a344-5516ebe8c203",
+      "ts": "2026-09-24T08:50:52.164Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
