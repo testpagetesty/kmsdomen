@@ -67193,6 +67193,18 @@
         "host": "defence24.pl",
         "source": "teaser"
       }
+    },
+    {
+      "id": "9060ce10-641c-4244-ad88-fcc70d67cea3",
+      "ts": "2026-09-24T16:04:04.839Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
