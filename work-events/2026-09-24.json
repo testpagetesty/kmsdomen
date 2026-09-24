@@ -26976,6 +26976,18 @@
         "name": "Костя 2",
         "title": "El programa termina abruptamente"
       }
+    },
+    {
+      "id": "a1a1201f-28c1-43de-a234-615c02956c72",
+      "ts": "2026-09-24T09:00:58.903Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
