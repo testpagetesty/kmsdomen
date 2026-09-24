@@ -63127,6 +63127,20 @@
         "name": "Костя 2",
         "title": "Un cambio que afecta a su bolsillo"
       }
+    },
+    {
+      "id": "8e571d48-d08c-49f5-ba93-45024051d979",
+      "ts": "2026-09-24T14:23:33.386Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
