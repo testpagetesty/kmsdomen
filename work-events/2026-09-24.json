@@ -25507,6 +25507,20 @@
         "name": "Костя 1",
         "title": "Bacak sağlığı ve günlük yaşam hakkında faydalı bilgileri keşfedin."
       }
+    },
+    {
+      "id": "f80c980b-f956-466d-9f42-c0851d079065",
+      "ts": "2026-09-24T08:47:41.075Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La barriga desaparece rápidamente."
+      }
     }
   ]
 }
