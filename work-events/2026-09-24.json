@@ -104,6 +104,18 @@
       "extra": {
         "name": "Хадыж"
       }
+    },
+    {
+      "id": "275a998e-0d45-4421-bf01-6c28bd259b5a",
+      "ts": "2026-09-24T06:39:28.801Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
