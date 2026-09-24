@@ -26263,6 +26263,20 @@
         "name": "Костя 1",
         "title": "600ғs'n sabırsızlanıyor"
       }
+    },
+    {
+      "id": "d12196c2-6c88-48e1-b1a8-8af7de6f8c97",
+      "ts": "2026-09-24T08:54:39.566Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
