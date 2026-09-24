@@ -42959,6 +42959,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c5f7c741-5fbb-4d72-84d0-fc682265c70e",
+      "ts": "2026-09-24T11:18:44.833Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
