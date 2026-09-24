@@ -41417,6 +41417,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "c990c12b-c722-46c2-b67e-6a984dddc23b",
+      "ts": "2026-09-24T11:06:59.273Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
