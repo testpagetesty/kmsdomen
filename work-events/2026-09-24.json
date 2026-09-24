@@ -21765,6 +21765,20 @@
       }
     },
     {
+      "id": "84af3498-5868-4cfc-8560-7fa0e01fa05f",
+      "ts": "2026-09-24T08:23:53.713Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "087ad804-fc31-4fc6-97ac-03615819b480",
       "ts": "2026-09-24T08:23:54.305Z",
       "workerId": "яя",
@@ -21801,6 +21815,19 @@
       "extra": {
         "name": "Яя",
         "interest": "домашні способи підтримки серцево-судинної системи"
+      }
+    },
+    {
+      "id": "6d5dcc64-da8e-46b3-971b-70f03adf5cf2",
+      "ts": "2026-09-24T08:24:05.156Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
