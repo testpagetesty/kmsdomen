@@ -15373,6 +15373,20 @@
       }
     },
     {
+      "id": "4909e876-fb1a-4803-8ac8-5ffd4ff7cf6d",
+      "ts": "2026-09-24T07:56:24.782Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "50caaa08-10ff-4dc0-9f98-cbb5271f0da3",
       "ts": "2026-09-24T07:56:25.166Z",
       "workerId": "яя",
