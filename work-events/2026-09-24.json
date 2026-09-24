@@ -28782,6 +28782,18 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "48859584-3934-4d2b-8999-62e80d1e9438",
+      "ts": "2026-09-24T09:41:44.417Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
