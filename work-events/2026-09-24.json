@@ -51208,6 +51208,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "03298cd7-b3ce-4eba-8836-37a40738ad54",
+      "ts": "2026-09-24T13:02:23.065Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
