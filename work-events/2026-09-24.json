@@ -23767,6 +23767,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "45eeb92b-0218-4036-b1e1-ab9fa8fe42df",
+      "ts": "2026-09-24T08:33:47.371Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають здуття після вечері -аптека -ліки -таблетки -wikipedia -site"
+      }
     }
   ]
 }
