@@ -62849,6 +62849,20 @@
         "name": "Костя 1",
         "title": "Smazaná otázka mnohé objasnila"
       }
+    },
+    {
+      "id": "6c6a5411-8eb8-4aa9-8455-f4b5e844a465",
+      "ts": "2026-09-24T14:21:37.092Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "es",
+      "platform": "website",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "—"
+      }
     }
   ]
 }
