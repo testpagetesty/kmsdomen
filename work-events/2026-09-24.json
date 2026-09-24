@@ -23740,6 +23740,19 @@
         "name": "Яя",
         "interest": "як підтримати зір вдома"
       }
+    },
+    {
+      "id": "72504046-b92a-4760-a0d2-da9c5f7fd4b9",
+      "ts": "2026-09-24T08:33:40.898Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі попереджають втому після солодкого -аптека -ліки -таблетки -wikipedia -si"
+      }
     }
   ]
 }
