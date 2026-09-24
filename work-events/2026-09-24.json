@@ -72031,6 +72031,18 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c42bcfea-a394-4043-a72c-304e6a68b7b9",
+      "ts": "2026-09-24T17:50:59.725Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
