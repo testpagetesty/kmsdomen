@@ -3511,6 +3511,18 @@
       }
     },
     {
+      "id": "842b0767-0d4c-414f-b2f7-45839e8f8ae4",
+      "ts": "2026-09-24T06:55:53.551Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "5e9efe2a-7d88-4f45-8a84-86c8b08c33c7",
       "ts": "2026-09-24T06:55:54.888Z",
       "workerId": "костя_1",
@@ -3611,6 +3623,20 @@
       "extra": {
         "name": "Яя",
         "interest": "лайфхаки для зручності на кухні"
+      }
+    },
+    {
+      "id": "4c69195f-1f1b-47a2-a106-dd86383e6491",
+      "ts": "2026-09-24T06:56:04.830Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
       }
     }
   ]
