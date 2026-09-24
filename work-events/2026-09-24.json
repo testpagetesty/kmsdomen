@@ -38136,6 +38136,20 @@
       }
     },
     {
+      "id": "1999b9a9-27ef-41c7-8dd9-5809a39b164c",
+      "ts": "2026-09-24T10:45:53.235Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "2afa3411-70dc-4fbf-8e12-53a7f8d0ac89",
       "ts": "2026-09-24T10:45:57.324Z",
       "workerId": "яя",
@@ -38158,6 +38172,19 @@
       "extra": {
         "name": "Яя",
         "interest": "соціальна підтримка громадян на державному рівні"
+      }
+    },
+    {
+      "id": "4278cdf2-5f43-41f3-8927-49545f455bb9",
+      "ts": "2026-09-24T10:46:11.725Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "Пособие по безработице и государственная помощь"
       }
     }
   ]
