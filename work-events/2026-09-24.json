@@ -39970,6 +39970,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "1d297de4-3c4d-4642-b88c-85a149eae08d",
+      "ts": "2026-09-24T10:57:37.576Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
