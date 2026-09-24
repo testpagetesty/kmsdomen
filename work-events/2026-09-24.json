@@ -41158,6 +41158,19 @@
         "to": "il",
         "source": "ip"
       }
+    },
+    {
+      "id": "32a2d0ec-ec04-4281-aeb9-35482ce1b713",
+      "ts": "2026-09-24T11:05:48.545Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
