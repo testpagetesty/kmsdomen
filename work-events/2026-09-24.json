@@ -35926,6 +35926,31 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "c1f7e116-725b-458b-ad44-fbc0acf3ba96",
+      "ts": "2026-09-24T10:30:47.609Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "5052610b-0556-4be1-9467-89d83655bde4",
+      "ts": "2026-09-24T10:30:52.985Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
