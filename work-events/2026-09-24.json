@@ -41392,6 +41392,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "59d01c87-73f1-48f9-8044-060a5cabc7e3",
+      "ts": "2026-09-24T11:06:55.570Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки детоксу та здоров'я ШКТ"
+      }
     }
   ]
 }
