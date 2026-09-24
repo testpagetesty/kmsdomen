@@ -40294,6 +40294,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "d9f6aeaf-8b19-43b8-86ba-ef0097a22bf8",
+      "ts": "2026-09-24T10:59:28.594Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Almaty",
+      "geo": "ge",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
