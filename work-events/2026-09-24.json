@@ -6311,6 +6311,20 @@
         "name": "Яя",
         "interest": "як правильно використовувати сіль у побуті"
       }
+    },
+    {
+      "id": "1d00f9fa-cec0-46db-8fe1-4dd9419ae687",
+      "ts": "2026-09-24T07:08:29.650Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
