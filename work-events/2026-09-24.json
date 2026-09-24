@@ -31738,6 +31738,18 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "783d4d97-47ae-40c5-bb5e-947ff4c9f2ca",
+      "ts": "2026-09-24T09:56:57.272Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
