@@ -62976,6 +62976,21 @@
         "name": "Костя 1",
         "title": "Invest With a Clear Long-Term View"
       }
+    },
+    {
+      "id": "e730d80e-caf6-43fe-b98c-e2be37dd7aa1",
+      "ts": "2026-09-24T14:22:24.825Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "tr",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
