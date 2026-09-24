@@ -36812,6 +36812,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f8573a22-2732-44a8-908e-66fa728cd441",
+      "ts": "2026-09-24T10:35:44.627Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
