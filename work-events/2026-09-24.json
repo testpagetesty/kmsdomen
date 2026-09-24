@@ -58211,6 +58211,20 @@
         "name": "Костя 1",
         "url": "https://askproly.com"
       }
+    },
+    {
+      "id": "7f60fa3d-8550-4090-885b-2030cb8e5915",
+      "ts": "2026-09-24T13:56:46.576Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
