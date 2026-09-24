@@ -39916,6 +39916,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "b200e53e-9523-4b71-bbfe-c025cb27261b",
+      "ts": "2026-09-24T10:57:08.036Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
