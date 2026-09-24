@@ -28073,6 +28073,18 @@
         "name": "Костя 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "fd30f5bc-62f7-4ce7-9f2e-d5c3c8f7e772",
+      "ts": "2026-09-24T09:36:44.087Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
