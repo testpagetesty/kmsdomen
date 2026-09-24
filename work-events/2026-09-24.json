@@ -20082,6 +20082,18 @@
         "name": "Яя",
         "interest": "секрети домашнього догляду за шкірою"
       }
+    },
+    {
+      "id": "da1b509e-14b7-42d1-9eeb-87131551388a",
+      "ts": "2026-09-24T08:17:00.397Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
