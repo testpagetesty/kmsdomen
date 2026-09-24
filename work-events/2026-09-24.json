@@ -67738,6 +67738,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "0a4adf2e-c69d-428d-ab1d-5815bdf71a39",
+      "ts": "2026-09-24T16:16:04.427Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
