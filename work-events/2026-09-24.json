@@ -45383,6 +45383,20 @@
       }
     },
     {
+      "id": "33654d37-9af0-4379-bdfb-a51606ed6928",
+      "ts": "2026-09-24T11:39:37.443Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "600 giros tras el registro"
+      }
+    },
+    {
       "id": "18f9d341-c5c3-4833-af94-b1e67b71546d",
       "ts": "2026-09-24T11:39:58.008Z",
       "workerId": "яя",
@@ -45546,6 +45560,20 @@
       "extra": {
         "name": "Костя 1",
         "title": "¡Un regalo estupendo para empezar!"
+      }
+    },
+    {
+      "id": "feec0e67-147e-473b-ade9-476c7f05cedd",
+      "ts": "2026-09-24T11:43:17.404Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Prăbușirea neașteptată din Cluj"
       }
     }
   ]
