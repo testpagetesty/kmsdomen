@@ -29937,6 +29937,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "d7ac49aa-29e5-4b15-a32b-1324980e0716",
+      "ts": "2026-09-24T09:46:34.590Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
