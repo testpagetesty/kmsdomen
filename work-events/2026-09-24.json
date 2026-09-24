@@ -58808,6 +58808,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "d0c25cd4-5253-45e4-a40b-8504813d2bd4",
+      "ts": "2026-09-24T14:01:23.211Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
