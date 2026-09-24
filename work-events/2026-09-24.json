@@ -3080,6 +3080,18 @@
         "name": "Яя",
         "interest": "фінансовий прогноз для кожного знака зодіаку"
       }
+    },
+    {
+      "id": "f9776750-40f3-4c46-a6ff-93933a7f6ae9",
+      "ts": "2026-09-24T06:54:17.222Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
