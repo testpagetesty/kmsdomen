@@ -47388,6 +47388,20 @@
       }
     },
     {
+      "id": "fe63b943-3c58-4e89-bef4-542ed1da5482",
+      "ts": "2026-09-24T12:24:55.361Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "261f69e6-cd86-48ee-8749-831fc6483326",
       "ts": "2026-09-24T12:24:56.078Z",
       "workerId": "костя_2",
@@ -47427,6 +47441,18 @@
       "extra": {
         "name": "Костя 2",
         "title": "Vertical Rush"
+      }
+    },
+    {
+      "id": "9d9e3ee5-732f-43be-8b4d-e23935e7e214",
+      "ts": "2026-09-24T12:25:13.611Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     }
   ]
