@@ -46607,6 +46607,20 @@
         "name": "Костя 2",
         "title": "Joker's Jewels"
       }
+    },
+    {
+      "id": "b9596fe4-55ba-4ab6-996b-6c3c350c7894",
+      "ts": "2026-09-24T12:11:29.549Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
