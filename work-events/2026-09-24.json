@@ -27760,6 +27760,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "8174c28c-244b-45e0-b0cc-f87f6f14fc28",
+      "ts": "2026-09-24T09:30:24.856Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають живіт у чоловіків після 50 -аптека -ліки -таблетки -wikipedi"
+      }
     }
   ]
 }
