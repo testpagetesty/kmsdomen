@@ -45423,6 +45423,20 @@
       }
     },
     {
+      "id": "c2e043af-c99c-4962-a959-32f3a90f28a3",
+      "ts": "2026-09-24T11:40:01.304Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Nunca imaginé este uso del aceite"
+      }
+    },
+    {
       "id": "4e8030f0-75cb-4914-bd3e-0d796c799d5c",
       "ts": "2026-09-24T11:40:13.650Z",
       "workerId": "костя_1",
@@ -45630,6 +45644,20 @@
       "extra": {
         "name": "Костя 1",
         "title": "Un an de trezituri din cauza arsurilor. Iată ce a funcționat — sincer și concret"
+      }
+    },
+    {
+      "id": "8c8f3dc4-b8f7-4135-a51b-ed7287b92eb5",
+      "ts": "2026-09-24T11:44:00.166Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Curăță vasele de sânge"
       }
     }
   ]
