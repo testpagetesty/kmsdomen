@@ -24505,6 +24505,19 @@
         "name": "Костя 2",
         "title": "Plataforma moderna en España"
       }
+    },
+    {
+      "id": "b5574b1a-daec-4ab3-9556-c03c32f07520",
+      "ts": "2026-09-24T08:37:47.560Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
     }
   ]
 }
