@@ -49352,6 +49352,31 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2f25e391-af6c-440f-834d-9ac764767a53",
+      "ts": "2026-09-24T12:49:46.635Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "97c73743-dbc2-461e-8bbc-b9940804a8bf",
+      "ts": "2026-09-24T12:49:55.639Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
