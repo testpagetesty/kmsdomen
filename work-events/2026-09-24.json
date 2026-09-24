@@ -63421,6 +63421,19 @@
         "name": "Яя",
         "interest": "спосіб життя для здорового зору"
       }
+    },
+    {
+      "id": "180f6844-1fa8-42ae-87af-4b2729978ebf",
+      "ts": "2026-09-24T14:28:13.654Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "гороскоп удачі на найближчий місяць"
+      }
     }
   ]
 }
