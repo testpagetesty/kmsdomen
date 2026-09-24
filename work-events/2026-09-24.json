@@ -62795,6 +62795,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b6b08b63-ca1f-4fdd-a6f1-45bea45f4351",
+      "ts": "2026-09-24T14:21:15.039Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "es",
+      "platform": "website",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Entérate de más\nGran afluencia de gente"
+      }
     }
   ]
 }
