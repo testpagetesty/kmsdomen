@@ -26211,6 +26211,20 @@
       }
     },
     {
+      "id": "3702ec04-c5f1-4dbb-8c4b-29dd2be3207e",
+      "ts": "2026-09-24T08:54:06.338Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Şekerler bir yana, dahası da var"
+      }
+    },
+    {
       "id": "4c6ac45c-9cec-40ba-b16b-01cc4ab632b2",
       "ts": "2026-09-24T08:54:06.421Z",
       "workerId": "яя",
