@@ -23101,6 +23101,20 @@
       }
     },
     {
+      "id": "d42aacb6-1407-4403-8c7a-d5a0c5ace2eb",
+      "ts": "2026-09-24T08:30:30.544Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "4eb604b5-69b6-47a0-bcd2-8ec93ded88cb",
       "ts": "2026-09-24T08:30:32.227Z",
       "workerId": "яя",
