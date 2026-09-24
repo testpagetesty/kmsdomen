@@ -58500,6 +58500,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "3b4e12f3-6cd4-4a60-acaa-90efc354d966",
+      "ts": "2026-09-24T13:59:13.013Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
