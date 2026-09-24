@@ -25893,6 +25893,20 @@
         "name": "Костя 2",
         "title": "España habla de ello hoy. Por eso todo el mundo habla de ello ahora"
       }
+    },
+    {
+      "id": "a7f25716-d9b6-4694-ba3f-cf521fe641d7",
+      "ts": "2026-09-24T08:51:12.971Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Más detalles. Nuevas herramientas para gestionar su dinero y planificar su futur"
+      }
     }
   ]
 }
