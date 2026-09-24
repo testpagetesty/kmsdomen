@@ -63970,6 +63970,34 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "694584b0-75cd-4be5-aee5-8a3a189529c8",
+      "ts": "2026-09-24T14:46:46.186Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "a5d93ec7-9f3e-477d-9215-e5c4ffd74fcf",
+      "ts": "2026-09-24T14:47:09.497Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
