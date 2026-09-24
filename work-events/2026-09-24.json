@@ -40308,6 +40308,19 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "1b33874e-896e-4aa0-89df-ce448e89cc26",
+      "ts": "2026-09-24T10:59:42.250Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
