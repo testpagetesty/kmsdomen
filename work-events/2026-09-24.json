@@ -45434,6 +45434,20 @@
         "name": "Костя 1",
         "title": "Un truco casero con aceite"
       }
+    },
+    {
+      "id": "1d5ce673-5448-461a-a993-12725765f480",
+      "ts": "2026-09-24T11:41:02.529Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Juega Hoy y Reclama Tu Bono"
+      }
     }
   ]
 }
