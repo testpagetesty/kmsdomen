@@ -30812,6 +30812,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "bcc0f89e-5a1b-43ff-9df1-63ff383eb573",
+      "ts": "2026-09-24T09:50:32.719Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
