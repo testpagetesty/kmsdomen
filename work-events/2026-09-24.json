@@ -32675,6 +32675,57 @@
       }
     },
     {
+      "id": "f9ec8002-6f8e-4c3e-b252-7a1b33eca31d",
+      "ts": "2026-09-24T10:03:50.306Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "8b40ac82-fb6c-4641-9ae5-31282b5c4234",
+      "ts": "2026-09-24T10:03:50.307Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "743ea727-ef66-496e-b184-546e6c298a60",
+      "ts": "2026-09-24T10:03:50.309Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "83c59579-f43d-4c58-8497-9a9eac6894cb",
+      "ts": "2026-09-24T10:03:50.860Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "4a035359-cde5-4c31-9cfb-c8c84bf7d1ec",
       "ts": "2026-09-24T10:03:51.632Z",
       "workerId": "костя_2",
@@ -32723,6 +32774,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "65a830d4-40fe-475f-98bb-11d22ec19542",
+      "ts": "2026-09-24T10:03:57.584Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
