@@ -41791,6 +41791,20 @@
         "name": "Яя",
         "interest": "що робити якщо печінка перевантажена"
       }
+    },
+    {
+      "id": "cebcfd10-b825-45ac-86ae-ddaa33ffe8cf",
+      "ts": "2026-09-24T11:09:45.629Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Jerusalem",
+      "geo": "il",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
