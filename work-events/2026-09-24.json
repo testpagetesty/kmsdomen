@@ -39265,6 +39265,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "6d2169a3-c21b-4675-a8e9-46e0b718c754",
+      "ts": "2026-09-24T10:53:33.993Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
