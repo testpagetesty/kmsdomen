@@ -42683,6 +42683,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "1a502af7-3c8a-410a-bf4c-fc6ed2540909",
+      "ts": "2026-09-24T11:16:18.260Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
