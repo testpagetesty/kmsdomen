@@ -26810,6 +26810,20 @@
         "name": "Костя 1",
         "title": "Bugün küçük bir sürpriz var"
       }
+    },
+    {
+      "id": "573266e2-c7a5-473b-90d1-06b5efbc2c7f",
+      "ts": "2026-09-24T08:59:10.986Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
