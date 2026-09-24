@@ -16651,6 +16651,20 @@
         "name": "Яя",
         "interest": "несподівані поради з кулінарії"
       }
+    },
+    {
+      "id": "9d4882b7-4420-45bb-9449-30c6c89071f4",
+      "ts": "2026-09-24T08:01:13.743Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
