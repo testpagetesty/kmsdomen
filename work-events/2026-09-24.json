@@ -41014,6 +41014,20 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "bb464544-bf41-4ea5-989b-10ae91eea957",
+      "ts": "2026-09-24T11:04:28.253Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
