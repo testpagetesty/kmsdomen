@@ -42594,6 +42594,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "7c433830-0844-40d0-87e3-a5ce839c6a7a",
+      "ts": "2026-09-24T11:15:50.625Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
