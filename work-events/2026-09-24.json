@@ -66865,6 +66865,33 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "d8f974b7-b99b-48b9-8ea3-d77101615d20",
+      "ts": "2026-09-24T15:59:56.242Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
+      "id": "9f369821-b54d-4cb5-a580-63b01f09e1e2",
+      "ts": "2026-09-24T16:00:00.575Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "zurnal24.si",
+        "source": "teaser"
+      }
     }
   ]
 }
