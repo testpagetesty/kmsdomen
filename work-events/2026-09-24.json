@@ -26471,6 +26471,18 @@
         "name": "Костя 1",
         "title": "600 artık sadece bir sayı değil"
       }
+    },
+    {
+      "id": "634ef206-62a4-403c-98c5-d81e54b04d75",
+      "ts": "2026-09-24T08:56:23.533Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
