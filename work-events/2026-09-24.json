@@ -36416,6 +36416,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "89417eaa-cc73-41b5-80da-f946b712dfde",
+      "ts": "2026-09-24T10:33:15.635Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
