@@ -128,6 +128,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "a8f22c67-e617-46d5-a1ec-ba2dcf3ff703",
+      "ts": "2026-09-24T06:40:16.824Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
