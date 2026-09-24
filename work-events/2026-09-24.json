@@ -3587,6 +3587,20 @@
       }
     },
     {
+      "id": "fb0196dc-a670-4fa6-ac3a-0671672407d4",
+      "ts": "2026-09-24T06:56:03.839Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "a5260dcf-bee0-4ace-b4cc-2169a397b675",
       "ts": "2026-09-24T06:56:04.061Z",
       "workerId": "яя",
