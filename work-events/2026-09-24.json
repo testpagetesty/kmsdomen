@@ -40635,6 +40635,20 @@
       }
     },
     {
+      "id": "7c376f9b-5201-4d77-b814-c73137bbfbee",
+      "ts": "2026-09-24T11:00:56.931Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Almaty",
+      "geo": "kz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "7e22825b-b29a-4612-8f90-17d5ac1814ec",
       "ts": "2026-09-24T11:00:57.362Z",
       "workerId": "яя",
