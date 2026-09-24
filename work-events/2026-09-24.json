@@ -28010,6 +28010,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4ebf0519-6a2e-4b4d-8779-9963dbab10db",
+      "ts": "2026-09-24T09:35:46.091Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
     }
   ]
 }
