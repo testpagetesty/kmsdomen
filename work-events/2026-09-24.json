@@ -38003,6 +38003,18 @@
         "name": "Яя",
         "interest": "житлові субсидії від держави"
       }
+    },
+    {
+      "id": "cf962abc-df76-4281-a380-1de30ddaf662",
+      "ts": "2026-09-24T10:44:44.654Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
