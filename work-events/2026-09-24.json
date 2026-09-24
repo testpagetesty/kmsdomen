@@ -58066,6 +58066,19 @@
         "host": "buzzfuzzy.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "3b26dbb8-f9af-433a-bd2b-b67a3ddf5cdb",
+      "ts": "2026-09-24T13:55:59.854Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://askproly.com"
+      }
     }
   ]
 }
