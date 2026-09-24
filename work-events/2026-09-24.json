@@ -67871,6 +67871,20 @@
       }
     },
     {
+      "id": "06649faf-ced7-4887-b70d-416afa410caa",
+      "ts": "2026-09-24T16:18:08.044Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "428f83a1-0406-4018-b6a7-2fc3f3a8872e",
       "ts": "2026-09-24T16:18:09.863Z",
       "workerId": "соня_тубка_2",
@@ -67909,6 +67923,20 @@
         "name": "Соня Тубка 2",
         "host": "primainspirace.cz",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "c6556d49-ebb5-4141-bc5e-c98139ed24c4",
+      "ts": "2026-09-24T16:18:28.827Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
       }
     }
   ]
