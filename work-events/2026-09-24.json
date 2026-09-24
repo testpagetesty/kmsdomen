@@ -20888,6 +20888,20 @@
       }
     },
     {
+      "id": "d2c41f26-81ac-44fa-9fb6-f8ab6b8765e0",
+      "ts": "2026-09-24T08:20:31.653Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "9219169a-2174-4168-8c73-83aec16a1d75",
       "ts": "2026-09-24T08:20:32.182Z",
       "workerId": "костя_2",
@@ -20899,6 +20913,19 @@
       "extra": {
         "name": "Костя 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "86f122cb-9a2e-43f7-85df-ff26db49dba5",
+      "ts": "2026-09-24T08:20:35.822Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають що додавати в каву замість цукру -аптека -ліки -таблетки -wi"
       }
     }
   ]
