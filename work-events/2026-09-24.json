@@ -38640,6 +38640,20 @@
         "name": "Костя 1",
         "interest": "home ways to support metabolism"
       }
+    },
+    {
+      "id": "a0e4bb3c-59e0-46f0-bb79-2d3d71e60e98",
+      "ts": "2026-09-24T10:49:25.329Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
