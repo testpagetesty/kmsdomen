@@ -17260,6 +17260,20 @@
       }
     },
     {
+      "id": "81772b42-aa83-4f98-94bb-45e443a89976",
+      "ts": "2026-09-24T08:03:44.347Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d9d1825f-c00e-4dea-883b-c2eb1fdf49b4",
       "ts": "2026-09-24T08:03:44.440Z",
       "workerId": "яя",
