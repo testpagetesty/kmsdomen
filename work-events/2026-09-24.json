@@ -26662,6 +26662,20 @@
         "name": "Костя 1",
         "title": "Bugün senin günün olabilir!"
       }
+    },
+    {
+      "id": "d7a97800-4798-4579-be26-e10c97e59188",
+      "ts": "2026-09-24T08:57:59.058Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Estudio creativo para emprendedores. Trabajamos de manera cercana y ordenada, cu"
+      }
     }
   ]
 }
