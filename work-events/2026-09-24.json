@@ -63031,6 +63031,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c719de33-63bc-4080-b9b4-4677dbb7326b",
+      "ts": "2026-09-24T14:22:37.420Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Onde investir na crise atual?"
+      }
     }
   ]
 }
