@@ -55698,6 +55698,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "89a3deb7-a349-43f3-9c9e-d7fb2d5c60fb",
+      "ts": "2026-09-24T13:38:13.181Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "24080232431.buzzfuzzy.com",
+        "source": "teaser"
+      }
     }
   ]
 }
