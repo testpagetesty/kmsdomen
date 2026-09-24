@@ -34211,6 +34211,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "5e12fbd3-fc71-49bb-9685-a7aeb39c35b2",
+      "ts": "2026-09-24T10:14:29.408Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
