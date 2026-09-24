@@ -55031,6 +55031,19 @@
       }
     },
     {
+      "id": "867f8c08-92ed-4028-bf47-4d685d3016ef",
+      "ts": "2026-09-24T13:33:00.805Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://buzzfuzzy.com"
+      }
+    },
+    {
       "id": "ebbf305d-1046-4926-93b7-1114320796dd",
       "ts": "2026-09-24T13:33:05.387Z",
       "workerId": "костя_1",
@@ -55041,6 +55054,20 @@
       "extra": {
         "name": "Костя 1",
         "host": "askproly.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "e1b8712c-23bc-4806-9f92-ab3576209618",
+      "ts": "2026-09-24T13:33:06.144Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "buzzfuzzy.com",
         "source": "teaser"
       }
     }
