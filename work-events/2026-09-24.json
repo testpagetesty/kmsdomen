@@ -21869,6 +21869,19 @@
       }
     },
     {
+      "id": "49919065-91e2-4fe2-baa6-236b3c57f727",
+      "ts": "2026-09-24T08:24:20.604Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "600cd6a4-b7d7-4fe8-9903-7eefdd537781",
       "ts": "2026-09-24T08:24:23.466Z",
       "workerId": "яя",
@@ -21918,6 +21931,20 @@
       "event": "capture_stop",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "232fd043-ac0b-459c-88f1-5277ab6c5d37",
+      "ts": "2026-09-24T08:24:38.403Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
       }
     }
   ]
