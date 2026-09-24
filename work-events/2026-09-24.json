@@ -25425,6 +25425,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "99909b3f-88f6-4717-a946-e6dfbb2451c4",
+      "ts": "2026-09-24T08:47:15.999Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Sözler Arasında Boşluk Kaldı"
+      }
     }
   ]
 }
