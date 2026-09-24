@@ -26852,6 +26852,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "945c2baf-1d33-4efd-ab35-1fb0ed1264f9",
+      "ts": "2026-09-24T08:59:32.910Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "500 dönüşü kim reddeder?"
+      }
     }
   ]
 }
