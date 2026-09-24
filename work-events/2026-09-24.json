@@ -59858,6 +59858,19 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "b52336f4-83d9-4f74-8f3e-064bff74dcf6",
+      "ts": "2026-09-24T14:05:58.581Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
