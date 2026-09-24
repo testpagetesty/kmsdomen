@@ -1316,6 +1316,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "1bc6f5db-0e6f-4825-b5d0-3e1a2fb93082",
+      "ts": "2026-09-24T06:47:34.207Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "маленькі хитрощі для ідеальної страви"
+      }
     }
   ]
 }
