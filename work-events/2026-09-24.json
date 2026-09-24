@@ -25521,6 +25521,20 @@
         "name": "Костя 2",
         "title": "La barriga desaparece rápidamente."
       }
+    },
+    {
+      "id": "de9d9d3a-a1fa-4457-b136-0421ccb688e5",
+      "ts": "2026-09-24T08:47:48.978Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
