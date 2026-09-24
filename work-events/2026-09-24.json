@@ -67449,6 +67449,20 @@
         "name": "Соня Тубка 2",
         "url": "https://regionalobala.si/novica"
       }
+    },
+    {
+      "id": "c0567025-9c13-4c8c-ad04-8d317b1c129f",
+      "ts": "2026-09-24T16:11:47.142Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
