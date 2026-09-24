@@ -50995,6 +50995,19 @@
         "name": "Костя 2",
         "url": "https://buzzfuzzy.com"
       }
+    },
+    {
+      "id": "d1d2c72f-f87f-4b35-88d0-21993c256291",
+      "ts": "2026-09-24T13:00:40.651Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://buzzfuzzy.com"
+      }
     }
   ]
 }
