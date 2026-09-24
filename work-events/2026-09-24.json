@@ -25248,6 +25248,20 @@
         "name": "Костя 1",
         "title": "2minutové čtení, které muži sdílejí. 2minutové čtení šířící se mezi muži 40+ – b"
       }
+    },
+    {
+      "id": "f37c07d5-7c43-4686-9fd6-ecdd45cb4a09",
+      "ts": "2026-09-24T08:44:18.561Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Tiché nadýmání"
+      }
     }
   ]
 }
