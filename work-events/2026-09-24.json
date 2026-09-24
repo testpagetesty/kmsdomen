@@ -26866,6 +26866,20 @@
         "name": "Костя 1",
         "title": "500 dönüşü kim reddeder?"
       }
+    },
+    {
+      "id": "af776efa-39dd-4a6f-8cd1-6cb42e1c3cdb",
+      "ts": "2026-09-24T08:59:48.255Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Arresto de reportero agita la capital"
+      }
     }
   ]
 }
