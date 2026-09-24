@@ -6843,6 +6843,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "ad0ed2db-10eb-4783-93ba-70eb78063f48",
+      "ts": "2026-09-24T07:10:59.559Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
