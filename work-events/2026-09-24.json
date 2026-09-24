@@ -41951,6 +41951,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9a22b16f-df68-4885-9127-ab0a37673646",
+      "ts": "2026-09-24T11:10:37.001Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Jerusalem",
+      "geo": "il",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "תמיכה ממלכתית למשפחות צעירות"
+      }
     }
   ]
 }
