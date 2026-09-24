@@ -55712,6 +55712,20 @@
         "host": "24080232431.buzzfuzzy.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "5828b9b1-0ccf-4b59-bcf9-9dbd97c85b77",
+      "ts": "2026-09-24T13:38:15.828Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
