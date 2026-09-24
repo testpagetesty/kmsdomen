@@ -50099,6 +50099,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cea65d7d-e34e-4b9f-8c8d-758895ef33d0",
+      "ts": "2026-09-24T12:54:11.915Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
