@@ -40847,6 +40847,18 @@
         "to": "us",
         "source": "ip"
       }
+    },
+    {
+      "id": "f80602a4-400f-48a0-92d0-d9ddf3f6d8c8",
+      "ts": "2026-09-24T11:02:44.720Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
