@@ -51775,6 +51775,19 @@
       }
     },
     {
+      "id": "5e2b61e6-256b-4f09-a155-34a64af9d251",
+      "ts": "2026-09-24T13:07:01.664Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "cb005c22-3119-468f-a7cc-0a4bc040a253",
       "ts": "2026-09-24T13:07:03.497Z",
       "workerId": "костя_2",
