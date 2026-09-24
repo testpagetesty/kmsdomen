@@ -52881,6 +52881,21 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "46f9d203-8db1-49c8-a0a3-202e39e8ab8c",
+      "ts": "2026-09-24T13:16:23.973Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "dk",
+        "to": "br",
+        "source": "ip"
+      }
     }
   ]
 }
