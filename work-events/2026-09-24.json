@@ -42201,6 +42201,19 @@
         "name": "Костя 1",
         "interest": "estilo de vida para un organismo limpio"
       }
+    },
+    {
+      "id": "c30aea80-ac4c-4455-a36a-b396701058ec",
+      "ts": "2026-09-24T11:11:59.410Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
