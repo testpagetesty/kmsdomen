@@ -10121,6 +10121,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "2b2c094f-6dc0-4679-9580-65da36ea0e94",
+      "ts": "2026-09-24T07:28:31.254Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "seneste nyheder om kryptovalutavækst i vores land"
+      }
     }
   ]
 }
