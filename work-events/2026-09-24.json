@@ -1693,6 +1693,20 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7adb5582-3d99-42ba-a165-44054774f6ce",
+      "ts": "2026-09-24T06:48:47.455Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
