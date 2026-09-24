@@ -39629,6 +39629,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "a53fe2aa-d5f7-4184-a351-592ff9acb7e3",
+      "ts": "2026-09-24T10:55:51.064Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають припливи вночі -аптека -ліки -таблетки -wikipedia -site:gov."
+      }
     }
   ]
 }
