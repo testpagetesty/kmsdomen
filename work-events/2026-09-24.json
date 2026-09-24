@@ -10839,6 +10839,19 @@
       }
     },
     {
+      "id": "e1ddbeef-0276-432f-b4bc-6a178a7993a8",
+      "ts": "2026-09-24T07:32:09.529Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "video",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "852fddd6-8ebf-4b7c-ad5a-4335e0bdf791",
       "ts": "2026-09-24T07:32:09.534Z",
       "workerId": "костя_2",
