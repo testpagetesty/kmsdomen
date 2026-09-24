@@ -29573,6 +29573,19 @@
       }
     },
     {
+      "id": "d75b77f5-988a-49fe-8bf7-9dfb4e7ffdf4",
+      "ts": "2026-09-24T09:45:09.421Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають судоми литок вночі -аптека -ліки -таблетки -wikipedia -site:"
+      }
+    },
+    {
       "id": "3eeab996-fe93-4f39-a817-e1b45d74fd0c",
       "ts": "2026-09-24T09:45:12.426Z",
       "workerId": "костя_1",
@@ -29597,6 +29610,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "5b43ac82-f24b-4e5f-b53e-a09099f63558",
+      "ts": "2026-09-24T09:45:19.356Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
