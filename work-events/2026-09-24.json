@@ -40192,6 +40192,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "ba99648e-3fd9-46f0-a1ac-5bd4e4b321fe",
+      "ts": "2026-09-24T10:58:44.663Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
