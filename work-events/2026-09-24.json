@@ -25033,6 +25033,20 @@
       }
     },
     {
+      "id": "52516694-5f2c-45dd-990d-7e780f6bae1b",
+      "ts": "2026-09-24T08:41:26.721Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e27f6fb9-2af6-4cd2-a96e-06dfcdc83760",
       "ts": "2026-09-24T08:41:39.979Z",
       "workerId": "костя_2",
@@ -25058,6 +25072,19 @@
       "extra": {
         "name": "Костя 1",
         "title": "Co si 40+ muži tiše čtou"
+      }
+    },
+    {
+      "id": "db4c28ec-7486-45a9-9463-709ed4e6275f",
+      "ts": "2026-09-24T08:41:53.414Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
