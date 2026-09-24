@@ -58052,6 +58052,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "68a28372-ca4b-4d62-bc02-0725bdec1ad7",
+      "ts": "2026-09-24T13:55:57.585Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "buzzfuzzy.com",
+        "source": "teaser"
+      }
     }
   ]
 }
