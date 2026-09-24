@@ -45910,6 +45910,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "43522f76-7166-42c6-a689-8bb0a67fe259",
+      "ts": "2026-09-24T11:51:25.741Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки здоров'я очей"
+      }
     }
   ]
 }
