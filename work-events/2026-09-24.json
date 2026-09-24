@@ -70811,6 +70811,19 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "56f8beec-f23a-43f0-9397-f90b020a272f",
+      "ts": "2026-09-24T17:40:22.829Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "kuidas toetada nägemist kodus"
+      }
     }
   ]
 }
