@@ -25370,6 +25370,20 @@
         "name": "Костя 2",
         "title": "El conflicto siguió fuera de cámara"
       }
+    },
+    {
+      "id": "5da8321b-bc2b-49c2-a0c6-7fe166643905",
+      "ts": "2026-09-24T08:46:18.728Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Konuşma Yeni Bir Ton Aldı"
+      }
     }
   ]
 }
