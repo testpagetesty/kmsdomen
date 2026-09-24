@@ -70058,6 +70058,31 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "b0bd1a55-adad-4ad1-8633-c47cb3529f3c",
+      "ts": "2026-09-24T17:35:19.614Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "fa586e88-925b-4cc9-9a96-033178bf22f4",
+      "ts": "2026-09-24T17:35:19.614Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
