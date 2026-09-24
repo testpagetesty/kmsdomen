@@ -24171,6 +24171,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8b5dd114-942c-4e99-93ab-f88430f887a5",
+      "ts": "2026-09-24T08:35:41.776Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "-5 kg. Znovu se poznávám"
+      }
     }
   ]
 }
