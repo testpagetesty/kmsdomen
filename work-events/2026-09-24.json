@@ -68392,6 +68392,18 @@
       }
     },
     {
+      "id": "5c3407e5-1a16-490a-ad5c-839a6f708347",
+      "ts": "2026-09-24T16:31:04.447Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "59a6580b-0e69-4faf-92e9-1b636b61e6c2",
       "ts": "2026-09-24T16:31:04.868Z",
       "workerId": "соня_трубка_1",
