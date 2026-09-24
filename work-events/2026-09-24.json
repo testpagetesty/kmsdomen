@@ -63665,6 +63665,19 @@
         "name": "Яя",
         "interest": "поради з енергетики та самопочуття"
       }
+    },
+    {
+      "id": "6527d07f-dc89-4a45-8be9-6bd17e46308d",
+      "ts": "2026-09-24T14:38:59.878Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "поради з енергетики та самопочуття"
+      }
     }
   ]
 }
