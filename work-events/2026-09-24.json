@@ -71373,6 +71373,19 @@
         "name": "Соня Тубка 2",
         "interest": "kućni načini podrške metabolizmu i mršavljenju"
       }
+    },
+    {
+      "id": "96c4fe4d-bffe-44fe-ab07-d6efdffd3722",
+      "ts": "2026-09-24T17:43:28.788Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako održati zdravu težinu i metabolizam kod kuće"
+      }
     }
   ]
 }
