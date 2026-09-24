@@ -62919,6 +62919,20 @@
         "name": "Костя 1",
         "title": "Péče o hmotnost"
       }
+    },
+    {
+      "id": "65f67adf-7ce7-489a-a164-d8eba86b52c9",
+      "ts": "2026-09-24T14:22:08.090Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
