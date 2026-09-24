@@ -8427,6 +8427,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "5b196b23-9ea5-40cb-aba0-7aeb617962c8",
+      "ts": "2026-09-24T07:19:16.492Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
