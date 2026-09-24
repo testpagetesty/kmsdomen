@@ -35877,6 +35877,19 @@
       }
     },
     {
+      "id": "fb3b1a1d-8a11-45bb-9974-462d579cf0a3",
+      "ts": "2026-09-24T10:30:43.010Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "c021ecf1-36ee-435f-8c5a-efef200ec813",
       "ts": "2026-09-24T10:30:43.012Z",
       "workerId": "костя_2",
