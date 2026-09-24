@@ -30016,6 +30016,31 @@
       }
     },
     {
+      "id": "2f846ec8-9b88-4512-9cac-0ada9be0c229",
+      "ts": "2026-09-24T09:46:48.762Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "5c76a2f9-7ff4-4030-a145-3b04e279c46f",
+      "ts": "2026-09-24T09:46:49.103Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "subsidio de desempleo y ayuda estatal"
+      }
+    },
+    {
       "id": "6ae7d3ce-abac-44d3-88b0-7044200ad300",
       "ts": "2026-09-24T09:46:50.295Z",
       "workerId": "костя_1",
@@ -30025,6 +30050,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "9348adfa-6ca5-4f1f-aac1-92ee6091a284",
+      "ts": "2026-09-24T09:46:55.879Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "subsidios estatales para ciudadanos de bajos ingresos"
       }
     }
   ]
