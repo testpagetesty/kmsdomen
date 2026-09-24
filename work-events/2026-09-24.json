@@ -56626,6 +56626,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "04a61c02-cf65-40fb-9a87-77fab8743686",
+      "ts": "2026-09-24T13:45:12.550Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "nz",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
