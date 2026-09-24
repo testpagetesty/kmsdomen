@@ -25114,6 +25114,18 @@
         "name": "Костя 1",
         "title": "Jednoduchý krok každý den"
       }
+    },
+    {
+      "id": "633a65a8-5935-432b-914a-a2b2f4089afb",
+      "ts": "2026-09-24T08:42:23.501Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
