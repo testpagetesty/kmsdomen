@@ -24531,6 +24531,20 @@
         "name": "Костя 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "2e3c91d0-782b-4d1d-90af-08958440bada",
+      "ts": "2026-09-24T08:38:09.139Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Sencillo cada día"
+      }
     }
   ]
 }
