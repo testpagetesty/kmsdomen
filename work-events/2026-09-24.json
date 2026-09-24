@@ -54253,6 +54253,33 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "a84bace8-2972-4728-b35a-f73764bf24ad",
+      "ts": "2026-09-24T13:26:58.911Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
+      "id": "2529e02b-ea5c-45a1-96f6-d95fe9f6f20f",
+      "ts": "2026-09-24T13:27:02.627Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
