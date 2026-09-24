@@ -29001,6 +29001,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "a89c78c9-9e32-4171-a53e-268686989b0e",
+      "ts": "2026-09-24T09:42:32.069Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
