@@ -44280,6 +44280,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "427f5bfa-c320-4fcc-a735-e38324f0d2c0",
+      "ts": "2026-09-24T11:25:57.729Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
