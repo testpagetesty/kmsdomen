@@ -27016,6 +27016,20 @@
         "name": "Костя 2",
         "title": "Voces en Madrid por una prensa libre"
       }
+    },
+    {
+      "id": "5cd527cc-2415-4eb6-8e6c-281e867b50f9",
+      "ts": "2026-09-24T09:01:44.858Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "España habla de ello hoy"
+      }
     }
   ]
 }
