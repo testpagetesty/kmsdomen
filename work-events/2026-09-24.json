@@ -8843,6 +8843,19 @@
       }
     },
     {
+      "id": "c0ec4a26-6c78-45a8-bd09-b3506334f48c",
+      "ts": "2026-09-24T07:21:40.703Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "nejlepší strategie spoření peněz v kryptoměnách"
+      }
+    },
+    {
       "id": "c3daa05d-0866-4097-bb2b-193c7ee16f2c",
       "ts": "2026-09-24T07:21:41.188Z",
       "workerId": "костя_1",
@@ -8853,6 +8866,19 @@
       "extra": {
         "name": "Костя 1",
         "interest": "státní sociální platby pro všechny občany"
+      }
+    },
+    {
+      "id": "ff14ef8e-e833-4359-b630-455325df79f2",
+      "ts": "2026-09-24T07:21:41.618Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "jak správně spravovat a kupovat kryptoměny v naší zemi"
       }
     },
     {
@@ -8879,6 +8905,34 @@
       "extra": {
         "name": "Костя 1",
         "interest": "jak posuzovat investiční rizika"
+      }
+    },
+    {
+      "id": "99d93d9e-cf4f-4d06-8493-0d58e3e6d39e",
+      "ts": "2026-09-24T07:21:43.161Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "1169ab05-657c-4eaa-88bb-255633f703d3",
+      "ts": "2026-09-24T07:22:05.746Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
       }
     }
   ]
