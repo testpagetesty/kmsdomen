@@ -72294,6 +72294,19 @@
       }
     },
     {
+      "id": "480cff76-b006-41b9-b5dc-50b0f7d8f396",
+      "ts": "2026-09-24T17:53:25.273Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako podržati zdravlje kože i noktiju kod kuće"
+      }
+    },
+    {
       "id": "d9615ca2-4fb5-47c4-a209-0501ebe2c8e9",
       "ts": "2026-09-24T17:53:26.941Z",
       "workerId": "соня_тубка_2",
@@ -72314,6 +72327,20 @@
       "deviceTz": "Europe/Sarajevo",
       "geo": "ba",
       "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "5a727ab8-d1ce-48e0-aa3a-49d67102b9b8",
+      "ts": "2026-09-24T17:53:54.769Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "gmail",
       "event": "user_active",
       "extra": {
         "name": "Соня Тубка 2",
