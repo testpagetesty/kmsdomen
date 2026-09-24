@@ -62269,6 +62269,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "5a8dee99-c265-4f69-aee4-711a8afcafbf",
+      "ts": "2026-09-24T14:18:19.079Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
