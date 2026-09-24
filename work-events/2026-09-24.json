@@ -8815,6 +8815,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "e580c3c5-66d2-4884-b6b7-9a772e68744e",
+      "ts": "2026-09-24T07:21:39.040Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "jak rozvíjet pasivní příjem"
+      }
     }
   ]
 }
