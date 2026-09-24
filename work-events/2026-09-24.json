@@ -62964,6 +62964,18 @@
       }
     },
     {
+      "id": "78db91aa-f22e-4289-826d-6fb375a06c13",
+      "ts": "2026-09-24T14:22:15.372Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "fa0c26a8-96b8-4e22-a0ed-e8c8f3727d36",
       "ts": "2026-09-24T14:22:24.512Z",
       "workerId": "костя_1",
@@ -63004,6 +63016,20 @@
       "extra": {
         "name": "Костя 2",
         "title": "Tensión fuera de micro"
+      }
+    },
+    {
+      "id": "412e628f-9401-42af-9cc1-cee0e0d2c7d5",
+      "ts": "2026-09-24T14:22:28.107Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
