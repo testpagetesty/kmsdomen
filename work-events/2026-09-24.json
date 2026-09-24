@@ -40937,6 +40937,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "69a27546-c372-4942-82ca-b82e5b32a376",
+      "ts": "2026-09-24T11:03:44.725Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
