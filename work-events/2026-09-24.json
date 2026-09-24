@@ -25907,6 +25907,20 @@
         "name": "Костя 2",
         "title": "Más detalles. Nuevas herramientas para gestionar su dinero y planificar su futur"
       }
+    },
+    {
+      "id": "c8afd5c0-6109-4005-ac91-3da9efe9319b",
+      "ts": "2026-09-24T08:51:21.409Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
