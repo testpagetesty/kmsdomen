@@ -28215,6 +28215,18 @@
         "to": "br",
         "source": "ip"
       }
+    },
+    {
+      "id": "abaa3595-76bd-4507-b796-3da8fd8b716c",
+      "ts": "2026-09-24T09:38:44.174Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
