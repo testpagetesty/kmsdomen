@@ -17132,6 +17132,18 @@
       }
     },
     {
+      "id": "90263c5a-f116-409b-86b0-a2dcf48c8275",
+      "ts": "2026-09-24T08:03:18.799Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "e2d4a39f-9e11-4fc0-b9a3-89244f3b6b8d",
       "ts": "2026-09-24T08:03:20.007Z",
       "workerId": "костя_2",
@@ -17167,6 +17179,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "bf862fb8-4010-4cc7-91b7-70515b6ba87a",
+      "ts": "2026-09-24T08:03:23.823Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
       }
     }
   ]
