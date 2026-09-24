@@ -34813,6 +34813,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "55c71ccf-f0ab-4403-8685-28650f3c95f2",
+      "ts": "2026-09-24T10:18:50.263Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
