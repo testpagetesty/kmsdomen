@@ -10161,6 +10161,19 @@
         "name": "Костя 1",
         "interest": "nem indtjening med krypto på internettet"
       }
+    },
+    {
+      "id": "b5dd79d6-ade2-4b6a-af1f-4671b4e43d79",
+      "ts": "2026-09-24T07:28:52.359Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "sådan udvikler du passiv indkomst"
+      }
     }
   ]
 }
