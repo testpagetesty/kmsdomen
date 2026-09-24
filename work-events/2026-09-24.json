@@ -26742,6 +26742,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "e3ffe624-17e5-404b-a86b-da901d349e73",
+      "ts": "2026-09-24T08:58:43.758Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Her virajda adrenalini hissettim."
+      }
     }
   ]
 }
