@@ -5716,6 +5716,19 @@
         "name": "Костя 1",
         "interest": "přídavky na děti a rodinné platby"
       }
+    },
+    {
+      "id": "5764794b-64dc-4d0e-acd7-63700d53a9b7",
+      "ts": "2026-09-24T07:05:51.304Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
