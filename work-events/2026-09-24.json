@@ -38214,6 +38214,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "23d444a5-61a2-4aab-9882-9d073416ef5d",
+      "ts": "2026-09-24T10:46:16.988Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "Социальные выплаты для людей с инвалидностью"
+      }
     }
   ]
 }
