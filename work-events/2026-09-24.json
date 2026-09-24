@@ -24395,6 +24395,20 @@
         "name": "Костя 1",
         "title": "90 % lidí má ve střevech pětikilové..."
       }
+    },
+    {
+      "id": "6bf3a4a0-67f0-4c64-aa57-1797aa48b705",
+      "ts": "2026-09-24T08:37:06.364Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Los españoles descubren nueva tecnología"
+      }
     }
   ]
 }
