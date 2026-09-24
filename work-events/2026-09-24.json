@@ -63221,6 +63221,19 @@
         "name": "Костя 2",
         "title": "La demanda es alta"
       }
+    },
+    {
+      "id": "0e8c645e-b2af-46ae-a86e-f488ff58abc2",
+      "ts": "2026-09-24T14:24:45.303Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
