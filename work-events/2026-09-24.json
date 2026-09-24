@@ -42737,6 +42737,18 @@
       }
     },
     {
+      "id": "53bdc2d0-07d5-4b96-9a87-384b03aaccaf",
+      "ts": "2026-09-24T11:16:44.819Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "d9c677e8-9a00-4750-8c97-4e84fa011d55",
       "ts": "2026-09-24T11:16:44.930Z",
       "workerId": "яя",
