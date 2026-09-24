@@ -58578,6 +58578,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "1bd206a1-4987-4fca-8b19-9c96d195a1fd",
+      "ts": "2026-09-24T14:00:11.910Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "az",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
