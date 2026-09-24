@@ -36562,6 +36562,20 @@
         "name": "Костя 1",
         "interest": "formas caseras de apoyar el hígado y la desintoxicación"
       }
+    },
+    {
+      "id": "c2830bbd-1aa8-4bd7-9b81-e26a8af2af4b",
+      "ts": "2026-09-24T10:34:25.311Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
