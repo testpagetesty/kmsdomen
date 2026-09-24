@@ -50189,6 +50189,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8fbef2ab-8584-4d93-8b29-70877b2234ec",
+      "ts": "2026-09-24T12:54:40.434Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
