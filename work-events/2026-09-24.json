@@ -41405,6 +41405,18 @@
         "name": "Яя",
         "interest": "домашні способи підтримки детоксу та здоров'я ШКТ"
       }
+    },
+    {
+      "id": "88f7fd13-6b14-4763-b7d8-f2ff4ebe14d4",
+      "ts": "2026-09-24T11:06:57.373Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
