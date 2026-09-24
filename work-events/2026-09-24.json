@@ -60095,6 +60095,18 @@
       }
     },
     {
+      "id": "bec23bf4-0d7a-410b-b791-e37a00d0b37f",
+      "ts": "2026-09-24T14:07:15.347Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "2af18d4c-a7e3-4f8a-b048-f5d8588c2fe5",
       "ts": "2026-09-24T14:07:15.489Z",
       "workerId": "костя_2",
