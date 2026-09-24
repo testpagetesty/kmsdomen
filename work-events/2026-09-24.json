@@ -36679,6 +36679,19 @@
         "name": "Костя 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "5bb78ad5-e4b0-418a-bb48-c67ed4ea97f7",
+      "ts": "2026-09-24T10:35:02.507Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
