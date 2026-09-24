@@ -60338,6 +60338,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "0d39d6c9-7c44-4869-8b05-ca75030123be",
+      "ts": "2026-09-24T14:08:18.844Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "cz",
+        "to": "br",
+        "source": "ip"
+      }
     }
   ]
 }
