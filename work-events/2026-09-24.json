@@ -27332,6 +27332,20 @@
         "name": "Костя 2",
         "title": "Control de la Situación"
       }
+    },
+    {
+      "id": "9644d934-7df2-4bc4-aa8b-74b72b5d2748",
+      "ts": "2026-09-24T09:09:28.884Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
