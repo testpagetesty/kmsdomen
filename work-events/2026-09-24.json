@@ -18644,6 +18644,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6c42bbfa-25e1-44ca-b371-4b7317e7e081",
+      "ts": "2026-09-24T08:10:30.447Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
