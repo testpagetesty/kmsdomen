@@ -36941,6 +36941,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "220d0fce-c58b-442d-a268-6437ce350e24",
+      "ts": "2026-09-24T10:36:28.896Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
