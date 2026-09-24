@@ -66812,6 +66812,19 @@
       }
     },
     {
+      "id": "80f323e7-0fc6-4ec1-acb4-5b7bb6993dea",
+      "ts": "2026-09-24T15:59:31.763Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
       "id": "eca69b37-a69e-49e3-97b3-33866d191549",
       "ts": "2026-09-24T15:59:34.630Z",
       "workerId": "соня_тубка_2",
@@ -66822,6 +66835,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "host": "nezavisne.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "4ad25a96-6d8e-49f7-a83a-cc93c4b2b54e",
+      "ts": "2026-09-24T15:59:36.735Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "zagorje.com",
         "source": "teaser"
       }
     }
