@@ -24423,6 +24423,20 @@
         "name": "Костя 1",
         "title": "Už žádná plíseň na nohou"
       }
+    },
+    {
+      "id": "d62f11b6-be63-44cd-9f8a-c45640116ab5",
+      "ts": "2026-09-24T08:37:11.786Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
