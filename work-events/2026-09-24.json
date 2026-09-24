@@ -40321,6 +40321,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "d8eb9fd6-938f-41eb-99da-478aa3cd9435",
+      "ts": "2026-09-24T10:59:44.716Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
