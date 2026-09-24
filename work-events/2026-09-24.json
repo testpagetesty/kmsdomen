@@ -26623,6 +26623,20 @@
       }
     },
     {
+      "id": "8a156219-25d2-477b-871b-9e5f757a55dd",
+      "ts": "2026-09-24T08:57:37.454Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Campañas y edición en España. Klozortryr - Producción publicitaria y video en Es"
+      }
+    },
+    {
       "id": "7f31bb1d-3f7a-4ca1-b64e-f7e33c2232e3",
       "ts": "2026-09-24T08:57:38.040Z",
       "workerId": "яя",
