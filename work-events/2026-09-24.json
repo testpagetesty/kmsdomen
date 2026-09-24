@@ -65183,6 +65183,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "7d26d36c-d6c6-4c6d-83bd-73b681a62b80",
+      "ts": "2026-09-24T15:37:55.393Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
