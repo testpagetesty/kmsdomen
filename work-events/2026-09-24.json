@@ -27443,6 +27443,20 @@
         "name": "Костя 2",
         "title": "¿Usas el aceite solo para cocinar?"
       }
+    },
+    {
+      "id": "97d98832-1d9b-4d53-974a-a933bf209a6c",
+      "ts": "2026-09-24T09:10:14.108Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "si",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
