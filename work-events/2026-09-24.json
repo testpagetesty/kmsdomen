@@ -72516,6 +72516,19 @@
         "name": "Соня Тубка 2",
         "interest": "životni stil za zdravu kožu i nokte"
       }
+    },
+    {
+      "id": "f1b14154-a4cb-42f0-b64e-f9c42d302cac",
+      "ts": "2026-09-24T17:56:50.923Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "životni stil za mušku snagu"
+      }
     }
   ]
 }
