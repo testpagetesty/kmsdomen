@@ -24341,6 +24341,20 @@
       }
     },
     {
+      "id": "736769b2-518f-4d93-b78d-33fe4997f283",
+      "ts": "2026-09-24T08:36:46.294Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Vraťte očím jejich jasnost"
+      }
+    },
+    {
       "id": "40795a2b-a1a7-4f21-9ba1-49992b20e99a",
       "ts": "2026-09-24T08:36:47.932Z",
       "workerId": "костя_2",
@@ -24366,6 +24380,20 @@
       "extra": {
         "name": "Яя",
         "source": "touch"
+      }
+    },
+    {
+      "id": "1267ed98-fb48-460a-a4d3-c8ebc9493585",
+      "ts": "2026-09-24T08:36:58.377Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "90 % lidí má ve střevech pětikilové..."
       }
     }
   ]
