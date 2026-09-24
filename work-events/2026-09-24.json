@@ -32344,6 +32344,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "07b0099f-28ed-4dcd-b820-c44a43b1b3d6",
+      "ts": "2026-09-24T10:01:13.738Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
