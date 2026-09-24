@@ -56143,6 +56143,33 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "29b9d951-69c4-436a-8c43-e4881070e4a0",
+      "ts": "2026-09-24T13:41:36.134Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://zagorje.com"
+      }
+    },
+    {
+      "id": "f969ab25-6e22-4fb2-ac38-6fbccedf144c",
+      "ts": "2026-09-24T13:41:39.793Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
