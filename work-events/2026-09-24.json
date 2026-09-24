@@ -4146,6 +4146,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "b8a298d8-2ca0-4a6b-8ea0-d5a78874c25f",
+      "ts": "2026-09-24T06:58:28.431Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "поради з енергетики та самопочуття"
+      }
     }
   ]
 }
