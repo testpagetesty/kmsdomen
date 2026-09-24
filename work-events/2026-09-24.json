@@ -40949,6 +40949,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "a591b295-06e2-4441-86f9-5091eb9fedc1",
+      "ts": "2026-09-24T11:03:50.531Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Almaty",
+      "geo": "kz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
