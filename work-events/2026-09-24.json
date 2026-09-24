@@ -47468,6 +47468,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7e045b6f-4878-4ebe-bcc3-1dd89296bfaf",
+      "ts": "2026-09-24T12:25:28.425Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ge",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Chicken Rode"
+      }
     }
   ]
 }
