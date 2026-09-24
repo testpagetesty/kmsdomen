@@ -9707,6 +9707,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "96d7e40c-d50d-48cb-b195-9792512fdf1e",
+      "ts": "2026-09-24T07:25:17.939Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
