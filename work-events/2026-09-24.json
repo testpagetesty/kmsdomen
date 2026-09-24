@@ -71138,6 +71138,18 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7892d457-9026-44b8-b9ca-6b792288a7f3",
+      "ts": "2026-09-24T17:41:30.497Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
