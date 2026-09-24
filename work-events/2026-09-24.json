@@ -26099,6 +26099,20 @@
         "name": "Костя 1",
         "title": "Zeus'un gücünü hisset."
       }
+    },
+    {
+      "id": "7964b5da-4770-4d2b-a1c1-ed233cf8af1b",
+      "ts": "2026-09-24T08:53:04.601Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
