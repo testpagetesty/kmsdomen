@@ -2096,6 +2096,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "6f872c41-574b-4374-ab76-b09c155ada25",
+      "ts": "2026-09-24T06:50:13.667Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
