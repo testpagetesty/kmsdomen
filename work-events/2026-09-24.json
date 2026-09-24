@@ -35016,6 +35016,20 @@
         "name": "Костя 2",
         "interest": "Circus Route casino"
       }
+    },
+    {
+      "id": "c1c63b49-bb7b-4992-a774-c39e1281721a",
+      "ts": "2026-09-24T10:20:07.450Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
