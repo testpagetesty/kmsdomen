@@ -72503,6 +72503,19 @@
         "name": "Соня Тубка 2",
         "interest": "životni stil pri problemima s proširenim venama"
       }
+    },
+    {
+      "id": "35e4bf8d-a63c-48bc-8116-56d7957ca246",
+      "ts": "2026-09-24T17:56:47.670Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "životni stil za zdravu kožu i nokte"
+      }
     }
   ]
 }
