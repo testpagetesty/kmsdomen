@@ -49138,6 +49138,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "28b42207-ca14-4d79-b193-6bc5da1608ed",
+      "ts": "2026-09-24T12:49:07.165Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://regionalobala.si"
+      }
     }
   ]
 }
