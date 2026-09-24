@@ -35782,6 +35782,18 @@
         "name": "Яя",
         "interest": "спосіб життя для здорової шкіри та нігтів"
       }
+    },
+    {
+      "id": "fd1a6d3f-4169-4980-abaf-fe13237a2ff3",
+      "ts": "2026-09-24T10:28:57.297Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
