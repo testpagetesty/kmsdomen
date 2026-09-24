@@ -48953,6 +48953,19 @@
       }
     },
     {
+      "id": "bffb0a9e-1199-47e8-9f26-fee2ead84253",
+      "ts": "2026-09-24T12:47:58.961Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
       "id": "d677d417-a802-4a23-aed9-a35801c574c6",
       "ts": "2026-09-24T12:48:03.089Z",
       "workerId": "костя_2",
@@ -48977,6 +48990,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "abe93013-fe76-4fba-aaf3-cac7adc1117f",
+      "ts": "2026-09-24T12:48:04.362Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     },
@@ -49006,6 +49033,18 @@
       }
     },
     {
+      "id": "9b414e79-0972-4046-b01c-b75b73f1e520",
+      "ts": "2026-09-24T12:48:11.902Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "386bdf6b-c8ca-40d6-a157-b62663e27fd7",
       "ts": "2026-09-24T12:48:13.648Z",
       "workerId": "яя",
@@ -49015,6 +49054,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "a7e61460-af80-4da4-b2fc-30bf0d341cd2",
+      "ts": "2026-09-24T12:48:24.390Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
       }
     }
   ]
