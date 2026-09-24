@@ -53970,6 +53970,21 @@
       }
     },
     {
+      "id": "a1117961-c652-48ce-bbe3-90a250ba74a9",
+      "ts": "2026-09-24T13:25:11.766Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "br",
+        "to": "tr",
+        "source": "ip"
+      }
+    },
+    {
       "id": "f002d95e-de61-429b-88bf-8ed6355f3acb",
       "ts": "2026-09-24T13:25:12.176Z",
       "workerId": "костя_2",
@@ -53985,6 +54000,18 @@
       }
     },
     {
+      "id": "f2374229-687f-4835-9063-6abd857e2176",
+      "ts": "2026-09-24T13:25:12.203Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "a41c1193-3d5f-4d69-ab13-58254e40cc10",
       "ts": "2026-09-24T13:25:17.045Z",
       "workerId": "костя_1",
@@ -53996,6 +54023,20 @@
         "name": "Костя 1",
         "host": "regionalobala.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "9399d549-44e0-44f1-bd71-a182f2bf76b2",
+      "ts": "2026-09-24T13:25:22.614Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
       }
     }
   ]
