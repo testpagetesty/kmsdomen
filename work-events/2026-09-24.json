@@ -61272,6 +61272,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "86d54bcc-8fa6-45ac-b369-1e997f7649cc",
+      "ts": "2026-09-24T14:12:18.719Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
