@@ -34695,6 +34695,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "18bbcd71-cd0c-4c42-9ee8-712914c1601c",
+      "ts": "2026-09-24T10:17:45.016Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
