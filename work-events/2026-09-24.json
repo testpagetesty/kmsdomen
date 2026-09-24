@@ -66615,6 +66615,33 @@
         "host": "zagorje.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "2900ace6-54f1-42ee-8da0-969e63bd39f6",
+      "ts": "2026-09-24T15:54:25.816Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
+      "id": "9398ab1f-c866-40b1-b7fc-1cb28b575790",
+      "ts": "2026-09-24T15:54:29.946Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "zurnal24.si",
+        "source": "teaser"
+      }
     }
   ]
 }
