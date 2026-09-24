@@ -33029,6 +33029,20 @@
         "name": "Костя 1",
         "interest": "estilo de vida para una visión sana"
       }
+    },
+    {
+      "id": "c71aec02-a814-4964-be7d-c834696a7309",
+      "ts": "2026-09-24T10:07:06.188Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
