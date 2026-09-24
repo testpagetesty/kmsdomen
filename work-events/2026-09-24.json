@@ -24241,6 +24241,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "8698a9a1-2e8f-4f5f-b602-68c64b3da7d8",
+      "ts": "2026-09-24T08:36:05.023Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Spalovač tuku na břiše"
+      }
     }
   ]
 }
