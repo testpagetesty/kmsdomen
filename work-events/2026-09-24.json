@@ -63155,6 +63155,19 @@
         "name": "Костя 2",
         "title": "Smart Home sin taladrar"
       }
+    },
+    {
+      "id": "0db1928c-f9d6-4be0-a379-5b13bb3d7d19",
+      "ts": "2026-09-24T14:23:53.640Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
