@@ -64318,6 +64318,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3fec5f01-5fec-46d7-88fd-0f0aebe08a4f",
+      "ts": "2026-09-24T14:53:48.062Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як організувати простір у домі з користю"
+      }
     }
   ]
 }
