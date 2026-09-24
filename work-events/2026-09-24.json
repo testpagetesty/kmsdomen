@@ -37216,6 +37216,20 @@
         "name": "Яя",
         "interest": "як розвивати пасивний дохід"
       }
+    },
+    {
+      "id": "6051f6f4-01ba-40dd-b468-5af63f4eab34",
+      "ts": "2026-09-24T10:38:18.205Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
