@@ -67570,6 +67570,19 @@
         "to": "gt",
         "source": "ip"
       }
+    },
+    {
+      "id": "04f970d4-8782-4d42-89f8-574281e0da08",
+      "ts": "2026-09-24T16:13:29.198Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
