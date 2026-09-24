@@ -24678,6 +24678,20 @@
       }
     },
     {
+      "id": "b041a380-ce4e-423f-b751-17876fe7a30e",
+      "ts": "2026-09-24T08:39:02.982Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Každodenní péče o prostatu"
+      }
+    },
+    {
       "id": "7fae5877-f3ae-454f-b124-643078c319bd",
       "ts": "2026-09-24T08:39:04.049Z",
       "workerId": "яя",
