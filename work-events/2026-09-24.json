@@ -60549,6 +60549,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "faa4d1be-18fc-4c4f-b19a-d8d062363faa",
+      "ts": "2026-09-24T14:09:13.044Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
