@@ -6545,6 +6545,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "c2be825a-9f45-4f65-b59d-8638986f9ae9",
+      "ts": "2026-09-24T07:09:28.615Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
