@@ -40413,6 +40413,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9ae39c1f-3914-4547-af19-dadc7141841d",
+      "ts": "2026-09-24T11:00:05.289Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
