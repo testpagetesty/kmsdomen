@@ -25961,6 +25961,20 @@
         "name": "Костя 2",
         "title": "El programa acabó en un caos. Lo que comenzó como un pequeño momento, pronto se "
       }
+    },
+    {
+      "id": "84b9192b-990c-415b-b05b-c675a05622a9",
+      "ts": "2026-09-24T08:51:42.960Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
