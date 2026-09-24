@@ -44100,6 +44100,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "08c79857-4f8d-40e0-bea7-e40440488eae",
+      "ts": "2026-09-24T11:24:45.330Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
