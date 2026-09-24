@@ -53663,6 +53663,32 @@
         "host": "23835473478.optionsl.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "98ade5cd-9cec-4ba8-82af-87e8f17bcbf8",
+      "ts": "2026-09-24T13:22:13.267Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "d82a1047-ea4b-430a-83a1-aaa79c4f028d",
+      "ts": "2026-09-24T13:22:22.851Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
