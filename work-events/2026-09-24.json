@@ -30041,6 +30041,19 @@
       }
     },
     {
+      "id": "ca0a75b8-8b79-4a77-b09c-a934878d7425",
+      "ts": "2026-09-24T09:46:50.293Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "6ae7d3ce-abac-44d3-88b0-7044200ad300",
       "ts": "2026-09-24T09:46:50.295Z",
       "workerId": "костя_1",
@@ -30080,6 +30093,20 @@
       }
     },
     {
+      "id": "380d83b4-0a3d-4084-a264-c9f0267e8878",
+      "ts": "2026-09-24T09:46:56.214Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c51687cf-c9a0-4130-80db-e3a13a36264a",
       "ts": "2026-09-24T09:46:57.255Z",
       "workerId": "яя",
@@ -30103,6 +30130,19 @@
       "extra": {
         "name": "Костя 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "d66b18ac-e991-4f03-a620-e396d812b907",
+      "ts": "2026-09-24T09:47:33.060Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
       }
     },
     {
@@ -30131,6 +30171,19 @@
       "extra": {
         "name": "Костя 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "34e80a09-6ebe-4fae-9a64-2110ef64a15a",
+      "ts": "2026-09-24T09:47:39.149Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
