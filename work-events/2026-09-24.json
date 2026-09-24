@@ -18349,6 +18349,20 @@
       }
     },
     {
+      "id": "6797eb2f-fe53-4365-b50b-922335d19341",
+      "ts": "2026-09-24T08:09:03.935Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "9e5a3222-92de-469a-9eb9-a6eedfba6f27",
       "ts": "2026-09-24T08:09:04.538Z",
       "workerId": "яя",
