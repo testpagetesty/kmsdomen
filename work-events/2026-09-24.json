@@ -47496,6 +47496,20 @@
         "name": "Костя 2",
         "title": "Stabilitate reală"
       }
+    },
+    {
+      "id": "69df1a5b-d5ce-467b-b5dc-dde59fc402fb",
+      "ts": "2026-09-24T12:25:55.811Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Susținerea vederii normale"
+      }
     }
   ]
 }
