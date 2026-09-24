@@ -1864,6 +1864,18 @@
       }
     },
     {
+      "id": "b2ded4a0-4700-49fd-b9e0-43a6121592cd",
+      "ts": "2026-09-24T06:49:22.299Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "e73f2ac5-dd79-489f-8b0c-fc1c7c4516b8",
       "ts": "2026-09-24T06:49:22.614Z",
       "workerId": "яя",
