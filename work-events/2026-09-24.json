@@ -52576,6 +52576,19 @@
       }
     },
     {
+      "id": "93abf3ab-c43a-4710-90e7-85ef6f383fe7",
+      "ts": "2026-09-24T13:13:38.659Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://buzzfuzzy.com"
+      }
+    },
+    {
       "id": "a57259eb-b1da-433e-a17c-2c4e30a1ab5f",
       "ts": "2026-09-24T13:13:39.087Z",
       "workerId": "костя_1",
@@ -52600,6 +52613,20 @@
         "name": "Костя 1",
         "host": "buzzfuzzy.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "80a3ef3a-8f9b-4780-93c3-2ced64e6543f",
+      "ts": "2026-09-24T13:13:51.795Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
       }
     }
   ]
