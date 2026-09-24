@@ -57555,6 +57555,19 @@
         "host": "s1.quizdays.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "f3f626b4-2a22-47b4-8c6c-a924315e96f2",
+      "ts": "2026-09-24T13:52:16.666Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
