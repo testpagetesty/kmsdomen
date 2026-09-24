@@ -68937,6 +68937,18 @@
         "name": "Соня Тубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "cd1b75ac-4ae7-4804-8ef6-5088ea2d2786",
+      "ts": "2026-09-24T17:25:59.686Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
