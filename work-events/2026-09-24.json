@@ -71375,6 +71375,32 @@
       }
     },
     {
+      "id": "1265f7f1-07f3-4b43-9e43-4d177602df9e",
+      "ts": "2026-09-24T17:43:28.474Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako se bolje osjećati pri nelagodi kože i gljivicama"
+      }
+    },
+    {
+      "id": "2b3d6ea0-a8a4-48ca-8ab3-41130c74f867",
+      "ts": "2026-09-24T17:43:28.622Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako se bolje osjećati pri problemima sa srcem i žilama"
+      }
+    },
+    {
       "id": "96c4fe4d-bffe-44fe-ab07-d6efdffd3722",
       "ts": "2026-09-24T17:43:28.788Z",
       "workerId": "соня_тубка_2",
@@ -71385,6 +71411,58 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "kako održati zdravu težinu i metabolizam kod kuće"
+      }
+    },
+    {
+      "id": "1a8a5185-7f29-4b69-8ae7-302d7d46cfc1",
+      "ts": "2026-09-24T17:43:29.006Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kućni načini podrške žilama i venama"
+      }
+    },
+    {
+      "id": "f0bb0407-7049-4b23-9d73-e8fb723e50b3",
+      "ts": "2026-09-24T17:43:29.140Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako se bolje osjećati pri problemima s mokraćnim sustavom"
+      }
+    },
+    {
+      "id": "70e4c701-6e25-401d-9504-3f15e1a7456d",
+      "ts": "2026-09-24T17:43:29.311Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "što raditi pri nelagodi u zglobovima kod kuće"
+      }
+    },
+    {
+      "id": "014343cb-a82a-4dcd-8a6e-50184b315657",
+      "ts": "2026-09-24T17:43:29.456Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "životni stil za mušku snagu"
       }
     },
     {
@@ -71426,6 +71504,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "9814183e-e359-44d8-bc90-e5020934bd5a",
+      "ts": "2026-09-24T17:43:59.714Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
