@@ -3105,6 +3105,19 @@
         "name": "Яя",
         "interest": "як маленька деталь змінює смак страви"
       }
+    },
+    {
+      "id": "b77bc3d0-e671-4f2e-af30-09a439aabf86",
+      "ts": "2026-09-24T06:54:22.644Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як маленька деталь змінює смак страви"
+      }
     }
   ]
 }
