@@ -29899,6 +29899,19 @@
       }
     },
     {
+      "id": "71b66f06-b820-4a3e-9fea-18ecf7560523",
+      "ts": "2026-09-24T09:46:28.674Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки метаболізму та схуднення"
+      }
+    },
+    {
       "id": "e015d97b-12e8-45ef-9350-e9d956a6b6ca",
       "ts": "2026-09-24T09:46:29.114Z",
       "workerId": "костя_2",
@@ -29910,6 +29923,19 @@
       "extra": {
         "name": "Костя 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "86ff1ea0-6a66-43f3-95fd-700aac164646",
+      "ts": "2026-09-24T09:46:34.058Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
