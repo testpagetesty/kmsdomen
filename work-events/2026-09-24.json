@@ -42016,6 +42016,20 @@
       }
     },
     {
+      "id": "75be6597-a3ae-440c-88ea-70af001659f4",
+      "ts": "2026-09-24T11:10:58.134Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "68403850-58e9-40ac-a751-e8bce973d950",
       "ts": "2026-09-24T11:10:58.874Z",
       "workerId": "костя_1",
