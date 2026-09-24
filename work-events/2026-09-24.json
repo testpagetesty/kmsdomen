@@ -71360,6 +71360,19 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1da3fa59-4d7d-4d2b-91f5-45ef5c9fcf14",
+      "ts": "2026-09-24T17:43:28.329Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kućni načini podrške metabolizmu i mršavljenju"
+      }
     }
   ]
 }
