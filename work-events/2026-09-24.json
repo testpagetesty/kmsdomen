@@ -67383,6 +67383,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "62926922-7fa7-475a-bb81-2280e0b89c74",
+      "ts": "2026-09-24T16:10:43.315Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
