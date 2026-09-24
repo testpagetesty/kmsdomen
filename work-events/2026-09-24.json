@@ -51144,6 +51144,20 @@
       }
     },
     {
+      "id": "50673633-c952-4216-96d9-fbb496866cea",
+      "ts": "2026-09-24T13:01:56.672Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e1a200ba-157b-4aaf-a850-7222f2f901c2",
       "ts": "2026-09-24T13:01:56.785Z",
       "workerId": "костя_1",
