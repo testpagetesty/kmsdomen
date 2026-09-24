@@ -25342,6 +25342,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "90b15ee5-cc43-4108-b4af-02628e56026c",
+      "ts": "2026-09-24T08:45:36.947Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "dk",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "2.050 kr – kom godt fra start i Danmark"
+      }
     }
   ]
 }
