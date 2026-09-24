@@ -22798,6 +22798,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "757d7bde-d976-432c-b05e-b42e44e7b010",
+      "ts": "2026-09-24T08:29:10.579Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
