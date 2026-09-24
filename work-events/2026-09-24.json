@@ -24676,6 +24676,19 @@
         "name": "Костя 2",
         "title": "Empieza por una rutina simple"
       }
+    },
+    {
+      "id": "7fae5877-f3ae-454f-b124-643078c319bd",
+      "ts": "2026-09-24T08:39:04.049Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
