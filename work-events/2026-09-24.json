@@ -26057,6 +26057,20 @@
         "name": "Костя 2",
         "title": "Soluciones claras para tus tareas. Descubre recursos accesibles que te ayudan a "
       }
+    },
+    {
+      "id": "5c875f8a-6993-4bcd-823c-fcfd71d42106",
+      "ts": "2026-09-24T08:52:44.561Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
