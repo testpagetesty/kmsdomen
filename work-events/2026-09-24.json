@@ -17767,6 +17767,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "42308856-e696-4195-bbd3-232c7a418575",
+      "ts": "2026-09-24T08:05:59.471Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
