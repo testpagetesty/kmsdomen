@@ -10396,6 +10396,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "be4e0ec8-60e1-4b73-9dc8-66d3f7f5f86e",
+      "ts": "2026-09-24T07:29:57.851Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
