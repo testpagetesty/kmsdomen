@@ -40832,6 +40832,21 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3bb2af22-7473-4ec9-b549-56427d6e0659",
+      "ts": "2026-09-24T11:02:42.496Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "nz",
+        "to": "us",
+        "source": "ip"
+      }
     }
   ]
 }
