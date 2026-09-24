@@ -46900,6 +46900,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7d6c0deb-120c-41c8-b536-3860bdc225e9",
+      "ts": "2026-09-24T12:17:13.596Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
