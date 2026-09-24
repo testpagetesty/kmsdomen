@@ -25330,6 +25330,18 @@
         "name": "Костя 2",
         "title": "El conflicto siguió fuera de cámara"
       }
+    },
+    {
+      "id": "2bbbcdc4-ec06-44d5-8ccc-d97a865b97e1",
+      "ts": "2026-09-24T08:45:23.507Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
