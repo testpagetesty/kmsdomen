@@ -58225,6 +58225,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "8201b8d9-87b2-40a9-9522-3c3f4a12e9d5",
+      "ts": "2026-09-24T13:56:47.134Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "askproly.com",
+        "source": "teaser"
+      }
     }
   ]
 }
