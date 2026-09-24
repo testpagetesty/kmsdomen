@@ -45743,6 +45743,19 @@
         "name": "Костя 1",
         "title": "Fără sprijin adecvat, mobilitatea poate scădea treptat."
       }
+    },
+    {
+      "id": "d273e2d1-a7c4-47a6-b919-08759ebad7c4",
+      "ts": "2026-09-24T11:46:58.924Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
