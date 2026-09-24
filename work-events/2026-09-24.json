@@ -47414,6 +47414,20 @@
         "name": "Костя 2",
         "title": "Sweet100x"
       }
+    },
+    {
+      "id": "9993406b-7684-43e0-a085-41e10f00c9b2",
+      "ts": "2026-09-24T12:25:05.556Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Vertical Rush"
+      }
     }
   ]
 }
