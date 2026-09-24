@@ -72529,6 +72529,19 @@
         "name": "Соня Тубка 2",
         "interest": "životni stil za mušku snagu"
       }
+    },
+    {
+      "id": "aa55a9d3-040c-4476-afb2-a8c6a2bf4d7b",
+      "ts": "2026-09-24T17:56:57.799Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako se bolje osjećati pri poremećajima cirkulacije"
+      }
     }
   ]
 }
