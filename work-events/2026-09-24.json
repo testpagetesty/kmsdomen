@@ -45397,6 +45397,20 @@
       }
     },
     {
+      "id": "2367b201-88e3-4015-9715-321d670acfbc",
+      "ts": "2026-09-24T11:39:49.422Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Tu recompensa te está esperando."
+      }
+    },
+    {
       "id": "18f9d341-c5c3-4833-af94-b1e67b71546d",
       "ts": "2026-09-24T11:39:58.008Z",
       "workerId": "яя",
@@ -45588,6 +45602,20 @@
       "extra": {
         "name": "Костя 1",
         "title": "Ajută la reducerea rigidității și a disconfortului persistent."
+      }
+    },
+    {
+      "id": "cece9647-59b5-4cf3-9033-34a5614b7457",
+      "ts": "2026-09-24T11:43:39.006Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Susține sănătatea ochilor tăi"
       }
     }
   ]
