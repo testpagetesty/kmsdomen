@@ -5624,6 +5624,20 @@
       }
     },
     {
+      "id": "78069866-6393-4a15-9cc5-28face971c7c",
+      "ts": "2026-09-24T07:05:18.776Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "55b380a7-263e-4d65-a46e-8d5bcba468f9",
       "ts": "2026-09-24T07:05:20.669Z",
       "workerId": "яя",
@@ -5661,6 +5675,19 @@
       "extra": {
         "name": "Костя 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "76a3eea9-7c08-48b4-9ae1-768587fe4fc6",
+      "ts": "2026-09-24T07:05:33.026Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "sociální zabezpečení při nemoci"
       }
     }
   ]
