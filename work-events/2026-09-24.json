@@ -8208,6 +8208,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "5ca8c5f9-f724-42d3-8dcc-75563e86b64c",
+      "ts": "2026-09-24T07:18:18.996Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
