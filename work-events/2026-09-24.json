@@ -50030,6 +50030,20 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fb8dacda-52c7-47af-b965-3d514dd3dcc1",
+      "ts": "2026-09-24T12:53:47.344Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
