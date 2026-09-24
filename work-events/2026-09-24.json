@@ -20346,6 +20346,18 @@
       }
     },
     {
+      "id": "87f0f3d3-5d7a-4bdc-8029-9c416f2f0a84",
+      "ts": "2026-09-24T08:18:19.743Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "63b0267b-53b4-4632-86c4-b1e525b7f97d",
       "ts": "2026-09-24T08:18:21.713Z",
       "workerId": "яя",
