@@ -53835,6 +53835,33 @@
         "name": "Костя 2",
         "url": "https://buzzfuzzy.com"
       }
+    },
+    {
+      "id": "3d230287-2cfb-40bf-9459-a58b1a31080f",
+      "ts": "2026-09-24T13:23:28.582Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://buzzfuzzy.com"
+      }
+    },
+    {
+      "id": "658d5692-9637-4d97-8136-0e09d335b635",
+      "ts": "2026-09-24T13:23:37.849Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
