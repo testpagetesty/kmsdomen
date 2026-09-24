@@ -39839,6 +39839,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fde8dfec-424a-450b-a882-5fd6cc01a40c",
+      "ts": "2026-09-24T10:56:44.712Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
