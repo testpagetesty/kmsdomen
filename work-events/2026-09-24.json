@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-24",
+  "events": [
+    {
+      "id": "f3e3e2f0-e3bf-4a75-9f9c-27a9b6f7c1ec",
+      "ts": "2026-09-24T03:02:02.362Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Яя",
+        "from": "ua",
+        "to": "ru",
+        "source": "ip"
+      }
+    }
+  ]
+}
