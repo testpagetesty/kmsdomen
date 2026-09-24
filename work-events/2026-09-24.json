@@ -70894,6 +70894,71 @@
       }
     },
     {
+      "id": "b2d2f85b-1b7f-49e2-8437-660a8d8aa097",
+      "ts": "2026-09-24T17:40:54.415Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "kuidas end paremini tunda liigesevalu korral"
+      }
+    },
+    {
+      "id": "8e095f10-cf5a-4de8-8028-b9fdfbe694a1",
+      "ts": "2026-09-24T17:40:54.612Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "mida teha mehe energia langusega kodus"
+      }
+    },
+    {
+      "id": "bb900e81-d6fa-420f-a872-6ca5ec1ca0b7",
+      "ts": "2026-09-24T17:40:54.659Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "kuidas toetada maksa kodus"
+      }
+    },
+    {
+      "id": "9db870c1-77c2-49f1-baec-b746ae3f742a",
+      "ts": "2026-09-24T17:40:54.862Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "mida teha keha ja maksa puhastamiseks kodus"
+      }
+    },
+    {
+      "id": "652b68c5-c44f-4452-95de-adb78886d4de",
+      "ts": "2026-09-24T17:40:54.972Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "mida teha liigese ebamugavusega kodus"
+      }
+    },
+    {
       "id": "17b78304-2d1d-460d-8be5-b8b799933d35",
       "ts": "2026-09-24T17:40:55.162Z",
       "workerId": "соня_трубка_1",
@@ -70904,6 +70969,45 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "kodused viisid liikumisaparaadi toetamiseks"
+      }
+    },
+    {
+      "id": "37924806-8bc4-417c-a694-db7922b8877c",
+      "ts": "2026-09-24T17:40:55.637Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "elustiil maksa tervise jaoks"
+      }
+    },
+    {
+      "id": "1a3b9414-d283-4885-aad4-56a6edd17206",
+      "ts": "2026-09-24T17:40:56.388Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "elustiil tervise nahka ja küünte jaoks"
+      }
+    },
+    {
+      "id": "b73a309a-8fd9-4d93-9673-ee96ed17765b",
+      "ts": "2026-09-24T17:40:56.469Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "kuidas end paremini tunda ülekaaluga"
       }
     },
     {
@@ -70955,6 +71059,18 @@
       "event": "capture_stop",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "6bb71a16-9f13-436d-9e9d-015b0e2affff",
+      "ts": "2026-09-24T17:41:12.586Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
