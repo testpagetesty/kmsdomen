@@ -72646,6 +72646,18 @@
         "name": "Соня Тубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "fa0b1de1-90b9-4841-9e4e-7cf8b1c54bc3",
+      "ts": "2026-09-24T19:02:37.433Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
