@@ -72696,6 +72696,18 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "3d9beeee-fa67-45a4-b987-21dd22db93e0",
+      "ts": "2026-09-24T19:04:57.189Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
