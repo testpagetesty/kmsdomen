@@ -25193,6 +25193,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "1bd880fb-03f3-4d0a-9fb1-c7401af6d379",
+      "ts": "2026-09-24T08:43:33.646Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La disputa siguió tras el corte del aire"
+      }
     }
   ]
 }
