@@ -20330,6 +20330,20 @@
         "to": "mx",
         "source": "ip"
       }
+    },
+    {
+      "id": "dcda37eb-53d9-4855-ae28-0020bc3a89ca",
+      "ts": "2026-09-24T08:18:18.335Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
