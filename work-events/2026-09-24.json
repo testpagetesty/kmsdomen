@@ -37203,6 +37203,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "eb3b0156-81a4-44db-a3b0-5ba5c6a0b958",
+      "ts": "2026-09-24T10:38:17.297Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як розвивати пасивний дохід"
+      }
     }
   ]
 }
