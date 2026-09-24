@@ -1589,6 +1589,20 @@
       }
     },
     {
+      "id": "3d246d5b-9217-4b19-970e-5993e1c2b7b0",
+      "ts": "2026-09-24T06:48:25.802Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "4e95035d-ec03-4fd7-89ea-9553b0af0e5e",
       "ts": "2026-09-24T06:48:27.430Z",
       "workerId": "яя",
