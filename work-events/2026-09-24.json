@@ -67062,6 +67062,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "7c8be328-4374-4f70-8113-40d4e34eea59",
+      "ts": "2026-09-24T16:01:17.042Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
