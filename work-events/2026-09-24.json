@@ -19330,6 +19330,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "d7a9f6ff-4109-4ea0-91b2-4fe928f7d417",
+      "ts": "2026-09-24T08:13:32.099Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
