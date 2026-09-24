@@ -24881,6 +24881,20 @@
       }
     },
     {
+      "id": "e5836135-cd3d-48ac-b369-47c2f6d53ee5",
+      "ts": "2026-09-24T08:40:25.934Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "3ed4c1e1-88cb-49c1-89a5-d2ada924f626",
       "ts": "2026-09-24T08:40:26.467Z",
       "workerId": "костя_2",
@@ -24920,6 +24934,20 @@
       "extra": {
         "name": "Костя 2",
         "title": "De ahí viene el dinero"
+      }
+    },
+    {
+      "id": "7b5171ca-a039-4572-a418-103baba757e4",
+      "ts": "2026-09-24T08:40:46.180Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
