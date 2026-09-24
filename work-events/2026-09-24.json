@@ -26183,6 +26183,20 @@
       }
     },
     {
+      "id": "1deabe0e-0be1-4edb-b6eb-a567c5be52cb",
+      "ts": "2026-09-24T08:53:44.707Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "6c959cd3-9206-46b7-8079-05f5c2200d9b",
       "ts": "2026-09-24T08:53:48.387Z",
       "workerId": "костя_2",
@@ -26194,6 +26208,20 @@
       "extra": {
         "name": "Костя 2",
         "title": "Temas que conviene consultar ahora. Hemos recopilado de forma clara temas cotidi"
+      }
+    },
+    {
+      "id": "4c6ac45c-9cec-40ba-b16b-01cc4ab632b2",
+      "ts": "2026-09-24T08:54:06.421Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
       }
     }
   ]
