@@ -66285,6 +66285,20 @@
         "name": "Соня Тубка 2",
         "url": "https://primainspirace.cz/category/recepty"
       }
+    },
+    {
+      "id": "c0da1a91-37e3-4b6e-b785-729e0e616766",
+      "ts": "2026-09-24T15:49:34.242Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
