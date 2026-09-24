@@ -48362,6 +48362,18 @@
         "host": "24080232431.buzzfuzzy.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "dec4dd64-7c0f-4562-b2f3-dc01a6d12933",
+      "ts": "2026-09-24T12:44:11.873Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
