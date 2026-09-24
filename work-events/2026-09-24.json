@@ -1966,6 +1966,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3f5d5438-3272-489d-a106-8fe381bce2fd",
+      "ts": "2026-09-24T06:49:34.371Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
