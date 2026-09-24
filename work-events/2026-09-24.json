@@ -63234,6 +63234,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "5b225f96-1dd9-4a51-9f8c-2ec6e2c048c9",
+      "ts": "2026-09-24T14:24:49.090Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Madrid exige justicia para periodistas"
+      }
     }
   ]
 }
