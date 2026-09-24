@@ -61770,6 +61770,21 @@
         "to": "ru",
         "source": "ip"
       }
+    },
+    {
+      "id": "c5da1bb7-db81-4313-b82d-6be453e67cf1",
+      "ts": "2026-09-24T14:15:14.725Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "tr",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "br",
+        "to": "tr",
+        "source": "ip"
+      }
     }
   ]
 }
