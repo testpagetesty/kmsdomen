@@ -24907,6 +24907,20 @@
         "name": "Костя 1",
         "title": "Papilomy do rána samy odpadnou!"
       }
+    },
+    {
+      "id": "8b9cf301-6609-4dcd-8512-ffb3a2f8c796",
+      "ts": "2026-09-24T08:40:41.944Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "De ahí viene el dinero"
+      }
     }
   ]
 }
