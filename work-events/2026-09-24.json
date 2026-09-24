@@ -42124,6 +42124,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9fe1babe-7a89-4ca7-a613-37ca99dd1b09",
+      "ts": "2026-09-24T11:11:44.589Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "formas caseras de apoyar el metabolismo y adelgazar"
+      }
     }
   ]
 }
