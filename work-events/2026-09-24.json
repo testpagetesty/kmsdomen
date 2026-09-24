@@ -50230,6 +50230,18 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b24f41c7-1502-4e38-81e7-8a399befb375",
+      "ts": "2026-09-24T12:55:11.916Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
