@@ -62725,6 +62725,20 @@
         "name": "Костя 1",
         "title": "Alternative\nLa\nDepozite\nClasice\nAflă cum să îți protejezi\neconomiile împotriva i"
       }
+    },
+    {
+      "id": "40295384-acb5-4ec9-a326-6d49363c1256",
+      "ts": "2026-09-24T14:20:31.152Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
