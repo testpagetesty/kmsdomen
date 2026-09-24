@@ -19240,6 +19240,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "58c8605d-9fd7-4689-aed5-06fd4fb93615",
+      "ts": "2026-09-24T08:13:18.813Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
