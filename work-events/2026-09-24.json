@@ -39762,6 +39762,19 @@
       }
     },
     {
+      "id": "c16d3d41-956f-4f87-be25-5474a5861a9a",
+      "ts": "2026-09-24T10:56:21.587Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "52f274ca-6827-4901-8f13-561de2a60f8c",
       "ts": "2026-09-24T10:56:21.974Z",
       "workerId": "яя",
