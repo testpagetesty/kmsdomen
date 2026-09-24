@@ -65929,6 +65929,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "d9b72dbb-0986-4cb5-ad47-bb97b7e94d43",
+      "ts": "2026-09-24T15:46:11.365Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
