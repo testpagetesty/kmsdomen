@@ -30227,6 +30227,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9597fd6d-58e3-4cea-ab0b-8ff96e061d77",
+      "ts": "2026-09-24T09:47:44.424Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
