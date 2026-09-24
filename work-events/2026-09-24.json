@@ -62322,6 +62322,33 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fd0b2b26-0f89-496d-9a21-cc47cb0b1f10",
+      "ts": "2026-09-24T14:18:27.556Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "c2aa73c6-bd63-43f5-9526-4a3e685bae19",
+      "ts": "2026-09-24T14:18:34.093Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
