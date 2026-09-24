@@ -62767,6 +62767,20 @@
         "name": "Костя 2",
         "title": "Ver video\nToca para ver"
       }
+    },
+    {
+      "id": "ff3fecc2-f22b-4d66-a3fb-e5d8b24b88d2",
+      "ts": "2026-09-24T14:20:55.524Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Digitální dovednosti od nuly"
+      }
     }
   ]
 }
