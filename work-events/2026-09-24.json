@@ -39111,6 +39111,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "300e5822-c06a-4b77-b0e6-13400c1e477d",
+      "ts": "2026-09-24T10:52:44.705Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
