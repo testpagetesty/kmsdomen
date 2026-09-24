@@ -39694,6 +39694,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "26ea24d6-7d85-460d-8a8d-3556bb4a0616",
+      "ts": "2026-09-24T10:56:06.093Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
