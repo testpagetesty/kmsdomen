@@ -26333,6 +26333,20 @@
         "name": "Костя 2",
         "title": "Atención personalizada. brotym.site: agencia de viajes a medida con itinerarios "
       }
+    },
+    {
+      "id": "950af2b6-e8b4-4c75-a44a-9b4a6799903b",
+      "ts": "2026-09-24T08:55:20.789Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Bugün karmaşık planlara gerek yok"
+      }
     }
   ]
 }
