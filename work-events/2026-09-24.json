@@ -29545,6 +29545,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "011080d5-6a19-47ba-a1b6-05ccb3b4600b",
+      "ts": "2026-09-24T09:45:05.399Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
