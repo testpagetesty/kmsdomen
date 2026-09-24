@@ -51102,6 +51102,33 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cc92e649-07ad-461b-8dae-6fa25ba3e748",
+      "ts": "2026-09-24T13:01:39.036Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://askproly.com"
+      }
+    },
+    {
+      "id": "aed9404c-e5fd-4273-8598-56557f1eae63",
+      "ts": "2026-09-24T13:01:43.091Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "askproly.com",
+        "source": "teaser"
+      }
     }
   ]
 }
