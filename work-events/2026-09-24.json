@@ -70164,6 +70164,18 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "40e816d8-e05c-4751-b7b9-e2316d8aae4b",
+      "ts": "2026-09-24T17:35:55.913Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
