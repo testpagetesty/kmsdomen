@@ -28678,6 +28678,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c7acdbb3-87dc-4375-9a86-c9de9ff572ae",
+      "ts": "2026-09-24T09:40:57.653Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
