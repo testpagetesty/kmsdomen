@@ -42477,6 +42477,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "11d40086-dd35-402d-84b6-5bd76f33b980",
+      "ts": "2026-09-24T11:14:44.812Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
