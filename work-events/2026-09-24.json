@@ -58991,6 +58991,18 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "94e330e0-d4cf-4bf2-bb2d-fa1a145e9871",
+      "ts": "2026-09-24T14:02:13.726Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
