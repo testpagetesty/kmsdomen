@@ -51893,6 +51893,20 @@
       }
     },
     {
+      "id": "2cf83f15-0b49-41c8-adcb-b94b57f99b88",
+      "ts": "2026-09-24T13:07:48.310Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
+    },
+    {
       "id": "11388818-5143-4977-a50c-cfaaf3a0b9c6",
       "ts": "2026-09-24T13:07:54.685Z",
       "workerId": "костя_2",
@@ -51903,6 +51917,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "0bc7d39d-5b6e-4cea-99d1-a5898210f6b3",
+      "ts": "2026-09-24T13:07:54.765Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
