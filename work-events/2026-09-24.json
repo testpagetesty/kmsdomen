@@ -49286,6 +49286,19 @@
       }
     },
     {
+      "id": "353e4563-1c28-44be-b82f-e954aed377ef",
+      "ts": "2026-09-24T12:49:38.104Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
+      }
+    },
+    {
       "id": "0ab64547-faf8-416f-8305-164420cf5efa",
       "ts": "2026-09-24T12:49:38.555Z",
       "workerId": "костя_1",
@@ -49310,6 +49323,20 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "9a093e4f-a165-458d-820f-3542c63332eb",
+      "ts": "2026-09-24T12:49:42.255Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "24080232431.buzzfuzzy.com",
+        "source": "teaser"
       }
     }
   ]
