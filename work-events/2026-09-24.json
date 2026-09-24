@@ -37873,6 +37873,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "c272e23d-0989-48df-ba5e-7c4aecd27ccf",
+      "ts": "2026-09-24T10:43:36.468Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "останні новини про зростання криптовалюти в нашій країні"
+      }
     }
   ]
 }
