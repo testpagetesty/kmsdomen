@@ -24491,6 +24491,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c24d4265-d29a-49e5-91c2-1d3cfb9f2396",
+      "ts": "2026-09-24T08:37:45.378Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Plataforma moderna en España"
+      }
     }
   ]
 }
