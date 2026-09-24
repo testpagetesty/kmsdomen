@@ -9577,6 +9577,31 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "d15c891f-c07a-44b4-a179-1946559bd933",
+      "ts": "2026-09-24T07:24:49.783Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "f2b619aa-37cd-447c-b127-7d80df68e127",
+      "ts": "2026-09-24T07:24:49.784Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
