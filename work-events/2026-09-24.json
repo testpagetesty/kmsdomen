@@ -46516,6 +46516,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "4f5b5ac9-17a4-45fe-805b-f189d3cd091b",
+      "ts": "2026-09-24T12:09:43.038Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Fire Joker"
+      }
     }
   ]
 }
