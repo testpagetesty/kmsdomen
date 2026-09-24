@@ -65287,6 +65287,19 @@
       }
     },
     {
+      "id": "b3c473c5-2aed-4b92-a9d9-83f3a8d4cf2b",
+      "ts": "2026-09-24T15:39:29.721Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "fb7a348a-c04a-4d0d-b3dc-70ec5738b604",
       "ts": "2026-09-24T15:39:46.605Z",
       "workerId": "соня_трубка_1",
@@ -65298,6 +65311,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "a2a4e9ba-3ecf-4490-9dad-b7adb846b070",
+      "ts": "2026-09-24T15:39:53.783Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
