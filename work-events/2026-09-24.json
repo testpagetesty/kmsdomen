@@ -26403,6 +26403,20 @@
       }
     },
     {
+      "id": "1a6b01d7-9e6f-49db-b9c7-cc01131daaa9",
+      "ts": "2026-09-24T08:55:45.045Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Temas que conviene consultar ahora. Presentamos información útil sobre temas que"
+      }
+    },
+    {
       "id": "388e2575-7234-48ce-9114-29a1de06bbe3",
       "ts": "2026-09-24T08:55:46.354Z",
       "workerId": "яя",
@@ -26414,6 +26428,20 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "d5432788-b6d0-46ca-ad74-72ab70898ff6",
+      "ts": "2026-09-24T08:56:05.512Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Los bancos cambian sus condiciones. Muchos usuarios no saben todavía qué comisio"
       }
     },
     {
