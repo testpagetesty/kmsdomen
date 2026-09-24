@@ -43065,6 +43065,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a826fe63-0915-4179-9a91-41d5368f4393",
+      "ts": "2026-09-24T11:19:23.209Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
