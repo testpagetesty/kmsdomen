@@ -25384,6 +25384,20 @@
         "name": "Костя 1",
         "title": "Konuşma Yeni Bir Ton Aldı"
       }
+    },
+    {
+      "id": "50e8bc31-9f04-49a1-8fd6-239f9436ffc7",
+      "ts": "2026-09-24T08:46:23.557Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Pérdida de peso de 84 a 55 kg"
+      }
     }
   ]
 }
