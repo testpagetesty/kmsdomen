@@ -8183,6 +8183,19 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "e3b6c0a6-3b3f-4bca-b9bc-bb049ff3c4ae",
+      "ts": "2026-09-24T07:18:14.837Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
