@@ -61598,6 +61598,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "44cee450-3790-4427-a5e5-b2479e489e9d",
+      "ts": "2026-09-24T14:14:13.044Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
