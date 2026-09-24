@@ -42126,6 +42126,21 @@
       }
     },
     {
+      "id": "d33f7f43-a014-4bcf-b5ea-e0af1a771335",
+      "ts": "2026-09-24T11:11:42.932Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "ru",
+        "to": "pe",
+        "source": "ip"
+      }
+    },
+    {
       "id": "9fe1babe-7a89-4ca7-a613-37ca99dd1b09",
       "ts": "2026-09-24T11:11:44.589Z",
       "workerId": "костя_1",
