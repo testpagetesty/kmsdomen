@@ -33464,6 +33464,31 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "8201c914-75f4-4cbc-91c8-4a80ec84eb4f",
+      "ts": "2026-09-24T10:09:02.024Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "9e927d53-0656-4c57-b900-70c1a7a1f55c",
+      "ts": "2026-09-24T10:09:02.025Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
