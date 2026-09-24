@@ -45448,6 +45448,20 @@
         "name": "Костя 1",
         "title": "Juega Hoy y Reclama Tu Bono"
       }
+    },
+    {
+      "id": "e0ed5478-1160-436c-a700-92ff8e4d905f",
+      "ts": "2026-09-24T11:41:16.788Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "What Men Are Reading"
+      }
     }
   ]
 }
