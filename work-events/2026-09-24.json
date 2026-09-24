@@ -51490,6 +51490,21 @@
       }
     },
     {
+      "id": "b74fce0a-db37-4486-9eb6-a66077d2a049",
+      "ts": "2026-09-24T13:04:40.753Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "es",
+        "to": "ar",
+        "source": "ip"
+      }
+    },
+    {
       "id": "bd996153-7aa5-4649-9fb2-fe13356e8d86",
       "ts": "2026-09-24T13:04:43.972Z",
       "workerId": "костя_1",
@@ -51528,6 +51543,34 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "9d2d9c5a-2510-4b2e-81eb-18d4adcb8ae1",
+      "ts": "2026-09-24T13:04:47.420Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "e0711f7e-310a-4559-b410-ead54f8ee673",
+      "ts": "2026-09-24T13:05:06.835Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
         "source": "scroll"
       }
     },
@@ -51595,6 +51638,19 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "a59069a7-032a-49ff-a655-0ff4523a292d",
+      "ts": "2026-09-24T13:05:35.126Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
       }
     }
   ]
