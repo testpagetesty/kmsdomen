@@ -72214,6 +72214,19 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c8fc2a14-875d-41da-8f7e-3e83bf05ffd5",
+      "ts": "2026-09-24T17:53:23.553Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "što raditi za čišćenje organizma i jetre kod kuće"
+      }
     }
   ]
 }
