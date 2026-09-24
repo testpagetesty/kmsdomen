@@ -71710,6 +71710,32 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "4e7ffcfb-a8f4-4cac-be57-883d5956841a",
+      "ts": "2026-09-24T17:45:00.042Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "bc2ca47e-5c1a-4873-a042-275a22a33e92",
+      "ts": "2026-09-24T17:45:12.589Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
