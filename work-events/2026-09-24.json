@@ -25741,6 +25741,20 @@
         "name": "Костя 1",
         "title": "Bakışlarda Mesafe Büyüdü. Söylenen Her Söz, Stüdyodaki Uyumlu Havayı Biraz Daha "
       }
+    },
+    {
+      "id": "9bc0b0b2-fa88-4d41-8126-b6adeaf789ee",
+      "ts": "2026-09-24T08:49:42.773Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
