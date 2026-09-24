@@ -46043,6 +46043,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "5d7920dc-e607-43c8-87fb-efa387176837",
+      "ts": "2026-09-24T11:54:58.031Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
