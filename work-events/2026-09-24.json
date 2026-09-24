@@ -45341,6 +45341,21 @@
       }
     },
     {
+      "id": "74d7cbca-d153-4770-927c-4bc9e2bf0c2e",
+      "ts": "2026-09-24T11:38:52.569Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "ro",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "c9857c54-71cf-42f5-9237-a5300e83ea36",
       "ts": "2026-09-24T11:38:58.408Z",
       "workerId": "яя",
@@ -45466,6 +45481,20 @@
     {
       "id": "47eaa4c0-d030-4465-8b38-18ed434614ea",
       "ts": "2026-09-24T11:41:40.239Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Start with an ᴀᴅᴠᴀɴᴛᴀɢᴇ"
+      }
+    },
+    {
+      "id": "8ab42ca8-d2ac-434d-b590-882cc94e26c3",
+      "ts": "2026-09-24T11:42:03.278Z",
       "workerId": "костя_1",
       "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
       "deviceTz": "Europe/Bucharest",
