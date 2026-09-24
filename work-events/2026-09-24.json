@@ -27318,6 +27318,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "1156a6c6-68cc-41ae-a9c6-ce7f9eb94137",
+      "ts": "2026-09-24T09:09:17.607Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Control de la Situación"
+      }
     }
   ]
 }
