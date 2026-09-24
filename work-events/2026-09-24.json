@@ -27140,6 +27140,20 @@
         "name": "Костя 2",
         "title": "Descubre la IA inteligente"
       }
+    },
+    {
+      "id": "dbfcf3d9-9940-4b75-818f-f749804bbf35",
+      "ts": "2026-09-24T09:05:11.118Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Visitar"
+      }
     }
   ]
 }
