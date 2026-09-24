@@ -60143,6 +60143,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "906ad187-9be5-469a-892e-1b7d05cf863d",
+      "ts": "2026-09-24T14:07:21.961Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
