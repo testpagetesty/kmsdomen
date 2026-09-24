@@ -36083,6 +36083,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c5adf098-0e72-407f-b77b-3e0d8ac80f0b",
+      "ts": "2026-09-24T10:31:49.707Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
