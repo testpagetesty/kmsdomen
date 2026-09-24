@@ -69064,6 +69064,19 @@
         "name": "Соня Трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "47b3008a-c777-4af7-945b-4c2980b9f9f0",
+      "ts": "2026-09-24T17:27:31.747Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
