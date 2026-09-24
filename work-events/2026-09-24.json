@@ -24287,6 +24287,20 @@
       }
     },
     {
+      "id": "042575dc-cc91-44cc-b54d-fdf7f5141eb3",
+      "ts": "2026-09-24T08:36:23.047Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Rеcuрега tu fuегzа еп Іа cаmа"
+      }
+    },
+    {
       "id": "4c5cab2a-2ca1-4a47-b39a-ec0d0f4f1f6b",
       "ts": "2026-09-24T08:36:23.486Z",
       "workerId": "яя",
