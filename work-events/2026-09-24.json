@@ -68095,6 +68095,19 @@
       }
     },
     {
+      "id": "416013de-a312-431f-aaf3-d1ebd481b987",
+      "ts": "2026-09-24T16:21:40.358Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
       "id": "62e361b6-ac5d-413d-983b-c7c1e0b25cc3",
       "ts": "2026-09-24T16:21:40.664Z",
       "workerId": "соня_трубка_1",
@@ -68122,6 +68135,20 @@
       }
     },
     {
+      "id": "959c6158-7d1d-468d-a0aa-1f2815096848",
+      "ts": "2026-09-24T16:21:44.519Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
+    },
+    {
       "id": "0b909992-85fc-483e-94e5-c3c6c7b78013",
       "ts": "2026-09-24T16:21:50.255Z",
       "workerId": "соня_трубка_1",
@@ -68133,6 +68160,18 @@
         "name": "Соня Трубка 1",
         "host": "zagorje.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "bee7f528-744c-4c5c-97c3-e44cbcd78296",
+      "ts": "2026-09-24T16:22:04.432Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
