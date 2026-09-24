@@ -24703,6 +24703,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "5c9e3caf-dc58-4651-863b-6711c8e6980a",
+      "ts": "2026-09-24T08:39:12.936Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La polemica esce dallo studio"
+      }
     }
   ]
 }
