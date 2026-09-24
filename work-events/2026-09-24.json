@@ -62568,6 +62568,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "d9189044-333f-4c77-a7c9-41497dbe6ce4",
+      "ts": "2026-09-24T14:19:40.826Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
