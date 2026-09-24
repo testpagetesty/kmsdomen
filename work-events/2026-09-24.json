@@ -41000,6 +41000,20 @@
         "name": "Костя 1",
         "interest": "how to support the body and digestion at home"
       }
+    },
+    {
+      "id": "ccbc4314-c50d-4aa0-a46c-e617df716d1a",
+      "ts": "2026-09-24T11:04:04.250Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
