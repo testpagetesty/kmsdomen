@@ -25414,6 +25414,20 @@
       }
     },
     {
+      "id": "c653c113-2353-458d-a026-ad8589c9b224",
+      "ts": "2026-09-24T08:47:02.650Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Por qué se convirtió en la clave"
+      }
+    },
+    {
       "id": "d379c34f-6cc3-4d23-9933-c5c8b5c5a810",
       "ts": "2026-09-24T08:47:06.223Z",
       "workerId": "яя",
