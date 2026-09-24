@@ -26305,6 +26305,20 @@
         "name": "Костя 1",
         "title": "Yeni oyuncu musun? O zaman daha fazlasın"
       }
+    },
+    {
+      "id": "5245a165-fb23-4db5-9804-1d11e592f5fe",
+      "ts": "2026-09-24T08:55:01.682Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
