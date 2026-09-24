@@ -68597,6 +68597,19 @@
         "host": "defence24.pl",
         "source": "teaser"
       }
+    },
+    {
+      "id": "a70ea79c-348d-4285-bb61-33e6c4c113f7",
+      "ts": "2026-09-24T16:35:17.761Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
