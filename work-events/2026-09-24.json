@@ -26113,6 +26113,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "98c12fd5-9be5-49f7-a77c-9be830255499",
+      "ts": "2026-09-24T08:53:07.809Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Los bancos cambian sus condiciones. Muchos usuarios no saben todavía qué comisio"
+      }
     }
   ]
 }
