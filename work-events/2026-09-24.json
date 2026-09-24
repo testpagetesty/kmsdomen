@@ -72242,6 +72242,58 @@
       }
     },
     {
+      "id": "d6d8f6d2-701e-48c4-afb3-aef0be97bb07",
+      "ts": "2026-09-24T17:53:23.919Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako se bolje osjećati pri problemima s mokraćnim sustavom"
+      }
+    },
+    {
+      "id": "dab3d1bb-e537-4f52-90f6-d97a6c5edefb",
+      "ts": "2026-09-24T17:53:24.113Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kućni načini podrške lokomotornom sustavu"
+      }
+    },
+    {
+      "id": "038c4774-eaae-4546-97a4-53d60b3c8cb3",
+      "ts": "2026-09-24T17:53:24.283Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako podržati organizam i probavu kod kuće"
+      }
+    },
+    {
+      "id": "a81a7a59-2e04-483c-98f0-fdaf62fb835a",
+      "ts": "2026-09-24T17:53:24.474Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kako održati zdravu težinu i metabolizam kod kuće"
+      }
+    },
+    {
       "id": "d9615ca2-4fb5-47c4-a209-0501ebe2c8e9",
       "ts": "2026-09-24T17:53:26.941Z",
       "workerId": "соня_тубка_2",
@@ -72252,6 +72304,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "kako podržati muško zdravlje i potenciju kod kuće"
+      }
+    },
+    {
+      "id": "8738c5ce-62b5-4c2e-a4b1-6bbc82ebf2dc",
+      "ts": "2026-09-24T17:53:30.348Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
