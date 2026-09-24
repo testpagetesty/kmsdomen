@@ -3366,6 +3366,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "85a57408-c888-4b9e-b6f3-17b64b3db701",
+      "ts": "2026-09-24T06:55:16.374Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що приховує ваша улюблена овоч"
+      }
     }
   ]
 }
