@@ -37799,6 +37799,19 @@
       }
     },
     {
+      "id": "0b42fd23-157f-44f6-915a-7991894b339f",
+      "ts": "2026-09-24T10:43:00.607Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "42d67702-6876-41d2-b0ef-ba70725a8bd8",
       "ts": "2026-09-24T10:43:00.612Z",
       "workerId": "костя_2",
