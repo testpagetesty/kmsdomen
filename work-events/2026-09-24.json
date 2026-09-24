@@ -23974,6 +23974,19 @@
         "name": "Яя",
         "interest": "лікарі застерігають важкість після обіду -аптека -ліки -таблетки -wikipedia -sit"
       }
+    },
+    {
+      "id": "75797f4a-f145-43cc-b19f-ec36077abf7a",
+      "ts": "2026-09-24T08:34:35.074Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
