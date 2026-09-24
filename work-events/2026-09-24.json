@@ -31299,6 +31299,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "e3414f21-8e0d-4bb5-a50f-da713e590e4a",
+      "ts": "2026-09-24T09:54:44.456Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
