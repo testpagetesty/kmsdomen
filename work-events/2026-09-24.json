@@ -54773,6 +54773,33 @@
         "host": "s1.quizdays.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "0ed81736-99aa-4974-b8f0-645041cdf13a",
+      "ts": "2026-09-24T13:30:46.198Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://23835473478.optionsl.com/detail/are_you_more_angel_or_devil__1772004934842.html"
+      }
+    },
+    {
+      "id": "56873a55-9dac-45bc-8efd-31a730d92ac6",
+      "ts": "2026-09-24T13:30:50.544Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "23835473478.optionsl.com",
+        "source": "teaser"
+      }
     }
   ]
 }
