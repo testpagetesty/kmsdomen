@@ -24853,6 +24853,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8df3cd51-30b2-4921-8641-9eb06b8f6c70",
+      "ts": "2026-09-24T08:40:17.780Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Více sebevědomí každý den"
+      }
     }
   ]
 }
