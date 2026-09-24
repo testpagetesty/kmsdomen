@@ -55673,6 +55673,31 @@
         "name": "Костя 2",
         "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
       }
+    },
+    {
+      "id": "7426332a-19b4-4c8b-9540-8d57b11b8d9a",
+      "ts": "2026-09-24T13:38:03.987Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
+      }
+    },
+    {
+      "id": "1e4f97ba-00ea-483b-9b2d-124755a010bb",
+      "ts": "2026-09-24T13:38:12.208Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
