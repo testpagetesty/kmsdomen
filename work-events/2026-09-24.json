@@ -23690,6 +23690,18 @@
       }
     },
     {
+      "id": "c7d81374-605e-4e60-b4bf-acb1f8d96a70",
+      "ts": "2026-09-24T08:33:20.585Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "93d84f10-75e2-43fb-8122-c05c977d1163",
       "ts": "2026-09-24T08:33:23.151Z",
       "workerId": "яя",
@@ -23899,6 +23911,18 @@
       }
     },
     {
+      "id": "c2754e71-f2db-4d93-9831-0e3c6b60132a",
+      "ts": "2026-09-24T08:34:20.590Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "b4c0b930-396b-4935-be7e-da6ddd73b005",
       "ts": "2026-09-24T08:34:21.203Z",
       "workerId": "яя",
@@ -23999,6 +24023,19 @@
       "extra": {
         "name": "Яя",
         "interest": "лікарі застерігають сухість у роті вночі -аптека -ліки -таблетки -wikipedia -sit"
+      }
+    },
+    {
+      "id": "abb82a58-1d98-4eb4-b564-5a4d9ed3a855",
+      "ts": "2026-09-24T08:34:45.476Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
       }
     }
   ]
