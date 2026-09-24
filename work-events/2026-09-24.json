@@ -25288,6 +25288,20 @@
         "name": "Костя 2",
         "title": "El país debate un suceso inexplicable"
       }
+    },
+    {
+      "id": "d8ca5608-b564-4b4c-bf98-f095b05894d0",
+      "ts": "2026-09-24T08:44:52.091Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Vraťte si mužskou sílu"
+      }
     }
   ]
 }
