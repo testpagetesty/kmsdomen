@@ -11636,6 +11636,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "cefd1a6c-c4d2-4667-acb8-26788b62c7e9",
+      "ts": "2026-09-24T07:36:29.558Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
