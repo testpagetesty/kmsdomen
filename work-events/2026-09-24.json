@@ -37580,6 +37580,19 @@
       }
     },
     {
+      "id": "68e6c97f-c716-45d1-ab71-56a34eb33819",
+      "ts": "2026-09-24T10:41:05.269Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "d4ed19aa-370e-41c4-963d-6dbe589f0d0e",
       "ts": "2026-09-24T10:41:05.279Z",
       "workerId": "костя_2",
@@ -37666,6 +37679,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "dc0a2d73-caa2-462a-860f-676f89aae074",
+      "ts": "2026-09-24T10:41:50.377Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
