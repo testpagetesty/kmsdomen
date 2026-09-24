@@ -51866,6 +51866,19 @@
       }
     },
     {
+      "id": "7ee717a1-2d93-455a-b64e-6627a08d2f2c",
+      "ts": "2026-09-24T13:07:42.460Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
       "id": "203d34f6-7cbd-48c4-9b80-dd16ee8bf023",
       "ts": "2026-09-24T13:07:47.290Z",
       "workerId": "костя_2",
