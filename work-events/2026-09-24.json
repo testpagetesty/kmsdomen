@@ -34250,6 +34250,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "b1b4f9d9-3d4e-4331-b19c-0b2095697e64",
+      "ts": "2026-09-24T10:14:43.002Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
