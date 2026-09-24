@@ -40112,6 +40112,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "664ebb4e-34d6-45e1-a0d8-1b4c8ce3e86d",
+      "ts": "2026-09-24T10:58:20.362Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
