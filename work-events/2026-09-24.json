@@ -53983,6 +53983,20 @@
         "to": "cl",
         "source": "ip"
       }
+    },
+    {
+      "id": "a41c1193-3d5f-4d69-ab13-58254e40cc10",
+      "ts": "2026-09-24T13:25:17.045Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
