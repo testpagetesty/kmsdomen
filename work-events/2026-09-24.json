@@ -57529,6 +57529,20 @@
       }
     },
     {
+      "id": "655740f6-4091-4fdc-b5ab-ee033a6a4076",
+      "ts": "2026-09-24T13:52:10.933Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "4b8aa9b2-b6d1-4207-8121-a377a2cd631e",
       "ts": "2026-09-24T13:52:12.215Z",
       "workerId": "костя_1",
