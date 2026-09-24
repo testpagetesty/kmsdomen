@@ -42503,6 +42503,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "6a2ed541-9155-4049-8c17-7ced99e4fe65",
+      "ts": "2026-09-24T11:14:47.900Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
