@@ -25659,6 +25659,20 @@
         "name": "Костя 2",
         "title": "¿Proteges bien tu dinero? La seguridad de tus ahorros merece atención. Conoce nu"
       }
+    },
+    {
+      "id": "45da4a20-c6be-4143-be37-b696f378e0b1",
+      "ts": "2026-09-24T08:48:53.911Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Sözler Arasında Boşluk Kaldı"
+      }
     }
   ]
 }
