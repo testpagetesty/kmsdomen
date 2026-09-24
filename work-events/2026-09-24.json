@@ -29518,6 +29518,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "f970faf6-ad3b-4b9c-af0a-84e9b40afb81",
+      "ts": "2026-09-24T09:45:02.518Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
