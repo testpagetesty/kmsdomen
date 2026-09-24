@@ -54,6 +54,19 @@
         "name": "Хадыж",
         "source": "motion"
       }
+    },
+    {
+      "id": "526c2da7-b1c2-4aa8-b940-841773f0482e",
+      "ts": "2026-09-24T06:35:07.044Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
