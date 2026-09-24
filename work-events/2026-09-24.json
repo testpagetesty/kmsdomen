@@ -24507,6 +24507,19 @@
       }
     },
     {
+      "id": "e641a5bb-e64e-4c37-a0e4-3d69080f2868",
+      "ts": "2026-09-24T08:37:47.394Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "b5574b1a-daec-4ab3-9556-c03c32f07520",
       "ts": "2026-09-24T08:37:47.560Z",
       "workerId": "костя_2",
