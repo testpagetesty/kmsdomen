@@ -37937,6 +37937,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "01cdea8a-047e-447e-9311-b3b781b4958c",
+      "ts": "2026-09-24T10:43:55.239Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "соціальна підтримка громадян на державному рівні"
+      }
     }
   ]
 }
