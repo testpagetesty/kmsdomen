@@ -65159,6 +65159,18 @@
         "name": "Соня Тубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "a025f4f1-f9af-48bd-ac0c-cb0aee9ec72c",
+      "ts": "2026-09-24T15:37:04.367Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
