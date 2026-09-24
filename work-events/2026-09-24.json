@@ -26277,6 +26277,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "dee5e4ff-fc5c-4871-85fe-0b9952a6b590",
+      "ts": "2026-09-24T08:54:52.288Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Empieza con objetivos bien definidos. Organiza tus prioridades con herramientas "
+      }
     }
   ]
 }
