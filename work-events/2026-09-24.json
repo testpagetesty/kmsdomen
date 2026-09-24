@@ -42696,6 +42696,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "78b6e14e-492f-4811-848e-a584593d48ec",
+      "ts": "2026-09-24T11:16:18.261Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
