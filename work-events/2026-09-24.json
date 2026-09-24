@@ -26127,6 +26127,20 @@
         "name": "Костя 2",
         "title": "Los bancos cambian sus condiciones. Muchos usuarios no saben todavía qué comisio"
       }
+    },
+    {
+      "id": "bcf9d605-d3ab-43a7-857e-bbe4ec80d356",
+      "ts": "2026-09-24T08:53:17.810Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "600'ün için fazla bekleme"
+      }
     }
   ]
 }
