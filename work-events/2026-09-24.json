@@ -54184,6 +54184,20 @@
         "name": "Костя 2",
         "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
       }
+    },
+    {
+      "id": "1bccdef4-c36a-4dd2-960d-630bc66b4b0e",
+      "ts": "2026-09-24T13:26:31.767Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "24080232431.buzzfuzzy.com",
+        "source": "teaser"
+      }
     }
   ]
 }
