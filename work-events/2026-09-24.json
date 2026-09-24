@@ -53169,6 +53169,31 @@
       }
     },
     {
+      "id": "28fb001b-fb78-464f-8230-4dee64e3e581",
+      "ts": "2026-09-24T13:18:11.887Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
+      "id": "49d90395-fdfb-4157-aa19-c1bd43398ccd",
+      "ts": "2026-09-24T13:18:12.185Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "d99bc93a-d173-4027-9fc7-6bc34051c12d",
       "ts": "2026-09-24T13:18:13.265Z",
       "workerId": "костя_2",
@@ -53205,6 +53230,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "bb491ba0-9029-4eac-ae21-fa9aadf87645",
+      "ts": "2026-09-24T13:18:31.061Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
