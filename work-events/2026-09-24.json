@@ -41778,6 +41778,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "447b29d4-eab1-45ed-bb71-b8dde944dca5",
+      "ts": "2026-09-24T11:09:42.875Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити якщо печінка перевантажена"
+      }
     }
   ]
 }
