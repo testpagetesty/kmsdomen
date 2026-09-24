@@ -63355,6 +63355,20 @@
         "name": "Яя",
         "interest": "домашні способи підтримки судин і вен"
       }
+    },
+    {
+      "id": "0844aaec-5d57-41a4-ae69-fdf39caf9577",
+      "ts": "2026-09-24T14:26:19.480Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
