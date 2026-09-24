@@ -20132,6 +20132,20 @@
         "name": "Яя",
         "interest": "поради з енергетики та самопочуття"
       }
+    },
+    {
+      "id": "8e7055cb-ef77-49e1-a456-5cc3e678f49e",
+      "ts": "2026-09-24T08:17:08.953Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
