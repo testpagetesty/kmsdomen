@@ -45036,6 +45036,104 @@
       }
     },
     {
+      "id": "ce931773-5fad-424b-8580-e211eb59c90c",
+      "ts": "2026-09-24T11:34:44.358Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Novas oportunidades para a família."
+      }
+    },
+    {
+      "id": "30ace348-6dd0-4e78-980b-37ac20032092",
+      "ts": "2026-09-24T11:34:57.163Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Invista na sua tranquilidade."
+      }
+    },
+    {
+      "id": "2bf75e8a-803a-4472-ba17-131fa9a0036e",
+      "ts": "2026-09-24T11:35:09.143Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Mais Estrutura para Seus Planos"
+      }
+    },
+    {
+      "id": "af119ad9-7ad5-4a66-a3f4-64eb29ddf0c6",
+      "ts": "2026-09-24T11:35:31.168Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "architecturebeaconz - Visitar site - O link abre em uma nova janela"
+      }
+    },
+    {
+      "id": "bba04cd0-9549-433d-8a15-1e3846c0f2f6",
+      "ts": "2026-09-24T11:35:53.234Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Saiba mais sobre o programa"
+      }
+    },
+    {
+      "id": "97870c82-b1ad-4cff-ab49-a8cbb1b86df9",
+      "ts": "2026-09-24T11:36:15.411Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Saiba mais sobre o programa"
+      }
+    },
+    {
+      "id": "ddcab44b-442c-4f6d-8b92-5cc9accc50c0",
+      "ts": "2026-09-24T11:38:26.741Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Tu recompensa te está esperando."
+      }
+    },
+    {
       "id": "c9857c54-71cf-42f5-9237-a5300e83ea36",
       "ts": "2026-09-24T11:38:58.408Z",
       "workerId": "яя",
@@ -45072,6 +45170,20 @@
       "extra": {
         "name": "Костя 1",
         "title": "El aceite sirve para mucho más"
+      }
+    },
+    {
+      "id": "de388f45-18d3-4c3e-8921-b1844c60af76",
+      "ts": "2026-09-24T11:40:25.383Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "El aceite también sirve para esto"
       }
     }
   ]
