@@ -70892,6 +70892,19 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "17b78304-2d1d-460d-8be5-b8b799933d35",
+      "ts": "2026-09-24T17:40:55.162Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "kodused viisid liikumisaparaadi toetamiseks"
+      }
     }
   ]
 }
