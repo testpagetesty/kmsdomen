@@ -68623,6 +68623,18 @@
         "name": "Соня Трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "6f021c30-5c1a-4488-b2c6-103734ff6692",
+      "ts": "2026-09-24T16:36:04.454Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
