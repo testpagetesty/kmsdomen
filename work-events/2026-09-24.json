@@ -37962,6 +37962,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "a6251c76-8352-45c4-8d25-067e7089a51e",
+      "ts": "2026-09-24T10:43:58.650Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
