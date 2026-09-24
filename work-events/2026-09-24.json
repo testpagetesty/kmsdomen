@@ -28345,6 +28345,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "dc9c064e-ccea-435e-9b02-536ac8b057f5",
+      "ts": "2026-09-24T09:39:44.378Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
