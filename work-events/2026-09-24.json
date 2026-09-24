@@ -25302,6 +25302,20 @@
         "name": "Костя 1",
         "title": "Vraťte si mužskou sílu"
       }
+    },
+    {
+      "id": "9d05256b-bd33-4ffb-8553-f81ed757718e",
+      "ts": "2026-09-24T08:45:18.455Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Játra jsou váš spalovač tuku"
+      }
     }
   ]
 }
