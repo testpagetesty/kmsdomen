@@ -36943,6 +36943,18 @@
       }
     },
     {
+      "id": "08622347-884a-4155-8b43-b5ee9a8bc6ca",
+      "ts": "2026-09-24T10:36:28.786Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "220d0fce-c58b-442d-a268-6437ce350e24",
       "ts": "2026-09-24T10:36:28.896Z",
       "workerId": "костя_2",
@@ -36982,6 +36994,31 @@
       }
     },
     {
+      "id": "1b50eef8-1e2e-4011-abb8-52d7e71e2f2d",
+      "ts": "2026-09-24T10:36:31.190Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "6fe35459-44b4-4025-977a-e19b167e6b8e",
+      "ts": "2026-09-24T10:36:31.190Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "cb3af3ed-3220-4493-bcd9-73fa111fea16",
       "ts": "2026-09-24T10:36:34.009Z",
       "workerId": "костя_2",
@@ -36992,6 +37029,18 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "1cbb4ebb-7c22-43ff-92d0-25da7699d578",
+      "ts": "2026-09-24T10:36:44.636Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
