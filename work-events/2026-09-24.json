@@ -141,6 +141,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "f6b112be-1f9e-4a6e-9ef3-da34d546b4b3",
+      "ts": "2026-09-24T06:41:16.734Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
