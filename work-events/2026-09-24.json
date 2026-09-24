@@ -22697,6 +22697,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "7a00defc-4ba0-4d4c-ace2-f704b187f6c9",
+      "ts": "2026-09-24T08:28:37.428Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
