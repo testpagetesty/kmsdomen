@@ -30970,6 +30970,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1ad838d7-c425-4a24-a02d-011f7aed6546",
+      "ts": "2026-09-24T09:52:43.743Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "noticias en televisión de nuestro país sobre criptomonedas"
+      }
     }
   ]
 }
