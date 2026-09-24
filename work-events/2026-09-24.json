@@ -57778,6 +57778,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "0229dbe0-199d-40f6-8b78-40094efb69bc",
+      "ts": "2026-09-24T13:53:43.521Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
