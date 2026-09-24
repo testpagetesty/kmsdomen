@@ -11997,6 +11997,21 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "886d214b-44c6-4b7e-96b2-8b919e1ebad9",
+      "ts": "2026-09-24T07:39:17.824Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "dk",
+        "to": "tr",
+        "source": "ip"
+      }
     }
   ]
 }
