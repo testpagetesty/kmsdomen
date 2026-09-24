@@ -5534,6 +5534,20 @@
       }
     },
     {
+      "id": "952a5768-af3c-4b36-a023-3bac5e7c82b7",
+      "ts": "2026-09-24T07:04:58.177Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e3f02852-1139-402a-b32e-4ae19da4d0d3",
       "ts": "2026-09-24T07:04:59.302Z",
       "workerId": "яя",
