@@ -27168,6 +27168,20 @@
         "name": "Костя 2",
         "title": "España habla de ello hoy"
       }
+    },
+    {
+      "id": "73e3d10b-f18a-4adb-b0c6-496e95df7d07",
+      "ts": "2026-09-24T09:06:04.964Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "El episodio completo, diisponible ahora"
+      }
     }
   ]
 }
