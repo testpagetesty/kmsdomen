@@ -25783,6 +25783,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f730d9d3-e8b9-4620-88ea-2f5f2a630a04",
+      "ts": "2026-09-24T08:50:13.722Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Organiza cada nuevo desafío. Descubre recursos prácticos para estructurar tus ta"
+      }
     }
   ]
 }
