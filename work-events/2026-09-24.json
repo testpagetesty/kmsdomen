@@ -40465,6 +40465,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "bfdf6416-e5bb-48af-b5b4-71b5e2fa4ae0",
+      "ts": "2026-09-24T11:00:23.032Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки судин і вен"
+      }
     }
   ]
 }
