@@ -37387,6 +37387,20 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a6765709-9e6e-4601-b35e-0fb15b38f632",
+      "ts": "2026-09-24T10:39:38.669Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
