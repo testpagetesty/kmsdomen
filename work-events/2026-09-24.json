@@ -70824,6 +70824,20 @@
         "name": "Соня Трубка 1",
         "interest": "kuidas toetada nägemist kodus"
       }
+    },
+    {
+      "id": "777064fb-223d-46a8-adac-c438f8975451",
+      "ts": "2026-09-24T17:40:28.718Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
