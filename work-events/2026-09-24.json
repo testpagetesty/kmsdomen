@@ -24463,6 +24463,20 @@
         "name": "Костя 2",
         "title": "España habla de ello hoy"
       }
+    },
+    {
+      "id": "67cdeb1b-8f5c-4a89-b03e-0914e360ff2d",
+      "ts": "2026-09-24T08:37:27.150Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Větší rozpočet, větší možnosti"
+      }
     }
   ]
 }
