@@ -40219,6 +40219,19 @@
       }
     },
     {
+      "id": "35504bdd-b9d5-41d7-a1df-18d7b8001578",
+      "ts": "2026-09-24T10:58:47.464Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити при проблемах зі шкірою та нігтями вдома"
+      }
+    },
+    {
       "id": "d6d57d3e-2632-4df0-81da-a297f0c316e6",
       "ts": "2026-09-24T10:58:50.485Z",
       "workerId": "костя_2",
@@ -40228,6 +40241,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "9fcc8bf5-9ead-4754-83af-16dcdbef60bf",
+      "ts": "2026-09-24T10:58:57.359Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     }
   ]
