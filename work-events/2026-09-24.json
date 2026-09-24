@@ -14048,6 +14048,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "b89a0def-ec18-4039-9312-a15dd2086b1c",
+      "ts": "2026-09-24T07:50:18.773Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
