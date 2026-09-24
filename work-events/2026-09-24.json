@@ -39851,6 +39851,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "f35d25dd-e67b-4d43-adac-86766628d9e1",
+      "ts": "2026-09-24T10:56:47.022Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "спосіб життя для чистого організму"
+      }
     }
   ]
 }
