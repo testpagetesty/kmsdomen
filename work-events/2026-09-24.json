@@ -10240,6 +10240,19 @@
         "name": "Костя 1",
         "interest": "boligtilskud fra staten"
       }
+    },
+    {
+      "id": "ffcf318e-6c6a-4086-8aed-85b80ec5897a",
+      "ts": "2026-09-24T07:29:14.362Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "økonomisk hjælp fra staten til familier"
+      }
     }
   ]
 }
