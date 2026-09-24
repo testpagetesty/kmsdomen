@@ -535,6 +535,18 @@
       }
     },
     {
+      "id": "865e0c6b-dd9e-4d00-b871-a9a2f7dfbafd",
+      "ts": "2026-09-24T06:44:16.172Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "b145e70a-d98e-4c77-84e2-0303dee71fc7",
       "ts": "2026-09-24T06:44:16.738Z",
       "workerId": "костя_1",
