@@ -63639,6 +63639,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "577c87cf-4026-4107-850c-f79fcf559ed6",
+      "ts": "2026-09-24T14:38:45.397Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як правильно поєднувати продукти в харчуванні"
+      }
     }
   ]
 }
