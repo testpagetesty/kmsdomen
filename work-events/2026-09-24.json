@@ -38842,6 +38842,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "d7066ea3-c68b-4e10-9666-afe5b3df11d8",
+      "ts": "2026-09-24T10:50:56.031Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
