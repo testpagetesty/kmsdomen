@@ -2715,6 +2715,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2090c0aa-cc9f-4789-a940-02da1f1c6c27",
+      "ts": "2026-09-24T06:52:51.425Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
