@@ -66797,6 +66797,33 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "22f5acd2-bd47-4ec3-a51a-0213dfdfb0d9",
+      "ts": "2026-09-24T15:59:30.625Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
+    },
+    {
+      "id": "eca69b37-a69e-49e3-97b3-33866d191549",
+      "ts": "2026-09-24T15:59:34.630Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "nezavisne.com",
+        "source": "teaser"
+      }
     }
   ]
 }
