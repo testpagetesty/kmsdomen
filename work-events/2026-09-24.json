@@ -21700,6 +21700,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "930e76a7-5600-4885-bebc-55d0e29abcc1",
+      "ts": "2026-09-24T08:23:39.520Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
