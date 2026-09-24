@@ -40153,6 +40153,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "dcd97352-35f1-44a5-8934-2c0e6867f870",
+      "ts": "2026-09-24T10:58:37.552Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
