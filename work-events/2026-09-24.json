@@ -15324,6 +15324,20 @@
       }
     },
     {
+      "id": "a2beac23-c999-49f6-99cf-b91d74f621b5",
+      "ts": "2026-09-24T07:56:16.897Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "792403cd-7cd8-49ec-8482-60c99cd9a1ca",
       "ts": "2026-09-24T07:56:17.505Z",
       "workerId": "костя_2",
@@ -15526,6 +15540,19 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "e8a82cdf-766b-4a3f-9927-30a31c90b2bb",
+      "ts": "2026-09-24T07:57:06.759Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
