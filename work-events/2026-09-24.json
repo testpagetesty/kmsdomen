@@ -25617,6 +25617,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "30dc885f-1562-4b9c-8011-8321eb29aacc",
+      "ts": "2026-09-24T08:48:37.306Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "sız deneyimden çok daha fazlası. YouTube tarafından öne çıkarılanlar. YouTube Mu"
+      }
     }
   ]
 }
