@@ -55931,6 +55931,19 @@
       }
     },
     {
+      "id": "64560d80-d34c-42fb-bc56-91e0804f9d43",
+      "ts": "2026-09-24T13:40:08.113Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
       "id": "2a0618fa-196d-46a1-b0ae-9c01217247ff",
       "ts": "2026-09-24T13:40:08.649Z",
       "workerId": "костя_1",
@@ -55941,6 +55954,20 @@
       "extra": {
         "name": "Костя 1",
         "url": "https://primainspirace.cz"
+      }
+    },
+    {
+      "id": "0490d6e7-5569-4e7a-ac58-00eddd1335dd",
+      "ts": "2026-09-24T13:40:12.084Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "primainspirace.cz",
+        "source": "teaser"
       }
     },
     {
@@ -55956,6 +55983,18 @@
       }
     },
     {
+      "id": "8d5e4736-db5a-4083-9340-b814d59a1ec3",
+      "ts": "2026-09-24T13:40:13.295Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "ad74d652-00ca-4bc3-97ae-d4259c748c8e",
       "ts": "2026-09-24T13:40:16.129Z",
       "workerId": "костя_1",
@@ -55967,6 +56006,20 @@
         "name": "Костя 1",
         "host": "primainspirace.cz",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "8ca7488f-8272-49ca-a3a4-88033fa1f883",
+      "ts": "2026-09-24T13:40:26.185Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
       }
     }
   ]
