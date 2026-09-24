@@ -29571,6 +29571,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "3eeab996-fe93-4f39-a817-e1b45d74fd0c",
+      "ts": "2026-09-24T09:45:12.426Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
