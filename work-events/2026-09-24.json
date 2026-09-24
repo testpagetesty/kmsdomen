@@ -52094,6 +52094,19 @@
       }
     },
     {
+      "id": "d0239cfc-bf70-4fea-ad01-f8e5f59c3b23",
+      "ts": "2026-09-24T13:09:27.195Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://zagorje.com"
+      }
+    },
+    {
       "id": "9bebd5cf-d996-492b-9076-08fc329328c2",
       "ts": "2026-09-24T13:09:32.902Z",
       "workerId": "костя_2",
@@ -52118,6 +52131,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "dba7751a-d09b-406c-b3b4-a9e53b83800e",
+      "ts": "2026-09-24T13:10:01.236Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
