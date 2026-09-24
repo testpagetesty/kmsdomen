@@ -58198,6 +58198,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "17736b14-2f34-48c3-b3b5-9a62f36b2c2a",
+      "ts": "2026-09-24T13:56:43.247Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://askproly.com"
+      }
     }
   ]
 }
