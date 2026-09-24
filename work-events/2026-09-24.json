@@ -65258,6 +65258,20 @@
         "name": "Соня Трубка 1",
         "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
       }
+    },
+    {
+      "id": "86972491-b140-47ab-9c64-4759654499cf",
+      "ts": "2026-09-24T15:39:24.371Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "gb",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "nezavisne.com",
+        "source": "teaser"
+      }
     }
   ]
 }
