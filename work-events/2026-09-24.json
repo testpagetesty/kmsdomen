@@ -40139,6 +40139,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "8e38bbdc-07e2-4b33-8dad-164b3747a5cb",
+      "ts": "2026-09-24T10:58:30.472Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
