@@ -66010,6 +66010,35 @@
         "name": "Соня Трубка 1",
         "url": "https://regionalobala.si/novica"
       }
+    },
+    {
+      "id": "d571c9d3-ac54-4ffa-b2d2-0405b7367c38",
+      "ts": "2026-09-24T15:46:45.105Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "from": "gb",
+        "to": "mt",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "3bfbc3ea-9202-490e-a24a-917bbb65530a",
+      "ts": "2026-09-24T15:46:50.389Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
