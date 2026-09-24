@@ -42464,6 +42464,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "6eaf5f8c-9fac-488a-a4fd-2e43cc69880e",
+      "ts": "2026-09-24T11:14:27.745Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
