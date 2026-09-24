@@ -57393,6 +57393,18 @@
         "host": "zagorje.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "9fe53be2-9b63-4e57-a7a8-a8c53322a1fd",
+      "ts": "2026-09-24T13:51:13.301Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
