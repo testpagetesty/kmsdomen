@@ -30497,6 +30497,32 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "6afa9b45-03b8-43e6-ad3f-f3b3fba93682",
+      "ts": "2026-09-24T09:48:44.426Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "fb818069-1aa5-4762-9103-5cc4eec14f06",
+      "ts": "2026-09-24T09:48:47.251Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
