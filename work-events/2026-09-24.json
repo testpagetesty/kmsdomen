@@ -31841,6 +31841,19 @@
       }
     },
     {
+      "id": "5ddfbec6-bcb7-4119-b305-658723543ba7",
+      "ts": "2026-09-24T09:57:08.037Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "21b1690b-a693-47e2-89aa-b9915c16d094",
       "ts": "2026-09-24T09:57:08.040Z",
       "workerId": "костя_1",
@@ -31877,6 +31890,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "0707bb27-38fa-4016-8a42-3fe878ccbcfd",
+      "ts": "2026-09-24T09:57:39.975Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
       }
     }
   ]
