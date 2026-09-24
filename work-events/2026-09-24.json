@@ -24867,6 +24867,18 @@
         "name": "Костя 1",
         "title": "Více sebevědomí každý den"
       }
+    },
+    {
+      "id": "48e8f2f1-919d-41f7-8824-a232dca80aef",
+      "ts": "2026-09-24T08:40:23.493Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
