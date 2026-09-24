@@ -67397,6 +67397,20 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "869b5867-e98f-4193-a7fb-5dd117a4b932",
+      "ts": "2026-09-24T16:11:16.285Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
