@@ -11420,6 +11420,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "be6ee13a-2ff1-4d2e-a275-40103c4f978a",
+      "ts": "2026-09-24T07:35:59.832Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
