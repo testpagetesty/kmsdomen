@@ -24757,6 +24757,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3b87b701-3695-4ded-9fdd-bd552df7337e",
+      "ts": "2026-09-24T08:39:28.293Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Prostatitida? Řešení existuje"
+      }
     }
   ]
 }
