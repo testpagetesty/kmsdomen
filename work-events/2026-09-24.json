@@ -19033,6 +19033,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "2cbb6323-456c-44c2-9335-cc74755ed7d5",
+      "ts": "2026-09-24T08:12:20.063Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
