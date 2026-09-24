@@ -68235,6 +68235,19 @@
         "name": "Соня Тубка 2",
         "url": "https://www.zurnal24.si/slovenija"
       }
+    },
+    {
+      "id": "acf7fc4c-528e-46c2-88e5-9c0fcceb4e34",
+      "ts": "2026-09-24T16:25:23.135Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
     }
   ]
 }
