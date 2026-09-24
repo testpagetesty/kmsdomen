@@ -4844,6 +4844,20 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "56538bc7-67a8-49ed-a7d9-98b6f1550564",
+      "ts": "2026-09-24T07:01:08.399Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
