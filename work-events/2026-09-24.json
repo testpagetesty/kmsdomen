@@ -24051,6 +24051,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c0fbd184-da25-41ae-ad82-c9ebac76c6f6",
+      "ts": "2026-09-24T08:35:04.823Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Actúa y cambia todo"
+      }
     }
   ]
 }
