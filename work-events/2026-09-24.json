@@ -3001,6 +3001,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "7e60da4d-6bd3-45d1-8cc8-83863a5b1c8c",
+      "ts": "2026-09-24T06:54:07.909Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "фінансовий прогноз для кожного знака зодіаку"
+      }
     }
   ]
 }
