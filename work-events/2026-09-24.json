@@ -45781,6 +45781,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "0f3bf83d-a692-4238-8419-179d33b67a91",
+      "ts": "2026-09-24T11:48:18.775Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як почувати себе краще при зайвій вазі"
+      }
     }
   ]
 }
