@@ -26621,6 +26621,19 @@
         "name": "Костя 1",
         "title": "Direkt 600'le giriş yap"
       }
+    },
+    {
+      "id": "7f31bb1d-3f7a-4ca1-b64e-f7e33c2232e3",
+      "ts": "2026-09-24T08:57:38.040Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
