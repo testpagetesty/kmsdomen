@@ -24477,6 +24477,20 @@
         "name": "Костя 1",
         "title": "Větší rozpočet, větší možnosti"
       }
+    },
+    {
+      "id": "ec424af6-35cf-48ee-ac3c-ccf3ae25d44e",
+      "ts": "2026-09-24T08:37:32.059Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
