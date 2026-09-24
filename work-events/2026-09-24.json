@@ -49580,6 +49580,20 @@
       }
     },
     {
+      "id": "90f9c54f-f3ac-401d-a3aa-d4c371b9da87",
+      "ts": "2026-09-24T12:51:10.815Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "beed428d-2894-4059-bf48-69b5c498ea0e",
       "ts": "2026-09-24T12:51:11.890Z",
       "workerId": "костя_2",
@@ -49626,6 +49640,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "5fe6f7dc-34f3-4db1-8694-eaa46dd5de3d",
+      "ts": "2026-09-24T12:51:31.902Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
