@@ -26071,6 +26071,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "43e061e7-da02-4f46-ba5c-2182e240bc5b",
+      "ts": "2026-09-24T08:52:48.580Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Comunicación clara. En promvilzix.online trabajamos con un flujo sencillo y prác"
+      }
     }
   ]
 }
