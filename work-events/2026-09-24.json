@@ -25221,6 +25221,19 @@
         "name": "Костя 1",
         "title": "1 kapsle denně pro hubnutí. Podpořte hubnutí jednoduše. Stačí 1 kapsle denně"
       }
+    },
+    {
+      "id": "2b0ff937-6b61-4c34-88c4-c7fd19d496a6",
+      "ts": "2026-09-24T08:43:51.236Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
