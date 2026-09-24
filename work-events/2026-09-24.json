@@ -63113,6 +63113,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "9da8b6ba-bcdc-4d13-839f-6a8a976640d8",
+      "ts": "2026-09-24T14:23:30.544Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Un cambio que afecta a su bolsillo"
+      }
     }
   ]
 }
