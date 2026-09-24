@@ -46568,6 +46568,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "c3b65b38-0339-459d-9d58-f763fe19ce73",
+      "ts": "2026-09-24T12:11:06.533Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
