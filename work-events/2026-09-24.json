@@ -41171,6 +41171,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "9873af27-0aae-44e3-87ef-41cdff7f376c",
+      "ts": "2026-09-24T11:05:50.575Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати суглоби вдома"
+      }
     }
   ]
 }
