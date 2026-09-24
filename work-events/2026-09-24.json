@@ -28060,6 +28060,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "e4738afc-0ef2-4a9f-8566-7d69d212abed",
+      "ts": "2026-09-24T09:36:14.181Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
     }
   ]
 }
