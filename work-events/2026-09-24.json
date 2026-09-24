@@ -27762,6 +27762,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c3ad86b4-4a85-4093-8b2e-4a29b1d06480",
+      "ts": "2026-09-24T09:20:46.279Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
