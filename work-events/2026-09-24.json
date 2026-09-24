@@ -50755,6 +50755,20 @@
         "host": "s1.quizdays.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "8ffc08de-119d-43e0-a55c-249cb849e384",
+      "ts": "2026-09-24T12:58:47.182Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
