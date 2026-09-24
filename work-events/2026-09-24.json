@@ -66916,6 +66916,20 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "c7312596-610b-4937-a642-668a1c3d03a3",
+      "ts": "2026-09-24T16:00:06.352Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
