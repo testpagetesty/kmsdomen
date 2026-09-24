@@ -56105,6 +56105,32 @@
       }
     },
     {
+      "id": "aa30e46b-9d35-447b-932e-4e2bfcc2a6c9",
+      "ts": "2026-09-24T13:41:13.295Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "c3a46923-83a3-4004-9afc-8d60776ee78f",
+      "ts": "2026-09-24T13:41:31.992Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "7b97e7f4-a05e-4777-ac53-54d7b977c177",
       "ts": "2026-09-24T13:41:32.086Z",
       "workerId": "костя_1",
