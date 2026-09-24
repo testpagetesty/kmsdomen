@@ -36521,6 +36521,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "e81a63ec-a1da-4383-8b8c-13559e287ff1",
+      "ts": "2026-09-24T10:34:00.156Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
