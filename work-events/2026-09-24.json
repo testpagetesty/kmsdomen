@@ -62245,6 +62245,18 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "9915e20d-6e2a-4ccd-a401-ec55d5652e42",
+      "ts": "2026-09-24T14:18:13.066Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
