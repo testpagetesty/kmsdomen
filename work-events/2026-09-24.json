@@ -28924,6 +28924,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "7b7df4a5-6776-42e0-9521-878c3e208614",
+      "ts": "2026-09-24T09:42:18.631Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
