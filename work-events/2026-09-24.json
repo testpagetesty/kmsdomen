@@ -39825,6 +39825,20 @@
         "name": "Яя",
         "interest": "як почувати себе краще при погіршенні зору"
       }
+    },
+    {
+      "id": "df02ce0b-6e48-4b7b-9b66-6ab21bc5b725",
+      "ts": "2026-09-24T10:56:43.282Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
