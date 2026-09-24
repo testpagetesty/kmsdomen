@@ -35098,6 +35098,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "ec56071c-1c94-4cac-a7eb-f87b5cede188",
+      "ts": "2026-09-24T10:20:44.581Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
