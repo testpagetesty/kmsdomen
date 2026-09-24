@@ -38991,6 +38991,20 @@
       }
     },
     {
+      "id": "5619ed7f-d072-4583-9faf-93565e041d54",
+      "ts": "2026-09-24T10:51:51.812Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "fecb35b2-9c9a-44ba-8458-6f2a67958b75",
       "ts": "2026-09-24T10:51:55.190Z",
       "workerId": "костя_1",
@@ -39054,6 +39068,20 @@
       "extra": {
         "name": "Костя 2",
         "interest": "Социальные выплаты для людей с инвалидностью"
+      }
+    },
+    {
+      "id": "fb726d77-6498-4f9c-937b-feb14cbda294",
+      "ts": "2026-09-24T10:52:20.148Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
       }
     }
   ]
