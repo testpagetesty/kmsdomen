@@ -44241,6 +44241,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "81780636-7126-495d-898a-bccbed84d3f4",
+      "ts": "2026-09-24T11:25:49.068Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
