@@ -43840,6 +43840,19 @@
         "name": "Костя 2",
         "interest": "ce să facă dacă ochii obosesc acasă"
       }
+    },
+    {
+      "id": "d358867d-ff06-48b5-8529-bcb00b386650",
+      "ts": "2026-09-24T11:23:12.972Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "cum să sprijine auzul acasă"
+      }
     }
   ]
 }
