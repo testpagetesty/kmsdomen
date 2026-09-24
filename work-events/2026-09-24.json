@@ -23010,6 +23010,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7569a2a5-4f1a-41db-9ccb-cf7fd4f02381",
+      "ts": "2026-09-24T08:30:08.792Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
