@@ -3652,6 +3652,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "936f069a-7fcc-4852-9877-cef10e6e086f",
+      "ts": "2026-09-24T06:56:16.996Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
