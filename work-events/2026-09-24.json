@@ -10438,6 +10438,20 @@
       }
     },
     {
+      "id": "2347084d-8920-4adc-ae08-46d0b5d3bc72",
+      "ts": "2026-09-24T07:30:17.882Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d371ea56-6009-41b8-8a04-a764dc9d4ab0",
       "ts": "2026-09-24T07:30:17.961Z",
       "workerId": "костя_1",
@@ -10488,6 +10502,19 @@
       }
     },
     {
+      "id": "172de7ec-e44f-4fce-b017-fae1b123d823",
+      "ts": "2026-09-24T07:30:21.334Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "nem indtjening med krypto på internettet"
+      }
+    },
+    {
       "id": "6ab0ceaf-24e7-44d6-b00a-3caa38f0a870",
       "ts": "2026-09-24T07:30:22.374Z",
       "workerId": "костя_2",
@@ -10510,6 +10537,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "33c378d7-1a6e-4890-b4a1-c1dcf89c3a33",
+      "ts": "2026-09-24T07:30:36.312Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
