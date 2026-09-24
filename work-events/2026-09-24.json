@@ -3130,6 +3130,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "dc5413ca-c583-4c2b-ba28-a7c7188fc394",
+      "ts": "2026-09-24T06:54:24.749Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "найкращі способи зміцнити імунітет вдома"
+      }
     }
   ]
 }
