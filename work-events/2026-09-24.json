@@ -17572,6 +17572,18 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "9261d771-510e-4cb6-9172-54efa44275fb",
+      "ts": "2026-09-24T08:05:11.051Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
