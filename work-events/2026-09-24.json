@@ -21250,6 +21250,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "0cdb3eb6-44fc-4cdd-9e3a-69bcd5c099b5",
+      "ts": "2026-09-24T08:21:58.590Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
