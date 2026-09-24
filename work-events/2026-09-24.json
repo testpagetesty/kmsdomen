@@ -66642,6 +66642,20 @@
         "host": "zurnal24.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "10fe3205-7b60-41a9-9351-1d2ec54e259e",
+      "ts": "2026-09-24T15:55:03.875Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
