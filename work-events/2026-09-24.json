@@ -38068,6 +38068,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "67fc3934-7cea-4ca2-b75e-d6cfda0e17b9",
+      "ts": "2026-09-24T10:45:26.161Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
