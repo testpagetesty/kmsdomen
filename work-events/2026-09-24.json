@@ -19614,6 +19614,20 @@
         "name": "Яя",
         "interest": "гороскоп на 2026 рік для вашого знака"
       }
+    },
+    {
+      "id": "bef5f2fd-0350-47c1-9444-8f064d9dec7e",
+      "ts": "2026-09-24T08:14:35.100Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
