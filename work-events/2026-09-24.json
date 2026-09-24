@@ -64038,6 +64038,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "bd5db918-9b3a-40f7-a320-b0a9eb8f9e62",
+      "ts": "2026-09-24T14:48:15.426Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
