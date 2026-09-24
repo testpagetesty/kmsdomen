@@ -47482,6 +47482,20 @@
         "name": "Костя 2",
         "title": "Chicken Rode"
       }
+    },
+    {
+      "id": "4b0c2f6c-402f-44ac-b824-6fb506c06db3",
+      "ts": "2026-09-24T12:25:45.012Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Stabilitate reală"
+      }
     }
   ]
 }
