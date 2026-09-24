@@ -33183,6 +33183,31 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "9b23037e-278f-451b-b075-88a66393cbb7",
+      "ts": "2026-09-24T10:07:40.395Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "0909359c-70b4-4824-9b09-cbf3b4519ab2",
+      "ts": "2026-09-24T10:07:40.396Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
