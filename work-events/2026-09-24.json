@@ -71323,6 +71323,18 @@
       }
     },
     {
+      "id": "1eeffca0-d7b7-4b1c-bbe5-73d569773360",
+      "ts": "2026-09-24T17:43:12.588Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "ebf58193-f8d4-4bb7-a2e0-de7168b2d7d8",
       "ts": "2026-09-24T17:43:12.765Z",
       "workerId": "соня_тубка_2",
