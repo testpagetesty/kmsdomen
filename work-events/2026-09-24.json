@@ -27539,6 +27539,20 @@
         "name": "Костя 2",
         "title": "600 giros tras el registro"
       }
+    },
+    {
+      "id": "60566c94-b197-4538-b1ce-1d1cddc64431",
+      "ts": "2026-09-24T09:11:38.226Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "si",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
