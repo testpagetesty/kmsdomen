@@ -40386,6 +40386,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "1ae2bd7c-064e-417b-943a-b5345b268a9e",
+      "ts": "2026-09-24T10:59:58.892Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
