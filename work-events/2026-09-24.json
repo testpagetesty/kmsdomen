@@ -9656,6 +9656,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "7cd2293f-6028-42a3-9f3c-f3b8193cdddb",
+      "ts": "2026-09-24T07:25:13.068Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
