@@ -25493,6 +25493,20 @@
         "name": "Костя 1",
         "title": "Bacaklarda görülebilen şişlik hakkında genel bilgileri öğrenin."
       }
+    },
+    {
+      "id": "563745dd-c881-4b00-ab26-8faad84d416f",
+      "ts": "2026-09-24T08:47:39.149Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Bacak sağlığı ve günlük yaşam hakkında faydalı bilgileri keşfedin."
+      }
     }
   ]
 }
