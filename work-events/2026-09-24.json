@@ -25167,6 +25167,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "dd808d75-9ace-4834-b5ee-340eb55c3d8a",
+      "ts": "2026-09-24T08:43:13.196Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Bojujte proti zácpě. Trápí vás zácpa? Podpořte lepší trávení a pravidelné vypraz"
+      }
     }
   ]
 }
