@@ -41131,6 +41131,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "7a4f6bbf-3bfc-47f2-82c7-09fa4188cadb",
+      "ts": "2026-09-24T11:05:44.734Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
