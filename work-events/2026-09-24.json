@@ -10604,6 +10604,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "7dcc240c-375f-45c7-9d34-666a73f0b4d8",
+      "ts": "2026-09-24T07:30:45.084Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
