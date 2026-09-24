@@ -24558,6 +24558,19 @@
         "name": "Костя 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "a6d9e311-f74c-4a72-a40c-65c1379bf044",
+      "ts": "2026-09-24T08:38:18.432Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
     }
   ]
 }
