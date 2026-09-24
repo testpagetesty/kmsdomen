@@ -31791,6 +31791,19 @@
       }
     },
     {
+      "id": "dab3a91b-df8f-46f3-9192-c5329b14d1d5",
+      "ts": "2026-09-24T09:57:01.837Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "379626d3-1d22-4ecf-b104-d420c7fd17c7",
       "ts": "2026-09-24T09:57:01.843Z",
       "workerId": "костя_2",
@@ -31837,6 +31850,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "77d212ae-17a1-4ba8-8add-ba9680215782",
+      "ts": "2026-09-24T09:57:15.779Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
       }
     }
   ]
