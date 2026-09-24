@@ -67845,6 +67845,18 @@
         "host": "primainspirace.cz",
         "source": "teaser"
       }
+    },
+    {
+      "id": "4ec86fe8-23c5-4ff8-93c7-4c7a8bdca77e",
+      "ts": "2026-09-24T16:18:04.428Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
