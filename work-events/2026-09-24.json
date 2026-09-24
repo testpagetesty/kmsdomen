@@ -27002,6 +27002,20 @@
         "name": "Костя 2",
         "title": "El tiempo se acaba"
       }
+    },
+    {
+      "id": "6a8e3ab4-db3a-4f5f-a113-9e24960391d4",
+      "ts": "2026-09-24T09:01:24.786Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Voces en Madrid por una prensa libre"
+      }
     }
   ]
 }
