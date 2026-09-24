@@ -26796,6 +26796,20 @@
         "name": "Костя 2",
         "title": "El programa terminó abruptamente. Esto muestra de dónde viene el dinero."
       }
+    },
+    {
+      "id": "37b9cc8c-ecc2-45ab-8319-c5794361f5a6",
+      "ts": "2026-09-24T08:59:07.619Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Bugün küçük bir sürpriz var"
+      }
     }
   ]
 }
