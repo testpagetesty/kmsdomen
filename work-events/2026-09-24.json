@@ -24963,6 +24963,20 @@
         "name": "Костя 1",
         "title": "3 příznaky zvětšující se prostaty"
       }
+    },
+    {
+      "id": "b7239f95-d738-4e02-9545-8b38231630f4",
+      "ts": "2026-09-24T08:41:01.509Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La polemica esce dallo studio"
+      }
     }
   ]
 }
