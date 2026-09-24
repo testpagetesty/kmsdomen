@@ -36471,6 +36471,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e630a7e4-1b90-4a4f-8bb5-8b4c12831454",
+      "ts": "2026-09-24T10:33:43.719Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
