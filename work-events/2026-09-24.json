@@ -24213,6 +24213,20 @@
         "name": "Костя 1",
         "title": "Zbavte se tuku a celulitidy"
       }
+    },
+    {
+      "id": "215e5a43-30f6-4636-a069-d01e767dfa44",
+      "ts": "2026-09-24T08:35:58.266Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "De ahí viene el dinero"
+      }
     }
   ]
 }
