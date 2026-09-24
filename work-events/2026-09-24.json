@@ -6313,6 +6313,20 @@
       }
     },
     {
+      "id": "f3168fa8-b544-4fbe-b475-13704252fc1a",
+      "ts": "2026-09-24T07:08:28.635Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "1d00f9fa-cec0-46db-8fe1-4dd9419ae687",
       "ts": "2026-09-24T07:08:29.650Z",
       "workerId": "яя",
