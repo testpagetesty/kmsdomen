@@ -27388,6 +27388,20 @@
         "name": "Костя 2",
         "title": "El aceite sirve para mucho más"
       }
+    },
+    {
+      "id": "548d0a39-203d-4724-8e4b-a59173ee7d72",
+      "ts": "2026-09-24T09:09:54.040Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
