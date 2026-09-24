@@ -24585,6 +24585,18 @@
         "name": "Костя 1",
         "title": "Přírodní domácí očista"
       }
+    },
+    {
+      "id": "3c279787-a458-4341-a77d-51d2684f3a38",
+      "ts": "2026-09-24T08:38:23.491Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
