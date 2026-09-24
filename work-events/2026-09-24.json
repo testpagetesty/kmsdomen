@@ -5951,6 +5951,19 @@
       }
     },
     {
+      "id": "360d747a-8406-4b42-b88d-8cb4b1bc5598",
+      "ts": "2026-09-24T07:06:45.223Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "61675c16-0897-4f53-8143-a90ea294a302",
       "ts": "2026-09-24T07:06:45.224Z",
       "workerId": "костя_1",
