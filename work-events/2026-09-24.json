@@ -56360,6 +56360,18 @@
       }
     },
     {
+      "id": "8a3b6964-88ab-4c33-9d86-d4752709a46c",
+      "ts": "2026-09-24T13:43:13.298Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "6d0eb8cd-e4c4-448d-9d38-06fd3abf331c",
       "ts": "2026-09-24T13:43:14.169Z",
       "workerId": "костя_2",
@@ -56371,6 +56383,19 @@
         "name": "Костя 2",
         "host": "s1.quizdays.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "ebed9576-91b2-47c4-9401-d36d0f3539a2",
+      "ts": "2026-09-24T13:43:20.307Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
       }
     }
   ]
