@@ -27112,6 +27112,20 @@
         "name": "Костя 2",
         "title": "El tiempo se acaba"
       }
+    },
+    {
+      "id": "dee74cee-c64a-4f56-b292-93887b9fcc8c",
+      "ts": "2026-09-24T09:04:20.208Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Dos filas. Dos realidades."
+      }
     }
   ]
 }
