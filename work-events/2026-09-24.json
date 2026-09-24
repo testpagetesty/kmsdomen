@@ -22525,6 +22525,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "d01e5e73-0746-47db-99dc-e23fb9bb6b9a",
+      "ts": "2026-09-24T08:27:43.565Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
