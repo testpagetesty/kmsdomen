@@ -4281,6 +4281,18 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "d8ec7394-e7eb-42b5-abb6-c907a8c4e997",
+      "ts": "2026-09-24T06:59:16.251Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
