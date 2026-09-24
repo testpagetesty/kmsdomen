@@ -71885,6 +71885,18 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "478623a7-80ff-4d82-935e-c60e8bad0cd7",
+      "ts": "2026-09-24T17:46:59.718Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
