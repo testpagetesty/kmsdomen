@@ -47685,6 +47685,18 @@
         "name": "Костя 2",
         "title": "Sweet Bonanza"
       }
+    },
+    {
+      "id": "2b14812b-4979-46b2-8268-42e522d08707",
+      "ts": "2026-09-24T12:29:13.620Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
