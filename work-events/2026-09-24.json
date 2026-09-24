@@ -53193,6 +53193,20 @@
         "host": "primainspirace.cz",
         "source": "teaser"
       }
+    },
+    {
+      "id": "fbe5e5ab-ed3a-4317-9f6f-0d65123a95c4",
+      "ts": "2026-09-24T13:18:22.422Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
