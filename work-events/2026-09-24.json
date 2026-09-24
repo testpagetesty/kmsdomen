@@ -61014,6 +61014,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "288c01b8-1552-48a1-b62a-42caf9181e9e",
+      "ts": "2026-09-24T14:11:04.081Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
