@@ -24573,6 +24573,18 @@
       }
     },
     {
+      "id": "6175b6c1-0911-4c50-a492-f2fbe44d6a23",
+      "ts": "2026-09-24T08:38:19.848Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "8295e785-89ad-44ce-a42d-f1787684bbc4",
       "ts": "2026-09-24T08:38:20.166Z",
       "workerId": "костя_1",
@@ -24596,6 +24608,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "a3e6bd33-a37f-4796-974e-e41907a2709b",
+      "ts": "2026-09-24T08:38:34.421Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Podpora zdraví vašich očí"
       }
     }
   ]
