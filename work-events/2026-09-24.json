@@ -38146,6 +38146,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "51437faa-6020-4a4a-8e33-ce698c503d1a",
+      "ts": "2026-09-24T10:46:05.460Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "соціальна підтримка громадян на державному рівні"
+      }
     }
   ]
 }
