@@ -55931,6 +55931,19 @@
       }
     },
     {
+      "id": "2a0618fa-196d-46a1-b0ae-9c01217247ff",
+      "ts": "2026-09-24T13:40:08.649Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
       "id": "d8d30439-a092-4bf5-9f4b-65fc0f8db4b9",
       "ts": "2026-09-24T13:40:12.209Z",
       "workerId": "костя_1",
@@ -55940,6 +55953,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "ad74d652-00ca-4bc3-97ae-d4259c748c8e",
+      "ts": "2026-09-24T13:40:16.129Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "primainspirace.cz",
+        "source": "teaser"
       }
     }
   ]
