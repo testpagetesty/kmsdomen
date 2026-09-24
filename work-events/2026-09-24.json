@@ -38787,6 +38787,20 @@
         "name": "Костя 1",
         "interest": "how to support skin and nail health at home"
       }
+    },
+    {
+      "id": "3b258518-1985-4079-8256-2907b856600c",
+      "ts": "2026-09-24T10:50:35.287Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
