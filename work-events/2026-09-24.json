@@ -29651,6 +29651,20 @@
       }
     },
     {
+      "id": "1197fd0a-041e-4d3d-9034-e3a120e133df",
+      "ts": "2026-09-24T09:45:22.654Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "bb7a8265-fdbc-4948-a1e0-0dd948a3da4a",
       "ts": "2026-09-24T09:45:23.688Z",
       "workerId": "костя_2",
@@ -29661,6 +29675,19 @@
       "extra": {
         "name": "Костя 2",
         "interest": "apoyo social para desempleados"
+      }
+    },
+    {
+      "id": "b7637ab1-6dba-4069-99cb-2b48e4e20f64",
+      "ts": "2026-09-24T09:45:28.320Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
