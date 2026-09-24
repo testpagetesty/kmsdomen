@@ -62257,6 +62257,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "cb99a1c2-9624-4ec6-98c7-9dfd4e9f2f54",
+      "ts": "2026-09-24T14:18:15.366Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
