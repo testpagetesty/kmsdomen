@@ -22773,6 +22773,19 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "2b486173-2196-4a2a-9787-0c2f7bf8abbc",
+      "ts": "2026-09-24T08:28:56.004Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
