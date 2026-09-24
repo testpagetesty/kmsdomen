@@ -41431,6 +41431,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cd825ea6-0570-4dc6-83b9-ec59ef8eb569",
+      "ts": "2026-09-24T11:07:00.848Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
