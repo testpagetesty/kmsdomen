@@ -24339,6 +24339,20 @@
         "name": "Костя 1",
         "title": "Pro obnovu kloubů potřebujete"
       }
+    },
+    {
+      "id": "394f6e98-16df-4ac3-84e3-23a76f24203a",
+      "ts": "2026-09-24T08:36:48.209Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
     }
   ]
 }
