@@ -72593,6 +72593,20 @@
         "name": "Соня Тубка 2",
         "interest": "kako podržati vid kod kuće"
       }
+    },
+    {
+      "id": "2fef52f9-a842-4e5b-b0b8-52cc975474d6",
+      "ts": "2026-09-24T17:57:29.312Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
