@@ -27511,6 +27511,20 @@
         "name": "Костя 2",
         "title": "Deja las pastillas! Recupera tu próstata. Errores comunes que empeoran la prósta"
       }
+    },
+    {
+      "id": "45ea8b47-4f1f-409d-8f97-55f4df53921d",
+      "ts": "2026-09-24T09:11:02.854Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "si",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
