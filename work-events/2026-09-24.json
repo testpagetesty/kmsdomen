@@ -35517,6 +35517,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "5e2ae359-9ee5-455c-ac82-65105bd60b27",
+      "ts": "2026-09-24T10:23:43.675Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
