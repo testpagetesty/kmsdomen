@@ -49455,6 +49455,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "d21d10f3-6657-4e89-9d52-c16fb7cceb3b",
+      "ts": "2026-09-24T12:50:15.618Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
