@@ -50653,6 +50653,31 @@
       }
     },
     {
+      "id": "336fbb4e-01c6-4e45-a3a8-8f5d78ab256a",
+      "ts": "2026-09-24T12:58:05.801Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "kms",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "24e4b062-4212-4128-a6e1-4d11e9ce28fb",
+      "ts": "2026-09-24T12:58:11.920Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "fe0096d0-d21c-4db5-9dcf-09f25c362074",
       "ts": "2026-09-24T12:58:11.927Z",
       "workerId": "костя_2",
