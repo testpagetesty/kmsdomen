@@ -66272,6 +66272,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "2086d4c3-bec9-4a5a-b928-80e6d7b0a289",
+      "ts": "2026-09-24T15:49:29.393Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
     }
   ]
 }
