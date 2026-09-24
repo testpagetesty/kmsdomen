@@ -62863,6 +62863,20 @@
         "name": "Костя 2",
         "title": "—"
       }
+    },
+    {
+      "id": "74998a9b-69d4-4ba1-8a73-3b08b3b9b560",
+      "ts": "2026-09-24T14:21:48.638Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Neomezená péče o tělo"
+      }
     }
   ]
 }
