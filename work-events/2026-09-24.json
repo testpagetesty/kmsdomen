@@ -30983,6 +30983,18 @@
         "name": "Костя 2",
         "interest": "noticias en televisión de nuestro país sobre criptomonedas"
       }
+    },
+    {
+      "id": "4ae22394-f50f-4be7-b34d-ab72cebf9dbe",
+      "ts": "2026-09-24T09:52:44.432Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
