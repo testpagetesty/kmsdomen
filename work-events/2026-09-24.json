@@ -52375,6 +52375,19 @@
       }
     },
     {
+      "id": "a7248c25-1141-41d9-98a4-cd63258c9fd5",
+      "ts": "2026-09-24T13:12:10.880Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://23835473478.optionsl.com/detail/are_you_more_angel_or_devil__1772004934842.html"
+      }
+    },
+    {
       "id": "7589bdfb-637b-4fe6-8a58-e4f5548685f3",
       "ts": "2026-09-24T13:12:12.174Z",
       "workerId": "костя_1",
@@ -52437,6 +52450,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "98194c36-a880-4b6b-8b59-cffd54f4b899",
+      "ts": "2026-09-24T13:12:27.814Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
