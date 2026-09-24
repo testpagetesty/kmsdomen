@@ -71346,6 +71346,20 @@
         "name": "Соня Тубка 2",
         "interest": "kako se bolje osjećati pri poremećajima cirkulacije"
       }
+    },
+    {
+      "id": "11783666-0cf0-4451-8e12-98ce962dc87e",
+      "ts": "2026-09-24T17:43:18.189Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
