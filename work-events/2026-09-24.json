@@ -22960,6 +22960,19 @@
       }
     },
     {
+      "id": "14b048df-247d-4636-99f4-e40370b76783",
+      "ts": "2026-09-24T08:29:56.696Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "домашні способи підтримки здоров'я слуху"
+      }
+    },
+    {
       "id": "fc7bce0d-f9ef-42db-8b29-40243a752a09",
       "ts": "2026-09-24T08:30:01.836Z",
       "workerId": "костя_1",
@@ -22969,6 +22982,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "ca493fc7-62f5-4e5a-a16e-5b06662010ed",
+      "ts": "2026-09-24T08:30:04.313Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як почувати себе краще при зниженні потенції"
       }
     }
   ]
