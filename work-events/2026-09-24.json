@@ -42042,6 +42042,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "202cc0a6-3712-438d-8d86-5d9b819f9619",
+      "ts": "2026-09-24T11:11:02.154Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "estilo de vida para la salud masculina"
+      }
     }
   ]
 }
