@@ -39800,6 +39800,20 @@
       }
     },
     {
+      "id": "ff4fa5a4-48b0-4e74-bf2f-ce497d3352ff",
+      "ts": "2026-09-24T10:56:23.820Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "3ef30dea-4409-42a7-b887-791a0e2f7c5c",
       "ts": "2026-09-24T10:56:39.960Z",
       "workerId": "костя_1",
@@ -39863,6 +39877,18 @@
       "extra": {
         "name": "Яя",
         "interest": "спосіб життя для чистого організму"
+      }
+    },
+    {
+      "id": "370f3c9b-61de-4656-b6f1-abf9d1ba595d",
+      "ts": "2026-09-24T10:56:50.477Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
