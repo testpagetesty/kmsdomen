@@ -36887,6 +36887,20 @@
         "name": "Яя",
         "interest": "соціальні виплати для людей з інвалідністю"
       }
+    },
+    {
+      "id": "1dba8fe4-5934-41b9-bc73-f5e6b97265e3",
+      "ts": "2026-09-24T10:36:08.230Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
