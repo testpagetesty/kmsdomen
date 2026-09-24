@@ -57830,6 +57830,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "fabee9d3-3295-4e1d-a05a-ea42849b88e9",
+      "ts": "2026-09-24T13:54:12.840Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
