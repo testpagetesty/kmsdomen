@@ -38575,6 +38575,18 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "cf780de4-0994-423d-a501-e6ef3b5da233",
+      "ts": "2026-09-24T10:48:50.387Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
