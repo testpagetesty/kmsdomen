@@ -42569,6 +42569,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "86f9e14a-37e4-4881-988f-d21c40b1bddc",
+      "ts": "2026-09-24T11:15:36.250Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
