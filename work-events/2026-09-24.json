@@ -40033,6 +40033,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "1f02cf05-0b55-4b8c-ab8c-7344df9f95d6",
+      "ts": "2026-09-24T10:57:50.482Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
