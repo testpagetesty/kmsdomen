@@ -38082,6 +38082,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "cd969b03-6a9c-404f-b8c9-fa4f3ddd9cb8",
+      "ts": "2026-09-24T10:45:43.466Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
