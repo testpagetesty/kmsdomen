@@ -26880,6 +26880,20 @@
         "name": "Костя 2",
         "title": "Arresto de reportero agita la capital"
       }
+    },
+    {
+      "id": "85de5469-a551-4153-a5c7-b42831f5c355",
+      "ts": "2026-09-24T08:59:51.116Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
