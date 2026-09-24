@@ -64227,6 +64227,19 @@
       }
     },
     {
+      "id": "5c3ef20d-62ad-413e-9d16-c2cd03ff331c",
+      "ts": "2026-09-24T14:52:11.719Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що приховує ваша улюблена овоч"
+      }
+    },
+    {
       "id": "f9540520-bddd-4ef7-9e01-32fd354e7752",
       "ts": "2026-09-24T14:52:15.446Z",
       "workerId": "яя",
