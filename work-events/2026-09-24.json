@@ -31673,6 +31673,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "2147f3d5-b9d3-4364-a2ce-8c53264816d5",
+      "ts": "2026-09-24T09:56:37.787Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
