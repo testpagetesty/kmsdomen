@@ -34494,6 +34494,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "643cd5a9-da80-45e9-a293-106898fdcfd5",
+      "ts": "2026-09-24T10:16:44.576Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
