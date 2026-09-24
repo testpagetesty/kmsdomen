@@ -41910,6 +41910,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "095e86c8-426b-43f4-a0bb-4adf14d77c40",
+      "ts": "2026-09-24T11:10:17.583Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Jerusalem",
+      "geo": "il",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "תשלומים חברתיים לאנשים עם מוגבלות"
+      }
     }
   ]
 }
