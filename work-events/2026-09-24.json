@@ -60700,6 +60700,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "77d09dc2-a6ee-40f5-86ab-fbcf0348a0b0",
+      "ts": "2026-09-24T14:09:54.289Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
