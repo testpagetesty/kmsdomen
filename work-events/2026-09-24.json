@@ -32788,6 +32788,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "db4f50a6-d754-42a4-9985-dba2eae4d820",
+      "ts": "2026-09-24T10:04:02.734Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
