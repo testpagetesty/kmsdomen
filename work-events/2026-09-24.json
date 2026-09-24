@@ -25234,6 +25234,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "e778136a-4ba9-437a-aa25-e3efef0f886d",
+      "ts": "2026-09-24T08:44:07.028Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "2minutové čtení, které muži sdílejí. 2minutové čtení šířící se mezi muži 40+ – b"
+      }
     }
   ]
 }
