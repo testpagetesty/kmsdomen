@@ -44579,6 +44579,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "5efa3506-3f7c-43e2-b453-2ad6b881c061",
+      "ts": "2026-09-24T11:27:45.333Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
