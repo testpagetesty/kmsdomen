@@ -48575,6 +48575,19 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "ae9146dd-de24-4082-b7e9-292d8c81c677",
+      "ts": "2026-09-24T12:45:39.710Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
