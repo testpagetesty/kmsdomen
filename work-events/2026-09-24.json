@@ -27098,6 +27098,20 @@
         "name": "Костя 2",
         "title": "El periodismo, bajo presión en Madrid"
       }
+    },
+    {
+      "id": "5490f622-667f-47aa-b02c-7308168e000a",
+      "ts": "2026-09-24T09:04:00.757Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "El tiempo se acaba"
+      }
     }
   ]
 }
