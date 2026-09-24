@@ -16120,6 +16120,32 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "f5f1734e-d249-47eb-9f94-2a7e24f63073",
+      "ts": "2026-09-24T07:59:02.865Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "3e24451d-1bb9-4d0a-88e3-618bc5c03cb0",
+      "ts": "2026-09-24T07:59:06.357Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
