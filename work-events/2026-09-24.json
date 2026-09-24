@@ -63248,6 +63248,20 @@
         "name": "Костя 2",
         "title": "Madrid exige justicia para periodistas"
       }
+    },
+    {
+      "id": "b0819a47-2d61-4a59-99b3-6ecd5bd93a53",
+      "ts": "2026-09-24T14:25:07.025Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
