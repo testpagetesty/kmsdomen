@@ -38306,6 +38306,20 @@
       }
     },
     {
+      "id": "826681ea-4909-4477-a2c9-e993b4119e3b",
+      "ts": "2026-09-24T10:46:57.425Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "45cfc346-8455-4f6c-8744-ee252d370bbe",
       "ts": "2026-09-24T10:46:57.803Z",
       "workerId": "яя",
@@ -38316,6 +38330,33 @@
       "event": "user_active",
       "extra": {
         "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "84f690ef-7b7b-45f6-86f7-2b2c587af8ee",
+      "ts": "2026-09-24T10:47:00.208Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "Государственные программы поддержки населения"
+      }
+    },
+    {
+      "id": "8bd54396-80e7-4539-9435-72a93f662140",
+      "ts": "2026-09-24T10:47:17.522Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
         "source": "scroll"
       }
     },
@@ -38344,6 +38385,20 @@
       "event": "user_active",
       "extra": {
         "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "ae9ab835-7804-4fd5-840d-87f3ebbfe015",
+      "ts": "2026-09-24T10:47:41.951Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
         "source": "scroll"
       }
     }
