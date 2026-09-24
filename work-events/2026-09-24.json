@@ -8828,6 +8828,19 @@
         "name": "Костя 1",
         "interest": "jak rozvíjet pasivní příjem"
       }
+    },
+    {
+      "id": "7f22972c-7f4a-4be3-ab88-5ce39c3bf2f2",
+      "ts": "2026-09-24T07:21:40.202Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "nejlepší strategie spoření peněz v kryptoměnách"
+      }
     }
   ]
 }
