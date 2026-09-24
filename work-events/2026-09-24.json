@@ -5689,6 +5689,20 @@
         "name": "Костя 1",
         "interest": "sociální zabezpečení při nemoci"
       }
+    },
+    {
+      "id": "da943592-0c0b-40f1-a6ec-7b838a11fd49",
+      "ts": "2026-09-24T07:05:39.102Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
