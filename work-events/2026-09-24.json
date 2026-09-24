@@ -29119,6 +29119,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "aa6b26a5-d814-4468-b53f-2e1a8b9f275a",
+      "ts": "2026-09-24T09:43:23.734Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
