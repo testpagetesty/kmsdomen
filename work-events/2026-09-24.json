@@ -36615,6 +36615,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "ecea044e-2f77-42bf-ad91-7650d7da8d12",
+      "ts": "2026-09-24T10:34:44.626Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
