@@ -65482,6 +65482,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "0c2d5e95-e477-4f1f-bf44-857add97736d",
+      "ts": "2026-09-24T15:41:04.814Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "gb",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
