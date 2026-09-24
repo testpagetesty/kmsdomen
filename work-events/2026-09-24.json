@@ -26347,6 +26347,18 @@
         "name": "Костя 1",
         "title": "Bugün karmaşık planlara gerek yok"
       }
+    },
+    {
+      "id": "1dc4d203-d737-4a95-9e2f-817356453bea",
+      "ts": "2026-09-24T08:55:23.533Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
