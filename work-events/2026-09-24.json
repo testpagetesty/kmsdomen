@@ -54375,6 +54375,19 @@
       }
     },
     {
+      "id": "5deefaac-71ee-442d-8234-b009653721b4",
+      "ts": "2026-09-24T13:27:41.645Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "f055d07c-21bc-4ce9-908c-31979e729c35",
       "ts": "2026-09-24T13:27:46.528Z",
       "workerId": "костя_1",
