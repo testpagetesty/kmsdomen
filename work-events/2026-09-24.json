@@ -57381,6 +57381,19 @@
       }
     },
     {
+      "id": "2da7991b-5bac-4487-96a8-4c3af3144c4d",
+      "ts": "2026-09-24T13:51:06.864Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://zagorje.com"
+      }
+    },
+    {
       "id": "7897baee-5f27-4a91-9291-59befef55bc1",
       "ts": "2026-09-24T13:51:10.473Z",
       "workerId": "костя_2",
@@ -57392,6 +57405,32 @@
         "name": "Костя 2",
         "host": "zagorje.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "1f1490ae-fb1e-4cc7-b795-c622a7d48bd7",
+      "ts": "2026-09-24T13:51:11.610Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "dff0515b-ded5-4f90-a6fd-466e948f0424",
+      "ts": "2026-09-24T13:51:12.834Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
       }
     },
     {
@@ -57417,6 +57456,20 @@
       "event": "user_active",
       "extra": {
         "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "86cea6f4-86cf-4320-9f8e-655afcafef73",
+      "ts": "2026-09-24T13:51:24.628Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
         "source": "scroll"
       }
     }
