@@ -21393,6 +21393,31 @@
       }
     },
     {
+      "id": "4bde99bd-b7f1-4d7a-8e1c-4e6970c7bb60",
+      "ts": "2026-09-24T08:22:26.871Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "ed63ca33-b501-4051-85c1-917f06e89a64",
+      "ts": "2026-09-24T08:22:26.874Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "25b9045c-c100-46dd-a57a-56ba8b2e6a67",
       "ts": "2026-09-24T08:22:27.413Z",
       "workerId": "костя_1",
@@ -21456,6 +21481,19 @@
       "extra": {
         "name": "Яя",
         "interest": "спосіб життя при проблемах з варикозом"
+      }
+    },
+    {
+      "id": "e103d211-6f7b-4ab9-9d91-5c54432a2b43",
+      "ts": "2026-09-24T08:22:57.540Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
