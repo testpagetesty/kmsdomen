@@ -32271,6 +32271,18 @@
       }
     },
     {
+      "id": "7bfec25f-ef4a-4c30-b901-e54041c6bfc7",
+      "ts": "2026-09-24T10:00:44.522Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "bc2b5288-d8a7-4807-ad6a-f26987c700ca",
       "ts": "2026-09-24T10:00:45.654Z",
       "workerId": "костя_2",
