@@ -44659,6 +44659,18 @@
       }
     },
     {
+      "id": "c5a060bc-6eb1-4585-a8a9-f7309bbea5d8",
+      "ts": "2026-09-24T11:28:14.256Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "6917cb18-00c4-4d74-99d6-3d8ef9eb9c0e",
       "ts": "2026-09-24T11:28:15.381Z",
       "workerId": "костя_1",
@@ -44737,6 +44749,20 @@
       }
     },
     {
+      "id": "a7f76bb6-d7f6-44a2-ad8a-ffa6131144dc",
+      "ts": "2026-09-24T11:28:45.685Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La polémica salió del estudio"
+      }
+    },
+    {
       "id": "ee40a044-0114-47d3-8983-c095f2193537",
       "ts": "2026-09-24T11:29:02.498Z",
       "workerId": "костя_1",
@@ -44748,6 +44774,32 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "b6892ee3-b283-4681-9f04-fdeb392b7a4c",
+      "ts": "2026-09-24T11:29:13.241Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Un emotivo debate televisado en directo"
+      }
+    },
+    {
+      "id": "5e3dacb9-292d-442b-9547-cfa52f6b075d",
+      "ts": "2026-09-24T11:29:14.259Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     },
     {
@@ -44778,6 +44830,20 @@
       }
     },
     {
+      "id": "d4a3b1d9-4792-4ece-ae3b-bac92471f39d",
+      "ts": "2026-09-24T11:29:34.686Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Disponible en el país"
+      }
+    },
+    {
       "id": "c7d7356a-e671-48be-9038-64547e3c2988",
       "ts": "2026-09-24T11:29:45.333Z",
       "workerId": "костя_1",
@@ -44801,6 +44867,20 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "1a69eb66-1526-4eec-a923-cf7e3acfbc36",
+      "ts": "2026-09-24T11:30:04.128Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Condiciones ya publicadas"
       }
     },
     {
@@ -44868,6 +44948,20 @@
       }
     },
     {
+      "id": "3801e589-1444-46d7-acd0-3b7e81358f75",
+      "ts": "2026-09-24T11:30:33.634Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Condiciones ya publicadas"
+      }
+    },
+    {
       "id": "67e7b771-eafb-41d8-81b0-4880a412a980",
       "ts": "2026-09-24T11:30:35.074Z",
       "workerId": "костя_1",
@@ -44891,6 +44985,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "1869dba1-e6fc-464d-9f28-9bc142f04e9f",
+      "ts": "2026-09-24T11:30:50.146Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La élite está en alerta"
       }
     },
     {
@@ -44918,6 +45026,35 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "97c5f8b9-1908-463e-a6f8-725099fce7ea",
+      "ts": "2026-09-24T11:31:08.264Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "ro",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "befe2a5b-645c-4902-add7-5d3f35e576ce",
+      "ts": "2026-09-24T11:31:16.441Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Consultá cómo funciona y sumate hoy"
       }
     },
     {
@@ -44997,6 +45134,34 @@
       }
     },
     {
+      "id": "5ed95bf3-50a5-45ad-a278-e87703d159eb",
+      "ts": "2026-09-24T11:31:46.944Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Recibe tu bono"
+      }
+    },
+    {
+      "id": "dcec1595-28a0-4494-8d87-6349e36d2441",
+      "ts": "2026-09-24T11:32:09.281Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Tu recompensa te está esperando."
+      }
+    },
+    {
       "id": "f17e8b49-f54a-4969-babb-be7d6f08effd",
       "ts": "2026-09-24T11:32:31.882Z",
       "workerId": "костя_1",
@@ -45021,6 +45186,20 @@
       "extra": {
         "name": "Костя 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "68718652-880b-4fb9-ae50-55b24a4a3720",
+      "ts": "2026-09-24T11:32:40.354Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Prueba tu suerte y gana un bono"
       }
     },
     {
@@ -45758,6 +45937,33 @@
       }
     },
     {
+      "id": "f91e8e19-d022-4da1-ab52-6ebfc50e1356",
+      "ts": "2026-09-24T11:46:59.792Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "3e65f63f-a37e-49db-b200-5028159099ef",
+      "ts": "2026-09-24T11:47:13.142Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Fire Joker"
+      }
+    },
+    {
       "id": "357344a6-a61f-45df-be7b-eae28593228b",
       "ts": "2026-09-24T11:47:14.244Z",
       "workerId": "костя_1",
@@ -45767,6 +45973,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "a7ba9fee-44fb-43e1-ba6a-586cda4c1146",
+      "ts": "2026-09-24T11:47:27.888Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     },
     {
@@ -46207,6 +46425,33 @@
       }
     },
     {
+      "id": "0ce683b6-734e-474f-8600-dd2eed248c5c",
+      "ts": "2026-09-24T12:07:11.642Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Fire Joker"
+      }
+    },
+    {
+      "id": "1508de85-c3ce-48f8-a77e-78d2ef0cae76",
+      "ts": "2026-09-24T12:07:38.288Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "daad4459-d80a-4524-a28b-33bdb2fba5c8",
       "ts": "2026-09-24T12:07:47.721Z",
       "workerId": "костя_2",
@@ -46218,6 +46463,18 @@
       "extra": {
         "name": "Костя 2",
         "title": "Fire Joker"
+      }
+    },
+    {
+      "id": "e9bdfd1f-bc44-490b-aa75-fd542371afcd",
+      "ts": "2026-09-24T12:08:03.370Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
