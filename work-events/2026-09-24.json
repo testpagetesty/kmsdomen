@@ -44448,6 +44448,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "619b2fe8-310c-43b6-970a-338232025c3a",
+      "ts": "2026-09-24T11:26:52.072Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
