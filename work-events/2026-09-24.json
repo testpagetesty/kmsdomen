@@ -49590,6 +49590,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c989aa94-123c-4448-8bf7-e4e0a06ef2f6",
+      "ts": "2026-09-24T12:51:13.651Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
