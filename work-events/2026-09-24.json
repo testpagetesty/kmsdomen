@@ -60949,6 +60949,18 @@
       }
     },
     {
+      "id": "ba713cad-af57-4f01-81db-04190d1e465e",
+      "ts": "2026-09-24T14:10:45.137Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "514d87c9-66d2-4e86-8892-2e7cea17a9db",
       "ts": "2026-09-24T14:10:45.887Z",
       "workerId": "костя_2",
