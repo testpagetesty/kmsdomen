@@ -28200,6 +28200,21 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4ba15570-2fa0-4ab3-95f8-3c590ab99133",
+      "ts": "2026-09-24T09:38:42.483Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "ru",
+        "to": "br",
+        "source": "ip"
+      }
     }
   ]
 }
