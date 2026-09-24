@@ -8841,6 +8841,19 @@
         "name": "Костя 1",
         "interest": "nejlepší strategie spoření peněz v kryptoměnách"
       }
+    },
+    {
+      "id": "c3daa05d-0866-4097-bb2b-193c7ee16f2c",
+      "ts": "2026-09-24T07:21:41.188Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "státní sociální platby pro všechny občany"
+      }
     }
   ]
 }
