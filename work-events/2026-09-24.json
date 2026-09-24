@@ -23063,6 +23063,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "75615843-b884-4ad3-8ea0-b317b3fb79fa",
+      "ts": "2026-09-24T08:30:19.837Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
