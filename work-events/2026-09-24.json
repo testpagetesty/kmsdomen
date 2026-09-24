@@ -26553,6 +26553,20 @@
         "name": "Костя 2",
         "title": "La demanda es alta. Una oportunidad exclusiva"
       }
+    },
+    {
+      "id": "49a6cb01-444f-4548-8c32-c46ed357c767",
+      "ts": "2026-09-24T08:57:03.377Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "500 DÖNÜŞ başlangıçta"
+      }
     }
   ]
 }
