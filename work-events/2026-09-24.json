@@ -57162,6 +57162,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "986728d2-3551-49a3-a649-d2be16092eb6",
+      "ts": "2026-09-24T13:49:18.839Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
