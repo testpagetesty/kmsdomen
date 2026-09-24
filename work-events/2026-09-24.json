@@ -25207,6 +25207,20 @@
         "name": "Костя 2",
         "title": "La disputa siguió tras el corte del aire"
       }
+    },
+    {
+      "id": "8f1d7d54-4be4-41b7-b419-61c118d6bf7b",
+      "ts": "2026-09-24T08:43:39.332Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "1 kapsle denně pro hubnutí. Podpořte hubnutí jednoduše. Stačí 1 kapsle denně"
+      }
     }
   ]
 }
