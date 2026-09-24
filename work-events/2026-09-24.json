@@ -57516,6 +57516,19 @@
       }
     },
     {
+      "id": "cfc5c2b1-b88a-4ad5-a953-82ef55889060",
+      "ts": "2026-09-24T13:52:06.866Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://s1.quizdays.com/es/wp_quiz/solo-el-5-puede-nombrar-a-todas-estas-figuras-historicas-puedes-tu/?utm_campaign=GG+QuizDays+Kevin+00166&utm_content=askproly.com&utm_term=google"
+      }
+    },
+    {
       "id": "e30c028e-aeac-4514-84d9-048ee6dab4c3",
       "ts": "2026-09-24T13:52:07.519Z",
       "workerId": "костя_1",
@@ -57569,6 +57582,18 @@
       }
     },
     {
+      "id": "5d6e1f6e-1937-4627-ba50-b4bbfa66e294",
+      "ts": "2026-09-24T13:52:13.302Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "f3f626b4-2a22-47b4-8c6c-a924315e96f2",
       "ts": "2026-09-24T13:52:16.666Z",
       "workerId": "яя",
@@ -57579,6 +57604,20 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "886efde3-2881-4451-97ab-f82e08998467",
+      "ts": "2026-09-24T13:52:40.615Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "az",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
       }
     },
     {
