@@ -43142,6 +43142,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "bf2323ec-fb68-4527-a839-188ee0d4b193",
+      "ts": "2026-09-24T11:19:45.321Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
