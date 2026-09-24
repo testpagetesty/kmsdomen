@@ -44489,6 +44489,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "a5026979-e207-4be0-99fc-9bc06654acf2",
+      "ts": "2026-09-24T11:27:09.229Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
