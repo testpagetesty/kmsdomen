@@ -26237,6 +26237,18 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "634816cb-9bb2-4cce-b7b9-3424be4e2c81",
+      "ts": "2026-09-24T08:54:23.530Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
