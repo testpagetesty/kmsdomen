@@ -37886,6 +37886,31 @@
         "name": "Яя",
         "interest": "останні новини про зростання криптовалюти в нашій країні"
       }
+    },
+    {
+      "id": "1be45452-0904-4a1a-b67f-c37c2e322407",
+      "ts": "2026-09-24T10:43:36.719Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "14adef6c-e3f5-4251-830e-c6aad64f708a",
+      "ts": "2026-09-24T10:43:36.720Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
