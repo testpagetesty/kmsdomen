@@ -22348,6 +22348,20 @@
       }
     },
     {
+      "id": "cad5d586-db04-4308-a5bb-53f1bcaf0584",
+      "ts": "2026-09-24T08:27:09.335Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "25b04a7a-a3b7-474b-8614-59ae7cd98b8f",
       "ts": "2026-09-24T08:27:09.376Z",
       "workerId": "костя_1",
