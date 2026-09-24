@@ -61863,6 +61863,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "244ac8c6-aaa6-4849-99a1-ec51c732846f",
+      "ts": "2026-09-24T14:16:19.796Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
