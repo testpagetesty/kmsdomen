@@ -12241,6 +12241,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "8736007e-a55b-45ee-9b1a-06be1c8b906e",
+      "ts": "2026-09-24T07:41:42.005Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
