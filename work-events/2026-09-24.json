@@ -29977,6 +29977,18 @@
         "name": "Костя 2",
         "interest": "seguridad social en caso de enfermedad"
       }
+    },
+    {
+      "id": "72fe4b72-33c0-46ac-ba0b-f4b1d66c5a35",
+      "ts": "2026-09-24T09:46:43.682Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
