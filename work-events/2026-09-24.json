@@ -37242,6 +37242,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "31eaf4b9-3305-4883-b3a9-489e22d9f7a9",
+      "ts": "2026-09-24T10:38:45.297Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "ar",
+        "to": "az",
+        "source": "ip"
+      }
     }
   ]
 }
