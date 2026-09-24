@@ -27738,6 +27738,18 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "4c7d71a8-c21e-4b1d-8ada-d700c4e61c9f",
+      "ts": "2026-09-24T09:19:57.205Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
