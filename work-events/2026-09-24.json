@@ -63330,6 +63330,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "30ee4a14-28a5-4ed9-8fbb-2089da4043e3",
+      "ts": "2026-09-24T14:26:15.382Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
