@@ -12600,6 +12600,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c1f41fb2-a7ee-43d1-85cc-a06fa9887a7b",
+      "ts": "2026-09-24T07:43:30.258Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
