@@ -31504,6 +31504,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "2c1b5c25-6e5a-4efe-8942-ad4ca12fb752",
+      "ts": "2026-09-24T09:55:34.421Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
