@@ -67702,6 +67702,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "f77c1a89-e3fc-4f11-8451-ed300fd83f3e",
+      "ts": "2026-09-24T16:15:04.426Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
