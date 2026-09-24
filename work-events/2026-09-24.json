@@ -25398,6 +25398,20 @@
         "name": "Костя 2",
         "title": "Pérdida de peso de 84 a 55 kg"
       }
+    },
+    {
+      "id": "9c79ce88-5399-4d5f-ad3a-d77046f89150",
+      "ts": "2026-09-24T08:47:00.423Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Düşünceli Bir Hava Oluştu"
+      }
     }
   ]
 }
