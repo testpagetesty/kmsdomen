@@ -45659,6 +45659,20 @@
         "name": "Костя 1",
         "title": "Curăță vasele de sânge"
       }
+    },
+    {
+      "id": "87230369-2499-439e-8aa3-e9299aed655d",
+      "ts": "2026-09-24T11:44:12.759Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Dureri la picioare noaptea? Descoperă metode pentru a gestiona neuropatia."
+      }
     }
   ]
 }
