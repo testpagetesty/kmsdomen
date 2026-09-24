@@ -45729,6 +45729,20 @@
         "name": "Костя 1",
         "title": "Curăță vasele de sânge"
       }
+    },
+    {
+      "id": "1714749c-4811-4c09-aa65-e19ef6cbf171",
+      "ts": "2026-09-24T11:45:04.007Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Fără sprijin adecvat, mobilitatea poate scădea treptat."
+      }
     }
   ]
 }
