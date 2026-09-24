@@ -56319,6 +56319,33 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c2becf1d-12b0-4afe-b007-7a0056bd74e1",
+      "ts": "2026-09-24T13:42:57.072Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "d0d69a76-db8c-4e68-af4b-49828cb00790",
+      "ts": "2026-09-24T13:43:09.477Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://s1.quizdays.com/es/wp_quiz/solo-el-5-puede-nombrar-a-todas-estas-figuras-historicas-puedes-tu/?utm_campaign=GG+QuizDays+Kevin+00166&utm_content=askproly.com&utm_term=google"
+      }
     }
   ]
 }
