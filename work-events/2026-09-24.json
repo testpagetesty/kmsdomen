@@ -41663,6 +41663,21 @@
       }
     },
     {
+      "id": "0279981a-555d-4d92-a90a-7722ff189ac2",
+      "ts": "2026-09-24T11:08:41.874Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "us",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "5f08bad3-307d-4c8b-9af9-253fbfcd7146",
       "ts": "2026-09-24T11:08:44.673Z",
       "workerId": "костя_2",
@@ -41674,6 +41689,18 @@
       "extra": {
         "name": "Костя 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "68a18029-78ef-4921-bbe1-ed48b2364fcb",
+      "ts": "2026-09-24T11:08:44.739Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
       }
     },
     {
@@ -41790,6 +41817,18 @@
       "extra": {
         "name": "Яя",
         "interest": "що робити якщо печінка перевантажена"
+      }
+    },
+    {
+      "id": "11aa3f22-0f7d-4f68-952c-d30d1ca943df",
+      "ts": "2026-09-24T11:09:44.768Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
       }
     },
     {
