@@ -57514,6 +57514,33 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e30c028e-aeac-4514-84d9-048ee6dab4c3",
+      "ts": "2026-09-24T13:52:07.519Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://s1.quizdays.com/es/wp_quiz/solo-el-5-puede-nombrar-a-todas-estas-figuras-historicas-puedes-tu/?utm_campaign=GG+QuizDays+Kevin+00166&utm_content=askproly.com&utm_term=google"
+      }
+    },
+    {
+      "id": "4b8aa9b2-b6d1-4207-8121-a377a2cd631e",
+      "ts": "2026-09-24T13:52:12.215Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "s1.quizdays.com",
+        "source": "teaser"
+      }
     }
   ]
 }
