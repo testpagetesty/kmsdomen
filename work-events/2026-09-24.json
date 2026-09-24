@@ -25412,6 +25412,19 @@
         "name": "Костя 1",
         "title": "Düşünceli Bir Hava Oluştu"
       }
+    },
+    {
+      "id": "d379c34f-6cc3-4d23-9933-c5c8b5c5a810",
+      "ts": "2026-09-24T08:47:06.223Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
