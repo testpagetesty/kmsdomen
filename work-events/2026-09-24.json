@@ -21072,6 +21072,19 @@
       }
     },
     {
+      "id": "45b6d562-6549-47f0-a8fe-f4c50349a6b8",
+      "ts": "2026-09-24T08:21:07.742Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "35c9b7a5-a011-4fc8-99c6-84dc1f16af98",
       "ts": "2026-09-24T08:21:07.750Z",
       "workerId": "костя_1",
