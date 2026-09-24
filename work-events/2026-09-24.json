@@ -61968,6 +61968,31 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "08ba3b37-44e9-4a71-90af-5eeebb0fd1f6",
+      "ts": "2026-09-24T14:16:44.383Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "ru",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "a596f834-4e01-4721-9a06-21b3bed37daa",
+      "ts": "2026-09-24T14:16:44.429Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "ru",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
