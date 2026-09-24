@@ -52830,6 +52830,19 @@
       }
     },
     {
+      "id": "b4d0e1b8-5401-4f26-a04c-83e7608b2a30",
+      "ts": "2026-09-24T13:16:05.024Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://regionalobala.si"
+      }
+    },
+    {
       "id": "be7ab446-4450-4048-9aa7-46c721b5b708",
       "ts": "2026-09-24T13:16:05.407Z",
       "workerId": "костя_1",
@@ -52843,6 +52856,21 @@
       }
     },
     {
+      "id": "4d390d77-72b3-40d9-bb10-de6633bff4be",
+      "ts": "2026-09-24T13:16:07.087Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "ar",
+        "to": "mx",
+        "source": "ip"
+      }
+    },
+    {
       "id": "8f0a5700-a0b3-4b6d-acb5-5bf24641ba37",
       "ts": "2026-09-24T13:16:12.179Z",
       "workerId": "костя_1",
@@ -52852,6 +52880,32 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 1"
+      }
+    },
+    {
+      "id": "282c9251-8d0c-40f2-9c1e-bc6eb48c7fd4",
+      "ts": "2026-09-24T13:16:12.476Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "273acc95-4c9f-43c9-a853-83d4f5fbca6c",
+      "ts": "2026-09-24T13:16:13.261Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     },
     {
@@ -52883,6 +52937,19 @@
       }
     },
     {
+      "id": "366cca3d-a463-46bd-aa28-e1ca23352ceb",
+      "ts": "2026-09-24T13:16:22.032Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://24080232431.buzzfuzzy.com/detail/are_your_eyes_healthy_take_the_test_now__1773305556213.html"
+      }
+    },
+    {
       "id": "46f9d203-8db1-49c8-a0a3-202e39e8ab8c",
       "ts": "2026-09-24T13:16:23.973Z",
       "workerId": "костя_1",
@@ -52909,6 +52976,20 @@
         "name": "Костя 2",
         "host": "24080232431.buzzfuzzy.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "ba5a4e3f-8f53-480d-a015-25d113dca8e9",
+      "ts": "2026-09-24T13:16:33.394Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "mx",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
       }
     }
   ]
