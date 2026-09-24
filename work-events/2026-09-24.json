@@ -40098,6 +40098,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "7a1e7acd-2c83-4981-a9a1-38e31b54e24b",
+      "ts": "2026-09-24T10:58:03.169Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
