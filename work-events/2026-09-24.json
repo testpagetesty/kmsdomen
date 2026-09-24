@@ -21058,6 +21058,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7e361bb4-8240-4f9d-be8e-c487c5811f5f",
+      "ts": "2026-09-24T08:21:03.114Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
