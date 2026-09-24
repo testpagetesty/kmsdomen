@@ -37373,6 +37373,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "aaa581ba-e97e-4d07-8eec-de68d75e7971",
+      "ts": "2026-09-24T10:39:32.802Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
