@@ -13361,6 +13361,31 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "71f96340-ee6b-4c27-8761-914c4b3b42f7",
+      "ts": "2026-09-24T07:46:54.891Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "57cea367-c465-4e01-a1a2-a2da3f384ccf",
+      "ts": "2026-09-24T07:46:54.892Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
