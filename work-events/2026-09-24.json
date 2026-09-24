@@ -56614,6 +56614,18 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "596fc618-d1f8-481b-b1f4-206073b00730",
+      "ts": "2026-09-24T13:45:12.212Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
