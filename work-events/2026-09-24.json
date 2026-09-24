@@ -63182,6 +63182,18 @@
         "name": "Костя 2",
         "title": "Cómo proteger tus ahorros?"
       }
+    },
+    {
+      "id": "ca42ba59-1ef7-4c40-bd47-8e1a073ddd7b",
+      "ts": "2026-09-24T14:24:15.376Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
