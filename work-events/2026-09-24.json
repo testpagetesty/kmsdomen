@@ -51008,6 +51008,20 @@
         "name": "Костя 1",
         "url": "https://buzzfuzzy.com"
       }
+    },
+    {
+      "id": "1cc71010-cc5d-44c9-b63d-915a6626d520",
+      "ts": "2026-09-24T13:00:58.135Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
