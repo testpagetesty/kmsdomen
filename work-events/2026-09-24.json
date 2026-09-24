@@ -37123,6 +37123,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "14fce495-04a8-4d6d-886f-2e4833c42952",
+      "ts": "2026-09-24T10:37:31.541Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
