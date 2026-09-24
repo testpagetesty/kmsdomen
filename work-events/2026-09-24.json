@@ -41,6 +41,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "f5129b1e-ef1c-4a31-8af5-1b1dbe1a732b",
+      "ts": "2026-09-24T06:34:47.008Z",
+      "workerId": "хадыж",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Хадыж",
+        "source": "motion"
+      }
     }
   ]
 }
