@@ -5481,6 +5481,19 @@
         "name": "Костя 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "6e20c300-980d-4d14-ac55-5533ee2b1e65",
+      "ts": "2026-09-24T07:04:47.748Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "asignaciones familiares y pagos familiares"
+      }
     }
   ]
 }
