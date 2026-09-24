@@ -26457,6 +26457,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c073a958-8d3e-443e-8dc2-22cb7f8aa10f",
+      "ts": "2026-09-24T08:56:10.435Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "600 artık sadece bir sayı değil"
+      }
     }
   ]
 }
