@@ -46967,6 +46967,33 @@
       }
     },
     {
+      "id": "c8c10c2d-8e19-41f7-9de1-7724c4dfc598",
+      "ts": "2026-09-24T12:17:56.415Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "es",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "411eb293-07c4-4ada-8d23-1f19bf6abe6c",
+      "ts": "2026-09-24T12:18:03.394Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "ee1a986c-16d9-45e2-8065-4639d152c29e",
       "ts": "2026-09-24T12:18:13.597Z",
       "workerId": "яя",
@@ -47045,6 +47072,20 @@
       }
     },
     {
+      "id": "e3c335eb-927f-413d-893c-75a263e971c9",
+      "ts": "2026-09-24T12:19:47.062Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Sugar Splash"
+      }
+    },
+    {
       "id": "971e5018-72ff-42d9-bf42-eed7d0ebf190",
       "ts": "2026-09-24T12:19:49.760Z",
       "workerId": "яя",
@@ -47111,6 +47152,19 @@
       }
     },
     {
+      "id": "b71b3ffc-5649-4b03-a32d-5dbe874292c1",
+      "ts": "2026-09-24T12:21:12.353Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "de5b0126-f801-46a3-b658-70214970f0dd",
       "ts": "2026-09-24T12:21:13.603Z",
       "workerId": "яя",
@@ -47120,6 +47174,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "9af181a9-4295-4807-9741-e00fb068245e",
+      "ts": "2026-09-24T12:21:14.765Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Joker's Jewels"
       }
     },
     {
@@ -47147,6 +47215,18 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "bb6ca030-cbaf-4b24-9e79-70afa4272386",
+      "ts": "2026-09-24T12:22:03.404Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
       }
     },
     {
@@ -47198,6 +47278,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "263c3a81-1723-4014-ad87-7a59b5f29ad1",
+      "ts": "2026-09-24T12:23:15.433Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Lava Deep"
       }
     }
   ]
