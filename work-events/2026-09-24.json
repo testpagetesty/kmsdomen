@@ -62947,6 +62947,21 @@
         "name": "Костя 1",
         "title": "Jedna kapsle. Každý den."
       }
+    },
+    {
+      "id": "b95075b8-63a7-4e8f-94ce-16907b83c253",
+      "ts": "2026-09-24T14:22:13.457Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "cl",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
