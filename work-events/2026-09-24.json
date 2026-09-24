@@ -42331,6 +42331,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4e362b79-c9c2-46c8-9767-a17a4a62de4f",
+      "ts": "2026-09-24T11:13:02.977Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
