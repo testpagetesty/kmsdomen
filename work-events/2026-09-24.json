@@ -26906,6 +26906,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "96845eea-7a12-45a3-ab23-e3dc335519d4",
+      "ts": "2026-09-24T09:00:06.385Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "La rueda de prensa termina en caos"
+      }
     }
   ]
 }
