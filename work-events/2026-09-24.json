@@ -71831,6 +71831,18 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "65004cd9-f2c0-4d7a-a8ee-dcacc29adea9",
+      "ts": "2026-09-24T17:46:12.593Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
