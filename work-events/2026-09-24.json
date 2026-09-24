@@ -68107,6 +68107,33 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "4fa68b45-f5d3-46a2-9d41-2d43dc085694",
+      "ts": "2026-09-24T16:21:43.644Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
+      "id": "0b909992-85fc-483e-94e5-c3c6c7b78013",
+      "ts": "2026-09-24T16:21:50.255Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
