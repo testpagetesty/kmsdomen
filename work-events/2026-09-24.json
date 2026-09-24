@@ -20538,6 +20538,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "e73cef7e-d36f-4c0e-ac94-e20efa25c22b",
+      "ts": "2026-09-24T08:18:55.019Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають інфекції одна за одною -аптека -ліки -таблетки -wikipedia -s"
+      }
     }
   ]
 }
