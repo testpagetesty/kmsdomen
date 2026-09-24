@@ -40126,6 +40126,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "97894a5f-d911-4dea-98a6-894e5b48c023",
+      "ts": "2026-09-24T10:58:27.121Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
