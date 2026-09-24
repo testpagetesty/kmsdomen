@@ -1460,6 +1460,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "081c0c66-1879-448a-91b5-27e711c020fc",
+      "ts": "2026-09-24T06:48:03.816Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
