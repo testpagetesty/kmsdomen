@@ -44551,6 +44551,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "09c15006-6c01-432f-80cf-9e1cf69fdee1",
+      "ts": "2026-09-24T11:27:32.362Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
