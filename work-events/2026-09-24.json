@@ -9243,6 +9243,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "04fce182-a4e7-42f9-8c1e-ed02c88216ce",
+      "ts": "2026-09-24T07:23:37.004Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
