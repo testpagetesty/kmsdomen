@@ -11054,6 +11054,19 @@
         "name": "Яя",
         "interest": "як захистити здоров'я за допомогою часнику"
       }
+    },
+    {
+      "id": "c1114f0e-d753-4e3d-b205-55d7bb62e592",
+      "ts": "2026-09-24T07:34:10.922Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
