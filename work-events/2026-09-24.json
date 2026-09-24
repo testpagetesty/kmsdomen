@@ -14445,6 +14445,31 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a3d1436d-d6ee-4cbf-a86d-97f05931125b",
+      "ts": "2026-09-24T07:51:43.901Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "1d92f9ff-47df-446b-9751-cef92b9abf17",
+      "ts": "2026-09-24T07:51:43.902Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
