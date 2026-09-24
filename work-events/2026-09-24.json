@@ -21763,6 +21763,32 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "087ad804-fc31-4fc6-97ac-03615819b480",
+      "ts": "2026-09-24T08:23:54.305Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "592aee35-a055-4ed4-b072-fa3d4bd77053",
+      "ts": "2026-09-24T08:23:57.878Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати печінку вдома"
+      }
     }
   ]
 }
