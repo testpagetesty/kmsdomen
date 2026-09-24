@@ -28227,6 +28227,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "2bf6d6fd-4ee8-43ac-9dd2-331aebd61b9f",
+      "ts": "2026-09-24T09:38:46.211Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "ru",
+        "to": "ar",
+        "source": "ip"
+      }
     }
   ]
 }
