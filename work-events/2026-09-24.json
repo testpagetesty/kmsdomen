@@ -65352,6 +65352,34 @@
       }
     },
     {
+      "id": "b3ce9c8c-5275-475d-b87c-5ecfc9db59ee",
+      "ts": "2026-09-24T15:40:05.409Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "from": "ru",
+        "to": "ee",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "4a204c88-30b7-4c1e-a616-ea30caa2f288",
+      "ts": "2026-09-24T15:40:06.114Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "url": "https://regionalobala.si/novica"
+      }
+    },
+    {
       "id": "9024ec80-1e82-4dfe-aae6-69f457e2d72d",
       "ts": "2026-09-24T15:40:08.082Z",
       "workerId": "соня_тубка_2",
@@ -65362,6 +65390,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "63ac4289-94b3-44e3-a626-8fb5ccb57c1f",
+      "ts": "2026-09-24T15:40:11.019Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "regionalobala.si",
+        "source": "teaser"
       }
     }
   ]
