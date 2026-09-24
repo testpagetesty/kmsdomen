@@ -31034,6 +31034,18 @@
         "name": "Костя 2",
         "interest": "pagos sociales para personas con discapacidad"
       }
+    },
+    {
+      "id": "edc9ec06-553f-4dea-8d55-0a709ebe79b0",
+      "ts": "2026-09-24T09:52:50.190Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
