@@ -15,6 +15,19 @@
         "to": "ru",
         "source": "ip"
       }
+    },
+    {
+      "id": "8d33bc36-ed01-4a40-bbbf-5613f872d8ef",
+      "ts": "2026-09-24T05:31:12.103Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
