@@ -61772,6 +61772,18 @@
       }
     },
     {
+      "id": "e157a4fb-bdfd-4e7b-b8a5-ee1ad161cb5b",
+      "ts": "2026-09-24T14:15:13.045Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "c5da1bb7-db81-4313-b82d-6be453e67cf1",
       "ts": "2026-09-24T14:15:14.725Z",
       "workerId": "костя_1",
