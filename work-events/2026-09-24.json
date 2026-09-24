@@ -45768,6 +45768,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "1a57dd36-4fca-4738-8a01-1ff30d2e75d8",
+      "ts": "2026-09-24T11:48:16.786Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
