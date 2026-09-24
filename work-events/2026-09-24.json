@@ -52228,6 +52228,18 @@
       }
     },
     {
+      "id": "f3808d9e-19b7-4b49-9e5b-588e7c4a1dd1",
+      "ts": "2026-09-24T13:11:11.944Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "203eefa5-40b8-4a45-8f87-5b5eede70657",
       "ts": "2026-09-24T13:11:11.978Z",
       "workerId": "костя_2",
