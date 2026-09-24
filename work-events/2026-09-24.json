@@ -9140,6 +9140,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "4d7c7ada-30cb-41c8-b875-a7a8433426a6",
+      "ts": "2026-09-24T07:23:18.884Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
