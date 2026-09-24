@@ -35634,6 +35634,19 @@
       }
     },
     {
+      "id": "c5b9a540-eb1f-444f-8135-e1f8523060d8",
+      "ts": "2026-09-24T10:24:48.239Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "782ed8d0-94f4-41bd-9317-db33a026d5e3",
       "ts": "2026-09-24T10:24:50.112Z",
       "workerId": "костя_2",
