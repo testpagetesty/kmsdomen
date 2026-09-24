@@ -38774,6 +38774,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2c53a527-dc11-498d-af16-d53b9710a1df",
+      "ts": "2026-09-24T10:50:30.930Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "how to support skin and nail health at home"
+      }
     }
   ]
 }
