@@ -5703,6 +5703,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "84486fd6-58b8-4a63-b1e7-ad7a14a3c71a",
+      "ts": "2026-09-24T07:05:48.305Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "přídavky na děti a rodinné platby"
+      }
     }
   ]
 }
