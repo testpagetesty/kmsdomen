@@ -54614,6 +54614,18 @@
         "host": "23835473478.optionsl.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "f919c40e-7b68-4ef7-8c6f-9f8e15267228",
+      "ts": "2026-09-24T13:29:12.207Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
