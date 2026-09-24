@@ -26824,6 +26824,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2e6ed3fb-5627-4f22-8a16-32cf3b96ce63",
+      "ts": "2026-09-24T08:59:26.941Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "El periodismo, bajo presión en Madrid"
+      }
     }
   ]
 }
