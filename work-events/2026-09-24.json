@@ -50400,6 +50400,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "018a9878-98e6-495c-b206-1be8e5aa0430",
+      "ts": "2026-09-24T12:56:15.247Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
