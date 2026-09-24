@@ -47524,6 +47524,20 @@
         "name": "Костя 2",
         "title": "Ai grijă zilnic de sănătatea ochilor"
       }
+    },
+    {
+      "id": "8c134aa2-77ff-46a5-9840-e534ea5c3047",
+      "ts": "2026-09-24T12:26:07.666Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
