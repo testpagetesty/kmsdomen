@@ -41728,6 +41728,18 @@
       }
     },
     {
+      "id": "838a631b-b6a9-45f2-9e5e-ee7dc93e0faa",
+      "ts": "2026-09-24T11:08:57.376Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "e549be27-ed59-43b2-8e93-af40a5902e08",
       "ts": "2026-09-24T11:08:58.180Z",
       "workerId": "яя",
@@ -41751,6 +41763,20 @@
       "extra": {
         "name": "Яя",
         "interest": "що робити при дискомфорті в суглобах вдома"
+      }
+    },
+    {
+      "id": "a5835051-4a13-44f6-aa00-d432995d0923",
+      "ts": "2026-09-24T11:09:22.517Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
