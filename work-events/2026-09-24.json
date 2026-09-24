@@ -41713,6 +41713,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "aa6fe84c-942e-44d7-bd50-6c39bc69452d",
+      "ts": "2026-09-24T11:08:53.782Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Jerusalem",
+      "geo": "il",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "אסטרטגיות הטובות ביותר לחיסכון כסף במטבעות קריפטו"
+      }
     }
   ]
 }
