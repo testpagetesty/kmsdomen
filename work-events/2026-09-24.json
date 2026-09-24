@@ -25479,6 +25479,20 @@
         "name": "Костя 2",
         "title": "Potencia firme más allá de la edad"
       }
+    },
+    {
+      "id": "29246ee3-3f00-4b4a-a373-ebd39ef111c5",
+      "ts": "2026-09-24T08:47:27.705Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Bacaklarda görülebilen şişlik hakkında genel bilgileri öğrenin."
+      }
     }
   ]
 }
