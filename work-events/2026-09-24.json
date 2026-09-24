@@ -28690,6 +28690,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "be9ce6c7-042b-48f9-9b69-ff10747a9641",
+      "ts": "2026-09-24T09:41:02.382Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
