@@ -62688,6 +62688,19 @@
       }
     },
     {
+      "id": "396db70b-92ac-4bf3-ad79-bd34cf6da054",
+      "ts": "2026-09-24T14:20:17.186Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "226b7345-9abc-4160-a17c-0d944d1d8b81",
       "ts": "2026-09-24T14:20:19.085Z",
       "workerId": "костя_2",
@@ -62697,6 +62710,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "170a4341-0f8d-439c-aba0-64bd3166394f",
+      "ts": "2026-09-24T14:20:25.289Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "ro",
+      "platform": "website",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Alternative\nLa\nDepozite\nClasice\nAflă cum să îți protejezi\neconomiile împotriva i"
       }
     }
   ]
