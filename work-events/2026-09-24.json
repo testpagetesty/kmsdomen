@@ -55336,6 +55336,33 @@
       }
     },
     {
+      "id": "39bddbf4-943e-4f27-b09a-03ac3ed1f259",
+      "ts": "2026-09-24T13:35:16.343Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://regionalobala.si"
+      }
+    },
+    {
+      "id": "41733ae1-ead8-4137-89ef-10a23b324b48",
+      "ts": "2026-09-24T13:35:17.928Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "14bf2445-4706-43c7-ab2f-91e82752bf67",
       "ts": "2026-09-24T13:35:17.966Z",
       "workerId": "костя_1",
@@ -55348,6 +55375,19 @@
         "from": "tr",
         "to": "nz",
         "source": "ip"
+      }
+    },
+    {
+      "id": "02a9680d-c89b-4fda-9930-ac778bf627e6",
+      "ts": "2026-09-24T13:35:27.183Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "nz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://regionalobala.si"
       }
     }
   ]
