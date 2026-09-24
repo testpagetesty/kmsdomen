@@ -2635,6 +2635,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "09f1a697-2502-4909-a234-a1c56ab8118e",
+      "ts": "2026-09-24T06:52:17.220Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
