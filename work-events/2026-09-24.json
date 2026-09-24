@@ -41475,6 +41475,19 @@
       }
     },
     {
+      "id": "b6839df6-a093-421f-8e2f-35db794c9579",
+      "ts": "2026-09-24T11:07:20.585Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "що робити при важкості в ногах вдома"
+      }
+    },
+    {
       "id": "da12ca58-6cf9-4b90-a893-807a31646431",
       "ts": "2026-09-24T11:07:21.621Z",
       "workerId": "костя_1",
@@ -41551,6 +41564,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "f40940cf-37b2-4502-b028-1ba15dcd1b93",
+      "ts": "2026-09-24T11:07:57.377Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     }
   ]
