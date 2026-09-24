@@ -39812,6 +39812,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "f460e800-8afe-4b2e-b04e-2c503430c9c0",
+      "ts": "2026-09-24T10:56:40.368Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як почувати себе краще при погіршенні зору"
+      }
     }
   ]
 }
