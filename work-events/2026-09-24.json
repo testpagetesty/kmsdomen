@@ -19254,6 +19254,20 @@
       }
     },
     {
+      "id": "dd723650-5293-438f-8168-84becc67b33e",
+      "ts": "2026-09-24T08:13:22.284Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "cdbbbda6-c054-4a99-a8c8-96be2425414c",
       "ts": "2026-09-24T08:13:23.236Z",
       "workerId": "яя",
