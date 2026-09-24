@@ -10954,6 +10954,18 @@
       }
     },
     {
+      "id": "9a8dcd7f-a3e6-4b28-a08f-cb6d71bd5516",
+      "ts": "2026-09-24T07:33:18.471Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Copenhagen",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "71d21076-dcd7-4e18-9823-dad8b327ed8a",
       "ts": "2026-09-24T07:33:18.476Z",
       "workerId": "костя_1",
