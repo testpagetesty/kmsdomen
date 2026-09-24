@@ -15349,6 +15349,18 @@
       }
     },
     {
+      "id": "063f7930-7b8e-435c-91a7-75809d99eedc",
+      "ts": "2026-09-24T07:56:18.780Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "7758cb55-f08b-44dd-9f21-b4fc7e4ea516",
       "ts": "2026-09-24T07:56:18.998Z",
       "workerId": "костя_2",
@@ -15397,6 +15409,19 @@
       "extra": {
         "name": "Яя",
         "interest": "як організувати простір у домі з користю"
+      }
+    },
+    {
+      "id": "73bebf09-340a-4a2a-bf25-efc27f93718f",
+      "ts": "2026-09-24T07:56:35.555Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
       }
     },
     {
