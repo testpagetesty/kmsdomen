@@ -21430,6 +21430,20 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "f053faa0-7e99-40d8-abf4-1cd3913a69ae",
+      "ts": "2026-09-24T08:22:51.649Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
