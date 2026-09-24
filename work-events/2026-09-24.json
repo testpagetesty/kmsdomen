@@ -2908,6 +2908,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "9d46f410-5077-45fa-806e-fbe60af2c6f7",
+      "ts": "2026-09-24T06:53:39.225Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
