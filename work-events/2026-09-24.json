@@ -22376,6 +22376,19 @@
       }
     },
     {
+      "id": "dd76866b-0c07-43c7-90ee-7f6c2eb286e1",
+      "ts": "2026-09-24T08:27:16.505Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "57c7ea85-cf97-4c4f-814a-ed29104f1d6c",
       "ts": "2026-09-24T08:27:16.540Z",
       "workerId": "костя_2",
