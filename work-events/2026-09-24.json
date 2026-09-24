@@ -26249,6 +26249,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "36bde1f6-af1f-41fb-9568-9f6f1c8208ea",
+      "ts": "2026-09-24T08:54:29.799Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "600ғs'n sabırsızlanıyor"
+      }
     }
   ]
 }
