@@ -17742,6 +17742,19 @@
       }
     },
     {
+      "id": "1c5c46d9-ca11-4eb1-a5de-92f4e5758b60",
+      "ts": "2026-09-24T08:05:55.036Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "db3dbaa6-fd31-4f86-a796-a717eda43f2d",
       "ts": "2026-09-24T08:05:56.509Z",
       "workerId": "яя",
