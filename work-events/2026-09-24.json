@@ -27471,6 +27471,20 @@
         "name": "Костя 2",
         "title": "¿Te molesta la prostatitis?"
       }
+    },
+    {
+      "id": "d2173a77-7141-4714-a9fe-8eb1766b0134",
+      "ts": "2026-09-24T09:10:42.736Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "si",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
