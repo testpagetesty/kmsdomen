@@ -29558,6 +29558,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "429027ea-57cd-4fdc-b7eb-86be1b8ef212",
+      "ts": "2026-09-24T09:45:08.154Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
