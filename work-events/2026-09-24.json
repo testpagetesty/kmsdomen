@@ -1993,6 +1993,19 @@
       }
     },
     {
+      "id": "2d90ccf4-e6e2-478a-b169-626086d2c2db",
+      "ts": "2026-09-24T06:49:42.392Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "18350ab3-9ea8-41a8-92fd-386401bf42c9",
       "ts": "2026-09-24T06:49:42.393Z",
       "workerId": "костя_1",
