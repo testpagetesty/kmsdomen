@@ -65135,6 +65135,19 @@
       }
     },
     {
+      "id": "1f4b8b4c-b070-4c7a-95b5-d48a9339cfa7",
+      "ts": "2026-09-24T15:36:38.245Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "37212713-b7f7-46d7-8ed1-c52f852a85e4",
       "ts": "2026-09-24T15:36:39.394Z",
       "workerId": "соня_тубка_2",
