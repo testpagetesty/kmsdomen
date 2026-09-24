@@ -30001,6 +30001,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "ba0e689e-9e1e-4d95-9a97-5f29514c1870",
+      "ts": "2026-09-24T09:46:45.622Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як підтримати здоров'я шкіри та нігтів вдома"
+      }
     }
   ]
 }
