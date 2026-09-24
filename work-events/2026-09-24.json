@@ -72877,6 +72877,18 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "f5b2995e-15d8-4357-9b20-cf1a1a23c7db",
+      "ts": "2026-09-24T19:15:54.586Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
