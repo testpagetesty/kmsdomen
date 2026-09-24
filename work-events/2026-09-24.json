@@ -40399,6 +40399,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "240545d9-ddc8-46fe-9fe5-42736b8ddf2a",
+      "ts": "2026-09-24T11:00:04.750Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
