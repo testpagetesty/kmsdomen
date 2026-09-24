@@ -11960,6 +11960,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "bee9859b-c7fa-49a8-b36e-d4ea8611dc1e",
+      "ts": "2026-09-24T07:38:18.930Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
