@@ -29493,6 +29493,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "2a335aed-9ce7-4897-898c-421a68394d2e",
+      "ts": "2026-09-24T09:44:57.248Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
