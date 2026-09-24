@@ -24449,6 +24449,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "399a8ee0-6055-4aec-a484-31023bb7e610",
+      "ts": "2026-09-24T08:37:25.822Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "España habla de ello hoy"
+      }
     }
   ]
 }
