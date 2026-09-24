@@ -67166,6 +67166,33 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "71b409da-e1e2-453f-8c84-1341851faf42",
+      "ts": "2026-09-24T16:03:47.235Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://defence24.pl/polityka-obronna"
+      }
+    },
+    {
+      "id": "a62a21b6-0fd6-4203-80db-6bbc7a8ddd6d",
+      "ts": "2026-09-24T16:03:51.340Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "mt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "defence24.pl",
+        "source": "teaser"
+      }
     }
   ]
 }
