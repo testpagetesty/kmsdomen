@@ -51568,6 +51568,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "80c3b41f-fec0-40fb-9b07-05317b5f5ea1",
+      "ts": "2026-09-24T13:05:26.919Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
