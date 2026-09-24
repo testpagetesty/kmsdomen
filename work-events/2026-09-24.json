@@ -30589,6 +30589,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1b58d53a-33a4-4a94-b978-2adc0bbb0a31",
+      "ts": "2026-09-24T09:49:17.874Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
