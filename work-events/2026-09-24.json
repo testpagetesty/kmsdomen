@@ -31010,6 +31010,45 @@
       }
     },
     {
+      "id": "67395b20-b280-418b-bebc-c2464fe1a563",
+      "ts": "2026-09-24T09:52:45.788Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "cómo gestionar y comprar criptomonedas correctamente en nuestro país"
+      }
+    },
+    {
+      "id": "014e6d07-6671-4c69-a709-977076f28808",
+      "ts": "2026-09-24T09:52:45.977Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "ayuda financiera del Estado para familias"
+      }
+    },
+    {
+      "id": "3aebfcd4-0127-4946-a947-a16a9530600f",
+      "ts": "2026-09-24T09:52:46.331Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "mejores estrategias para ahorrar dinero en criptomonedas"
+      }
+    },
+    {
       "id": "e3145e98-742e-4c37-9e9d-5fa8729e5264",
       "ts": "2026-09-24T09:52:46.759Z",
       "workerId": "костя_2",
@@ -31036,6 +31075,33 @@
       }
     },
     {
+      "id": "cba23ec9-4e79-4074-9c40-ae4e8bc08e99",
+      "ts": "2026-09-24T09:52:47.589Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "subsidios de vivienda del Estado"
+      }
+    },
+    {
+      "id": "23a2079f-c8c2-4ef1-9da0-b9eb1f0c0134",
+      "ts": "2026-09-24T09:52:48.190Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "edc9ec06-553f-4dea-8d55-0a709ebe79b0",
       "ts": "2026-09-24T09:52:50.190Z",
       "workerId": "костя_2",
@@ -31045,6 +31111,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "4860ee54-5c62-41ce-869d-8ce5c10be5c1",
+      "ts": "2026-09-24T09:53:08.234Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
       }
     }
   ]
