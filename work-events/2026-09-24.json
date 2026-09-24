@@ -24797,6 +24797,20 @@
         "name": "Костя 2",
         "title": "España habla de ello hoy"
       }
+    },
+    {
+      "id": "16cebdf6-ac95-4367-bed4-ade6c861ab7b",
+      "ts": "2026-09-24T08:39:42.152Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Podpora zdraví vašich očí"
+      }
     }
   ]
 }
