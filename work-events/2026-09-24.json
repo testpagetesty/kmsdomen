@@ -62621,6 +62621,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "50ace84b-702d-4960-b095-0dd1a513a09e",
+      "ts": "2026-09-24T14:19:51.030Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "website",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Sledovat video"
+      }
     }
   ]
 }
