@@ -27553,6 +27553,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "32d2642a-f996-4519-be37-02dac26dd18b",
+      "ts": "2026-09-24T09:11:45.786Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "600 giros tras el registro"
+      }
     }
   ]
 }
