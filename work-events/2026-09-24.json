@@ -24093,6 +24093,18 @@
         "name": "Костя 1",
         "title": "Vraťte si mužskou sílu a sebevědomí"
       }
+    },
+    {
+      "id": "0553508a-3a2f-4f23-8815-f06d7ff1edc9",
+      "ts": "2026-09-24T08:35:19.845Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
