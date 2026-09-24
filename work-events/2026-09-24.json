@@ -29897,6 +29897,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "e015d97b-12e8-45ef-9350-e9d956a6b6ca",
+      "ts": "2026-09-24T09:46:29.114Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
