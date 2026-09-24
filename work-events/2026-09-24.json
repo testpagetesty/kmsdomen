@@ -48176,6 +48176,33 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "6709b9ae-0e22-4fbe-847f-d809a2a18e8e",
+      "ts": "2026-09-24T12:42:56.150Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://regionalobala.si"
+      }
+    },
+    {
+      "id": "5a194b8c-8e42-41f7-8162-a1090f3d657c",
+      "ts": "2026-09-24T12:43:01.013Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
