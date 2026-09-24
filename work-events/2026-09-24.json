@@ -33233,6 +33233,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "b0cde600-2cb2-4b59-9cf7-b06a0fe84a8a",
+      "ts": "2026-09-24T10:07:45.825Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
