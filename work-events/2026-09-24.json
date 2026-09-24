@@ -1513,6 +1513,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "871db6fc-ea9f-4522-ba85-37e7b2dffe0b",
+      "ts": "2026-09-24T06:48:17.229Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
