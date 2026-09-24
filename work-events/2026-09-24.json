@@ -63436,6 +63436,18 @@
       }
     },
     {
+      "id": "3f84ced1-26a9-43f5-b616-97db62b9c71f",
+      "ts": "2026-09-24T14:28:15.383Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "04a97407-fa09-43b2-88cd-a07df7370ad2",
       "ts": "2026-09-24T14:28:15.552Z",
       "workerId": "яя",
@@ -63460,6 +63472,19 @@
       "extra": {
         "name": "Яя",
         "interest": "несподівані поради з кулінарії"
+      }
+    },
+    {
+      "id": "3bd7e01b-0661-449f-b8f0-1056076d079a",
+      "ts": "2026-09-24T14:28:20.921Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "як захистити здоров'я за допомогою часнику"
       }
     }
   ]
