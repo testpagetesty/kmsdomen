@@ -15144,6 +15144,18 @@
       }
     },
     {
+      "id": "244d4621-1360-4642-a556-49086aee4585",
+      "ts": "2026-09-24T07:55:47.977Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "0d51323e-b841-4de7-8b60-dc58ba187e7b",
       "ts": "2026-09-24T07:55:48.015Z",
       "workerId": "костя_1",
