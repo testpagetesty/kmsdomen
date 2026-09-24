@@ -6131,6 +6131,31 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "2ade0561-3628-467e-9438-407c3dd36de9",
+      "ts": "2026-09-24T07:07:33.417Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
+      "id": "df90ed04-bf1f-450c-b96a-02a6716ac396",
+      "ts": "2026-09-24T07:07:33.419Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
