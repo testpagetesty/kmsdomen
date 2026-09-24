@@ -49914,6 +49914,18 @@
       }
     },
     {
+      "id": "4ee33796-6fee-496d-8a38-639ccc62b346",
+      "ts": "2026-09-24T12:53:11.891Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "dbfa3f53-bc1d-4479-b7a1-cf90f78d2f48",
       "ts": "2026-09-24T12:53:11.910Z",
       "workerId": "костя_1",
@@ -49948,6 +49960,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "b29992d2-100e-41a6-83f3-b8c3d7b51b94",
+      "ts": "2026-09-24T12:53:18.773Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "es",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "zagorje.com",
+        "source": "teaser"
       }
     }
   ]
