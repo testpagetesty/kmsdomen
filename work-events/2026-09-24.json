@@ -47348,6 +47348,18 @@
         "name": "Костя 2",
         "title": "Fire Joker"
       }
+    },
+    {
+      "id": "ba95117d-6fb2-46a6-964f-7bb244ee3283",
+      "ts": "2026-09-24T12:24:03.407Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
