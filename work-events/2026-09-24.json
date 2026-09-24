@@ -26291,6 +26291,20 @@
         "name": "Костя 2",
         "title": "Empieza con objetivos bien definidos. Organiza tus prioridades con herramientas "
       }
+    },
+    {
+      "id": "05dbc850-1504-4f31-a4be-0124dacd7bc6",
+      "ts": "2026-09-24T08:54:55.276Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Yeni oyuncu musun? O zaman daha fazlasın"
+      }
     }
   ]
 }
