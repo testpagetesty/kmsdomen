@@ -28242,6 +28242,18 @@
         "to": "ar",
         "source": "ip"
       }
+    },
+    {
+      "id": "02eac160-55e0-47e1-9863-2d4b4639129b",
+      "ts": "2026-09-24T09:38:48.424Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
