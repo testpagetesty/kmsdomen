@@ -62062,6 +62062,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "ac0a6ce8-f024-4f03-9ed8-071f872345b8",
+      "ts": "2026-09-24T14:17:13.065Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
