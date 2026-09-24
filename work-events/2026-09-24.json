@@ -24409,6 +24409,20 @@
         "name": "Костя 2",
         "title": "Los españoles descubren nueva tecnología"
       }
+    },
+    {
+      "id": "63f2efd6-6e0a-4f94-882b-e817bc56394a",
+      "ts": "2026-09-24T08:37:09.230Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Už žádná plíseň na nohou"
+      }
     }
   ]
 }
