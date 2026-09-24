@@ -71673,6 +71673,31 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "8a1dc5ef-ac39-40fb-a807-95be76fa5c47",
+      "ts": "2026-09-24T17:44:59.212Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "7a5ac68b-ef3f-4fbd-8f11-a159f8ce15c5",
+      "ts": "2026-09-24T17:44:59.213Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
