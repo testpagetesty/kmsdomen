@@ -24717,6 +24717,20 @@
         "name": "Костя 2",
         "title": "La polemica esce dallo studio"
       }
+    },
+    {
+      "id": "4cc6d1c8-23bb-41f7-87fa-08e77aa9b9b5",
+      "ts": "2026-09-24T08:39:14.586Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "-5 kg. Znovu se poznávám"
+      }
     }
   ]
 }
