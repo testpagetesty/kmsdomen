@@ -53968,6 +53968,21 @@
         "name": "Костя 1",
         "url": "https://regionalobala.si"
       }
+    },
+    {
+      "id": "f002d95e-de61-429b-88bf-8ed6355f3acb",
+      "ts": "2026-09-24T13:25:12.176Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "mx",
+        "to": "cl",
+        "source": "ip"
+      }
     }
   ]
 }
