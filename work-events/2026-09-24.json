@@ -45036,6 +45036,34 @@
       }
     },
     {
+      "id": "7c5a9daf-a636-4094-b278-50394b0c2ec4",
+      "ts": "2026-09-24T11:34:19.171Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Planeje Seu Patrimônio"
+      }
+    },
+    {
+      "id": "2001a8cc-027f-4d2a-84d8-7977ffacb032",
+      "ts": "2026-09-24T11:34:31.133Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Mantendo sua renda estável!"
+      }
+    },
+    {
       "id": "ce931773-5fad-424b-8580-e211eb59c90c",
       "ts": "2026-09-24T11:34:44.358Z",
       "workerId": "костя_1",
@@ -45120,6 +45148,20 @@
       }
     },
     {
+      "id": "4257c1b8-49ba-4eee-8bf3-45ce382c4e31",
+      "ts": "2026-09-24T11:38:03.946Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Recupera Tu Virilidad"
+      }
+    },
+    {
       "id": "ddcab44b-442c-4f6d-8b92-5cc9accc50c0",
       "ts": "2026-09-24T11:38:26.741Z",
       "workerId": "костя_1",
@@ -45144,6 +45186,20 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "d5118aed-5f11-4935-9279-e8f7be9e60a2",
+      "ts": "2026-09-24T11:39:14.602Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Tu recompensa te está esperando."
       }
     },
     {
