@@ -68440,6 +68440,20 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "4506d535-3ce6-4b64-81d6-d17986fe61bb",
+      "ts": "2026-09-24T16:32:14.839Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "gt",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "host": "nezavisne.com",
+        "source": "teaser"
+      }
     }
   ]
 }
