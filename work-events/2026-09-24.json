@@ -30474,6 +30474,19 @@
       }
     },
     {
+      "id": "320e9939-249f-43df-9858-03e4ec37902d",
+      "ts": "2026-09-24T09:48:43.101Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Noronha",
+      "geo": "br",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "838b67ac-5b61-49dd-b2db-611cbeea58d2",
       "ts": "2026-09-24T09:48:43.102Z",
       "workerId": "костя_1",
