@@ -41289,6 +41289,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "bd67cda7-dcf8-443b-8d39-525c7813107f",
+      "ts": "2026-09-24T11:06:21.895Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
