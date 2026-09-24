@@ -64452,6 +64452,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "2880b779-7a65-4277-bdb0-2b14fda1cfbb",
+      "ts": "2026-09-24T14:56:15.452Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
