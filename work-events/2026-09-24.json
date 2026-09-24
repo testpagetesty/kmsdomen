@@ -2947,6 +2947,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "b9f1a913-2d65-4b23-a23e-abee178d70c5",
+      "ts": "2026-09-24T06:53:48.802Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
