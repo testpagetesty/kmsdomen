@@ -46080,6 +46080,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "f7ddfe98-c46e-4e8a-a31e-2afbc1ab50b9",
+      "ts": "2026-09-24T11:56:07.174Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
