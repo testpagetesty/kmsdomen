@@ -49670,6 +49670,33 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "06aa5b44-082c-4000-8d51-0a943a625eb9",
+      "ts": "2026-09-24T12:51:42.160Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
+        "url": "https://primainspirace.cz"
+      }
+    },
+    {
+      "id": "4b4c5824-42e5-4c4c-afa7-767bfc52fafe",
+      "ts": "2026-09-24T12:51:46.419Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 1",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
