@@ -35464,6 +35464,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "c37a94e7-dfd6-4ca0-8fe6-f6878b77da0a",
+      "ts": "2026-09-24T10:23:34.504Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "cl",
+        "to": "co",
+        "source": "ip"
+      }
     }
   ]
 }
