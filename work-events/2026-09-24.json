@@ -51864,6 +51864,20 @@
         "name": "Костя 2",
         "url": "https://primainspirace.cz"
       }
+    },
+    {
+      "id": "203d34f6-7cbd-48c4-9b80-dd16ee8bf023",
+      "ts": "2026-09-24T13:07:47.290Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
