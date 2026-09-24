@@ -38882,6 +38882,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b735968a-5073-4988-86bb-925de30879e3",
+      "ts": "2026-09-24T10:51:15.718Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 1",
+        "interest": "what to do with high blood pressure at home"
+      }
     }
   ]
 }
