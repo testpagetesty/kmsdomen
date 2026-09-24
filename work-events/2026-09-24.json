@@ -24623,6 +24623,19 @@
         "name": "Костя 1",
         "title": "Podpora zdraví vašich očí"
       }
+    },
+    {
+      "id": "e6a2bc34-a13d-45a9-a6e0-90871bef2b7e",
+      "ts": "2026-09-24T08:38:43.017Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
