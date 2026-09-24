@@ -63316,6 +63316,20 @@
         "name": "Костя 2",
         "title": "El ídolo y su vida jamás contada"
       }
+    },
+    {
+      "id": "3e5afd89-4e9d-4290-9221-96b471b7d176",
+      "ts": "2026-09-24T14:25:49.163Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
