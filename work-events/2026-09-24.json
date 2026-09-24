@@ -39760,6 +39760,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "52f274ca-6827-4901-8f13-561de2a60f8c",
+      "ts": "2026-09-24T10:56:21.974Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "лікарі застерігають стрибки тиску ввечері -аптека -ліки -таблетки -wikipedia -si"
+      }
     }
   ]
 }
