@@ -27687,6 +27687,19 @@
         "to": "ua",
         "source": "ip"
       }
+    },
+    {
+      "id": "f07aa016-4d92-4288-9034-d08ae365f2b1",
+      "ts": "2026-09-24T09:19:45.081Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "motion"
+      }
     }
   ]
 }
