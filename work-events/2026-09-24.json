@@ -41675,6 +41675,19 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "78a3feb8-b071-440a-9ed3-21509a3c79d8",
+      "ts": "2026-09-24T11:08:48.670Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "спосіб життя для контролю ваги та енергії"
+      }
     }
   ]
 }
