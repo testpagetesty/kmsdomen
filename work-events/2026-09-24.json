@@ -62905,6 +62905,20 @@
         "name": "Костя 2",
         "title": "+7.130eu. por un mes."
       }
+    },
+    {
+      "id": "59d7acc4-cdcf-4266-83cc-b6b1a1c3dba0",
+      "ts": "2026-09-24T14:22:00.362Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Péče o hmotnost"
+      }
     }
   ]
 }
