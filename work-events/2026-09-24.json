@@ -43010,6 +43010,21 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fb4c6f50-bb19-4967-aab4-7dcd7b3759f1",
+      "ts": "2026-09-24T11:19:07.991Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 2",
+        "from": "il",
+        "to": "ro",
+        "source": "ip"
+      }
     }
   ]
 }
