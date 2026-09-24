@@ -72567,6 +72567,19 @@
         "name": "Соня Тубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "53c8a88f-48be-4f6b-89cd-3f1d465f0ae2",
+      "ts": "2026-09-24T17:57:11.478Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "životni stil za zdravlje jetre"
+      }
     }
   ]
 }
