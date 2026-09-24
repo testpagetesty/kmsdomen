@@ -2896,6 +2896,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "ba7ed84f-9da9-4c84-93a2-8f961189c7ba",
+      "ts": "2026-09-24T06:53:22.936Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
