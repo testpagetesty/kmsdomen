@@ -31440,6 +31440,18 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "abbd6945-b18e-403f-a0a9-b8c62ae4a7bc",
+      "ts": "2026-09-24T09:55:25.807Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
