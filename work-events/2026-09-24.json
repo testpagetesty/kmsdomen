@@ -36798,6 +36798,20 @@
         "name": "Яя",
         "interest": "державна підтримка для одиноких батьків"
       }
+    },
+    {
+      "id": "e5e62b4f-19bd-4343-b456-6997c9878743",
+      "ts": "2026-09-24T10:35:42.897Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
