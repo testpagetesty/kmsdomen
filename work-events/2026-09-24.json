@@ -18853,6 +18853,19 @@
       }
     },
     {
+      "id": "b97d3cb6-7d77-4c91-a5f2-f94039a58e8c",
+      "ts": "2026-09-24T08:11:20.396Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "503f6665-de69-406d-91db-06834cf2d01e",
       "ts": "2026-09-24T08:11:22.637Z",
       "workerId": "костя_1",
@@ -18889,6 +18902,19 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "6358634e-ee74-4d50-be9e-ba58b07ee07d",
+      "ts": "2026-09-24T08:11:42.795Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
