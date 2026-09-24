@@ -42097,6 +42097,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "18a2c737-90ad-4d4c-9aa9-353b79bab3f5",
+      "ts": "2026-09-24T11:11:39.405Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
