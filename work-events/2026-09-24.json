@@ -43183,6 +43183,20 @@
         "to": "ro",
         "source": "ip"
       }
+    },
+    {
+      "id": "2264f04b-8a5b-4d05-b2fa-38462ad7ee02",
+      "ts": "2026-09-24T11:19:49.403Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
