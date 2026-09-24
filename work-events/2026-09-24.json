@@ -33491,6 +33491,20 @@
       }
     },
     {
+      "id": "7c810d46-3880-40b8-a5a8-478d38306205",
+      "ts": "2026-09-24T10:09:02.679Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "9152913c-be2b-4d19-936e-dc4b8282b110",
       "ts": "2026-09-24T10:09:03.807Z",
       "workerId": "костя_2",
@@ -33500,6 +33514,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Костя 2"
+      }
+    },
+    {
+      "id": "13a44351-28e7-4f71-8f64-6a836b336ee4",
+      "ts": "2026-09-24T10:09:16.865Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
       }
     }
   ]
