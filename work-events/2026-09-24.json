@@ -45036,6 +45036,59 @@
       }
     },
     {
+      "id": "8ca2c0b9-bda9-49ea-84c2-147f759bbf71",
+      "ts": "2026-09-24T11:33:30.606Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "40424318-101e-4620-bdc0-b516248e4278",
+      "ts": "2026-09-24T11:33:39.200Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "O Mercado Financeiro ao Alcance de Todos"
+      }
+    },
+    {
+      "id": "cd744fdd-6e57-47a8-a864-8470c24af4c8",
+      "ts": "2026-09-24T11:33:51.225Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Crise Afeta o Seu Bolso"
+      }
+    },
+    {
+      "id": "124b7836-87ab-4687-8e6c-e171b12f1102",
+      "ts": "2026-09-24T11:34:05.432Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "7c5a9daf-a636-4094-b278-50394b0c2ec4",
       "ts": "2026-09-24T11:34:19.171Z",
       "workerId": "костя_1",
@@ -45148,6 +45201,104 @@
       }
     },
     {
+      "id": "451bfde6-99ac-4fc5-b8cf-4b0372a20d2a",
+      "ts": "2026-09-24T11:36:27.394Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Intelligent Tools for Your Strategy"
+      }
+    },
+    {
+      "id": "057c70bc-fcba-4958-becb-5ef6b36d8e63",
+      "ts": "2026-09-24T11:36:40.800Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "𝟻𝟶𝟶 ɢɪʀᴏs no começo"
+      }
+    },
+    {
+      "id": "9394ef7f-60f0-4108-9d9a-ccf0515ac092",
+      "ts": "2026-09-24T11:36:54.531Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "br",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Ative seu ʙᴏ̂ɴᴜs ᴀɢᴏʀᴀ"
+      }
+    },
+    {
+      "id": "a27c6b35-da2e-44d0-a1c8-11f000fab8ff",
+      "ts": "2026-09-24T11:37:06.601Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Lo consumes a diario, pero podría ser perjudicial."
+      }
+    },
+    {
+      "id": "87535508-a2ce-4dbc-aad1-3259313eef7b",
+      "ts": "2026-09-24T11:37:17.701Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Descubre otro uso del broche"
+      }
+    },
+    {
+      "id": "1467d887-b20c-4e52-aaa0-6c31116a9214",
+      "ts": "2026-09-24T11:37:34.675Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Recupera Tu Virilidad"
+      }
+    },
+    {
+      "id": "480c5dfa-add9-40b6-b087-587abd45558c",
+      "ts": "2026-09-24T11:37:46.832Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "El urólogo garantiza el resultado"
+      }
+    },
+    {
       "id": "4257c1b8-49ba-4eee-8bf3-45ce382c4e31",
       "ts": "2026-09-24T11:38:03.946Z",
       "workerId": "костя_1",
@@ -45173,6 +45324,20 @@
       "extra": {
         "name": "Костя 1",
         "title": "Tu recompensa te está esperando."
+      }
+    },
+    {
+      "id": "bf78b97b-50e6-449e-af35-c9bf91387202",
+      "ts": "2026-09-24T11:38:51.621Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Activa tu ʙᴏɴᴏ ᴀʜᴏʀᴀ"
       }
     },
     {
@@ -45245,6 +45410,20 @@
     {
       "id": "12c4b9eb-e421-474d-8b29-69c298c1e0c5",
       "ts": "2026-09-24T11:40:37.639Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "co",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Un truco casero con aceite"
+      }
+    },
+    {
+      "id": "da0f8cd5-c979-4616-8c9c-207c7e29d693",
+      "ts": "2026-09-24T11:40:49.792Z",
       "workerId": "костя_1",
       "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
       "deviceTz": "Europe/Bucharest",
