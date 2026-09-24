@@ -39721,6 +39721,19 @@
         "name": "Яя",
         "interest": "лікарі застерігають червоні плями на колінах -аптека -ліки -таблетки -wikipedia "
       }
+    },
+    {
+      "id": "0c4182fe-e580-40f0-95e7-fbd2666132e6",
+      "ts": "2026-09-24T10:56:13.318Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
