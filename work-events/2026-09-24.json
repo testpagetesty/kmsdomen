@@ -42708,6 +42708,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "375d6780-8487-4567-90c2-75a7d363c996",
+      "ts": "2026-09-24T11:16:31.410Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
