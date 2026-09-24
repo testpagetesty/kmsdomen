@@ -21237,6 +21237,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "44e3518f-ffe4-4ad7-9250-6d6d084d61bf",
+      "ts": "2026-09-24T08:21:56.336Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
