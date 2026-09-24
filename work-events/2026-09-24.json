@@ -14250,6 +14250,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "15b57aa1-1fdd-4daf-9c71-fd4594b4da2b",
+      "ts": "2026-09-24T07:50:51.091Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
