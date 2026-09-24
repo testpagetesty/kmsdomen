@@ -26497,6 +26497,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "03766418-8fc0-4b19-94dd-cdff9d61375b",
+      "ts": "2026-09-24T08:56:28.954Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Temas que conviene consultar ahora. Hemos recopilado de forma clara temas cotidi"
+      }
     }
   ]
 }
