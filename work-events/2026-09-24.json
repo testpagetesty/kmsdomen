@@ -26525,6 +26525,20 @@
         "name": "Костя 1",
         "title": "500 taneyle başlayın."
       }
+    },
+    {
+      "id": "db74d40f-d510-45d2-8a15-f75f3377a810",
+      "ts": "2026-09-24T08:56:46.652Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
