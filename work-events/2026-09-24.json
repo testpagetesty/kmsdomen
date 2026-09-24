@@ -1979,6 +1979,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "5f78f880-f630-4f9a-b7fa-3c822c7d4abb",
+      "ts": "2026-09-24T06:49:39.447Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
