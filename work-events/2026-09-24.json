@@ -26676,6 +26676,18 @@
         "name": "Костя 2",
         "title": "Estudio creativo para emprendedores. Trabajamos de manera cercana y ordenada, cu"
       }
+    },
+    {
+      "id": "e6dc9077-3d6d-41fd-86ea-dea116380fe1",
+      "ts": "2026-09-24T08:58:00.952Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "shift_start",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
