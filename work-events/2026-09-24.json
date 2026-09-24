@@ -20056,6 +20056,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4a9a42d7-8cbd-4d7a-864e-3b56bfb227a2",
+      "ts": "2026-09-24T08:16:54.001Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
