@@ -71228,6 +71228,18 @@
         "name": "Соня Трубка 1",
         "interest": "kodused viisid maksa ja detoksifikatsiooni toetamiseks"
       }
+    },
+    {
+      "id": "1376f392-5be4-4670-8b7b-a65a731d7c07",
+      "ts": "2026-09-24T17:42:12.586Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
