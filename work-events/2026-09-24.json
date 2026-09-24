@@ -67258,6 +67258,18 @@
         "name": "Соня Тубка 2",
         "url": "https://defence24.pl/polityka-obronna"
       }
+    },
+    {
+      "id": "77979145-ab76-490b-b8e5-6f81fb981675",
+      "ts": "2026-09-24T16:06:04.416Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Berlin",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
