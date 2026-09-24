@@ -62022,6 +62022,19 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "378e4970-a87b-446f-b2c8-9be718257ac1",
+      "ts": "2026-09-24T14:16:59.602Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
