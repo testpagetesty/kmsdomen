@@ -36146,6 +36146,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "dcf3e9ec-c0fa-44a4-ab05-c105ecb30337",
+      "ts": "2026-09-24T10:32:22.369Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
