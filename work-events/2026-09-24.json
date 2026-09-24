@@ -43827,6 +43827,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "0d175c25-7cc6-4fc4-8b02-b50f9bc95a52",
+      "ts": "2026-09-24T11:23:05.306Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "ce să facă dacă ochii obosesc acasă"
+      }
     }
   ]
 }
