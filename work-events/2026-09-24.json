@@ -22931,6 +22931,20 @@
         "name": "Яя",
         "interest": "як почувати себе краще при порушеннях кровообігу"
       }
+    },
+    {
+      "id": "0efe4d94-a8f6-4476-8a44-53adf2830230",
+      "ts": "2026-09-24T08:29:51.765Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
