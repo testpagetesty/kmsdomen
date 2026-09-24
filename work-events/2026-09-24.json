@@ -47710,6 +47710,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "716bcb4c-3144-4fdc-9f41-ae4e6005bff3",
+      "ts": "2026-09-24T12:29:37.173Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
