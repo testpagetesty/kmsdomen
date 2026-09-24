@@ -11984,6 +11984,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "63df32d2-7e86-48fc-8fae-ea531914c792",
+      "ts": "2026-09-24T07:38:29.725Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
