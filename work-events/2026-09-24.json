@@ -13440,6 +13440,18 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "f7473043-844f-4a73-ae00-d866d8839d7f",
+      "ts": "2026-09-24T07:47:15.881Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
