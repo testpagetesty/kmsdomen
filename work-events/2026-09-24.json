@@ -58458,6 +58458,21 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "d159975d-31c6-45d4-8d86-cbd1ce02adc0",
+      "ts": "2026-09-24T13:58:55.930Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "ro",
+        "to": "cz",
+        "source": "ip"
+      }
     }
   ]
 }
