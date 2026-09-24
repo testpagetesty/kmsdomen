@@ -59322,6 +59322,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "3e2a539b-179b-4894-b634-36a4a1b499fe",
+      "ts": "2026-09-24T14:03:46.670Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
