@@ -44163,6 +44163,20 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c611a87c-55a9-4ebd-915c-84f1310b0e9e",
+      "ts": "2026-09-24T11:25:06.499Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
