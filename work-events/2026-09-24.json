@@ -37539,6 +37539,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "02e41d9e-d0d7-454c-aec9-8275a6e1360f",
+      "ts": "2026-09-24T10:40:59.346Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
