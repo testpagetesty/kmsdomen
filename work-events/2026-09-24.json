@@ -43168,6 +43168,21 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ea17e2a2-b86f-457f-8943-f4a2b643eb3d",
+      "ts": "2026-09-24T11:19:49.281Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Костя 1",
+        "from": "ru",
+        "to": "ro",
+        "source": "ip"
+      }
     }
   ]
 }
