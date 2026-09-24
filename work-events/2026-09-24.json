@@ -52226,6 +52226,18 @@
         "name": "Костя 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "203eefa5-40b8-4a45-8f87-5b5eede70657",
+      "ts": "2026-09-24T13:11:11.978Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
