@@ -27414,6 +27414,21 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "aa1b83ac-df7e-4919-9b9b-ce46cf96bffe",
+      "ts": "2026-09-24T09:09:57.788Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "si",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Яя",
+        "from": "ua",
+        "to": "si",
+        "source": "ip"
+      }
     }
   ]
 }
