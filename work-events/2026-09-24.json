@@ -54518,6 +54518,20 @@
         "name": "Костя 2",
         "url": "https://zagorje.com"
       }
+    },
+    {
+      "id": "d212c158-59fd-4132-b8dc-3de5de163367",
+      "ts": "2026-09-24T13:28:36.993Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
