@@ -4948,6 +4948,20 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "523aa856-4501-47d1-9a42-94e303fbef07",
+      "ts": "2026-09-24T07:01:50.867Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
