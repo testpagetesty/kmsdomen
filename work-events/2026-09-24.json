@@ -37348,6 +37348,31 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "baddf184-e556-4cba-82b1-288c7a2a5693",
+      "ts": "2026-09-24T10:39:27.385Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "17a1e45f-9b26-4fba-897d-539ae9aa028d",
+      "ts": "2026-09-24T10:39:27.388Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
