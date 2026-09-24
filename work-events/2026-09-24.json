@@ -30995,6 +30995,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "e3145e98-742e-4c37-9e9d-5fa8729e5264",
+      "ts": "2026-09-24T09:52:46.759Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "subsidio de desempleo y ayuda estatal"
+      }
     }
   ]
 }
