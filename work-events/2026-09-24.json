@@ -38098,6 +38098,18 @@
       }
     },
     {
+      "id": "e6dc371d-d517-4135-bd3f-814a36fee0e7",
+      "ts": "2026-09-24T10:45:44.656Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Bogota",
+      "geo": "co",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "531d2460-6c93-4a4a-916d-8db4a6faa360",
       "ts": "2026-09-24T10:45:50.380Z",
       "workerId": "костя_2",
