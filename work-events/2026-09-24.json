@@ -1219,6 +1219,19 @@
       }
     },
     {
+      "id": "4b95b11f-d6cb-42db-8d70-b531829fb04d",
+      "ts": "2026-09-24T06:47:14.330Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "b3d46c85-930d-467f-b0f6-880ce8ea5fa7",
       "ts": "2026-09-24T06:47:14.332Z",
       "workerId": "костя_2",
@@ -1328,6 +1341,19 @@
       "extra": {
         "name": "Яя",
         "interest": "маленькі хитрощі для ідеальної страви"
+      }
+    },
+    {
+      "id": "f44d0474-72cf-4445-9716-fe4ccafa9b36",
+      "ts": "2026-09-24T06:47:38.134Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
       }
     }
   ]
