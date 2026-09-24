@@ -533,6 +533,18 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "b145e70a-d98e-4c77-84e2-0303dee71fc7",
+      "ts": "2026-09-24T06:44:16.738Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
