@@ -38535,6 +38535,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "14b9468f-a276-4a7a-83a8-f8aefe69792e",
+      "ts": "2026-09-24T10:48:43.346Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
