@@ -67818,6 +67818,33 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f0b29937-7dea-4b21-9d20-3c6ba6e4ce82",
+      "ts": "2026-09-24T16:17:47.357Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
+    },
+    {
+      "id": "eab37135-4a32-48d4-b02a-5a6f81f26b40",
+      "ts": "2026-09-24T16:17:52.859Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Budapest",
+      "geo": "me",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
