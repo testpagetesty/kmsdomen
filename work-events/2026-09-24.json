@@ -39642,6 +39642,20 @@
         "name": "Яя",
         "interest": "лікарі застерігають припливи вночі -аптека -ліки -таблетки -wikipedia -site:gov."
       }
+    },
+    {
+      "id": "c1b384d5-5134-4ceb-b464-6adcad3f443d",
+      "ts": "2026-09-24T10:55:54.287Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
