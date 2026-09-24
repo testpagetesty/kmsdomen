@@ -3429,6 +3429,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "5d93201e-38c3-4436-b52c-4a3bc2ae7df7",
+      "ts": "2026-09-24T06:55:41.045Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
