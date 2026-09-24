@@ -62809,6 +62809,18 @@
         "name": "Костя 2",
         "title": "Entérate de más\nGran afluencia de gente"
       }
+    },
+    {
+      "id": "33360978-480b-4440-9fdb-8dbb4f62db50",
+      "ts": "2026-09-24T14:21:15.369Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
