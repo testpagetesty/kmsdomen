@@ -43490,6 +43490,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "bdada018-65d6-4a67-ac9e-3e9d86969ca1",
+      "ts": "2026-09-24T11:21:42.909Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
