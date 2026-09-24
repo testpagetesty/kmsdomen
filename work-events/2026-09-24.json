@@ -18763,6 +18763,19 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "c7311864-5b72-453f-91a5-f78c18bce026",
+      "ts": "2026-09-24T08:11:08.960Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
