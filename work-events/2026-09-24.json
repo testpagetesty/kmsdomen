@@ -26567,6 +26567,20 @@
         "name": "Костя 1",
         "title": "500 DÖNÜŞ başlangıçta"
       }
+    },
+    {
+      "id": "5a0d72da-dd81-4088-b666-53fd5f2a116d",
+      "ts": "2026-09-24T08:57:17.719Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
