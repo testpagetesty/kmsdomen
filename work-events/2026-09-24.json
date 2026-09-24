@@ -72490,6 +72490,19 @@
         "name": "Соня Тубка 2",
         "interest": "što raditi pri debljanju kod kuće"
       }
+    },
+    {
+      "id": "99cdd61f-09f8-47ca-9212-3dc9d9728ffa",
+      "ts": "2026-09-24T17:56:44.976Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "životni stil pri problemima s proširenim venama"
+      }
     }
   ]
 }
