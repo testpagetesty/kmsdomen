@@ -69192,6 +69192,32 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "dd05c787-705a-4bbf-8ec6-b6be6d825d24",
+      "ts": "2026-09-24T17:28:32.938Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "d6d4a24d-d292-4088-a09d-f375b70d84c2",
+      "ts": "2026-09-24T17:28:57.213Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
