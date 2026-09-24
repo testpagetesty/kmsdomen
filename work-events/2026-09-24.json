@@ -38760,6 +38760,20 @@
         "name": "Костя 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "dfa9af07-f73d-4ed1-ad2a-4554925ae2a1",
+      "ts": "2026-09-24T10:50:28.794Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Pacific/Chatham",
+      "geo": "nz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
