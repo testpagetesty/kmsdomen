@@ -62139,6 +62139,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4c8f24d7-870f-4008-83fc-eb000f00cb5b",
+      "ts": "2026-09-24T14:17:37.107Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Костя 2"
+      }
     }
   ]
 }
