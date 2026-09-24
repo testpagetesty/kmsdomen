@@ -26729,6 +26729,19 @@
         "name": "Костя 1",
         "title": "Start with an ᴀᴅᴠᴀɴᴛᴀɢᴇ"
       }
+    },
+    {
+      "id": "8826147d-1edf-4108-b1dd-5b18f0418b28",
+      "ts": "2026-09-24T08:58:26.928Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
