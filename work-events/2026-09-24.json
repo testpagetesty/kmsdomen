@@ -61600,6 +61600,20 @@
       }
     },
     {
+      "id": "8f2fd4dd-62d9-42cc-983b-b3ed46002f47",
+      "ts": "2026-09-24T14:14:12.542Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "44cee450-3790-4427-a5e5-b2479e489e9d",
       "ts": "2026-09-24T14:14:13.044Z",
       "workerId": "костя_1",
