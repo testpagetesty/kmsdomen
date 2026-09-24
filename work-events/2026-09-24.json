@@ -25140,6 +25140,20 @@
         "name": "Костя 1",
         "title": "Péče pro muže ve zralém věku s více silou"
       }
+    },
+    {
+      "id": "586e374e-cd21-46b6-8883-d18b0b9f1775",
+      "ts": "2026-09-24T08:42:31.287Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "El final no fue realmente el final"
+      }
     }
   ]
 }
