@@ -37163,6 +37163,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f06cee40-a3db-4dcd-8cfe-b80e2fecd1d9",
+      "ts": "2026-09-24T10:37:57.313Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
