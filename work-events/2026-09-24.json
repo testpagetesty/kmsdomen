@@ -62739,6 +62739,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "bb67735f-cf5d-4c36-8e84-a0dd51e4d4d2",
+      "ts": "2026-09-24T14:20:36.796Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Jen 1 kapsle denně"
+      }
     }
   ]
 }
