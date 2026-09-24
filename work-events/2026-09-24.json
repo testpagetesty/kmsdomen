@@ -20953,6 +20953,19 @@
         "name": "Яя",
         "interest": "лікарі застерігають постійне відчуття холоду і сонливість -аптека -ліки -таблетк"
       }
+    },
+    {
+      "id": "5b8c8b4e-29f7-4604-b4bd-189fd68d7083",
+      "ts": "2026-09-24T08:20:50.173Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
