@@ -26319,6 +26319,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e8d383ea-aea6-4af6-92f1-e13f4a155d9d",
+      "ts": "2026-09-24T08:55:07.723Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Atención personalizada. brotym.site: agencia de viajes a medida con itinerarios "
+      }
     }
   ]
 }
