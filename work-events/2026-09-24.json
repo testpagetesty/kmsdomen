@@ -27647,6 +27647,19 @@
         "to": "bg",
         "source": "ip"
       }
+    },
+    {
+      "id": "d3ec60a5-ae38-49ed-9d1f-59316ad32914",
+      "ts": "2026-09-24T09:13:10.932Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
