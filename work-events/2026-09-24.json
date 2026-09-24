@@ -49938,6 +49938,20 @@
       }
     },
     {
+      "id": "48825a5f-30b5-4cf9-b43b-3c27d7ecfdd0",
+      "ts": "2026-09-24T12:53:12.265Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8f0bf24f-e2e6-4ebf-9816-310f77526607",
       "ts": "2026-09-24T12:53:13.442Z",
       "workerId": "костя_2",
@@ -49947,6 +49961,19 @@
       "event": "kms_opened",
       "extra": {
         "name": "Костя 2",
+        "url": "https://zagorje.com"
+      }
+    },
+    {
+      "id": "395239bd-e2a4-4568-8b00-77742e35eb60",
+      "ts": "2026-09-24T12:53:14.015Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 1",
         "url": "https://zagorje.com"
       }
     },
@@ -49988,6 +50015,20 @@
       "extra": {
         "name": "Яя",
         "source": "touch"
+      }
+    },
+    {
+      "id": "23d80ffb-18b2-44eb-a74d-e24df425dbb7",
+      "ts": "2026-09-24T12:53:36.463Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
       }
     }
   ]
