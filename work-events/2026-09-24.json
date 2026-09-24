@@ -38186,6 +38186,20 @@
         "name": "Костя 2",
         "interest": "Пособие по безработице и государственная помощь"
       }
+    },
+    {
+      "id": "33b0e727-860c-4b3b-98bb-4951a34e2ba5",
+      "ts": "2026-09-24T10:46:14.076Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Baku",
+      "geo": "az",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
