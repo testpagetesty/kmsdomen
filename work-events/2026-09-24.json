@@ -38963,6 +38963,20 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "742e702a-4c7a-43b0-a0e9-35756587550f",
+      "ts": "2026-09-24T10:51:49.590Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Asia/Tbilisi",
+      "geo": "ge",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
