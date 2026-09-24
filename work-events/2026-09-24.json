@@ -42282,6 +42282,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "9b2fbe7d-aa20-4aec-9705-e99db7ec3022",
+      "ts": "2026-09-24T11:12:44.810Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Lima",
+      "geo": "pe",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
