@@ -34954,6 +34954,18 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "772f465d-c4f7-4e7e-94aa-0ffdae003b75",
+      "ts": "2026-09-24T10:19:44.579Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/Punta_Arenas",
+      "geo": "cl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
