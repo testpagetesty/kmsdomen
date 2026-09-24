@@ -37990,6 +37990,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2d9ec016-2a22-49d3-a817-d108fcb4c30b",
+      "ts": "2026-09-24T10:44:28.055Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Яя",
+        "interest": "житлові субсидії від держави"
+      }
     }
   ]
 }
