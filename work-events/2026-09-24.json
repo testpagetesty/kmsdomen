@@ -4418,6 +4418,20 @@
         "name": "Костя 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "0ad7c5bb-00fa-4556-876b-0fcb491a682a",
+      "ts": "2026-09-24T06:59:37.685Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "touch"
+      }
     }
   ]
 }
