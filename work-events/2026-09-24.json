@@ -27224,6 +27224,20 @@
         "name": "Костя 2",
         "title": "Tu futuro impulsado por IA"
       }
+    },
+    {
+      "id": "d14bd2e8-05fb-4c37-b8c6-1c5055697a94",
+      "ts": "2026-09-24T09:07:31.534Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
