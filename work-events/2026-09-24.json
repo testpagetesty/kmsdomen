@@ -72772,6 +72772,19 @@
         "name": "Таня - трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "1d2a434e-3524-4ffe-816d-4a9d78704604",
+      "ts": "2026-09-24T19:07:21.506Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
