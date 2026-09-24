@@ -2533,6 +2533,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "04579652-a9a8-4bc4-a134-178d3a31850b",
+      "ts": "2026-09-24T06:52:01.004Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 1",
+        "source": "scroll"
+      }
     }
   ]
 }
