@@ -6973,6 +6973,20 @@
         "name": "Костя 2",
         "interest": "subsidios estatales para ciudadanos de bajos ingresos"
       }
+    },
+    {
+      "id": "d20eaf5a-8534-40b6-b5ef-344e6d00ec52",
+      "ts": "2026-09-24T07:11:29.822Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "scroll"
+      }
     }
   ]
 }
