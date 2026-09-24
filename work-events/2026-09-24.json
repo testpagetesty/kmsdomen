@@ -12668,6 +12668,31 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "f166ee98-2f52-42ce-b544-6eabf6d285d5",
+      "ts": "2026-09-24T07:43:46.055Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
+      "id": "1a770a65-c2f6-488b-a378-a3313b6a6bbb",
+      "ts": "2026-09-24T07:43:46.056Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
