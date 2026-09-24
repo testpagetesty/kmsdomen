@@ -49937,6 +49937,18 @@
         "name": "Костя 2",
         "url": "https://zagorje.com"
       }
+    },
+    {
+      "id": "8f4de302-98d3-4384-83fb-fb83469e9c99",
+      "ts": "2026-09-24T12:53:15.239Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
