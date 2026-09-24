@@ -52362,6 +52362,19 @@
       }
     },
     {
+      "id": "5d0776f6-ed8e-4539-95b2-101d857d8f16",
+      "ts": "2026-09-24T13:12:10.352Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Костя 2",
+        "url": "https://23835473478.optionsl.com/detail/are_you_more_angel_or_devil__1772004934842.html"
+      }
+    },
+    {
       "id": "7589bdfb-637b-4fe6-8a58-e4f5548685f3",
       "ts": "2026-09-24T13:12:12.174Z",
       "workerId": "костя_1",
@@ -52374,6 +52387,18 @@
       }
     },
     {
+      "id": "396ee5c0-63a6-4618-9511-cd5c7c1c0a55",
+      "ts": "2026-09-24T13:12:12.575Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 2"
+      }
+    },
+    {
       "id": "675778e6-6468-4ca9-a595-f95896bb0ca4",
       "ts": "2026-09-24T13:12:15.364Z",
       "workerId": "костя_1",
@@ -52383,6 +52408,20 @@
       "event": "kms_passed",
       "extra": {
         "name": "Костя 1",
+        "host": "23835473478.optionsl.com",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "3fb9e971-6a8e-48df-8817-81c9f44c6bc1",
+      "ts": "2026-09-24T13:12:17.998Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ar",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Костя 2",
         "host": "23835473478.optionsl.com",
         "source": "teaser"
       }
