@@ -27292,6 +27292,20 @@
         "name": "Костя 2",
         "title": "Hoy hay pánico en los bancos"
       }
+    },
+    {
+      "id": "7cd16057-3e10-4f89-bfc4-753e756cb386",
+      "ts": "2026-09-24T09:08:54.546Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Cancun",
+      "geo": "mx",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 2",
+        "title": "Estructura de la televisión"
+      }
     }
   ]
 }
