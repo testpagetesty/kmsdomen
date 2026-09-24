@@ -25007,6 +25007,20 @@
       }
     },
     {
+      "id": "2847abd1-32c7-4b81-8b27-333ef10bc028",
+      "ts": "2026-09-24T08:41:23.021Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Prostatitida? Řešení existuje"
+      }
+    },
+    {
       "id": "d54a7a23-441a-4d7f-a5de-0165ff72e313",
       "ts": "2026-09-24T08:41:23.499Z",
       "workerId": "яя",
@@ -25030,6 +25044,20 @@
       "extra": {
         "name": "Костя 2",
         "title": "Tras la emisión, siguieron los roces"
+      }
+    },
+    {
+      "id": "fc051fb7-977b-4ec0-ad2c-b4a1470d6ee2",
+      "ts": "2026-09-24T08:41:49.738Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Co si 40+ muži tiše čtou"
       }
     }
   ]
