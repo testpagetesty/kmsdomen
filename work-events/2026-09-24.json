@@ -30997,6 +30997,19 @@
       }
     },
     {
+      "id": "3478f619-4c9f-42a5-b92a-cc0d16a18fa7",
+      "ts": "2026-09-24T09:52:45.367Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "America/Argentina/Buenos_Aires",
+      "geo": "ar",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Костя 2",
+        "interest": "seguridad básica y programas de asistencia social"
+      }
+    },
+    {
       "id": "e3145e98-742e-4c37-9e9d-5fa8729e5264",
       "ts": "2026-09-24T09:52:46.759Z",
       "workerId": "костя_2",
