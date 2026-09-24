@@ -45701,6 +45701,20 @@
         "name": "Костя 1",
         "title": "Durerea repetitivă poate fi un semn al slăbirii articulațiilor."
       }
+    },
+    {
+      "id": "7b3c2e45-d205-4a26-8ab8-e2a86d74b04f",
+      "ts": "2026-09-24T11:44:43.423Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Susținerea sănătății ochilor"
+      }
     }
   ]
 }
