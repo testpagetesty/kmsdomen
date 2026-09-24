@@ -9602,6 +9602,20 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "a33d21b0-d631-4b7d-b4d4-787682401623",
+      "ts": "2026-09-24T07:24:51.028Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
     }
   ]
 }
