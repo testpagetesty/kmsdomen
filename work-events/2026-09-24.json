@@ -4082,6 +4082,20 @@
       }
     },
     {
+      "id": "e5c88da3-5fb7-4858-a7fd-7f0e7db8e249",
+      "ts": "2026-09-24T06:58:09.014Z",
+      "workerId": "костя_2",
+      "deviceId": "6ef2d510-a0cd-4c79-b2a7-7b1c9b262507",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Костя 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "3bf70175-2ae0-421a-8634-aaa158cda539",
       "ts": "2026-09-24T06:58:09.836Z",
       "workerId": "яя",
