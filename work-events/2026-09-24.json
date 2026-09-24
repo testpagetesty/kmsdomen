@@ -47564,6 +47564,19 @@
         "name": "Костя 2",
         "title": "Contra constipației, pune în apă. Susține tranzitul intestinal și bucură-te din "
       }
+    },
+    {
+      "id": "b59c2b49-0e4a-4004-8832-cdad5bfc64d9",
+      "ts": "2026-09-24T12:26:46.204Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
