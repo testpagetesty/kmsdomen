@@ -69001,6 +69001,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "c260de59-a7ec-40fd-897b-6cce7bd5a6e4",
+      "ts": "2026-09-24T17:26:39.308Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
