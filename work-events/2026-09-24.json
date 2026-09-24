@@ -58106,6 +58106,18 @@
         "name": "Костя 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "01b917a6-a4c3-4aa8-add6-7bcd05f4a995",
+      "ts": "2026-09-24T13:56:12.842Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Bucharest",
+      "geo": "ro",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
