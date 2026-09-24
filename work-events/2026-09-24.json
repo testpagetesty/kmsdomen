@@ -69880,6 +69880,18 @@
       }
     },
     {
+      "id": "78f9d535-95ff-420b-973d-2d60007fb200",
+      "ts": "2026-09-24T17:34:02.571Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "a77cf558-96a1-40a7-b4c4-cc91f3d20f81",
       "ts": "2026-09-24T17:34:02.713Z",
       "workerId": "соня_тубка_2",
