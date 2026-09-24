@@ -37514,6 +37514,19 @@
       "extra": {
         "name": "Костя 2"
       }
+    },
+    {
+      "id": "6c501c64-bd67-43ac-a65b-11f0d4dc8fa5",
+      "ts": "2026-09-24T10:40:54.316Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
