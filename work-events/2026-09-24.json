@@ -1913,6 +1913,19 @@
       }
     },
     {
+      "id": "ef3115f4-fc5d-494e-be66-5d16f12eba6b",
+      "ts": "2026-09-24T06:49:25.941Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Prague",
+      "geo": "cz",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Костя 1"
+      }
+    },
+    {
       "id": "8b450483-4403-4760-a37f-6d2c6bf967a2",
       "ts": "2026-09-24T06:49:27.720Z",
       "workerId": "яя",
