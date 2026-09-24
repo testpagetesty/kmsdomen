@@ -41079,6 +41079,19 @@
       "extra": {
         "name": "Костя 1"
       }
+    },
+    {
+      "id": "fbcd271e-376c-4a43-a573-e807fbd77a3f",
+      "ts": "2026-09-24T11:05:29.847Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "America/New_York",
+      "geo": "us",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Костя 1"
+      }
     }
   ]
 }
