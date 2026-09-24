@@ -25757,6 +25757,20 @@
       }
     },
     {
+      "id": "78982699-fac1-46ec-9042-fbb3679eab0b",
+      "ts": "2026-09-24T08:50:07.849Z",
+      "workerId": "костя_1",
+      "deviceId": "c8fb950f-3997-4c1a-ab63-b49d7700debf",
+      "deviceTz": "Europe/Istanbul",
+      "geo": "tr",
+      "platform": "discovery",
+      "event": "upload_item",
+      "extra": {
+        "name": "Костя 1",
+        "title": "Aradaki Sessizlik Büyüdü. Aradaki Sessizlik Uzadıkça, Söylenen Her Cümle Daha Fa"
+      }
+    },
+    {
       "id": "39733ee7-cb02-45a5-9a2e-dadcd7d0f0e0",
       "ts": "2026-09-24T08:50:08.216Z",
       "workerId": "яя",
