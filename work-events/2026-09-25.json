@@ -71055,6 +71055,18 @@
       }
     },
     {
+      "id": "8aadd3da-68b5-4e9f-98ad-c9f2e10db8ae",
+      "ts": "2026-09-25T08:52:08.793Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "50bd94c7-b945-42c9-ac1d-b313d0a3f846",
       "ts": "2026-09-25T08:52:10.238Z",
       "workerId": "nastya",
@@ -71079,6 +71091,20 @@
       "extra": {
         "name": "Настя",
         "interest": "Mitä tehdä painonnousussa"
+      }
+    },
+    {
+      "id": "321ce3fc-483d-4923-bbb7-5df7ad387e37",
+      "ts": "2026-09-25T08:52:18.522Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     },
     {
