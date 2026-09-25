@@ -74542,6 +74542,18 @@
       }
     },
     {
+      "id": "9aa01790-2fef-4f43-a8b9-1c03fbbf8dab",
+      "ts": "2026-09-25T08:58:26.033Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "9101786f-e8c1-4a58-879e-d6d0ac56bc41",
       "ts": "2026-09-25T08:58:27.197Z",
       "workerId": "настя1",
@@ -74604,6 +74616,20 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved høyt trykk"
+      }
+    },
+    {
+      "id": "e2bd1b6c-f8e8-4ed3-9a06-cfab92953b46",
+      "ts": "2026-09-25T08:58:36.155Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
