@@ -21133,6 +21133,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "63d81e05-4e6b-475b-91a0-71516b72d725",
+      "ts": "2026-09-25T06:39:10.897Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
