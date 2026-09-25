@@ -39964,6 +39964,20 @@
         "host": "defence24.pl",
         "source": "teaser"
       }
+    },
+    {
+      "id": "30307198-5a4e-44c9-a9f4-b9d80085cd21",
+      "ts": "2026-09-25T07:40:01.540Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
