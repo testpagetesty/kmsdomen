@@ -44112,6 +44112,47 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "ebaa75a8-7db0-4b30-af52-783576a440b8",
+      "ts": "2026-09-25T07:54:29.094Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "d9236bf8-fe29-4f8f-9dc0-009d4cfc437b",
+      "ts": "2026-09-25T07:54:29.104Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
+      "id": "28c7f073-2721-4056-b310-f2865634049d",
+      "ts": "2026-09-25T07:54:33.180Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zurnal24.si",
+        "source": "teaser"
+      }
     }
   ]
 }
