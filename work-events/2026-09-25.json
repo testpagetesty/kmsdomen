@@ -45173,6 +45173,19 @@
       }
     },
     {
+      "id": "9e6b94a1-e66b-4686-b1b7-9f98243a279b",
+      "ts": "2026-09-25T07:57:28.997Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "50167d57-190d-4800-8690-4bafccd19278",
       "ts": "2026-09-25T07:57:29.316Z",
       "workerId": "таня_трубка_2",
@@ -45339,6 +45352,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "34c22e08-d3bc-4160-9ac1-d10baf7c0dff",
+      "ts": "2026-09-25T07:57:49.186Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
       }
     }
   ]
