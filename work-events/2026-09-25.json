@@ -73581,6 +73581,18 @@
       }
     },
     {
+      "id": "c73641ec-aeb6-41ae-a8a0-a6d88c42243a",
+      "ts": "2026-09-25T08:57:41.497Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "f7d38d9b-8d7e-439f-abb4-ede42e90af7b",
       "ts": "2026-09-25T08:57:42.116Z",
       "workerId": "настя1",
