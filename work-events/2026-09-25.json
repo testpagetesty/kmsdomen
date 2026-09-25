@@ -61760,6 +61760,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "75270c79-8e66-475b-bdbf-39db0d40d319",
+      "ts": "2026-09-25T08:37:57.655Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
