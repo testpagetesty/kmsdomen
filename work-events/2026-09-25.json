@@ -68479,6 +68479,20 @@
         "name": "Настя1",
         "interest": "Metabolisme og vekttap"
       }
+    },
+    {
+      "id": "a83fc14d-186b-4399-bdcf-7fe3f2c56591",
+      "ts": "2026-09-25T08:47:09.281Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
     }
   ]
 }
