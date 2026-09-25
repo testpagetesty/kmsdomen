@@ -42727,6 +42727,31 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "e83a2e20-522a-43d4-99ae-cda45fa20c9d",
+      "ts": "2026-09-25T07:50:47.713Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "537fad21-fb7d-44ab-8ff3-76cb30058f79",
+      "ts": "2026-09-25T07:50:47.714Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
