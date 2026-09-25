@@ -67818,6 +67818,20 @@
       }
     },
     {
+      "id": "dfee706b-cf43-47cd-aa57-73278deac693",
+      "ts": "2026-09-25T08:45:50.860Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "f45b6cd1-bba6-4d94-ac86-c23bce46d9eb",
       "ts": "2026-09-25T08:45:54.486Z",
       "workerId": "таня_трубка_4",
@@ -67966,6 +67980,32 @@
       }
     },
     {
+      "id": "9c495e00-1ffb-4e5f-a250-f55b83a13a33",
+      "ts": "2026-09-25T08:46:08.791Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
+      "id": "42440b75-4a88-4dbc-bffe-53bf54e8cede",
+      "ts": "2026-09-25T08:46:11.033Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "cbf90e6f-3eda-4704-a3b5-50a7ffd92f5d",
       "ts": "2026-09-25T08:46:15.939Z",
       "workerId": "соня_тубка_2",
@@ -68108,6 +68148,20 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "title": "Solusi Bugar Pria Sejati"
+      }
+    },
+    {
+      "id": "62dd4668-79d6-451e-a692-bb71ab592c55",
+      "ts": "2026-09-25T08:46:35.032Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
