@@ -71631,6 +71631,20 @@
         "name": "Соня Тубка 2",
         "interest": "kaip jaustis geriau su klausos problemomis"
       }
+    },
+    {
+      "id": "75c03839-1019-420e-8c89-c166f484e13d",
+      "ts": "2026-09-25T08:53:35.037Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
