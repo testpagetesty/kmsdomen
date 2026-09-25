@@ -47595,6 +47595,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b2a403f7-72d7-43a2-af74-ac79aa8e68da",
+      "ts": "2026-09-25T08:02:15.177Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
+      }
     }
   ]
 }
