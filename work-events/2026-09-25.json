@@ -47726,6 +47726,18 @@
       }
     },
     {
+      "id": "bf728931-5d27-47a8-802b-7d43002bf3f4",
+      "ts": "2026-09-25T08:02:17.104Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "1bf3219c-b93b-42e6-bd85-c43bb84d5e49",
       "ts": "2026-09-25T08:02:18.068Z",
       "workerId": "таня_трубка_1",
@@ -48041,6 +48053,20 @@
       }
     },
     {
+      "id": "a6a4b0b6-d625-4809-b341-0d9f1b9abc41",
+      "ts": "2026-09-25T08:02:43.644Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "88d13c46-8163-4820-9806-592df61614a6",
       "ts": "2026-09-25T08:02:47.145Z",
       "workerId": "tanya_trubka3",
@@ -48238,6 +48264,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "c1594739-0f2a-45d7-ba82-e15e99910a3a",
+      "ts": "2026-09-25T08:03:17.106Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     },
     {
@@ -48613,6 +48651,19 @@
       "extra": {
         "name": "Настя",
         "source": "touch"
+      }
+    },
+    {
+      "id": "218aa085-8bef-4143-80d5-0ad484dca062",
+      "ts": "2026-09-25T08:03:56.633Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
