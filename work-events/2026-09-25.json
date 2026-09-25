@@ -46679,6 +46679,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "40b4029b-d1f2-4a59-ae23-e11e53df1f32",
+      "ts": "2026-09-25T08:00:39.335Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
