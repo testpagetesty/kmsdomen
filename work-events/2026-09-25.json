@@ -64098,6 +64098,20 @@
         "name": "Таня - трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "0796c001-7d78-47c5-8000-834fe751b8bc",
+      "ts": "2026-09-25T08:39:34.806Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
     }
   ]
 }
