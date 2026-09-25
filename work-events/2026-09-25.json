@@ -72103,6 +72103,20 @@
       }
     },
     {
+      "id": "260cbb26-503b-4a9a-8717-4b412cab80fd",
+      "ts": "2026-09-25T08:54:34.193Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8327c24d-546e-469e-88a3-60b6df89d796",
       "ts": "2026-09-25T08:54:34.224Z",
       "workerId": "соня_тубка_2",
@@ -72154,6 +72168,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "últimas noticias sobre el crecimiento de criptomonedas en nuestro país"
+      }
+    },
+    {
+      "id": "f6c4d62a-003b-4c7a-bba6-d505fd58c03e",
+      "ts": "2026-09-25T08:54:41.496Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -72457,6 +72483,20 @@
       "event": "user_active",
       "extra": {
         "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "0b7cdff6-c71a-4229-9e5e-3e9f5e78d222",
+      "ts": "2026-09-25T08:55:22.558Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
         "source": "scroll"
       }
     }
