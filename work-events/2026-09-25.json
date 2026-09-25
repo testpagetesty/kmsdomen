@@ -8084,6 +8084,18 @@
         "host": "regionalobala.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "3e96bcd4-d83d-4f34-bf62-d4fd3de42150",
+      "ts": "2026-09-25T05:06:19.060Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
