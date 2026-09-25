@@ -11114,6 +11114,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "308ca29d-96aa-4fbe-8e90-8951b9d598a0",
+      "ts": "2026-09-25T05:40:49.619Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
