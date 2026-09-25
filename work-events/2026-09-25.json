@@ -69201,6 +69201,19 @@
         "name": "Таня - Трубка 2",
         "title": "Vitalitas Pria Tanpa Batas"
       }
+    },
+    {
+      "id": "d60c2a04-0198-4b5a-9783-1bfea5d87adb",
+      "ts": "2026-09-25T08:48:41.871Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hjerte- og karsystemet"
+      }
     }
   ]
 }
