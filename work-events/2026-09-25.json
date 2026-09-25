@@ -71001,6 +71001,19 @@
         "name": "Настя1",
         "source": "touch"
       }
+    },
+    {
+      "id": "b44a0c9d-3990-4498-8b0f-cb869f604203",
+      "ts": "2026-09-25T08:52:04.573Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Virtsaelimet"
+      }
     }
   ]
 }
