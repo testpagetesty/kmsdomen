@@ -47264,6 +47264,19 @@
       }
     },
     {
+      "id": "39e11f11-3e83-4538-bc36-527089f7c819",
+      "ts": "2026-09-25T08:01:27.868Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "242848c5-ebb3-4273-aaa9-96df7aa28c7b",
       "ts": "2026-09-25T08:01:31.449Z",
       "workerId": "игорь",
@@ -47471,6 +47484,20 @@
       "extra": {
         "name": "Настя",
         "interest": "フジテレビニュース 仮想通貨ニュース 今日"
+      }
+    },
+    {
+      "id": "bb615ed0-ebff-462e-969d-9d060c011027",
+      "ts": "2026-09-25T08:01:58.339Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
       }
     }
   ]
