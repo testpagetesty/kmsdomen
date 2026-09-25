@@ -75425,6 +75425,20 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ef4add97-1ae2-40e5-8ccd-ed89234369b8",
+      "ts": "2026-09-25T09:00:16.396Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
     }
   ]
 }
