@@ -45512,6 +45512,19 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "95cc76d7-5615-4e3c-b92f-fac5e944f698",
+      "ts": "2026-09-25T07:58:07.705Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "platform": "kms",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
