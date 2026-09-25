@@ -49187,6 +49187,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "95690da2-97fa-448b-a5c7-84534f405b53",
+      "ts": "2026-09-25T08:05:05.716Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Masalah peredaran darah"
+      }
     }
   ]
 }
