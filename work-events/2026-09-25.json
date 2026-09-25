@@ -18408,6 +18408,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "e89bf3fd-b071-435d-b6ef-c27cd5921ec4",
+      "ts": "2026-09-25T06:28:04.294Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "social support for the unemployed"
+      }
     }
   ]
 }
