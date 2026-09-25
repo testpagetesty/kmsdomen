@@ -10589,6 +10589,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "7c70a8e7-44c3-4e8a-ada2-02d7fe8a810d",
+      "ts": "2026-09-25T05:35:10.568Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://defence24.pl/polityka-obronna"
+      }
     }
   ]
 }
