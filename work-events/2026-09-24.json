@@ -72648,6 +72648,159 @@
       }
     },
     {
+      "id": "e91ae4ec-0365-457b-972f-b1720633acd1",
+      "ts": "2026-09-24T17:58:29.059Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "Prirodni dodaci za prostatu"
+      }
+    },
+    {
+      "id": "d43a3e2e-66a5-4e31-a8ec-e12a722877d4",
+      "ts": "2026-09-24T17:58:45.910Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Nježna formula za svaki dan"
+      }
+    },
+    {
+      "id": "4ee22451-1277-4e52-9b57-766708d198a3",
+      "ts": "2026-09-24T17:58:56.363Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Prirodna podrška kod nelagode i osjećaja pritiska u donjem dijelu."
+      }
+    },
+    {
+      "id": "3296ade9-401f-45ab-84e6-14730f562a8d",
+      "ts": "2026-09-24T17:58:59.737Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "2ca4cc09-329e-4b14-bf0f-abdc550667fe",
+      "ts": "2026-09-24T17:59:07.281Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Nježna svakodnevna njega za čistu i njegovanu kožu"
+      }
+    },
+    {
+      "id": "6bd155ad-2e50-4195-b10b-ddf50e937183",
+      "ts": "2026-09-24T17:59:29.190Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "Mirniji dan počinje brigom o srcu"
+      }
+    },
+    {
+      "id": "8bdb652e-b384-48aa-adb6-bf7d11e99f64",
+      "ts": "2026-09-24T17:59:40.351Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Jednostavan pristup njezi kože za uredan i svjež osjećaj"
+      }
+    },
+    {
+      "id": "d8c6c302-1ca7-4d87-a1f7-d01df0589798",
+      "ts": "2026-09-24T17:59:51.305Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Pažljiva njega problematičnih područja uz jednostavnu svakodnevnu rutinu"
+      }
+    },
+    {
+      "id": "c48b0ae3-ffc4-45b3-aaf8-832527238c90",
+      "ts": "2026-09-24T18:00:04.515Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Otkrijte staru tradiciju i pristupe povezane s njegom zglobova."
+      }
+    },
+    {
+      "id": "6e03a9b6-2f2e-445a-8e38-af5589ef771a",
+      "ts": "2026-09-24T18:00:15.883Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ba",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "title": "- Znížte napätie v očiach. Podporte ostrosť zraku pomocou tejto jednoduchej metó"
+      }
+    },
+    {
+      "id": "8ba01279-c6b6-40be-891f-8f75c566feec",
+      "ts": "2026-09-24T18:01:00.082Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "from": "ba",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "fa0b1de1-90b9-4841-9e4e-7cf8b1c54bc3",
       "ts": "2026-09-24T19:02:37.433Z",
       "workerId": "tanya_trubka3",
@@ -72686,6 +72839,19 @@
       }
     },
     {
+      "id": "6cae002b-f8d6-4450-9988-5fb1fb9d018b",
+      "ts": "2026-09-24T19:03:16.866Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "3f978475-620f-4259-9da6-52b232c2a01b",
       "ts": "2026-09-24T19:03:17.009Z",
       "workerId": "tanya_trubka3",
@@ -72695,6 +72861,31 @@
       "event": "heartbeat",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "12ce437e-1028-4123-82d6-b4b571256fce",
+      "ts": "2026-09-24T19:03:54.532Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "af08d978-4d43-4608-8353-77a1d22a8c45",
+      "ts": "2026-09-24T19:04:45.031Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
       }
     },
     {
@@ -72796,6 +72987,32 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "0639739e-d719-4959-8188-19a0dd09ddf8",
+      "ts": "2026-09-24T19:08:15.426Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "193a7984-4ae2-4345-948c-8a843e8531e9",
+      "ts": "2026-09-24T19:09:28.229Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
         "source": "motion"
       }
     },
@@ -73001,6 +73218,56 @@
       "event": "shift_start",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "46196220-66af-4680-8f65-de0994e0b536",
+      "ts": "2026-09-24T19:46:32.528Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "2508f419-4fdf-478b-aece-671e83895032",
+      "ts": "2026-09-24T19:47:02.108Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "0da8bbc2-1bbd-498d-a699-ab6c3251a4f0",
+      "ts": "2026-09-24T19:47:02.386Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "3bed97fa-e102-4ac8-90ad-93006471015d",
+      "ts": "2026-09-24T20:05:39.315Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
