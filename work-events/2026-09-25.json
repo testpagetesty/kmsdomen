@@ -47777,6 +47777,18 @@
         "name": "Настя",
         "interest": "ANNニュース 暗号資産ニュース 今日"
       }
+    },
+    {
+      "id": "c98ae29e-982e-4d3e-b846-1957aa3d1f56",
+      "ts": "2026-09-25T08:02:39.308Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
