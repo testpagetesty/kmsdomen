@@ -19927,6 +19927,45 @@
       }
     },
     {
+      "id": "eaa3cce3-5ef4-42b5-aa59-8d9242a3fdc8",
+      "ts": "2026-09-25T06:34:04.472Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "basic security and social assistance programs"
+      }
+    },
+    {
+      "id": "c260d9f4-5b18-448c-8c16-121165853d92",
+      "ts": "2026-09-25T06:34:04.632Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "best strategies for saving money in cryptocurrency"
+      }
+    },
+    {
+      "id": "71bba94e-7e68-4eff-88b2-1d18d5e71e50",
+      "ts": "2026-09-25T06:34:06.142Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "basic security and social assistance programs"
+      }
+    },
+    {
       "id": "c2adc671-3aae-4d40-ad06-469e8875c8e7",
       "ts": "2026-09-25T06:34:08.740Z",
       "workerId": "игорь",
@@ -20001,6 +20040,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "2372848a-0d1f-4ce4-b0cb-a10c123c27cb",
+      "ts": "2026-09-25T06:34:24.741Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
