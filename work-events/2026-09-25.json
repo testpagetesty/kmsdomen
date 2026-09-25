@@ -77680,6 +77680,19 @@
         "host": "zurnal24.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "d25b42d7-986a-4934-a8c5-31497bcce2b5",
+      "ts": "2026-09-25T09:04:59.005Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
