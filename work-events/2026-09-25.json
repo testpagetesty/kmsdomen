@@ -72955,6 +72955,19 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b44be237-e1c4-4734-b35a-bb71533a4b19",
+      "ts": "2026-09-25T08:56:19.391Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
