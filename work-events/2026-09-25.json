@@ -25912,6 +25912,18 @@
       }
     },
     {
+      "id": "b0d49d2c-bb1a-48e1-ac8d-28d49caaf049",
+      "ts": "2026-09-25T06:58:22.538Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "85d08ba5-9fb7-4bd3-a856-312705fda63f",
       "ts": "2026-09-25T06:58:22.988Z",
       "workerId": "tanya_trubka3",
@@ -25985,6 +25997,19 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "25ef8f81-4060-44a7-8973-d80f135f4084",
+      "ts": "2026-09-25T06:58:32.651Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
