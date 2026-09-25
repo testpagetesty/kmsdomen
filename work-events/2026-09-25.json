@@ -46498,6 +46498,20 @@
         "name": "Таня - Трубка 4",
         "source": "motion"
       }
+    },
+    {
+      "id": "4ae97569-01ce-4b5f-ab65-4404a75292c6",
+      "ts": "2026-09-25T08:00:12.054Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
