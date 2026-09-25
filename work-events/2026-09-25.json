@@ -18588,6 +18588,20 @@
         "name": "Соня Тубка 2",
         "interest": "easy earnings from crypto on the internet"
       }
+    },
+    {
+      "id": "b77338db-82bb-4568-812c-14f0ebb3e3c8",
+      "ts": "2026-09-25T06:28:39.216Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
