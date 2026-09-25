@@ -72482,6 +72482,19 @@
       }
     },
     {
+      "id": "5c50c0fb-6a6b-4d57-8976-a4c45f84d2c0",
+      "ts": "2026-09-24T17:54:06.048Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "61e531ae-09b5-4751-bc95-2e2f4fe2764b",
       "ts": "2026-09-24T17:54:15.769Z",
       "workerId": "соня_тубка_2",
