@@ -31392,6 +31392,19 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "5db94d13-9c62-4837-b4bb-5e61800717e8",
+      "ts": "2026-09-25T07:15:16.242Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "easy earnings from crypto on the internet"
+      }
     }
   ]
 }
