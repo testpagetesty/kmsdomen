@@ -40029,6 +40029,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "26d70ab9-9c01-4564-8cf1-1b9e26208a2d",
+      "ts": "2026-09-25T07:40:18.526Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
