@@ -13975,6 +13975,20 @@
         "to": "sg",
         "source": "ip"
       }
+    },
+    {
+      "id": "23d2f8bd-3814-47f1-bc96-045f1ea74ab1",
+      "ts": "2026-09-25T06:09:34.907Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
