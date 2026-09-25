@@ -22427,6 +22427,20 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "8b57e819-f935-4080-8a09-9b29b8d80f00",
+      "ts": "2026-09-25T06:46:20.746Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
