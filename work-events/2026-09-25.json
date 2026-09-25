@@ -69533,6 +69533,20 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "9bbe6e3d-a552-4d9c-90bb-fdde6f30f4f8",
+      "ts": "2026-09-25T08:49:30.292Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
     }
   ]
 }
