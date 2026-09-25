@@ -64661,6 +64661,19 @@
       }
     },
     {
+      "id": "ba7f095c-8aec-4214-8521-feeba7cf9184",
+      "ts": "2026-09-25T08:40:28.680Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "68e03320-8ec1-4adb-ad97-c30d95edfc8d",
       "ts": "2026-09-25T08:40:31.614Z",
       "workerId": "игорь",
@@ -64753,6 +64766,21 @@
       }
     },
     {
+      "id": "22738a94-0b23-4af8-bfd1-ad241f2ee1b8",
+      "ts": "2026-09-25T08:40:36.749Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "from": "id",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "d88256ab-40a9-4f2f-b49e-1ecad115dad6",
       "ts": "2026-09-25T08:40:37.726Z",
       "workerId": "таня_трубка_1",
@@ -64763,6 +64791,18 @@
       "event": "capture_start",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "cfc3ec2d-505a-4e2d-aac5-f1180af43bd5",
+      "ts": "2026-09-25T08:40:40.369Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
@@ -64814,6 +64854,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "511c0b53-0d29-4237-b5e6-e692afa962f0",
+      "ts": "2026-09-25T08:40:45.180Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Kekuatan alami untuk pria masa kini"
       }
     },
     {
@@ -65297,6 +65351,20 @@
       }
     },
     {
+      "id": "9873db24-b901-4ad7-b2b8-7354b3544086",
+      "ts": "2026-09-25T08:41:33.540Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Dukungan vitalitas bagi pria aktif di atas usia 40 tahun."
+      }
+    },
+    {
       "id": "d393ddcd-fce3-4990-8351-4be969f80331",
       "ts": "2026-09-25T08:41:34.129Z",
       "workerId": "игорь",
@@ -65350,6 +65418,18 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "2bd4aa88-2acf-456d-8fcc-95d8f99ed5a1",
+      "ts": "2026-09-25T08:41:40.371Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
@@ -65792,6 +65872,20 @@
       "extra": {
         "name": "Настя1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "cc512461-f465-46d4-a6fc-53259cdad1f2",
+      "ts": "2026-09-25T08:42:38.773Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Pria Nyaman dan Percaya Diri"
       }
     },
     {
@@ -66377,6 +66471,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "cf42b73d-84c5-46c8-8a6f-4aa12f4a7e4d",
+      "ts": "2026-09-25T08:43:41.025Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Prostat pria pulih alami"
       }
     },
     {
@@ -67042,6 +67150,20 @@
       }
     },
     {
+      "id": "f527de75-48d7-484b-a9cc-6a818aeaf351",
+      "ts": "2026-09-25T08:44:45.727Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Dukungan vitalitas bagi pria aktif di atas usia 40 tahun."
+      }
+    },
+    {
       "id": "229ed784-7d6d-495d-a463-597d52e38548",
       "ts": "2026-09-25T08:44:47.161Z",
       "workerId": "игорь",
@@ -67530,6 +67652,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "130468da-83f9-4abd-bdf2-d89836f67ccf",
+      "ts": "2026-09-25T08:45:45.871Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Vitalitas pria, dijaga secara alami"
       }
     },
     {
