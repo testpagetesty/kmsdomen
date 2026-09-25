@@ -65882,6 +65882,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "a35a53d9-05af-45ad-a84b-07de214f26d8",
+      "ts": "2026-09-25T08:43:02.313Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
     }
   ]
 }
