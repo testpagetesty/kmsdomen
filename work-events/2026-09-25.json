@@ -27810,6 +27810,19 @@
       }
     },
     {
+      "id": "cb32b8ac-5b48-4a15-92bf-c6034a22d14c",
+      "ts": "2026-09-25T07:05:18.160Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "fe315930-5696-4c39-bbc8-21b2c68b9c17",
       "ts": "2026-09-25T07:05:20.322Z",
       "workerId": "игорь",
@@ -27856,6 +27869,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "3dc90499-6ad0-4217-94d1-0a69c51f2741",
+      "ts": "2026-09-25T07:05:26.513Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
