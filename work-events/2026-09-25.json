@@ -51622,6 +51622,20 @@
       }
     },
     {
+      "id": "b790d1c5-c6dc-44c2-a623-0367bf548869",
+      "ts": "2026-09-25T08:10:41.670Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "2f90cb2c-4f0b-44ec-9d47-b6a1d2fc1604",
       "ts": "2026-09-25T08:10:43.194Z",
       "workerId": "настя1",
@@ -51699,6 +51713,20 @@
       "event": "user_active",
       "extra": {
         "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "21b220c0-d205-4568-b3a0-49a2d2f81c14",
+      "ts": "2026-09-25T08:11:01.697Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
         "source": "scroll"
       }
     }
