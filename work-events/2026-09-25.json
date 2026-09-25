@@ -48748,6 +48748,19 @@
       }
     },
     {
+      "id": "979e5037-4b1a-40f9-9ccb-b679e808aa7e",
+      "ts": "2026-09-25T08:03:59.246Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
       "id": "c30c6737-26c9-441c-9c79-8e697b918aa7",
       "ts": "2026-09-25T08:03:59.974Z",
       "workerId": "tanya_trubka3",
@@ -48958,6 +48971,31 @@
       }
     },
     {
+      "id": "79b625bf-0db6-467a-a596-faf957b78a13",
+      "ts": "2026-09-25T08:04:23.091Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "afda1d38-0795-4d78-96a2-1f4717750775",
+      "ts": "2026-09-25T08:04:23.144Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
       "id": "29698727-ecf5-45c7-803d-e5902ab9a179",
       "ts": "2026-09-25T08:04:26.712Z",
       "workerId": "таня_трубка_2",
@@ -49048,6 +49086,19 @@
       }
     },
     {
+      "id": "6d8aac53-66f0-46ca-9f32-0a65292507d9",
+      "ts": "2026-09-25T08:04:40.106Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "cdba3374-6e35-482e-9276-bf70980f3187",
       "ts": "2026-09-25T08:04:41.456Z",
       "workerId": "таня_трубка_1",
@@ -49057,6 +49108,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "43d4cb96-78b1-4659-8706-a4d64ef7f16c",
+      "ts": "2026-09-25T08:04:43.759Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
       }
     },
     {
