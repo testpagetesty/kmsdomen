@@ -47063,6 +47063,20 @@
       }
     },
     {
+      "id": "4c1f1d29-fe66-46c5-8cfe-8004e369f4f2",
+      "ts": "2026-09-25T08:01:20.649Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Η στύση έγινε πιο αδύναμη;"
+      }
+    },
+    {
       "id": "cc6c78a9-7a07-4c2e-8ed5-d5f9de7549f2",
       "ts": "2026-09-25T08:01:20.739Z",
       "workerId": "игорь",
