@@ -36110,6 +36110,20 @@
         "to": "hr",
         "source": "ip"
       }
+    },
+    {
+      "id": "04f0d82c-975d-43e9-b7bc-bdde76fa0148",
+      "ts": "2026-09-25T07:28:06.131Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
