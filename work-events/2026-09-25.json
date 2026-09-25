@@ -42520,6 +42520,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "1c8abc63-0421-4ee1-a21f-9cb83a6a7348",
+      "ts": "2026-09-25T07:50:20.832Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
