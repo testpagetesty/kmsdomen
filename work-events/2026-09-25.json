@@ -64727,6 +64727,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "45d8c44d-4213-4eba-9351-7db37e6cc999",
+      "ts": "2026-09-25T08:40:48.409Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
