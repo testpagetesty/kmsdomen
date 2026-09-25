@@ -51554,6 +51554,20 @@
       }
     },
     {
+      "id": "1f18e831-9bb2-491f-854f-3fa7b974b768",
+      "ts": "2026-09-25T08:10:27.687Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
       "id": "81187497-590e-4945-98e8-2f1fe9a06cef",
       "ts": "2026-09-25T08:10:36.782Z",
       "workerId": "таня_трубка_2",
@@ -51663,6 +51677,20 @@
       }
     },
     {
+      "id": "cc8e7a7a-329c-413a-8dbb-f9c9c3d6aa2c",
+      "ts": "2026-09-25T08:10:48.021Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
       "id": "cc6634b8-f5e2-4406-9cf5-17b9e483f88a",
       "ts": "2026-09-25T08:10:48.380Z",
       "workerId": "nastya",
@@ -51742,6 +51770,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "f9789627-ea9d-479b-8e82-3a34be28d087",
+      "ts": "2026-09-25T08:11:05.641Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
