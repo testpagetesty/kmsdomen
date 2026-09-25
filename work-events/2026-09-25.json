@@ -73907,6 +73907,18 @@
       }
     },
     {
+      "id": "4bbfc4fe-a3aa-4ab3-a119-c969ba45a3bb",
+      "ts": "2026-09-25T08:57:59.917Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "5db9a1d5-2f31-4da0-a134-b698e7e0c637",
       "ts": "2026-09-25T08:57:59.917Z",
       "workerId": "таня_трубка_4",
