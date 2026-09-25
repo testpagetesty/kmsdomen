@@ -74722,6 +74722,31 @@
       }
     },
     {
+      "id": "527b647c-3349-492b-b35e-8977483987a4",
+      "ts": "2026-09-25T08:58:36.984Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "24e0ff17-5995-4cb6-96b2-2e89d8c59c8d",
+      "ts": "2026-09-25T08:58:36.985Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "816692d1-168b-4185-a55c-d514bccd0bc0",
       "ts": "2026-09-25T08:58:37.115Z",
       "workerId": "соня_трубка_1",
@@ -74966,6 +74991,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "64a1cad8-344e-4d04-8f64-1047607f7fa6",
+      "ts": "2026-09-25T08:59:18.747Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
