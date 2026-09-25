@@ -51592,6 +51592,20 @@
         "name": "Настя1",
         "interest": "Detoks badan"
       }
+    },
+    {
+      "id": "039017ed-dd98-4e0d-b431-11048e7e0dcb",
+      "ts": "2026-09-25T08:10:45.045Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
