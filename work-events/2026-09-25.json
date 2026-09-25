@@ -10986,6 +10986,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "98fed007-044d-455f-9586-4a00303bc96e",
+      "ts": "2026-09-25T05:39:26.938Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
