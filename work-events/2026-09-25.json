@@ -50343,6 +50343,31 @@
       }
     },
     {
+      "id": "594679c8-821c-429e-988f-5f2014aec092",
+      "ts": "2026-09-25T08:07:27.353Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "e1dacf8f-aaed-4d84-a6aa-f152ce6415a6",
+      "ts": "2026-09-25T08:07:32.493Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "a75826ad-f145-476f-8fb6-2d380804af66",
       "ts": "2026-09-25T08:07:32.735Z",
       "workerId": "таня_трубка_1",
