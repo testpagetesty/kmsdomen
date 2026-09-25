@@ -64229,6 +64229,19 @@
       }
     },
     {
+      "id": "f1f8cb03-d9fc-429c-92a6-c0abd7f12571",
+      "ts": "2026-09-25T08:39:46.538Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "9e8f083d-acbd-4250-b198-45934baeea67",
       "ts": "2026-09-25T08:39:48.408Z",
       "workerId": "nastya",
@@ -64265,6 +64278,20 @@
       "event": "user_active",
       "extra": {
         "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "947288e0-24bc-4782-887e-14bb6c022922",
+      "ts": "2026-09-25T08:39:53.893Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
         "source": "scroll"
       }
     }
