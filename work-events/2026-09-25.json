@@ -67458,6 +67458,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7cbc8b1f-754f-46f3-ada5-a438a977be7b",
+      "ts": "2026-09-25T08:45:55.812Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
