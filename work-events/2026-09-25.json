@@ -46743,6 +46743,18 @@
         "name": "Настя",
         "source": "motion"
       }
+    },
+    {
+      "id": "4455e817-5ec8-42c2-94ed-c29e7a29ff12",
+      "ts": "2026-09-25T08:00:48.369Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
