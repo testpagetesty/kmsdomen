@@ -71279,6 +71279,19 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8a60faa6-4c44-4447-891d-666c5fb69c28",
+      "ts": "2026-09-25T08:52:45.926Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "th",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
