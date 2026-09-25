@@ -70806,6 +70806,19 @@
       }
     },
     {
+      "id": "fd2980f7-7dde-4b21-9354-9798d564cf02",
+      "ts": "2026-09-25T08:51:38.645Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre hvis leveren er overbelastet"
+      }
+    },
+    {
       "id": "adb1dcee-6ca1-43b5-a15f-7b7a479a37d5",
       "ts": "2026-09-25T08:51:40.379Z",
       "workerId": "таня_трубка_2",
@@ -70832,6 +70845,19 @@
       }
     },
     {
+      "id": "58f82734-b7c0-4851-a8c9-03d0841fc17d",
+      "ts": "2026-09-25T08:51:42.292Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Skjelett- og muskelsystemet"
+      }
+    },
+    {
       "id": "8054db1e-368e-4708-aad7-82da3d32bf73",
       "ts": "2026-09-25T08:51:44.186Z",
       "workerId": "nastya",
@@ -70842,6 +70868,19 @@
       "extra": {
         "name": "Настя",
         "interest": "Aineenvaihdunta ja laihdutus"
+      }
+    },
+    {
+      "id": "69cf09f1-4537-4ee9-bf4e-17a9e0654894",
+      "ts": "2026-09-25T08:51:46.051Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre for å rense kropp og lever"
       }
     },
     {
@@ -70869,6 +70908,19 @@
       "extra": {
         "name": "Настя",
         "interest": "Mitä tehdä kehon ja maksan puhdistamiseksi"
+      }
+    },
+    {
+      "id": "b2ed1bfc-b079-4efb-aa94-e0634fa64074",
+      "ts": "2026-09-25T08:51:50.949Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre hvis øynene blir trøtte"
       }
     }
   ]
