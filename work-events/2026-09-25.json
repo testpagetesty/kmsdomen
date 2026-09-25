@@ -51278,6 +51278,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "6fdf9cf5-ccde-4c24-831f-8711bad64cc0",
+      "ts": "2026-09-25T08:10:05.961Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
