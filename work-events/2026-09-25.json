@@ -72101,6 +72101,19 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "9ee294a2-23b5-4c78-be40-550fd5430c56",
+      "ts": "2026-09-25T08:54:36.827Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "seguridad social en caso de enfermedad"
+      }
     }
   ]
 }
