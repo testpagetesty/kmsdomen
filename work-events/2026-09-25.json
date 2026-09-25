@@ -67985,6 +67985,20 @@
       }
     },
     {
+      "id": "91f1f8be-bfd3-45e6-8fde-87973c6be2b1",
+      "ts": "2026-09-25T08:46:27.676Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
+      }
+    },
+    {
       "id": "19d2e411-3242-42f7-b79a-6a8fc2270008",
       "ts": "2026-09-25T08:46:28.330Z",
       "workerId": "соня_трубка_1",
