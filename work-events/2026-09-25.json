@@ -8688,6 +8688,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "ffc95b23-d15a-416f-be33-619e993fda2a",
+      "ts": "2026-09-25T05:12:20.740Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
