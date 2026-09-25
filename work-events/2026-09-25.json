@@ -75895,6 +75895,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e6e6f30f-d0e3-49c9-855b-6b0b511e860d",
+      "ts": "2026-09-25T09:01:23.336Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
