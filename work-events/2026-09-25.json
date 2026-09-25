@@ -25589,6 +25589,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "073ecd03-a7da-46b8-a90e-0add52b17771",
+      "ts": "2026-09-25T06:57:41.387Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
