@@ -69085,6 +69085,32 @@
       }
     },
     {
+      "id": "05a1db4a-66bd-4e50-8b22-bee575324d7c",
+      "ts": "2026-09-25T08:48:25.121Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "b78bac73-015e-48be-9766-7d5a537169f9",
+      "ts": "2026-09-25T08:48:26.504Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "fb05b7b2-f9f6-444a-9fe4-03033b7ee29a",
       "ts": "2026-09-25T08:48:27.182Z",
       "workerId": "настя1",
@@ -69107,6 +69133,19 @@
       "extra": {
         "name": "Настя1",
         "interest": "Kroppens detox"
+      }
+    },
+    {
+      "id": "dc5cc726-263e-4631-ac41-099bbff83462",
+      "ts": "2026-09-25T08:48:31.178Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
