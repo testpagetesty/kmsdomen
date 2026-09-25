@@ -49552,6 +49552,18 @@
       }
     },
     {
+      "id": "0acc7ede-c5ac-4fc7-9c72-0bea8f9fcc32",
+      "ts": "2026-09-25T08:05:29.714Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "126e01e6-3844-410d-94cc-af44c1150525",
       "ts": "2026-09-25T08:05:32.172Z",
       "workerId": "таня_трубка_1",
@@ -49682,6 +49694,20 @@
       }
     },
     {
+      "id": "028106cd-6162-4539-b4b4-fb282e189f45",
+      "ts": "2026-09-25T08:05:49.148Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "945d8697-f34d-400d-be35-a8f0ab9ba06e",
       "ts": "2026-09-25T08:05:50.898Z",
       "workerId": "таня_трубка_2",
@@ -49783,6 +49809,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "socialinė parama piliečiams valstybės lygiu"
+      }
+    },
+    {
+      "id": "ecb26856-c52e-4514-b5ec-06fe14b444ec",
+      "ts": "2026-09-25T08:06:09.652Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
       }
     }
   ]
