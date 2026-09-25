@@ -53372,6 +53372,20 @@
       }
     },
     {
+      "id": "94927dd0-3eac-4445-8e5b-b875f007d1dc",
+      "ts": "2026-09-25T08:13:33.863Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "2f3fc611-3271-4864-a79a-b4e032698e75",
       "ts": "2026-09-25T08:13:35.959Z",
       "workerId": "соня_трубка_1",
@@ -53438,6 +53452,18 @@
       }
     },
     {
+      "id": "fd33c13b-2dd1-41a4-8f55-28f984c35386",
+      "ts": "2026-09-25T08:13:48.382Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "1f9470e4-025f-403c-a293-72413faaf3ee",
       "ts": "2026-09-25T08:13:50.130Z",
       "workerId": "соня_тубка_2",
@@ -53490,6 +53516,20 @@
       }
     },
     {
+      "id": "321c2df8-b26f-41c7-a4f9-337abba44ea2",
+      "ts": "2026-09-25T08:14:00.535Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8ce861a6-d582-4923-8a5f-20e8e9880c75",
       "ts": "2026-09-25T08:14:03.813Z",
       "workerId": "соня_тубка_2",
@@ -53529,6 +53569,19 @@
       }
     },
     {
+      "id": "a307a8aa-b77d-4178-99ad-9b7cef8f2eba",
+      "ts": "2026-09-25T08:14:15.739Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "3e5190bc-f9cd-4527-b299-ec87a25af486",
       "ts": "2026-09-25T08:14:19.013Z",
       "workerId": "соня_трубка_1",
@@ -53539,6 +53592,32 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "motion"
+      }
+    },
+    {
+      "id": "f9a88f82-12c7-42cb-9845-b4af71e7901d",
+      "ts": "2026-09-25T08:14:20.905Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "372d8491-7185-45bf-81ea-acc2797dda91",
+      "ts": "2026-09-25T08:14:22.250Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -53645,6 +53724,20 @@
       }
     },
     {
+      "id": "5642dfae-f576-4d4e-83da-3f9f19ce489b",
+      "ts": "2026-09-25T08:14:41.036Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "279a0b25-6338-4bd9-977c-57105a6202c5",
       "ts": "2026-09-25T08:14:43.175Z",
       "workerId": "соня_трубка_1",
@@ -53659,6 +53752,31 @@
       }
     },
     {
+      "id": "f5d30934-0b9a-4aaf-b279-018f28b70089",
+      "ts": "2026-09-25T08:14:44.290Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "1fbddb91-ed12-4719-be95-3f4965f6e3a6",
+      "ts": "2026-09-25T08:14:44.293Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "4ea4ce67-a55b-46dc-91ac-6a8a3e242016",
       "ts": "2026-09-25T08:14:44.501Z",
       "workerId": "соня_трубка_1",
@@ -53668,6 +53786,18 @@
       "event": "capture_pause",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "01c963d4-f977-4742-b0c0-34525b8afe54",
+      "ts": "2026-09-25T08:14:48.385Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -53892,6 +54022,18 @@
       }
     },
     {
+      "id": "ce2a4ecf-a557-4630-af85-03d6f879d9ad",
+      "ts": "2026-09-25T08:15:48.388Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "f79bad67-b3f9-44cd-b2da-f11abb026c24",
       "ts": "2026-09-25T08:15:57.727Z",
       "workerId": "соня_тубка_2",
@@ -53957,6 +54099,20 @@
       }
     },
     {
+      "id": "4f38b423-2307-4b91-8f4f-10fdc8d7f033",
+      "ts": "2026-09-25T08:16:08.101Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "29f46216-179d-49be-b7af-6f3cdf3fa439",
       "ts": "2026-09-25T08:16:09.148Z",
       "workerId": "соня_тубка_2",
@@ -53993,6 +54149,44 @@
       "event": "capture_resume",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "bb57f6ac-3a39-4efb-ad01-1962e827182c",
+      "ts": "2026-09-25T08:16:10.917Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "c0538056-b8dc-4b56-a9fd-cd3d3f239ca6",
+      "ts": "2026-09-25T08:16:12.241Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "64f929b2-5d34-496d-8c72-d4ceaf36446b",
+      "ts": "2026-09-25T08:16:18.638Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -54045,6 +54239,20 @@
       }
     },
     {
+      "id": "5f32c392-f0f2-4f92-aa5e-756430b0ca37",
+      "ts": "2026-09-25T08:16:28.884Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "8051f01f-54c1-4cf2-a73e-be05c45ec2d3",
       "ts": "2026-09-25T08:16:36.484Z",
       "workerId": "tanya_trubka3",
@@ -54055,6 +54263,31 @@
       "event": "capture_start",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "f7b974be-2e33-40b5-902d-1e0a8afd1a54",
+      "ts": "2026-09-25T08:16:39.313Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "1c083433-6d41-49bf-9a66-9a2761200150",
+      "ts": "2026-09-25T08:16:39.315Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -54095,6 +54328,18 @@
       }
     },
     {
+      "id": "b06586d7-1701-4113-a3d7-73ac8ab15bf4",
+      "ts": "2026-09-25T08:16:48.388Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "c8b3abbb-dd45-4b6e-92ab-44c90254095d",
       "ts": "2026-09-25T08:16:48.433Z",
       "workerId": "tanya_trubka3",
@@ -54105,6 +54350,20 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "motion"
+      }
+    },
+    {
+      "id": "fb4f967f-d174-4968-a2b4-35307a0aa46f",
+      "ts": "2026-09-25T08:16:55.475Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     },
     {
@@ -54155,6 +54414,59 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "b1c54600-6eff-4469-9870-f07058608ec6",
+      "ts": "2026-09-25T08:17:39.977Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "83008ebb-2a4c-4ebf-b94b-7d1fc05f4343",
+      "ts": "2026-09-25T08:17:40.450Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "3b04b3ee-7fe7-423a-9eb9-baa1e54b072e",
+      "ts": "2026-09-25T08:17:48.389Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "a6819499-7db0-4a01-9add-2bc90a82fa27",
+      "ts": "2026-09-25T08:18:02.441Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -54237,6 +54549,18 @@
       }
     },
     {
+      "id": "5e12b53f-efd6-4a76-b4d6-6d1a9a6f574a",
+      "ts": "2026-09-25T08:18:48.390Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "20f21bd8-9904-44db-847d-9fd4752dfefa",
       "ts": "2026-09-25T08:18:57.259Z",
       "workerId": "соня_тубка_2",
@@ -54247,6 +54571,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "307a3e97-4f00-4ef9-857a-730556173efa",
+      "ts": "2026-09-25T08:18:59.948Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     },
     {
@@ -54390,6 +54728,20 @@
       }
     },
     {
+      "id": "184361f9-381f-4524-998a-89ef00dca260",
+      "ts": "2026-09-25T08:19:24.328Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e3ec5d26-5bc5-4b61-8e21-dc8f42b59851",
       "ts": "2026-09-25T08:19:25.539Z",
       "workerId": "соня_тубка_2",
@@ -54440,6 +54792,31 @@
       }
     },
     {
+      "id": "77b7ed1c-c77a-4aa4-98d3-ff8ba37f0183",
+      "ts": "2026-09-25T08:19:28.376Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "2e01b3ca-5202-4eca-9bea-04db86e66a1e",
+      "ts": "2026-09-25T08:19:34.820Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "f7d0bee2-19a9-4353-acaa-a733a6242bb0",
       "ts": "2026-09-25T08:19:45.408Z",
       "workerId": "соня_трубка_1",
@@ -54451,6 +54828,32 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "3d7a93bd-0db7-4575-91a0-405f667884bd",
+      "ts": "2026-09-25T08:19:45.449Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "0f66ec23-189c-4d3b-8c0c-87e98e57ad9d",
+      "ts": "2026-09-25T08:19:48.391Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -54636,6 +55039,20 @@
       }
     },
     {
+      "id": "6fa7d508-af32-4a00-9289-9fdc0782a997",
+      "ts": "2026-09-25T08:20:41.871Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "67d9770d-5df9-4c61-898b-5842013f1424",
       "ts": "2026-09-25T08:20:41.961Z",
       "workerId": "соня_трубка_1",
@@ -54663,6 +55080,43 @@
       }
     },
     {
+      "id": "2c35299f-a0eb-4897-afbf-e6c8cead4ea3",
+      "ts": "2026-09-25T08:20:48.392Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "07ebff58-4c70-4d70-bb97-39d3795429c9",
+      "ts": "2026-09-25T08:20:49.902Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "2ed85655-03f6-4114-869e-a47e628fb079",
+      "ts": "2026-09-25T08:20:49.905Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "054b4ab1-b579-440d-8881-8a00b23ac189",
       "ts": "2026-09-25T08:20:50.537Z",
       "workerId": "tanya_trubka3",
@@ -54687,6 +55141,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "06981584-b6d2-4490-9a19-062367d261be",
+      "ts": "2026-09-25T08:21:04.305Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     },
     {
@@ -54880,6 +55348,19 @@
       }
     },
     {
+      "id": "e3e22d0a-b367-4741-97db-71e87602cc0a",
+      "ts": "2026-09-25T08:21:32.616Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "2b35c802-7449-4fde-9d19-5fa0639eb9f1",
       "ts": "2026-09-25T08:21:40.402Z",
       "workerId": "соня_тубка_2",
@@ -54891,6 +55372,32 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "33513af6-89ab-4ad1-ac33-9ffa15676691",
+      "ts": "2026-09-25T08:21:42.058Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "70b39cef-6435-4ad2-8741-65548219e966",
+      "ts": "2026-09-25T08:21:48.393Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -54933,6 +55440,19 @@
       }
     },
     {
+      "id": "7dcf0765-02be-42e3-8077-89bd73f1e0f9",
+      "ts": "2026-09-25T08:21:58.430Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "b55c7645-fe65-4893-8762-104648a233bd",
       "ts": "2026-09-25T08:22:03.221Z",
       "workerId": "соня_тубка_2",
@@ -54943,6 +55463,32 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "812f83d4-3d21-4896-ba32-c9ecdcbab38c",
+      "ts": "2026-09-25T08:22:03.640Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "7b68f111-cbd9-4ffa-a317-0fd524b9c452",
+      "ts": "2026-09-25T08:22:05.013Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -55023,6 +55569,19 @@
       }
     },
     {
+      "id": "fd8240cd-4bb8-48e5-ad2d-dd2ecac3e416",
+      "ts": "2026-09-25T08:22:41.760Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "7a8525f7-2335-4067-9be9-a88cea4ed302",
       "ts": "2026-09-25T08:22:44.461Z",
       "workerId": "соня_трубка_1",
@@ -55060,6 +55619,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "motion"
+      }
+    },
+    {
+      "id": "e1e0cbf5-61c9-4e44-9fce-50be77290715",
+      "ts": "2026-09-25T08:22:48.394Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -55168,6 +55739,20 @@
       }
     },
     {
+      "id": "9f83f995-5966-49d7-878e-2e161bd98d55",
+      "ts": "2026-09-25T08:23:18.925Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "381006d1-ab34-4422-8f32-5da72d2051e7",
       "ts": "2026-09-25T08:23:19.759Z",
       "workerId": "tanya_trubka3",
@@ -55271,6 +55856,20 @@
       }
     },
     {
+      "id": "6e201bd1-37ec-49bb-87da-21c94e238fa6",
+      "ts": "2026-09-25T08:23:44.238Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "954dee6f-2d4f-4dbe-8459-9d6a5c5e40cc",
       "ts": "2026-09-25T08:23:44.921Z",
       "workerId": "tanya_trubka3",
@@ -55280,6 +55879,43 @@
       "event": "capture_pause",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "bb5d4f8c-c9f2-4795-a553-274dfbb2d8e2",
+      "ts": "2026-09-25T08:23:46.647Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "8707ae38-f755-43db-a8e0-7a493a5d0412",
+      "ts": "2026-09-25T08:23:46.649Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "d6e7fe07-957d-4065-8275-d4154205000c",
+      "ts": "2026-09-25T08:23:48.395Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -55335,6 +55971,19 @@
       }
     },
     {
+      "id": "5093b563-7979-4254-9a30-b2556db57913",
+      "ts": "2026-09-25T08:24:07.877Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "9004df90-73b1-4f80-98a6-4cfdae1fa699",
       "ts": "2026-09-25T08:24:09.086Z",
       "workerId": "tanya_trubka3",
@@ -55385,6 +56034,33 @@
       }
     },
     {
+      "id": "9244a72f-a78e-47ae-aa91-3048b5531afc",
+      "ts": "2026-09-25T08:24:42.086Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "9a345c94-6a58-4649-a863-956d8dba2236",
+      "ts": "2026-09-25T08:24:42.455Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "8cb279cc-00f4-449b-96fe-e4cf2cf001b5",
       "ts": "2026-09-25T08:24:44.369Z",
       "workerId": "tanya_trubka3",
@@ -55408,6 +56084,32 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "motion"
+      }
+    },
+    {
+      "id": "27598faf-ac6a-4b4b-8d7d-5058a7cee4a4",
+      "ts": "2026-09-25T08:24:48.395Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "5d547e91-acd3-44bb-b8b4-f90553302158",
+      "ts": "2026-09-25T08:25:03.183Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -55472,6 +56174,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "33d76f5b-3f9a-4d5e-a020-80b3622e7af3",
+      "ts": "2026-09-25T08:25:23.874Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -55549,6 +56265,32 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "1b0a0b84-e3bb-481e-ad08-282dfc8b7540",
+      "ts": "2026-09-25T08:25:48.396Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "bb9bf2f4-ace9-45bc-9f52-585f51dc0f2d",
+      "ts": "2026-09-25T08:25:48.894Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -55641,6 +56383,32 @@
       }
     },
     {
+      "id": "fed5afa2-f442-4b5b-8171-2d17042c4763",
+      "ts": "2026-09-25T08:26:45.595Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "4ed1a38f-719b-43e8-a34e-9acba9787dca",
+      "ts": "2026-09-25T08:26:48.397Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "e480ee35-55a0-4346-9a1b-bb49ddbc70bd",
       "ts": "2026-09-25T08:26:51.908Z",
       "workerId": "tanya_trubka3",
@@ -55651,6 +56419,20 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "motion"
+      }
+    },
+    {
+      "id": "16b8564c-3858-4dc6-bfa7-6d646535cbc3",
+      "ts": "2026-09-25T08:27:08.440Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -55717,6 +56499,19 @@
       }
     },
     {
+      "id": "2141e66e-c0a3-47c8-8a44-0926362992d9",
+      "ts": "2026-09-25T08:27:36.848Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "9dca9964-6f70-45a5-9b72-bfc427f4874c",
       "ts": "2026-09-25T08:27:38.915Z",
       "workerId": "tanya_trubka3",
@@ -55739,6 +56534,18 @@
       "event": "capture_resume",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "e36684aa-5d8b-470a-8a5d-7b05b8e4dd2e",
+      "ts": "2026-09-25T08:27:48.398Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -55781,6 +56588,20 @@
       }
     },
     {
+      "id": "ee297d16-1224-4862-80b5-33a7a435bc12",
+      "ts": "2026-09-25T08:28:02.447Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8132de5b-3baa-478b-95df-89912db4fd2e",
       "ts": "2026-09-25T08:28:03.644Z",
       "workerId": "соня_тубка_2",
@@ -55791,6 +56612,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "422a6fe8-7b39-499d-90ca-6236f1695198",
+      "ts": "2026-09-25T08:28:23.007Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
         "source": "scroll"
       }
     },
@@ -55874,6 +56709,32 @@
       }
     },
     {
+      "id": "561624d0-0399-46e2-aa25-519f2f36ec46",
+      "ts": "2026-09-25T08:28:48.397Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "324f5a36-f5a3-41a3-ae9a-28600581fcb8",
+      "ts": "2026-09-25T08:28:48.453Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8b4c875e-38bc-409b-a29e-31d43c087fec",
       "ts": "2026-09-25T08:28:52.663Z",
       "workerId": "соня_тубка_2",
@@ -55911,6 +56772,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "722aa06b-dc6f-4c0b-bba8-3513de6be799",
+      "ts": "2026-09-25T08:29:09.922Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -56016,6 +56891,32 @@
       }
     },
     {
+      "id": "3984ae66-6433-4eae-b605-880ef1dd37c5",
+      "ts": "2026-09-25T08:29:36.633Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "0b9adbbc-a28d-4321-b0aa-197105818b35",
+      "ts": "2026-09-25T08:29:48.399Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "f5c1cdbe-0323-4bde-b26e-ace73328a132",
       "ts": "2026-09-25T08:29:57.464Z",
       "workerId": "соня_тубка_2",
@@ -56055,6 +56956,20 @@
       }
     },
     {
+      "id": "fdda3f2c-0d62-4ee1-ac08-0fc7301c8711",
+      "ts": "2026-09-25T08:29:59.490Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d2eb4e83-0730-4773-a9f9-c52b72a2e2a5",
       "ts": "2026-09-25T08:30:04.415Z",
       "workerId": "tanya_trubka3",
@@ -56079,6 +56994,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "015773e9-58e4-41ea-9fc4-8210d96e7a02",
+      "ts": "2026-09-25T08:30:20.053Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -56132,6 +57061,32 @@
       }
     },
     {
+      "id": "613f734c-bc5e-434f-a1c0-724c9fc57a30",
+      "ts": "2026-09-25T08:30:40.312Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "756b3fe9-07f4-43af-a1e1-51a4165cd066",
+      "ts": "2026-09-25T08:30:48.399Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "79f5fda0-401e-48bb-b148-a9ffe370df3c",
       "ts": "2026-09-25T08:31:04.371Z",
       "workerId": "соня_тубка_2",
@@ -56156,6 +57111,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "948181f2-6ca5-48a4-95d5-bbb2be6fb732",
+      "ts": "2026-09-25T08:31:05.758Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -56234,6 +57203,20 @@
       }
     },
     {
+      "id": "9515e3c0-419c-4141-af37-72690d02b33c",
+      "ts": "2026-09-25T08:31:26.231Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "80749453-8f92-4c3d-9017-7d70bcad6c0e",
       "ts": "2026-09-25T08:31:32.556Z",
       "workerId": "соня_тубка_2",
@@ -56287,6 +57270,32 @@
       }
     },
     {
+      "id": "b1e470dd-b48a-40e8-8d25-759622cedb1f",
+      "ts": "2026-09-25T08:31:47.864Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "21aa6e0d-1058-43da-8827-a1c96746b75c",
+      "ts": "2026-09-25T08:31:48.400Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "0fa2e396-6554-469a-9823-67fb70623a69",
       "ts": "2026-09-25T08:32:05.460Z",
       "workerId": "tanya_trubka3",
@@ -56298,6 +57307,20 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "dd9e363f-cd8c-473f-ab36-829dab36c770",
+      "ts": "2026-09-25T08:32:07.989Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     },
     {
@@ -56351,6 +57374,84 @@
       }
     },
     {
+      "id": "294c45af-6488-4e4f-b569-5d53de107754",
+      "ts": "2026-09-25T08:32:28.329Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "自宅で高血糖のとき何をするか"
+      }
+    },
+    {
+      "id": "67820302-bddd-436d-a021-747430c8a721",
+      "ts": "2026-09-25T08:32:33.440Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "cdbcb104-5627-4868-a26e-724bf2c7e516",
+      "ts": "2026-09-25T08:32:37.088Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "代謝を支える自宅での方法"
+      }
+    },
+    {
+      "id": "1ea6060b-9db4-4658-a724-9b9bc168f33b",
+      "ts": "2026-09-25T08:32:43.643Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "デトックスと消化器の健康を支える自宅での方法"
+      }
+    },
+    {
+      "id": "19e16a63-58ae-45b1-9413-2fd6f942d5c5",
+      "ts": "2026-09-25T08:32:48.401Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "9cd988d8-7f32-4729-80b7-1acd977d5df6",
+      "ts": "2026-09-25T08:32:48.564Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "クリーンな体のための生活習慣"
+      }
+    },
+    {
       "id": "38c3783b-99d1-4d48-893b-f3c280a0849f",
       "ts": "2026-09-25T08:32:50.692Z",
       "workerId": "соня_тубка_2",
@@ -56365,6 +57466,19 @@
       }
     },
     {
+      "id": "8d3efda0-2dbe-4292-9d22-d76e6b57894a",
+      "ts": "2026-09-25T08:32:55.926Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "安定した血糖のための生活習慣"
+      }
+    },
+    {
       "id": "4e49c03d-c70d-4e52-ae8b-3f0ee3acffc6",
       "ts": "2026-09-25T08:32:56.568Z",
       "workerId": "соня_трубка_1",
@@ -56376,6 +57490,33 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "55a56b99-1367-435c-bde6-d3659c2b9caf",
+      "ts": "2026-09-25T08:32:58.273Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "0bf25fa1-1fdb-44fb-b9e7-44bf642ac354",
+      "ts": "2026-09-25T08:33:00.554Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "泌尿器のトラブルのとき気分を良くする方法"
       }
     },
     {
@@ -56442,6 +57583,18 @@
       }
     },
     {
+      "id": "3595f09f-c682-480a-90e1-baf6fca032c8",
+      "ts": "2026-09-25T08:33:48.401Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "1ee62605-63e0-4c9d-b4b4-df492ae033b3",
       "ts": "2026-09-25T08:33:54.836Z",
       "workerId": "соня_трубка_1",
@@ -56497,6 +57650,72 @@
       }
     },
     {
+      "id": "6cba0457-8450-4cab-bcca-95bb8aa0d26a",
+      "ts": "2026-09-25T08:34:01.389Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "881c704b-5bda-430c-81a5-a639b71cb553",
+      "ts": "2026-09-25T08:34:02.104Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "聴力の健康を支える自宅での方法"
+      }
+    },
+    {
+      "id": "e24bc4f6-d2b4-4a9b-934e-63bd09a919fb",
+      "ts": "2026-09-25T08:34:06.297Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "自宅で体重増加のとき何をするか"
+      }
+    },
+    {
+      "id": "4aa68648-8be5-4aa5-b02a-5f78773fc33e",
+      "ts": "2026-09-25T08:34:10.955Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "自宅で静脈と血管の健康を支える方法"
+      }
+    },
+    {
+      "id": "ffdbe5e1-0128-45aa-8c37-b6c8ad391c66",
+      "ts": "2026-09-25T08:34:15.674Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "聴力の健康を支える自宅での方法"
+      }
+    },
+    {
       "id": "028bc61d-3fc1-4f11-a217-e39593447176",
       "ts": "2026-09-25T08:34:23.116Z",
       "workerId": "tanya_trubka3",
@@ -56518,6 +57737,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9399a059-cc92-4ea0-b49f-0bcf7fe0874c",
+      "ts": "2026-09-25T08:34:23.436Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     },
     {
@@ -56547,6 +57780,20 @@
       }
     },
     {
+      "id": "705266ba-02ca-4354-84ee-be45f9a84f6a",
+      "ts": "2026-09-25T08:34:43.745Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "6f375fea-3659-4dcb-b26b-d826709e2620",
       "ts": "2026-09-25T08:34:47.024Z",
       "workerId": "tanya_trubka3",
@@ -56558,6 +57805,18 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "0386ce21-0ddc-4877-a9d0-47ce153030de",
+      "ts": "2026-09-25T08:34:48.403Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -56597,6 +57856,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "ab73f0c9-8736-4cc2-95f3-2e8a0f84d8ac",
+      "ts": "2026-09-25T08:35:02.544Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -56648,6 +57920,32 @@
       "event": "capture_resume",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "cb5676d2-57b8-46f5-8d5d-c00b2bbc5c92",
+      "ts": "2026-09-25T08:35:22.137Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "c1d82df9-692a-4c1f-8043-3ceea681d823",
+      "ts": "2026-09-25T08:35:22.460Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -56715,6 +58013,32 @@
       }
     },
     {
+      "id": "61098b0f-9014-4930-96da-b7a2397669b4",
+      "ts": "2026-09-25T08:35:27.702Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "7ea17c61-47a0-4947-bcfe-7239667e2653",
+      "ts": "2026-09-25T08:35:28.990Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "7d6c6cb6-e013-4705-9817-3d88ecba9067",
       "ts": "2026-09-25T08:35:37.594Z",
       "workerId": "tanya_trubka3",
@@ -56739,6 +58063,43 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "804f769c-2a1c-4ad2-93fa-afe51f36ee8e",
+      "ts": "2026-09-25T08:35:48.404Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "8b293798-ae42-4f18-ba1e-87a1096afb83",
+      "ts": "2026-09-25T08:35:54.579Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "3ee6a27f-13b4-47e0-85d7-50d08a30e46c",
+      "ts": "2026-09-25T08:35:54.581Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -56808,6 +58169,20 @@
       }
     },
     {
+      "id": "6e47e292-bcfe-46ab-9e0f-79f2cfc7da05",
+      "ts": "2026-09-25T08:36:09.888Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "67e84d8f-e2a9-458d-b602-0ba969f0d45d",
       "ts": "2026-09-25T08:36:23.118Z",
       "workerId": "tanya_trubka3",
@@ -56866,6 +58241,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "be278305-4e86-4952-9916-c5e3412bea87",
+      "ts": "2026-09-25T08:36:33.021Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя"
       }
     }
   ]
