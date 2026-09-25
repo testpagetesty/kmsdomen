@@ -49279,6 +49279,20 @@
       }
     },
     {
+      "id": "56b306d3-8401-4185-b2b2-1914d076d7bd",
+      "ts": "2026-09-25T08:05:16.039Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "b6fe0747-17df-480a-8079-c8e4d9461b2a",
       "ts": "2026-09-25T08:05:17.113Z",
       "workerId": "яя",
@@ -49313,6 +49327,18 @@
       "extra": {
         "name": "Настя1",
         "interest": "Apa yang perlu dilakukan apabila tenaga lelaki menurun"
+      }
+    },
+    {
+      "id": "d8853b40-8a48-480a-8fa8-ba38f49da483",
+      "ts": "2026-09-25T08:05:22.863Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
