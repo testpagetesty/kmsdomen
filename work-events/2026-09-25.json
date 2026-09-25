@@ -49950,6 +49950,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "a18ae5be-cd21-4f81-80d0-618d7b2e7309",
+      "ts": "2026-09-25T08:06:28.225Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
     }
   ]
 }
