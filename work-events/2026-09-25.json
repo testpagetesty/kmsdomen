@@ -5491,6 +5491,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "71755ae9-ec8e-41c5-a0fe-5cc93a7ace4f",
+      "ts": "2026-09-25T04:47:40.443Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
