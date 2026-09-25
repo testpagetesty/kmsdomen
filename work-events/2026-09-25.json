@@ -52173,6 +52173,31 @@
       }
     },
     {
+      "id": "e7ce1eca-9fbc-4aa4-9dc7-8f68d11cf07d",
+      "ts": "2026-09-25T08:11:38.941Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "e4072aef-b2da-4ca1-9637-57a3a96d44fa",
+      "ts": "2026-09-25T08:11:38.942Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "5087638d-6523-41e7-bdb3-f4bc28760172",
       "ts": "2026-09-25T08:11:41.461Z",
       "workerId": "таня_трубка_1",
@@ -52221,6 +52246,20 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "725c0f59-1621-4b36-aa23-c4a8adde1da5",
+      "ts": "2026-09-25T08:11:49.839Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     },
     {
