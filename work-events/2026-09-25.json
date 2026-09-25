@@ -30743,6 +30743,19 @@
         "name": "Таня - Трубка 4",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5dde9ecf-f3dd-4379-a559-429ec0b4da12",
+      "ts": "2026-09-25T07:13:33.062Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for single parents"
+      }
     }
   ]
 }
