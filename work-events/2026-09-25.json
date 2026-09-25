@@ -44432,6 +44432,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c5681f57-f004-4a57-8a3e-2f30447e00bc",
+      "ts": "2026-09-25T07:55:51.511Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
