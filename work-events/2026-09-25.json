@@ -65587,6 +65587,18 @@
       }
     },
     {
+      "id": "1f9699f6-abc2-412d-8b3b-f707d8afae41",
+      "ts": "2026-09-25T08:42:22.495Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "04d4653d-5d5f-408e-9271-c61df25ca5c8",
       "ts": "2026-09-25T08:42:23.575Z",
       "workerId": "таня_трубка_1",
@@ -65621,6 +65633,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "9da1f3bd-1189-4a80-9ba5-5b109107019e",
+      "ts": "2026-09-25T08:42:28.269Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     }
   ]
