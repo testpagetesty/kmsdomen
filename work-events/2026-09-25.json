@@ -37618,6 +37618,32 @@
         "name": "Tanya - trubka3",
         "source": "touch"
       }
+    },
+    {
+      "id": "94debe5e-1ee4-4be9-9f67-becacd6ec086",
+      "ts": "2026-09-25T07:33:18.513Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
+      "id": "cfb26564-d26d-4485-95aa-d188acc6cb3d",
+      "ts": "2026-09-25T07:33:22.632Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
