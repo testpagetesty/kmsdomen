@@ -6015,6 +6015,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "5f7335d2-c405-42ff-8cad-68afa4f665ef",
+      "ts": "2026-09-25T04:51:29.538Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
