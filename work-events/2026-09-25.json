@@ -10602,6 +10602,18 @@
         "name": "Игорь",
         "url": "https://defence24.pl/polityka-obronna"
       }
+    },
+    {
+      "id": "8ddc9185-6acb-4926-a8a5-a7b68e0bbde5",
+      "ts": "2026-09-25T05:35:19.459Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
