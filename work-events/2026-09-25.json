@@ -70898,6 +70898,18 @@
       }
     },
     {
+      "id": "3b345e9d-334f-437d-84d6-f3c301f07169",
+      "ts": "2026-09-25T08:51:48.420Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "93583906-acc7-47f7-922d-2360b29eba3a",
       "ts": "2026-09-25T08:51:50.640Z",
       "workerId": "nastya",
@@ -70921,6 +70933,19 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre hvis øynene blir trøtte"
+      }
+    },
+    {
+      "id": "05766b7b-d790-416f-8c8f-be8d868c5b7c",
+      "ts": "2026-09-25T08:51:57.131Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä nivelvaivoissa"
       }
     }
   ]
