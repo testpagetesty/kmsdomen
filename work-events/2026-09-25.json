@@ -18750,6 +18750,20 @@
       }
     },
     {
+      "id": "f4aaedcf-47e4-4502-af11-0fa4ac6edbc5",
+      "ts": "2026-09-25T06:29:19.756Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "ae148ccf-dae2-4621-96bc-66cc476d4a3e",
       "ts": "2026-09-25T06:29:20.272Z",
       "workerId": "игорь",
