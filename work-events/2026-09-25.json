@@ -65778,6 +65778,18 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "86a1cf64-0fdd-46ba-a2e5-1cb3b346bf78",
+      "ts": "2026-09-25T08:42:48.411Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
