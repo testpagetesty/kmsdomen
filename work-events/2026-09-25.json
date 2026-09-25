@@ -46367,6 +46367,18 @@
       }
     },
     {
+      "id": "4a438f84-f3b2-43bd-8c41-0cc9b6abead9",
+      "ts": "2026-09-25T07:59:43.535Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Vienna",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "51637e38-8fd5-4244-adae-0a5d281895ad",
       "ts": "2026-09-25T07:59:45.825Z",
       "workerId": "таня_трубка_4",
@@ -46783,6 +46795,19 @@
       }
     },
     {
+      "id": "07dc3090-7137-4a84-b1bc-cad8d7649e51",
+      "ts": "2026-09-25T08:00:44.500Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Vienna",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "cf03eb54-f055-4e8b-9726-eb2a64f003a3",
       "ts": "2026-09-25T08:00:45.003Z",
       "workerId": "nastya",
@@ -47162,6 +47187,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "e98c5d03-3762-4421-a480-13826ae24182",
+      "ts": "2026-09-25T08:01:26.624Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Vienna",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
