@@ -66040,6 +66040,20 @@
         "name": "Таня - Трубка 4",
         "source": "touch"
       }
+    },
+    {
+      "id": "417422f5-ecca-4344-882e-ab2bd540f196",
+      "ts": "2026-09-25T08:43:19.600Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
