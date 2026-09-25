@@ -13260,6 +13260,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "2fc339b1-546c-4569-b103-95425d7b13ef",
+      "ts": "2026-09-25T06:04:33.595Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
