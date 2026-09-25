@@ -62488,6 +62488,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "11a22283-e5f8-4e57-8da8-2a7ca99f201b",
+      "ts": "2026-09-25T08:38:26.050Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
     }
   ]
 }
