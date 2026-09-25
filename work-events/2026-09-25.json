@@ -73620,6 +73620,19 @@
       }
     },
     {
+      "id": "f1268e4e-b841-44e4-b98a-f6d1cd7a31f0",
+      "ts": "2026-09-25T08:57:46.764Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Urinveissystemet"
+      }
+    },
+    {
       "id": "2a5c54bc-ad20-43e7-9b1f-e53544d3e549",
       "ts": "2026-09-25T08:57:48.425Z",
       "workerId": "nastya",
@@ -73643,6 +73656,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "3a37cbb5-52ff-4837-8025-6f51fa535c14",
+      "ts": "2026-09-25T08:57:51.832Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved øresus"
       }
     }
   ]
