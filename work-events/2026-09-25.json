@@ -13780,6 +13780,19 @@
       }
     },
     {
+      "id": "2fc945d2-7e8c-42b5-8a2b-5ca7f61bf477",
+      "ts": "2026-09-25T06:08:31.067Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "sg",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "a1f0c07f-63d6-4f93-89ec-34cd7b37405b",
       "ts": "2026-09-25T06:08:34.635Z",
       "workerId": "соня_тубка_2",
