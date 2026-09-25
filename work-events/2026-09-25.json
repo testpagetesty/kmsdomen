@@ -74592,6 +74592,19 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "f47a1a68-1ce7-420d-9857-0b716581327e",
+      "ts": "2026-09-25T08:58:33.362Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved høyt trykk"
+      }
     }
   ]
 }
