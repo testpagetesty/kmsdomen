@@ -8887,6 +8887,20 @@
         "name": "Таня - Трубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "dac9b1c4-69ca-4261-b103-21ab848ae1aa",
+      "ts": "2026-09-25T05:14:54.247Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
+      }
     }
   ]
 }
