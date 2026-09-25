@@ -44838,6 +44838,19 @@
       }
     },
     {
+      "id": "a3cc1006-d3da-4ad2-bd4f-016ee5a3fa4a",
+      "ts": "2026-09-25T07:56:50.177Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
+    },
+    {
       "id": "8a3b9604-1743-4f65-ae72-e8fca0f5cc75",
       "ts": "2026-09-25T07:56:50.583Z",
       "workerId": "игорь",
@@ -44873,6 +44886,18 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "c0c2033b-f7bd-458a-81ad-782097591743",
+      "ts": "2026-09-25T07:56:59.912Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
