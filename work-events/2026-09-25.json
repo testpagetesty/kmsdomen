@@ -71958,6 +71958,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "85a0f248-eed6-4de7-91d7-12fa1e042e2f",
+      "ts": "2026-09-25T08:54:13.528Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
