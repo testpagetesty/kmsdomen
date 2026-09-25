@@ -11782,6 +11782,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c8d6fd46-01eb-4e80-ad92-57edc6d6e91d",
+      "ts": "2026-09-25T05:49:39.772Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
     }
   ]
 }
