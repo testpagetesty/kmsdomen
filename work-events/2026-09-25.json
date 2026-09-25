@@ -47608,6 +47608,19 @@
         "name": "Настя",
         "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
       }
+    },
+    {
+      "id": "ccf92003-30ba-464d-a781-b3f7c12ab72b",
+      "ts": "2026-09-25T08:02:19.041Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
+      }
     }
   ]
 }
