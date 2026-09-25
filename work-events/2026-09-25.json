@@ -7097,6 +7097,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "36c8b619-ea2a-4801-89ac-1f22f98a7289",
+      "ts": "2026-09-25T05:00:15.884Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
