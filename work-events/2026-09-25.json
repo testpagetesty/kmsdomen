@@ -68190,6 +68190,18 @@
         "name": "Настя",
         "title": "会長発表で日本が注目する"
       }
+    },
+    {
+      "id": "7e34d6e4-8316-41e4-8672-0aa2c55d1a31",
+      "ts": "2026-09-25T08:46:43.709Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
