@@ -68702,6 +68702,20 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "209dd015-843f-4dcb-85d4-40d4499c3d52",
+      "ts": "2026-09-25T08:47:37.080Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Dukungan yang dirancang untuk vitalitas dan kebugaran pria."
+      }
     }
   ]
 }
