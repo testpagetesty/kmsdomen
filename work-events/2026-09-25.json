@@ -34334,6 +34334,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "43eb9ef4-d3b6-423b-928d-8aa69de4416b",
+      "ts": "2026-09-25T07:23:26.097Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
+      }
     }
   ]
 }
