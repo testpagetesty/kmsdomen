@@ -69085,6 +69085,20 @@
       }
     },
     {
+      "id": "4481132d-96f5-4709-b763-76c0c905f28a",
+      "ts": "2026-09-25T08:48:23.880Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Kekuatan yang telah dikenal sejak dahulu"
+      }
+    },
+    {
       "id": "05a1db4a-66bd-4e50-8b22-bee575324d7c",
       "ts": "2026-09-25T08:48:25.121Z",
       "workerId": "таня_трубка_4",
@@ -69172,6 +69186,20 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "d9c9e347-e457-4a6f-b2b3-6d4d6eedea78",
+      "ts": "2026-09-25T08:48:39.855Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Vitalitas Pria Tanpa Batas"
       }
     }
   ]
