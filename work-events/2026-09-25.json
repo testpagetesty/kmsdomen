@@ -67286,6 +67286,19 @@
       }
     },
     {
+      "id": "bee8a395-2dba-4548-93c6-380ca3719715",
+      "ts": "2026-09-25T08:45:28.986Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "a210c4e0-da74-458d-9281-fcf44c61a376",
       "ts": "2026-09-25T08:45:30.820Z",
       "workerId": "игорь",
@@ -67381,6 +67394,20 @@
       }
     },
     {
+      "id": "f3ce51ca-d8ee-47be-9dfa-9ee9a8b93f79",
+      "ts": "2026-09-25T08:45:42.197Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "09875857-179f-4c6e-9238-1f20a07f5a20",
       "ts": "2026-09-25T08:45:43.999Z",
       "workerId": "настя1",
@@ -67459,6 +67486,19 @@
       }
     },
     {
+      "id": "f45b6cd1-bba6-4d94-ac86-c23bce46d9eb",
+      "ts": "2026-09-25T08:45:54.486Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "a9f01e43-0364-4464-8827-3eb0b3fde91b",
       "ts": "2026-09-25T08:45:54.568Z",
       "workerId": "nastya",
@@ -67512,6 +67552,18 @@
       "extra": {
         "name": "Таня - трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "56c17ec0-efc1-42ef-b6e7-47edda26de99",
+      "ts": "2026-09-25T08:46:01.053Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
