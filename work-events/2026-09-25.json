@@ -48422,6 +48422,18 @@
       }
     },
     {
+      "id": "9d248713-e2e9-4569-9d99-936669a30f17",
+      "ts": "2026-09-25T08:03:25.198Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "98453286-6e93-4f0d-a1c6-80e93c8dcf75",
       "ts": "2026-09-25T08:03:26.114Z",
       "workerId": "соня_тубка_2",
@@ -48574,6 +48586,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "1ff71d88-b3cd-49bc-8b66-c3b78667a50f",
+      "ts": "2026-09-25T08:03:44.769Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -48731,6 +48756,20 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "7e3d55d0-854a-4f44-9369-b659489e2256",
+      "ts": "2026-09-25T08:03:56.844Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
       }
     },
     {
@@ -48996,6 +49035,18 @@
       }
     },
     {
+      "id": "9dc981ee-7f96-4357-aa2f-98e3bf535ce7",
+      "ts": "2026-09-25T08:04:25.199Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "29698727-ecf5-45c7-803d-e5902ab9a179",
       "ts": "2026-09-25T08:04:26.712Z",
       "workerId": "таня_трубка_2",
@@ -49017,6 +49068,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "40211774-b0ad-4be5-a728-33edbd2f0c9b",
+      "ts": "2026-09-25T08:04:29.556Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -49252,6 +49316,20 @@
       }
     },
     {
+      "id": "292953f2-1ce5-4125-9f3f-b89dc47f8695",
+      "ts": "2026-09-25T08:05:07.909Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "ebe86ce7-b876-47db-830f-b0fbfaea8478",
       "ts": "2026-09-25T08:05:09.040Z",
       "workerId": "таня_трубка_2",
@@ -49422,6 +49500,18 @@
       }
     },
     {
+      "id": "23cfe7cc-e51d-4dd4-b310-442366985e2d",
+      "ts": "2026-09-25T08:05:25.200Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "3b64862d-4ded-4286-865a-0ce2bbd96282",
       "ts": "2026-09-25T08:05:27.118Z",
       "workerId": "настя1",
@@ -49444,6 +49534,20 @@
       "event": "user_active",
       "extra": {
         "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "cb31f7b4-b72b-496e-b3cb-d3d7c6f65997",
+      "ts": "2026-09-25T08:05:28.276Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
         "source": "scroll"
       }
     },
@@ -49666,6 +49770,19 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
+      "id": "8c5ccc1b-43d7-40fe-bf71-ecd8f81b64f2",
+      "ts": "2026-09-25T08:06:08.388Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "socialinė parama piliečiams valstybės lygiu"
       }
     }
   ]
