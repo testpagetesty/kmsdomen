@@ -21354,6 +21354,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "9fe9ce74-2af4-4495-b890-c41eb5f75773",
+      "ts": "2026-09-25T06:40:04.009Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
