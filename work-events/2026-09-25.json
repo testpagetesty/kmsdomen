@@ -73099,6 +73099,18 @@
       }
     },
     {
+      "id": "640883fe-89c4-4340-9a20-5367230d923d",
+      "ts": "2026-09-25T08:56:26.031Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "bef10081-c6d0-4dc2-a72f-195997de804a",
       "ts": "2026-09-25T08:56:26.356Z",
       "workerId": "таня_трубка_1",
@@ -73149,6 +73161,20 @@
       }
     },
     {
+      "id": "abd332f0-5bf7-48d2-823c-49df3e1dfbd6",
+      "ts": "2026-09-25T08:56:36.206Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "f98cb21f-2d20-44bf-ba02-685402457f37",
       "ts": "2026-09-25T08:56:36.424Z",
       "workerId": "настя1",
@@ -73194,6 +73220,18 @@
       "deviceTz": "Europe/Vilnius",
       "geo": "lt",
       "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "30c4b096-14b9-44f4-ac44-619c393b4ed0",
+      "ts": "2026-09-25T08:56:38.724Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
       "event": "capture_resume",
       "extra": {
         "name": "Соня Тубка 2"
@@ -73355,6 +73393,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "1a0df848-1044-4875-84a5-e3cc4b7dfbec",
+      "ts": "2026-09-25T08:57:10.038Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
       }
     }
   ]
