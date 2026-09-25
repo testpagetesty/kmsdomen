@@ -6225,6 +6225,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "770d0b3c-dc77-4c7b-be92-e85f09b5ab69",
+      "ts": "2026-09-25T04:53:04.577Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
