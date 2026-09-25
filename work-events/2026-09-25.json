@@ -70961,6 +70961,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "beafe3ed-6c1f-4506-bd70-9915a5c74188",
+      "ts": "2026-09-25T08:52:01.031Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Iho-ongelmat"
+      }
     }
   ]
 }
