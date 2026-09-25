@@ -68548,6 +68548,20 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "dad8a5e1-e218-4597-8b57-352190f8b1aa",
+      "ts": "2026-09-25T08:47:20.492Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Rahasia Stamina Pria Sejati"
+      }
     }
   ]
 }
