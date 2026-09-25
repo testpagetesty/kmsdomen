@@ -12411,6 +12411,18 @@
       }
     },
     {
+      "id": "cd684091-9db3-4852-807f-a4263b43fa21",
+      "ts": "2026-09-25T05:56:25.683Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "f94c1a4d-bdfb-497f-91ba-51d66e55eda9",
       "ts": "2026-09-25T05:56:27.491Z",
       "workerId": "игорь",
