@@ -63876,6 +63876,20 @@
         "name": "Таня - Трубка 4",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3066666a-c3c7-49d6-9764-44b3f92f80d3",
+      "ts": "2026-09-25T08:38:57.370Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
