@@ -22622,6 +22622,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "ca3cb70c-bfe3-4480-8cb8-d3720d24e611",
+      "ts": "2026-09-25T06:47:03.415Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
