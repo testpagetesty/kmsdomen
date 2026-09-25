@@ -48981,6 +48981,20 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "86603491-c0fb-40ba-b79e-78a82e485e4a",
+      "ts": "2026-09-25T08:04:39.276Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
     }
   ]
 }
