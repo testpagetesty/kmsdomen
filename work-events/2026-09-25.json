@@ -44462,6 +44462,19 @@
       }
     },
     {
+      "id": "ba768a83-1ebf-40f5-a362-7dc154ed7f04",
+      "ts": "2026-09-25T07:55:56.565Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "572dbcba-3067-4ee6-9b51-fa5a9fe14819",
       "ts": "2026-09-25T07:55:57.504Z",
       "workerId": "яя",
