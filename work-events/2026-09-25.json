@@ -69324,6 +69324,20 @@
         "to": "fi",
         "source": "ip"
       }
+    },
+    {
+      "id": "5878b873-a2a4-4473-abf2-df1db93f5f8a",
+      "ts": "2026-09-25T08:48:55.566Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
     }
   ]
 }
