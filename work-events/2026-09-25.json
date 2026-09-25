@@ -152,6 +152,21 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "a439b580-2487-4e71-9859-87977bd12d66",
+      "ts": "2026-09-25T04:07:25.251Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Europe/Dublin",
+      "geo": "id",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "from": "ru",
+        "to": "id",
+        "source": "ip"
+      }
     }
   ]
 }
