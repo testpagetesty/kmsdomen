@@ -45487,6 +45487,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "c719dde0-3af0-4019-8cf4-5c4d95ae46b1",
+      "ts": "2026-09-25T07:58:02.200Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
