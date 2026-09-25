@@ -70050,6 +70050,18 @@
         "name": "Соня Трубка 1",
         "interest": "ayuda financiera del Estado para familias"
       }
+    },
+    {
+      "id": "8fe7738b-f3fe-4288-a1cc-0cd2342080b2",
+      "ts": "2026-09-25T08:50:19.931Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
