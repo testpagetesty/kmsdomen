@@ -52707,6 +52707,18 @@
       }
     },
     {
+      "id": "12bacb61-aae1-4c01-85d8-1ad51df912a1",
+      "ts": "2026-09-25T08:12:22.182Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "203791b6-97f9-4d1f-b34c-b5e33870d6bf",
       "ts": "2026-09-25T08:12:23.096Z",
       "workerId": "tanya_trubka3",
@@ -52833,6 +52845,20 @@
       "extra": {
         "name": "Игорь",
         "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
+    },
+    {
+      "id": "ff043394-c161-4179-8bba-2cb49b1deba0",
+      "ts": "2026-09-25T08:12:40.987Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
       }
     }
   ]
