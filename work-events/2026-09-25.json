@@ -48801,6 +48801,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fe144fdc-eff8-4004-9f66-93734f4e2eef",
+      "ts": "2026-09-25T08:04:15.626Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
