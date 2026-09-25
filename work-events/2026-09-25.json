@@ -69692,6 +69692,20 @@
       }
     },
     {
+      "id": "e47e107f-acad-4e0b-8fac-581513cc31e5",
+      "ts": "2026-09-25T08:49:48.223Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "7d0ee5d7-fc19-4686-af50-6857c9695ea6",
       "ts": "2026-09-25T08:49:48.418Z",
       "workerId": "nastya",
@@ -69717,6 +69731,19 @@
       }
     },
     {
+      "id": "ac42f1f8-9dc6-40f6-b57b-d30374aaa261",
+      "ts": "2026-09-25T08:49:56.192Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
+    },
+    {
       "id": "c823b4d7-8dfb-48af-b578-529f26e50ab9",
       "ts": "2026-09-25T08:49:57.734Z",
       "workerId": "nastya",
@@ -69728,6 +69755,20 @@
       "extra": {
         "name": "Настя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "6120d6a0-4ac5-4a7c-9c23-964d308592f6",
+      "ts": "2026-09-25T08:49:59.956Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "historia.dorzeczy.pl",
+        "source": "teaser"
       }
     }
   ]
