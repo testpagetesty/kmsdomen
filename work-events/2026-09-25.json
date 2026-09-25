@@ -52222,6 +52222,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "1924cdb3-4d84-448c-b2f9-93feb4587040",
+      "ts": "2026-09-25T08:11:50.662Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
