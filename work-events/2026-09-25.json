@@ -72273,6 +72273,18 @@
         "name": "Настя1",
         "source": "touch"
       }
+    },
+    {
+      "id": "03786a1a-d04a-4539-9ec3-deaa7a49cae6",
+      "ts": "2026-09-25T08:55:08.939Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
