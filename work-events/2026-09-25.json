@@ -62569,6 +62569,18 @@
       }
     },
     {
+      "id": "3f460687-cecd-4924-b857-29738fd40b05",
+      "ts": "2026-09-25T08:38:33.886Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "d843dfe2-9cfb-4a09-9c59-74e696f2a3de",
       "ts": "2026-09-25T08:38:36.277Z",
       "workerId": "таня_трубка_4",
@@ -62580,6 +62592,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "47184087-d8cc-4c39-b9f0-bfef2c9ea9a1",
+      "ts": "2026-09-25T08:38:41.487Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
