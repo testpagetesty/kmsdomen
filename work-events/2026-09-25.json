@@ -33753,6 +33753,19 @@
       }
     },
     {
+      "id": "15f55ad9-2787-47cb-b9c0-4d699b2391c3",
+      "ts": "2026-09-25T07:21:40.706Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.metropolitan.si/novice/slovenija"
+      }
+    },
+    {
       "id": "934a9804-99b3-4ba9-9432-ec9ab8b261a0",
       "ts": "2026-09-25T07:21:42.845Z",
       "workerId": "таня_трубка_1",
@@ -33767,6 +33780,19 @@
       }
     },
     {
+      "id": "28228415-4d14-4c63-8d11-68831d4d5490",
+      "ts": "2026-09-25T07:21:43.256Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
+    },
+    {
       "id": "718ffa7b-d053-4146-bad9-422bf1728a0d",
       "ts": "2026-09-25T07:21:44.140Z",
       "workerId": "таня_трубка_1",
@@ -33776,6 +33802,33 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "7b3f699d-663a-4d8c-8866-1f54e53c25eb",
+      "ts": "2026-09-25T07:21:44.250Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "metropolitan.si",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "8ea957df-ff62-45fc-9d54-37552c4fa1c3",
+      "ts": "2026-09-25T07:21:48.366Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
       }
     }
   ]
