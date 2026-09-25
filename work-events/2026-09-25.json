@@ -72315,6 +72315,20 @@
       }
     },
     {
+      "id": "f32f08c7-8f9a-4cdc-a2d3-6554e6baeae4",
+      "ts": "2026-09-25T08:54:54.320Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "cfa56e8c-4115-4e34-a53d-8953102e0a5f",
       "ts": "2026-09-25T08:54:58.021Z",
       "workerId": "настя1",
@@ -72377,6 +72391,20 @@
       "event": "user_active",
       "extra": {
         "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "a2ec88cf-b0c9-4276-b5d5-6784da5399f1",
+      "ts": "2026-09-25T08:55:14.416Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
         "source": "scroll"
       }
     }
