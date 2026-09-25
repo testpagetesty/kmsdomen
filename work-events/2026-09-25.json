@@ -76689,6 +76689,18 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "41c33cc2-cba8-4a2c-8b2c-267eebc4b679",
+      "ts": "2026-09-25T09:02:48.430Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
