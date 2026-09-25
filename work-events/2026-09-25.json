@@ -6041,6 +6041,32 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "afdc55b7-509b-4d8f-be57-28bd3d0335a3",
+      "ts": "2026-09-25T04:51:29.540Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "cd9afbb8-27f5-4720-95ed-61f7727fc23d",
+      "ts": "2026-09-25T04:51:39.219Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
+      }
     }
   ]
 }
