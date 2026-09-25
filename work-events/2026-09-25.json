@@ -27651,6 +27651,56 @@
       }
     },
     {
+      "id": "92a5516e-1f9c-4264-b6e6-e91d6a21f214",
+      "ts": "2026-09-25T07:04:36.721Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "8e9b3a0f-8a73-4dde-8f52-dae8655f40a3",
+      "ts": "2026-09-25T07:04:36.723Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "90c21777-bdbc-4b85-b9dc-7b9ebda98eca",
+      "ts": "2026-09-25T07:04:36.829Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "83466488-f1f2-46d6-945f-d9f537ec5b76",
+      "ts": "2026-09-25T07:04:39.192Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "c4ba59b1-7170-45df-9228-920a7f82bc2e",
       "ts": "2026-09-25T07:04:39.990Z",
       "workerId": "игорь",
@@ -27689,6 +27739,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "06c566fc-1dd1-47fb-b065-68fbeb110e10",
+      "ts": "2026-09-25T07:04:59.448Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
       }
     }
   ]
