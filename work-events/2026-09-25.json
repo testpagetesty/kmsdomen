@@ -25705,6 +25705,19 @@
       }
     },
     {
+      "id": "059320c7-a5f2-45d6-914f-1feb84eaadba",
+      "ts": "2026-09-25T06:57:54.480Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "d4e2e553-3bf3-494e-a395-625e85e09ed3",
       "ts": "2026-09-25T06:57:54.482Z",
       "workerId": "соня_тубка_2",
@@ -25836,6 +25849,20 @@
       }
     },
     {
+      "id": "5f640f6e-9976-4827-98c3-00a1c7858ae1",
+      "ts": "2026-09-25T06:58:13.169Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "433c2764-4e78-4042-8387-989699257568",
       "ts": "2026-09-25T06:58:18.175Z",
       "workerId": "tanya_trubka3",
@@ -25923,6 +25950,18 @@
       }
     },
     {
+      "id": "37f08837-46ad-4ad4-bfe1-ad8a2940e76d",
+      "ts": "2026-09-25T06:58:25.086Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "206752df-a312-4f94-bfed-d9258f329e11",
       "ts": "2026-09-25T06:58:27.490Z",
       "workerId": "игорь",
@@ -25933,6 +25972,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "b4410f0b-ef55-43de-80af-820c110485ef",
+      "ts": "2026-09-25T06:58:30.433Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
