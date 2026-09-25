@@ -39883,6 +39883,18 @@
       }
     },
     {
+      "id": "5b256678-f4cb-448f-95ed-16c03e1514ea",
+      "ts": "2026-09-25T07:39:23.068Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "e7b0c976-a8e9-4e1e-923c-fcc859b01215",
       "ts": "2026-09-25T07:39:27.063Z",
       "workerId": "яя",
@@ -39963,6 +39975,20 @@
         "name": "Игорь",
         "host": "defence24.pl",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "10544288-b8f2-4839-8dd9-db12dfd9e3f8",
+      "ts": "2026-09-25T07:40:00.076Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
       }
     },
     {
