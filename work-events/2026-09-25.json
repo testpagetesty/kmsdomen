@@ -68373,6 +68373,19 @@
       }
     },
     {
+      "id": "c971c847-8358-4fbf-85d1-44dced032c20",
+      "ts": "2026-09-25T08:46:49.304Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Kroppens detox"
+      }
+    },
+    {
       "id": "ad31bf9e-df89-4f52-ab36-8a0819dc8e8f",
       "ts": "2026-09-25T08:46:51.142Z",
       "workerId": "настя1",
@@ -68398,6 +68411,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "9ae47c92-beee-4543-8592-666856bdb2a9",
+      "ts": "2026-09-25T08:46:54.875Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Skjelett- og muskelsystemet"
       }
     }
   ]
