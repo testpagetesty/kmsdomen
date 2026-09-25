@@ -44540,6 +44540,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "5ea1fc72-de15-4e1a-ab1c-d93aefa10e8c",
+      "ts": "2026-09-25T07:56:18.840Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
