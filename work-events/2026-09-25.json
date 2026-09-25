@@ -71554,6 +71554,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "77cd209f-4475-4943-9021-c1cddb7c76d5",
+      "ts": "2026-09-25T08:53:22.423Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
