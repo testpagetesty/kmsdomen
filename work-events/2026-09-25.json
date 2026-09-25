@@ -36082,6 +36082,21 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "21e03c09-a75a-4561-ba53-b54d3459e0fc",
+      "ts": "2026-09-25T07:28:01.682Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Игорь",
+        "from": "hu",
+        "to": "hr",
+        "source": "ip"
+      }
     }
   ]
 }
