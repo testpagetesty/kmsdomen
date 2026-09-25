@@ -6700,6 +6700,19 @@
         "name": "Tanya - trubka3",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5d64f3d8-9ee1-4f92-8128-1ad0aef8ff56",
+      "ts": "2026-09-25T04:58:29.731Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
