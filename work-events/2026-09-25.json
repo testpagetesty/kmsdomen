@@ -14252,6 +14252,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "5d952cde-c08a-4372-9e53-7b8329f02ef8",
+      "ts": "2026-09-25T06:11:19.494Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
