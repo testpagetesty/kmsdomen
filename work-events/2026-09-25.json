@@ -3564,6 +3564,31 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "d1fb802f-bdc4-45ed-a0b2-f004e644d3e3",
+      "ts": "2026-09-25T04:36:50.529Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "7daaa913-d387-4080-a2e3-d000449e9eb2",
+      "ts": "2026-09-25T04:36:50.530Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
