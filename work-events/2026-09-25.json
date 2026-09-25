@@ -21862,6 +21862,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "887a419b-aa8b-438e-8af7-718f1d55051f",
+      "ts": "2026-09-25T06:43:33.670Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
     }
   ]
 }
