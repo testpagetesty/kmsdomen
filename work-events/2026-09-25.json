@@ -69627,6 +69627,19 @@
       }
     },
     {
+      "id": "63a621d6-758c-481d-920b-0de9d2a0340f",
+      "ts": "2026-09-25T08:49:40.809Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
+    },
+    {
       "id": "7bac5c86-7b30-4bd3-b22d-d977a5aa8ad3",
       "ts": "2026-09-25T08:49:41.124Z",
       "workerId": "соня_тубка_2",
@@ -69769,6 +69782,20 @@
         "name": "Игорь",
         "host": "historia.dorzeczy.pl",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "46ab8554-e8ca-4d97-93ab-ff49f054a69e",
+      "ts": "2026-09-25T08:50:01.626Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     }
   ]
