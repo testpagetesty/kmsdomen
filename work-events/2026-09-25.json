@@ -14705,6 +14705,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e3efe9a6-86c0-4dbc-92c3-8889a9aa2f56",
+      "ts": "2026-09-25T06:13:00.340Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for young families"
+      }
     }
   ]
 }
