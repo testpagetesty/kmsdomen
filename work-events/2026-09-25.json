@@ -66390,6 +66390,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "1cd4443e-5d3d-4822-9acc-fd235461823e",
+      "ts": "2026-09-25T08:44:05.444Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
