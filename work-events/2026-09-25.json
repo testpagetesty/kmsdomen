@@ -44528,6 +44528,18 @@
         "name": "Игорь",
         "url": "https://www.metropolitan.si/novice/slovenija"
       }
+    },
+    {
+      "id": "aeaee239-c25a-4aa5-94fb-010d1aa416b9",
+      "ts": "2026-09-25T07:56:18.544Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
