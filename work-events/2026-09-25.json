@@ -53190,6 +53190,1209 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "78588d66-b921-42fc-8839-b6a894f09a62",
+      "ts": "2026-09-25T08:13:11.656Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "847e5d65-e2c8-4790-8a48-e9dba43242e6",
+      "ts": "2026-09-25T08:13:22.873Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "0913f6d1-4939-43d3-bbe7-927e91a0a984",
+      "ts": "2026-09-25T08:13:23.883Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "5c48f3af-4412-4e90-a6dc-4f6163fa6714",
+      "ts": "2026-09-25T08:13:23.883Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "2f3fc611-3271-4864-a79a-b4e032698e75",
+      "ts": "2026-09-25T08:13:35.959Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "29c97fe3-9343-4b52-bb9d-377c1360d3c0",
+      "ts": "2026-09-25T08:13:56.144Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "19e389cb-d5b9-413e-b5f0-81eee03d4542",
+      "ts": "2026-09-25T08:13:57.089Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "3e5190bc-f9cd-4527-b299-ec87a25af486",
+      "ts": "2026-09-25T08:14:19.013Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "c14fcd9c-4733-4f10-879d-633f2941b3dc",
+      "ts": "2026-09-25T08:14:22.874Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9041a7b1-4ceb-4f92-a4d1-75a9f4cd3cff",
+      "ts": "2026-09-25T08:14:38.153Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "279a0b25-6338-4bd9-977c-57105a6202c5",
+      "ts": "2026-09-25T08:14:43.175Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "4ea4ce67-a55b-46dc-91ac-6a8a3e242016",
+      "ts": "2026-09-25T08:14:44.501Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "4dffabb2-f4e5-4567-813e-c986ede77665",
+      "ts": "2026-09-25T08:15:04.500Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a976e68a-2f92-471e-b02a-04a53ec8a057",
+      "ts": "2026-09-25T08:15:04.500Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "d076f5ff-1f98-4d99-a6c5-cfddacf900fb",
+      "ts": "2026-09-25T08:15:07.582Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "c7d8867f-14c5-49d5-b360-294ae02d4263",
+      "ts": "2026-09-25T08:15:22.875Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9a32da5b-739c-4e5e-8326-a11f892d855f",
+      "ts": "2026-09-25T08:15:36.557Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "70936fe1-e576-49a0-babb-0914e7cb450d",
+      "ts": "2026-09-25T08:15:37.420Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "ff4d1aed-e82e-457a-8718-d29c12f454cf",
+      "ts": "2026-09-25T08:15:59.294Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "c49f3018-1425-4708-93b6-7d3a6eb4ac28",
+      "ts": "2026-09-25T08:16:22.880Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "ea56b38b-fd57-4e3c-9ba9-9a1966e4cff4",
+      "ts": "2026-09-25T08:17:22.882Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "bf82b429-66df-415b-9c25-f84af22c7d58",
+      "ts": "2026-09-25T08:18:32.328Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "d19c08af-66ad-4492-bf27-37d03c03f10c",
+      "ts": "2026-09-25T08:19:00.074Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "000d7725-88b3-4906-83ba-6b739f3ab48a",
+      "ts": "2026-09-25T08:19:21.711Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "a30bed72-fce3-4b3c-8dea-9a733bf8bfaa",
+      "ts": "2026-09-25T08:19:22.884Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "f7d0bee2-19a9-4353-acaa-a733a6242bb0",
+      "ts": "2026-09-25T08:19:45.408Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "6f654c69-ea90-4104-97c3-f3f81ebe1e28",
+      "ts": "2026-09-25T08:19:48.608Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "3a045696-f45b-44ab-bc83-3ac48dad408f",
+      "ts": "2026-09-25T08:19:54.920Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "6ebcbc91-d0a4-4a16-a5c7-84eaa95760ef",
+      "ts": "2026-09-25T08:20:01.719Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "c5a94de0-ad41-4a89-be65-57cc0c9fafc5",
+      "ts": "2026-09-25T08:20:01.719Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "634552a0-b15b-49ad-a7b8-dc64efa182f5",
+      "ts": "2026-09-25T08:20:23.259Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "1c6ceba4-22c4-4068-b3c6-304bd4c27864",
+      "ts": "2026-09-25T08:20:23.362Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "67d9770d-5df9-4c61-898b-5842013f1424",
+      "ts": "2026-09-25T08:20:41.961Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "8fcfa589-02f9-45e0-8f50-0c74fcd67fed",
+      "ts": "2026-09-25T08:20:43.923Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "06a60451-0d07-4e53-9547-56bfcaf0b350",
+      "ts": "2026-09-25T08:21:12.105Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "585b1fac-c65e-49a1-b1d4-f6cfb3299ecd",
+      "ts": "2026-09-25T08:21:20.240Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "944f4e17-513d-4c89-8e1b-1948b503eaf6",
+      "ts": "2026-09-25T08:21:23.259Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "794102ea-c0ee-48b7-bd6c-b7c0b27db5ee",
+      "ts": "2026-09-25T08:21:26.576Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "23a0b928-6477-4b18-8cdc-cc058c3e6f6d",
+      "ts": "2026-09-25T08:21:48.935Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "6a3bdbee-41ff-4eeb-a8a8-310915a9d001",
+      "ts": "2026-09-25T08:21:51.348Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "76adf7bf-b1e7-4040-8c9b-8179dda46cd1",
+      "ts": "2026-09-25T08:21:51.348Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a2399d02-b09a-4752-9056-510372c37529",
+      "ts": "2026-09-25T08:22:17.159Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "81e34932-832e-4923-9c47-f671d2b2646c",
+      "ts": "2026-09-25T08:22:23.260Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9e496937-538d-493a-9bea-5f586e34d12b",
+      "ts": "2026-09-25T08:22:32.490Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "7a8525f7-2335-4067-9be9-a88cea4ed302",
+      "ts": "2026-09-25T08:22:44.461Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "60e2b82c-817e-4389-ab5b-a2d7bf75cf8b",
+      "ts": "2026-09-25T08:22:46.528Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "77393d80-562d-41ec-9a4e-e46c1b50f108",
+      "ts": "2026-09-25T08:22:50.798Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "2160d3b7-b20c-434f-8f01-4c4994091d79",
+      "ts": "2026-09-25T08:22:54.353Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "5706f615-bfc6-4d7d-9a39-63a268406e15",
+      "ts": "2026-09-25T08:22:54.353Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "2935d60c-5925-42a4-a948-0f502b98a944",
+      "ts": "2026-09-25T08:23:13.545Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "a8018d70-2f2c-480d-87df-bc8d0e1aad2a",
+      "ts": "2026-09-25T08:23:23.260Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "4ea0617b-9048-4a10-a081-78671843cb4c",
+      "ts": "2026-09-25T08:23:37.784Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "776fc3bb-43f0-4e4d-a247-b8a2803b0a13",
+      "ts": "2026-09-25T08:23:38.691Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "c835e422-6599-4c6d-ad1b-9f6ba43af81a",
+      "ts": "2026-09-25T08:24:23.262Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "e156edcf-aa5b-4063-8203-56f08b32cb0b",
+      "ts": "2026-09-25T08:25:14.398Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "de78ee2f-1329-4fb4-a101-61561656f0e7",
+      "ts": "2026-09-25T08:25:18.825Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "ee94c81a-bf95-499c-9ecb-6b8637780b6f",
+      "ts": "2026-09-25T08:25:23.263Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "0515ae3a-ac18-4be9-9109-b4141fc5e711",
+      "ts": "2026-09-25T08:25:25.160Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "ad0ed6eb-7a60-4005-be84-a96e66295cfd",
+      "ts": "2026-09-25T08:25:33.932Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "fd726556-b7f7-4d98-ab4e-c5a15b1beedf",
+      "ts": "2026-09-25T08:25:33.933Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9325b93a-557d-4e5e-bd77-3b62fd400316",
+      "ts": "2026-09-25T08:25:45.793Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "9b2d1faf-868d-4b65-b175-64d77873b921",
+      "ts": "2026-09-25T08:26:03.128Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "09834aad-e895-4a45-b093-9e4db88e7fee",
+      "ts": "2026-09-25T08:26:09.047Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "6e4d498b-4d0a-421b-b31e-2733ceae96b9",
+      "ts": "2026-09-25T08:26:14.109Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "9d06a807-2da8-49d7-9658-ebc935060065",
+      "ts": "2026-09-25T08:26:15.393Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "7836e2dc-ab35-41ab-8096-ad04cb10b780",
+      "ts": "2026-09-25T08:26:23.264Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "2f93c952-ad4f-4b7e-a5dc-71bda530c110",
+      "ts": "2026-09-25T08:27:23.265Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "72f12d28-124d-418e-b650-70735fdda7d4",
+      "ts": "2026-09-25T08:28:01.921Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "c7699861-096e-4105-966a-fd26974e94df",
+      "ts": "2026-09-25T08:28:01.921Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "d899b3f3-2027-4ddc-9a9f-37a6d6e75ac7",
+      "ts": "2026-09-25T08:28:27.541Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "46246d5a-31fd-4eec-b48b-713f405130fe",
+      "ts": "2026-09-25T08:28:46.608Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "8626b5ed-9b78-4bcf-9fc1-55c831dfda62",
+      "ts": "2026-09-25T08:28:47.871Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "2785171d-ae28-4e78-bd19-b853d5f8b64d",
+      "ts": "2026-09-25T08:29:19.568Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "5f0f8f76-ac3b-4a94-be2c-3feaa726a10e",
+      "ts": "2026-09-25T08:29:23.267Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "b1b4efe8-53b9-428a-adf9-21748acb9e6d",
+      "ts": "2026-09-25T08:29:57.858Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "b70a2133-07d8-4b5c-9181-eff92fbaaf9e",
+      "ts": "2026-09-25T08:30:23.269Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "6815fc7f-0027-4d2d-9be4-cb3e8eff9d0a",
+      "ts": "2026-09-25T08:31:10.630Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "b1c2b0d6-f699-41ff-9fa2-34416e987640",
+      "ts": "2026-09-25T08:31:14.213Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a7537088-46b0-4df9-b322-05a6d8b39531",
+      "ts": "2026-09-25T08:31:20.531Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "879a99e7-3cee-495b-bd75-63a863e93abe",
+      "ts": "2026-09-25T08:31:23.270Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "e164abce-3ef0-4ad2-835d-7f3c322f5d29",
+      "ts": "2026-09-25T08:31:33.083Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "f18c8ce6-8eb9-4393-a607-84a691a5109e",
+      "ts": "2026-09-25T08:31:42.245Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "96ab7bd7-16e4-4bc4-bb81-617b3b92dc13",
+      "ts": "2026-09-25T08:31:42.246Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "f601350d-5cba-44a0-b586-4d5e43c5be99",
+      "ts": "2026-09-25T08:32:23.272Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "4e49c03d-c70d-4e52-ae8b-3f0ee3acffc6",
+      "ts": "2026-09-25T08:32:56.568Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "121e2f5b-2bfd-41bb-8b93-c50aa05cb7dc",
+      "ts": "2026-09-25T08:33:23.273Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "1ee62605-63e0-4c9d-b4b4-df492ae033b3",
+      "ts": "2026-09-25T08:33:54.836Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "5623bd0a-3f1d-4672-9ae9-a5160d3244fa",
+      "ts": "2026-09-25T08:33:55.730Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "0f299a1f-c99d-4b06-8ac3-0922c535eaf4",
+      "ts": "2026-09-25T08:34:23.275Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "b0c874fc-26ce-44bb-a5bf-9abe20aa0b82",
+      "ts": "2026-09-25T08:35:23.275Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "113d34a9-eab4-49c2-ab80-da3e4791e3e9",
+      "ts": "2026-09-25T08:35:25.798Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "4093949a-505f-415d-9d4d-c68326eb95a2",
+      "ts": "2026-09-25T08:35:55.184Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "7c45568f-42da-42cd-86f4-8a19d280a7bb",
+      "ts": "2026-09-25T08:36:23.275Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
