@@ -33856,6 +33856,33 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "0503d12d-ceed-4ad2-91ef-7c87bc46720a",
+      "ts": "2026-09-25T07:21:50.459Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
+    },
+    {
+      "id": "5f638371-3bc6-4bc5-851f-11bd0393a0d4",
+      "ts": "2026-09-25T07:21:53.923Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "blitz.bg",
+        "source": "teaser"
+      }
     }
   ]
 }
