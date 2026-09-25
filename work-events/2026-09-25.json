@@ -31005,6 +31005,19 @@
       }
     },
     {
+      "id": "85d7ca2b-569b-4696-91ac-b01c4eb45a0c",
+      "ts": "2026-09-25T07:14:12.483Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "f92fe490-9720-4ab1-80f2-e1d900c6650a",
       "ts": "2026-09-25T07:14:13.325Z",
       "workerId": "игорь",
