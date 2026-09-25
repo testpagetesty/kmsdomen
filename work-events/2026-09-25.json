@@ -52705,6 +52705,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "20a5801f-d231-4efa-a0ab-8c6588dad06c",
+      "ts": "2026-09-25T08:12:23.881Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
