@@ -46821,6 +46821,20 @@
       }
     },
     {
+      "id": "50d42dca-f9dd-4ec3-b19e-50a19776df95",
+      "ts": "2026-09-25T08:00:45.218Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Συστατικά για την υγεία των ματιών"
+      }
+    },
+    {
       "id": "5f7f3282-a23f-4477-a6e5-f4345a4fd259",
       "ts": "2026-09-25T08:00:46.889Z",
       "workerId": "nastya",
@@ -46952,6 +46966,20 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース 暗号資産ニュース 今日"
+      }
+    },
+    {
+      "id": "ba8f85e9-3ae8-4c6a-8ef0-0f86bf3b9fc0",
+      "ts": "2026-09-25T08:00:57.202Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Σύνθεση με συστατικά για τα μάτια"
       }
     },
     {
@@ -47498,6 +47526,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "6cd641b0-fc2e-4e21-b241-9696465e7b20",
+      "ts": "2026-09-25T08:02:07.041Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Αποτρέψτε τα εμφανή σημάδια γήρανσης"
       }
     }
   ]
