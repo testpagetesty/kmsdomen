@@ -76426,6 +76426,20 @@
         "name": "Настя",
         "interest": "Kehon detox"
       }
+    },
+    {
+      "id": "bd5791e8-2f0f-4051-9062-be925f2991cf",
+      "ts": "2026-09-25T09:02:16.273Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
