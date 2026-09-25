@@ -65742,6 +65742,19 @@
       }
     },
     {
+      "id": "8e7efcfc-f7d1-42fe-bcaa-9e3a2d7b9560",
+      "ts": "2026-09-25T08:42:39.479Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "976a5a39-ca35-41cb-87b1-12b152a4f723",
       "ts": "2026-09-25T08:42:42.859Z",
       "workerId": "игорь",
@@ -65752,6 +65765,18 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
+      "id": "f8886b4a-2ade-40c6-9867-d96683759a8a",
+      "ts": "2026-09-25T08:42:44.537Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
