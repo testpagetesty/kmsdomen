@@ -66054,6 +66054,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "67082b8c-d57f-44e1-9479-8cdc0b754b18",
+      "ts": "2026-09-25T08:43:22.497Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
