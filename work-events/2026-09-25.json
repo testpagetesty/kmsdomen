@@ -2943,6 +2943,20 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "de801e21-6a47-4774-a841-8606493aad22",
+      "ts": "2026-09-25T04:31:15.149Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
