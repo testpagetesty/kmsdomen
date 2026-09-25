@@ -69959,6 +69959,19 @@
       }
     },
     {
+      "id": "ea20bd27-5dfe-4294-ba5e-9bd98e81e9c9",
+      "ts": "2026-09-25T08:50:02.926Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "0137e6ea-fe5d-4934-a037-5f2e67261d74",
       "ts": "2026-09-25T08:50:03.039Z",
       "workerId": "соня_трубка_1",
@@ -70103,6 +70116,19 @@
       }
     },
     {
+      "id": "e0948145-a056-4d92-8834-ff342f0271c9",
+      "ts": "2026-09-25T08:50:13.887Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "3d6ac6cd-edc2-4218-bd75-c8aa537cf2e9",
       "ts": "2026-09-25T08:50:14.944Z",
       "workerId": "настя1",
@@ -70142,6 +70168,19 @@
       }
     },
     {
+      "id": "f92d5169-92b5-43b1-aa85-06244bcdbcf8",
+      "ts": "2026-09-25T08:50:19.626Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "932f194c-3246-46c8-9c1f-ac3c796d0f9a",
       "ts": "2026-09-25T08:50:19.930Z",
       "workerId": "соня_тубка_2",
@@ -70178,6 +70217,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "67b0674a-e94c-4fac-8f2c-4c67f1434371",
+      "ts": "2026-09-25T08:50:23.207Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -70387,6 +70438,19 @@
       }
     },
     {
+      "id": "28ec658d-17da-4761-93bd-6726f35b064e",
+      "ts": "2026-09-25T08:50:50.480Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "7c3e340c-eee0-4bc3-9555-0e697e056044",
       "ts": "2026-09-25T08:50:50.594Z",
       "workerId": "игорь",
@@ -70425,6 +70489,20 @@
       }
     },
     {
+      "id": "0eafce4d-b020-4447-994c-26a215c9fa77",
+      "ts": "2026-09-25T08:50:55.706Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
+    },
+    {
       "id": "0b750a95-58c0-4bca-a24b-be0874e89daa",
       "ts": "2026-09-25T08:50:55.905Z",
       "workerId": "настя1",
@@ -70435,6 +70513,18 @@
       "event": "capture_stop",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "ee7c0bd3-8ef9-4dc6-99af-610dcd760b46",
+      "ts": "2026-09-25T08:50:56.986Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -70582,6 +70672,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "41e91fe2-3740-45a6-b508-3bf98f44ed86",
+      "ts": "2026-09-25T08:51:23.211Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
