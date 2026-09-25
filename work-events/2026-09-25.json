@@ -72103,6 +72103,20 @@
       }
     },
     {
+      "id": "e69b1237-98a1-4018-98dc-c0a619e77194",
+      "ts": "2026-09-25T08:54:35.376Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "9ee294a2-23b5-4c78-be40-550fd5430c56",
       "ts": "2026-09-25T08:54:36.827Z",
       "workerId": "соня_трубка_1",
@@ -72192,6 +72206,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "subsidios estatales para ciudadanos de bajos ingresos"
+      }
+    },
+    {
+      "id": "1c6e024e-79bb-469e-8dff-9acdc3bffb7a",
+      "ts": "2026-09-25T08:54:51.058Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
