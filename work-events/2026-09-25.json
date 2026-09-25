@@ -69095,6 +69095,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "992641fc-18fe-461d-b3b2-c3e15cd5c2dc",
+      "ts": "2026-09-25T08:48:28.590Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Kroppens detox"
+      }
     }
   ]
 }
