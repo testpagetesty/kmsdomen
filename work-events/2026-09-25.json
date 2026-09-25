@@ -14964,6 +14964,20 @@
         "name": "Соня Тубка 2",
         "interest": "government support programs for the population"
       }
+    },
+    {
+      "id": "5d3b5a54-e0e3-4381-92ba-3688ae46d461",
+      "ts": "2026-09-25T06:13:44.447Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
