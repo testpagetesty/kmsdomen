@@ -36622,6 +36622,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "1ca24766-cb6e-4e6a-ad5d-16005fee63a7",
+      "ts": "2026-09-25T07:30:09.412Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
