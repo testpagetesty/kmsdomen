@@ -5837,6 +5837,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "5a2e9094-8487-4050-b37b-8a1e676b2673",
+      "ts": "2026-09-25T04:50:19.041Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
