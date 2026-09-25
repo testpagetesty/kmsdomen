@@ -71721,6 +71721,20 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "eb069c4d-6205-4ea0-b154-5e46be94b3e4",
+      "ts": "2026-09-25T08:53:40.293Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
