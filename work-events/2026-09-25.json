@@ -16517,6 +16517,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "0fe4f109-a11f-4568-a09d-cb969141a6cc",
+      "ts": "2026-09-25T06:21:17.178Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
