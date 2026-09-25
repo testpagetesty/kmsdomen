@@ -25807,6 +25807,20 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "424a78a3-a35a-4650-bd18-1742f31f0631",
+      "ts": "2026-09-25T06:58:11.547Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
     }
   ]
 }
