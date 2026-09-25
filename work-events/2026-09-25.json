@@ -72049,6 +72049,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "dbced945-085e-4821-bef3-7e4b4a88904f",
+      "ts": "2026-09-25T08:54:30.082Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
