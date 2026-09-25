@@ -69907,6 +69907,32 @@
       }
     },
     {
+      "id": "0137e6ea-fe5d-4934-a037-5f2e67261d74",
+      "ts": "2026-09-25T08:50:03.039Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9e6e3bbd-21ae-4081-ad6c-527153e3a29b",
+      "ts": "2026-09-25T08:50:03.699Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "apoyo social para desempleados"
+      }
+    },
+    {
       "id": "3e1902ff-718e-4f2e-8db0-5034feb5834c",
       "ts": "2026-09-25T08:50:04.350Z",
       "workerId": "таня_трубка_1",
@@ -70010,6 +70036,19 @@
       "extra": {
         "name": "Настя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "63d2275d-c8b4-4143-b90c-0d0a5d9122ca",
+      "ts": "2026-09-25T08:50:18.142Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "ayuda financiera del Estado para familias"
       }
     }
   ]
