@@ -51159,6 +51159,20 @@
         "name": "Соня Тубка 2",
         "interest": "valstybinė parama jaunoms šeimoms"
       }
+    },
+    {
+      "id": "c804583c-d9a2-4af8-aaf5-50e8c01b248f",
+      "ts": "2026-09-25T08:09:46.970Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
