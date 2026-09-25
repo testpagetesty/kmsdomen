@@ -36084,6 +36084,19 @@
       }
     },
     {
+      "id": "6698ccce-0251-46c1-a636-fb9b5a949bb9",
+      "ts": "2026-09-25T07:28:00.437Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
+      }
+    },
+    {
       "id": "21e03c09-a75a-4561-ba53-b54d3459e0fc",
       "ts": "2026-09-25T07:28:01.682Z",
       "workerId": "игорь",
