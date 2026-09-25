@@ -46850,6 +46850,19 @@
       }
     },
     {
+      "id": "2855dd37-b3ef-4d34-beee-98b4e216648a",
+      "ts": "2026-09-25T08:00:50.855Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "9accb825-3fac-4bd1-a514-8ddcaab46d40",
       "ts": "2026-09-25T08:00:50.856Z",
       "workerId": "соня_тубка_2",
@@ -46967,6 +46980,20 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース 仮想通貨市場ニュース 今日"
+      }
+    },
+    {
+      "id": "debe08d6-68ba-4bfd-a5db-60b3452bd56b",
+      "ts": "2026-09-25T08:01:04.475Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
       }
     },
     {
@@ -47111,6 +47138,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "31bfe38c-f045-47d6-ae99-c24e9ec4691e",
+      "ts": "2026-09-25T08:01:25.193Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
