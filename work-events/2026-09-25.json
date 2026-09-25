@@ -16167,6 +16167,19 @@
       }
     },
     {
+      "id": "5112bd9a-80cc-4a34-953e-59b2fbe1e720",
+      "ts": "2026-09-25T06:19:07.711Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "8bbcbf21-6d75-4120-862a-e1faad46780c",
       "ts": "2026-09-25T06:19:14.436Z",
       "workerId": "соня_тубка_2",
@@ -16190,6 +16203,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "1a4ddb75-11ea-4d2a-8afb-8a1b6009c22d",
+      "ts": "2026-09-25T06:19:22.482Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
