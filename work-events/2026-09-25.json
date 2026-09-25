@@ -39155,6 +39155,20 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "36acf2ca-d9a0-473b-bb90-2f621c4246c3",
+      "ts": "2026-09-25T07:37:28.940Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
     }
   ]
 }
