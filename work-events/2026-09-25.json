@@ -67908,6 +67908,19 @@
         "name": "Таня - Трубка 2",
         "title": "Bantu memelihara ketahanan fisik pria agar tetap bugar saat beraktivitas."
       }
+    },
+    {
+      "id": "132a3abd-21f4-4c00-b08b-0affd704b0fc",
+      "ts": "2026-09-25T08:46:20.083Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
