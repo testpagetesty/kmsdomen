@@ -52518,6 +52518,19 @@
         "name": "Настя",
         "source": "touch"
       }
+    },
+    {
+      "id": "80328513-8b01-42fb-a63f-f01c11e4bed1",
+      "ts": "2026-09-25T08:12:08.392Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
