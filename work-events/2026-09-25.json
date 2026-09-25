@@ -64294,6 +64294,20 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "bd84b0c5-3946-4b18-91e3-1fec28231902",
+      "ts": "2026-09-25T08:39:57.350Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
