@@ -15734,6 +15734,20 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "e78d5f34-64b1-470e-93f0-16e5e6375a2d",
+      "ts": "2026-09-25T06:17:19.720Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
