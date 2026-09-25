@@ -30520,6 +30520,20 @@
         "name": "Соня Тубка 2",
         "interest": "state-level social support for citizens"
       }
+    },
+    {
+      "id": "d69d2f98-2621-4236-8b6f-e8aafd33d270",
+      "ts": "2026-09-25T07:13:05.345Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
