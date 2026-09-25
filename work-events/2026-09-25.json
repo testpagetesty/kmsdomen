@@ -32541,6 +32541,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "75cf5658-33ea-4644-b0fc-d17abc1e7e32",
+      "ts": "2026-09-25T07:18:56.047Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
