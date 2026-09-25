@@ -65405,6 +65405,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "64447383-b341-4c11-b875-dfdd8fe0e177",
+      "ts": "2026-09-25T08:41:59.513Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
