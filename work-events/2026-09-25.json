@@ -69021,6 +69021,19 @@
       }
     },
     {
+      "id": "ffa344d8-8abf-40c8-a2ce-a6a27f5dea33",
+      "ts": "2026-09-25T08:48:16.670Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Sirkulasjonsproblemer"
+      }
+    },
+    {
       "id": "1d8b1c1c-4cc1-4674-aa67-33bad9149c6b",
       "ts": "2026-09-25T08:48:18.902Z",
       "workerId": "настя1",
@@ -69069,6 +69082,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "fb05b7b2-f9f6-444a-9fe4-03033b7ee29a",
+      "ts": "2026-09-25T08:48:27.182Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
