@@ -50523,6 +50523,20 @@
       }
     },
     {
+      "id": "34aaf3ec-5dcb-4ae3-9a58-42adba644e0a",
+      "ts": "2026-09-25T08:07:57.231Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "ffaeb06a-5cd0-4025-89e6-efac9c7ead0a",
       "ts": "2026-09-25T08:08:04.497Z",
       "workerId": "таня_трубка_2",
@@ -50533,6 +50547,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "eb83f402-3e9a-43fe-b3a5-528a8676532a",
+      "ts": "2026-09-25T08:08:05.269Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
       }
     },
     {
@@ -50616,6 +50643,20 @@
       }
     },
     {
+      "id": "fdaae5d2-24c3-4c3a-81b0-f19665b7c19c",
+      "ts": "2026-09-25T08:08:17.328Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "6aa340c2-6608-49b9-89d6-f3d52c515621",
       "ts": "2026-09-25T08:08:18.860Z",
       "workerId": "таня_трубка_4",
@@ -50625,6 +50666,18 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "38ed938c-911d-47dd-aa47-eff0367a13a6",
+      "ts": "2026-09-25T08:08:20.970Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
