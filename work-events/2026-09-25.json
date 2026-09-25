@@ -75372,6 +75372,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "9b8ccbaf-8abf-44fd-8e39-41eb0f95a30d",
+      "ts": "2026-09-25T09:00:09.894Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "namų būdai širdies ir kraujagyslių sistemos palaikymui"
+      }
     }
   ]
 }
