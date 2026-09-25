@@ -30484,6 +30484,19 @@
       }
     },
     {
+      "id": "fb8ffae5-5be0-4147-96d6-363a2378b78c",
+      "ts": "2026-09-25T07:12:54.316Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "77d27a35-1bbe-44a6-93ba-fdfa38acb1bd",
       "ts": "2026-09-25T07:12:54.317Z",
       "workerId": "соня_трубка_1",
@@ -30613,6 +30626,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "state support for young families"
+      }
+    },
+    {
+      "id": "3551159f-652a-4c70-8a2a-b23b64494469",
+      "ts": "2026-09-25T07:13:17.464Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
       }
     }
   ]
