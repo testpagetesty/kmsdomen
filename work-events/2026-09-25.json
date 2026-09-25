@@ -17049,6 +17049,20 @@
       }
     },
     {
+      "id": "aafe5ed9-e3e3-4087-b608-38f88ea2a90b",
+      "ts": "2026-09-25T06:23:10.416Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "c7280bec-481f-48b3-9d68-0f46e1e561cf",
       "ts": "2026-09-25T06:23:12.184Z",
       "workerId": "игорь",
@@ -17108,6 +17122,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "c578c1fe-97ae-4a54-a0aa-534b926958e4",
+      "ts": "2026-09-25T06:23:24.720Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
