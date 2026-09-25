@@ -35003,6 +35003,19 @@
         "name": "Таня - Трубка 4",
         "source": "touch"
       }
+    },
+    {
+      "id": "02ee1e76-fe18-4463-b0a1-6271bdc6d8f1",
+      "ts": "2026-09-25T07:24:45.008Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
