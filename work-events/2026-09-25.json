@@ -68452,6 +68452,20 @@
         "name": "Настя",
         "title": "野球の試合は騒動で幕を閉じた"
       }
+    },
+    {
+      "id": "31bb56fc-d8e6-4f20-b59f-5a4ee93da020",
+      "ts": "2026-09-25T08:47:04.519Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Energi & Vitalitas Pria"
+      }
     }
   ]
 }
