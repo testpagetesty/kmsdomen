@@ -29914,6 +29914,18 @@
       }
     },
     {
+      "id": "8d7dad9e-5447-4e4a-8593-f3c3b8df98f5",
+      "ts": "2026-09-25T07:11:23.037Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "7f4d5949-ad2f-4f50-ac6f-bb2d617894ac",
       "ts": "2026-09-25T07:11:24.706Z",
       "workerId": "игорь",
@@ -29964,6 +29976,19 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "bc160eab-e40b-494a-83e4-943833bdf8d8",
+      "ts": "2026-09-25T07:11:29.297Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     },
     {
@@ -30069,6 +30094,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "8813edcd-8762-49a4-8dbb-f273a7716f55",
+      "ts": "2026-09-25T07:11:49.364Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
       }
     }
   ]
