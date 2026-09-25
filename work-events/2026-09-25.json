@@ -36176,6 +36176,18 @@
       }
     },
     {
+      "id": "a7b80e31-26d6-4246-af92-314fa766e677",
+      "ts": "2026-09-25T07:28:00.618Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "21e03c09-a75a-4561-ba53-b54d3459e0fc",
       "ts": "2026-09-25T07:28:01.682Z",
       "workerId": "игорь",
@@ -36383,6 +36395,18 @@
       "extra": {
         "name": "Яя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "efca16f0-dc00-4d70-889a-ddf7486a0c47",
+      "ts": "2026-09-25T07:28:39.224Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
@@ -37410,6 +37434,19 @@
       }
     },
     {
+      "id": "438a67d1-1835-4e88-a1f0-625b2a76146c",
+      "ts": "2026-09-25T07:32:48.361Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "2a530345-7e88-414a-bb72-c83fc6ba48ba",
       "ts": "2026-09-25T07:32:48.362Z",
       "workerId": "таня_трубка_2",
@@ -37484,6 +37521,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "f58368b2-e95c-4a59-90ee-2649a73a08a4",
+      "ts": "2026-09-25T07:33:07.844Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "touch"
       }
     },
     {
