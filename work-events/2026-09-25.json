@@ -34197,6 +34197,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "c99a26a5-d8b9-4b4c-b1e9-25d045fc6cd4",
+      "ts": "2026-09-25T07:22:58.081Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
