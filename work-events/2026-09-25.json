@@ -29270,6 +29270,19 @@
       }
     },
     {
+      "id": "5e758238-45d3-4f29-a6ce-6ce38a06c781",
+      "ts": "2026-09-25T07:09:17.652Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "32b3d351-bde9-4494-bb5e-0572fd5ef771",
       "ts": "2026-09-25T07:09:18.473Z",
       "workerId": "яя",
@@ -29353,6 +29366,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "fe4579b3-d186-4ef4-959d-0afc26da9d6e",
+      "ts": "2026-09-25T07:09:32.463Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
