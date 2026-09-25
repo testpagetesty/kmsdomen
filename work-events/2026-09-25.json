@@ -70556,6 +70556,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ec267b60-7987-4bac-8455-9388a98faa38",
+      "ts": "2026-09-25T08:51:21.551Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
