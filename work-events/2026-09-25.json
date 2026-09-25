@@ -65790,6 +65790,19 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "5030ac4f-1305-43d0-b96a-3b0fe947a358",
+      "ts": "2026-09-25T08:42:49.125Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
