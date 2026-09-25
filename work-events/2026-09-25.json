@@ -25233,6 +25233,19 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "f9a48f29-f684-4f6b-b188-bb2b6df271ba",
+      "ts": "2026-09-25T06:56:22.680Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
