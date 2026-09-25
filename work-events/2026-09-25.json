@@ -69033,6 +69033,19 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "25a85c21-55bb-4515-9911-2d88a18c367a",
+      "ts": "2026-09-25T08:48:19.982Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
