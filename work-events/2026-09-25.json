@@ -21916,6 +21916,20 @@
         "host": "blitz.bg",
         "source": "teaser"
       }
+    },
+    {
+      "id": "a5a7373c-5199-44a6-875f-5aad211791c9",
+      "ts": "2026-09-25T06:43:54.096Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
