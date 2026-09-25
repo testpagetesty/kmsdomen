@@ -40430,6 +40430,21 @@
         "name": "Игорь",
         "url": "https://regionalobala.si/novica"
       }
+    },
+    {
+      "id": "4a6c81e5-6033-4e47-9786-bd933b458e95",
+      "ts": "2026-09-25T07:41:50.740Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Игорь",
+        "from": "hr",
+        "to": "ee",
+        "source": "ip"
+      }
     }
   ]
 }
