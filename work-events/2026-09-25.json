@@ -77008,6 +77008,19 @@
       }
     },
     {
+      "id": "e8aab05c-a2c0-4a34-880a-e82ac45e8b63",
+      "ts": "2026-09-25T09:03:25.511Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "eda5fa4b-edc2-4e19-9f1d-7511160a7db5",
       "ts": "2026-09-25T09:03:26.042Z",
       "workerId": "соня_тубка_2",
@@ -77186,6 +77199,20 @@
       }
     },
     {
+      "id": "85e4480a-4827-499f-868e-e88b0731fce6",
+      "ts": "2026-09-25T09:03:45.923Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d51b8b37-cbfd-45aa-ba53-33547c98ca89",
       "ts": "2026-09-25T09:03:47.003Z",
       "workerId": "соня_тубка_2",
@@ -77221,6 +77248,19 @@
       "extra": {
         "name": "Таня - трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "4c912283-05bc-4b05-81f0-26d7761dd1cc",
+      "ts": "2026-09-25T09:03:54.124Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
