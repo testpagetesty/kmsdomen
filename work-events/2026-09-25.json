@@ -66466,6 +66466,19 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "ac0a5de1-e8e3-4963-b73b-5f2719d7dffe",
+      "ts": "2026-09-25T08:44:13.092Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
