@@ -68425,6 +68425,20 @@
         "name": "Настя1",
         "interest": "Skjelett- og muskelsystemet"
       }
+    },
+    {
+      "id": "5552ad77-bc38-4ccd-af29-a5719ed12e64",
+      "ts": "2026-09-25T08:47:01.735Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Настя",
+        "title": "野球の試合は騒動で幕を閉じた"
+      }
     }
   ]
 }
