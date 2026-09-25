@@ -37657,6 +37657,31 @@
       }
     },
     {
+      "id": "ef35d17c-5133-4466-9dda-df8fa2c472eb",
+      "ts": "2026-09-25T07:33:20.710Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
+      "id": "e273db21-ed55-472f-913c-e020b9c8b029",
+      "ts": "2026-09-25T07:33:20.728Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
+    },
+    {
       "id": "a57bc60a-9835-4906-a852-f6b222c03f31",
       "ts": "2026-09-25T07:33:20.811Z",
       "workerId": "таня_трубка_4",
@@ -37704,6 +37729,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "48e64285-5639-4403-abe7-1ff8c3c31734",
+      "ts": "2026-09-25T07:33:27.482Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
