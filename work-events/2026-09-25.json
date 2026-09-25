@@ -38491,6 +38491,19 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "c6bc3269-df96-42f9-9035-c417b9e57ca5",
+      "ts": "2026-09-25T07:35:23.776Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zagorje.com/mobile"
+      }
     }
   ]
 }
