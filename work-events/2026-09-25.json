@@ -5090,6 +5090,19 @@
         "name": "Таня - Трубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "67c57f3f-80ac-4579-99f0-629572c44992",
+      "ts": "2026-09-25T04:45:01.515Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
