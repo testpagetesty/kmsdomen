@@ -37190,6 +37190,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f35cf232-8332-48f8-83eb-c359c044f5bb",
+      "ts": "2026-09-25T07:32:25.134Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
