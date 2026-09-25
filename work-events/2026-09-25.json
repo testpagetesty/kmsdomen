@@ -72982,6 +72982,19 @@
       }
     },
     {
+      "id": "7044d6c5-eafb-45c9-a572-284c5b34f156",
+      "ts": "2026-09-25T08:56:19.224Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Miten alentaa verenpainetta"
+      }
+    },
+    {
       "id": "b44be237-e1c4-4734-b35a-bb71533a4b19",
       "ts": "2026-09-25T08:56:19.391Z",
       "workerId": "таня_трубка_1",
@@ -73030,6 +73043,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "81e868c4-76b0-416d-90c3-cdb233f88360",
+      "ts": "2026-09-25T08:56:26.007Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Verenkiertohäiriöt"
       }
     }
   ]
