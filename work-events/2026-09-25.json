@@ -62238,6 +62238,20 @@
       }
     },
     {
+      "id": "405e6694-c18f-4ec8-86b0-477d5a511a57",
+      "ts": "2026-09-25T08:37:45.223Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "41c9b854-5837-44bc-8f46-1c42f8976357",
       "ts": "2026-09-25T08:37:46.050Z",
       "workerId": "соня_тубка_2",
@@ -62368,6 +62382,19 @@
       "extra": {
         "name": "Таня - трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "2d6da913-b8f1-4d06-b8e2-b9bd9831b0f8",
+      "ts": "2026-09-25T08:38:05.385Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
       }
     },
     {
@@ -62556,6 +62583,19 @@
       }
     },
     {
+      "id": "5ed06710-c2e5-4490-8ff2-4bf3313dfaeb",
+      "ts": "2026-09-25T08:38:33.703Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "7052126d-be0e-4f75-ad9b-29bf847c4f28",
       "ts": "2026-09-25T08:38:33.884Z",
       "workerId": "таня_трубка_1",
@@ -62592,6 +62632,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "c7c16afa-e1fc-4140-9ecb-8164f71d047d",
+      "ts": "2026-09-25T08:38:40.368Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
