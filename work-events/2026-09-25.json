@@ -65195,6 +65195,19 @@
       }
     },
     {
+      "id": "a240ef90-0762-48c9-97d5-7f9ecc0e41a2",
+      "ts": "2026-09-25T08:41:30.642Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
+    },
+    {
       "id": "8b8f21b6-1ab0-475d-a544-3c4faa3f323e",
       "ts": "2026-09-25T08:41:31.306Z",
       "workerId": "таня_трубка_4",
@@ -65258,6 +65271,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "6973cdc0-55bd-4454-895a-434c091f219b",
+      "ts": "2026-09-25T08:41:39.280Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     }
