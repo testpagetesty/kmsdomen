@@ -60667,6 +60667,19 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "1f0869bb-b9b3-43b4-a824-d2a40fe11ff0",
+      "ts": "2026-09-25T08:37:38.655Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
