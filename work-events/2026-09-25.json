@@ -50679,6 +50679,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "fda589b8-4bc4-4715-896f-9e921a949653",
+      "ts": "2026-09-25T08:08:21.829Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
