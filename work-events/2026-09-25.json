@@ -65206,6 +65206,20 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "d393ddcd-fce3-4990-8351-4be969f80331",
+      "ts": "2026-09-25T08:41:34.129Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
