@@ -64126,6 +64126,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "251daab1-a3e5-4c16-b9de-fc92a2baf056",
+      "ts": "2026-09-25T08:39:41.488Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
