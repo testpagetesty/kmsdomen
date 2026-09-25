@@ -41185,6 +41185,20 @@
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
       }
+    },
+    {
+      "id": "034462aa-0f0c-4da3-87b8-0519186db89a",
+      "ts": "2026-09-25T07:45:52.611Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
