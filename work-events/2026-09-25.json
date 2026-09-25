@@ -62450,6 +62450,18 @@
       }
     },
     {
+      "id": "b914bceb-b895-41f4-bed5-b22959e6ea96",
+      "ts": "2026-09-25T08:38:22.491Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "8a11d128-ffc2-41ac-b6b5-2fc13db2158e",
       "ts": "2026-09-25T08:38:23.278Z",
       "workerId": "соня_трубка_1",
@@ -62554,6 +62566,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "d843dfe2-9cfb-4a09-9c59-74e696f2a3de",
+      "ts": "2026-09-25T08:38:36.277Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
       }
     }
   ]
