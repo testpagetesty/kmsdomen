@@ -46486,6 +46486,18 @@
       }
     },
     {
+      "id": "0b1b23f5-6ca0-469d-8317-a8daece3dda9",
+      "ts": "2026-09-25T08:00:04.085Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "1b65ddda-bba3-4ebd-a31e-d7047eff7af5",
       "ts": "2026-09-25T08:00:04.918Z",
       "workerId": "соня_тубка_2",
@@ -46605,6 +46617,31 @@
       }
     },
     {
+      "id": "d6d3c1f8-fe66-4c23-8a0e-6002d0365d87",
+      "ts": "2026-09-25T08:00:20.684Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "cac87b7f-1f7b-46d5-81c1-17928006d0be",
+      "ts": "2026-09-25T08:00:20.685Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "2ee8139c-d17c-41c1-8f43-819bf92fe8b4",
       "ts": "2026-09-25T08:00:20.738Z",
       "workerId": "игорь",
@@ -46626,6 +46663,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "a721e723-86cc-401e-a1e5-9412dd3f6f09",
+      "ts": "2026-09-25T08:00:22.845Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
       }
     },
     {
@@ -46770,6 +46821,20 @@
       }
     },
     {
+      "id": "4431d85f-ddbd-4a57-85f9-e70dd95a145f",
+      "ts": "2026-09-25T08:00:49.605Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "dc1df403-a121-4a75-84f5-a74b0354a93b",
       "ts": "2026-09-25T08:00:50.157Z",
       "workerId": "nastya",
@@ -46888,6 +46953,19 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース 仮想通貨市場ニュース 今日"
+      }
+    },
+    {
+      "id": "88277d4e-f91e-4696-ad03-68035b801058",
+      "ts": "2026-09-25T08:01:06.685Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
