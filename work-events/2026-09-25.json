@@ -25767,6 +25767,19 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "f08bd2d7-33c5-4674-8131-9f6a2d7c174a",
+      "ts": "2026-09-25T06:58:07.307Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "kms",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
