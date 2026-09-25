@@ -20650,6 +20650,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ba76fb7f-38aa-4374-af0c-cd716acbbc66",
+      "ts": "2026-09-25T06:37:17.299Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "apoyo social para desempleados"
+      }
     }
   ]
 }
