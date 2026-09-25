@@ -14887,6 +14887,20 @@
       }
     },
     {
+      "id": "77719065-0f67-48fa-8c73-138f3c1fc205",
+      "ts": "2026-09-25T06:13:29.424Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "50067cc8-35e5-4df2-be37-971dc3c13f0e",
       "ts": "2026-09-25T06:13:30.527Z",
       "workerId": "игорь",
@@ -14936,6 +14950,19 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "6e695c86-43a1-4280-a79f-288e0707a1ea",
+      "ts": "2026-09-25T06:13:42.888Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "government support programs for the population"
       }
     }
   ]
