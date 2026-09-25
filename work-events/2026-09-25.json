@@ -26140,6 +26140,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "8571577a-6b29-4c1c-90be-7ae4463b510c",
+      "ts": "2026-09-25T06:58:58.277Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
