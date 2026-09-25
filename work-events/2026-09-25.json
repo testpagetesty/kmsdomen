@@ -72220,6 +72220,20 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "94a557b7-90ef-4947-a02c-bbc327ea87fc",
+      "ts": "2026-09-25T08:54:52.409Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
