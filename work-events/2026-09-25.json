@@ -73083,6 +73083,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4ec8cefa-d18a-4ca8-9b52-1abef71510a9",
+      "ts": "2026-09-25T08:56:36.426Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
