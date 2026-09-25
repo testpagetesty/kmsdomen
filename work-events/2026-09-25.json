@@ -67025,6 +67025,20 @@
         "name": "Таня - Трубка 4",
         "source": "touch"
       }
+    },
+    {
+      "id": "4f2e648c-e09e-48ad-a030-7fb157553d43",
+      "ts": "2026-09-25T08:45:06.358Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
     }
   ]
 }
