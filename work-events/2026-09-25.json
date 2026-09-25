@@ -17797,6 +17797,20 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "5fbd9cd2-9b59-4806-81a9-348f0ed6da41",
+      "ts": "2026-09-25T06:25:45.217Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "ru",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
