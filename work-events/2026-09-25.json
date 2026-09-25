@@ -64988,6 +64988,19 @@
       }
     },
     {
+      "id": "1f2590a7-4eff-47e5-87ec-5572433bb7d5",
+      "ts": "2026-09-25T08:41:04.386Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "33170695-b1b9-49bb-a212-626f217d7247",
       "ts": "2026-09-25T08:41:04.726Z",
       "workerId": "соня_тубка_2",
@@ -65053,6 +65066,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "8da69cb3-6197-4354-bb1e-9e932d045a63",
+      "ts": "2026-09-25T08:41:09.403Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -65155,6 +65180,31 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "f1fa858a-ea24-4078-ae01-b4c2df0e9ffd",
+      "ts": "2026-09-25T08:41:27.176Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "e2f569e5-a3f1-4ed1-b108-4e72152e16b1",
+      "ts": "2026-09-25T08:41:32.343Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
