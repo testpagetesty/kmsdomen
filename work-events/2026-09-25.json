@@ -38879,6 +38879,20 @@
       }
     },
     {
+      "id": "4c892c6c-889f-4cca-8f33-35c64684bf6c",
+      "ts": "2026-09-25T07:36:41.888Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d12a08ad-3d72-4da7-9eeb-1b6bd953681f",
       "ts": "2026-09-25T07:36:47.639Z",
       "workerId": "соня_тубка_2",
@@ -38995,6 +39009,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "691b36b6-7767-42ff-81d1-63414c2c2868",
+      "ts": "2026-09-25T07:37:07.423Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
