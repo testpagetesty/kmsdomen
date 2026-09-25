@@ -67235,6 +67235,19 @@
       }
     },
     {
+      "id": "f6f3143d-91a8-4f13-8f9f-d8ba49904db6",
+      "ts": "2026-09-25T08:45:31.532Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
+    },
+    {
       "id": "8e8413bc-c2ff-4658-a46b-9163aed2ab34",
       "ts": "2026-09-25T08:45:35.321Z",
       "workerId": "соня_тубка_2",
@@ -67246,6 +67259,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "bac5a660-d204-4f5e-b5c3-f5d8e5674593",
+      "ts": "2026-09-25T08:45:36.392Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "nezavisne.com",
+        "source": "teaser"
       }
     }
   ]
