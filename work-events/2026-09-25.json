@@ -42508,6 +42508,18 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "128892f3-14de-4f15-9a78-756e9f2d82af",
+      "ts": "2026-09-25T07:50:20.728Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
