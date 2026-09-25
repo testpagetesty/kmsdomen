@@ -41830,6 +41830,19 @@
       }
     },
     {
+      "id": "de291f78-93fd-40dc-b6d6-c81b0f56bb78",
+      "ts": "2026-09-25T07:47:49.517Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
+      }
+    },
+    {
       "id": "3fcaebfe-6590-409d-ac5f-54264154be7c",
       "ts": "2026-09-25T07:47:49.538Z",
       "workerId": "соня_тубка_2",
@@ -41856,6 +41869,20 @@
         "from": "ee",
         "to": "ch",
         "source": "ip"
+      }
+    },
+    {
+      "id": "ae4cbfdb-911e-4cc2-88d0-e4947954cc29",
+      "ts": "2026-09-25T07:48:01.704Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
