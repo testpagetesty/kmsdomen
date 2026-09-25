@@ -48827,6 +48827,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "7bbbe425-ea8e-42e4-b5c3-ff78b3a11dfd",
+      "ts": "2026-09-25T08:04:20.740Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
