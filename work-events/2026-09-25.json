@@ -45630,6 +45630,19 @@
         "to": "fi",
         "source": "ip"
       }
+    },
+    {
+      "id": "889d7fc9-be43-4f10-a49b-5fd551f5fcf3",
+      "ts": "2026-09-25T07:58:21.641Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
