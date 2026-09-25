@@ -46311,6 +46311,20 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "85677833-4fbd-45e3-8bf8-04e89661da2f",
+      "ts": "2026-09-25T07:59:42.111Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
