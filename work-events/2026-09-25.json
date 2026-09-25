@@ -51850,6 +51850,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "f616e6fd-0473-4d97-a283-26109b5ea263",
+      "ts": "2026-09-25T08:11:20.471Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
     }
   ]
 }
