@@ -36004,6 +36004,20 @@
       }
     },
     {
+      "id": "7d3f7af2-6059-4cb9-9557-779dc633167d",
+      "ts": "2026-09-25T07:27:36.392Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "1571df74-4014-47c6-835e-ff9d35a3d556",
       "ts": "2026-09-25T07:27:37.130Z",
       "workerId": "игорь",
@@ -36123,6 +36137,19 @@
         "name": "Игорь",
         "host": "regionalobala.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "063b75e2-6e49-4f12-836b-94f818913f48",
+      "ts": "2026-09-25T07:28:10.481Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
