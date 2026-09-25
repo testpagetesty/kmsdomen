@@ -47154,6 +47154,18 @@
       }
     },
     {
+      "id": "bc085e4e-79a6-4b40-98ee-f53eb0eb4f2f",
+      "ts": "2026-09-25T08:01:20.848Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "1ee716b4-452d-49ba-9cfc-16910c072a82",
       "ts": "2026-09-25T08:01:22.854Z",
       "workerId": "соня_трубка_1",
@@ -47213,6 +47225,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "88a2462b-e9f4-491e-b3bd-a9b7649c9bd9",
+      "ts": "2026-09-25T08:01:32.466Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Συστατικά για την υγεία των ματιών"
       }
     }
   ]
