@@ -25209,6 +25209,18 @@
       }
     },
     {
+      "id": "9c17b91c-be35-4d28-a138-37a97a37b5e5",
+      "ts": "2026-09-25T06:56:21.029Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "d4fb7ae5-5c73-4e85-8420-92501c2c24df",
       "ts": "2026-09-25T06:56:21.256Z",
       "workerId": "соня_тубка_2",
