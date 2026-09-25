@@ -60559,6 +60559,20 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "7b9be5d2-9297-438e-9f98-ca69b69df43b",
+      "ts": "2026-09-25T08:37:15.553Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
