@@ -70688,6 +70688,20 @@
       }
     },
     {
+      "id": "ee086f2e-cf71-4448-b2f1-76a80a7e75f2",
+      "ts": "2026-09-25T08:51:22.355Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "b3f6b945-a193-45d3-a138-a67967ce48a3",
       "ts": "2026-09-25T08:51:22.543Z",
       "workerId": "соня_тубка_2",
@@ -70803,6 +70817,19 @@
       "extra": {
         "name": "Настя1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "8054db1e-368e-4708-aad7-82da3d32bf73",
+      "ts": "2026-09-25T08:51:44.186Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Aineenvaihdunta ja laihdutus"
       }
     }
   ]
