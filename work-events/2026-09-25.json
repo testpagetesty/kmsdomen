@@ -38970,6 +38970,19 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e732f6ec-b455-45ff-9381-aa8868a595b0",
+      "ts": "2026-09-25T07:37:00.977Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "Desintoxicación del organismo"
+      }
     }
   ]
 }
