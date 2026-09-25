@@ -12240,6 +12240,20 @@
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
       }
+    },
+    {
+      "id": "9ed33321-1b31-45c8-ac5e-31ba64e78778",
+      "ts": "2026-09-25T05:54:55.986Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zagorje.com",
+        "source": "teaser"
+      }
     }
   ]
 }
