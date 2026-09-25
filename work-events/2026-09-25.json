@@ -71747,6 +71747,19 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "dfc85a84-6882-43de-953a-68eff414ab8d",
+      "ts": "2026-09-25T08:53:46.781Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
