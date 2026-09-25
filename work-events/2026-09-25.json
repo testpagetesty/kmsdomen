@@ -18575,6 +18575,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "f40a88c2-d625-415f-8e98-60293f03ca28",
+      "ts": "2026-09-25T06:28:38.819Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "easy earnings from crypto on the internet"
+      }
     }
   ]
 }
