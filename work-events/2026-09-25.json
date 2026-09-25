@@ -10681,6 +10681,19 @@
         "name": "Игорь",
         "url": "https://www.metropolitan.si/novice/slovenija"
       }
+    },
+    {
+      "id": "646f5cab-0cf0-4a5b-9189-fc0da37483f0",
+      "ts": "2026-09-25T05:36:29.468Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
     }
   ]
 }
