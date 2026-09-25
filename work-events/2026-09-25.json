@@ -42155,6 +42155,18 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "5d7e5453-7290-4365-8b7c-018caadda89b",
+      "ts": "2026-09-25T07:49:20.726Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
