@@ -35848,6 +35848,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "203c5be5-06a1-4b08-afc5-7af4c4a2c14d",
+      "ts": "2026-09-25T07:27:18.504Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
