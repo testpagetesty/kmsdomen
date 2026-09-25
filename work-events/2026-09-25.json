@@ -30642,6 +30642,19 @@
       }
     },
     {
+      "id": "cb08d949-737a-4757-a17e-6bf2016b0130",
+      "ts": "2026-09-25T07:13:17.446Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "TV news in our country about cryptocurrency"
+      }
+    },
+    {
       "id": "3551159f-652a-4c70-8a2a-b23b64494469",
       "ts": "2026-09-25T07:13:17.464Z",
       "workerId": "соня_трубка_1",
@@ -30689,6 +30702,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "7303620e-4ba8-498c-8ed3-eada5a175e06",
+      "ts": "2026-09-25T07:13:25.106Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
