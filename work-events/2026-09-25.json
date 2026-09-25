@@ -7433,6 +7433,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "f2fc2e12-e1df-4198-9d34-4a816ec16f98",
+      "ts": "2026-09-25T05:01:48.974Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
