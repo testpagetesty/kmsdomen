@@ -5001,6 +5001,18 @@
       }
     },
     {
+      "id": "19dc73e9-9606-4bf8-9941-be524463fe4c",
+      "ts": "2026-09-25T04:44:40.441Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "9db6e39b-ec5a-44d1-8c5c-5629888309b3",
       "ts": "2026-09-25T04:44:41.396Z",
       "workerId": "игорь",
@@ -5039,6 +5051,31 @@
         "name": "Игорь",
         "host": "primainspirace.cz",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "8fa03861-fd2d-4a50-a569-1c367d40f6de",
+      "ts": "2026-09-25T04:44:54.926Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "f96e6b8b-501c-4b14-a5ca-9229d4cddacd",
+      "ts": "2026-09-25T04:44:54.926Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
       }
     }
   ]
