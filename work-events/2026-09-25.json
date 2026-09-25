@@ -75609,6 +75609,18 @@
       }
     },
     {
+      "id": "8b795f0d-3dd4-4bbf-9125-624d9a1e8aa7",
+      "ts": "2026-09-25T09:00:27.201Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "c3ee1b86-73a6-4b7c-afc6-5919fee5a95b",
       "ts": "2026-09-25T09:00:30.763Z",
       "workerId": "игорь",
@@ -75633,6 +75645,19 @@
         "name": "Игорь",
         "host": "primainspirace.cz",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "f72fa02f-5c83-4048-8557-3bbe1a9988e1",
+      "ts": "2026-09-25T09:00:34.765Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
       }
     }
   ]
