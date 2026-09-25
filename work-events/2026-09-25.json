@@ -17318,6 +17318,18 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "c574badf-b341-4c70-b363-bf10ca7b37a8",
+      "ts": "2026-09-25T06:24:22.487Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
