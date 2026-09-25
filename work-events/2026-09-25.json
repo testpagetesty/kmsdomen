@@ -30577,6 +30577,19 @@
       }
     },
     {
+      "id": "aef1af5e-b705-4148-90be-fa3c5db007ef",
+      "ts": "2026-09-25T07:13:13.217Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for single parents"
+      }
+    },
+    {
       "id": "39422696-4ec8-4037-a82b-d6c878629dba",
       "ts": "2026-09-25T07:13:13.488Z",
       "workerId": "игорь",
@@ -30587,6 +30600,19 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
+    },
+    {
+      "id": "0e4507da-438f-4c3b-8022-415665cb9b7e",
+      "ts": "2026-09-25T07:13:16.616Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for young families"
       }
     }
   ]
