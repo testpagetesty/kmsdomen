@@ -76281,6 +76281,19 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ae2e9b33-ff76-4cc2-bd0d-2bcce44492d4",
+      "ts": "2026-09-25T09:01:59.039Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
