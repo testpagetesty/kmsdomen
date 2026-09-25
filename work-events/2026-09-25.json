@@ -32194,6 +32194,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4d5a235e-3e24-417b-8924-fde26405d4c9",
+      "ts": "2026-09-25T07:17:54.610Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "Qué hacer si el hígado está sobrecargado"
+      }
     }
   ]
 }
