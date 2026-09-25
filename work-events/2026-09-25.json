@@ -13442,6 +13442,19 @@
         "name": "Игорь",
         "url": "https://www.metropolitan.si/novice/slovenija"
       }
+    },
+    {
+      "id": "7867b660-c52a-4f82-b382-ecfc1ee91808",
+      "ts": "2026-09-25T06:06:35.402Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
