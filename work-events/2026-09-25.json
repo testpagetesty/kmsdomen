@@ -40605,6 +40605,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fdad7f8d-deab-4136-bea5-7f22dd367b7e",
+      "ts": "2026-09-25T07:43:20.723Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
