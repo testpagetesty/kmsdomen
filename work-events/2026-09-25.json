@@ -64598,6 +64598,57 @@
       }
     },
     {
+      "id": "5a87ac57-7b53-4c0a-9152-3edb15ff654c",
+      "ts": "2026-09-25T08:40:25.573Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "69ff19a3-3fcc-4825-818f-bcce1f9b56f8",
+      "ts": "2026-09-25T08:40:26.469Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "0c617d30-c801-48ea-9de2-148a8f94af67",
+      "ts": "2026-09-25T08:40:26.470Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "900fec8f-acbd-428d-957b-7f979c4fac71",
+      "ts": "2026-09-25T08:40:27.154Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "6627703d-2d06-48d9-9c69-78a726f231ee",
       "ts": "2026-09-25T08:40:27.175Z",
       "workerId": "настя1",
@@ -64831,6 +64882,19 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hvordan senke blodtrykket"
+      }
+    },
+    {
+      "id": "2908c4d5-b5c1-40a2-9f2e-16c90f4e55e6",
+      "ts": "2026-09-25T08:41:03.346Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
