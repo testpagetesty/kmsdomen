@@ -47214,6 +47214,19 @@
       }
     },
     {
+      "id": "08b499a6-9e3b-43e1-a24a-f8619a30d7a7",
+      "ts": "2026-09-25T08:01:26.681Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "JNNニュース ビットコインニュース 今日"
+      }
+    },
+    {
       "id": "242848c5-ebb3-4273-aaa9-96df7aa28c7b",
       "ts": "2026-09-25T08:01:31.449Z",
       "workerId": "игорь",
@@ -47256,6 +47269,19 @@
       }
     },
     {
+      "id": "d237e167-acf3-4742-9e21-905a68397d33",
+      "ts": "2026-09-25T08:01:34.137Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "テレビ東京ニュース ビットコインニュース 今日"
+      }
+    },
+    {
       "id": "390419d6-4284-4598-b944-8150f5250eaa",
       "ts": "2026-09-25T08:01:36.408Z",
       "workerId": "яя",
@@ -47266,6 +47292,19 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "1d6686ed-1deb-4daf-a6c9-451b61e96e99",
+      "ts": "2026-09-25T08:01:38.907Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "JNNニュース 暗号資産ニュース 今日"
       }
     }
   ]
