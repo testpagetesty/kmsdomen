@@ -45657,6 +45657,18 @@
       }
     },
     {
+      "id": "fefe1e6c-3bd7-4028-a433-d27a80e46c46",
+      "ts": "2026-09-25T07:58:20.736Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "889d7fc9-be43-4f10-a49b-5fd551f5fcf3",
       "ts": "2026-09-25T07:58:21.641Z",
       "workerId": "игорь",
@@ -45783,6 +45795,20 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "141259a8-43b0-461c-af9b-3894b7f0fb05",
+      "ts": "2026-09-25T07:58:46.780Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "touch"
       }
     }
