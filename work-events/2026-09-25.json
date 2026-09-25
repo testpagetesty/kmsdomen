@@ -38837,6 +38837,20 @@
         "name": "Игорь",
         "url": "https://www.zurnal24.si/slovenija"
       }
+    },
+    {
+      "id": "e644351d-c3a1-4216-a2ef-9fb02eef404c",
+      "ts": "2026-09-25T07:36:41.788Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
