@@ -70724,6 +70724,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "3a8e8cef-d5e9-434f-a1c1-a077be23be0e",
+      "ts": "2026-09-25T08:51:30.795Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved høyt blodsukker"
+      }
     }
   ]
 }
