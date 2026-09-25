@@ -42207,6 +42207,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "4f227646-ed8c-4982-bd35-e680860b6f34",
+      "ts": "2026-09-25T07:49:25.151Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
