@@ -7563,6 +7563,20 @@
       }
     },
     {
+      "id": "af3a4336-604e-4f28-9b1f-1f41b707733c",
+      "ts": "2026-09-25T05:02:38.557Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
       "id": "b533c3c6-ee91-4b5a-91f0-fb8b5007190c",
       "ts": "2026-09-25T05:02:40.528Z",
       "workerId": "tanya_trubka3",
