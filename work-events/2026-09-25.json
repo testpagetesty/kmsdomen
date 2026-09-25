@@ -34849,6 +34849,18 @@
         "to": "lt",
         "source": "ip"
       }
+    },
+    {
+      "id": "e0fe45ed-4ee2-4ea1-ab44-49548a4f38a8",
+      "ts": "2026-09-25T07:24:26.851Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
