@@ -7964,6 +7964,20 @@
         "name": "Игорь",
         "url": "https://www.topky.sk/cl"
       }
+    },
+    {
+      "id": "9df57755-b092-41f9-b1b2-02d4f93b11c2",
+      "ts": "2026-09-25T05:05:29.044Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "siol.net",
+        "source": "teaser"
+      }
     }
   ]
 }
