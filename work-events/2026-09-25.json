@@ -48665,6 +48665,20 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "2ce919b0-e48c-407c-a0b7-8a89a4364fc2",
+      "ts": "2026-09-25T08:03:58.793Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
     }
   ]
 }
