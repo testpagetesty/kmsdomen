@@ -11040,6 +11040,31 @@
       }
     },
     {
+      "id": "59760fba-1380-4098-9847-0465a6a39438",
+      "ts": "2026-09-25T05:40:16.210Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "d3fa73d3-dd3e-4c99-ab50-52e12a331e1b",
+      "ts": "2026-09-25T05:40:16.211Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "ddfe3e8f-5f8d-41a4-b2c2-096bbe7f38fe",
       "ts": "2026-09-25T05:40:16.328Z",
       "workerId": "игорь",
