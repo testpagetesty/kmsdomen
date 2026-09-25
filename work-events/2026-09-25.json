@@ -76968,6 +76968,18 @@
       }
     },
     {
+      "id": "05775443-06b2-4b71-8072-c3e9fc06613a",
+      "ts": "2026-09-25T09:03:23.220Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "2f25dfa8-6ecc-41f0-a0b3-69b94cf8449e",
       "ts": "2026-09-25T09:03:23.251Z",
       "workerId": "соня_трубка_1",
@@ -76991,6 +77003,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "79b58356-63b0-410a-ab7a-dba96a3370fa",
+      "ts": "2026-09-25T09:03:23.765Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     },
     {
@@ -77018,6 +77044,31 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "b9eabcc2-f1d0-499b-8e1b-6462c0cfcfc5",
+      "ts": "2026-09-25T09:03:25.540Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "6a15be75-dbcb-4d04-971f-e82f2bf1f393",
+      "ts": "2026-09-25T09:03:25.541Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -77330,6 +77381,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "483ad98c-ef3d-4897-b3ea-a6c729d9faf7",
+      "ts": "2026-09-25T09:04:05.348Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
