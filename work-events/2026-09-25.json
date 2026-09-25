@@ -72473,6 +72473,19 @@
       }
     },
     {
+      "id": "f7b74de1-3b41-4db1-aaee-5b3128e9e222",
+      "ts": "2026-09-25T08:55:17.379Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "3dcd640c-7175-4855-844c-eb65eb8d4958",
       "ts": "2026-09-25T08:55:19.159Z",
       "workerId": "игорь",
@@ -72512,6 +72525,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "b62d5c7d-dd58-4b53-87ad-da0f2fa42541",
+      "ts": "2026-09-25T08:55:27.196Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
