@@ -49301,6 +49301,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "d81c7f56-c0d4-495b-a880-431fd230e7f3",
+      "ts": "2026-09-25T08:05:21.868Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Apa yang perlu dilakukan apabila tenaga lelaki menurun"
+      }
     }
   ]
 }
