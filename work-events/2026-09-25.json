@@ -63862,6 +63862,20 @@
         "name": "Игорь",
         "url": "https://regionalobala.si/novica"
       }
+    },
+    {
+      "id": "1a93fdb4-6e56-4d99-ac67-2c3cb063020d",
+      "ts": "2026-09-25T08:38:56.378Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
     }
   ]
 }
