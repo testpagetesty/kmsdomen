@@ -69748,6 +69748,19 @@
       }
     },
     {
+      "id": "5ed5a23b-9477-4b2f-b517-b553b06839dd",
+      "ts": "2026-09-25T08:49:45.514Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "7aad497c-621e-49ea-bdb0-b6b6c874fe77",
       "ts": "2026-09-25T08:49:45.640Z",
       "workerId": "настя1",
@@ -69796,6 +69809,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "d9ffade2-cead-4624-8d8e-c5e05082104c",
+      "ts": "2026-09-25T08:49:50.399Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -70105,6 +70130,19 @@
       }
     },
     {
+      "id": "932f194c-3246-46c8-9c1f-ac3c796d0f9a",
+      "ts": "2026-09-25T08:50:19.930Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "8fe7738b-f3fe-4288-a1cc-0cd2342080b2",
       "ts": "2026-09-25T08:50:19.931Z",
       "workerId": "соня_тубка_2",
@@ -70153,6 +70191,18 @@
       "event": "capture_stop",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "7668426a-51ba-45a1-b062-1ef81179cc9f",
+      "ts": "2026-09-25T08:50:26.025Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -70218,6 +70268,20 @@
       "event": "user_active",
       "extra": {
         "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "8b240f35-84aa-4060-b89b-0f345e1fbdba",
+      "ts": "2026-09-25T08:50:39.931Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
         "source": "touch"
       }
     }
