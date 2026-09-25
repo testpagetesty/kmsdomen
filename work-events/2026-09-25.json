@@ -23790,6 +23790,31 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "47c601a3-07fa-4de9-b9dd-0a642406a864",
+      "ts": "2026-09-25T06:52:10.513Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a68a5f9b-9796-46a1-9580-1d7d4e49bbce",
+      "ts": "2026-09-25T06:52:10.513Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
