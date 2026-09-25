@@ -35375,6 +35375,31 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "344250c2-384a-4a8e-b97c-80f6c6982a41",
+      "ts": "2026-09-25T07:25:45.845Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "5858d4a5-aca4-4ef9-be7b-05f0d6cf6abe",
+      "ts": "2026-09-25T07:25:45.846Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
