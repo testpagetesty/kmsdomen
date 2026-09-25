@@ -32206,6 +32206,19 @@
       }
     },
     {
+      "id": "33549d7c-5601-4e36-af0c-efe473a95f47",
+      "ts": "2026-09-25T07:17:49.291Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "fa971ee2-3a3e-481d-8584-254cb463ed6b",
       "ts": "2026-09-25T07:17:51.823Z",
       "workerId": "яя",
@@ -32438,6 +32451,19 @@
       }
     },
     {
+      "id": "b69654f6-fd4a-44ca-b2df-fbd97b311ef3",
+      "ts": "2026-09-25T07:18:32.767Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "b12a2f10-72ec-43d7-8533-179b12821d6c",
       "ts": "2026-09-25T07:18:32.890Z",
       "workerId": "яя",
@@ -32500,6 +32526,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "00d6a7e0-87f7-405e-9531-3c8b06e7e950",
+      "ts": "2026-09-25T07:18:41.253Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -32815,6 +32853,31 @@
       "extra": {
         "name": "Игорь",
         "source": "touch"
+      }
+    },
+    {
+      "id": "0c53935a-2e97-45dd-ac27-c476fd475754",
+      "ts": "2026-09-25T07:19:27.413Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "e5a548e0-b764-4e06-a30a-1489eed8bc0e",
+      "ts": "2026-09-25T07:19:27.414Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
