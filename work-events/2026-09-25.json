@@ -60533,6 +60533,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4b9b46df-5d22-4b11-95d3-0beb199362d2",
+      "ts": "2026-09-25T08:37:08.784Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
