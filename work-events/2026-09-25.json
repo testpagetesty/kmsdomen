@@ -49912,6 +49912,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "494dc8f8-3966-4ed0-96ac-2296733de0e3",
+      "ts": "2026-09-25T08:06:25.202Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
