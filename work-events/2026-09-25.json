@@ -74517,6 +74517,19 @@
       }
     },
     {
+      "id": "e95a903d-94b3-432e-8702-5b26eef70d6f",
+      "ts": "2026-09-25T08:58:24.735Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Urinveissystemet"
+      }
+    },
+    {
       "id": "9101786f-e8c1-4a58-879e-d6d0ac56bc41",
       "ts": "2026-09-25T08:58:27.197Z",
       "workerId": "настя1",
@@ -74526,6 +74539,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "16e1b7af-ad5f-4f5d-855c-d4ef44912091",
+      "ts": "2026-09-25T08:58:28.799Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved høyt trykk"
       }
     }
   ]
