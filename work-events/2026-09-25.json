@@ -41570,6 +41570,20 @@
       }
     },
     {
+      "id": "68afb80b-4e8e-40fd-b36f-faad266d42a1",
+      "ts": "2026-09-25T07:46:57.169Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "0853b310-49a7-4e88-8823-659625c2b597",
       "ts": "2026-09-25T07:46:57.390Z",
       "workerId": "таня_трубка_4",
