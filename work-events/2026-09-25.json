@@ -35363,6 +35363,18 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "b2987296-0ca7-4ef2-bcfb-5d85817ef2a4",
+      "ts": "2026-09-25T07:25:41.421Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
