@@ -65740,6 +65740,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "976a5a39-ca35-41cb-87b1-12b152a4f723",
+      "ts": "2026-09-25T08:42:42.859Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zagorje.com/mobile"
+      }
     }
   ]
 }
