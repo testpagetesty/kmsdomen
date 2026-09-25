@@ -14200,6 +14200,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "579086d6-fb25-487a-9d20-96e317ba197e",
+      "ts": "2026-09-25T06:10:51.965Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
