@@ -50614,6 +50614,18 @@
         "name": "Таня - трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "6aa340c2-6608-49b9-89d6-f3d52c515621",
+      "ts": "2026-09-25T08:08:18.860Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "ru",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
