@@ -77158,6 +77158,18 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "d51b8b37-cbfd-45aa-ba53-33547c98ca89",
+      "ts": "2026-09-25T09:03:47.003Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
