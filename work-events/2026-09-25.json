@@ -68720,6 +68720,18 @@
       }
     },
     {
+      "id": "543c910d-93e8-4c1c-9df3-1a7d4440743f",
+      "ts": "2026-09-25T08:47:23.130Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "e12a7e30-9fbb-496d-92bb-9aaa122c5b4b",
       "ts": "2026-09-25T08:47:23.200Z",
       "workerId": "таня_трубка_4",
@@ -68863,6 +68875,20 @@
       }
     },
     {
+      "id": "eff96688-134f-4468-85b8-3e7d8ee6148d",
+      "ts": "2026-09-25T08:47:50.994Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "5866057b-f2c5-4702-b0a4-8a3ae04b30ed",
       "ts": "2026-09-25T08:47:51.158Z",
       "workerId": "таня_трубка_4",
@@ -68979,6 +69005,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "eeab13a4-61bb-4fff-b55f-2c60fff88f7e",
+      "ts": "2026-09-25T08:48:13.789Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
