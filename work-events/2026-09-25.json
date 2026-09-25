@@ -68048,6 +68048,19 @@
       }
     },
     {
+      "id": "554ba668-f15b-4ede-a48b-1f550fddc6e5",
+      "ts": "2026-09-25T08:46:19.189Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "132a3abd-21f4-4c00-b08b-0affd704b0fc",
       "ts": "2026-09-25T08:46:20.083Z",
       "workerId": "соня_тубка_2",
@@ -68058,6 +68071,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "b760d171-380d-43a5-9f29-b45ff5c907c6",
+      "ts": "2026-09-25T08:46:22.419Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
       }
     },
     {
@@ -68306,6 +68333,18 @@
       "extra": {
         "name": "Настя",
         "title": "会長発表で日本が注目する"
+      }
+    },
+    {
+      "id": "091d3e05-9548-49a6-92f6-ec54785ae2ba",
+      "ts": "2026-09-25T08:46:41.492Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -68769,6 +68808,18 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "c95d14db-73a5-4dd9-b159-cefc5fecda7f",
+      "ts": "2026-09-25T08:47:41.493Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
