@@ -46730,6 +46730,19 @@
         "name": "Таня - Трубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "cf03eb54-f055-4e8b-9726-eb2a64f003a3",
+      "ts": "2026-09-25T08:00:45.003Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "motion"
+      }
     }
   ]
 }
