@@ -7925,6 +7925,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "cce7144e-6f10-4e66-980b-00b36b1ab752",
+      "ts": "2026-09-25T05:05:24.204Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://siol.net/novice/slovenija"
+      }
     }
   ]
 }
