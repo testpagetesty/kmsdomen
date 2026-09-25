@@ -70412,6 +70412,19 @@
       }
     },
     {
+      "id": "0b750a95-58c0-4bca-a24b-be0874e89daa",
+      "ts": "2026-09-25T08:50:55.905Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "c1b96d83-6ef1-4e20-9bc5-2e6d4ea20b87",
       "ts": "2026-09-25T08:50:56.989Z",
       "workerId": "настя1",
@@ -70423,6 +70436,19 @@
       "extra": {
         "name": "Настя1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "9f9cb49f-a901-4593-8492-77d34868439b",
+      "ts": "2026-09-25T08:51:01.368Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre hvis leveren er overbelastet"
       }
     }
   ]
