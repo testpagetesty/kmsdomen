@@ -18317,6 +18317,19 @@
       }
     },
     {
+      "id": "b06299a5-67ee-421d-95bd-323f5d799319",
+      "ts": "2026-09-25T06:27:34.539Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "social security during illness"
+      }
+    },
+    {
       "id": "00d7a5e8-41fc-4cee-9166-63df95a20e75",
       "ts": "2026-09-25T06:27:35.233Z",
       "workerId": "игорь",
