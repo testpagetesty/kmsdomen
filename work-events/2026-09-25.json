@@ -21997,6 +21997,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "69d1033f-3f7c-4b6c-8411-9e738a5f6b95",
+      "ts": "2026-09-25T06:44:22.512Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
