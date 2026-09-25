@@ -45863,6 +45863,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "99e108c5-3298-4ae2-a161-a0403edba0e2",
+      "ts": "2026-09-25T07:58:53.277Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
