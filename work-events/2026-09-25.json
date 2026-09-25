@@ -76794,6 +76794,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "3d28c776-8759-46d0-8cbb-993b4dc10865",
+      "ts": "2026-09-25T09:03:07.933Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
