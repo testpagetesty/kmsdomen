@@ -72143,6 +72143,19 @@
       }
     },
     {
+      "id": "c2638d19-718d-4ae1-a3ab-04b5bf49d70a",
+      "ts": "2026-09-25T08:54:42.720Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "cómo evaluar riesgos en inversiones"
+      }
+    },
+    {
       "id": "367da336-2398-4b1f-af66-ccb6c5e77639",
       "ts": "2026-09-25T08:54:43.437Z",
       "workerId": "игорь",
@@ -72196,6 +72209,19 @@
       }
     },
     {
+      "id": "f8b2823d-574b-4933-a8de-d7e027dcd5f8",
+      "ts": "2026-09-25T08:54:47.230Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "subsidios estatales para ciudadanos de bajos ingresos"
+      }
+    },
+    {
       "id": "4edc3164-f40f-47fe-8a70-3c496663f382",
       "ts": "2026-09-25T08:54:48.554Z",
       "workerId": "соня_трубка_1",
@@ -72206,6 +72232,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "subsidios estatales para ciudadanos de bajos ingresos"
+      }
+    },
+    {
+      "id": "179c99c3-9aae-47a9-8d1b-26f81ed74d2b",
+      "ts": "2026-09-25T08:54:49.801Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
       }
     },
     {
@@ -72284,6 +72324,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "20cc921e-07bf-41ee-a8c0-21186e6db452",
+      "ts": "2026-09-25T08:55:09.888Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
       }
     }
   ]
