@@ -44038,6 +44038,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "b0d446e1-5778-4647-907e-90be32f340d8",
+      "ts": "2026-09-25T07:54:18.542Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
