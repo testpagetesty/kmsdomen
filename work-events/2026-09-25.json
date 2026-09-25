@@ -3265,6 +3265,18 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "5382cce8-ea3a-47d2-b37c-bcb5fa49e17a",
+      "ts": "2026-09-25T04:33:18.927Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
