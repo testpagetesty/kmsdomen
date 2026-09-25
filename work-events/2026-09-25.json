@@ -62462,6 +62462,20 @@
       }
     },
     {
+      "id": "14fe07ff-a6e3-41a3-92bf-0c2c236ec637",
+      "ts": "2026-09-25T08:38:25.709Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "a48cecbd-a34a-479a-82ee-4a8e83ba299b",
       "ts": "2026-09-25T08:38:25.878Z",
       "workerId": "nastya",
