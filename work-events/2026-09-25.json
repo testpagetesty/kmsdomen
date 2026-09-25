@@ -27676,6 +27676,20 @@
         "host": "primainspirace.cz",
         "source": "teaser"
       }
+    },
+    {
+      "id": "6c253590-c411-4dd5-a32f-ce235ef1271a",
+      "ts": "2026-09-25T07:04:52.855Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
