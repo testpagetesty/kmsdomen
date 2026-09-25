@@ -14408,6 +14408,18 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4b81cfc4-8249-4155-ba66-cd8372d85e2c",
+      "ts": "2026-09-25T06:11:56.927Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
