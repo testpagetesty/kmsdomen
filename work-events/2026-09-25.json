@@ -5824,6 +5824,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "954edebc-2e11-4b4c-8271-61d3dffe00a5",
+      "ts": "2026-09-25T04:50:05.358Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
