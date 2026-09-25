@@ -45488,6 +45488,18 @@
       }
     },
     {
+      "id": "d16f6b56-cae6-4b56-a645-c327e31ee200",
+      "ts": "2026-09-25T07:58:00.660Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "America/Vancouver",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "50d2eb3c-1603-4ad8-a6d8-12c79cbcada4",
       "ts": "2026-09-25T07:58:00.846Z",
       "workerId": "таня_трубка_1",
@@ -45669,6 +45681,20 @@
       }
     },
     {
+      "id": "fb8784b3-b88f-436d-82d2-5186d46d0703",
+      "ts": "2026-09-25T07:58:21.369Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "America/Vancouver",
+      "geo": "ru",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "889d7fc9-be43-4f10-a49b-5fd551f5fcf3",
       "ts": "2026-09-25T07:58:21.641Z",
       "workerId": "игорь",
@@ -45810,6 +45836,18 @@
       "extra": {
         "name": "Игорь",
         "source": "touch"
+      }
+    },
+    {
+      "id": "cad1ac93-2057-40d1-b648-de6abe97efe0",
+      "ts": "2026-09-25T07:58:48.366Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "America/Vancouver",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     }
   ]
