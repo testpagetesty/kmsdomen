@@ -13700,6 +13700,33 @@
         "name": "Игорь",
         "url": "https://regionalobala.si/novica"
       }
+    },
+    {
+      "id": "26164208-1d81-4c20-a36f-a7e3e667d0c4",
+      "ts": "2026-09-25T06:08:15.592Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Игорь",
+        "from": "pl",
+        "to": "bg",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "5c116edf-96dd-43fa-9709-e123d9513bb3",
+      "ts": "2026-09-25T06:08:19.488Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
