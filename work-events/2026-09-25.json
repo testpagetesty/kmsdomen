@@ -65989,6 +65989,31 @@
       }
     },
     {
+      "id": "c32021e6-5130-4c55-9ebf-5e531aacfc9e",
+      "ts": "2026-09-25T08:43:11.946Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "video",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "5b94bfa3-b4c1-4050-aff0-7ffa94ed623f",
+      "ts": "2026-09-25T08:43:11.947Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "6bdc1167-17e2-470d-9661-ea022c637642",
       "ts": "2026-09-25T08:43:12.341Z",
       "workerId": "соня_трубка_1",
@@ -66117,6 +66142,32 @@
       }
     },
     {
+      "id": "8527f659-53f7-48af-86de-fb4b8b0278b6",
+      "ts": "2026-09-25T08:43:23.933Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "a400d19f-3181-4b4b-ade2-ec20af64693e",
+      "ts": "2026-09-25T08:43:25.577Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "ecb09816-c08b-4d9c-a015-e6fe89a6e007",
       "ts": "2026-09-25T08:43:26.682Z",
       "workerId": "tanya_trubka3",
@@ -66218,6 +66269,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "1f2b7793-4e1f-4a4d-bf14-c5464a0021d2",
+      "ts": "2026-09-25T08:43:42.233Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
