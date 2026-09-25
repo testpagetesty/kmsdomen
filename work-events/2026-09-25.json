@@ -16490,6 +16490,20 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "ad531ee9-ceee-453d-afde-1b6d77a3483d",
+      "ts": "2026-09-25T06:21:12.196Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
