@@ -70857,6 +70857,18 @@
       }
     },
     {
+      "id": "687cd101-ddb8-4809-b8a7-23ce6a130ae9",
+      "ts": "2026-09-25T08:51:41.495Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "58f82734-b7c0-4851-a8c9-03d0841fc17d",
       "ts": "2026-09-25T08:51:42.292Z",
       "workerId": "настя1",
@@ -71173,6 +71185,20 @@
       }
     },
     {
+      "id": "6efaecd0-10ad-4185-a391-dcba4b556c6c",
+      "ts": "2026-09-25T08:52:24.200Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "19a1804b-6d83-4061-b455-0f898ce11f14",
       "ts": "2026-09-25T08:52:25.262Z",
       "workerId": "таня_трубка_4",
@@ -71301,6 +71327,18 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "541f37ef-3938-4852-9f2f-69bf5d29e3b6",
+      "ts": "2026-09-25T08:52:41.495Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -71460,6 +71498,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "4d5f4135-fd33-4e18-90e1-40d7890e5eba",
+      "ts": "2026-09-25T08:53:11.150Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
         "source": "scroll"
       }
     }
