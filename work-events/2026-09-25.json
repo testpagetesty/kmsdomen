@@ -65610,6 +65610,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "a6373496-66e7-41bf-a742-39efa1234cb0",
+      "ts": "2026-09-25T08:42:27.179Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
