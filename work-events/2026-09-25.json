@@ -75385,6 +75385,19 @@
         "name": "Соня Тубка 2",
         "interest": "namų būdai širdies ir kraujagyslių sistemos palaikymui"
       }
+    },
+    {
+      "id": "498bcf61-2e12-4ddb-aead-7a19fb4b986b",
+      "ts": "2026-09-25T09:00:11.599Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "namų būdai kraujagyslių ir venų palaikymui"
+      }
     }
   ]
 }
