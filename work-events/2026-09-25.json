@@ -71053,6 +71053,20 @@
         "name": "Настя",
         "interest": "Mitä tehdä nivelvaivoissa"
       }
+    },
+    {
+      "id": "50bd94c7-b945-42c9-ac1d-b313d0a3f846",
+      "ts": "2026-09-25T08:52:10.238Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
