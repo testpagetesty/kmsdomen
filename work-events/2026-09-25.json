@@ -75400,6 +75400,110 @@
       }
     },
     {
+      "id": "9c3c8912-2dfe-42af-b35d-8dae448dfcfd",
+      "ts": "2026-09-25T09:00:10.399Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "gyvenimo būdas sveikai odai ir nagams"
+      }
+    },
+    {
+      "id": "88d26d70-517d-4d85-9832-6a3b6ede838b",
+      "ts": "2026-09-25T09:00:10.559Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip jaustis geriau su antsvorio"
+      }
+    },
+    {
+      "id": "f8e8ffe9-de89-4c1f-8377-1c7930439b90",
+      "ts": "2026-09-25T09:00:10.724Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "ką daryti su padidėjusiu spaudimu namuose"
+      }
+    },
+    {
+      "id": "2398514b-dd5b-4bb3-ab14-549b41b8fb7d",
+      "ts": "2026-09-25T09:00:10.834Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "ką daryti su svorio priaugimu namuose"
+      }
+    },
+    {
+      "id": "981f904d-c181-4549-9c8c-02c5abe1b478",
+      "ts": "2026-09-25T09:00:10.993Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip palaikyti sąnarius namuose"
+      }
+    },
+    {
+      "id": "d8e9db3c-bea0-47e6-a8ba-de9003f1ab7d",
+      "ts": "2026-09-25T09:00:11.136Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip jaustis geriau su sąnarių skausmais"
+      }
+    },
+    {
+      "id": "59f826e6-cd58-4647-93fb-c73909a7d826",
+      "ts": "2026-09-25T09:00:11.293Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "ką daryti su nugaros diskomfortu namuose"
+      }
+    },
+    {
+      "id": "91d11187-2883-46ef-b6d2-a5405ef511e6",
+      "ts": "2026-09-25T09:00:11.435Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "namų būdai metabolizmo ir svorio metimo palaikymui"
+      }
+    },
+    {
       "id": "498bcf61-2e12-4ddb-aead-7a19fb4b986b",
       "ts": "2026-09-25T09:00:11.599Z",
       "workerId": "соня_тубка_2",
@@ -75410,6 +75514,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "namų būdai kraujagyslių ir venų palaikymui"
+      }
+    },
+    {
+      "id": "4ed2e3b1-df55-417c-9534-b6d21dac1332",
+      "ts": "2026-09-25T09:00:11.753Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "namų būdai inkstų ir šlapimo sistemos palaikymui"
       }
     },
     {
@@ -75464,6 +75581,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "0873eb71-e8e4-4ab4-8bbb-7ce304d4c8be",
+      "ts": "2026-09-25T09:00:26.034Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
