@@ -76335,6 +76335,19 @@
       }
     },
     {
+      "id": "59f6f6ed-b6a9-4f00-8544-65362c1048e7",
+      "ts": "2026-09-25T09:02:00.098Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä jos silmät väsyvät"
+      }
+    },
+    {
       "id": "f64e7705-11fd-43e9-84df-7a566dc2e066",
       "ts": "2026-09-25T09:02:03.077Z",
       "workerId": "nastya",
@@ -76345,6 +76358,19 @@
       "extra": {
         "name": "Настя",
         "interest": "Virtsaelimet"
+      }
+    },
+    {
+      "id": "f3e8f47f-1668-447e-b853-bceaac14762f",
+      "ts": "2026-09-25T09:02:05.565Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä painonnousussa"
       }
     },
     {
@@ -76386,6 +76412,19 @@
       "extra": {
         "name": "Настя",
         "interest": "Mitä tehdä korvien soidessa"
+      }
+    },
+    {
+      "id": "8546b4a6-2e5e-4df0-9d5e-4ef58ff5047a",
+      "ts": "2026-09-25T09:02:13.244Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Kehon detox"
       }
     }
   ]
