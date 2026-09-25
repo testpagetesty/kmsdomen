@@ -140,6 +140,18 @@
         "name": "Таня - Трубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "bfdb1d6d-3859-490b-b97c-7a4e1e8c65b9",
+      "ts": "2026-09-25T04:07:23.858Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Europe/Dublin",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
