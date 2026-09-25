@@ -7683,6 +7683,18 @@
       }
     },
     {
+      "id": "b9aae524-302f-4b84-ab2b-9f7ad600608d",
+      "ts": "2026-09-25T05:03:19.057Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "484e298d-901e-4196-bb25-94c32448939e",
       "ts": "2026-09-25T05:03:19.137Z",
       "workerId": "игорь",
