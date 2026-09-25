@@ -70206,6 +70206,20 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "68f40cc3-a091-43dd-9ede-640f5cfaa357",
+      "ts": "2026-09-25T08:50:38.396Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
     }
   ]
 }
