@@ -42925,6 +42925,20 @@
       }
     },
     {
+      "id": "eac8fe21-17aa-489f-ad24-9e37494134f9",
+      "ts": "2026-09-25T07:51:21.962Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "bc390ae8-85bb-47b2-a268-254ba2b99043",
       "ts": "2026-09-25T07:51:22.836Z",
       "workerId": "соня_трубка_1",
@@ -43014,6 +43028,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "303999fe-49d0-454d-94d3-0d6f447f988e",
+      "ts": "2026-09-25T07:51:41.441Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
