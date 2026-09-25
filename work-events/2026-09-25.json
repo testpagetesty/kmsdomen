@@ -30720,6 +30720,18 @@
       }
     },
     {
+      "id": "57d7e864-33cd-42d4-96a3-224c1c4d0a48",
+      "ts": "2026-09-25T07:13:18.479Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
+    },
+    {
       "id": "070afb5c-275a-4d55-8601-f4e1c97833e8",
       "ts": "2026-09-25T07:13:20.330Z",
       "workerId": "игорь",
@@ -31404,6 +31416,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "easy earnings from crypto on the internet"
+      }
+    },
+    {
+      "id": "17e588a5-49b8-4585-904a-a46b0df25df1",
+      "ts": "2026-09-25T07:15:18.095Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
       }
     }
   ]
