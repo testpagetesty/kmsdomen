@@ -75360,6 +75360,18 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "085d7655-f46e-46a8-9ce7-2a0b0c28cce6",
+      "ts": "2026-09-25T09:00:08.948Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
