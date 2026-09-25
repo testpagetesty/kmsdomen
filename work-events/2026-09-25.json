@@ -76374,6 +76374,19 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e4b0d98b-61fb-4c0d-ae10-a61037aa92fb",
+      "ts": "2026-09-25T09:02:09.387Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä korvien soidessa"
+      }
     }
   ]
 }
