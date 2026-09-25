@@ -7370,6 +7370,19 @@
         "name": "Игорь",
         "url": "https://www.nejrecept.cz/recept"
       }
+    },
+    {
+      "id": "4e2f9ee6-fb10-43ec-a9ae-4bf02fc6fb65",
+      "ts": "2026-09-25T05:01:38.095Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
