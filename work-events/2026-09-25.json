@@ -68347,6 +68347,20 @@
       }
     },
     {
+      "id": "9149f6d7-a32c-43d6-80d1-4147766cea99",
+      "ts": "2026-09-25T08:46:48.359Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Hidupkan Kembali Kemesraan Hubungan"
+      }
+    },
+    {
       "id": "7ee09eb9-55bb-444b-a153-b7f5aeba6296",
       "ts": "2026-09-25T08:46:48.418Z",
       "workerId": "nastya",
