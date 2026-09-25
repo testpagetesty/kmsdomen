@@ -15563,6 +15563,20 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8fd7409c-a1e2-4fb8-b892-34a8c1c34fdb",
+      "ts": "2026-09-25T06:16:37.774Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
