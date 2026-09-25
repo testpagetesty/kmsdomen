@@ -5914,6 +5914,18 @@
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
       }
+    },
+    {
+      "id": "31cc21e8-bb55-44f0-8c46-fc6870c74a01",
+      "ts": "2026-09-25T04:50:40.516Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
