@@ -42106,6 +42106,19 @@
       }
     },
     {
+      "id": "56c4cecd-7850-4f89-932b-de85ee50891a",
+      "ts": "2026-09-25T07:48:58.964Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "d36be880-e548-4158-8205-51516cf533e9",
       "ts": "2026-09-25T07:48:59.696Z",
       "workerId": "соня_трубка_1",
@@ -42166,6 +42179,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "762e8cc7-6fef-4547-a0f8-f71d8faa189f",
+      "ts": "2026-09-25T07:49:21.400Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
       }
     },
     {
