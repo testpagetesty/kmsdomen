@@ -48199,6 +48199,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "52868fde-53af-4542-84c4-244daa4c5063",
+      "ts": "2026-09-25T08:03:33.600Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "TOKYO MXニュース 暗号資産ニュース 今日"
+      }
     }
   ]
 }
