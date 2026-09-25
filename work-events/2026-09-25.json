@@ -69352,6 +69352,20 @@
         "name": "Таня - Трубка 2",
         "title": "Pria Nyaman dan Percaya Diri"
       }
+    },
+    {
+      "id": "bba52459-898c-4727-a3f0-ad9098bfc502",
+      "ts": "2026-09-25T08:49:03.797Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
