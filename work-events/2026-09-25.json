@@ -51711,6 +51711,18 @@
       }
     },
     {
+      "id": "91a035d9-2509-4b63-8daf-9a88c366907d",
+      "ts": "2026-09-25T08:10:41.460Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "f3df0011-16c3-419b-963c-c7ccc0e016fa",
       "ts": "2026-09-25T08:10:41.595Z",
       "workerId": "таня_трубка_1",
@@ -52004,6 +52016,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "1a270e1a-3ee5-421f-96de-ce88ffca8731",
+      "ts": "2026-09-25T08:11:27.149Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
       }
     }
   ]
