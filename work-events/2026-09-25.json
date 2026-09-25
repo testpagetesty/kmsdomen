@@ -16606,6 +16606,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "d94d5aa1-b9e6-4e60-ac4d-b57da1c4458d",
+      "ts": "2026-09-25T06:21:28.891Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
