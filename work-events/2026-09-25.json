@@ -42623,6 +42623,19 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "0c1df8a7-6486-4a19-8fda-1f7be4ec99ba",
+      "ts": "2026-09-25T07:50:32.322Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "interest": "cara merasa lebih baik dengan lonjakan gula darah"
+      }
     }
   ]
 }
