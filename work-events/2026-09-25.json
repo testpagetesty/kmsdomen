@@ -1245,6 +1245,19 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "8cc96481-efd6-4f05-a623-766821cc2394",
+      "ts": "2026-09-25T04:15:09.287Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
