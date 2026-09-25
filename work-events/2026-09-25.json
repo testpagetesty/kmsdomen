@@ -60479,6 +60479,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "46f8d402-9d43-42c9-ab6a-210da8e843a1",
+      "ts": "2026-09-25T08:36:48.405Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
