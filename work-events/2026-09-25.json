@@ -73022,6 +73022,19 @@
       }
     },
     {
+      "id": "dc534917-2ae3-4cbd-b8cc-4c521875794d",
+      "ts": "2026-09-25T08:56:22.682Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "8b1cd261-8868-4130-b6b4-3cfe61a5f8a0",
       "ts": "2026-09-25T08:56:23.213Z",
       "workerId": "таня_трубка_4",
@@ -73059,6 +73072,18 @@
       }
     },
     {
+      "id": "8c0a6956-f076-4d2f-892a-135f02747674",
+      "ts": "2026-09-25T08:56:27.196Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "c7666ea9-ed19-4d7a-90e1-c4a235b28b45",
       "ts": "2026-09-25T08:56:29.380Z",
       "workerId": "настя1",
@@ -73085,6 +73110,19 @@
       }
     },
     {
+      "id": "f98cb21f-2d20-44bf-ba02-685402457f37",
+      "ts": "2026-09-25T08:56:36.424Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "4ec8cefa-d18a-4ca8-9b52-1abef71510a9",
       "ts": "2026-09-25T08:56:36.426Z",
       "workerId": "настя1",
@@ -73092,6 +73130,19 @@
       "deviceTz": "Europe/Oslo",
       "geo": "no",
       "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "3b87d348-802b-472c-8bf0-53a0d8e6c169",
+      "ts": "2026-09-25T08:56:36.599Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_stop",
       "extra": {
         "name": "Настя1"
       }
@@ -73107,6 +73158,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "21fcf2a6-a005-48d0-a9fa-8702ff18cc7b",
+      "ts": "2026-09-25T08:56:41.265Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     }
   ]
