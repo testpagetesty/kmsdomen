@@ -72614,6 +72614,19 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "3b666fc3-9435-4968-a021-46985cce7939",
+      "ts": "2026-09-25T08:55:34.950Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
+      }
     }
   ]
 }
