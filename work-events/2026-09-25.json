@@ -13144,6 +13144,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "001afd02-9e8f-47d4-ba16-9f104f29f500",
+      "ts": "2026-09-25T06:03:19.480Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
