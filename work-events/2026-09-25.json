@@ -13960,6 +13960,21 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "d2c96327-2430-4a9d-aab0-74190259e2cc",
+      "ts": "2026-09-25T06:09:25.922Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "from": "ru",
+        "to": "sg",
+        "source": "ip"
+      }
     }
   ]
 }
