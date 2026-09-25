@@ -47383,6 +47383,18 @@
         "name": "Настя",
         "interest": "NHKニュース 仮想通貨市場ニュース 今日"
       }
+    },
+    {
+      "id": "01859fb8-71fa-42b7-b0a8-85d1738a04d0",
+      "ts": "2026-09-25T08:01:48.369Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
