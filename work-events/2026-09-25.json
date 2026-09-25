@@ -40812,6 +40812,19 @@
         "name": "Соня Трубка 1",
         "interest": "Qué hacer si se cansan los ojos"
       }
+    },
+    {
+      "id": "f4ade9d1-76e1-4dfe-aadb-e08147198ef0",
+      "ts": "2026-09-25T07:44:33.030Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
