@@ -8238,6 +8238,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "7e35eedd-4b82-4ad0-8ce3-182157d2e878",
+      "ts": "2026-09-25T05:08:52.862Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
