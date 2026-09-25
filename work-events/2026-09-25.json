@@ -44517,6 +44517,19 @@
       }
     },
     {
+      "id": "0f900d0b-3164-44de-acea-33c75750fe5a",
+      "ts": "2026-09-25T07:56:14.204Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://defence24.pl/polityka-obronna"
+      }
+    },
+    {
       "id": "809298bf-7067-4525-8db1-663da749f587",
       "ts": "2026-09-25T07:56:16.708Z",
       "workerId": "игорь",
@@ -44527,6 +44540,20 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.metropolitan.si/novice/slovenija"
+      }
+    },
+    {
+      "id": "2422fc2f-cc34-4fc2-ba63-3d71beb035f0",
+      "ts": "2026-09-25T07:56:17.538Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "defence24.pl",
+        "source": "teaser"
       }
     },
     {
@@ -44556,6 +44583,44 @@
       }
     },
     {
+      "id": "5b07c7fc-2639-4a96-99ae-c8d3b5b63729",
+      "ts": "2026-09-25T07:56:19.248Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
+    },
+    {
+      "id": "92b9ba76-6edd-4a63-92f7-463cff4a190d",
+      "ts": "2026-09-25T07:56:20.737Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
+      "id": "ad8dfce5-f907-4755-9149-901b2a0a71dc",
+      "ts": "2026-09-25T07:56:20.936Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
+    },
+    {
       "id": "175103e2-2bd2-4fb1-aa08-27ea6e53c92c",
       "ts": "2026-09-25T07:56:22.846Z",
       "workerId": "соня_трубка_1",
@@ -44581,6 +44646,20 @@
       }
     },
     {
+      "id": "b55b8179-e72c-46b6-a71e-4ec29f512a16",
+      "ts": "2026-09-25T07:56:24.378Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "blitz.bg",
+        "source": "teaser"
+      }
+    },
+    {
       "id": "8065c8ca-44ef-4fdf-bc80-c54cad852685",
       "ts": "2026-09-25T07:56:25.600Z",
       "workerId": "соня_трубка_1",
@@ -44591,6 +44670,32 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "b377f0a1-fe5e-4aa4-9c02-5535ab92b5a3",
+      "ts": "2026-09-25T07:56:25.781Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
+      }
+    },
+    {
+      "id": "9ad17fd3-e6dd-4f54-a588-47c7cbcc88e9",
+      "ts": "2026-09-25T07:56:30.045Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
       }
     }
   ]
