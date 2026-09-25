@@ -47991,6 +47991,20 @@
         "name": "Таня - Трубка 4",
         "title": "Η στύση έγινε πιο αδύναμη;"
       }
+    },
+    {
+      "id": "2ae827b2-cd15-4c35-af35-5bf062eda5a8",
+      "ts": "2026-09-25T08:03:10.096Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
