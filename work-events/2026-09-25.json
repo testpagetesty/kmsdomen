@@ -38203,6 +38203,20 @@
         "name": "Соня Тубка 2",
         "source": "motion"
       }
+    },
+    {
+      "id": "15403c5f-4181-4609-9a2b-6c918f187d5e",
+      "ts": "2026-09-25T07:34:38.971Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
     }
   ]
 }
