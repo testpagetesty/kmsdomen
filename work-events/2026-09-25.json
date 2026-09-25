@@ -70634,6 +70634,19 @@
       }
     },
     {
+      "id": "b3875927-82b8-4836-9871-41beaabec4ec",
+      "ts": "2026-09-25T08:51:16.303Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre hvis øynene blir trøtte"
+      }
+    },
+    {
       "id": "1274964e-dfc4-4cd8-8ecb-5f03f7c52b86",
       "ts": "2026-09-25T08:51:18.138Z",
       "workerId": "игорь",
@@ -70644,6 +70657,20 @@
       "event": "user_active",
       "extra": {
         "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "f6cbb462-c7f8-4fee-ad79-28cc8420385d",
+      "ts": "2026-09-25T08:51:18.455Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
         "source": "scroll"
       }
     },
@@ -70684,6 +70711,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "a7d53535-56f2-4694-b7ad-6c7a5b040dfd",
+      "ts": "2026-09-25T08:51:27.186Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
