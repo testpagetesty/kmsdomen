@@ -52769,6 +52769,20 @@
         "name": "Tanya - trubka3",
         "source": "touch"
       }
+    },
+    {
+      "id": "8a564a85-cbb6-48ce-a569-04e89c40a9d6",
+      "ts": "2026-09-25T08:12:31.991Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
