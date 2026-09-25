@@ -73008,6 +73008,19 @@
       }
     },
     {
+      "id": "37b30fd9-0447-4a8f-b03c-c510351b4379",
+      "ts": "2026-09-25T08:56:19.798Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "3aca7061-11ed-49d2-b3e4-49a2ee678aab",
       "ts": "2026-09-25T08:56:21.198Z",
       "workerId": "настя1",
@@ -73059,6 +73072,20 @@
       }
     },
     {
+      "id": "d7096c0f-1831-45ab-8d54-c27cfebba04e",
+      "ts": "2026-09-25T08:56:25.051Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "81e868c4-76b0-416d-90c3-cdb233f88360",
       "ts": "2026-09-25T08:56:26.007Z",
       "workerId": "nastya",
@@ -73069,6 +73096,18 @@
       "extra": {
         "name": "Настя",
         "interest": "Verenkiertohäiriöt"
+      }
+    },
+    {
+      "id": "bef10081-c6d0-4dc2-a72f-195997de804a",
+      "ts": "2026-09-25T08:56:26.356Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -73172,6 +73211,18 @@
       "extra": {
         "name": "Настя1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "8005b9ad-c8c4-4cfe-ac4f-20f36425037f",
+      "ts": "2026-09-25T08:56:41.496Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
