@@ -62434,6 +62434,18 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "8a11d128-ffc2-41ac-b6b5-2fc13db2158e",
+      "ts": "2026-09-25T08:38:23.278Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
