@@ -32258,6 +32258,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "5ff3da8a-20e6-4100-bb73-adbbb21ea797",
+      "ts": "2026-09-25T07:18:02.891Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
