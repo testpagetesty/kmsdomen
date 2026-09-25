@@ -42482,6 +42482,18 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "d71242c8-7c31-4da4-b4ba-b075347322c2",
+      "ts": "2026-09-25T07:50:09.823Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
