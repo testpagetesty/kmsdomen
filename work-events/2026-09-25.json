@@ -72941,6 +72941,20 @@
         "name": "Настя",
         "interest": "Mitä tehdä korvien soidessa"
       }
+    },
+    {
+      "id": "f46df836-2969-41b5-aecd-cb7e42c64ada",
+      "ts": "2026-09-25T08:56:17.731Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
