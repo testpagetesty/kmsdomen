@@ -75400,6 +75400,19 @@
       }
     },
     {
+      "id": "89b47df2-9dd8-4cb9-99be-06b60d0a79ec",
+      "ts": "2026-09-25T09:00:10.229Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "gyvenimo būdas kepenių sveikatai"
+      }
+    },
+    {
       "id": "9c3c8912-2dfe-42af-b35d-8dae448dfcfd",
       "ts": "2026-09-25T09:00:10.399Z",
       "workerId": "соня_тубка_2",
@@ -75684,6 +75697,20 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "92d2e636-a143-425d-9124-29a23997e64e",
+      "ts": "2026-09-25T09:00:41.434Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
