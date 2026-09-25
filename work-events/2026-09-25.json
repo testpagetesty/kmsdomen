@@ -73893,6 +73893,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e5a6f1f1-37fd-4802-bf64-e270c115f493",
+      "ts": "2026-09-25T08:57:58.023Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
