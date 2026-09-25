@@ -12254,6 +12254,19 @@
         "host": "zagorje.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "c1f171fb-11ce-4375-87df-617966f82274",
+      "ts": "2026-09-25T05:55:02.059Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
