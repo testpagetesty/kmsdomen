@@ -34347,6 +34347,20 @@
         "name": "Игорь",
         "url": "https://www.nejrecept.cz/recept"
       }
+    },
+    {
+      "id": "7c172ec1-0878-4bf9-894a-633e2e070392",
+      "ts": "2026-09-25T07:23:32.114Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
