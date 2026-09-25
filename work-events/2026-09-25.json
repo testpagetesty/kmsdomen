@@ -40850,6 +40850,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "db0c3148-f433-468a-bb5e-1d0c95076f42",
+      "ts": "2026-09-25T07:44:37.690Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
