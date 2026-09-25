@@ -75178,6 +75178,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "3909b074-1554-465a-ad56-2da3f81fbf46",
+      "ts": "2026-09-25T08:59:43.524Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
