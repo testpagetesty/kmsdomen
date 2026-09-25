@@ -49148,6 +49148,31 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "46bd2078-4a91-4d2f-9bfd-6a9b70553850",
+      "ts": "2026-09-25T08:04:50.800Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "55d7f0c3-beb0-4d51-9972-d090d63f7944",
+      "ts": "2026-09-25T08:04:50.800Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
