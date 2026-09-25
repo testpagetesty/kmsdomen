@@ -12384,6 +12384,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "acf6f5a8-ee3d-4103-82c7-89d7c58b9c01",
+      "ts": "2026-09-25T05:56:19.472Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
