@@ -41517,6 +41517,19 @@
       }
     },
     {
+      "id": "a3309b22-3fa8-4141-9872-4368701d0d04",
+      "ts": "2026-09-25T07:46:44.845Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "c3423e20-c42a-4164-9ceb-a29791ceeb04",
       "ts": "2026-09-25T07:46:49.351Z",
       "workerId": "игорь",
@@ -41528,6 +41541,18 @@
         "name": "Игорь",
         "host": "zurnal24.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "8d6dee7b-e42a-4700-acd8-6b86770e4299",
+      "ts": "2026-09-25T07:46:49.520Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
