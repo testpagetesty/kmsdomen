@@ -12304,6 +12304,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "9c7ad590-a51e-486c-8426-a9bedafa39d4",
+      "ts": "2026-09-25T05:55:23.479Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
