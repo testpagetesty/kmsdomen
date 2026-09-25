@@ -40017,6 +40017,18 @@
       }
     },
     {
+      "id": "efdff33f-10b0-439f-9835-8e74a3ccc2cb",
+      "ts": "2026-09-25T07:40:01.452Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "30307198-5a4e-44c9-a9f4-b9d80085cd21",
       "ts": "2026-09-25T07:40:01.540Z",
       "workerId": "игорь",
@@ -40065,6 +40077,18 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.metropolitan.si/novice/slovenija"
+      }
+    },
+    {
+      "id": "2858b3b2-5683-44ac-bd2d-fd7f110901d6",
+      "ts": "2026-09-25T07:40:23.068Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
       }
     }
   ]
