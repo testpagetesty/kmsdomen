@@ -31676,6 +31676,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "21d68266-7a97-456a-9573-24f74b688fa3",
+      "ts": "2026-09-25T07:16:18.691Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
