@@ -9595,6 +9595,20 @@
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
       }
+    },
+    {
+      "id": "5394e671-2668-4eff-80c2-4c0567817a6f",
+      "ts": "2026-09-25T05:24:15.854Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
