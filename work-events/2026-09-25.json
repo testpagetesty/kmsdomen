@@ -43383,6 +43383,18 @@
       }
     },
     {
+      "id": "ff28cce0-3230-4784-a8a3-5ec1661f14d0",
+      "ts": "2026-09-25T07:52:39.252Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "9b1bbdf2-1a1a-4afc-bebc-2ea2dead885e",
       "ts": "2026-09-25T07:52:41.441Z",
       "workerId": "таня_трубка_1",
