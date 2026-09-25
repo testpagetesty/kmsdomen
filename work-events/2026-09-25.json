@@ -18301,6 +18301,20 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "d82ff023-8c18-4625-87e6-c2f6c60d0f87",
+      "ts": "2026-09-25T06:27:29.690Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
