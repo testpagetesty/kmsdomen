@@ -75672,6 +75672,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "23311050-3dbd-4eaf-94b3-e0d4c5f86a77",
+      "ts": "2026-09-25T09:00:39.755Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
