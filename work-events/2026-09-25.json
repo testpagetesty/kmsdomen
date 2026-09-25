@@ -9833,6 +9833,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "62a7b732-03bc-4408-84f1-f104b0e673f0",
+      "ts": "2026-09-25T05:27:46.141Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
