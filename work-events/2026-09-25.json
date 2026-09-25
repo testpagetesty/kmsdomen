@@ -65187,6 +65187,20 @@
       }
     },
     {
+      "id": "2876ff62-d6f5-4201-8e2d-a80fac556659",
+      "ts": "2026-09-25T08:41:17.627Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Pria Sehat dan Penuh Energi"
+      }
+    },
+    {
       "id": "965de1ba-97ec-424e-b1fc-4688a033328b",
       "ts": "2026-09-25T08:41:18.175Z",
       "workerId": "игорь",
@@ -65732,6 +65746,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "b31f2678-868a-403b-9c10-d05539f4aed1",
+      "ts": "2026-09-25T08:42:22.183Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Dukung kondisi pria dan rasa percaya diri dalam momen yang penting."
       }
     },
     {
@@ -66408,6 +66436,20 @@
       }
     },
     {
+      "id": "b95f63dd-b2ec-42d8-ab8d-87acede2938e",
+      "ts": "2026-09-25T08:43:27.758Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Potensi bangkit dari kedalaman"
+      }
+    },
+    {
       "id": "0f3f5024-6255-4e94-ae23-4c7bc7e170eb",
       "ts": "2026-09-25T08:43:31.093Z",
       "workerId": "tanya_trubka3",
@@ -66928,6 +66970,20 @@
       "extra": {
         "name": "Таня - трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "da1f783f-1c73-475b-92c9-c678a1fc522a",
+      "ts": "2026-09-25T08:44:29.269Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Dukungan yang dirancang untuk vitalitas dan kebugaran pria."
       }
     },
     {
@@ -67561,6 +67617,20 @@
       }
     },
     {
+      "id": "b95f3b1e-16c3-4d1b-919b-8bd3e105af0a",
+      "ts": "2026-09-25T08:45:31.431Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Warisan leluhur, kini dalam kapsul"
+      }
+    },
+    {
       "id": "f6f3143d-91a8-4f13-8f9f-d8ba49904db6",
       "ts": "2026-09-25T08:45:31.532Z",
       "workerId": "игорь",
@@ -68024,6 +68094,20 @@
       "extra": {
         "name": "Настя1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "3d85b6d8-39b3-47a9-ac56-4c677d2fc33d",
+      "ts": "2026-09-25T08:46:32.878Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Solusi Bugar Pria Sejati"
       }
     }
   ]
