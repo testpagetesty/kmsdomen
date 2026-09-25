@@ -50327,6 +50327,20 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "b4805175-15e7-4cd6-9c10-214e4e9525ec",
+      "ts": "2026-09-25T08:07:26.341Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
+      }
     }
   ]
 }
