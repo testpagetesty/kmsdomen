@@ -43147,6 +43147,20 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4a297a51-35c8-4965-9c92-3a6de405fa58",
+      "ts": "2026-09-25T07:52:07.098Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
