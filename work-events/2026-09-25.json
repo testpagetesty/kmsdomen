@@ -71067,6 +71067,19 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2a39882a-553a-437d-abbd-3a19fac90df3",
+      "ts": "2026-09-25T08:52:11.640Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä painonnousussa"
+      }
     }
   ]
 }
