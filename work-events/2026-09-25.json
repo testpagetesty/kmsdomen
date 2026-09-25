@@ -74515,6 +74515,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "9101786f-e8c1-4a58-879e-d6d0ac56bc41",
+      "ts": "2026-09-25T08:58:27.197Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
