@@ -77538,6 +77538,18 @@
       }
     },
     {
+      "id": "464dc7b0-5f73-430a-865f-d689b54602ab",
+      "ts": "2026-09-25T09:04:23.173Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "04dfc3b1-6de2-4b6d-8e5b-44ae26d8e961",
       "ts": "2026-09-25T09:04:23.220Z",
       "workerId": "таня_трубка_4",
@@ -77559,6 +77571,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "02bdbefb-7fe5-4bd1-b0e0-a9ff995b00fe",
+      "ts": "2026-09-25T09:04:25.251Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
       }
     },
     {
@@ -77731,6 +77757,19 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "touch"
+      }
+    },
+    {
+      "id": "6b8e10ea-6791-46c9-8733-8b7b9eddbfbd",
+      "ts": "2026-09-25T09:05:01.033Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
