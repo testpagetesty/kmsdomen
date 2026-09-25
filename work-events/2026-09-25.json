@@ -67118,6 +67118,18 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "e6722ff5-3044-481e-9a1e-f74321d288d9",
+      "ts": "2026-09-25T08:45:22.497Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
