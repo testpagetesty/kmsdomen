@@ -46768,6 +46768,18 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "9accb825-3fac-4bd1-a514-8ddcaab46d40",
+      "ts": "2026-09-25T08:00:50.856Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
