@@ -19666,6 +19666,19 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5b27367e-ab2f-4a83-9022-c0e35d02586f",
+      "ts": "2026-09-25T06:32:51.017Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
     }
   ]
 }
