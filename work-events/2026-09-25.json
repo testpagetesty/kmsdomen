@@ -47895,6 +47895,19 @@
         "name": "Таня - Трубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "29af8988-1314-4fb1-8e4a-687d7866b047",
+      "ts": "2026-09-25T08:03:03.179Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "NHKニュース ビットコインニュース 今日"
+      }
     }
   ]
 }
