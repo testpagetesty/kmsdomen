@@ -66737,6 +66737,19 @@
       }
     },
     {
+      "id": "83e56c31-57c9-4063-aef2-9995f958f135",
+      "ts": "2026-09-25T08:44:30.729Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "8a44df08-1e05-4350-8b41-dbf5790dd038",
       "ts": "2026-09-25T08:44:30.783Z",
       "workerId": "настя1",
@@ -67171,6 +67184,20 @@
       }
     },
     {
+      "id": "4ab3d1c1-5f7e-42f7-8b7e-84ac088277c1",
+      "ts": "2026-09-25T08:45:16.795Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e6722ff5-3044-481e-9a1e-f74321d288d9",
       "ts": "2026-09-25T08:45:22.497Z",
       "workerId": "таня_трубка_4",
@@ -67204,6 +67231,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "aa9fb727-b656-4f59-8f1c-ceb819430c88",
+      "ts": "2026-09-25T08:45:27.179Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -67299,6 +67338,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "09875857-179f-4c6e-9238-1f20a07f5a20",
+      "ts": "2026-09-25T08:45:43.999Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
