@@ -31854,6 +31854,20 @@
       }
     },
     {
+      "id": "e690d47f-84a7-4c78-b56c-a02e088a537b",
+      "ts": "2026-09-25T07:16:40.882Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "bd995dd4-aad1-43a2-a5dd-6058321706ce",
       "ts": "2026-09-25T07:16:41.414Z",
       "workerId": "таня_трубка_1",
@@ -31863,6 +31877,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "8fe0c3c2-d281-40ac-aab1-5ca016597e2b",
+      "ts": "2026-09-25T07:16:41.641Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -31981,6 +32008,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "ca143d17-9479-42a4-86d6-06b23baf81f3",
+      "ts": "2026-09-25T07:17:20.798Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
