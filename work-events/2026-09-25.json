@@ -31715,6 +31715,19 @@
       }
     },
     {
+      "id": "1cc3e7ba-3518-4eb9-9e73-0f9a531d2d83",
+      "ts": "2026-09-25T07:16:20.246Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "239429aa-cf42-4e41-97ea-f71d0ce989f7",
       "ts": "2026-09-25T07:16:20.339Z",
       "workerId": "игорь",
@@ -31865,6 +31878,19 @@
       }
     },
     {
+      "id": "3c7d4f1d-daf4-4d3d-ba30-15591523f3fb",
+      "ts": "2026-09-25T07:16:42.877Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "d92b8830-bd8c-4ffd-ab9c-662c5ecf464f",
       "ts": "2026-09-25T07:16:50.340Z",
       "workerId": "игорь",
@@ -31888,6 +31914,20 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "685e6424-b1d2-43d8-979d-80ee03de58a7",
+      "ts": "2026-09-25T07:17:03.641Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
         "source": "scroll"
       }
     }
