@@ -30860,6 +30860,32 @@
       }
     },
     {
+      "id": "4634b4cd-3057-45dc-b3eb-2540a428aa98",
+      "ts": "2026-09-25T07:13:44.306Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "71cc8934-6a4e-4e4f-a984-fc34eb09f6a7",
+      "ts": "2026-09-25T07:13:46.256Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "how to properly manage and buy cryptocurrency in our country"
+      }
+    },
+    {
       "id": "0a44b3fc-84f8-4124-a7b4-aad5e699fbed",
       "ts": "2026-09-25T07:13:47.055Z",
       "workerId": "игорь",
@@ -30912,6 +30938,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "34792a3e-0988-477d-913c-10a7932ccca3",
+      "ts": "2026-09-25T07:13:57.505Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state social payments for all citizens"
       }
     }
   ]
