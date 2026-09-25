@@ -69641,6 +69641,18 @@
       }
     },
     {
+      "id": "c0c3881a-091c-4032-b2c8-22129b1cea09",
+      "ts": "2026-09-25T08:49:41.495Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "6566d7fe-4bd7-451e-ac5f-013a26e0b588",
       "ts": "2026-09-25T08:49:44.719Z",
       "workerId": "настя1",
@@ -69665,6 +69677,18 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved vektøkning"
+      }
+    },
+    {
+      "id": "3647257c-b785-4886-8772-04974b2199fd",
+      "ts": "2026-09-25T08:49:47.443Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
