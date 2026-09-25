@@ -52005,6 +52005,32 @@
       }
     },
     {
+      "id": "15ff14e0-9121-4635-9587-5772e8522116",
+      "ts": "2026-09-25T08:11:21.110Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "5d6010a2-2760-44a0-9f9d-6a07e3644562",
+      "ts": "2026-09-25T08:11:21.720Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "ae6193e6-8d20-4f54-a314-90ead074e843",
       "ts": "2026-09-25T08:11:21.832Z",
       "workerId": "таня_трубка_4",
@@ -52129,6 +52155,32 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "6931b881-113b-4745-b43c-b40e2383f453",
+      "ts": "2026-09-25T08:11:28.159Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
+      "id": "05213fff-639b-4ecc-bff5-f9003cf49d79",
+      "ts": "2026-09-25T08:11:28.472Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
         "source": "touch"
       }
     },
@@ -52324,6 +52376,18 @@
       }
     },
     {
+      "id": "8fd2f62b-6e6a-4f97-b423-a104540e9a07",
+      "ts": "2026-09-25T08:11:48.380Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "725c0f59-1621-4b36-aa23-c4a8adde1da5",
       "ts": "2026-09-25T08:11:49.839Z",
       "workerId": "таня_трубка_4",
@@ -52335,6 +52399,19 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "touch"
+      }
+    },
+    {
+      "id": "b18a8302-ad6d-4fc6-84e3-58ce5d71c4db",
+      "ts": "2026-09-25T08:11:50.659Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
       }
     },
     {
@@ -52401,6 +52478,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "8deb784f-d7ce-4850-8da1-0f7b0269a057",
+      "ts": "2026-09-25T08:12:03.748Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     }
   ]
