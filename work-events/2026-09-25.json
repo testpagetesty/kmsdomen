@@ -30507,6 +30507,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "59cf17ee-2e9a-4591-94c6-1f905154eae9",
+      "ts": "2026-09-25T07:13:02.489Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state-level social support for citizens"
+      }
     }
   ]
 }
