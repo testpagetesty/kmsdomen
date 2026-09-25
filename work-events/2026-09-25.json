@@ -2268,6 +2268,18 @@
         "name": "Tanya - trubka3",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f60a65ac-81b0-4343-8634-741de609118d",
+      "ts": "2026-09-25T04:26:40.424Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
