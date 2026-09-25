@@ -75674,6 +75674,19 @@
       }
     },
     {
+      "id": "1b52998e-4cf4-4f43-a4ac-3418b5ef8df1",
+      "ts": "2026-09-25T09:00:38.024Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "3d4f4f85-3079-497a-996b-fe67433f41f5",
       "ts": "2026-09-25T09:00:38.801Z",
       "workerId": "настя1",
@@ -75752,6 +75765,18 @@
       }
     },
     {
+      "id": "4151beeb-1c6e-4c97-82de-e53c38dc9a6f",
+      "ts": "2026-09-25T09:00:48.428Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "83fb9f10-eed5-4d15-89b6-f46ff24ffedd",
       "ts": "2026-09-25T09:01:03.151Z",
       "workerId": "соня_тубка_2",
@@ -75801,6 +75826,20 @@
       "event": "capture_resume",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "27bcab4d-5a55-4db2-a555-2f81daf5b8f7",
+      "ts": "2026-09-25T09:01:12.061Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     }
   ]
