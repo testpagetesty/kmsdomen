@@ -69512,6 +69512,18 @@
       }
     },
     {
+      "id": "0c1658f2-2351-412d-ae67-c4a8677cce96",
+      "ts": "2026-09-25T08:49:23.203Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "64013186-9adf-47ff-ad8e-19440e74a002",
       "ts": "2026-09-25T08:49:23.315Z",
       "workerId": "соня_трубка_1",
@@ -69599,6 +69611,19 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved øresus"
+      }
+    },
+    {
+      "id": "e82505a5-5190-4183-81cd-370061eb8706",
+      "ts": "2026-09-25T08:49:40.572Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
