@@ -1385,6 +1385,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "0720bf23-72eb-41b7-b120-a4f2c088d2fc",
+      "ts": "2026-09-25T04:16:34.404Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
