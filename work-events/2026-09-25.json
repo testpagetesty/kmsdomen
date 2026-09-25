@@ -50107,6 +50107,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "37d35dab-a006-4455-aee8-19d3b600f464",
+      "ts": "2026-09-25T08:06:50.632Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
