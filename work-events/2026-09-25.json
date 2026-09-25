@@ -70949,6 +70949,19 @@
       }
     },
     {
+      "id": "2947a725-7eee-4b7d-8ae7-3ce4264145e3",
+      "ts": "2026-09-25T08:51:57.565Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved høyt blodsukker"
+      }
+    },
+    {
       "id": "dd6b9764-d2a1-4e66-9bd1-db2a57b9017b",
       "ts": "2026-09-25T08:51:58.171Z",
       "workerId": "игорь",
@@ -70973,6 +70986,20 @@
       "extra": {
         "name": "Настя",
         "interest": "Iho-ongelmat"
+      }
+    },
+    {
+      "id": "469e5c9c-3d4e-4a55-9971-34c6fa8c8516",
+      "ts": "2026-09-25T08:52:01.933Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
       }
     }
   ]
