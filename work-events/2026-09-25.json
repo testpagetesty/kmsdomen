@@ -28674,6 +28674,19 @@
       }
     },
     {
+      "id": "ae67d232-8d19-44e8-a1db-1bac457bc1cd",
+      "ts": "2026-09-25T07:07:45.099Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "f13f32f9-0fee-43fa-8130-c479c32dfff6",
       "ts": "2026-09-25T07:07:45.778Z",
       "workerId": "таня_трубка_2",
@@ -28891,6 +28904,18 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "f750bd76-60dc-4da7-9bcf-00e4ff88224a",
+      "ts": "2026-09-25T07:08:18.472Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     },
     {
@@ -29229,6 +29254,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "motion"
+      }
+    },
+    {
+      "id": "32b3d351-bde9-4494-bb5e-0572fd5ef771",
+      "ts": "2026-09-25T07:09:18.473Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     }
   ]
