@@ -45463,6 +45463,19 @@
       }
     },
     {
+      "id": "50d2eb3c-1603-4ad8-a6d8-12c79cbcada4",
+      "ts": "2026-09-25T07:58:00.846Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "892cdd3c-d16b-4e08-bf3c-89c3608867c8",
       "ts": "2026-09-25T07:58:01.470Z",
       "workerId": "игорь",
