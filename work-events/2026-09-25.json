@@ -52707,6 +52707,20 @@
       }
     },
     {
+      "id": "09274be2-ca47-42aa-a271-244ca1f306eb",
+      "ts": "2026-09-25T08:12:22.118Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "12bacb61-aae1-4c01-85d8-1ad51df912a1",
       "ts": "2026-09-25T08:12:22.182Z",
       "workerId": "таня_трубка_4",
@@ -52716,6 +52730,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "0d4c3d6c-4c59-41d2-9e83-2a6bc5254844",
+      "ts": "2026-09-25T08:12:22.874Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
@@ -52875,6 +52901,19 @@
       }
     },
     {
+      "id": "2b9a9bca-4b8c-42ed-8561-a4557b58d115",
+      "ts": "2026-09-25T08:12:43.272Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "b562302c-5a5c-412a-8758-b0c27717eba1",
       "ts": "2026-09-25T08:12:44.409Z",
       "workerId": "соня_трубка_1",
@@ -52898,6 +52937,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "c131124e-e5c4-4c62-960e-9103d2b1089f",
+      "ts": "2026-09-25T08:12:49.528Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     }
   ]
