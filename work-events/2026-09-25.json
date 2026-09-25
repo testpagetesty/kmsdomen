@@ -2179,6 +2179,18 @@
       }
     },
     {
+      "id": "8347d50a-43a4-4620-b051-4bad178b1b0d",
+      "ts": "2026-09-25T04:25:43.259Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ru",
+      "event": "shift_start",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "3a179f29-c4e7-44fb-8898-569c14633ce3",
       "ts": "2026-09-25T04:25:45.638Z",
       "workerId": "tanya_trubka3",
@@ -2305,6 +2317,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "2f8ee32d-a0e4-49a3-9f39-c282a216451a",
+      "ts": "2026-09-25T04:26:49.217Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ru",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
       }
     }
   ]
