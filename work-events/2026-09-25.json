@@ -48126,6 +48126,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "d8414c56-9f4d-4b17-866d-292ec2d6dff7",
+      "ts": "2026-09-25T08:03:21.529Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
