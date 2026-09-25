@@ -72037,6 +72037,19 @@
       }
     },
     {
+      "id": "2ae2725a-63c4-45ee-930f-4deac570c2a4",
+      "ts": "2026-09-25T08:54:24.184Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "7db0e231-d133-4e0c-adfc-77d0abac988a",
       "ts": "2026-09-25T08:54:26.028Z",
       "workerId": "соня_тубка_2",
@@ -72167,6 +72180,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "seguridad social en caso de enfermedad"
+      }
+    },
+    {
+      "id": "69384f99-ba49-4913-975e-ecf0b51f0fa4",
+      "ts": "2026-09-25T08:54:40.420Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
@@ -72662,6 +72687,18 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "1f8c3001-6d0e-420b-bd1f-9fba17cbc085",
+      "ts": "2026-09-25T08:55:40.422Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
