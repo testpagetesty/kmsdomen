@@ -35287,6 +35287,31 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "75be3894-d45a-4179-bf0b-3cfc0b342833",
+      "ts": "2026-09-25T07:25:33.795Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "9cd9902a-e3be-4702-82b4-6c7560865ff5",
+      "ts": "2026-09-25T07:25:33.795Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
