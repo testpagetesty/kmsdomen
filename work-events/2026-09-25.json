@@ -48839,6 +48839,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "b3d62bf4-9037-4ba4-b2bd-1ef32de0434f",
+      "ts": "2026-09-25T08:04:20.853Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
