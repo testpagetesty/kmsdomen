@@ -39,6 +39,18 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "ef6d9894-518f-4ed6-bc2c-bb0123b88354",
+      "ts": "2026-09-25T04:06:17.120Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
