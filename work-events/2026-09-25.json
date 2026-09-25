@@ -13717,6 +13717,19 @@
       }
     },
     {
+      "id": "898d085b-5d7b-4e74-b794-30868788eb2b",
+      "ts": "2026-09-25T06:08:16.492Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
+    },
+    {
       "id": "5c116edf-96dd-43fa-9709-e123d9513bb3",
       "ts": "2026-09-25T06:08:19.488Z",
       "workerId": "игорь",
@@ -13777,6 +13790,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "2b748260-3f38-4c3e-a60f-b3fac7c2f079",
+      "ts": "2026-09-25T06:08:36.781Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     }
