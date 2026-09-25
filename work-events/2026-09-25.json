@@ -53047,6 +53047,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "1612fe27-c69a-4165-aa21-ed29073bd3e8",
+      "ts": "2026-09-25T08:12:54.190Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "naujausios naujienos apie kriptovaliutų augimą mūsų šalyje"
+      }
     }
   ]
 }
