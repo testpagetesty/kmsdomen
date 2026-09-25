@@ -69366,6 +69366,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "eba10cd3-8ad4-45a5-9968-aade2b96c9a0",
+      "ts": "2026-09-25T08:49:08.793Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
