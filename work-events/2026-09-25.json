@@ -35235,6 +35235,19 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "fe380f59-fb66-4190-9ec9-5d0d4381fd72",
+      "ts": "2026-09-25T07:25:29.629Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
