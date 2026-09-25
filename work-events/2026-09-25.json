@@ -10095,6 +10095,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "97ada480-508b-4e2d-b2c9-28539cbf3561",
+      "ts": "2026-09-25T05:30:26.104Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
