@@ -48005,6 +48005,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5b4e093e-f26f-4e92-ad61-bf01921afccc",
+      "ts": "2026-09-25T08:03:12.713Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "ANNニュース 仮想通貨業界ニュース 今日"
+      }
     }
   ]
 }
