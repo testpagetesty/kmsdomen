@@ -74047,6 +74047,18 @@
       }
     },
     {
+      "id": "c535ead6-021a-43ba-ba00-80d623ca6bdc",
+      "ts": "2026-09-25T08:57:23.215Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "32593f1f-51f6-403f-bc41-816a91661224",
       "ts": "2026-09-25T08:57:23.330Z",
       "workerId": "соня_трубка_1",
@@ -74321,6 +74333,20 @@
       }
     },
     {
+      "id": "91c6365f-a7e3-41d7-98ae-e22f1781090c",
+      "ts": "2026-09-25T08:57:58.936Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
+    },
+    {
       "id": "4bbfc4fe-a3aa-4ab3-a119-c969ba45a3bb",
       "ts": "2026-09-25T08:57:59.917Z",
       "workerId": "таня_трубка_4",
@@ -74450,6 +74476,20 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved redusert mannlig energi"
+      }
+    },
+    {
+      "id": "21ab6848-d95c-4cb1-a95d-bd9fd7145f49",
+      "ts": "2026-09-25T08:58:20.866Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     }
   ]
