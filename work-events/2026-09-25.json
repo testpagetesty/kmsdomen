@@ -30238,6 +30238,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "3c463711-1257-4b90-907d-ec50bfdc2f2c",
+      "ts": "2026-09-25T07:12:18.477Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
