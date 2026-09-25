@@ -22636,6 +22636,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "5385e7d3-3aa2-4bbe-be41-0976160eb0d7",
+      "ts": "2026-09-25T06:47:08.583Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
