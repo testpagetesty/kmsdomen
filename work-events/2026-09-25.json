@@ -72114,6 +72114,19 @@
         "name": "Соня Трубка 1",
         "interest": "seguridad social en caso de enfermedad"
       }
+    },
+    {
+      "id": "56491173-d2a7-4e6f-a767-fc7004ea61b0",
+      "ts": "2026-09-25T08:54:41.442Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "últimas noticias sobre el crecimiento de criptomonedas en nuestro país"
+      }
     }
   ]
 }
