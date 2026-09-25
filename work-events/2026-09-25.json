@@ -7304,6 +7304,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "63bc8036-8aaa-4363-9da6-5dfb4c538fea",
+      "ts": "2026-09-25T05:01:33.161Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
     }
   ]
 }
