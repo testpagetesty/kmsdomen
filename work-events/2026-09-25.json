@@ -47554,6 +47554,19 @@
         "name": "Таня - Трубка 4",
         "title": "Αποτρέψτε τα εμφανή σημάδια γήρανσης"
       }
+    },
+    {
+      "id": "f46a0f90-c65d-4f1a-a494-a0455a410bd4",
+      "ts": "2026-09-25T08:02:09.568Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "NHKニュース 仮想通貨市場ニュース 今日"
+      }
     }
   ]
 }
