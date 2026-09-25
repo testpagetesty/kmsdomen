@@ -31956,6 +31956,20 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "1b05dc36-fa37-41c5-83b6-df8657254077",
+      "ts": "2026-09-25T07:17:18.643Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
