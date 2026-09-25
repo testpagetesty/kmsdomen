@@ -74619,6 +74619,18 @@
       }
     },
     {
+      "id": "a1f266d3-4005-4d0b-937d-add7b7a6be1b",
+      "ts": "2026-09-25T08:58:33.074Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "f47a1a68-1ce7-420d-9857-0b716581327e",
       "ts": "2026-09-25T08:58:33.362Z",
       "workerId": "настя1",
@@ -74669,6 +74681,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "39b1bcd3-6039-4473-a6a3-f86b96ef1c2a",
+      "ts": "2026-09-25T08:58:45.113Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
       }
     }
   ]
