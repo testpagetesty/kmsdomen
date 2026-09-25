@@ -6540,6 +6540,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "87b9b1d7-c2a0-4cc5-b430-8c68a95866b3",
+      "ts": "2026-09-25T04:56:19.050Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
