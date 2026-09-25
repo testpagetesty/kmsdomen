@@ -71604,6 +71604,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "2ab09d73-037d-499a-b8fc-fb541c421ece",
+      "ts": "2026-09-25T08:53:31.371Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip jaustis geriau su klausos problemomis"
+      }
     }
   ]
 }
