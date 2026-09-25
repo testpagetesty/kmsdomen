@@ -32245,6 +32245,19 @@
         "name": "Соня Трубка 1",
         "interest": "Qué hacer si el hígado está sobrecargado"
       }
+    },
+    {
+      "id": "66bd24d6-98ef-4365-ade1-b9fc7a6e6550",
+      "ts": "2026-09-25T07:18:00.544Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
