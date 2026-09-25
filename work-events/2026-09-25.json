@@ -13727,6 +13727,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "0fcfb1fe-39d9-42f8-8581-9cb244d73fc6",
+      "ts": "2026-09-25T06:08:20.086Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "regionalobala.si",
+        "source": "teaser"
+      }
     }
   ]
 }
