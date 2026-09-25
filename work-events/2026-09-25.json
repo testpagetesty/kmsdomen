@@ -64715,6 +64715,19 @@
       }
     },
     {
+      "id": "4fc4235e-485d-45f3-ae2a-ec1b27e6a49f",
+      "ts": "2026-09-25T08:40:45.355Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre for å rense kropp og lever"
+      }
+    },
+    {
       "id": "93bb89aa-f97c-4bb6-9568-077fe4f9db6e",
       "ts": "2026-09-25T08:40:45.439Z",
       "workerId": "nastya",
@@ -64750,6 +64763,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "aa08eff1-18b4-4775-927d-b6a8184078fd",
+      "ts": "2026-09-25T08:40:53.526Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre hvis øynene blir trøtte"
       }
     }
   ]
