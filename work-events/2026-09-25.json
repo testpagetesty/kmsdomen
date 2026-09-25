@@ -72793,6 +72793,19 @@
         "name": "Настя",
         "interest": "Mitä tehdä alaselän epämukavuudessa"
       }
+    },
+    {
+      "id": "f2b60d3d-4f5d-48ae-8bcb-80c634138663",
+      "ts": "2026-09-25T08:55:52.798Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
