@@ -51512,6 +51512,20 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "466980e7-8dfa-4cde-9a03-483ffd86c86c",
+      "ts": "2026-09-25T08:10:40.351Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
