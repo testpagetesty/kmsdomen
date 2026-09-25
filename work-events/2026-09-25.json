@@ -2516,6 +2516,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "47bd36ec-3cb5-46f3-83d7-d1a5800cbf02",
+      "ts": "2026-09-25T04:28:26.748Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
