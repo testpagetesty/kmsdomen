@@ -71839,6 +71839,20 @@
         "name": "Настя1",
         "source": "touch"
       }
+    },
+    {
+      "id": "98928214-fba1-4ac3-9033-76daee81188e",
+      "ts": "2026-09-25T08:53:57.750Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
