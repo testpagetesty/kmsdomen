@@ -52019,6 +52019,18 @@
       }
     },
     {
+      "id": "2a01243f-c7b6-461d-9561-d6ebb066671b",
+      "ts": "2026-09-25T08:11:20.970Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "15ff14e0-9121-4635-9587-5772e8522116",
       "ts": "2026-09-25T08:11:21.110Z",
       "workerId": "nastya",
@@ -52237,6 +52249,20 @@
       }
     },
     {
+      "id": "19e19d9d-87c4-4285-ac25-76e892379587",
+      "ts": "2026-09-25T08:11:30.126Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "cbe55f36-1c51-4460-8838-fbfa5eb57bd3",
       "ts": "2026-09-25T08:11:31.565Z",
       "workerId": "соня_трубка_1",
@@ -52440,6 +52466,20 @@
       }
     },
     {
+      "id": "823dc2bb-ca8a-4dff-bf42-57776bacdddc",
+      "ts": "2026-09-25T08:11:50.229Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "b18a8302-ad6d-4fc6-84e3-58ce5d71c4db",
       "ts": "2026-09-25T08:11:50.659Z",
       "workerId": "nastya",
@@ -52638,6 +52678,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "55b116c4-3ece-41b9-ba41-54066bf3b83c",
+      "ts": "2026-09-25T08:12:20.971Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
