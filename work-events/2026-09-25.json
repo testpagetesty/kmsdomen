@@ -74269,6 +74269,19 @@
       }
     },
     {
+      "id": "3ea18359-3321-42c2-8ca6-38d0a1e64b31",
+      "ts": "2026-09-25T08:57:55.426Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hudproblemer"
+      }
+    },
+    {
       "id": "91a04d7f-b65c-4dfe-bff0-1f763949dd3e",
       "ts": "2026-09-25T08:57:56.670Z",
       "workerId": "nastya",
@@ -74371,6 +74384,20 @@
       }
     },
     {
+      "id": "061a75e2-2401-4c1e-b9da-7c4454f89a75",
+      "ts": "2026-09-25T08:58:09.202Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c407fc19-ee75-4085-b715-89a8d5d3b895",
       "ts": "2026-09-25T08:58:12.629Z",
       "workerId": "таня_трубка_1",
@@ -74410,6 +74437,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "ca1e286d-7d80-47bf-9dfb-011cc17b520d",
+      "ts": "2026-09-25T08:58:20.437Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved redusert mannlig energi"
       }
     }
   ]
