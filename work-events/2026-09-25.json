@@ -10377,6 +10377,33 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "d3c889f8-3bb6-4581-a91d-d65f3ea2bef6",
+      "ts": "2026-09-25T05:32:30.389Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "5f61d8bb-8fd4-40ea-9243-c95a4a93df73",
+      "ts": "2026-09-25T05:32:42.894Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
     }
   ]
 }
