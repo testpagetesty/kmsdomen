@@ -69551,6 +69551,18 @@
       }
     },
     {
+      "id": "bcce8e52-4aae-458f-bac1-4768fa43c7b3",
+      "ts": "2026-09-25T08:49:26.025Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "101c5011-a53d-46aa-b68e-6083a8edc132",
       "ts": "2026-09-25T08:49:27.182Z",
       "workerId": "настя1",
@@ -69587,6 +69599,20 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved øresus"
+      }
+    },
+    {
+      "id": "7bac5c86-7b30-4bd3-b22d-d977a5aa8ad3",
+      "ts": "2026-09-25T08:49:41.124Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
