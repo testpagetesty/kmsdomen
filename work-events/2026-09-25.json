@@ -38800,6 +38800,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f85a2132-f4ff-4980-8680-a9c513ca617c",
+      "ts": "2026-09-25T07:36:22.820Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
