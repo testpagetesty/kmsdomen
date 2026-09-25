@@ -71422,6 +71422,20 @@
         "name": "Настя",
         "source": "touch"
       }
+    },
+    {
+      "id": "9a7694d4-d680-409a-8fd6-734c6669a586",
+      "ts": "2026-09-25T08:53:02.149Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
     }
   ]
 }
