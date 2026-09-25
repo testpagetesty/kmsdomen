@@ -66633,6 +66633,31 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "8a44df08-1e05-4350-8b41-dbf5790dd038",
+      "ts": "2026-09-25T08:44:30.783Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "c6ec5bde-2931-4be2-a374-c684d0ef4bb3",
+      "ts": "2026-09-25T08:44:30.784Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
