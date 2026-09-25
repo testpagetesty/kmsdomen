@@ -39922,6 +39922,20 @@
         "name": "Игорь",
         "url": "https://defence24.pl/polityka-obronna"
       }
+    },
+    {
+      "id": "3657c51c-c143-43b7-8a13-24307104a3ec",
+      "ts": "2026-09-25T07:39:47.141Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
