@@ -12641,6 +12641,18 @@
         "name": "Таня - Трубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "91f59c97-b7b4-4b59-99c5-c1d027dfdaea",
+      "ts": "2026-09-25T05:58:19.473Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
