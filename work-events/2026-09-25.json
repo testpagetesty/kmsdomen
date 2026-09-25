@@ -31339,6 +31339,19 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "a5a01121-dc05-420f-9b5a-81f9f0023516",
+      "ts": "2026-09-25T07:15:06.985Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for young families"
+      }
     }
   ]
 }
