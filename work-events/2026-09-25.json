@@ -12370,6 +12370,20 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "fe0a90f6-b7af-4d13-8c50-3d58275729f1",
+      "ts": "2026-09-25T05:56:06.860Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
     }
   ]
 }
