@@ -39297,6 +39297,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "23f00d82-5826-43f2-93dd-1f805906144a",
+      "ts": "2026-09-25T07:37:51.158Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
     }
   ]
 }
