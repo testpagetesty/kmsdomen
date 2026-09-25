@@ -18486,6 +18486,21 @@
       }
     },
     {
+      "id": "0e7a4fb0-1616-4f13-a86f-f076ed46bf91",
+      "ts": "2026-09-25T06:28:17.506Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "from": "ru",
+        "to": "gr",
+        "source": "ip"
+      }
+    },
+    {
       "id": "a83f8900-ab49-4840-bef5-39e5bdd1c062",
       "ts": "2026-09-25T06:28:18.840Z",
       "workerId": "игорь",
