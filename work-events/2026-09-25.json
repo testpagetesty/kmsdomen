@@ -74919,6 +74919,19 @@
       }
     },
     {
+      "id": "e216ec3b-8c70-4d8a-8fd6-99a10b64a103",
+      "ts": "2026-09-25T08:59:10.129Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "ac008eb6-8d30-47ed-adfa-e9bf047dcca0",
       "ts": "2026-09-25T08:59:10.134Z",
       "workerId": "настя1",
