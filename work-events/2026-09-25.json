@@ -15136,6 +15136,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "8a9630f8-dbef-4d12-b01d-5eecbd848c19",
+      "ts": "2026-09-25T06:14:26.966Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
