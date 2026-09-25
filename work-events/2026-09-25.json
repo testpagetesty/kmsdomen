@@ -70714,6 +70714,18 @@
       }
     },
     {
+      "id": "10365bdf-2d44-4d03-b76c-9935454dbe3f",
+      "ts": "2026-09-25T08:51:23.320Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "a7d53535-56f2-4694-b7ad-6c7a5b040dfd",
       "ts": "2026-09-25T08:51:27.186Z",
       "workerId": "настя1",
@@ -70749,6 +70761,20 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hjerte- og karsystemet"
+      }
+    },
+    {
+      "id": "304b9624-46dc-4598-8aba-13138730444e",
+      "ts": "2026-09-25T08:51:37.720Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
       }
     }
   ]
