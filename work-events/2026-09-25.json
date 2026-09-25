@@ -7548,6 +7548,19 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "ebf0971d-8744-4c9c-b9d3-000184744e3b",
+      "ts": "2026-09-25T05:02:30.411Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
