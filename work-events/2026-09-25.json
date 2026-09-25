@@ -1207,6 +1207,31 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "0fc3fcda-a1f5-4cc9-b34f-26048e52ebea",
+      "ts": "2026-09-25T04:14:56.693Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "76eb4fef-dbb7-4954-acda-f56339efb9ef",
+      "ts": "2026-09-25T04:14:56.693Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
