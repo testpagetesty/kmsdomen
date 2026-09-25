@@ -75570,6 +75570,19 @@
       }
     },
     {
+      "id": "3d804c46-7e91-4638-9d5a-1c817b36f3c5",
+      "ts": "2026-09-25T09:00:24.729Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
+    },
+    {
       "id": "d685b22e-70e8-4b85-aaa5-184a044f0150",
       "ts": "2026-09-25T09:00:24.987Z",
       "workerId": "соня_трубка_1",
@@ -75593,6 +75606,33 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "c3ee1b86-73a6-4b7c-afc6-5919fee5a95b",
+      "ts": "2026-09-25T09:00:30.763Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
+    },
+    {
+      "id": "9bfa1e17-ae9d-499d-bb4f-d5fc3ff2cc2b",
+      "ts": "2026-09-25T09:00:34.325Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "primainspirace.cz",
+        "source": "teaser"
       }
     }
   ]
