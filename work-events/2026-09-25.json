@@ -5220,6 +5220,19 @@
       }
     },
     {
+      "id": "c0760298-7b5c-45d7-b40f-5fd33d89acf0",
+      "ts": "2026-09-25T04:45:43.591Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
       "id": "a1155452-a467-4d2f-be3b-54745189f1a6",
       "ts": "2026-09-25T04:45:43.741Z",
       "workerId": "таня_трубка_2",
