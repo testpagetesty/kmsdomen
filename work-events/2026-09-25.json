@@ -75259,6 +75259,19 @@
       }
     },
     {
+      "id": "294c7fe2-92a6-4f98-a333-21c253e95b8c",
+      "ts": "2026-09-25T08:59:52.504Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "421f0251-f21e-4647-8148-e71e4e24c8d6",
       "ts": "2026-09-25T08:59:53.326Z",
       "workerId": "настя1",
@@ -75270,6 +75283,18 @@
       "extra": {
         "name": "Настя1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "72739d8e-8122-430f-8b0c-c687b0337063",
+      "ts": "2026-09-25T08:59:57.515Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя"
       }
     }
   ]
