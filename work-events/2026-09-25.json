@@ -23877,6 +23877,20 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "13bb246c-c944-4e5b-a406-0d1ecf7cb6e2",
+      "ts": "2026-09-25T06:52:37.597Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
