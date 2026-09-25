@@ -75362,6 +75362,19 @@
       }
     },
     {
+      "id": "717e4fe4-609c-4934-8f4f-383ba2a652db",
+      "ts": "2026-09-25T09:00:08.910Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip jaustis geriau su organizmo intoksikacija"
+      }
+    },
+    {
       "id": "085d7655-f46e-46a8-9ce7-2a0b0c28cce6",
       "ts": "2026-09-25T09:00:08.948Z",
       "workerId": "игорь",
@@ -75397,6 +75410,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "namų būdai kraujagyslių ir venų palaikymui"
+      }
+    },
+    {
+      "id": "ecb57462-cc52-4eea-ad3c-5bc3ae75d962",
+      "ts": "2026-09-25T09:00:13.919Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
