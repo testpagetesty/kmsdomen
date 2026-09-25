@@ -76256,6 +76256,19 @@
       }
     },
     {
+      "id": "30854c0b-357f-4baa-bf26-63cff72c9da5",
+      "ts": "2026-09-25T09:01:56.107Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "13265b60-97e5-4aca-9962-d8a2f31fdce7",
       "ts": "2026-09-25T09:01:56.144Z",
       "workerId": "nastya",
