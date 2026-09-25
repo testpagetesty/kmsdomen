@@ -34413,6 +34413,18 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "fe605945-2614-41ec-a042-eb3e51ab8d5c",
+      "ts": "2026-09-25T07:23:51.901Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
