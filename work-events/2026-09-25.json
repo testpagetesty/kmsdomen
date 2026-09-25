@@ -6918,6 +6918,20 @@
       }
     },
     {
+      "id": "896067d9-7f21-43ca-a69b-3602f6fa019a",
+      "ts": "2026-09-25T04:59:33.178Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "touch"
+      }
+    },
+    {
       "id": "0b626810-5b19-4275-9db7-4e5960302f2f",
       "ts": "2026-09-25T04:59:34.511Z",
       "workerId": "игорь",
