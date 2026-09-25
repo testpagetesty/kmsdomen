@@ -70857,6 +70857,19 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "93583906-acc7-47f7-922d-2360b29eba3a",
+      "ts": "2026-09-25T08:51:50.640Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä kehon ja maksan puhdistamiseksi"
+      }
     }
   ]
 }
