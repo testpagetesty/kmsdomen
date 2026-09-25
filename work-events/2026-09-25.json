@@ -67691,6 +67691,19 @@
         "name": "Таня - Трубка 2",
         "title": "Energi & Vitalitas Pria"
       }
+    },
+    {
+      "id": "0abaf0e3-f3e2-4f75-b00e-be5a79ae4b07",
+      "ts": "2026-09-25T08:46:05.508Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
