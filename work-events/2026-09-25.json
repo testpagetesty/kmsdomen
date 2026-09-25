@@ -52925,6 +52925,20 @@
       }
     },
     {
+      "id": "70728405-ac72-4fce-8bf3-dc53c8eabd33",
+      "ts": "2026-09-25T08:12:34.066Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "e5971287-1abf-469c-b568-da6e969ca77e",
       "ts": "2026-09-25T08:12:35.126Z",
       "workerId": "игорь",
@@ -53178,6 +53192,20 @@
       }
     },
     {
+      "id": "985e5df1-e95a-4fbb-b582-17bc4bc49c91",
+      "ts": "2026-09-25T08:12:54.156Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "1612fe27-c69a-4165-aa21-ed29073bd3e8",
       "ts": "2026-09-25T08:12:54.190Z",
       "workerId": "соня_тубка_2",
@@ -53351,6 +53379,20 @@
       }
     },
     {
+      "id": "6185ac59-1b53-4740-ada6-7ba2c0d3a743",
+      "ts": "2026-09-25T08:13:14.601Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "24474870-63f5-4c6a-ad9c-9c4657da6e8c",
       "ts": "2026-09-25T08:13:17.133Z",
       "workerId": "яя",
@@ -53502,6 +53544,18 @@
       }
     },
     {
+      "id": "974d64ad-f25a-4ec5-8c41-8af2ce1b91dc",
+      "ts": "2026-09-25T08:13:27.128Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "3eb4c21a-7570-4fe4-9b85-79e2df5f76d1",
       "ts": "2026-09-25T08:13:28.218Z",
       "workerId": "tanya_trubka3",
@@ -53594,6 +53648,19 @@
       }
     },
     {
+      "id": "37600421-767e-4257-acf5-253ba6170783",
+      "ts": "2026-09-25T08:13:35.613Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "2f3fc611-3271-4864-a79a-b4e032698e75",
       "ts": "2026-09-25T08:13:35.959Z",
       "workerId": "соня_трубка_1",
@@ -53605,6 +53672,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "f5d1deda-b526-49df-bc20-4f65826dd8b8",
+      "ts": "2026-09-25T08:13:37.692Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -53630,6 +53710,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "3053e5a6-5c03-4e73-94fa-0c966e5b3767",
+      "ts": "2026-09-25T08:13:38.075Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -53672,6 +53765,20 @@
       }
     },
     {
+      "id": "c9e1c281-d738-4e72-8fb4-f3310f885839",
+      "ts": "2026-09-25T08:13:41.386Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "c815b5f9-03eb-4547-888d-38826826dcc7",
       "ts": "2026-09-25T08:13:41.464Z",
       "workerId": "таня_трубка_1",
@@ -53695,6 +53802,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "65285701-055e-4f6b-a7d2-b3b6c12ca12a",
+      "ts": "2026-09-25T08:13:47.210Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -53869,6 +53988,20 @@
       }
     },
     {
+      "id": "d25457cb-0b6a-44f2-9dd3-b001ee9ba81e",
+      "ts": "2026-09-25T08:14:02.822Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "8ce861a6-d582-4923-8a5f-20e8e9880c75",
       "ts": "2026-09-25T08:14:03.813Z",
       "workerId": "соня_тубка_2",
@@ -54023,6 +54156,31 @@
       }
     },
     {
+      "id": "580f2fdf-08fe-4180-8845-a47253906478",
+      "ts": "2026-09-25T08:14:22.221Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "08b2611e-9588-4443-b39e-6154e1899820",
+      "ts": "2026-09-25T08:14:22.223Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "372d8491-7185-45bf-81ea-acc2797dda91",
       "ts": "2026-09-25T08:14:22.250Z",
       "workerId": "nastya",
@@ -54032,6 +54190,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "906f1d09-89d8-4dce-af7e-f6b814dc2ee4",
+      "ts": "2026-09-25T08:14:22.470Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -54059,6 +54230,20 @@
       }
     },
     {
+      "id": "d3459498-930f-4fdc-9e6a-fef7f54adb00",
+      "ts": "2026-09-25T08:14:23.296Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "dd4ad232-d3a2-4c48-a16c-47204efe8eb1",
       "ts": "2026-09-25T08:14:25.311Z",
       "workerId": "таня_трубка_1",
@@ -54082,6 +54267,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "1324e350-c904-4f87-a256-857a8560e20f",
+      "ts": "2026-09-25T08:14:27.129Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -54159,6 +54356,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "30592d3d-b6d7-408b-9cbe-2cc278a880ab",
+      "ts": "2026-09-25T08:14:37.426Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -54277,6 +54487,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "2d7f1a8b-db9d-4f1a-a59b-1a50318323f2",
+      "ts": "2026-09-25T08:14:43.917Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -54514,6 +54736,31 @@
       }
     },
     {
+      "id": "e5899c9d-2ac7-4786-b0a1-226e05e7bb8a",
+      "ts": "2026-09-25T08:15:11.247Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "a05b47a6-b778-431a-a61b-04bae34d8a43",
+      "ts": "2026-09-25T08:15:11.249Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "12c1cc33-3126-45f4-821c-26a4522042f5",
       "ts": "2026-09-25T08:15:11.476Z",
       "workerId": "таня_трубка_4",
@@ -54524,6 +54771,32 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "02244666-060a-477a-9f61-394abb219544",
+      "ts": "2026-09-25T08:15:11.496Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "fd0bfec9-33b2-4343-b162-09a10a4b7f03",
+      "ts": "2026-09-25T08:15:11.707Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
       }
     },
     {
@@ -54674,6 +54947,32 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "60db5f2c-d69a-49a7-8239-8a698df552c4",
+      "ts": "2026-09-25T08:15:27.131Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "a3560118-ced2-4287-9e3a-f269d28ab1d3",
+      "ts": "2026-09-25T08:15:32.195Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     },
     {
@@ -54831,6 +55130,20 @@
       "extra": {
         "name": "Яя",
         "source": "motion"
+      }
+    },
+    {
+      "id": "c3ef82bb-9392-497a-b5ba-ac036dd16dfa",
+      "ts": "2026-09-25T08:15:52.889Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     },
     {
@@ -55020,6 +55333,20 @@
       }
     },
     {
+      "id": "d6eb4348-fa26-41e6-b1c0-09e37a2cf2cd",
+      "ts": "2026-09-25T08:16:13.423Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "b60c5041-6612-4a23-bd29-5c925461ed16",
       "ts": "2026-09-25T08:16:15.457Z",
       "workerId": "игорь",
@@ -55128,6 +55455,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "f272ddba-dee4-41f4-ba68-98ef8269736f",
+      "ts": "2026-09-25T08:16:27.131Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -55336,6 +55675,20 @@
       }
     },
     {
+      "id": "2c42e206-6d5c-4bae-ab99-96403735e237",
+      "ts": "2026-09-25T08:16:54.579Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "758bc547-8751-45ec-990c-ffb5b4e1361e",
       "ts": "2026-09-25T08:16:54.842Z",
       "workerId": "таня_трубка_1",
@@ -55476,6 +55829,20 @@
       }
     },
     {
+      "id": "80d53194-867e-4d74-999b-4c8bd327f7ed",
+      "ts": "2026-09-25T08:17:23.999Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d8ce532a-7ad8-483e-9cdb-82cca937c23d",
       "ts": "2026-09-25T08:17:25.536Z",
       "workerId": "соня_тубка_2",
@@ -55485,6 +55852,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "f90c635d-0a89-4c6d-b455-02ba918bb565",
+      "ts": "2026-09-25T08:17:27.132Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -55564,6 +55943,20 @@
       }
     },
     {
+      "id": "7cae4ca0-8f5a-4925-96f3-d5ab2f5a64c0",
+      "ts": "2026-09-25T08:17:49.301Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "179f8008-9a02-4aca-ae24-62516d4639e7",
       "ts": "2026-09-25T08:17:58.467Z",
       "workerId": "яя",
@@ -55600,6 +55993,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Яя"
+      }
+    },
+    {
+      "id": "69e62971-74bd-4c00-ac39-9eca3517d1a2",
+      "ts": "2026-09-25T08:18:18.718Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     },
     {
@@ -55649,6 +56056,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "2c636366-64d6-4b16-a195-98033ebd63a5",
+      "ts": "2026-09-25T08:18:27.135Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -55794,6 +56213,20 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "motion"
+      }
+    },
+    {
+      "id": "a7592701-22c2-4cdc-be3a-f6b9d08eb39b",
+      "ts": "2026-09-25T08:18:58.635Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
       }
     },
     {
@@ -56067,6 +56500,18 @@
       }
     },
     {
+      "id": "3cd12cf8-5998-404b-95dd-65e49f2ba61e",
+      "ts": "2026-09-25T08:19:27.136Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "30b17d53-0023-4938-84ba-66c728a52c9f",
       "ts": "2026-09-25T08:19:27.229Z",
       "workerId": "таня_трубка_1",
@@ -56103,6 +56548,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "8fd6f4cf-5c79-4440-b1ec-93909d70c26c",
+      "ts": "2026-09-25T08:19:30.362Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "detik-detik mendebarkan"
       }
     },
     {
@@ -56159,6 +56617,19 @@
       }
     },
     {
+      "id": "84cd8556-e7b9-4ed7-b618-7543d12df26e",
+      "ts": "2026-09-25T08:19:37.765Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "kemenangan besar semasa sesi slot"
+      }
+    },
+    {
       "id": "da7218f8-5832-455d-89bd-6ec710ab32c9",
       "ts": "2026-09-25T08:19:39.947Z",
       "workerId": "таня_трубка_4",
@@ -56185,6 +56656,20 @@
       }
     },
     {
+      "id": "5a4832d6-eb3a-41a4-86f8-69443bfbf7f4",
+      "ts": "2026-09-25T08:19:41.208Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "523f76f8-e0c4-40f7-a610-5182153ed818",
       "ts": "2026-09-25T08:19:41.467Z",
       "workerId": "таня_трубка_1",
@@ -56194,6 +56679,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "c16169de-b520-419d-9c04-25940869b6f1",
+      "ts": "2026-09-25T08:19:43.468Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "gelendong mesin slot"
       }
     },
     {
@@ -56329,6 +56827,31 @@
       }
     },
     {
+      "id": "15548e73-8dac-4fea-9ce3-9582659d41e8",
+      "ts": "2026-09-25T08:20:03.019Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "87962924-4de1-45aa-a13f-39bf36d89e95",
+      "ts": "2026-09-25T08:20:04.106Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "98b939ab-ceb9-4b68-98e6-6e9eeef8c268",
       "ts": "2026-09-25T08:20:04.927Z",
       "workerId": "tanya_trubka3",
@@ -56339,6 +56862,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "01744810-9828-4d9a-9695-12848385a0e0",
+      "ts": "2026-09-25T08:20:05.458Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
       }
     },
     {
@@ -56353,6 +56890,43 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "2e6d5ebb-1683-4467-8a68-8c927bfc9d62",
+      "ts": "2026-09-25T08:20:08.300Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "d1c2348f-4cdb-4774-b366-d6cebbd4867c",
+      "ts": "2026-09-25T08:20:08.301Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "1d3bd0b4-0ef6-4e3b-83ad-fbab911f201c",
+      "ts": "2026-09-25T08:20:10.456Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -56481,6 +57055,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "1baa2942-b39d-4643-8611-72689bdcfc7c",
+      "ts": "2026-09-25T08:20:27.139Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -57046,6 +57632,18 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "69582eb6-901f-46fa-a89d-20d9772854d4",
+      "ts": "2026-09-25T08:21:27.151Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -57761,6 +58359,31 @@
       }
     },
     {
+      "id": "98d65cdf-08bf-40c6-8f53-cb11fac2bf5f",
+      "ts": "2026-09-25T08:23:32.791Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "9915b3d8-f487-4b01-8b8c-4f3b4330d227",
+      "ts": "2026-09-25T08:23:32.798Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "4ea0617b-9048-4a10-a081-78671843cb4c",
       "ts": "2026-09-25T08:23:37.784Z",
       "workerId": "соня_трубка_1",
@@ -57823,6 +58446,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "07c0e721-7b2b-431d-8f31-c3948220c4b1",
+      "ts": "2026-09-25T08:23:40.373Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -58019,6 +58655,31 @@
       }
     },
     {
+      "id": "60fa66ea-b33c-4a2f-beb6-f8379a017b68",
+      "ts": "2026-09-25T08:24:02.728Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "12bd90d0-ef3e-4e26-9edd-7a78bfa7a31c",
+      "ts": "2026-09-25T08:24:03.857Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "5093b563-7979-4254-9a30-b2556db57913",
       "ts": "2026-09-25T08:24:07.877Z",
       "workerId": "nastya",
@@ -58045,6 +58706,20 @@
       }
     },
     {
+      "id": "c9eda38a-2b04-4bff-a111-0b5435cce933",
+      "ts": "2026-09-25T08:24:08.683Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "9004df90-73b1-4f80-98a6-4cfdae1fa699",
       "ts": "2026-09-25T08:24:09.086Z",
       "workerId": "tanya_trubka3",
@@ -58056,6 +58731,31 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "touch"
+      }
+    },
+    {
+      "id": "5adae754-97ae-4ade-bf5d-6b10c5497d4c",
+      "ts": "2026-09-25T08:24:12.776Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "bc7483ff-61fe-4beb-8c66-5d125470c9e2",
+      "ts": "2026-09-25T08:24:12.777Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -58081,6 +58781,18 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "215e4420-8893-4bb0-8748-77aab26a91ca",
+      "ts": "2026-09-25T08:24:15.043Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -58155,6 +58867,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "74074a7f-5754-4d5e-8165-3eab61cb53bb",
+      "ts": "2026-09-25T08:24:27.153Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -58454,6 +59178,18 @@
       }
     },
     {
+      "id": "4896310a-7e80-4693-9553-077f08309a89",
+      "ts": "2026-09-25T08:25:27.155Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "ad0ed6eb-7a60-4005-be84-a96e66295cfd",
       "ts": "2026-09-25T08:25:33.932Z",
       "workerId": "соня_трубка_1",
@@ -58748,6 +59484,31 @@
       }
     },
     {
+      "id": "5bcb8138-dcd0-447f-ac4d-d8a235cefa9f",
+      "ts": "2026-09-25T08:27:10.193Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "3f27767e-7b88-40d6-87b6-301035b6e7be",
+      "ts": "2026-09-25T08:27:10.195Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "94bcee82-77a2-41d4-a8e6-f2f4734e6848",
       "ts": "2026-09-25T08:27:13.503Z",
       "workerId": "tanya_trubka3",
@@ -58772,6 +59533,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "412b7756-809a-4456-aca5-ca43207a2948",
+      "ts": "2026-09-25T08:27:21.837Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -58877,6 +59651,19 @@
       }
     },
     {
+      "id": "b062e831-a700-48bd-b854-82f46d341ea8",
+      "ts": "2026-09-25T08:27:40.479Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "8707699f-d617-4fee-8036-a9bab25b2249",
       "ts": "2026-09-25T08:27:41.474Z",
       "workerId": "таня_трубка_1",
@@ -58886,6 +59673,69 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "9290f9e2-b562-40c8-9518-11006340939b",
+      "ts": "2026-09-25T08:27:41.493Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "f428fa3c-fb81-4e52-8f69-f0cc8bf08296",
+      "ts": "2026-09-25T08:27:42.796Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "83359d2d-f9a1-4b7f-8aaa-e661ea6219bf",
+      "ts": "2026-09-25T08:27:46.116Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "9f799037-e12a-46e9-b90c-992da6b23be5",
+      "ts": "2026-09-25T08:27:46.117Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "e5863469-1e75-4e60-8a90-851b44a1f153",
+      "ts": "2026-09-25T08:27:48.276Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -59054,6 +59904,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "078791b6-cc8d-4ce3-9ef0-bf7d151b8b21",
+      "ts": "2026-09-25T08:28:27.155Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -59474,6 +60336,31 @@
       }
     },
     {
+      "id": "1790f3e4-da62-487a-9c72-05ae292d1f6b",
+      "ts": "2026-09-25T08:29:52.623Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "uac",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "20afbb9f-17f9-4391-9a94-55bc3e0dbd57",
+      "ts": "2026-09-25T08:29:52.625Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "f5c1cdbe-0323-4bde-b26e-ace73328a132",
       "ts": "2026-09-25T08:29:57.464Z",
       "workerId": "соня_тубка_2",
@@ -59524,6 +60411,19 @@
       "extra": {
         "name": "Настя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "6ccb84c3-aece-49f3-8de5-842ba6805f32",
+      "ts": "2026-09-25T08:30:04.228Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -59842,6 +60742,20 @@
       }
     },
     {
+      "id": "7154c662-5a63-438a-a548-6955636228b5",
+      "ts": "2026-09-25T08:31:09.115Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "6815fc7f-0027-4d2d-9be4-cb3e8eff9d0a",
       "ts": "2026-09-25T08:31:10.630Z",
       "workerId": "соня_трубка_1",
@@ -59931,6 +60845,18 @@
       }
     },
     {
+      "id": "3e2b3086-984d-4bd6-9011-2b62e26226f2",
+      "ts": "2026-09-25T08:31:27.156Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "80749453-8f92-4c3d-9017-7d70bcad6c0e",
       "ts": "2026-09-25T08:31:32.556Z",
       "workerId": "соня_тубка_2",
@@ -59942,6 +60868,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "074e6e89-5211-495a-933b-4964f3c7b2d6",
+      "ts": "2026-09-25T08:31:32.659Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     },
     {
@@ -60150,6 +61090,19 @@
       }
     },
     {
+      "id": "5cc33501-e97a-474d-9348-ba29c9f2d9bf",
+      "ts": "2026-09-25T08:32:25.115Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "gaya hidup kasino"
+      }
+    },
+    {
       "id": "46e79156-0367-4e2d-86a5-5e0660bbf98f",
       "ts": "2026-09-25T08:32:25.563Z",
       "workerId": "соня_тубка_2",
@@ -60172,6 +61125,32 @@
       "event": "user_active",
       "extra": {
         "name": "Tanya - trubka3",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "6234d120-db88-4083-8421-2cd993cd6471",
+      "ts": "2026-09-25T08:32:27.156Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "2b8ea530-ab3f-4b78-b018-22f4d97850e8",
+      "ts": "2026-09-25T08:32:28.161Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
         "source": "scroll"
       }
     },
@@ -60359,6 +61338,20 @@
       }
     },
     {
+      "id": "14e2197c-fcfd-45af-b3d8-cc23e3bd377d",
+      "ts": "2026-09-25T08:32:53.607Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "8d3efda0-2dbe-4292-9d22-d76e6b57894a",
       "ts": "2026-09-25T08:32:55.926Z",
       "workerId": "nastya",
@@ -60524,6 +61517,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "4bbd7d36-5e39-4470-b9cb-aae918f43d80",
+      "ts": "2026-09-25T08:33:27.157Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -60792,6 +61797,19 @@
       }
     },
     {
+      "id": "a6514a81-d916-4aa0-87a8-b6495b34daf4",
+      "ts": "2026-09-25T08:34:04.229Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "e24bc4f6-d2b4-4a9b-934e-63bd09a919fb",
       "ts": "2026-09-25T08:34:06.297Z",
       "workerId": "nastya",
@@ -61023,6 +62041,18 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.vecernji.hr/vijesti"
+      }
+    },
+    {
+      "id": "868f3937-e839-418c-bc93-67bffae8ce0a",
+      "ts": "2026-09-25T08:34:27.157Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -61403,6 +62433,33 @@
       }
     },
     {
+      "id": "09a31861-4d9d-4a61-b2da-93730765de0d",
+      "ts": "2026-09-25T08:35:26.976Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Настя1",
+        "from": "my",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "495fb3b4-3ae2-415c-bff0-12572e842e1d",
+      "ts": "2026-09-25T08:35:27.158Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "0f5a61e4-bf6d-46a8-959a-8f5470e11271",
       "ts": "2026-09-25T08:35:27.547Z",
       "workerId": "соня_тубка_2",
@@ -61454,6 +62511,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "45fd91bc-1990-47fa-9762-9fa8e7c5c76d",
+      "ts": "2026-09-25T08:35:33.131Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "motion"
       }
     },
     {
@@ -61530,6 +62600,20 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "eadb88dc-beb2-4aae-8563-5fff2bafa860",
+      "ts": "2026-09-25T08:35:45.376Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Настя1",
+        "title": "Ice Frost Fish"
       }
     },
     {
@@ -61780,6 +62864,20 @@
       }
     },
     {
+      "id": "ff990449-cd85-4fff-8a02-e10e464a361e",
+      "ts": "2026-09-25T08:36:20.366Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Настя1",
+        "title": "Snow Fishiing"
+      }
+    },
+    {
       "id": "67e84d8f-e2a9-458d-b602-0ba969f0d45d",
       "ts": "2026-09-25T08:36:23.118Z",
       "workerId": "tanya_trubka3",
@@ -61866,6 +62964,18 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "bfa4ce82-c368-4e0e-ad03-f3cbae646973",
+      "ts": "2026-09-25T08:36:27.159Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -62026,6 +63136,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "8718d419-e06d-420d-819e-ad522a58baef",
+      "ts": "2026-09-25T08:37:06.446Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Настя1",
+        "title": "Arctic Reel Fishing"
       }
     },
     {
@@ -62464,6 +63588,20 @@
       }
     },
     {
+      "id": "ea5b90b2-9473-46f3-82f8-07dda5aaf16f",
+      "ts": "2026-09-25T08:38:19.078Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "ru",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "d95b4de4-d240-4257-838b-57c659526006",
       "ts": "2026-09-25T08:38:20.540Z",
       "workerId": "таня_трубка_1",
@@ -62552,6 +63690,18 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "b0c171ff-325a-4869-bc7a-fc68f10d54ce",
+      "ts": "2026-09-25T08:38:27.167Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     },
     {
@@ -62683,6 +63833,20 @@
       "event": "user_active",
       "extra": {
         "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "d2c4c5c0-649e-4b47-a21d-7cedb87f8fa7",
+      "ts": "2026-09-25T08:38:47.528Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
         "source": "scroll"
       }
     }
