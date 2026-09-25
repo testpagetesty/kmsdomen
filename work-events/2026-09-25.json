@@ -65523,6 +65523,31 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "2d1fb08d-665a-4cf5-8b6f-b4913f29546b",
+      "ts": "2026-09-25T08:42:21.668Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "072fcae5-7bbc-4758-b1ea-0e3873215535",
+      "ts": "2026-09-25T08:42:21.669Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
