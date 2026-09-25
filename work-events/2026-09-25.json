@@ -28711,6 +28711,18 @@
         "name": "Таня - Трубка 4",
         "source": "motion"
       }
+    },
+    {
+      "id": "88d2f868-dbd0-403c-a3aa-2c6ba412e8da",
+      "ts": "2026-09-25T07:07:51.352Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
