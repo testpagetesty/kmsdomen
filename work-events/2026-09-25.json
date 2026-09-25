@@ -77524,6 +77524,18 @@
       }
     },
     {
+      "id": "04dfc3b1-6de2-4b6d-8e5b-44ae26d8e961",
+      "ts": "2026-09-25T09:04:23.220Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "31defd92-a2d9-4648-80d8-8b4ae02393c6",
       "ts": "2026-09-25T09:04:23.339Z",
       "workerId": "соня_трубка_1",
