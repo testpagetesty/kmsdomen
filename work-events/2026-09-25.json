@@ -21211,6 +21211,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "50c77dfa-632d-49df-ac91-3fd0a83d2bc5",
+      "ts": "2026-09-25T06:39:22.509Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
