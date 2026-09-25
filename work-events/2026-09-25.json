@@ -73057,6 +73057,18 @@
         "name": "Настя",
         "interest": "Verenkiertohäiriöt"
       }
+    },
+    {
+      "id": "c7666ea9-ed19-4d7a-90e1-c4a235b28b45",
+      "ts": "2026-09-25T08:56:29.380Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
