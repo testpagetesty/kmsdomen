@@ -32946,6 +32946,18 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cbb6b413-fe6f-442c-95cb-8ee490fa9710",
+      "ts": "2026-09-25T07:19:41.417Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
