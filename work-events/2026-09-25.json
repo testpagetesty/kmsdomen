@@ -18433,6 +18433,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "82cebe1f-6d24-446d-82f7-62434e619cd8",
+      "ts": "2026-09-25T06:28:16.038Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
