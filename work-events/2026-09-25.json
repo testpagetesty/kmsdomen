@@ -30654,6 +30654,18 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "070afb5c-275a-4d55-8601-f4e1c97833e8",
+      "ts": "2026-09-25T07:13:20.330Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
