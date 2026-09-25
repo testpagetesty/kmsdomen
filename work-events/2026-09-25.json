@@ -167,6 +167,18 @@
         "to": "id",
         "source": "ip"
       }
+    },
+    {
+      "id": "650170ed-a8cd-4892-9754-7482f1be260b",
+      "ts": "2026-09-25T04:07:30.633Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
