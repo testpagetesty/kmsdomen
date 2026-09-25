@@ -69526,6 +69526,32 @@
       }
     },
     {
+      "id": "afe19aa9-b3e9-411d-a98e-76fece2f4419",
+      "ts": "2026-09-25T08:49:22.519Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Držite pritisak pod kontrolom"
+      }
+    },
+    {
+      "id": "f2d3e3e0-ad25-4d1f-811a-fc6a58d21620",
+      "ts": "2026-09-25T08:49:23.130Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "0c1658f2-2351-412d-ae67-c4a8677cce96",
       "ts": "2026-09-25T08:49:23.203Z",
       "workerId": "таня_трубка_4",
@@ -69639,6 +69665,20 @@
       "extra": {
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved øresus"
+      }
+    },
+    {
+      "id": "8461900b-6eec-43b6-b5bf-a35cc6ffc397",
+      "ts": "2026-09-25T08:49:36.652Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Природни декоративни камен овде"
       }
     },
     {
@@ -69783,6 +69823,20 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "f9eba991-40b1-420c-8a55-be09c96c97a0",
+      "ts": "2026-09-25T08:49:47.729Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "The Morning Tide Wave"
       }
     },
     {
@@ -70169,6 +70223,21 @@
       }
     },
     {
+      "id": "a6d26d56-b909-41a1-ae7d-cf9a8976ff1a",
+      "ts": "2026-09-25T08:50:16.870Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "from": "rs",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
       "id": "8c49688a-f26f-4d8d-bf61-7da0982d923c",
       "ts": "2026-09-25T08:50:17.833Z",
       "workerId": "nastya",
@@ -70245,6 +70314,32 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "69ed4270-2ce0-4659-8f31-1b766ac643e7",
+      "ts": "2026-09-25T08:50:22.837Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Ako noću ustajete u toalet, evo jednostavne metode podrške prostati."
+      }
+    },
+    {
+      "id": "2a859a44-7041-48cf-8c8f-1f76602abeb3",
+      "ts": "2026-09-25T08:50:23.131Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
       }
     },
     {
@@ -70349,6 +70444,20 @@
       }
     },
     {
+      "id": "3e1fa4f4-4484-48b1-82cb-9c25281276f8",
+      "ts": "2026-09-25T08:50:33.486Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Ako noću ustajete u toalet, evo jednostavne metode podrške prostati."
+      }
+    },
+    {
       "id": "a3dc3bb8-7578-481f-835b-f22e878daaa5",
       "ts": "2026-09-25T08:50:34.601Z",
       "workerId": "таня_трубка_1",
@@ -70437,6 +70546,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "d847c2e4-c82b-4dc1-891e-e83606c0fe1f",
+      "ts": "2026-09-25T08:50:43.554Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Prirodna i povoljna podrška kod nelagode povezane s prostatom."
       }
     },
     {
@@ -70649,6 +70772,20 @@
       }
     },
     {
+      "id": "a2ad8863-c21e-4478-b9ad-24079e61d9ba",
+      "ts": "2026-09-25T08:51:15.369Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Rozmazané videnie a únava? Objavte jednoduchú rutinu pre jasný zrak každý deň."
+      }
+    },
+    {
       "id": "06a9c4c6-0633-40d5-ae7a-4d8ba5969660",
       "ts": "2026-09-25T08:51:15.391Z",
       "workerId": "игорь",
@@ -70806,6 +70943,20 @@
       }
     },
     {
+      "id": "cce066e2-dbc0-4844-9a25-36c2480004d9",
+      "ts": "2026-09-25T08:51:27.759Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Природни декоративни камен овде"
+      }
+    },
+    {
       "id": "3a8e8cef-d5e9-434f-a1c1-a077be23be0e",
       "ts": "2026-09-25T08:51:30.795Z",
       "workerId": "настя1",
@@ -70843,6 +70994,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "431ee240-cc2a-4d4c-8f38-731dd4cedd2c",
+      "ts": "2026-09-25T08:51:38.028Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Природно снижење притиска"
       }
     },
     {
@@ -71371,6 +71536,20 @@
       }
     },
     {
+      "id": "eb7c3839-f9d4-4d0e-9a68-50fabfe4e3eb",
+      "ts": "2026-09-25T08:52:33.097Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Тема о којој ћутите чак и најближима?"
+      }
+    },
+    {
       "id": "26366544-76e7-4f5f-9d94-a0fc33dd645b",
       "ts": "2026-09-25T08:52:37.943Z",
       "workerId": "таня_трубка_2",
@@ -71680,6 +71859,20 @@
       }
     },
     {
+      "id": "005a4c21-53f3-411a-8d1e-a0a940fa0d48",
+      "ts": "2026-09-25T08:53:18.563Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Практично решење за лакше праћење разговора и удобније слушање."
+      }
+    },
+    {
       "id": "a6d84f6a-b1b7-4024-8587-2fa8a868baa7",
       "ts": "2026-09-25T08:53:18.987Z",
       "workerId": "игорь",
@@ -71765,6 +71958,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "b4738607-5a28-4a7a-8958-14d9c43d31f9",
+      "ts": "2026-09-25T08:53:29.623Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Zabudnite na unavené oči. Prirodzená podpora pre jasný zrak. Pozrite si video!"
       }
     },
     {
@@ -72045,6 +72252,20 @@
       }
     },
     {
+      "id": "7ee47e37-9e98-4888-b4bd-57b62ee5d95f",
+      "ts": "2026-09-25T08:54:07.001Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Brinite o zdravlju svojih očiju"
+      }
+    },
+    {
       "id": "96fc8175-a8c5-408d-8e26-8c0db4e9fb5d",
       "ts": "2026-09-25T08:54:08.794Z",
       "workerId": "игорь",
@@ -72125,6 +72346,20 @@
       }
     },
     {
+      "id": "ce0c4f66-4b45-4b41-8c2d-1e720f847fa2",
+      "ts": "2026-09-25T08:54:17.446Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Svakodnevna podrška za jasniji vid pri čitanju i gledanju na daljinu."
+      }
+    },
+    {
       "id": "a04731a6-f7df-4b2f-8b65-cade745b37ab",
       "ts": "2026-09-25T08:54:23.213Z",
       "workerId": "таня_трубка_4",
@@ -72199,6 +72434,20 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "cfcff590-a116-48f7-b3c3-ad530389a4c1",
+      "ts": "2026-09-25T08:54:26.970Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Upoznajte temu parazita"
       }
     },
     {
@@ -72546,6 +72795,20 @@
       }
     },
     {
+      "id": "38daf158-1858-40b2-ad99-5fa4f69620c3",
+      "ts": "2026-09-25T08:54:57.794Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Povoljna podrška prostati za više udobnosti tijekom svakoga dana."
+      }
+    },
+    {
       "id": "cfa56e8c-4115-4e34-a53d-8953102e0a5f",
       "ts": "2026-09-25T08:54:58.021Z",
       "workerId": "настя1",
@@ -72569,6 +72832,20 @@
       "extra": {
         "name": "Настя1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "582c6a3d-0d25-4183-80e7-be80ff784009",
+      "ts": "2026-09-25T08:55:07.978Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Povoljan preparat za podršku muškom zdravlju i veću svakodnevnu udobnost."
       }
     },
     {
@@ -72674,6 +72951,20 @@
       "event": "capture_stop",
       "extra": {
         "name": "Настя1"
+      }
+    },
+    {
+      "id": "bbb452b0-e7e2-4438-a849-2a3a8156c3d8",
+      "ts": "2026-09-25T08:55:18.684Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Prirodna podrška pomaže ublažiti nelagodu povezanu s prostatom."
       }
     },
     {
@@ -72975,6 +73266,20 @@
       }
     },
     {
+      "id": "78e7ae94-c530-47be-a9c4-7b217022eb3a",
+      "ts": "2026-09-25T08:55:49.611Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Povoljan preparat za podršku muškom zdravlju i veću svakodnevnu udobnost."
+      }
+    },
+    {
       "id": "2117f937-3ea3-4f09-8263-f02f960af665",
       "ts": "2026-09-25T08:55:51.079Z",
       "workerId": "соня_трубка_1",
@@ -73120,6 +73425,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "f0ba8625-2a32-4e65-aeb5-47f74d4515b0",
+      "ts": "2026-09-25T08:56:11.117Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Зaбopaвитe нa гљивицe нa нoктимa"
       }
     },
     {
@@ -73552,6 +73871,20 @@
       }
     },
     {
+      "id": "4448064f-f85a-4c99-bdb6-faa29c6396aa",
+      "ts": "2026-09-25T08:56:54.126Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "He дoзвoлитe дa ce гљивицe шиpe"
+      }
+    },
+    {
       "id": "29b3b48c-7a86-4ee8-ae63-7783eb2e9892",
       "ts": "2026-09-25T08:56:54.498Z",
       "workerId": "игорь",
@@ -73620,6 +73953,20 @@
       }
     },
     {
+      "id": "2cd57252-fc12-4b59-8d6d-28861e423b51",
+      "ts": "2026-09-25T08:57:05.801Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Јасан приступ свакодневном слушању уз једноставно коришћење."
+      }
+    },
+    {
       "id": "cbcb9e19-162b-4cef-821b-270a84597a7d",
       "ts": "2026-09-25T08:57:08.943Z",
       "workerId": "игорь",
@@ -73683,6 +74030,20 @@
       "extra": {
         "name": "Настя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "82e061a5-8c27-4a09-b7a9-e070185cd309",
+      "ts": "2026-09-25T08:57:15.837Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "title": "Pouzdano sredstvo protiv gljivica: brzo delovanje i vidljiv rezultat"
       }
     },
     {
@@ -73929,6 +74290,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "4e3be64f-6517-4893-99c6-867941f1e32a",
+      "ts": "2026-09-25T08:58:02.748Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
