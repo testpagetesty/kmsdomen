@@ -8444,6 +8444,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "b035238c-5145-4d9e-bc51-ee8122df8fce",
+      "ts": "2026-09-25T05:10:46.685Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
     }
   ]
 }
