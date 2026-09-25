@@ -69784,6 +69784,19 @@
       }
     },
     {
+      "id": "dc5ef214-0b67-4457-a235-811bcc0272a5",
+      "ts": "2026-09-25T08:49:59.181Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
+    },
+    {
       "id": "6120d6a0-4ac5-4a7c-9c23-964d308592f6",
       "ts": "2026-09-25T08:49:59.956Z",
       "workerId": "игорь",
@@ -69795,6 +69808,19 @@
         "name": "Игорь",
         "host": "historia.dorzeczy.pl",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "b851607d-e20b-4d00-81ab-5600281e43d9",
+      "ts": "2026-09-25T08:50:01.113Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
       }
     },
     {
@@ -69847,6 +69873,20 @@
       "event": "user_active",
       "extra": {
         "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "aefb75f3-2f53-4d42-b6c2-300faadae800",
+      "ts": "2026-09-25T08:50:08.451Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     }
