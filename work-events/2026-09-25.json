@@ -15850,6 +15850,20 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "a9f333db-d25d-447d-974c-5e0ee4dca69c",
+      "ts": "2026-09-25T06:17:40.472Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
     }
   ]
 }
