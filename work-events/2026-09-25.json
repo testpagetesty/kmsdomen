@@ -34635,6 +34635,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "dd7c2b4e-24a9-4c9c-aa2e-7cd60a0e48ad",
+      "ts": "2026-09-25T07:24:22.810Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
