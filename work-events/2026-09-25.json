@@ -62671,6 +62671,20 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "55720360-38c2-4662-b66e-8976c0fccb9d",
+      "ts": "2026-09-25T08:38:46.304Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
