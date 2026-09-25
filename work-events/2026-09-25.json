@@ -71813,6 +71813,18 @@
       }
     },
     {
+      "id": "a9725269-781b-4a74-9d5e-a5f951cad80f",
+      "ts": "2026-09-25T08:53:48.421Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "2018f88b-ccf7-484a-bb7b-e77af484d5aa",
       "ts": "2026-09-25T08:53:48.575Z",
       "workerId": "таня_трубка_4",
@@ -71904,6 +71916,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "afb5e82e-4db2-42e2-a861-2652453bd459",
+      "ts": "2026-09-25T08:54:08.930Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Настя"
       }
     }
   ]
