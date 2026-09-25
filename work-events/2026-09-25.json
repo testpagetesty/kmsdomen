@@ -71527,6 +71527,19 @@
       "extra": {
         "name": "Настя1"
       }
+    },
+    {
+      "id": "b587bbba-1345-4fb2-ae90-b3ab28c083a3",
+      "ts": "2026-09-25T08:53:16.969Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
     }
   ]
 }
