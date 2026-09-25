@@ -48815,6 +48815,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e63f81bf-ad72-47b8-8ea8-8df6b1714fe2",
+      "ts": "2026-09-25T08:04:17.111Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
+      }
     }
   ]
 }
