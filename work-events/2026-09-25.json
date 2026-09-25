@@ -69338,6 +69338,20 @@
         "name": "Tanya - trubka3",
         "source": "scroll"
       }
+    },
+    {
+      "id": "59497f48-494f-4283-9b93-5e6626676445",
+      "ts": "2026-09-25T08:48:56.240Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Pria Nyaman dan Percaya Diri"
+      }
     }
   ]
 }
