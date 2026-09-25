@@ -36946,6 +36946,19 @@
       }
     },
     {
+      "id": "db824568-5cfc-43be-857b-88d0c10e2177",
+      "ts": "2026-09-25T07:31:23.183Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "5216bc43-e6a1-4721-acf2-98a099e00128",
       "ts": "2026-09-25T07:31:23.184Z",
       "workerId": "соня_трубка_1",
@@ -36958,6 +36971,20 @@
       }
     },
     {
+      "id": "a82924f9-a572-477d-9b08-1db9bcadbe39",
+      "ts": "2026-09-25T07:31:24.258Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "09fe8a7a-4bac-4034-bd4e-2072da61262e",
       "ts": "2026-09-25T07:31:25.134Z",
       "workerId": "соня_тубка_2",
@@ -36967,6 +36994,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "3fc402cf-0141-4437-b095-9405d02d6b8a",
+      "ts": "2026-09-25T07:31:25.899Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
@@ -36991,6 +37031,19 @@
       "geo": "es",
       "platform": "start",
       "event": "capture_stop",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "f4abde31-c212-4a09-ac8d-3b66f3935091",
+      "ts": "2026-09-25T07:31:32.557Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
       }
