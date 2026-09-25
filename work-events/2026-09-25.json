@@ -40417,6 +40417,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "3d74ee4b-bdf8-4c65-912b-6a16393381d2",
+      "ts": "2026-09-25T07:41:49.646Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
+      }
     }
   ]
 }
