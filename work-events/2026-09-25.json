@@ -71749,6 +71749,20 @@
       }
     },
     {
+      "id": "83fc644b-34c6-4b6a-a165-a5f8d7bacbf1",
+      "ts": "2026-09-25T08:53:46.275Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
+    },
+    {
       "id": "dfc85a84-6882-43de-953a-68eff414ab8d",
       "ts": "2026-09-25T08:53:46.781Z",
       "workerId": "настя1",
