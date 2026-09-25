@@ -23944,6 +23944,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "9d8418ba-1b82-49f0-8b3c-234d3cbbad9a",
+      "ts": "2026-09-25T06:52:49.010Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
