@@ -47881,6 +47881,20 @@
         "name": "Настя",
         "interest": "ANNニュース 仮想通貨業界ニュース 今日"
       }
+    },
+    {
+      "id": "a1d42819-d568-424e-9675-91a272dd6091",
+      "ts": "2026-09-25T08:02:59.179Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
