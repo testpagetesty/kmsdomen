@@ -74684,6 +74684,19 @@
       }
     },
     {
+      "id": "e4bf2a55-fb5b-42f8-8327-8aaf1765b5d3",
+      "ts": "2026-09-25T08:58:36.799Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved redusert mannlig energi"
+      }
+    },
+    {
       "id": "816692d1-168b-4185-a55c-d514bccd0bc0",
       "ts": "2026-09-25T08:58:37.115Z",
       "workerId": "соня_трубка_1",
@@ -74695,6 +74708,19 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "d9d22d86-7b23-4262-9fe2-f8f0ac0a0c32",
+      "ts": "2026-09-25T08:58:40.102Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Sirkulasjonsproblemer"
       }
     },
     {
@@ -74720,6 +74746,19 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "1a2bde32-1129-4b3c-99aa-bc1968c83c59",
+      "ts": "2026-09-25T08:58:43.948Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved redusert mannlig energi"
       }
     },
     {
@@ -74759,6 +74798,20 @@
       "event": "user_active",
       "extra": {
         "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "42e2c92c-ae16-4a8b-85ca-3e7c9fe94027",
+      "ts": "2026-09-25T08:58:52.186Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
         "source": "scroll"
       }
     }
