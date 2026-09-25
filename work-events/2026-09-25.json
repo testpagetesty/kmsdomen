@@ -76506,6 +76506,19 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "a53a2f01-5ef0-4c0b-8156-411bc9bf6a02",
+      "ts": "2026-09-25T09:02:21.278Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved tunge ben"
+      }
     }
   ]
 }
