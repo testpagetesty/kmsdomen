@@ -33348,6 +33348,18 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "6caa2964-7535-4a6f-a906-1f847ec0e633",
+      "ts": "2026-09-25T07:20:39.214Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
