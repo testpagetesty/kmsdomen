@@ -40513,6 +40513,18 @@
       }
     },
     {
+      "id": "39166c05-672b-4b63-b267-e3f6d6496dab",
+      "ts": "2026-09-25T07:42:23.073Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "b32040b0-f404-4dbd-a671-6d77a7d31f48",
       "ts": "2026-09-25T07:42:25.170Z",
       "workerId": "игорь",
