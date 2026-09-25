@@ -72873,6 +72873,20 @@
         "name": "Настя",
         "interest": "Mitä tehdä alaselän epämukavuudessa"
       }
+    },
+    {
+      "id": "7f257043-7750-40fa-8314-7906bf72df8e",
+      "ts": "2026-09-25T08:56:08.509Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
