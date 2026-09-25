@@ -19925,6 +19925,19 @@
         "name": "Соня Тубка 2",
         "interest": "social security during illness"
       }
+    },
+    {
+      "id": "c2adc671-3aae-4d40-ad06-469e8875c8e7",
+      "ts": "2026-09-25T06:34:08.740Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
