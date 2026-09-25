@@ -46876,6 +46876,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "ac563ed9-8a24-40de-8daf-6246d1a692d0",
+      "ts": "2026-09-25T08:01:03.282Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "NHKニュース 仮想通貨市場ニュース 今日"
+      }
     }
   ]
 }
