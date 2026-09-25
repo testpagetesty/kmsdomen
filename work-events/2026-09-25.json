@@ -66168,6 +66168,20 @@
         "name": "Настя1",
         "source": "touch"
       }
+    },
+    {
+      "id": "a874ec2a-6ce6-4548-8d18-f2f3cdd06106",
+      "ts": "2026-09-25T08:43:39.849Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
