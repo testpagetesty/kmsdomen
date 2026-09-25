@@ -41226,6 +41226,19 @@
         "host": "zagorje.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "1ab105b0-04e7-4618-bc58-b04b197d72c5",
+      "ts": "2026-09-25T07:45:56.803Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
