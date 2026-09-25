@@ -12886,6 +12886,18 @@
         "name": "Игорь",
         "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
       }
+    },
+    {
+      "id": "10cc6462-45de-4c73-93ab-3e8afb7287ff",
+      "ts": "2026-09-25T06:00:26.956Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
