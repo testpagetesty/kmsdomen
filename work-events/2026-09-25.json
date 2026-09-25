@@ -40053,6 +40053,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "e26bfe21-adf9-4792-a3de-3497317b936f",
+      "ts": "2026-09-25T07:40:21.611Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.metropolitan.si/novice/slovenija"
+      }
     }
   ]
 }
