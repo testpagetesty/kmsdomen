@@ -70064,6 +70064,18 @@
       }
     },
     {
+      "id": "14a8afa8-18da-4f13-876f-c5353e46a0fb",
+      "ts": "2026-09-25T08:50:08.794Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "cd8a6e7c-6c82-4157-a1e7-e01dca24a309",
       "ts": "2026-09-25T08:50:09.812Z",
       "workerId": "настя1",
@@ -70218,6 +70230,20 @@
       }
     },
     {
+      "id": "b3a282b1-ecc8-4842-a2d2-3150f112d47d",
+      "ts": "2026-09-25T08:50:28.476Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "ae3cfb4e-00e6-4a6d-ab12-bec4cc82f95e",
       "ts": "2026-09-25T08:50:29.887Z",
       "workerId": "игорь",
@@ -70285,6 +70311,18 @@
       }
     },
     {
+      "id": "b62d1008-346f-441d-b6f0-a3437899cb0c",
+      "ts": "2026-09-25T08:50:39.343Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "8b240f35-84aa-4060-b89b-0f345e1fbdba",
       "ts": "2026-09-25T08:50:39.931Z",
       "workerId": "соня_тубка_2",
@@ -70320,6 +70358,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "53effcf7-708c-4808-b44d-d5de64b10f3f",
+      "ts": "2026-09-25T08:50:48.985Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
