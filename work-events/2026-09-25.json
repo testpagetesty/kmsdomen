@@ -25537,6 +25537,20 @@
         "name": "Таня - трубка 1",
         "source": "motion"
       }
+    },
+    {
+      "id": "3f3a33ec-f53c-4323-96ee-eccffa29c1b0",
+      "ts": "2026-09-25T06:57:37.164Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
