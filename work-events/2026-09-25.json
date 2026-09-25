@@ -44352,6 +44352,18 @@
       }
     },
     {
+      "id": "5dcea6b3-c2c6-42e1-ae37-595317429941",
+      "ts": "2026-09-25T07:55:25.162Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "a539bb01-d611-4054-8ee5-5f53645eb2d7",
       "ts": "2026-09-25T07:55:29.390Z",
       "workerId": "игорь",
@@ -44557,6 +44569,19 @@
       }
     },
     {
+      "id": "ee9bcd50-62ca-4f25-a59f-e0fcab7e2c83",
+      "ts": "2026-09-25T07:56:18.298Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "aeaee239-c25a-4aa5-94fb-010d1aa416b9",
       "ts": "2026-09-25T07:56:18.544Z",
       "workerId": "яя",
@@ -44659,6 +44684,20 @@
       }
     },
     {
+      "id": "443fc465-8237-462d-b96c-d430df204782",
+      "ts": "2026-09-25T07:56:23.752Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "b614e57e-b88c-4a15-ba6f-8a78508db373",
       "ts": "2026-09-25T07:56:24.317Z",
       "workerId": "яя",
@@ -44683,6 +44722,18 @@
         "name": "Игорь",
         "host": "blitz.bg",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "ea3ca91e-cfe3-4691-996c-043205481c0c",
+      "ts": "2026-09-25T07:56:25.163Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -45056,6 +45107,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a3b43880-73b8-4dae-b99d-b7c3ad9f8fc8",
+      "ts": "2026-09-25T07:57:25.174Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
