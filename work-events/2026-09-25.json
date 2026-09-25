@@ -9058,6 +9058,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "4b04d2b1-7b57-41e6-975c-3b863fabf182",
+      "ts": "2026-09-25T05:17:19.070Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
