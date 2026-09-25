@@ -65803,6 +65803,31 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "e3e82300-d4b6-4e61-8413-720374b6ab95",
+      "ts": "2026-09-25T08:42:51.299Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
+      "id": "7a83cd05-ff77-4b4d-bc42-ef1200f9d938",
+      "ts": "2026-09-25T08:42:51.300Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
