@@ -68467,6 +68467,20 @@
       }
     },
     {
+      "id": "9e3d0808-ba24-4f82-90ba-1e13e44a3e79",
+      "ts": "2026-09-25T08:46:55.885Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "ced713c6-78f8-4028-8148-9728f528ad77",
       "ts": "2026-09-25T08:47:00.312Z",
       "workerId": "таня_трубка_4",
@@ -68572,6 +68586,18 @@
       }
     },
     {
+      "id": "59179385-708b-401a-9aed-67c5361b9a7c",
+      "ts": "2026-09-25T08:47:08.791Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "a83fc14d-186b-4399-bdcf-7fe3f2c56591",
       "ts": "2026-09-25T08:47:09.281Z",
       "workerId": "таня_трубка_4",
@@ -68596,6 +68622,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "d7bc5b08-9631-418f-a80a-21b6e803939e",
+      "ts": "2026-09-25T08:47:15.937Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     },
@@ -68715,6 +68755,20 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "title": "Dukungan yang dirancang untuk vitalitas dan kebugaran pria."
+      }
+    },
+    {
+      "id": "e38c7c04-8d5d-451f-afa4-50abbaba55b5",
+      "ts": "2026-09-25T08:47:39.505Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
