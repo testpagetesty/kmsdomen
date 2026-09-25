@@ -4820,6 +4820,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "490037ff-1b96-4449-ac9b-cbc15d9e9d06",
+      "ts": "2026-09-25T04:43:18.935Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
