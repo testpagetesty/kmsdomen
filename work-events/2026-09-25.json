@@ -68427,6 +68427,19 @@
       }
     },
     {
+      "id": "2aa537c2-c6df-463d-878c-1ef084c81a10",
+      "ts": "2026-09-25T08:47:00.985Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Metabolisme og vekttap"
+      }
+    },
+    {
       "id": "5552ad77-bc38-4ccd-af29-a5719ed12e64",
       "ts": "2026-09-25T08:47:01.735Z",
       "workerId": "nastya",
