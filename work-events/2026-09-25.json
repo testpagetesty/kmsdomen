@@ -68083,6 +68083,18 @@
       }
     },
     {
+      "id": "ca320773-3a04-4b73-b6f7-4b784f84d848",
+      "ts": "2026-09-25T08:46:24.910Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "830c205e-368f-4733-9ce3-356696ce8e3e",
       "ts": "2026-09-25T08:46:25.578Z",
       "workerId": "соня_тубка_2",
@@ -68165,6 +68177,20 @@
       }
     },
     {
+      "id": "7dcf8c83-9687-4886-a383-0b0625def12f",
+      "ts": "2026-09-25T08:46:37.868Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "43381fcc-f60b-464d-be69-b5d398430b26",
       "ts": "2026-09-25T08:46:38.133Z",
       "workerId": "настя1",
@@ -68189,6 +68215,19 @@
       "extra": {
         "name": "Настя",
         "title": "会長発表で日本が注目する"
+      }
+    },
+    {
+      "id": "8f73d54f-b88c-441a-96a9-14011667f9c5",
+      "ts": "2026-09-25T08:46:43.708Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
