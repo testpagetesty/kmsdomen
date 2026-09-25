@@ -46745,6 +46745,19 @@
       }
     },
     {
+      "id": "5f7f3282-a23f-4477-a6e5-f4345a4fd259",
+      "ts": "2026-09-25T08:00:46.889Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "ru",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "TOKYO MXニュース 仮想通貨市場ニュース 今日"
+      }
+    },
+    {
       "id": "4455e817-5ec8-42c2-94ed-c29e7a29ff12",
       "ts": "2026-09-25T08:00:48.369Z",
       "workerId": "nastya",
