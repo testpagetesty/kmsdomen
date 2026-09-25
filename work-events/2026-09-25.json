@@ -30187,6 +30187,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "f7a903a7-68ca-4780-8622-341385827dea",
+      "ts": "2026-09-25T07:12:05.037Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
     }
   ]
 }
