@@ -70450,6 +70450,20 @@
         "name": "Настя1",
         "interest": "Hva du bør gjøre hvis leveren er overbelastet"
       }
+    },
+    {
+      "id": "bf6ca1df-96dc-4ade-a3a5-d8c82efdad5d",
+      "ts": "2026-09-25T08:51:02.296Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
