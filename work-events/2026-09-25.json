@@ -69214,6 +69214,19 @@
         "name": "Настя1",
         "interest": "Hjerte- og karsystemet"
       }
+    },
+    {
+      "id": "1a4a2357-1d35-46ad-826e-7d49430d9f41",
+      "ts": "2026-09-25T08:48:45.333Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved leddbeskvær"
+      }
     }
   ]
 }
