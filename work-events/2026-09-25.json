@@ -28828,6 +28828,19 @@
       }
     },
     {
+      "id": "a69d797c-e2cd-4deb-946e-1c3e8716bdbe",
+      "ts": "2026-09-25T07:07:52.717Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "cfc9f047-d4da-401a-a7a4-972a998b9c53",
       "ts": "2026-09-25T07:07:53.998Z",
       "workerId": "таня_трубка_1",
@@ -29045,6 +29058,18 @@
       }
     },
     {
+      "id": "5062b595-8276-40bf-9c5a-ce84d5ccda9f",
+      "ts": "2026-09-25T07:08:41.401Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "b55780b0-4d8a-4aab-828e-21262e3bcef7",
       "ts": "2026-09-25T07:08:43.214Z",
       "workerId": "игорь",
@@ -29123,6 +29148,20 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "b9314317-896c-4001-9c7f-8098890dab2e",
+      "ts": "2026-09-25T07:09:07.012Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
       }
     }
   ]
