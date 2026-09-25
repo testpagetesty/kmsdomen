@@ -41,6 +41,19 @@
       }
     },
     {
+      "id": "6b803f78-ce1b-4faa-93b3-a07e16e4f2d8",
+      "ts": "2026-09-25T04:06:14.703Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Europe/Dublin",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "ef6d9894-518f-4ed6-bc2c-bb0123b88354",
       "ts": "2026-09-25T04:06:17.120Z",
       "workerId": "таня_трубка_1",
