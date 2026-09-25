@@ -9661,6 +9661,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ddd49bcd-dc8c-4ebe-8169-d8a0132fd24e",
+      "ts": "2026-09-25T05:25:39.909Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
