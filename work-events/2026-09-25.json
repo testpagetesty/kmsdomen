@@ -70947,6 +70947,20 @@
         "name": "Настя",
         "interest": "Mitä tehdä nivelvaivoissa"
       }
+    },
+    {
+      "id": "dd6b9764-d2a1-4e66-9bd1-db2a57b9017b",
+      "ts": "2026-09-25T08:51:58.171Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
