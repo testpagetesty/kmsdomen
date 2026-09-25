@@ -28830,6 +28830,18 @@
       }
     },
     {
+      "id": "fb934583-992c-4c4a-bf40-009df22769a6",
+      "ts": "2026-09-25T07:08:19.896Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "4484fed0-5eff-4242-8bdd-8450892d5832",
       "ts": "2026-09-25T07:08:20.324Z",
       "workerId": "игорь",
