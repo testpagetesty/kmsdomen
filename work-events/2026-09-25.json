@@ -37151,6 +37151,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "2c9df125-f1b8-4738-bcd9-70258952ef72",
+      "ts": "2026-09-25T07:32:19.578Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
