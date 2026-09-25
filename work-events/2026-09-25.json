@@ -61746,6 +61746,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "32facd9e-87ff-41ca-a441-7550411cd61a",
+      "ts": "2026-09-25T08:37:50.374Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
