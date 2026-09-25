@@ -4923,6 +4923,18 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "e887a029-6587-49f7-ad44-757755988752",
+      "ts": "2026-09-25T04:44:18.936Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
