@@ -19912,6 +19912,19 @@
         "name": "Соня Тубка 2",
         "interest": "state support for single parents"
       }
+    },
+    {
+      "id": "0c48ccb8-e713-4386-a53f-c62a47459ea5",
+      "ts": "2026-09-25T06:34:04.339Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "social security during illness"
+      }
     }
   ]
 }
