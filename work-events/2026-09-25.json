@@ -76228,6 +76228,32 @@
         "name": "Таня - трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "553a1494-f5ad-46ab-8d3b-ec96b362e4f8",
+      "ts": "2026-09-25T09:01:49.989Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Iho-ongelmat"
+      }
+    },
+    {
+      "id": "ac027413-13f0-487c-a6de-e0a1a7d270be",
+      "ts": "2026-09-25T09:01:54.051Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Virtsaelimet"
+      }
     }
   ]
 }
