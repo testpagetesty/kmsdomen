@@ -36818,6 +36818,19 @@
         "name": "Яя",
         "source": "motion"
       }
+    },
+    {
+      "id": "7801e46f-3bd0-43d9-8583-59935005b500",
+      "ts": "2026-09-25T07:31:10.059Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
