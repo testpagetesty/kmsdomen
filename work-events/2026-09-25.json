@@ -13470,6 +13470,19 @@
       }
     },
     {
+      "id": "a735f728-3a75-462f-9cf5-a8ddf8e140e2",
+      "ts": "2026-09-25T06:06:36.673Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
+    },
+    {
       "id": "a7b1fd4b-3914-44e3-8905-92c90ef71a09",
       "ts": "2026-09-25T06:06:41.423Z",
       "workerId": "таня_трубка_2",
@@ -13479,6 +13492,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "f11438c9-38ad-48a8-9db1-e0aae4d9b3ef",
+      "ts": "2026-09-25T06:06:55.960Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
       }
     }
   ]
