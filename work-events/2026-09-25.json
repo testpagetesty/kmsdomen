@@ -23181,6 +23181,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "fbeec3b1-cbb0-40fc-9736-14e59d1786db",
+      "ts": "2026-09-25T06:49:49.074Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
+      }
     }
   ]
 }
