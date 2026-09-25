@@ -62343,6 +62343,20 @@
       }
     },
     {
+      "id": "b3dc9648-41a0-4a73-8d7e-318c94d9173d",
+      "ts": "2026-09-25T08:38:04.571Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "58e880b9-2539-460c-845c-ba4958ef7d46",
       "ts": "2026-09-25T08:38:04.794Z",
       "workerId": "таня_трубка_1",
@@ -62445,6 +62459,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "a48cecbd-a34a-479a-82ee-4a8e83ba299b",
+      "ts": "2026-09-25T08:38:25.878Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     }
   ]
