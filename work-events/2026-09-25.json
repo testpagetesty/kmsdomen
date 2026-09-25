@@ -16396,6 +16396,19 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "253a27df-6834-4618-9b92-08efbaa1e583",
+      "ts": "2026-09-25T06:20:31.134Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
