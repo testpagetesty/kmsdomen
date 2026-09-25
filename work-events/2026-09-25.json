@@ -48031,6 +48031,20 @@
         "name": "Настя",
         "interest": "ANNニュース 仮想通貨業界ニュース 今日"
       }
+    },
+    {
+      "id": "aaf9da45-74bf-472c-951e-49fdd3e2e55c",
+      "ts": "2026-09-25T08:03:14.574Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
