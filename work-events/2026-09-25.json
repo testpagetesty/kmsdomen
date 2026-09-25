@@ -18421,6 +18421,18 @@
         "name": "Соня Тубка 2",
         "interest": "social support for the unemployed"
       }
+    },
+    {
+      "id": "d9401763-2e7e-4d5d-8770-e712fccad2e9",
+      "ts": "2026-09-25T06:28:06.408Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
