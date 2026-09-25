@@ -11089,6 +11089,31 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c6431b41-24f7-4a8f-9039-574918a0ed38",
+      "ts": "2026-09-25T05:40:19.461Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
+      "id": "e5303a60-72fb-48d7-8de1-3871d73b78b2",
+      "ts": "2026-09-25T05:40:23.677Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
