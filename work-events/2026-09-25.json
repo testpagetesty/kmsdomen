@@ -28687,6 +28687,18 @@
       }
     },
     {
+      "id": "d2c1dd82-7871-4c0a-90e2-df912983f1ec",
+      "ts": "2026-09-25T07:07:45.781Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "8c4f308a-1dc6-4613-b644-7c2d802e4050",
       "ts": "2026-09-25T07:07:46.723Z",
       "workerId": "tanya_trubka3",
@@ -28892,6 +28904,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "touch"
+      }
+    },
+    {
+      "id": "795f3abd-4160-4a20-a03c-032bf8074253",
+      "ts": "2026-09-25T07:08:25.096Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
       }
     },
     {
