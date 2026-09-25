@@ -50486,6 +50486,19 @@
       }
     },
     {
+      "id": "7d1cb018-4b57-4832-972f-be340c5c146d",
+      "ts": "2026-09-25T08:08:08.668Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
+    },
+    {
       "id": "877f7cdd-33e7-41f8-b0de-e0c48ea69ae1",
       "ts": "2026-09-25T08:08:08.900Z",
       "workerId": "игорь",
