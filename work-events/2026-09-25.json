@@ -47166,6 +47166,31 @@
       }
     },
     {
+      "id": "7793a441-2d31-41d7-a6a2-dc4a59fd464b",
+      "ts": "2026-09-25T08:01:20.952Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "4c8b75a2-c943-48b6-93e8-f8e8b7028795",
+      "ts": "2026-09-25T08:01:20.953Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "1ee716b4-452d-49ba-9cfc-16910c072a82",
       "ts": "2026-09-25T08:01:22.854Z",
       "workerId": "соня_трубка_1",
@@ -47305,6 +47330,18 @@
       "extra": {
         "name": "Настя",
         "interest": "JNNニュース 暗号資産ニュース 今日"
+      }
+    },
+    {
+      "id": "b9b15e6f-6c27-48dc-8d4b-b42605726ec2",
+      "ts": "2026-09-25T08:01:39.308Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     }
   ]
