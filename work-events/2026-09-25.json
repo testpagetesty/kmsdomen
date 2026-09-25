@@ -16128,6 +16128,19 @@
       }
     },
     {
+      "id": "14de8db5-b3b8-42c0-af44-c2ef4f7fe2ae",
+      "ts": "2026-09-25T06:19:03.773Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
+    },
+    {
       "id": "27332f1b-4409-4dd8-8ddc-3a4f32e46226",
       "ts": "2026-09-25T06:19:06.657Z",
       "workerId": "соня_трубка_1",
