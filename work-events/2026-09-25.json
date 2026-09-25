@@ -21758,6 +21758,18 @@
         "name": "Игорь",
         "url": "https://defence24.pl/polityka-obronna"
       }
+    },
+    {
+      "id": "7c7cb9f7-9a4f-4e47-84de-98804aeeef1f",
+      "ts": "2026-09-25T06:42:24.754Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
