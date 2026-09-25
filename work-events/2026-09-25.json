@@ -63849,6 +63849,19 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fc6232ec-6033-406e-b2a7-321733a57461",
+      "ts": "2026-09-25T08:38:52.253Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
+      }
     }
   ]
 }
