@@ -5118,6 +5118,20 @@
       }
     },
     {
+      "id": "9f17baf2-dd9d-4899-a24b-802546464324",
+      "ts": "2026-09-25T04:45:18.891Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "touch"
+      }
+    },
+    {
       "id": "8b8ba5f8-d3bb-4b98-9e84-2fc7aace2631",
       "ts": "2026-09-25T04:45:18.937Z",
       "workerId": "игорь",
