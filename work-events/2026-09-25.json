@@ -44460,6 +44460,20 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "572dbcba-3067-4ee6-9b51-fa5a9fe14819",
+      "ts": "2026-09-25T07:55:57.504Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
