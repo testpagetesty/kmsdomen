@@ -68228,6 +68228,19 @@
       }
     },
     {
+      "id": "ad115b5f-41d9-4b80-afe1-cfdc6f86597a",
+      "ts": "2026-09-25T08:46:34.877Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "60e33d50-5394-43f3-b5dd-73001d0ee038",
       "ts": "2026-09-25T08:46:35.009Z",
       "workerId": "настя1",
@@ -68373,6 +68386,20 @@
       }
     },
     {
+      "id": "1d06f5c6-de39-4e08-b3b5-197a7b4bb9d3",
+      "ts": "2026-09-25T08:46:49.037Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c971c847-8358-4fbf-85d1-44dced032c20",
       "ts": "2026-09-25T08:46:49.304Z",
       "workerId": "настя1",
@@ -68400,6 +68427,19 @@
       }
     },
     {
+      "id": "83f74e49-94a3-4fe3-a1ae-56c6a1dd9b96",
+      "ts": "2026-09-25T08:46:53.811Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "5dbd0551-e98c-4fb1-b35d-e62d8b020107",
       "ts": "2026-09-25T08:46:53.884Z",
       "workerId": "соня_трубка_1",
@@ -68424,6 +68464,18 @@
       "extra": {
         "name": "Настя1",
         "interest": "Skjelett- og muskelsystemet"
+      }
+    },
+    {
+      "id": "ced713c6-78f8-4028-8148-9728f528ad77",
+      "ts": "2026-09-25T08:47:00.312Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -68478,6 +68530,31 @@
       "extra": {
         "name": "Настя1",
         "interest": "Metabolisme og vekttap"
+      }
+    },
+    {
+      "id": "8ef719a7-3ccd-4596-9294-6eb20653c092",
+      "ts": "2026-09-25T08:47:08.123Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "8884cb61-bb7a-4fd5-a085-e936f6d1b920",
+      "ts": "2026-09-25T08:47:08.124Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -68561,6 +68638,18 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "title": "Rahasia Stamina Pria Sejati"
+      }
+    },
+    {
+      "id": "e12a7e30-9fbb-496d-92bb-9aaa122c5b4b",
+      "ts": "2026-09-25T08:47:23.200Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
