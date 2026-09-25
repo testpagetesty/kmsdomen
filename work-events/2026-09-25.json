@@ -3629,6 +3629,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "ace22a92-c1eb-4485-867a-b2e15c9a8b4b",
+      "ts": "2026-09-25T04:37:14.336Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
