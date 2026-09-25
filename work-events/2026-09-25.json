@@ -25359,6 +25359,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "79ecad39-635d-4c95-9d36-7e07116361ea",
+      "ts": "2026-09-25T06:56:36.057Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
