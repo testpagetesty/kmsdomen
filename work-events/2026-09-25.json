@@ -74841,6 +74841,18 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "4f9af147-ce1f-4fa0-b26b-0be9eb6080ec",
+      "ts": "2026-09-25T08:58:58.449Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
