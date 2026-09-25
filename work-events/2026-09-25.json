@@ -64363,6 +64363,19 @@
       }
     },
     {
+      "id": "ec03626e-054a-484f-a75a-b5e5ab490629",
+      "ts": "2026-09-25T08:40:04.391Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "195dd6b4-f355-4dcc-b4fd-f52811c9e5a5",
       "ts": "2026-09-25T08:40:06.139Z",
       "workerId": "соня_тубка_2",
@@ -64388,6 +64401,19 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "touch"
+      }
+    },
+    {
+      "id": "9af173d4-65e0-427a-aab8-246513eb6a0d",
+      "ts": "2026-09-25T08:40:10.643Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
