@@ -25821,6 +25821,19 @@
         "name": "Таня - Трубка 4",
         "source": "touch"
       }
+    },
+    {
+      "id": "07da41e2-5626-456b-a220-da7abd3b8108",
+      "ts": "2026-09-25T06:58:12.880Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
