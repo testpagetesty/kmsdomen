@@ -75750,6 +75750,20 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "83fb9f10-eed5-4d15-89b6-f46ff24ffedd",
+      "ts": "2026-09-25T09:01:03.151Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
