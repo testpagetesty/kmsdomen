@@ -71999,6 +71999,18 @@
       }
     },
     {
+      "id": "955930ce-1e13-4530-b813-a28d6b3b2b2e",
+      "ts": "2026-09-25T08:54:23.329Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "f5bdf95a-5683-4f0b-971d-7bd33353dea2",
       "ts": "2026-09-25T08:54:23.377Z",
       "workerId": "игорь",
