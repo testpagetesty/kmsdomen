@@ -49138,6 +49138,18 @@
       }
     },
     {
+      "id": "c38ecc0e-d910-4d66-bb8e-f91628ad04ba",
+      "ts": "2026-09-25T08:04:45.315Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "a5f999c2-965a-46cd-b8f6-88fa4825b7ba",
       "ts": "2026-09-25T08:04:48.372Z",
       "workerId": "nastya",
@@ -49175,6 +49187,31 @@
       }
     },
     {
+      "id": "2e377050-4bbd-441e-8e3e-fa8336362277",
+      "ts": "2026-09-25T08:04:51.690Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "30fa7683-bb89-44f7-a957-e58fc6f41405",
+      "ts": "2026-09-25T08:04:51.692Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "7182fd6c-ee4b-4029-8883-5af45083ecf0",
       "ts": "2026-09-25T08:04:56.971Z",
       "workerId": "игорь",
@@ -49199,6 +49236,19 @@
       "extra": {
         "name": "Настя1",
         "interest": "Masalah peredaran darah"
+      }
+    },
+    {
+      "id": "4a8719f1-4b6e-40b9-bc95-94d0740c3a57",
+      "ts": "2026-09-25T08:05:07.695Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
