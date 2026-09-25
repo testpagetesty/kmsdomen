@@ -32297,6 +32297,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e7c97a37-b53d-4d46-b039-1ffade106d2d",
+      "ts": "2026-09-25T07:18:12.844Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
     }
   ]
 }
