@@ -47423,6 +47423,19 @@
       }
     },
     {
+      "id": "4d0f302d-192f-4a9b-98dc-43b8f4884f1d",
+      "ts": "2026-09-25T08:01:52.627Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
+      }
+    },
+    {
       "id": "b880e7e2-c7b7-4fec-8f37-c93ca4d13861",
       "ts": "2026-09-25T08:01:53.143Z",
       "workerId": "соня_трубка_1",
@@ -47445,6 +47458,19 @@
       "event": "capture_resume",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "49510f69-5622-4033-a2f0-a34adc264131",
+      "ts": "2026-09-25T08:01:56.735Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "フジテレビニュース 仮想通貨ニュース 今日"
       }
     }
   ]
