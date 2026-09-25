@@ -29914,6 +29914,20 @@
       }
     },
     {
+      "id": "7f4d5949-ad2f-4f50-ac6f-bb2d617894ac",
+      "ts": "2026-09-25T07:11:24.706Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "aca5b98a-feaf-4cd7-a177-032fb3e129a7",
       "ts": "2026-09-25T07:11:25.103Z",
       "workerId": "соня_тубка_2",
@@ -29963,6 +29977,33 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "05f602ea-4cb5-4061-9866-d5d50f2731bd",
+      "ts": "2026-09-25T07:11:30.510Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
+      "id": "dbdd8dbf-c009-4f58-97c6-f944c238772a",
+      "ts": "2026-09-25T07:11:34.138Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zurnal24.si",
+        "source": "teaser"
       }
     }
   ]
