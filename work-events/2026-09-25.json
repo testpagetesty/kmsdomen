@@ -75335,6 +75335,18 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "cd6fd902-e039-4ab7-ba01-555c2e742960",
+      "ts": "2026-09-25T09:00:05.631Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
