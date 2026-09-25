@@ -20518,6 +20518,19 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "943779e2-7610-4abc-9d27-2af2d3ad93eb",
+      "ts": "2026-09-25T06:36:36.378Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "apoyo estatal para familias jóvenes"
+      }
     }
   ]
 }
