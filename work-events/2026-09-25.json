@@ -68720,6 +68720,20 @@
       }
     },
     {
+      "id": "4488c607-bb81-476a-8a28-a78ca4127ea6",
+      "ts": "2026-09-25T08:47:23.041Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "upload_item",
+      "extra": {
+        "name": "Настя",
+        "title": "野球の試合は、大混乱のうちに幕を閉じた。"
+      }
+    },
+    {
       "id": "543c910d-93e8-4c1c-9df3-1a7d4440743f",
       "ts": "2026-09-25T08:47:23.130Z",
       "workerId": "tanya_trubka3",
@@ -69294,6 +69308,21 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "da28a135-9e8c-4d9e-8479-430297d866d0",
+      "ts": "2026-09-25T08:48:49.771Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "fi",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Настя",
+        "from": "jp",
+        "to": "fi",
+        "source": "ip"
       }
     }
   ]
