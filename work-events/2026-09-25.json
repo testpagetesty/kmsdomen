@@ -41032,6 +41032,19 @@
       }
     },
     {
+      "id": "ce8bb660-aefa-4fdf-8792-0218ed9ee5b9",
+      "ts": "2026-09-25T07:45:12.639Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "eb71f9d5-8869-41c6-915a-b87f6b9c6d4c",
       "ts": "2026-09-25T07:45:12.792Z",
       "workerId": "игорь",
