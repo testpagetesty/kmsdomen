@@ -53102,6 +53102,19 @@
       }
     },
     {
+      "id": "69f5e935-78ea-45d1-84ae-6f78a87281e3",
+      "ts": "2026-09-25T08:12:54.491Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "socialinė apsauga ligos atveju"
+      }
+    },
+    {
       "id": "98ef2bbe-fd1d-4130-981c-d18903c4cb98",
       "ts": "2026-09-25T08:12:55.838Z",
       "workerId": "соня_трубка_1",
