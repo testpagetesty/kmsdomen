@@ -62353,6 +62353,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "731f784b-7bc8-4cbd-95d7-a6aec133f673",
+      "ts": "2026-09-25T08:38:10.112Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
