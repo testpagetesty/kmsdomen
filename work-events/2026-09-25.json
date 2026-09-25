@@ -36739,6 +36739,20 @@
       }
     },
     {
+      "id": "e662ef16-907e-4167-872a-4609c654c6f6",
+      "ts": "2026-09-25T07:30:36.232Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "b4f139ba-645a-4bf1-be18-eac296ded615",
       "ts": "2026-09-25T07:30:36.362Z",
       "workerId": "яя",
@@ -36775,6 +36789,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "29401783-b7c6-4b89-b527-990672256728",
+      "ts": "2026-09-25T07:30:57.819Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     }
