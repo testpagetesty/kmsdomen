@@ -19450,6 +19450,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "26d909b3-e911-4e6d-95c6-c0beadec5d3f",
+      "ts": "2026-09-25T06:32:05.809Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
