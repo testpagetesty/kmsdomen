@@ -66377,6 +66377,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "d553ed39-3bb4-4795-95f7-d5c86b5973aa",
+      "ts": "2026-09-25T08:44:00.765Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
