@@ -43732,6 +43732,19 @@
       }
     },
     {
+      "id": "5ecb3116-0ba8-46b1-beea-036f960162e9",
+      "ts": "2026-09-25T07:53:18.119Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "e0e2d848-e5e8-494e-a02e-5847ef8f2f38",
       "ts": "2026-09-25T07:53:18.534Z",
       "workerId": "яя",
