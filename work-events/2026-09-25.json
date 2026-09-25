@@ -72916,6 +72916,20 @@
       }
     },
     {
+      "id": "6b3e08e3-f392-4795-8e45-4edd65b28f68",
+      "ts": "2026-09-25T08:56:14.042Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
       "id": "a7edadb4-9746-4e06-9a7f-acd3166251b9",
       "ts": "2026-09-25T08:56:14.299Z",
       "workerId": "nastya",
