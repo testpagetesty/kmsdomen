@@ -41842,6 +41842,21 @@
         "name": "Соня Тубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "3d19359a-1160-4a04-87f2-8e69c2418df9",
+      "ts": "2026-09-25T07:47:50.545Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Игорь",
+        "from": "ee",
+        "to": "ch",
+        "source": "ip"
+      }
     }
   ]
 }
