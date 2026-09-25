@@ -6160,6 +6160,18 @@
         "name": "Tanya - trubka3",
         "source": "touch"
       }
+    },
+    {
+      "id": "10fd860b-fa6c-453b-86fb-8f93666c5e57",
+      "ts": "2026-09-25T04:52:26.070Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
