@@ -76077,6 +76077,18 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "e0d97e49-0f6b-40d3-a178-c4a3ac250558",
+      "ts": "2026-09-25T09:01:48.429Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
