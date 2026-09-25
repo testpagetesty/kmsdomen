@@ -66920,6 +66920,18 @@
       }
     },
     {
+      "id": "137b6389-29fa-4f65-b44d-b0ec91c4358a",
+      "ts": "2026-09-25T08:44:48.414Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
+      }
+    },
+    {
       "id": "5f4e9092-c5d9-46ed-b1f6-67eddca23703",
       "ts": "2026-09-25T08:44:48.863Z",
       "workerId": "nastya",
@@ -67064,6 +67076,20 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "aef4bf76-1455-4b9f-8f43-35c5a63fd003",
+      "ts": "2026-09-25T08:45:13.677Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
         "source": "scroll"
       }
     }
