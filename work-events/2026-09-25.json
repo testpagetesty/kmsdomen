@@ -20663,6 +20663,18 @@
         "name": "Соня Трубка 1",
         "interest": "apoyo social para desempleados"
       }
+    },
+    {
+      "id": "304ecdeb-fbca-4da3-b704-6622de626020",
+      "ts": "2026-09-25T06:37:20.280Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
