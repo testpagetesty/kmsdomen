@@ -69320,6 +69320,20 @@
       }
     },
     {
+      "id": "daf517ad-ea56-4779-9f7f-bbe1741af547",
+      "ts": "2026-09-25T08:48:44.178Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "1a4a2357-1d35-46ad-826e-7d49430d9f41",
       "ts": "2026-09-25T08:48:45.333Z",
       "workerId": "настя1",
@@ -69510,6 +69524,20 @@
       }
     },
     {
+      "id": "7d982dfe-8906-4301-863b-f8626280c730",
+      "ts": "2026-09-25T08:49:23.665Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "80d73a61-dd43-47a6-bf38-c93b0d5419e8",
       "ts": "2026-09-25T08:49:24.684Z",
       "workerId": "соня_трубка_1",
@@ -69546,6 +69574,19 @@
       "extra": {
         "name": "Настя",
         "source": "touch"
+      }
+    },
+    {
+      "id": "e0868fbf-b8bb-431a-adce-b6946360f377",
+      "ts": "2026-09-25T08:49:32.323Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved øresus"
       }
     }
   ]
