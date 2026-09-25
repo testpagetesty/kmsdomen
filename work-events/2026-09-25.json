@@ -64308,6 +64308,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ffe59299-581c-4296-8f24-71ed94b53f36",
+      "ts": "2026-09-25T08:39:58.744Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
