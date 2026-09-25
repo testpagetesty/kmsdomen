@@ -2090,6 +2090,18 @@
         "name": "Tanya - trubka3",
         "source": "motion"
       }
+    },
+    {
+      "id": "3dc480d0-b167-49bd-85bc-c59af24e0996",
+      "ts": "2026-09-25T04:25:11.327Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
