@@ -76634,6 +76634,19 @@
       "extra": {
         "name": "Таня - трубка 1"
       }
+    },
+    {
+      "id": "2067bd69-5bb8-46ce-a077-81b0d778150c",
+      "ts": "2026-09-25T09:02:44.530Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Kehon detox"
+      }
     }
   ]
 }
