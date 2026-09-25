@@ -65195,6 +65195,18 @@
       }
     },
     {
+      "id": "8b8f21b6-1ab0-475d-a544-3c4faa3f323e",
+      "ts": "2026-09-25T08:41:31.306Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "e2f569e5-a3f1-4ed1-b108-4e72152e16b1",
       "ts": "2026-09-25T08:41:32.343Z",
       "workerId": "настя1",
@@ -65219,6 +65231,20 @@
         "name": "Игорь",
         "host": "primainspirace.cz",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "143f1d8d-88eb-40ed-9ca9-7262003c9567",
+      "ts": "2026-09-25T08:41:36.584Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "scroll"
       }
     }
   ]
