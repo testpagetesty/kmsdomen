@@ -10749,6 +10749,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "8eda2d4e-1de7-4431-9d17-c6bb4a5805a9",
+      "ts": "2026-09-25T05:37:19.458Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
