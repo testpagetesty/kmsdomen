@@ -77666,6 +77666,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "bb0ceb9d-30ab-418e-ae15-0d9051eab81d",
+      "ts": "2026-09-25T09:04:53.598Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zurnal24.si",
+        "source": "teaser"
+      }
     }
   ]
 }
