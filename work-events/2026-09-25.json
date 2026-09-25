@@ -44263,6 +44263,18 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "92d62b0c-4b0d-47c2-8aec-1426b0d087c4",
+      "ts": "2026-09-25T07:55:15.235Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
