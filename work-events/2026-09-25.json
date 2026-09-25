@@ -74814,6 +74814,19 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "25f257b8-9fdc-45a9-92f5-72e4906c238a",
+      "ts": "2026-09-25T08:58:53.214Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
