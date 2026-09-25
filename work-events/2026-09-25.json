@@ -15708,6 +15708,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "f0a54974-196f-4a25-8fea-72f6fd8e5ccb",
+      "ts": "2026-09-25T06:17:16.449Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
