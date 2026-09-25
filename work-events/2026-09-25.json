@@ -17915,6 +17915,20 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "1b93df72-d764-445a-95e4-f7d888c69559",
+      "ts": "2026-09-25T06:26:10.863Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
