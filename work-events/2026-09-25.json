@@ -39322,6 +39322,18 @@
         "name": "Игорь",
         "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
       }
+    },
+    {
+      "id": "5cd7baba-c53d-4c5b-a998-17fee1b0b78a",
+      "ts": "2026-09-25T07:37:54.638Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
