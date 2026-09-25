@@ -73604,6 +73604,20 @@
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved hud- og negleproblemer"
       }
+    },
+    {
+      "id": "d3292f89-d41f-4a24-83bb-4516ff74b1f2",
+      "ts": "2026-09-25T08:57:44.628Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
     }
   ]
 }
