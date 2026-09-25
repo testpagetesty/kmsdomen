@@ -72914,6 +72914,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "a7edadb4-9746-4e06-9a7f-acd3166251b9",
+      "ts": "2026-09-25T08:56:14.299Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä korvien soidessa"
+      }
     }
   ]
 }
