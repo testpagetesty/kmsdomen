@@ -7330,6 +7330,19 @@
         "name": "Игорь",
         "url": "https://blitz.bg/obshtestvo"
       }
+    },
+    {
+      "id": "19709921-27e0-40cc-b57c-3bb16c2653e5",
+      "ts": "2026-09-25T05:01:35.539Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
+      }
     }
   ]
 }
