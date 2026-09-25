@@ -6802,6 +6802,19 @@
         "name": "Игорь",
         "url": "https://defence24.pl/polityka-obronna"
       }
+    },
+    {
+      "id": "fce42def-9833-4333-93a6-e64e5545dd36",
+      "ts": "2026-09-25T04:59:06.721Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
     }
   ]
 }
