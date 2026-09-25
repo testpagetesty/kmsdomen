@@ -43642,6 +43642,19 @@
       }
     },
     {
+      "id": "18ad925f-2ab3-40cd-87fb-1aa4cc25a743",
+      "ts": "2026-09-25T07:53:07.356Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "82432a5a-0fcc-4731-b1dd-8ac68ad4ef9d",
       "ts": "2026-09-25T07:53:08.040Z",
       "workerId": "игорь",
@@ -43652,6 +43665,19 @@
       "extra": {
         "name": "Игорь",
         "url": "https://www.zagorje.com/mobile"
+      }
+    },
+    {
+      "id": "0dfc6fe2-6ef6-49af-abcf-6aadc997c44f",
+      "ts": "2026-09-25T07:53:08.154Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -43666,6 +43692,18 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "392a7cef-4b39-40a0-ba81-f7fe252414f3",
+      "ts": "2026-09-25T07:53:12.896Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
