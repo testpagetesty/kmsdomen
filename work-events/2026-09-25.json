@@ -69933,6 +69933,19 @@
       }
     },
     {
+      "id": "93dd9cb6-3cbf-4ec5-966a-8a5f3aaa3731",
+      "ts": "2026-09-25T08:50:06.159Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Hva du bør gjøre ved høyt trykk"
+      }
+    },
+    {
       "id": "aefb75f3-2f53-4d42-b6c2-300faadae800",
       "ts": "2026-09-25T08:50:08.451Z",
       "workerId": "игорь",
@@ -69947,6 +69960,19 @@
       }
     },
     {
+      "id": "cd8a6e7c-6c82-4157-a1e7-e01dca24a309",
+      "ts": "2026-09-25T08:50:09.812Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "edfa5f5c-dbe8-4d2e-9afe-4bfda9bd395b",
       "ts": "2026-09-25T08:50:11.711Z",
       "workerId": "таня_трубка_2",
@@ -69958,6 +69984,18 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "title": "Kesehatan pria yang bisa diandalkan"
+      }
+    },
+    {
+      "id": "3d6ac6cd-edc2-4218-bd75-c8aa537cf2e9",
+      "ts": "2026-09-25T08:50:14.944Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
