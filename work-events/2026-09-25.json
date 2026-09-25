@@ -65005,6 +65005,18 @@
       }
     },
     {
+      "id": "1b884713-5445-43dd-9b9b-82e3b7a4dcac",
+      "ts": "2026-09-25T08:41:08.787Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "7dd28ae8-e87b-457c-88db-b5ee74bef6a6",
       "ts": "2026-09-25T08:41:10.674Z",
       "workerId": "соня_тубка_2",
@@ -65040,6 +65052,20 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "motion"
+      }
+    },
+    {
+      "id": "965de1ba-97ec-424e-b1fc-4688a033328b",
+      "ts": "2026-09-25T08:41:18.175Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
       }
     }
   ]
