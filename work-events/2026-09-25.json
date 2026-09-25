@@ -21889,6 +21889,33 @@
         "host": "historia.dorzeczy.pl",
         "source": "teaser"
       }
+    },
+    {
+      "id": "788c18ea-605c-42e3-b7da-33eab11ef676",
+      "ts": "2026-09-25T06:43:48.729Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
+    },
+    {
+      "id": "032d4f6c-800e-4434-834c-a3d4bb97102d",
+      "ts": "2026-09-25T06:43:52.462Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "blitz.bg",
+        "source": "teaser"
+      }
     }
   ]
 }
