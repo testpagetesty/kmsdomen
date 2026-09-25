@@ -77628,6 +77628,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e569c432-30d6-453c-9e7c-f389266c92c5",
+      "ts": "2026-09-25T09:04:40.292Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
