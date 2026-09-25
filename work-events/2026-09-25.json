@@ -39247,6 +39247,19 @@
       }
     },
     {
+      "id": "33a13da8-a24c-4409-8cd3-c12f57f67139",
+      "ts": "2026-09-25T07:37:39.801Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "Problemas de circulación"
+      }
+    },
+    {
       "id": "483a4702-608a-4805-ab43-a3884d78fa3e",
       "ts": "2026-09-25T07:37:41.433Z",
       "workerId": "таня_трубка_1",
@@ -39256,6 +39269,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "f0fff66c-eec2-4282-b874-858272ccf07f",
+      "ts": "2026-09-25T07:37:44.026Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "scroll"
       }
     }
   ]
