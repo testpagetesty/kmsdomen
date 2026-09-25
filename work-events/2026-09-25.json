@@ -70740,6 +70740,18 @@
       }
     },
     {
+      "id": "6714dde9-ab01-4f05-8615-04586a1555c6",
+      "ts": "2026-09-25T08:51:26.025Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "a7d53535-56f2-4694-b7ad-6c7a5b040dfd",
       "ts": "2026-09-25T08:51:27.186Z",
       "workerId": "настя1",
@@ -71013,6 +71025,20 @@
       "extra": {
         "name": "Настя",
         "interest": "Virtsaelimet"
+      }
+    },
+    {
+      "id": "512a5e0f-41a2-4a5b-bd39-d4b190fd620c",
+      "ts": "2026-09-25T08:52:06.393Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
