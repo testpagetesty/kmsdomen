@@ -72808,6 +72808,19 @@
       }
     },
     {
+      "id": "f9695b7e-9ad0-4fd8-bd1a-c145f3df6f22",
+      "ts": "2026-09-25T08:55:56.252Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "at",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://regionalobala.si/novica"
+      }
+    },
+    {
       "id": "92284d25-c8bb-4ccd-9767-490f83c52d6e",
       "ts": "2026-09-25T08:56:00.948Z",
       "workerId": "настя1",
@@ -72819,6 +72832,20 @@
       "extra": {
         "name": "Настя1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "72270df4-29b3-4b19-ab10-10012be03411",
+      "ts": "2026-09-25T08:56:00.961Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "regionalobala.si",
+        "source": "teaser"
       }
     }
   ]
