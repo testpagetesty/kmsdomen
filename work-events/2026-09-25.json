@@ -44556,6 +44556,18 @@
       }
     },
     {
+      "id": "175103e2-2bd2-4fb1-aa08-27ea6e53c92c",
+      "ts": "2026-09-25T07:56:22.846Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "b614e57e-b88c-4a15-ba6f-8a78508db373",
       "ts": "2026-09-25T07:56:24.317Z",
       "workerId": "яя",
