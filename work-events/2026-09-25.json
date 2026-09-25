@@ -9253,6 +9253,20 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "e81f65ff-21d1-4d11-9ee6-b898b16a5bdb",
+      "ts": "2026-09-25T05:19:52.067Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
