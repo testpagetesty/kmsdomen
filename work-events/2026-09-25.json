@@ -66453,6 +66453,19 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "a35ad26e-66b2-471c-9131-9f19333e84d7",
+      "ts": "2026-09-25T08:44:11.000Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
