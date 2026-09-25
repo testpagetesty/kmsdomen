@@ -75129,6 +75129,19 @@
       }
     },
     {
+      "id": "c1bcd82f-380d-4a51-9d1c-ac5b8206f6ef",
+      "ts": "2026-09-25T08:59:25.206Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "f758b99d-85eb-4ca7-a82e-5cc180568822",
       "ts": "2026-09-25T08:59:26.035Z",
       "workerId": "соня_тубка_2",
@@ -75215,6 +75228,18 @@
       "event": "capture_resume",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "9742bd3a-c162-403c-87db-ccf7644fcd05",
+      "ts": "2026-09-25T08:59:40.428Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     },
     {
@@ -75713,6 +75738,18 @@
       }
     },
     {
+      "id": "41775a0e-4dbd-4bc6-b8db-b1b8af5acca6",
+      "ts": "2026-09-25T09:00:40.431Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "92d2e636-a143-425d-9124-29a23997e64e",
       "ts": "2026-09-25T09:00:41.434Z",
       "workerId": "соня_тубка_2",
@@ -75984,6 +76021,19 @@
       "extra": {
         "name": "Настя",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "7fb29401-52cc-4c98-9177-f3ae229ac418",
+      "ts": "2026-09-25T09:01:37.107Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Bangkok",
+      "geo": "th",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
       }
     },
     {
