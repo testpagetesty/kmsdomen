@@ -42025,6 +42025,19 @@
       }
     },
     {
+      "id": "05d3c777-75f1-4c87-a088-18e7522a37dd",
+      "ts": "2026-09-25T07:48:39.520Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "motion"
+      }
+    },
+    {
       "id": "6919afd4-3620-42a5-9da3-ee809bea6105",
       "ts": "2026-09-25T07:48:41.837Z",
       "workerId": "игорь",
@@ -42129,6 +42142,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "f3197439-5e9d-4755-85f9-293b0a187c33",
+      "ts": "2026-09-25T07:49:18.536Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Яя"
       }
     }
   ]
