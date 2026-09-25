@@ -75818,6 +75818,18 @@
       }
     },
     {
+      "id": "88c8e59c-7b04-4807-a871-c4a5cc0f306f",
+      "ts": "2026-09-25T09:01:05.952Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "4069d2fc-c5ad-49d8-9969-109c56efe32c",
       "ts": "2026-09-25T09:01:07.363Z",
       "workerId": "соня_трубка_1",
@@ -75897,6 +75909,20 @@
       }
     },
     {
+      "id": "78424fde-88c4-48e6-8a48-2c158597e2dd",
+      "ts": "2026-09-25T09:01:19.711Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "e6e6f30f-d0e3-49c9-855b-6b0b511e860d",
       "ts": "2026-09-25T09:01:23.336Z",
       "workerId": "соня_трубка_1",
@@ -75918,6 +75944,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "03c6c671-03c7-458e-8e8a-f4ea070b9045",
+      "ts": "2026-09-25T09:01:27.202Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
       }
     }
   ]
