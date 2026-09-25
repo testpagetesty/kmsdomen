@@ -26324,6 +26324,18 @@
       }
     },
     {
+      "id": "b0eb45be-9fad-4b70-b499-d2aca7ed2aad",
+      "ts": "2026-09-25T06:59:25.088Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "e2a9bed8-cd60-45ce-83ba-2b0c864685ee",
       "ts": "2026-09-25T06:59:26.373Z",
       "workerId": "таня_трубка_4",
@@ -26346,6 +26358,20 @@
       "event": "capture_pause",
       "extra": {
         "name": "Игорь"
+      }
+    },
+    {
+      "id": "70f7703e-1239-4fea-9ed3-bf93260da526",
+      "ts": "2026-09-25T06:59:32.071Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     },
     {
