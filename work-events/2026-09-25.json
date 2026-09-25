@@ -40799,6 +40799,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f50ec786-149a-464b-b426-e7af7df5be12",
+      "ts": "2026-09-25T07:44:27.836Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "Qué hacer si se cansan los ojos"
+      }
     }
   ]
 }
