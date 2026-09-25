@@ -34388,6 +34388,20 @@
       }
     },
     {
+      "id": "8f3b1238-7089-4ed3-9b65-91b9fc9b682d",
+      "ts": "2026-09-25T07:23:43.723Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "c9a51ab8-621d-4ebe-a6cf-cfba72794b69",
       "ts": "2026-09-25T07:23:44.469Z",
       "workerId": "яя",
