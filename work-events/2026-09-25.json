@@ -13806,6 +13806,31 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b5cf8f91-5435-4c6d-9e8f-9dac3b6b1eb1",
+      "ts": "2026-09-25T06:08:42.763Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "11e6a014-2a55-4d2a-8d29-2a4690867b2e",
+      "ts": "2026-09-25T06:08:42.764Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
