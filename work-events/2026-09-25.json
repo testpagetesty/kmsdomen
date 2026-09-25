@@ -11477,6 +11477,20 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "15ef3b76-f0ae-48e6-98f6-cc8e4c69733b",
+      "ts": "2026-09-25T05:44:35.081Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
