@@ -48748,6 +48748,19 @@
         "name": "Таня - Трубка 4",
         "title": "Starý trik na břicho"
       }
+    },
+    {
+      "id": "85ac1bb3-0a67-43ac-bda8-808e53a9c6d3",
+      "ts": "2026-09-25T08:04:05.986Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
     }
   ]
 }
