@@ -44290,6 +44290,18 @@
       }
     },
     {
+      "id": "3c5ee73f-bd33-4b2f-b2e2-01d3cbf49e19",
+      "ts": "2026-09-25T07:55:20.734Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "df10f6ec-86da-47ba-bf25-935864351cdb",
       "ts": "2026-09-25T07:55:22.841Z",
       "workerId": "соня_трубка_1",
@@ -44325,6 +44337,20 @@
         "name": "Игорь",
         "host": "nezavisne.com",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "a539bb01-d611-4054-8ee5-5f53645eb2d7",
+      "ts": "2026-09-25T07:55:29.390Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
