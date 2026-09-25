@@ -76598,6 +76598,19 @@
       }
     },
     {
+      "id": "11636f74-e4a0-4860-b567-5f238c6e0a09",
+      "ts": "2026-09-25T09:02:25.631Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
       "id": "7ec9b954-0a4a-49f7-84a1-e2bf8a3d9590",
       "ts": "2026-09-25T09:02:26.036Z",
       "workerId": "соня_тубка_2",
@@ -76756,6 +76769,19 @@
       }
     },
     {
+      "id": "d673bd68-48de-4593-a9b6-06859851282c",
+      "ts": "2026-09-25T09:02:46.749Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
       "id": "fbffcdaa-44cf-401f-809a-6b94c5436eb3",
       "ts": "2026-09-25T09:02:47.039Z",
       "workerId": "настя1",
@@ -76860,6 +76886,20 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "72b0bb70-a852-40f9-ac30-199d7c0ca5ad",
+      "ts": "2026-09-25T09:03:16.059Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
         "source": "scroll"
       }
     }
