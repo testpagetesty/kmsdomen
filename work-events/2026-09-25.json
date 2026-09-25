@@ -53060,6 +53060,18 @@
         "name": "Соня Тубка 2",
         "interest": "naujausios naujienos apie kriptovaliutų augimą mūsų šalyje"
       }
+    },
+    {
+      "id": "98ef2bbe-fd1d-4130-981c-d18903c4cb98",
+      "ts": "2026-09-25T08:12:55.838Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
