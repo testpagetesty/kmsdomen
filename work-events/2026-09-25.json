@@ -16281,6 +16281,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "ab46e76a-597f-44e6-9ffb-9b4af5a39187",
+      "ts": "2026-09-25T06:19:42.482Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "how to properly manage and buy cryptocurrency in our country"
+      }
     }
   ]
 }
