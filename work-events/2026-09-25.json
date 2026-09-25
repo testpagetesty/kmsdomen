@@ -17188,6 +17188,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "1295c756-d608-4c47-87fe-5d5ecb2959fa",
+      "ts": "2026-09-25T06:23:55.564Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "website",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
