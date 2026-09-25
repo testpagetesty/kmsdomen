@@ -18659,6 +18659,19 @@
       }
     },
     {
+      "id": "d83f3b69-8d24-4169-9487-cba356d11fa2",
+      "ts": "2026-09-25T06:29:03.566Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "fdfe1aeb-92ea-492e-aca9-5cb4a1944708",
       "ts": "2026-09-25T06:29:03.867Z",
       "workerId": "игорь",
