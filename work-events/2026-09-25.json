@@ -49524,6 +49524,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "84313251-8b6f-4a18-a7ef-c7a5238c75ea",
+      "ts": "2026-09-25T08:05:44.379Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Apa yang perlu dilakukan jika hati terbeban"
+      }
     }
   ]
 }
