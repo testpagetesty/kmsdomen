@@ -46041,6 +46041,20 @@
       }
     },
     {
+      "id": "471369d9-af11-4144-8eb2-a723173009cf",
+      "ts": "2026-09-25T07:59:06.643Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "ru",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "fd23bcf0-d81f-4b3c-9b31-5eed18b28474",
       "ts": "2026-09-25T07:59:06.948Z",
       "workerId": "игорь",
@@ -46363,6 +46377,18 @@
       "extra": {
         "name": "Таня - Трубка 4",
         "source": "motion"
+      }
+    },
+    {
+      "id": "f20667b0-f235-48d9-89b7-ea082c0d56b6",
+      "ts": "2026-09-25T07:59:48.369Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя"
       }
     }
   ]
