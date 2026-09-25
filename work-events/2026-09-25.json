@@ -73474,6 +73474,18 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "32593f1f-51f6-403f-bc41-816a91661224",
+      "ts": "2026-09-25T08:57:23.330Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
