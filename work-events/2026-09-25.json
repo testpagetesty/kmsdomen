@@ -51146,6 +51146,19 @@
         "name": "Соня Тубка 2",
         "interest": "socialinės išmokos neįgaliesiems"
       }
+    },
+    {
+      "id": "90d7530e-917a-4924-83e8-5a4762108a46",
+      "ts": "2026-09-25T08:09:45.789Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "valstybinė parama jaunoms šeimoms"
+      }
     }
   ]
 }
