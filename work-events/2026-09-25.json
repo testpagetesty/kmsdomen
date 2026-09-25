@@ -73879,6 +73879,20 @@
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved øresus"
       }
+    },
+    {
+      "id": "91a04d7f-b65c-4dfe-bff0-1f763949dd3e",
+      "ts": "2026-09-25T08:57:56.670Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
