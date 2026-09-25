@@ -47634,6 +47634,18 @@
         "name": "Настя",
         "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
       }
+    },
+    {
+      "id": "1bd4aed5-3853-4823-86c8-edefb00bf04e",
+      "ts": "2026-09-25T08:02:22.856Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
