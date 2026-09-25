@@ -72651,6 +72651,18 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "a6979db9-9837-4551-9c6e-06519e5a70ef",
+      "ts": "2026-09-25T08:55:37.958Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
