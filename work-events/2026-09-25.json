@@ -47583,6 +47583,20 @@
       }
     },
     {
+      "id": "c67e351a-25a2-4819-8ed8-ee83472d8b49",
+      "ts": "2026-09-25T08:02:09.607Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "96ce909a-a078-49ea-b4e4-b70a75d16ea8",
       "ts": "2026-09-25T08:02:14.542Z",
       "workerId": "игорь",
@@ -47698,6 +47712,18 @@
       }
     },
     {
+      "id": "cfae318c-3c0b-442a-a2b6-25fc6e20a3f2",
+      "ts": "2026-09-25T08:02:26.642Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
+    },
+    {
       "id": "0fd4a98d-e357-440e-ac8e-8ac0edc05a3c",
       "ts": "2026-09-25T08:02:27.538Z",
       "workerId": "nastya",
@@ -47708,6 +47734,21 @@
       "extra": {
         "name": "Настя",
         "interest": "JNNニュース 暗号資産ニュース 今日"
+      }
+    },
+    {
+      "id": "23ef43a1-7891-49ea-a70d-1fb3dbae90ad",
+      "ts": "2026-09-25T08:02:27.878Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Настя1",
+        "from": "ru",
+        "to": "my",
+        "source": "ip"
       }
     },
     {
@@ -47844,6 +47885,20 @@
       }
     },
     {
+      "id": "6eecbb5b-7a1d-46b2-a605-0942a722bfe7",
+      "ts": "2026-09-25T08:02:43.286Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "88d13c46-8163-4820-9806-592df61614a6",
       "ts": "2026-09-25T08:02:47.145Z",
       "workerId": "tanya_trubka3",
@@ -47907,6 +47962,20 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース ビットコインニュース 今日"
+      }
+    },
+    {
+      "id": "e24863a5-845e-4e48-b3ed-b0910b6303eb",
+      "ts": "2026-09-25T08:03:05.924Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Asia/Kuala_Lumpur",
+      "geo": "my",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "scroll"
       }
     }
   ]
