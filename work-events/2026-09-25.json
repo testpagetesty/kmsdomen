@@ -70502,6 +70502,19 @@
         "name": "Соня Трубка 1",
         "interest": "asignaciones familiares y pagos familiares"
       }
+    },
+    {
+      "id": "a801cebe-a985-40d6-b9cf-f2bd1ee225a2",
+      "ts": "2026-09-25T08:51:12.530Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "apoyo social para desempleados"
+      }
     }
   ]
 }
