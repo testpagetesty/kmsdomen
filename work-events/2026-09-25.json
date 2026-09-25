@@ -44025,6 +44025,19 @@
         "name": "Яя",
         "source": "touch"
       }
+    },
+    {
+      "id": "71599e03-9aca-489f-8abd-855bddda9cb1",
+      "ts": "2026-09-25T07:54:08.784Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ch",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "motion"
+      }
     }
   ]
 }
