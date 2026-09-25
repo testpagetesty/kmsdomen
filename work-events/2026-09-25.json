@@ -52082,6 +52082,20 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "cbe55f36-1c51-4460-8838-fbfa5eb57bd3",
+      "ts": "2026-09-25T08:11:31.565Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
