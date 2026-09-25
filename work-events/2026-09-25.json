@@ -17060,6 +17060,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "1b389edb-5a36-4a6d-8421-3657592a3edf",
+      "ts": "2026-09-25T06:23:15.424Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
