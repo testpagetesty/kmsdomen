@@ -1,0 +1,18 @@
+{
+  "date": "2026-09-25",
+  "events": [
+    {
+      "id": "7e69d394-b41e-4717-86fb-763bc1894978",
+      "ts": "2026-09-25T04:05:55.268Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    }
+  ]
+}
