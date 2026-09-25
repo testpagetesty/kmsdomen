@@ -10775,6 +10775,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "735d5c61-812c-4615-89f8-95f6ff6428b1",
+      "ts": "2026-09-25T05:37:32.821Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
+      }
     }
   ]
 }
