@@ -52887,6 +52887,20 @@
       }
     },
     {
+      "id": "e19a8060-8ed6-480b-b20b-582798f6ba70",
+      "ts": "2026-09-25T08:12:37.483Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "c29f4864-8f01-4668-a1bc-2b25514f4611",
       "ts": "2026-09-25T08:12:37.996Z",
       "workerId": "игорь",
@@ -53049,6 +53063,32 @@
       }
     },
     {
+      "id": "6cfd8308-79c5-4f23-b802-ce9ca7c5dab5",
+      "ts": "2026-09-25T08:12:53.878Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip plėtoti pasyvias pajamas"
+      }
+    },
+    {
+      "id": "92f692e3-7845-4c41-9d92-65d65a06459b",
+      "ts": "2026-09-25T08:12:54.040Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "kaip plėtoti pasyvias pajamas"
+      }
+    },
+    {
       "id": "1612fe27-c69a-4165-aa21-ed29073bd3e8",
       "ts": "2026-09-25T08:12:54.190Z",
       "workerId": "соня_тубка_2",
@@ -53071,6 +53111,20 @@
       "event": "capture_pause",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "622c8e69-b864-4c9b-95eb-20764f787a93",
+      "ts": "2026-09-25T08:12:58.040Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
