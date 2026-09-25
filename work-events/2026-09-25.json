@@ -14899,6 +14899,31 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "49056ff7-3c43-426a-b004-d48131bfcdf1",
+      "ts": "2026-09-25T06:13:35.811Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "afcfdd95-001b-4b6d-8134-5ed1f9c69008",
+      "ts": "2026-09-25T06:13:35.812Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
