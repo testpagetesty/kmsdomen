@@ -13404,6 +13404,20 @@
       }
     },
     {
+      "id": "02fb9a0d-5913-4dc3-b8f3-4551e8d237f5",
+      "ts": "2026-09-25T06:06:32.469Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "726f7b39-f955-401e-8422-1773a4a8a8ba",
       "ts": "2026-09-25T06:06:33.990Z",
       "workerId": "игорь",
