@@ -15035,6 +15035,20 @@
       }
     },
     {
+      "id": "9a5239b5-9bd3-4ddc-9723-1e856b34b8c2",
+      "ts": "2026-09-25T06:14:09.479Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "24bdd155-b358-4210-bd30-cab38ab70f38",
       "ts": "2026-09-25T06:14:09.550Z",
       "workerId": "игорь",
