@@ -48098,6 +48098,21 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "5a8b1422-670f-4dff-933d-a39691745ff5",
+      "ts": "2026-09-25T08:03:19.210Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "from": "gr",
+        "to": "ru",
+        "source": "ip"
+      }
     }
   ]
 }
