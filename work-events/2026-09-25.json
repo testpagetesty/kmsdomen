@@ -69708,6 +69708,19 @@
       }
     },
     {
+      "id": "e98ded25-f467-4eb6-9b8c-852a3c670724",
+      "ts": "2026-09-25T08:49:42.013Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "c7614ab4-e934-4692-9457-ba563d42fb2d",
       "ts": "2026-09-25T08:49:43.109Z",
       "workerId": "соня_трубка_1",
@@ -69867,6 +69880,20 @@
       }
     },
     {
+      "id": "d1f49846-d7d8-41c4-9e6b-3cd89aafa899",
+      "ts": "2026-09-25T08:50:00.488Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "b851607d-e20b-4d00-81ab-5600281e43d9",
       "ts": "2026-09-25T08:50:01.113Z",
       "workerId": "игорь",
@@ -69933,6 +69960,19 @@
       }
     },
     {
+      "id": "74ad736e-d6fe-46ee-93ba-1492a080bc0d",
+      "ts": "2026-09-25T08:50:04.349Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "3e1902ff-718e-4f2e-8db0-5034feb5834c",
       "ts": "2026-09-25T08:50:04.350Z",
       "workerId": "таня_трубка_1",
@@ -69940,6 +69980,19 @@
       "deviceTz": "Australia/Perth",
       "geo": "au",
       "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "86ef0ff3-5ca3-4dc0-8288-60eda368d464",
+      "ts": "2026-09-25T08:50:04.608Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_stop",
       "extra": {
         "name": "Таня - трубка 1"
       }
@@ -70138,6 +70191,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "interest": "cómo gestionar y comprar criptomonedas correctamente en nuestro país"
+      }
+    },
+    {
+      "id": "a3dc3bb8-7578-481f-835b-f22e878daaa5",
+      "ts": "2026-09-25T08:50:34.601Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "scroll"
       }
     }
   ]
