@@ -16800,6 +16800,19 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "1c988671-12ea-431c-b97e-d27a747dfa2a",
+      "ts": "2026-09-25T06:22:12.401Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
