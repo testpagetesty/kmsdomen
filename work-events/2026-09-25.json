@@ -35455,6 +35455,20 @@
         "name": "Таня - Трубка 4",
         "source": "scroll"
       }
+    },
+    {
+      "id": "f7ce0d43-da9f-4ccc-9d6c-86082e22dd3a",
+      "ts": "2026-09-25T07:26:04.124Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
