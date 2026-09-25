@@ -64112,6 +64112,20 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "6bde8745-18ca-4627-99e1-0458eaa8fdde",
+      "ts": "2026-09-25T08:39:37.186Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
