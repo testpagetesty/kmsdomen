@@ -27495,6 +27495,19 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e205cf01-c8c7-47c2-94aa-3a7accc4d858",
+      "ts": "2026-09-25T07:03:43.832Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
