@@ -47502,6 +47502,20 @@
       }
     },
     {
+      "id": "ef0b7a72-11ee-4b9c-a428-890a8f7b927f",
+      "ts": "2026-09-25T08:01:54.462Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "49510f69-5622-4033-a2f0-a34adc264131",
       "ts": "2026-09-25T08:01:56.735Z",
       "workerId": "nastya",
@@ -47566,6 +47580,20 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース 仮想通貨市場ニュース 今日"
+      }
+    },
+    {
+      "id": "96ce909a-a078-49ea-b4e4-b70a75d16ea8",
+      "ts": "2026-09-25T08:02:14.542Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     }
   ]
