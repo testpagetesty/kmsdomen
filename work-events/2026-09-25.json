@@ -63561,6 +63561,18 @@
       }
     },
     {
+      "id": "afa644af-8400-4bfc-b9b2-0cbdc7c74ff2",
+      "ts": "2026-09-25T08:38:10.114Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "7b37dc99-835e-4c1f-af7f-56cb36d7f7a1",
       "ts": "2026-09-25T08:38:11.393Z",
       "workerId": "соня_тубка_2",
@@ -63674,6 +63686,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "1bcbef3f-014b-4089-a64b-f7c733a384e2",
+      "ts": "2026-09-25T08:38:25.571Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     },
     {
@@ -64046,6 +64070,18 @@
       }
     },
     {
+      "id": "3f383229-cdc3-49b4-aa20-23a43d433e63",
+      "ts": "2026-09-25T08:39:25.573Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "daa48b92-072f-4307-93f2-645b43b40989",
       "ts": "2026-09-25T08:39:27.173Z",
       "workerId": "настя1",
@@ -64162,6 +64198,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "8be0d150-c6e5-47bb-9e06-2d3c91e7930f",
+      "ts": "2026-09-25T08:39:45.987Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
       }
     }
   ]
