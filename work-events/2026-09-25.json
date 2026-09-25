@@ -23983,6 +23983,31 @@
       }
     },
     {
+      "id": "42532880-fcce-4c83-835e-1cff4ed40364",
+      "ts": "2026-09-25T06:52:51.286Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "e27dac0c-e783-4da2-94bd-93ae0d44a53c",
+      "ts": "2026-09-25T06:52:51.287Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "ec036be2-bf4b-4010-8727-3615c46e69f0",
       "ts": "2026-09-25T06:52:57.026Z",
       "workerId": "игорь",
@@ -24006,6 +24031,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "7f0e7509-7416-40f7-a175-df35ead5d157",
+      "ts": "2026-09-25T06:53:03.633Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "touch"
       }
     }
   ]
