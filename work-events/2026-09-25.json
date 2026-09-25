@@ -26235,6 +26235,18 @@
         "name": "Соня Тубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "76a5b91a-f0ed-4c4c-bd5b-cd8a39aa861b",
+      "ts": "2026-09-25T06:59:20.311Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
