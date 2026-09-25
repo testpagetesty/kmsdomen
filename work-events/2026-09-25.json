@@ -33195,6 +33195,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "7a486ed1-1493-4d58-94ab-03293726d5ca",
+      "ts": "2026-09-25T07:20:20.340Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
