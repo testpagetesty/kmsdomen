@@ -45746,6 +45746,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "a5b4162e-da76-4f99-83a4-e2f3bac4b6d2",
+      "ts": "2026-09-25T07:58:40.312Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
     }
   ]
 }
