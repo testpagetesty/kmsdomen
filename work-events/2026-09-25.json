@@ -67233,6 +67233,20 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "8e8413bc-c2ff-4658-a46b-9163aed2ab34",
+      "ts": "2026-09-25T08:45:35.321Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
