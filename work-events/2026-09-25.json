@@ -13583,6 +13583,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "665180c6-7914-47c9-a7da-8ac79007b443",
+      "ts": "2026-09-25T06:07:24.677Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
