@@ -20531,6 +20531,20 @@
         "name": "Соня Трубка 1",
         "interest": "apoyo estatal para familias jóvenes"
       }
+    },
+    {
+      "id": "f2199b38-0f91-407d-aa1f-11faf3a0a93a",
+      "ts": "2026-09-25T06:36:43.043Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
     }
   ]
 }
