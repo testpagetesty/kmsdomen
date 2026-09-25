@@ -76428,6 +76428,19 @@
       }
     },
     {
+      "id": "dce35dca-6a3d-4992-9950-58f3a68c433c",
+      "ts": "2026-09-25T09:02:15.919Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Bratislava",
+      "geo": "sk",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "bd5791e8-2f0f-4051-9062-be925f2991cf",
       "ts": "2026-09-25T09:02:16.273Z",
       "workerId": "nastya",
