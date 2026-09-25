@@ -19679,6 +19679,18 @@
         "name": "Игорь",
         "url": "https://www.zurnal24.si/slovenija"
       }
+    },
+    {
+      "id": "ec96a9eb-e3df-4acb-98e9-39437d23ab6e",
+      "ts": "2026-09-25T06:32:53.724Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
