@@ -543,6 +543,44 @@
       }
     },
     {
+      "id": "aa4f747f-c45b-4def-8225-88d6bf3d5988",
+      "ts": "2026-09-25T04:11:06.342Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "758c5299-c81e-415e-9c4f-2b202c36ff94",
+      "ts": "2026-09-25T04:11:09.076Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "08de393f-0a81-405a-a14d-3802a04832f5",
+      "ts": "2026-09-25T04:11:09.083Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "c8dc2e0f-b480-4d76-b500-0913f901c552",
       "ts": "2026-09-25T04:11:09.331Z",
       "workerId": "tanya_trubka3",
@@ -565,6 +603,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Таня - Трубка 2"
+      }
+    },
+    {
+      "id": "54697c07-53ff-4c0c-962f-e569178fe4c2",
+      "ts": "2026-09-25T04:11:28.100Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
