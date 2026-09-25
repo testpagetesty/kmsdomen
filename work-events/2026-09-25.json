@@ -72821,6 +72821,19 @@
       }
     },
     {
+      "id": "f93fc2c0-087e-49df-a1ed-d848fceabf97",
+      "ts": "2026-09-25T08:55:57.134Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä jos silmät väsyvät"
+      }
+    },
+    {
       "id": "92284d25-c8bb-4ccd-9767-490f83c52d6e",
       "ts": "2026-09-25T08:56:00.948Z",
       "workerId": "настя1",
@@ -72846,6 +72859,19 @@
         "name": "Игорь",
         "host": "regionalobala.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "0be8af58-7392-45a9-b2c2-3ac524416936",
+      "ts": "2026-09-25T08:56:06.215Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä alaselän epämukavuudessa"
       }
     }
   ]
