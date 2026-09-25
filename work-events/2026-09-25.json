@@ -50486,6 +50486,19 @@
       }
     },
     {
+      "id": "ffaeb06a-5cd0-4025-89e6-efac9c7ead0a",
+      "ts": "2026-09-25T08:08:04.497Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "7d1cb018-4b57-4832-972f-be340c5c146d",
       "ts": "2026-09-25T08:08:08.668Z",
       "workerId": "таня_трубка_4",
@@ -50510,6 +50523,18 @@
         "name": "Игорь",
         "host": "zurnal24.si",
         "source": "teaser"
+      }
+    },
+    {
+      "id": "dccadf08-da1d-4e92-964e-da1a21aaadd6",
+      "ts": "2026-09-25T08:08:09.424Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 2"
       }
     }
   ]
