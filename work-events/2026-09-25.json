@@ -68689,6 +68689,19 @@
         "name": "Настя1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "352b1ea9-b00d-41ea-a909-e256824e23f6",
+      "ts": "2026-09-25T08:47:34.620Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
