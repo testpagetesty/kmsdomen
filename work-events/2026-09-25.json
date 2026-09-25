@@ -32180,6 +32180,20 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "fa971ee2-3a3e-481d-8584-254cb463ed6b",
+      "ts": "2026-09-25T07:17:51.823Z",
+      "workerId": "яя",
+      "deviceId": "b252235b-2a85-424b-9902-8f2cec22908f",
+      "deviceTz": "Europe/Kiev",
+      "geo": "ua",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Яя",
+        "source": "scroll"
+      }
     }
   ]
 }
