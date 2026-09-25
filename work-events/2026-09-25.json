@@ -6993,6 +6993,19 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "c0551520-7308-423e-b022-6a8c19152521",
+      "ts": "2026-09-25T04:59:48.969Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
