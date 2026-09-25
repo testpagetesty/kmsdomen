@@ -69227,6 +69227,20 @@
         "name": "Настя1",
         "interest": "Hva du bør gjøre ved leddbeskvær"
       }
+    },
+    {
+      "id": "aa3b53bc-c013-4233-a1d0-64f67f560dd3",
+      "ts": "2026-09-25T08:48:46.865Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
     }
   ]
 }
