@@ -48212,6 +48212,20 @@
         "name": "Настя",
         "interest": "TOKYO MXニュース 暗号資産ニュース 今日"
       }
+    },
+    {
+      "id": "1d7e7fde-5889-4c37-9ccb-8fba52294c0e",
+      "ts": "2026-09-25T08:03:34.559Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
     }
   ]
 }
