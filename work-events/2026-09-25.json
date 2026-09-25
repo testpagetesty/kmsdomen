@@ -76967,6 +76967,18 @@
         "name": "Таня - трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "1150c9dc-2813-42f1-b143-5ab7a899e92e",
+      "ts": "2026-09-25T09:03:27.202Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
