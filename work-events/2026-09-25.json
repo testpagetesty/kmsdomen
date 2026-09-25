@@ -70843,6 +70843,20 @@
         "name": "Настя",
         "interest": "Aineenvaihdunta ja laihdutus"
       }
+    },
+    {
+      "id": "91218316-abea-4a0d-b207-8a1e33c0dd23",
+      "ts": "2026-09-25T08:51:48.094Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
