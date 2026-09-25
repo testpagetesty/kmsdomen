@@ -72141,6 +72141,19 @@
       }
     },
     {
+      "id": "b189fc81-de71-451e-99ad-95d391c0b81c",
+      "ts": "2026-09-25T08:54:43.998Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "apoyo social para desempleados"
+      }
+    },
+    {
       "id": "4787c810-3eaa-4e51-a58e-8e4f5f44f29c",
       "ts": "2026-09-25T08:54:44.256Z",
       "workerId": "таня_трубка_2",
@@ -72166,6 +72179,19 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "4edc3164-f40f-47fe-8a70-3c496663f382",
+      "ts": "2026-09-25T08:54:48.554Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "interest": "subsidios estatales para ciudadanos de bajos ingresos"
       }
     }
   ]
