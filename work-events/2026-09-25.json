@@ -46849,6 +46849,20 @@
         "name": "Настя",
         "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
       }
+    },
+    {
+      "id": "ab85fb05-f840-4264-b59d-8992b7832a5e",
+      "ts": "2026-09-25T08:00:59.339Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
