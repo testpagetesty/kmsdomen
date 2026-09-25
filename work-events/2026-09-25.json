@@ -13741,6 +13741,18 @@
         "host": "regionalobala.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "82e7a4ff-bca3-4cae-95aa-9fb0786631ad",
+      "ts": "2026-09-25T06:08:24.696Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
