@@ -32528,6 +32528,19 @@
       }
     },
     {
+      "id": "0bce00c0-cdc3-4f3f-b4a6-7e8362516fc7",
+      "ts": "2026-09-25T07:18:46.483Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://defence24.pl/polityka-obronna"
+      }
+    },
+    {
       "id": "4ba03c8a-5a09-4de4-b120-816e455d1ac2",
       "ts": "2026-09-25T07:18:46.993Z",
       "workerId": "соня_трубка_1",
@@ -32620,6 +32633,20 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "fcc06930-0c23-499d-b366-35ded4916408",
+      "ts": "2026-09-25T07:19:06.652Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
         "source": "scroll"
       }
     },
@@ -32729,6 +32756,18 @@
       }
     },
     {
+      "id": "b7909d70-9f28-4397-9657-71d6f0486ad7",
+      "ts": "2026-09-25T07:19:20.340Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "2ed7c853-baa1-4879-ba0b-cd25c98ef600",
       "ts": "2026-09-25T07:19:20.800Z",
       "workerId": "таня_трубка_4",
@@ -32762,6 +32801,20 @@
       "event": "capture_pause",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "82f10eeb-34fe-4701-8683-13aa67995c84",
+      "ts": "2026-09-25T07:19:27.037Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
       }
     }
   ]
