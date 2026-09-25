@@ -52287,6 +52287,19 @@
         "name": "Таня - трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8b23ad7c-70b8-4842-ad4f-43e85859a6fc",
+      "ts": "2026-09-25T08:11:57.200Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://defence24.pl/polityka-obronna"
+      }
     }
   ]
 }
