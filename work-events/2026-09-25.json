@@ -25273,6 +25273,18 @@
       }
     },
     {
+      "id": "460ad32d-22d7-4152-9a5a-5a6b745306ed",
+      "ts": "2026-09-25T06:56:26.045Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
+    },
+    {
       "id": "fd1253f6-7c94-478b-9e8a-d9e7d5e04d06",
       "ts": "2026-09-25T06:56:28.490Z",
       "workerId": "игорь",
@@ -25296,6 +25308,19 @@
       "event": "capture_pause",
       "extra": {
         "name": "Таня - трубка 1"
+      }
+    },
+    {
+      "id": "14760aa5-7873-40ec-b081-916714765e46",
+      "ts": "2026-09-25T06:56:34.846Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
