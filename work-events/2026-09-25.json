@@ -48279,6 +48279,20 @@
       }
     },
     {
+      "id": "468ca019-b210-44f1-81e1-ed057e812fc0",
+      "ts": "2026-09-25T08:03:17.906Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Απαλός καθαρισμός που βοηθά χιλιάδες ανθρώπους να απαλλαγούν από κούραση και φού"
+      }
+    },
+    {
       "id": "5a8b1422-670f-4dff-933d-a39691745ff5",
       "ts": "2026-09-25T08:03:19.210Z",
       "workerId": "таня_трубка_4",
@@ -48511,6 +48525,20 @@
       }
     },
     {
+      "id": "7f4d9687-e581-419a-b523-d5d204e9d78f",
+      "ts": "2026-09-25T08:03:35.936Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Αυτοπεποίθηση χωρίς περιττές έγνοιες"
+      }
+    },
+    {
       "id": "1cdd8600-53ee-45b5-8fc7-a65e82f12dde",
       "ts": "2026-09-25T08:03:38.002Z",
       "workerId": "настя1",
@@ -48614,6 +48642,20 @@
       }
     },
     {
+      "id": "958fb4ff-537b-4bdf-93a5-f0ebd688a0d8",
+      "ts": "2026-09-25T08:03:48.935Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Η στύση δεν είναι τόσο δυνατή;"
+      }
+    },
+    {
       "id": "0568a101-3790-4992-a5f7-22c42a7f87d5",
       "ts": "2026-09-25T08:03:52.931Z",
       "workerId": "игорь",
@@ -48678,6 +48720,20 @@
       "extra": {
         "name": "Настя1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "41c8d475-b898-4761-a516-13578459e302",
+      "ts": "2026-09-25T08:04:00.497Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "title": "Starý trik na břicho"
       }
     }
   ]
