@@ -15230,6 +15230,18 @@
       }
     },
     {
+      "id": "1b22e94b-abb9-4f0d-acf6-2607d79add96",
+      "ts": "2026-09-25T06:15:05.489Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "84ce838d-37ee-4f5e-8c3a-4eccb32a0e30",
       "ts": "2026-09-25T06:15:05.489Z",
       "workerId": "соня_трубка_1",
