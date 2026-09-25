@@ -76254,6 +76254,20 @@
         "name": "Настя",
         "interest": "Virtsaelimet"
       }
+    },
+    {
+      "id": "13265b60-97e5-4aca-9962-d8a2f31fdce7",
+      "ts": "2026-09-25T09:01:56.144Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
+      }
     }
   ]
 }
