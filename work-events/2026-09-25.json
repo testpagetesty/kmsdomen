@@ -70088,6 +70088,19 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "56702bed-d107-4de9-bc5b-679ce1092e2d",
+      "ts": "2026-09-25T08:50:25.180Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
