@@ -669,6 +669,18 @@
         "name": "Таня - Трубка 2",
         "source": "touch"
       }
+    },
+    {
+      "id": "f0613cf3-9f63-4231-be2a-469161e7a8d7",
+      "ts": "2026-09-25T04:11:52.628Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "ru",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
