@@ -34952,6 +34952,18 @@
         "name": "Таня - трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "e8e3ac9a-7ec3-4b42-a28f-08ed637d47cb",
+      "ts": "2026-09-25T07:24:39.220Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
