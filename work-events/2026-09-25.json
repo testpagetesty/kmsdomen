@@ -72023,6 +72023,18 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c8b93846-a153-4ca7-a3bd-acbe8e50de98",
+      "ts": "2026-09-25T08:54:27.194Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Настя1"
+      }
     }
   ]
 }
