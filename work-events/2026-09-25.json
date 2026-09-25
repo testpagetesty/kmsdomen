@@ -41174,6 +41174,20 @@
       }
     },
     {
+      "id": "39edaba5-39de-45b0-a1b8-e6449a2f9a7b",
+      "ts": "2026-09-25T07:45:43.043Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "c5daf0b1-2717-40f5-ae7d-4906fd64f50d",
       "ts": "2026-09-25T07:45:44.651Z",
       "workerId": "игорь",
@@ -41265,6 +41279,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "1a5c2170-3425-492b-a5ed-d1d370268ae8",
+      "ts": "2026-09-25T07:46:01.472Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
