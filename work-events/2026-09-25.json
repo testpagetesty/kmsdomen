@@ -50084,6 +50084,18 @@
       }
     },
     {
+      "id": "96c73b00-fcdf-4432-8b34-a8187cae16ee",
+      "ts": "2026-09-25T08:06:39.313Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "e21c17e7-b466-4932-b383-d6ddda44469b",
       "ts": "2026-09-25T08:06:41.460Z",
       "workerId": "таня_трубка_1",
@@ -50162,6 +50174,19 @@
       }
     },
     {
+      "id": "04c09866-4e26-4fbf-9396-a16beab06bc9",
+      "ts": "2026-09-25T08:06:54.971Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
+    },
+    {
       "id": "a915ac08-0664-4945-b628-0293b54917c5",
       "ts": "2026-09-25T08:06:56.200Z",
       "workerId": "соня_трубка_1",
@@ -50187,6 +50212,20 @@
       "extra": {
         "name": "Игорь",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "8c2e7344-01f9-4dfa-8a85-15605d94d93b",
+      "ts": "2026-09-25T08:07:11.463Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "touch"
       }
     },
     {
