@@ -46770,6 +46770,21 @@
       }
     },
     {
+      "id": "dc1df403-a121-4a75-84f5-a74b0354a93b",
+      "ts": "2026-09-25T08:00:50.157Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Настя",
+        "from": "ru",
+        "to": "jp",
+        "source": "ip"
+      }
+    },
+    {
       "id": "9accb825-3fac-4bd1-a514-8ddcaab46d40",
       "ts": "2026-09-25T08:00:50.856Z",
       "workerId": "соня_тубка_2",
@@ -46820,6 +46835,19 @@
       "extra": {
         "name": "Настя",
         "interest": "NHKニュース 暗号資産ニュース 今日"
+      }
+    },
+    {
+      "id": "0ddfd736-2ea5-4fc1-8717-103c03a884fe",
+      "ts": "2026-09-25T08:00:59.060Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "日本テレビニュース 仮想通貨規制ニュース 今日"
       }
     }
   ]
