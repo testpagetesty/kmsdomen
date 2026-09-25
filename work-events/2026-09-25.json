@@ -77656,6 +77656,19 @@
       }
     },
     {
+      "id": "95eabbd7-7205-44bd-b57d-b6c797722217",
+      "ts": "2026-09-25T09:04:42.234Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "d0027f90-44ba-4658-8148-87f890b53251",
       "ts": "2026-09-25T09:04:48.432Z",
       "workerId": "nastya",
@@ -77665,6 +77678,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "bc331218-d7bb-44c1-97bd-ba719eb51805",
+      "ts": "2026-09-25T09:04:48.678Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     },
     {
@@ -77692,6 +77717,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "motion"
+      }
+    },
+    {
+      "id": "636ff3ef-791a-4b9c-b908-44d2876dfece",
+      "ts": "2026-09-25T09:05:00.585Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
       }
     }
   ]
