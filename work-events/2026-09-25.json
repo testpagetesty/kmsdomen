@@ -13585,6 +13585,21 @@
       }
     },
     {
+      "id": "c8e344d3-be94-4bf7-895b-a7ff26558cb5",
+      "ts": "2026-09-25T06:07:23.096Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "sg",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "from": "ru",
+        "to": "sg",
+        "source": "ip"
+      }
+    },
+    {
       "id": "665180c6-7914-47c9-a7da-8ac79007b443",
       "ts": "2026-09-25T06:07:24.677Z",
       "workerId": "соня_тубка_2",
