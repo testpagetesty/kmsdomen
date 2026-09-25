@@ -51618,6 +51618,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "317af8e0-deb4-45d9-8c8c-4e568bbf2958",
+      "ts": "2026-09-25T08:10:50.004Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "touch"
+      }
     }
   ]
 }
