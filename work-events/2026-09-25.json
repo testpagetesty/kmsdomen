@@ -71304,6 +71304,18 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "2f2d5b60-b363-4db1-a226-3f864ad193f3",
+      "ts": "2026-09-25T08:52:49.830Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
