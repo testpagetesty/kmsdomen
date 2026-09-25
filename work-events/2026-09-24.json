@@ -71913,6 +71913,31 @@
       }
     },
     {
+      "id": "85d31bc2-7508-4979-b131-9dee7922a95e",
+      "ts": "2026-09-24T17:47:12.595Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "768304e1-20d8-471c-88e1-9ec000ad6d1b",
+      "ts": "2026-09-24T17:47:18.525Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "2c04df3e-1301-43b2-bf07-51d7915e966f",
       "ts": "2026-09-24T17:47:24.059Z",
       "workerId": "соня_тубка_2",
@@ -71924,6 +71949,20 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "074f1733-a1aa-493f-87b7-7109ab331ab5",
+      "ts": "2026-09-24T17:47:32.165Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "title": "Vabane parasiitidest ja papilloomidest"
       }
     },
     {
@@ -71953,6 +71992,20 @@
       }
     },
     {
+      "id": "3faadcc0-3c82-4656-b16a-8645a041714e",
+      "ts": "2026-09-24T17:48:11.741Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "title": "Kindel alus teile"
+      }
+    },
+    {
       "id": "26398842-c33c-4ace-8f58-865a5017dec1",
       "ts": "2026-09-24T17:48:11.875Z",
       "workerId": "соня_тубка_2",
@@ -71964,6 +72017,47 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "2bc19d1f-469e-4979-aef4-68b29bc9a3fd",
+      "ts": "2026-09-24T17:48:12.596Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "5611eda4-99a8-423c-9dcb-7f08c3e18764",
+      "ts": "2026-09-24T17:48:12.916Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "geo_changed",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "from": "ee",
+        "to": "ru",
+        "source": "ip"
+      }
+    },
+    {
+      "id": "faeb21cf-5483-4976-8a4d-e84ee5fbdba0",
+      "ts": "2026-09-24T17:48:22.429Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "title": "Hommikul väljub teist hulk parasiite"
       }
     },
     {
@@ -71981,6 +72075,20 @@
       }
     },
     {
+      "id": "e086b8ca-9eac-4497-b248-ca5ab4c449dd",
+      "ts": "2026-09-24T17:48:35.907Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "title": "Vaata, mis su kehast hommikul väljub"
+      }
+    },
+    {
       "id": "c517b3fc-b441-48b4-b564-f43b82641dd1",
       "ts": "2026-09-24T17:48:59.721Z",
       "workerId": "соня_тубка_2",
@@ -71990,6 +72098,20 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "be3abe3e-2bcc-4411-9617-295ea4c03dba",
+      "ts": "2026-09-24T17:49:13.584Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ee",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "title": "Kindel alus teile"
       }
     },
     {
@@ -72428,6 +72550,19 @@
       }
     },
     {
+      "id": "a4f8e55e-35fa-4152-b560-83f9149a8c00",
+      "ts": "2026-09-24T17:55:31.806Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "ed022192-a51a-467d-9984-d3b1b66512f9",
       "ts": "2026-09-24T17:55:49.987Z",
       "workerId": "соня_тубка_2",
@@ -72441,6 +72576,19 @@
       }
     },
     {
+      "id": "2a6bb61e-25cf-4e03-b2ce-a1a86bfd4745",
+      "ts": "2026-09-24T17:55:58.525Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "ec561e44-8954-4c5b-bf0f-38a814d4242c",
       "ts": "2026-09-24T17:55:59.730Z",
       "workerId": "соня_тубка_2",
@@ -72450,6 +72598,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "93cdf39e-e1fc-4cb4-b2fc-89935c33f6f5",
+      "ts": "2026-09-24T17:56:12.607Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
@@ -72544,6 +72704,19 @@
       }
     },
     {
+      "id": "be50cccb-0400-4ea9-a7da-70675f5a31ed",
+      "ts": "2026-09-24T17:56:58.206Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "3b597213-d2cc-4490-9789-fb1b14530341",
       "ts": "2026-09-24T17:56:59.730Z",
       "workerId": "соня_тубка_2",
@@ -72582,6 +72755,18 @@
       }
     },
     {
+      "id": "d19dcda3-22ac-4411-b520-b5e403148beb",
+      "ts": "2026-09-24T17:57:12.608Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
+    },
+    {
       "id": "306ee0ff-ebd7-4bdf-9795-130acfc2f241",
       "ts": "2026-09-24T17:57:14.717Z",
       "workerId": "соня_тубка_2",
@@ -72592,6 +72777,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "kako podržati vid kod kuće"
+      }
+    },
+    {
+      "id": "31cb63b4-a204-42ed-8a82-0622578fa47f",
+      "ts": "2026-09-24T17:57:23.165Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
       }
     },
     {
@@ -72623,6 +72821,19 @@
       }
     },
     {
+      "id": "43f3789b-27fe-4a0d-8fe9-a7eb83cf9941",
+      "ts": "2026-09-24T17:57:54.205Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "d98beb82-e4be-4371-9b64-728ba1831d66",
       "ts": "2026-09-24T17:57:59.730Z",
       "workerId": "соня_тубка_2",
@@ -72645,6 +72856,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "source": "motion"
+      }
+    },
+    {
+      "id": "e632817b-7e9c-4003-be86-b8389a715e29",
+      "ts": "2026-09-24T17:58:12.609Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
@@ -72713,6 +72936,18 @@
       "extra": {
         "name": "Соня Тубка 2",
         "title": "- Nježna svakodnevna njega za čistu i njegovanu kožu"
+      }
+    },
+    {
+      "id": "c1ea624e-6e50-4583-bd6b-616d6046db30",
+      "ts": "2026-09-24T17:59:12.610Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
@@ -72876,6 +73111,32 @@
       }
     },
     {
+      "id": "367543e9-d3a6-46f5-9c4c-c7dd493aafc1",
+      "ts": "2026-09-24T19:04:23.167Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "a3c72a70-e714-441a-9cd7-538ab528b72b",
+      "ts": "2026-09-24T19:04:43.185Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "af08d978-4d43-4608-8353-77a1d22a8c45",
       "ts": "2026-09-24T19:04:45.031Z",
       "workerId": "соня_тубка_2",
@@ -72987,6 +73248,19 @@
       "event": "user_active",
       "extra": {
         "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "c0da30a6-ef9f-423c-9c64-d1281192f985",
+      "ts": "2026-09-24T19:08:14.101Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
         "source": "motion"
       }
     },
@@ -73221,6 +73495,19 @@
       }
     },
     {
+      "id": "0f4feb2f-0a07-479d-89a5-96dfde191ecf",
+      "ts": "2026-09-24T19:46:31.396Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "46196220-66af-4680-8f65-de0994e0b536",
       "ts": "2026-09-24T19:46:32.528Z",
       "workerId": "соня_тубка_2",
@@ -73230,6 +73517,19 @@
       "event": "user_active",
       "extra": {
         "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
+      "id": "f3a78df6-7218-4a27-956e-d335234cd782",
+      "ts": "2026-09-24T19:46:53.965Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Трубка 1",
         "source": "motion"
       }
     },
@@ -73256,6 +73556,18 @@
       "event": "heartbeat",
       "extra": {
         "name": "Соня Тубка 2"
+      }
+    },
+    {
+      "id": "bd0124b5-a64b-48d1-be41-c2c0b5c4bf19",
+      "ts": "2026-09-24T19:47:06.969Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Tallinn",
+      "geo": "ru",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
       }
     },
     {
