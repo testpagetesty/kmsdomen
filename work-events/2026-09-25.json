@@ -40238,6 +40238,19 @@
         "name": "Таня - Трубка 2",
         "source": "scroll"
       }
+    },
+    {
+      "id": "b42461a5-056d-4e80-a7b8-a56d10e9759c",
+      "ts": "2026-09-25T07:41:05.650Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "start",
+      "event": "capture_stop",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
