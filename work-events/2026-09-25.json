@@ -42573,6 +42573,18 @@
       }
     },
     {
+      "id": "919c44db-4e6a-45da-a9f0-90b2561494f9",
+      "ts": "2026-09-25T07:50:23.077Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "229f9706-0d2b-42de-a752-683251d308a2",
       "ts": "2026-09-25T07:50:23.813Z",
       "workerId": "игорь",
@@ -42635,6 +42647,20 @@
       "extra": {
         "name": "Таня - Трубка 2",
         "interest": "cara merasa lebih baik dengan lonjakan gula darah"
+      }
+    },
+    {
+      "id": "649d6638-0b7a-41af-a79f-7604bda4f06d",
+      "ts": "2026-09-25T07:50:34.007Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "scroll"
       }
     }
   ]
