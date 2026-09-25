@@ -50926,6 +50926,20 @@
         "host": "nezavisne.com",
         "source": "teaser"
       }
+    },
+    {
+      "id": "503dd48c-9528-4331-8577-280edf9a189a",
+      "ts": "2026-09-25T08:09:11.405Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
