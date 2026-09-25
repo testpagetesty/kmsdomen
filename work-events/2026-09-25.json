@@ -45344,6 +45344,18 @@
       }
     },
     {
+      "id": "f509b296-54fe-4426-abb2-9d75a93107a7",
+      "ts": "2026-09-25T07:57:43.274Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "644c6957-93d2-46a2-a40f-0032a0d4f945",
       "ts": "2026-09-25T07:57:44.575Z",
       "workerId": "таня_трубка_1",
@@ -45655,6 +45667,18 @@
       "extra": {
         "name": "Игорь",
         "url": "https://regionalobala.si/novica"
+      }
+    },
+    {
+      "id": "303048e3-b9b6-4dc8-b420-ef7e7ce2db6e",
+      "ts": "2026-09-25T07:58:25.189Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
