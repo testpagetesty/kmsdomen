@@ -50899,6 +50899,33 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "ec2ed991-2035-4011-aa50-49d0b2bfba26",
+      "ts": "2026-09-25T08:09:00.965Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nezavisne.com/zivot-stil/kuca-vrt"
+      }
+    },
+    {
+      "id": "9f6c5961-c6cb-4091-9963-59c5f8904733",
+      "ts": "2026-09-25T08:09:05.116Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "fi",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "nezavisne.com",
+        "source": "teaser"
+      }
     }
   ]
 }
