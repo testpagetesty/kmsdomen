@@ -77757,6 +77757,20 @@
       }
     },
     {
+      "id": "f6949aba-526a-4c5a-b33e-f64311045e37",
+      "ts": "2026-09-25T09:04:50.015Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "903ffd84-beae-453a-86b7-7542a39222f0",
       "ts": "2026-09-25T09:04:50.239Z",
       "workerId": "игорь",
@@ -77914,6 +77928,19 @@
       }
     },
     {
+      "id": "0bc0442d-4b58-4e03-b379-f6ea20707723",
+      "ts": "2026-09-25T09:05:13.992Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "51c6a5a1-09d0-4ac7-be69-139486b57dd0",
       "ts": "2026-09-25T09:05:14.185Z",
       "workerId": "настя1",
@@ -78043,6 +78070,18 @@
       "extra": {
         "name": "Настя",
         "interest": "Iho-ongelmat"
+      }
+    },
+    {
+      "id": "13576600-2d00-4894-9771-3c4ce3c6fa40",
+      "ts": "2026-09-25T09:05:41.500Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
