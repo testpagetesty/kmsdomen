@@ -2177,6 +2177,31 @@
       "extra": {
         "name": "Tanya - trubka3"
       }
+    },
+    {
+      "id": "3a179f29-c4e7-44fb-8898-569c14633ce3",
+      "ts": "2026-09-25T04:25:45.638Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "44dc6769-4139-4f15-8311-60c5245a8066",
+      "ts": "2026-09-25T04:25:45.639Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
