@@ -40092,6 +40092,59 @@
       }
     },
     {
+      "id": "727edf2d-ef36-48e6-9809-53768d4d578e",
+      "ts": "2026-09-25T07:40:23.368Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
+      "id": "cdd61717-32b1-489c-8efb-9a4997b873e8",
+      "ts": "2026-09-25T07:40:23.894Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://historia.dorzeczy.pl/dwudziestolecie-miedzywojenne"
+      }
+    },
+    {
+      "id": "9ea1e88d-709c-4805-aa09-268a4224cc5c",
+      "ts": "2026-09-25T07:40:25.535Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://blitz.bg/obshtestvo"
+      }
+    },
+    {
+      "id": "2fec246a-7702-470f-acf7-6d8c708f10c2",
+      "ts": "2026-09-25T07:40:28.203Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.nejrecept.cz/recept"
+      }
+    },
+    {
       "id": "b698e56d-6216-44a0-b338-0f0198d680e4",
       "ts": "2026-09-25T07:40:28.893Z",
       "workerId": "игорь",
@@ -40102,6 +40155,20 @@
       "extra": {
         "name": "Игорь",
         "host": "historia.dorzeczy.pl",
+        "source": "teaser"
+      }
+    },
+    {
+      "id": "c9c48412-55ce-42d3-9176-d0c7c6576ba6",
+      "ts": "2026-09-25T07:40:31.510Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hr",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "nejrecept.cz",
         "source": "teaser"
       }
     }
