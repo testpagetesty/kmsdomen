@@ -31043,6 +31043,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "0d4ea1c1-6816-4ff3-90fe-e92d4171348b",
+      "ts": "2026-09-25T07:14:14.107Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 2"
+      }
     }
   ]
 }
