@@ -64791,6 +64791,18 @@
       }
     },
     {
+      "id": "e59177cd-fd6d-43ce-90f8-372965cf688b",
+      "ts": "2026-09-25T08:40:44.190Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - трубка 1"
+      }
+    },
+    {
       "id": "b2ef870d-32f1-464b-8879-caa1639001e1",
       "ts": "2026-09-25T08:40:44.839Z",
       "workerId": "соня_трубка_1",
@@ -64841,6 +64853,19 @@
       "event": "heartbeat",
       "extra": {
         "name": "Настя"
+      }
+    },
+    {
+      "id": "a08e0190-0569-41a8-a5ad-bf192f2776ac",
+      "ts": "2026-09-25T08:40:51.780Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     },
     {
@@ -64991,6 +65016,20 @@
       }
     },
     {
+      "id": "2f96382e-2b08-4c60-af3b-588e7e66b001",
+      "ts": "2026-09-25T08:41:06.999Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
+    },
+    {
       "id": "eec1ec08-2ed2-41ee-aad6-fd546f95a06a",
       "ts": "2026-09-25T08:41:08.196Z",
       "workerId": "соня_трубка_1",
@@ -65103,6 +65142,19 @@
       "event": "capture_start",
       "extra": {
         "name": "Таня - Трубка 4"
+      }
+    },
+    {
+      "id": "37660275-066d-40bc-8d3f-8e990ad85c20",
+      "ts": "2026-09-25T08:41:26.447Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - трубка 1"
       }
     }
   ]
