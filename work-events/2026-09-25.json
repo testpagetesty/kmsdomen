@@ -22441,6 +22441,18 @@
         "host": "regionalobala.si",
         "source": "teaser"
       }
+    },
+    {
+      "id": "23aae0bf-cd84-4693-90f4-73892f74fe09",
+      "ts": "2026-09-25T06:46:22.520Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
