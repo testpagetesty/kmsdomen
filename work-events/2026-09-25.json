@@ -30952,6 +30952,19 @@
         "name": "Соня Тубка 2",
         "interest": "state social payments for all citizens"
       }
+    },
+    {
+      "id": "7f6dc2ba-aa8c-479c-a120-dfc8027ad08c",
+      "ts": "2026-09-25T07:14:01.048Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
