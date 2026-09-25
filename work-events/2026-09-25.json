@@ -16464,6 +16464,19 @@
         "name": "Соня Трубка 1",
         "source": "touch"
       }
+    },
+    {
+      "id": "8353f2db-1630-493a-bcbc-02ffeba43f6d",
+      "ts": "2026-09-25T06:21:07.577Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "bg",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
     }
   ]
 }
