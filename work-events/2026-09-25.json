@@ -77719,6 +77719,19 @@
       }
     },
     {
+      "id": "903ffd84-beae-453a-86b7-7542a39222f0",
+      "ts": "2026-09-25T09:04:50.239Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
       "id": "bb0ceb9d-30ab-418e-ae15-0d9051eab81d",
       "ts": "2026-09-25T09:04:53.598Z",
       "workerId": "игорь",
@@ -77743,6 +77756,20 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "motion"
+      }
+    },
+    {
+      "id": "fed4c3bc-13fb-46d1-9970-e5cb61103958",
+      "ts": "2026-09-25T09:05:00.305Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
       }
     },
     {
@@ -77796,6 +77823,18 @@
       "event": "capture_start",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "65882d5b-fe68-40fe-88f2-144bd10a0c83",
+      "ts": "2026-09-25T09:05:08.951Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "dk",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
       }
     }
   ]
