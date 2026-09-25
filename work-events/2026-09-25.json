@@ -11038,6 +11038,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "ddfe3e8f-5f8d-41a4-b2c2-096bbe7f38fe",
+      "ts": "2026-09-25T05:40:16.328Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
