@@ -67092,6 +67092,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "1621a388-d13a-4e1d-af1b-6bd0b2cb3aca",
+      "ts": "2026-09-25T08:45:14.630Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "touch"
+      }
     }
   ]
 }
