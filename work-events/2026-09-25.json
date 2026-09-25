@@ -47698,6 +47698,19 @@
       }
     },
     {
+      "id": "0fd4a98d-e357-440e-ac8e-8ac0edc05a3c",
+      "ts": "2026-09-25T08:02:27.538Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "JNNニュース 暗号資産ニュース 今日"
+      }
+    },
+    {
       "id": "1dd9ded2-30be-489e-8006-b3b34dc9b642",
       "ts": "2026-09-25T08:02:30.215Z",
       "workerId": "соня_трубка_1",
@@ -47763,6 +47776,19 @@
       "extra": {
         "name": "Игорь",
         "source": "touch"
+      }
+    },
+    {
+      "id": "59e72ed0-7712-4eaa-a25f-1787a83e85df",
+      "ts": "2026-09-25T08:02:35.179Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "TOKYO MXニュース 暗号資産ニュース 今日"
       }
     },
     {
@@ -47841,6 +47867,19 @@
       "extra": {
         "name": "Tanya - trubka3",
         "source": "touch"
+      }
+    },
+    {
+      "id": "39da5901-ce1e-4c28-bda5-f8cb45d9c414",
+      "ts": "2026-09-25T08:02:53.708Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "ANNニュース 仮想通貨業界ニュース 今日"
       }
     }
   ]
