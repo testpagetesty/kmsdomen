@@ -24367,6 +24367,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "4828dc20-a672-48c0-937b-95befb82c997",
+      "ts": "2026-09-25T06:54:13.883Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 4",
+        "source": "motion"
+      }
     }
   ]
 }
