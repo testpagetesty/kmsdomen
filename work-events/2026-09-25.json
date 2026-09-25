@@ -11141,6 +11141,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "c5706cbf-2fec-493e-826e-72580c33c19e",
+      "ts": "2026-09-25T05:41:13.204Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "platform": "kms",
+      "event": "capture_start",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
