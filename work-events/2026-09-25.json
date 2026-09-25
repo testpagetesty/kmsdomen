@@ -43264,6 +43264,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "65d7d1ff-941b-4225-88cd-317bc41ec87b",
+      "ts": "2026-09-25T07:52:22.937Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
