@@ -13378,6 +13378,19 @@
       }
     },
     {
+      "id": "5ccbc7e0-0a24-4775-90e0-cb02ee07fe44",
+      "ts": "2026-09-25T06:06:11.009Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Sarajevo",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "1ca33d33-c539-44f5-933c-ab92fbf98b85",
       "ts": "2026-09-25T06:06:15.272Z",
       "workerId": "игорь",
