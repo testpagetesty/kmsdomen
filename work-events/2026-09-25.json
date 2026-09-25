@@ -51161,6 +51161,19 @@
       }
     },
     {
+      "id": "089efb37-e36d-4b58-b3a5-755ebeb7c2c6",
+      "ts": "2026-09-25T08:09:46.094Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "bedarbio pašalpa ir valstybės pagalba"
+      }
+    },
+    {
       "id": "c804583c-d9a2-4af8-aaf5-50e8c01b248f",
       "ts": "2026-09-25T08:09:46.970Z",
       "workerId": "таня_трубка_2",
@@ -51189,6 +51202,20 @@
       }
     },
     {
+      "id": "2cbbbeee-af81-4e17-9801-641411ee4bdc",
+      "ts": "2026-09-25T08:09:47.988Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "f7ffbfc4-ba27-414f-976d-990d6dd91d9f",
       "ts": "2026-09-25T08:09:51.262Z",
       "workerId": "игорь",
@@ -51213,6 +51240,18 @@
       "extra": {
         "name": "Таня - трубка 1",
         "source": "touch"
+      }
+    },
+    {
+      "id": "db79d58d-bb2b-4be0-8a7b-e9826b3ccca5",
+      "ts": "2026-09-25T08:09:54.366Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
       }
     }
   ]
