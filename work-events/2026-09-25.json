@@ -12345,6 +12345,20 @@
       }
     },
     {
+      "id": "bcf6bbb0-7ceb-47a3-a4ba-6ad2056b6197",
+      "ts": "2026-09-25T05:55:41.487Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "scroll"
+      }
+    },
+    {
       "id": "630a93f0-d8b7-4622-80d7-3159bac5542f",
       "ts": "2026-09-25T05:55:43.646Z",
       "workerId": "игорь",
