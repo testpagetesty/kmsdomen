@@ -71930,6 +71930,20 @@
       "extra": {
         "name": "Настя"
       }
+    },
+    {
+      "id": "41e6ea00-30b9-469d-a228-1aedc618bbe1",
+      "ts": "2026-09-25T08:54:10.449Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "platform": "youtube",
+      "event": "user_active",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "source": "scroll"
+      }
     }
   ]
 }
