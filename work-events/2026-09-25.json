@@ -75019,6 +75019,20 @@
         "name": "Настя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "0cd9b287-a683-48ed-b0b1-40a62e44e3c7",
+      "ts": "2026-09-25T08:59:20.667Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя1",
+        "source": "touch"
+      }
     }
   ]
 }
