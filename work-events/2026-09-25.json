@@ -12951,6 +12951,18 @@
         "name": "Игорь",
         "source": "motion"
       }
+    },
+    {
+      "id": "7145029b-d0f6-488b-9249-b2609aef2755",
+      "ts": "2026-09-25T06:01:08.214Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "pl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
