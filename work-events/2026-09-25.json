@@ -30033,6 +30033,19 @@
       }
     },
     {
+      "id": "1c0cbfd8-85de-4c15-b4e2-bc853cdc90a3",
+      "ts": "2026-09-25T07:11:48.122Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Соня Тубка 2",
+        "interest": "state support for single parents"
+      }
+    },
+    {
       "id": "86196639-ba2b-4067-8a46-b69dc8f5a4cf",
       "ts": "2026-09-25T07:11:48.446Z",
       "workerId": "игорь",
