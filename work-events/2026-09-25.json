@@ -30288,6 +30288,18 @@
       }
     },
     {
+      "id": "464a8476-8d1b-4764-9ed0-c925ccc11eaf",
+      "ts": "2026-09-25T07:12:23.038Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
       "id": "3509f1b7-d53f-4245-abf1-7767c411f491",
       "ts": "2026-09-25T07:12:24.932Z",
       "workerId": "игорь",
@@ -30755,6 +30767,19 @@
       "extra": {
         "name": "Соня Тубка 2",
         "interest": "state support for single parents"
+      }
+    },
+    {
+      "id": "ec0c63dd-1a7a-43e3-b8c2-693a510e6b8e",
+      "ts": "2026-09-25T07:13:33.538Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "user_active",
+      "extra": {
+        "name": "Tanya - trubka3",
+        "source": "motion"
       }
     }
   ]
