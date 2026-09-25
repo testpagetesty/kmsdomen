@@ -40695,6 +40695,33 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "e007ac32-83b0-4cf7-a1a2-a7990c366d2e",
+      "ts": "2026-09-25T07:44:10.915Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://primainspirace.cz/category/recepty"
+      }
+    },
+    {
+      "id": "d6934afc-4ff6-45ad-9b24-ae255f35264f",
+      "ts": "2026-09-25T07:44:14.457Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "primainspirace.cz",
+        "source": "teaser"
+      }
     }
   ]
 }
