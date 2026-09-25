@@ -19564,6 +19564,31 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "18c840d8-e3cb-49b3-a46d-a9bdcca42b97",
+      "ts": "2026-09-25T06:32:29.172Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
+    },
+    {
+      "id": "0fbc7048-f1b0-4878-a14c-6ea77b358c5a",
+      "ts": "2026-09-25T06:32:29.173Z",
+      "workerId": "tanya_trubka3",
+      "deviceId": "fd42b8ef-17c4-49f7-bd5d-9e4eede61b51",
+      "deviceTz": "Europe/Belgrade",
+      "geo": "rs",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Tanya - trubka3"
+      }
     }
   ]
 }
