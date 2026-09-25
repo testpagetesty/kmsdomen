@@ -68466,6 +68466,19 @@
         "name": "Таня - Трубка 2",
         "title": "Energi & Vitalitas Pria"
       }
+    },
+    {
+      "id": "2b2ed1d1-db47-4f64-af61-5648c0d70912",
+      "ts": "2026-09-25T08:47:06.631Z",
+      "workerId": "настя1",
+      "deviceId": "49eb6855-b88c-425e-bbb4-5ed816db7023",
+      "deviceTz": "Europe/Oslo",
+      "geo": "no",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя1",
+        "interest": "Metabolisme og vekttap"
+      }
     }
   ]
 }
