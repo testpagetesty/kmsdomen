@@ -6263,6 +6263,18 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "42bc5ae1-be3d-449d-bc02-b5ae2bd9549b",
+      "ts": "2026-09-25T04:53:19.043Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
