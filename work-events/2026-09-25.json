@@ -70258,6 +70258,19 @@
       }
     },
     {
+      "id": "f41cf001-92ef-4799-9158-331c95d9580d",
+      "ts": "2026-09-25T08:50:37.766Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "ru",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "source": "motion"
+      }
+    },
+    {
       "id": "68f40cc3-a091-43dd-9ede-640f5cfaa357",
       "ts": "2026-09-25T08:50:38.396Z",
       "workerId": "nastya",
