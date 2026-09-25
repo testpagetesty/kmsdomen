@@ -19779,6 +19779,18 @@
       "extra": {
         "name": "Соня Трубка 1"
       }
+    },
+    {
+      "id": "ab0a2e27-8ce8-4e6e-bb92-d94e5d2745ed",
+      "ts": "2026-09-25T06:33:24.740Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Asia/Singapore",
+      "geo": "sg",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
     }
   ]
 }
