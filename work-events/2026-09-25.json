@@ -9990,6 +9990,19 @@
         "name": "Игорь",
         "source": "scroll"
       }
+    },
+    {
+      "id": "056e1f07-3fe5-48c5-ba01-3a5162584ade",
+      "ts": "2026-09-25T05:29:31.602Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "kms",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
