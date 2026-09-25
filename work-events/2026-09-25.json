@@ -51864,6 +51864,18 @@
         "name": "Таня - Трубка 4",
         "source": "scroll"
       }
+    },
+    {
+      "id": "caae755b-96bc-43f7-9d95-d43ada4bdb71",
+      "ts": "2026-09-25T08:11:22.872Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
