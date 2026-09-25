@@ -41502,6 +41502,33 @@
       "extra": {
         "name": "Таня - Трубка 2"
       }
+    },
+    {
+      "id": "b57d582a-0192-4408-a3f5-f5dd83065c3b",
+      "ts": "2026-09-25T07:46:41.287Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_opened",
+      "extra": {
+        "name": "Игорь",
+        "url": "https://www.zurnal24.si/slovenija"
+      }
+    },
+    {
+      "id": "c3423e20-c42a-4164-9ceb-a29791ceeb04",
+      "ts": "2026-09-25T07:46:49.351Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "ee",
+      "event": "kms_passed",
+      "extra": {
+        "name": "Игорь",
+        "host": "zurnal24.si",
+        "source": "teaser"
+      }
     }
   ]
 }
