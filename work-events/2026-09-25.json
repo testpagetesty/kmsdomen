@@ -64548,6 +64548,20 @@
       }
     },
     {
+      "id": "b4879c98-b3a9-4f26-bcc0-0829c9a42963",
+      "ts": "2026-09-25T08:40:18.429Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "touch"
+      }
+    },
+    {
       "id": "f48a5b89-27a3-4e90-a96d-33223e898f2e",
       "ts": "2026-09-25T08:40:22.494Z",
       "workerId": "таня_трубка_4",
@@ -64698,6 +64712,20 @@
       "event": "teaser_saved",
       "extra": {
         "name": "Соня Трубка 1"
+      }
+    },
+    {
+      "id": "93bb89aa-f97c-4bb6-9568-077fe4f9db6e",
+      "ts": "2026-09-25T08:40:45.439Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "gmail",
+      "event": "user_active",
+      "extra": {
+        "name": "Настя",
+        "source": "scroll"
       }
     }
   ]
