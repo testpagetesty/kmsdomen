@@ -36920,6 +36920,18 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "d36cf324-c113-4e52-8933-29f6f83c6850",
+      "ts": "2026-09-25T07:31:22.817Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
