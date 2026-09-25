@@ -10696,6 +10696,20 @@
       }
     },
     {
+      "id": "c39136fb-62c4-41f0-8cf5-d43d69ee51bf",
+      "ts": "2026-09-25T05:36:30.834Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "sk",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "touch"
+      }
+    },
+    {
       "id": "60a53a0b-d88a-48f8-bdde-ee4c1607e56d",
       "ts": "2026-09-25T05:36:31.588Z",
       "workerId": "игорь",
