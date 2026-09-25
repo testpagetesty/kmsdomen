@@ -47764,6 +47764,19 @@
         "name": "Игорь",
         "source": "touch"
       }
+    },
+    {
+      "id": "21d6aed7-79e0-43c9-939a-86cd8dbf4370",
+      "ts": "2026-09-25T08:02:38.231Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "ANNニュース 暗号資産ニュース 今日"
+      }
     }
   ]
 }
