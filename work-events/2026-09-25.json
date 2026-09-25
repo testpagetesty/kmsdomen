@@ -36727,6 +36727,18 @@
       }
     },
     {
+      "id": "f69f0429-d01d-4f56-9394-9862a5466c38",
+      "ts": "2026-09-25T07:30:35.250Z",
+      "workerId": "соня_тубка_2",
+      "deviceId": "0bbff52d-b000-4503-936e-da6719a04d9f",
+      "deviceTz": "Europe/Vilnius",
+      "geo": "lt",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Соня Тубка 2"
+      }
+    },
+    {
       "id": "b4f139ba-645a-4bf1-be18-eac296ded615",
       "ts": "2026-09-25T07:30:36.362Z",
       "workerId": "яя",
