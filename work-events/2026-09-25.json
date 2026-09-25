@@ -50691,6 +50691,18 @@
       "extra": {
         "name": "Таня - Трубка 4"
       }
+    },
+    {
+      "id": "a01d5a55-3a8d-4f6a-88ba-b516674f9e25",
+      "ts": "2026-09-25T08:08:22.872Z",
+      "workerId": "соня_трубка_1",
+      "deviceId": "f3439324-b01b-4ef4-a9d8-d3800049046e",
+      "deviceTz": "Europe/Madrid",
+      "geo": "es",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Соня Трубка 1"
+      }
     }
   ]
 }
