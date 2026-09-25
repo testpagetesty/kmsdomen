@@ -44250,6 +44250,19 @@
         "name": "Яя",
         "source": "scroll"
       }
+    },
+    {
+      "id": "8dcc24c8-4d4d-405d-9806-440fddea9156",
+      "ts": "2026-09-25T07:55:15.234Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "start",
+      "event": "capture_resume",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
