@@ -72780,6 +72780,19 @@
         "name": "Соня Трубка 1",
         "source": "scroll"
       }
+    },
+    {
+      "id": "99332fd9-c955-4de7-8c4d-a478fde9ebab",
+      "ts": "2026-09-25T08:55:52.741Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Europe/Helsinki",
+      "geo": "fi",
+      "event": "key_pressed",
+      "extra": {
+        "name": "Настя",
+        "interest": "Mitä tehdä alaselän epämukavuudessa"
+      }
     }
   ]
 }
