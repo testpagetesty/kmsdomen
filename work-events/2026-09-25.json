@@ -38983,6 +38983,19 @@
         "name": "Соня Трубка 1",
         "interest": "Desintoxicación del organismo"
       }
+    },
+    {
+      "id": "3901c210-0c0c-4fb3-bed9-6f7702d3c7a8",
+      "ts": "2026-09-25T07:37:04.319Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Athens",
+      "geo": "gr",
+      "platform": "youtube",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
     }
   ]
 }
