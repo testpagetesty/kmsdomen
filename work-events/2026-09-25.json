@@ -23827,6 +23827,32 @@
       "extra": {
         "name": "Соня Тубка 2"
       }
+    },
+    {
+      "id": "ff7a17df-e766-433f-b96f-b4be40112e3b",
+      "ts": "2026-09-25T06:52:11.444Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "67723074-fea1-43f7-8c82-39bbca111731",
+      "ts": "2026-09-25T06:52:20.294Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "hu",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
