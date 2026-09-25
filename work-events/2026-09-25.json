@@ -68877,6 +68877,20 @@
       }
     },
     {
+      "id": "127c5de4-bf4a-4397-a0b8-12b803b27b33",
+      "ts": "2026-09-25T08:47:53.261Z",
+      "workerId": "таня_трубка_2",
+      "deviceId": "69e7e841-768f-4198-b9d8-599b8eaca301",
+      "deviceTz": "Asia/Jakarta",
+      "geo": "id",
+      "platform": "youtube",
+      "event": "upload_item",
+      "extra": {
+        "name": "Таня - Трубка 2",
+        "title": "Cara praktis untuk mendukung kondisi pria setiap hari."
+      }
+    },
+    {
       "id": "25aa9c0c-848a-4577-9b52-e99ababaa801",
       "ts": "2026-09-25T08:47:53.742Z",
       "workerId": "соня_тубка_2",
