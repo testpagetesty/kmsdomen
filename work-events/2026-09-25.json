@@ -4616,6 +4616,32 @@
       "extra": {
         "name": "Игорь"
       }
+    },
+    {
+      "id": "772f6502-c5f2-4f83-b356-94224abc280c",
+      "ts": "2026-09-25T04:42:15.471Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "platform": "discovery",
+      "event": "user_active",
+      "extra": {
+        "name": "Игорь",
+        "source": "scroll"
+      }
+    },
+    {
+      "id": "66207221-15d9-404a-96c3-602e3acf62e9",
+      "ts": "2026-09-25T04:42:18.935Z",
+      "workerId": "игорь",
+      "deviceId": "8c10689e-02d4-4a8c-b340-1bb995006f44",
+      "deviceTz": "Europe/Ljubljana",
+      "geo": "cz",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Игорь"
+      }
     }
   ]
 }
