@@ -31586,6 +31586,19 @@
       }
     },
     {
+      "id": "63eddf63-c759-4ae7-884b-9f78540cd841",
+      "ts": "2026-09-25T07:15:43.534Z",
+      "workerId": "таня_трубка_1",
+      "deviceId": "86872e5a-a951-4d23-8245-79fb21bf69f3",
+      "deviceTz": "Australia/Perth",
+      "geo": "au",
+      "event": "user_active",
+      "extra": {
+        "name": "Таня - трубка 1",
+        "source": "motion"
+      }
+    },
+    {
       "id": "548c85df-7e7b-41ae-97d2-c1f8e20b3060",
       "ts": "2026-09-25T07:15:44.299Z",
       "workerId": "игорь",
