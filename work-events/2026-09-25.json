@@ -51837,6 +51837,19 @@
       "extra": {
         "name": "Яя"
       }
+    },
+    {
+      "id": "c7badf5e-dad5-4668-a6bd-15cfb9d741f2",
+      "ts": "2026-09-25T08:11:20.376Z",
+      "workerId": "nastya",
+      "deviceId": "c146adca-a7ef-46e4-9fad-814a05cfeca3",
+      "deviceTz": "Asia/Tokyo",
+      "geo": "jp",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Настя"
+      }
     }
   ]
 }
