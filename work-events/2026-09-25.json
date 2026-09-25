@@ -71529,6 +71529,19 @@
       }
     },
     {
+      "id": "5a723923-f5be-4cda-abdd-da9fdb2a4bf1",
+      "ts": "2026-09-25T08:53:16.834Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "gmail",
+      "event": "teaser_saved",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "b587bbba-1345-4fb2-ae90-b3ab28c083a3",
       "ts": "2026-09-25T08:53:16.969Z",
       "workerId": "таня_трубка_4",
@@ -71582,6 +71595,18 @@
       }
     },
     {
+      "id": "f94615f8-7eea-45f4-acc5-c2e1d0dd63ee",
+      "ts": "2026-09-25T08:53:23.212Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "heartbeat",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "1730f119-35fc-441f-9486-58373dd2e67e",
       "ts": "2026-09-25T08:53:23.327Z",
       "workerId": "соня_трубка_1",
@@ -71632,6 +71657,19 @@
       }
     },
     {
+      "id": "e47ec4fe-57a1-4847-95fb-8d5458c6576f",
+      "ts": "2026-09-25T08:53:31.319Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "platform": "start",
+      "event": "capture_start",
+      "extra": {
+        "name": "Таня - Трубка 4"
+      }
+    },
+    {
       "id": "2ab09d73-037d-499a-b8fc-fb541c421ece",
       "ts": "2026-09-25T08:53:31.371Z",
       "workerId": "соня_тубка_2",
@@ -71670,6 +71708,18 @@
       "extra": {
         "name": "Соня Трубка 1",
         "source": "scroll"
+      }
+    },
+    {
+      "id": "b2c9301e-ab9a-4c0d-be44-58f1f945b061",
+      "ts": "2026-09-25T08:53:37.751Z",
+      "workerId": "таня_трубка_4",
+      "deviceId": "5479008e-34a8-4ea6-bbaf-55927392e0ef",
+      "deviceTz": "Europe/Amsterdam",
+      "geo": "nl",
+      "event": "capture_pause",
+      "extra": {
+        "name": "Таня - Трубка 4"
       }
     }
   ]
