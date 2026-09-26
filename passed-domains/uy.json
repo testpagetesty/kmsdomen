@@ -78,7 +78,7 @@
     ]
   },
   "zagorje.com": {
-    "passedAt": "2026-09-22T15:30:31.410Z",
+    "passedAt": "2026-09-26T15:10:08.216Z",
     "source": "teaser",
     "passes": [
       {
@@ -155,6 +155,10 @@
       },
       {
         "passedAt": "2026-09-22T15:30:31.410Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-26T15:10:08.216Z",
         "source": "teaser"
       }
     ]
