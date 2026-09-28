@@ -584,7 +584,7 @@
     ]
   },
   "nezavisne.com": {
-    "passedAt": "2026-09-27T15:24:27.188Z",
+    "passedAt": "2026-09-28T15:07:17.210Z",
     "source": "teaser",
     "passes": [
       {
@@ -665,6 +665,10 @@
       },
       {
         "passedAt": "2026-09-27T15:24:27.188Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-28T15:07:17.210Z",
         "source": "teaser"
       }
     ]
