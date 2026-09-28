@@ -1960,11 +1960,15 @@
     ]
   },
   "gailtal-journal.at": {
-    "passedAt": "2026-09-27T14:23:17.502Z",
+    "passedAt": "2026-09-28T12:59:45.499Z",
     "source": "new",
     "passes": [
       {
         "passedAt": "2026-09-27T14:23:17.502Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-09-28T12:59:45.499Z",
         "source": "new"
       }
     ]
