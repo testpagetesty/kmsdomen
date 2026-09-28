@@ -440,11 +440,15 @@
     ]
   },
   "b24tv.at": {
-    "passedAt": "2026-09-27T16:22:47.143Z",
+    "passedAt": "2026-09-28T16:35:44.499Z",
     "source": "new",
     "passes": [
       {
         "passedAt": "2026-09-27T16:22:47.143Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-09-28T16:35:44.499Z",
         "source": "new"
       }
     ]
