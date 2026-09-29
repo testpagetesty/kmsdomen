@@ -118,9 +118,9 @@
     "updatedAt": "2026-09-29T14:25:16.304Z"
   },
   "zagorje.com": {
+    "vertical": "vsl",
     "addedAt": "2026-08-26T14:42:46.850Z",
-    "updatedAt": "2026-09-29T14:26:52.213Z",
-    "vertical": "vsl"
+    "updatedAt": "2026-09-29T14:26:52.213Z"
   },
   "zurnal24.si": {
     "vertical": "nutra",
@@ -168,5 +168,10 @@
     "vertical": "nutra",
     "addedAt": "2026-09-07T17:35:12.692Z",
     "updatedAt": "2026-09-07T17:35:12.692Z"
+  },
+  "pochivka.blitz.bg": {
+    "addedAt": "2026-09-29T14:27:21.737Z",
+    "updatedAt": "2026-09-29T14:27:21.737Z",
+    "vertical": "crypt"
   }
 }
