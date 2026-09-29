@@ -504,11 +504,15 @@
     ]
   },
   "buzzfuzzy.com": {
-    "passedAt": "2026-09-15T14:49:08.417Z",
+    "passedAt": "2026-09-29T13:13:42.037Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-15T14:49:08.417Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-09-29T13:13:42.037Z",
         "source": "teaser"
       }
     ]
