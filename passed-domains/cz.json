@@ -2112,7 +2112,7 @@
     ]
   },
   "s1.quizdays.com": {
-    "passedAt": "2026-09-30T12:57:12.581Z",
+    "passedAt": "2026-10-01T12:16:08.679Z",
     "source": "teaser",
     "passes": [
       {
@@ -2181,6 +2181,10 @@
       },
       {
         "passedAt": "2026-09-30T12:57:12.581Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-10-01T12:16:08.679Z",
         "source": "teaser"
       }
     ]
