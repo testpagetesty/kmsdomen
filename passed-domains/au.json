@@ -1028,7 +1028,7 @@
     ]
   },
   "gailtal-journal.at": {
-    "passedAt": "2026-09-30T15:59:28.873Z",
+    "passedAt": "2026-10-01T16:17:03.871Z",
     "source": "new",
     "passes": [
       {
@@ -1045,6 +1045,10 @@
       },
       {
         "passedAt": "2026-09-30T15:59:28.873Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-10-01T16:17:03.871Z",
         "source": "new"
       }
     ]
