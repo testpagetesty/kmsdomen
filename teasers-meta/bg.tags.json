@@ -170,9 +170,9 @@
     "updatedAt": "2026-08-18T13:36:15.492Z"
   },
   "regionalobala.si": {
+    "vertical": "news",
     "addedAt": "2026-08-17T10:34:45.550Z",
-    "updatedAt": "2026-10-01T14:33:05.067Z",
-    "vertical": "news"
+    "updatedAt": "2026-10-01T14:33:05.067Z"
   },
   "pomurske-novice.si": {
     "addedAt": "2026-08-17T10:37:09.599Z",
@@ -279,5 +279,10 @@
     "vertical": "news",
     "addedAt": "2026-09-18T15:28:31.959Z",
     "updatedAt": "2026-09-18T15:28:31.959Z"
+  },
+  "levarium.eu": {
+    "addedAt": "2026-10-01T14:33:19.180Z",
+    "updatedAt": "2026-10-01T14:33:19.180Z",
+    "vertical": "news"
   }
 }
