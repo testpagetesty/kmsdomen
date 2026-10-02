@@ -528,11 +528,15 @@
     ]
   },
   "kurier.at": {
-    "passedAt": "2026-09-28T17:44:55.331Z",
+    "passedAt": "2026-10-02T14:35:30.332Z",
     "source": "new",
     "passes": [
       {
         "passedAt": "2026-09-28T17:44:55.331Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-10-02T14:35:30.332Z",
         "source": "new"
       }
     ]
