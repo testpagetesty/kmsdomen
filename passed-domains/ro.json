@@ -2008,11 +2008,15 @@
     ]
   },
   "wprost.pl": {
-    "passedAt": "2026-09-12T14:55:51.445Z",
+    "passedAt": "2026-10-02T10:02:00.755Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-12T14:55:51.445Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-10-02T10:02:00.755Z",
         "source": "teaser"
       }
     ]
