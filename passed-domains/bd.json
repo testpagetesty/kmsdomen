@@ -514,11 +514,15 @@
     ]
   },
   "krone.at": {
-    "passedAt": "2026-09-28T17:24:33.582Z",
+    "passedAt": "2026-10-02T14:28:45.608Z",
     "source": "new",
     "passes": [
       {
         "passedAt": "2026-09-28T17:24:33.582Z",
+        "source": "new"
+      },
+      {
+        "passedAt": "2026-10-02T14:28:45.608Z",
         "source": "new"
       }
     ]
