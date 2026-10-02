@@ -1964,11 +1964,15 @@
     ]
   },
   "topky.sk": {
-    "passedAt": "2026-09-10T11:22:15.254Z",
+    "passedAt": "2026-10-02T10:01:46.270Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-09-10T11:22:15.254Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-10-02T10:01:46.270Z",
         "source": "teaser"
       }
     ]
