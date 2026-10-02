@@ -1878,11 +1878,15 @@
     ]
   },
   "citymagazine.danas.rs": {
-    "passedAt": "2026-08-25T11:06:40.344Z",
+    "passedAt": "2026-10-02T06:51:59.027Z",
     "source": "teaser",
     "passes": [
       {
         "passedAt": "2026-08-25T11:06:40.344Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-10-02T06:51:59.027Z",
         "source": "teaser"
       }
     ]
