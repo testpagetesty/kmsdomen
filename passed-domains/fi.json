@@ -1490,7 +1490,7 @@
     ]
   },
   "historia.dorzeczy.pl": {
-    "passedAt": "2026-10-05T13:41:08.295Z",
+    "passedAt": "2026-10-06T14:03:29.435Z",
     "source": "teaser",
     "passes": [
       {
@@ -1615,6 +1615,10 @@
       },
       {
         "passedAt": "2026-10-05T13:41:08.295Z",
+        "source": "teaser"
+      },
+      {
+        "passedAt": "2026-10-06T14:03:29.435Z",
         "source": "teaser"
       }
     ]
